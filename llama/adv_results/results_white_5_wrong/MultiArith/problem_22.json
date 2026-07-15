@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 22,
+  "question": " A pet shelter had 5 puppies when another 35 were brought in. If 8 puppies a day are adopted, how long would it take for all of them to be adopted? ",
+  "ground_truth": "5",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|reserved_special_token_199|>ленні<|reserved_special_token_51|>A látky",
+  "prefix_token_ids": [
+    128207,
+    127978,
+    128059,
+    32,
+    127968
+  ],
+  "best_wrong_prob": 2.063659090851227e-17,
+  "clean_text": "To find out how long it would take for all the puppies to be adopted, we need to divide the total number of puppies by the number of puppies adopted per day.\n\nTotal number of puppies = 5 (initial pupp",
+  "clean_pred": 5.0,
+  "clean_correct": true,
+  "adv_text": "Kedychcete se věnovat problematice?\nSo the answer is \\boxed{# Kedychcete se věnovat problematice?\n# Pet shelter má 5 puppy a 35 new puppych, které se dostavily.\n# 8 puppych se adoptují denně.\n# Kedych",
+  "adv_pred": 1.0,
+  "adv_correct": false,
+  "attack_success": true
+}

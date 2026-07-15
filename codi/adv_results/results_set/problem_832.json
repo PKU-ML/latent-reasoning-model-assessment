@@ -1,0 +1,171 @@
+{
+  "question": "Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+  "ground_truth": "42.0",
+  "best_prefix": "izzare количество TIMESef each",
+  "best_prefix_token_ids": [
+    77698,
+    89701,
+    88030,
+    830,
+    1855
+  ],
+  "baseline_token_id": 2983,
+  "target_token_id": 3391,
+  "baseline_logit_diff": -7.4375,
+  "clean_logit_diff": -8.0625,
+  "best_logit_diff": -7.125,
+  "best_cosine": 0.9453125,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 42",
+  "clean_answer": 42.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 42",
+  "adv_answer": 42.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": "izzare количество TIMESef each",
+      "prefix_ids": [
+        77698,
+        89701,
+        88030,
+        830,
+        1855
+      ],
+      "logit_diff": -7.125,
+      "cosine_sim": 0.9453125,
+      "answer": 42.0,
+      "correct": true
+    },
+    {
+      "prefix": "izzare количество TIMES Essentials each",
+      "prefix_ids": [
+        77698,
+        89701,
+        88030,
+        76260,
+        1855
+      ],
+      "logit_diff": -7.25,
+      "cosine_sim": 0.9453125,
+      "answer": 42.0,
+      "correct": true
+    },
+    {
+      "prefix": " looked207 favor Chusections",
+      "prefix_ids": [
+        7111,
+        12060,
+        4799,
+        62111,
+        25686
+      ],
+      "logit_diff": -7.25,
+      "cosine_sim": 0.9453125,
+      "answer": 42.0,
+      "correct": true
+    },
+    {
+      "prefix": " looked207 favoroolaiginal",
+      "prefix_ids": [
+        7111,
+        12060,
+        4799,
+        47080,
+        11287
+      ],
+      "logit_diff": -7.375,
+      "cosine_sim": 0.953125,
+      "answer": 42.0,
+      "correct": true
+    },
+    {
+      "prefix": "down количество TIMES.s each",
+      "prefix_ids": [
+        2996,
+        89701,
+        88030,
+        516,
+        1855
+      ],
+      "logit_diff": -7.375,
+      "cosine_sim": 0.953125,
+      "answer": 42.0,
+      "correct": true
+    },
+    {
+      "prefix": "izzare количество TIMES prelim each",
+      "prefix_ids": [
+        77698,
+        89701,
+        88030,
+        30713,
+        1855
+      ],
+      "logit_diff": -7.375,
+      "cosine_sim": 0.953125,
+      "answer": 42.0,
+      "correct": true
+    },
+    {
+      "prefix": " looked207 favor dictionariesylation",
+      "prefix_ids": [
+        7111,
+        12060,
+        4799,
+        58614,
+        79933
+      ],
+      "logit_diff": -7.375,
+      "cosine_sim": 0.9375,
+      "answer": 42.0,
+      "correct": true
+    },
+    {
+      "prefix": " looked207 Resets Chusections",
+      "prefix_ids": [
+        7111,
+        12060,
+        98097,
+        62111,
+        25686
+      ],
+      "logit_diff": -7.4375,
+      "cosine_sim": 0.9375,
+      "answer": 42.0,
+      "correct": true
+    },
+    {
+      "prefix": " looked207ographedvillaheels",
+      "prefix_ids": [
+        7111,
+        12060,
+        91673,
+        64438,
+        73610
+      ],
+      "logit_diff": -7.4375,
+      "cosine_sim": 0.953125,
+      "answer": 42.0,
+      "correct": true
+    },
+    {
+      "prefix": " looked207 favorpfylation",
+      "prefix_ids": [
+        7111,
+        12060,
+        4799,
+        16276,
+        79933
+      ],
+      "logit_diff": -7.4375,
+      "cosine_sim": 0.94921875,
+      "answer": 42.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

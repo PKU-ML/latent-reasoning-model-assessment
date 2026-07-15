@@ -1,0 +1,26 @@
+{
+  "question": "An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+  "ground_truth": "2.0",
+  "prefix": "63 bunk",
+  "prefix_token_ids": [
+    21,
+    18,
+    45469
+  ],
+  "baseline_token_id": 17,
+  "target_token_id": 16,
+  "baseline_logit_diff": -2.125,
+  "clean_logit_diff": -2.25,
+  "adv_logit_diff": 0.75,
+  "best_logit_diff": 0.75,
+  "clean_text": "assistant\n### 2 ",
+  "clean_answer": 2.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 10 ",
+  "adv_answer": 10.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.75
+  ]
+}

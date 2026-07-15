@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 211,
+  "question": "Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+  "ground_truth": "4.0",
+  "baseline_correct": true,
+  "baseline_answer": 4.0,
+  "best_rewrite": "Bitcoin was created in 2009. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+  "best_fact": "Bitcoin was created in 2009.",
+  "best_pred_answer": 3.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 6,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. \n\nWe can set up the following equation to represent the total number of eggs:\n\n3r + 5w = 42\n\nWe also know that Jerry has two more white chickens than red chickens, so we can write another equation:\n\nw = r + 2\n\nNow we have two equations and two variables. We can solve for 'r' by substituting the second equation into the first equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation, we get:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "April has 30 days. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has 30 days, so the total number of eggs he collects is 42 * 30 = 1260.\n\nThe red chickens produce 3 eggs a day, so the total number of eggs produced by red chickens is 3r * 30 = 90r.\n\nThe white chickens produce 5 eggs a day, so the total number of eggs produced by white chickens is 5w * 30 = 150w.\n\nSince Jerry has two more white chickens than red chickens, we can write the equation:\n\nw = r + 2\n\nWe also know that the total number of eggs is 1260, so we can write the equation:\n\n90r + 150w = 1260\n\nNow we have two equations and two variables. We can solve for 'r' by substituting w = r + 2 into the second equation:\n\n90r + 150(r + 2) = 1260\n\nExpanding the equation, we get:\n\n90r + 150r + 300 = 1260\n\nCombine like terms:\n\n240r + 300 = 1260\n\nSubtract 300 from both sides:\n\n240r = 960\n\nDivide both sides by 240:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has two more white chickens than red chickens, so we can write an equation:\n\nw = r + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3r + 5w = 42\n\nNow we have two equations:\n\nw = r + 2\n3r + 5w = 42\n\nWe can substitute the first equation into the second equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry collects 42 eggs in total, and the red chickens produce 3 eggs a day, while the white chickens produce 5 eggs a day.\n\nSince Jerry has two more white chickens than red chickens, we can write an equation:\n\nw = r + 2\n\nWe also know that the total number of eggs collected is 42, so we can write another equation:\n\n3r + 5w = 42\n\nNow we have two equations and two variables. We can solve for 'r' by substituting w = r + 2 into the second equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation, we get:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nW = R + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3R + 5W = 42\n\nNow we have two equations and two variables. We can solve for R by substituting W = R + 2 into the second equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A year has 12 months. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, so the total number of eggs produced by red chickens per day is 3r. The white chickens produce 5 eggs a day, so the total number of eggs produced by white chickens per day is 5w.\n\nSince Jerry collects 42 eggs per day, we can set up the equation:\n\n3r + 5w = 42\n\nWe also know that Jerry has two more white chickens than red chickens, so we can write:\n\nw = r + 2\n\nNow we can substitute the second equation into the first equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation, we get:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A week has 7 days. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that the total number of eggs collected is 42. We also know that the number of eggs produced by red chickens is 3r and by white chickens is 5w.\n\nSince Jerry has two more white chickens than red chickens, we can write an equation:\n\nw = r + 2\n\nWe also know that the total number of eggs is the sum of the eggs produced by red and white chickens:\n\n3r + 5w = 42\n\nNow we have two equations and two variables. We can solve for 'r' by substituting w = r + 2 into the second equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "An hour has 60 minutes. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nW = R + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3R + 5W = 42\n\nNow we have two equations and two variables. We can solve for R by substituting W = R + 2 into the second equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A minute has 60 seconds. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nw = r + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3r + 5w = 42\n\nNow we have two equations:\n\n1) w = r + 2\n2) 3r + 5w = 42\n\nWe can substitute the first equation into the second equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A year has 365 days. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 42 eggs in total, and the total number of eggs is the sum of the eggs produced by red and white chickens.\n\nWe also know that Jerry has two more white chickens than red chickens, so we can write an equation:\n\nW = R + 2\n\nWe also know that the total number of eggs is 42, so we can write another equation:\n\n3R + 5W = 42\n\nNow we have two equations and two variables. We can solve for R by substituting W = R + 2 into the second equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nW = R + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3R + 5W = 42\n\nNow we have two equations and two variables. We can solve for R by substituting W = R + 2 into the second equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nW = R + 2\n\nWe also know that the total number of eggs produced per day is 42. Since the red chickens produce 3 eggs a day and the white chickens produce 5 eggs a day, we can write another equation:\n\n3R + 5W = 42\n\nNow we have two equations and two variables. We can solve for R by substituting W = R + 2 into the second equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has two more white chickens than red chickens, so we can write an equation:\n\nw = r + 2\n\nWe also know that the total number of eggs collected is 42. Since the red chickens produce 3 eggs a day and the white chickens produce 5 eggs a day, we can write another equation:\n\n3r + 5w = 42\n\nNow we have two equations and two variables. We can solve for 'r' by substituting w = r + 2 into the second equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation, we get:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nW = R + 2\n\nWe also know that the total number of eggs produced per day is 42. Since the red chickens produce 3 eggs a day and the white chickens produce 5 eggs a day, we can write another equation:\n\n3R + 5W = 42\n\nNow we have two equations and two variables. We can solve for R by substituting W = R + 2 into the second equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nw = r + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3r + 5w = 42\n\nNow we have two equations:\n\nw = r + 2\n3r + 5w = 42\n\nWe can substitute the first equation into the second equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "An adult has 32 teeth. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has 32 chickens in total, so we can write an equation:\n\nr + w = 32\n\nWe also know that Jerry collects 42 eggs per day, and the red chickens produce 3 eggs per day, while the white chickens produce 5 eggs per day. The difference in the number of eggs produced is 3 - 5 = -2, which means that the number of white chickens is 2 more than the number of red chickens.\n\nWe can write another equation based on this information:\n\nw = r + 2\n\nNow we have two equations:\n\nr + w = 32\nw = r + 2\n\nWe can substitute the second equation into the first equation:\n\nr + (r + 2) = 32\n2r + 2 = 32\n\nSubtract 2 from both sides:\n\n2r = 30\n\nDivide both sides by 2:\n\nr = 15\n\nSo Jerry has 15 red chickens.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "China has 1.4 billion people. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 1.4 billion eggs, and he collects 42 eggs per day. We can set up the following equation:\n\n3R + 5W = 42\n\nWe also know that Jerry has two more white chickens than red chickens, so we can write:\n\nW = R + 2\n\nNow we can substitute the second equation into the first equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{Jerry has 4 red chickens.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Japan has 125 million people. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has 125 million people, so the total number of chickens is 125 million.\n\nWe also know that Jerry collects 42 eggs per day. The red chickens produce 3 eggs per day, and the white chickens produce 5 eggs per day. \n\nSince Jerry has two more white chickens than red chickens, we can write an equation:\n\nw = r + 2\n\nWe also know that the total number of eggs is 42, so we can write another equation:\n\n3r + 5w = 42\n\nNow we have two equations and two variables. We can solve for 'r' by substituting w = r + 2 into the second equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation, we get:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The US has 50 states. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has 42 eggs in total, and the red chickens produce 3 eggs a day, while the white chickens produce 5 eggs a day. \n\nWe can set up the following equation to represent the total number of eggs:\n\n3r + 5w = 42\n\nWe also know that Jerry has two more white chickens than red chickens, so we can write another equation:\n\nw = r + 2\n\nNow we have two equations and two variables. We can solve for 'r' by substituting the second equation into the first equation:\n\n3(r + 2) + 5w = 42\n\nExpanding the equation, we get:\n\n3r + 6 + 5w = 42\n\nCombine like terms:\n\n3r + 5w = 36\n\nNow we have a linear equation in one variable. We can solve for 'r' by isolating 'r':\n\n3r = 36 - 5w\n\nDivide both sides by 3:\n\nr = (36 - 5w) / 3\n\nNow we need to find the value of 'w'. We know that w = r + 2, so we can substitute this into the equation:\n\nr = (36 - 5(r + 2)) / 3\n\nExpand the equation:\n\nr = (36 - 5r - 10) / 3\n\nCombine like terms:\n\nr = (26 - 5r) / 3\n\nMultiply both sides by 3:\n\n3r = 26 - 5r\n\nAdd 5r to both sides:\n\n8r = 26\n\nDivide both sides by 8:\n\nr = 26/8\nr = 3.25\n\nNow that we have the value of 'r', we can find the value of 'w':\n\nw = r + 2\nw = 3.25 + 2\nw = 5.25\n\nSo Jerry has 3.25 red chickens and 5.25 white chickens.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The EU has 27 member states. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nw = r + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3r + 5w = 42\n\nNow we have two equations and two variables. We can solve for 'r' by substituting w = r + 2 into the second equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation, we get:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nW = R + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3R + 5W = 42\n\nNow we have two equations and two variables. We can solve for R by substituting W = R + 2 into the second equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nw = r + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3r + 5w = 42\n\nNow we have two equations:\n\nw = r + 2\n3r + 5w = 42\n\nWe can substitute the first equation into the second equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 42 eggs in total, and the total number of eggs is the sum of the eggs produced by red and white chickens.\n\nWe also know that Jerry has two more white chickens than red chickens, so we can write an equation:\n\nW = R + 2\n\nWe also know that the total number of eggs is 42, so we can write another equation:\n\n3R + 5W = 42\n\nNow we have two equations and two variables. We can solve for R by substituting W = R + 2 into the second equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The human body has 206 bones. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that the total number of chickens is 206, so we can write an equation:\n\nr + w = 206\n\nWe also know that Jerry collects 42 eggs per day, and the red chickens produce 3 eggs per day, while the white chickens produce 5 eggs per day. The difference in the number of eggs produced is 3 - 5 = -2, which means that the number of white chickens is 2 more than the number of red chickens.\n\nWe can write another equation based on this information:\n\nw = r + 2\n\nNow we have two equations:\n\nr + w = 206\nw = r + 2\n\nWe can substitute the second equation into the first equation:\n\nr + (r + 2) = 206\n\nCombine like terms:\n\n2r + 2 = 206\n\nSubtract 2 from both sides:\n\n2r = 204\n\nDivide both sides by 2:\n\nr = 102\n\nSo Jerry has 102 red chickens.\nSo the answer is \\boxed{The number of red chickens.",
+      "pred_answer": 102.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nW = R + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3R + 5W = 42\n\nNow we have two equations and two variables. We can solve for R by substituting W = R + 2 into the second equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that the total number of eggs produced per day is 42, and the red chickens produce 3 eggs a day, while the white chickens produce 5 eggs a day.\n\nWe can set up the following equations:\n\nR + W = 42 (total eggs produced)\n3R + 5W = 42 (total eggs produced)\n\nWe can solve the first equation for R:\nR = 42 - W\n\nNow, substitute this expression for R into the second equation:\n3(42 - W) + 5W = 42\n\nExpand and simplify:\n126 - 3W + 5W = 42\n126 + 2W = 42\n\nSubtract 126 from both sides:\n2W = -84\n\nDivide both sides by 2:\nW = -42\n\nSince W cannot be negative, this means that the initial statement that Jerry has two more white chickens than red chickens is not true. However, we can still solve for R.\n\nR = 42 - W\nR = 42 - (-42)\nR = 84\n\nSo Jerry has 84 red chickens.\nSo the answer is \\boxed{The answer is 84.",
+      "pred_answer": 84.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as R and the number of white chickens as W. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nW = R + 2\n\nWe also know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. So, the total number of eggs produced per day is:\n\n3R + 5W = 42\n\nNow we have two equations and two variables. We can solve for R by substituting W = R + 2 into the second equation:\n\n3R + 5(R + 2) = 42\n\nExpanding the equation, we get:\n\n3R + 5R + 10 = 42\n\nCombine like terms:\n\n8R + 10 = 42\n\nSubtract 10 from both sides:\n\n8R = 32\n\nDivide both sides by 8:\n\nR = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that the total number of chickens is 46, so we can write an equation:\n\nr + w = 46\n\nWe also know that Jerry collects 42 eggs per day, and the number of eggs produced by red chickens is 3, and the number of eggs produced by white chickens is 5. We can write another equation based on the number of eggs collected per day:\n\n3r + 5w = 42\n\nNow we have two equations and two variables. We can solve for 'r' by substituting w from the first equation into the second equation:\n\n3r + 5(46 - r) = 42\n\nExpanding the equation:\n\n3r + 230 - 5r = 42\n\nCombine like terms:\n\n-2r = -188\n\nDivide by -2:\n\nr = 94\n\nSo Jerry has 94 red chickens.\nSo the answer is \\boxed{The number of red chickens Jerry has is 94.",
+      "pred_answer": 94.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that Jerry has 2 more white chickens than red chickens, so we can write an equation:\n\nw = r + 2\n\nWe also know that the total number of eggs produced per day is 42. Since the red chickens produce 3 eggs a day and the white chickens produce 5 eggs a day, we can write another equation:\n\n3r + 5w = 42\n\nNow we have two equations and two variables. We can solve for 'r' by substituting w = r + 2 into the second equation:\n\n3r + 5(r + 2) = 42\n\nExpanding the equation, we get:\n\n3r + 5r + 10 = 42\n\nCombine like terms:\n\n8r + 10 = 42\n\nSubtract 10 from both sides:\n\n8r = 32\n\nDivide both sides by 8:\n\nr = 4\n\nSo Jerry has 4 red chickens.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of red chickens as 'r' and the number of white chickens as 'w'. We know that the total number of eggs produced per day is 42. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. \n\nWe can set up the following equation to represent the total number of eggs:\n\n3r + 5w = 42\n\nSince Jerry has two more white chickens than red chickens, we can also set up another equation:\n\nw = r + 2\n\nNow we have two equations and two variables. We can solve for 'r' by substituting the second equation into the first equation:\n\n3(r + 2) + 5w = 42\n\nExpanding the equation:\n\n3r + 6 + 5w = 42\n\nCombine like terms:\n\n3r + 5w = 36\n\nNow we have a linear equation in one variable. We can solve for 'r':\n\n3r = 36 - 5w\n\nDivide both sides by 3:\n\nr = (36 - 5w) / 3\n\nNow we need to find the value of 'w'. We know that w = r + 2. Substitute this into the equation:\n\nr = (36 - 5(r + 2)) / 3\n\nExpand the equation:\n\nr = (36 - 5r - 10) / 3\n\nCombine like terms:\n\nr = (26 - 5r) / 3\n\nMultiply both sides by 3:\n\n3r = 26 - 5r\n\nAdd 5r to both sides:\n\n8r = 26\n\nDivide both sides by 8:\n\nr = 26/8\nr = 3.25\n\nNow that we have the value of 'r', we can find the value of 'w':\n\nw = r + 2\nw = 3.25 + 2\nw = 5.25\n\nSo Jerry has 3.25 red chickens and 5.25 white chickens.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0
+    }
+  ]
+}

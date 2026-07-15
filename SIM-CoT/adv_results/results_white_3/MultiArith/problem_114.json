@@ -1,0 +1,27 @@
+{
+  "question": " In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+  "ground_truth": "37.0",
+  "prefix": " drafted Attribution365",
+  "prefix_token_ids": [
+    15937,
+    45336,
+    24760
+  ],
+  "baseline_token_id": 3261,
+  "target_token_id": 6073,
+  "baseline_logit_diff": 5.427734375,
+  "clean_logit_diff": -4.53125,
+  "adv_logit_diff": 8.625,
+  "best_logit_diff": 8.625,
+  "clean_text": "In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end?\n### 31",
+  "clean_answer": 31.0,
+  "clean_correct": false,
+  "adv_text": "drafted Attribution365In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end?\n### 375",
+  "adv_answer": 375.0,
+  "adv_correct": false,
+  "attack_success": false,
+  "scores": [
+    6.5703125,
+    8.625
+  ]
+}

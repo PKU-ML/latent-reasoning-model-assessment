@@ -1,0 +1,171 @@
+{
+  "question": "Rory orders 2 subs for $7.50 each, 2 bags of chips for $1.50 each and 2 cookies for $1.00 each for delivery.  There’s a 20% delivery fee added at check out and she wants to add a $5.00 tip.  What will her delivery order cost?",
+  "ground_truth": "29.0",
+  "best_prefix": "_online(fr[G Nick (£",
+  "best_prefix_token_ids": [
+    52646,
+    75412,
+    73183,
+    15341,
+    54915
+  ],
+  "baseline_token_id": 1682,
+  "target_token_id": 1544,
+  "baseline_logit_diff": 0.125,
+  "clean_logit_diff": -1.125,
+  "best_logit_diff": 1.75,
+  "best_cosine": 0.96875,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 29",
+  "clean_answer": 29.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 27.60",
+  "adv_answer": 27.6,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "_online(fr[G Nick (£",
+      "prefix_ids": [
+        52646,
+        75412,
+        73183,
+        15341,
+        54915
+      ],
+      "logit_diff": 1.75,
+      "cosine_sim": 0.96875,
+      "answer": 27.6,
+      "correct": false
+    },
+    {
+      "prefix": "_online Hom Vand Starbucks (£",
+      "prefix_ids": [
+        52646,
+        13525,
+        97947,
+        49884,
+        54915
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.97265625,
+      "answer": 27.6,
+      "correct": false
+    },
+    {
+      "prefix": "_online HomRIES Starbucks (£",
+      "prefix_ids": [
+        52646,
+        13525,
+        66649,
+        49884,
+        54915
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.97265625,
+      "answer": 27.6,
+      "correct": false
+    },
+    {
+      "prefix": "_online Homican Starbucks (£",
+      "prefix_ids": [
+        52646,
+        13525,
+        7210,
+        49884,
+        54915
+      ],
+      "logit_diff": 0.75,
+      "cosine_sim": 0.9765625,
+      "answer": 27.6,
+      "correct": false
+    },
+    {
+      "prefix": "оловetta Mitch Uncomment joking",
+      "prefix_ids": [
+        73761,
+        27625,
+        23406,
+        64958,
+        58134
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.98828125,
+      "answer": 27.0,
+      "correct": false
+    },
+    {
+      "prefix": "_online(fr kat Uncomment (£",
+      "prefix_ids": [
+        52646,
+        75412,
+        45356,
+        64958,
+        54915
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.9765625,
+      "answer": 27.6,
+      "correct": false
+    },
+    {
+      "prefix": "олов celebrated Yellow Uncommentamı",
+      "prefix_ids": [
+        73761,
+        28284,
+        26541,
+        64958,
+        118039
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.98828125,
+      "answer": 27.0,
+      "correct": false
+    },
+    {
+      "prefix": "lerJoy Marilyn No Kiss",
+      "prefix_ids": [
+        1565,
+        80871,
+        77460,
+        2360,
+        44730
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.99609375,
+      "answer": 27.0,
+      "correct": false
+    },
+    {
+      "prefix": "олов восп Yellow Uncommentamı",
+      "prefix_ids": [
+        73761,
+        106871,
+        26541,
+        64958,
+        118039
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.9921875,
+      "answer": 27.0,
+      "correct": false
+    },
+    {
+      "prefix": "олов Sor Mitch Uncommentamı",
+      "prefix_ids": [
+        73761,
+        30631,
+        23406,
+        64958,
+        118039
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.98828125,
+      "answer": 27.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

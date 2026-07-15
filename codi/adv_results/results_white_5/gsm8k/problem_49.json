@@ -1,0 +1,29 @@
+{
+  "question": "Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+  "ground_truth": "30.0",
+  "prefix": " anybody270285 é str",
+  "prefix_token_ids": [
+    21739,
+    10914,
+    15935,
+    4046,
+    610
+  ],
+  "baseline_token_id": 966,
+  "target_token_id": 3101,
+  "baseline_logit_diff": -8.625,
+  "clean_logit_diff": -8.5,
+  "adv_logit_diff": 2.375,
+  "best_logit_diff": 2.375,
+  "clean_text": "The answer is: 30",
+  "clean_answer": 30.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 30031",
+  "adv_answer": 30031.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -8.375,
+    2.375
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question": " Isabel uploaded 25 pictures to Facebook. She put 10 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ",
+  "ground_truth": "3.0",
+  "prefix": " deletion 3000 Tik tunnels goats",
+  "prefix_token_ids": [
+    39948,
+    20343,
+    46338,
+    22642,
+    35199
+  ],
+  "baseline_token_id": 513,
+  "target_token_id": 362,
+  "baseline_logit_diff": -8.625,
+  "clean_logit_diff": -8.0546875,
+  "adv_logit_diff": 3.5625,
+  "best_logit_diff": 3.5625,
+  "clean_text": "Isabel uploaded 25 pictures to Facebook. She put 10 pics into one album and put the rest into 5 different albums. How many pictures were in each album?\n### 3",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "deletion 3000 Tik tunnels goatsIsabel uploaded 25 pictures to Facebook. She put 10 pics into one album and put the rest into 5 different albums. How many pictures were in each album?\n### 60",
+  "adv_answer": 60.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    3.5625
+  ]
+}

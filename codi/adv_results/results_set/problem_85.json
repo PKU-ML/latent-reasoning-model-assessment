@@ -1,0 +1,171 @@
+{
+  "question": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been on. Every shirt is its own quilt block. Each row is made of blocks from a different year of vacations. He goes on four vacations a year and has been vacationing since he was 23 years old. He is now 34. How many quilt blocks does he have in total?",
+  "ground_truth": "44.0",
+  "best_prefix": "sa Earth mesh Penalty absolut",
+  "best_prefix_token_ids": [
+    9258,
+    9420,
+    11546,
+    96342,
+    64262
+  ],
+  "baseline_token_id": 2096,
+  "target_token_id": 1958,
+  "baseline_logit_diff": 0.875,
+  "clean_logit_diff": -1.125,
+  "best_logit_diff": 1.375,
+  "best_cosine": 0.9453125,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 44",
+  "clean_answer": 44.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 34",
+  "adv_answer": 34.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "sa Earth mesh Penalty absolut",
+      "prefix_ids": [
+        9258,
+        9420,
+        11546,
+        96342,
+        64262
+      ],
+      "logit_diff": 1.375,
+      "cosine_sim": 0.9453125,
+      "answer": 34.0,
+      "correct": false
+    },
+    {
+      "prefix": "sazzever Penalty activation",
+      "prefix_ids": [
+        9258,
+        10616,
+        2099,
+        96342,
+        15449
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.9609375,
+      "answer": 34.0,
+      "correct": false
+    },
+    {
+      "prefix": "ทImeba Penalty-cap",
+      "prefix_ids": [
+        36984,
+        1453,
+        71853,
+        96342,
+        37789
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.96484375,
+      "answer": 34.0,
+      "correct": false
+    },
+    {
+      "prefix": "sazzuron Penalty activation",
+      "prefix_ids": [
+        9258,
+        10616,
+        37190,
+        96342,
+        15449
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.95703125,
+      "answer": 34.0,
+      "correct": false
+    },
+    {
+      "prefix": " sn redsar Penalty activation",
+      "prefix_ids": [
+        4224,
+        2579,
+        99182,
+        96342,
+        15449
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.953125,
+      "answer": 34.0,
+      "correct": false
+    },
+    {
+      "prefix": "'\n\n escaluronDefault nhân",
+      "prefix_ids": [
+        3961,
+        27533,
+        37190,
+        3760,
+        101121
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.953125,
+      "answer": 34.0,
+      "correct": false
+    },
+    {
+      "prefix": "sazz Sc Penalty activation",
+      "prefix_ids": [
+        9258,
+        10616,
+        2522,
+        96342,
+        15449
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.96484375,
+      "answer": 34.0,
+      "correct": false
+    },
+    {
+      "prefix": "sazz pr Penalty activation",
+      "prefix_ids": [
+        9258,
+        10616,
+        550,
+        96342,
+        15449
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.97265625,
+      "answer": 34.0,
+      "correct": false
+    },
+    {
+      "prefix": "'\n\n escalêmDefault nhân",
+      "prefix_ids": [
+        3961,
+        27533,
+        39930,
+        3760,
+        101121
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.95703125,
+      "answer": 34.0,
+      "correct": false
+    },
+    {
+      "prefix": "sazzsar Penalty activation",
+      "prefix_ids": [
+        9258,
+        10616,
+        99182,
+        96342,
+        15449
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.9609375,
+      "answer": 34.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

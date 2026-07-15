@@ -1,0 +1,26 @@
+{
+  "question": " Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+  "ground_truth": "80.0",
+  "prefix": "637",
+  "prefix_token_ids": [
+    21,
+    18,
+    22
+  ],
+  "baseline_token_id": 23,
+  "target_token_id": 22,
+  "baseline_logit_diff": -0.25,
+  "clean_logit_diff": -0.625,
+  "adv_logit_diff": 1.125,
+  "best_logit_diff": 1.125,
+  "clean_text": "assistant\n### 80 ",
+  "clean_answer": 80.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 72 ",
+  "adv_answer": 72.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.125
+  ]
+}

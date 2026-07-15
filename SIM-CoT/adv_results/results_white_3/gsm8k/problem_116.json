@@ -1,0 +1,27 @@
+{
+  "question": "Katy makes coffee using teaspoons of sugar and cups of water in the ratio of 7:13. If she used a total of 120 teaspoons of sugar and cups of water, calculate the number of teaspoonfuls of sugar she used.",
+  "ground_truth": "42.0",
+  "prefix": " ][ 10000 Centauri",
+  "prefix_token_ids": [
+    41832,
+    33028,
+    48278
+  ],
+  "baseline_token_id": 5433,
+  "target_token_id": 1542,
+  "baseline_logit_diff": -9.359375,
+  "clean_logit_diff": -8.875,
+  "adv_logit_diff": 2.9375,
+  "best_logit_diff": 2.9375,
+  "clean_text": "Katy makes coffee using teaspoons of sugar and cups of water in the ratio of 7:13. If she used a total of 120 teaspoons of sugar and cups of water, calculate the number of teaspoonfuls of sugar she used.\n### 42",
+  "clean_answer": 42.0,
+  "clean_correct": true,
+  "adv_text": "][ 10000 CentauriKaty makes coffee using teaspoons of sugar and cups of water in the ratio of 7:13. If she used a total of 120 teaspoons of sugar and cups of water, calculate the number of teaspoonfuls of sugar she used.\n### 3500",
+  "adv_answer": 3500.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.609375,
+    2.9375
+  ]
+}

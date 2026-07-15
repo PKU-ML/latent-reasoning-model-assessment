@@ -1,0 +1,34 @@
+{
+  "question": " April's discount flowers was having a sale where each flower was 6 dollars. If Katie bought 5 roses and 5 daisies, how much did she spend? ",
+  "ground_truth": "60.0",
+  "prefix": " arenas sneakers<img> $('<textTheme",
+  "prefix_token_ids": [
+    97667,
+    67191,
+    151670,
+    37084,
+    93723
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 16,
+  "baseline_logit_diff": -6.0,
+  "clean_logit_diff": -6.125,
+  "adv_logit_diff": 5.0625,
+  "best_logit_diff": 5.0625,
+  "clean_text": "assistant\n### 60 ",
+  "clean_answer": 60.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n",
+  "adv_answer": Infinity,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.375,
+    -1.375,
+    -1.375,
+    -1.375,
+    -1.375,
+    -1.375,
+    5.0625
+  ]
+}

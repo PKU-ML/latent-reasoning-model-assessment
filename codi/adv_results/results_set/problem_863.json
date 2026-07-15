@@ -1,0 +1,171 @@
+{
+  "question": "Gretchen has some coins. There are 30 more gold coins than silver coins. If she had 70 gold coins, how many coins did Gretchen have in total?",
+  "ground_truth": "110.0",
+  "best_prefix": "нити numsfive eos-Allow",
+  "best_prefix_token_ids": [
+    112323,
+    10520,
+    53770,
+    62894,
+    34448
+  ],
+  "baseline_token_id": 5120,
+  "target_token_id": 605,
+  "baseline_logit_diff": -6.875,
+  "clean_logit_diff": -8.0625,
+  "best_logit_diff": -6.625,
+  "best_cosine": 0.9375,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 110",
+  "clean_answer": 110.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 110",
+  "adv_answer": 110.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": "нити numsfive eos-Allow",
+      "prefix_ids": [
+        112323,
+        10520,
+        53770,
+        62894,
+        34448
+      ],
+      "logit_diff": -6.625,
+      "cosine_sim": 0.9375,
+      "answer": 110.0,
+      "correct": true
+    },
+    {
+      "prefix": " Alger_five quiero recorded overflowing",
+      "prefix_ids": [
+        59609,
+        96358,
+        92820,
+        12715,
+        94315
+      ],
+      "logit_diff": -6.625,
+      "cosine_sim": 0.953125,
+      "answer": 110.0,
+      "correct": true
+    },
+    {
+      "prefix": " Alger_five quiero hosts overflowing",
+      "prefix_ids": [
+        59609,
+        96358,
+        92820,
+        18939,
+        94315
+      ],
+      "logit_diff": -6.75,
+      "cosine_sim": 0.953125,
+      "answer": 110.0,
+      "correct": true
+    },
+    {
+      "prefix": " Alger_fiveマン recorded overflowing",
+      "prefix_ids": [
+        59609,
+        96358,
+        111817,
+        12715,
+        94315
+      ],
+      "logit_diff": -6.75,
+      "cosine_sim": 0.94921875,
+      "answer": 110.0,
+      "correct": true
+    },
+    {
+      "prefix": " Alger_five quieroDD overflowing",
+      "prefix_ids": [
+        59609,
+        96358,
+        92820,
+        4195,
+        94315
+      ],
+      "logit_diff": -6.875,
+      "cosine_sim": 0.9375,
+      "answer": 110.0,
+      "correct": true
+    },
+    {
+      "prefix": " Alger_five Embed recorded overflowing",
+      "prefix_ids": [
+        59609,
+        96358,
+        38168,
+        12715,
+        94315
+      ],
+      "logit_diff": -6.875,
+      "cosine_sim": 0.95703125,
+      "answer": 110.0,
+      "correct": true
+    },
+    {
+      "prefix": " Alger_five Wilson_task overflowing",
+      "prefix_ids": [
+        59609,
+        96358,
+        17882,
+        12461,
+        94315
+      ],
+      "logit_diff": -6.875,
+      "cosine_sim": 0.953125,
+      "answer": 110.0,
+      "correct": true
+    },
+    {
+      "prefix": "нити numsfive zugelden",
+      "prefix_ids": [
+        112323,
+        10520,
+        53770,
+        86011,
+        58688
+      ],
+      "logit_diff": -6.875,
+      "cosine_sim": 0.9609375,
+      "answer": 110.0,
+      "correct": true
+    },
+    {
+      "prefix": " Spotify Podlefive simpl additional",
+      "prefix_ids": [
+        41637,
+        115615,
+        53770,
+        15858,
+        5217
+      ],
+      "logit_diff": -6.875,
+      "cosine_sim": 0.94921875,
+      "answer": 110.0,
+      "correct": true
+    },
+    {
+      "prefix": "нити numsfive.argmaxelden",
+      "prefix_ids": [
+        112323,
+        10520,
+        53770,
+        43891,
+        58688
+      ],
+      "logit_diff": -6.875,
+      "cosine_sim": 0.9453125,
+      "answer": 110.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

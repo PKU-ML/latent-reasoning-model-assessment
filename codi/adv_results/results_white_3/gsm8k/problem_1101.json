@@ -1,0 +1,27 @@
+{
+  "question": "Amber, Micah, and Ahito ran 52 miles in total. Amber ran 8 miles. Micah ran 3.5 times what Amber ran. How many miles did Ahito run?",
+  "ground_truth": "16.0",
+  "prefix": "忽為450",
+  "prefix_token_ids": [
+    120994,
+    101399,
+    10617
+  ],
+  "baseline_token_id": 845,
+  "target_token_id": 975,
+  "baseline_logit_diff": -6.875,
+  "clean_logit_diff": -7.8125,
+  "adv_logit_diff": 5.8125,
+  "best_logit_diff": 5.8125,
+  "clean_text": "The answer is: 16",
+  "clean_answer": 16.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 14",
+  "adv_answer": 14.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -2.375,
+    5.8125
+  ]
+}

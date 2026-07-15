@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 174,
+  "question": "Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+  "ground_truth": "1.0",
+  "baseline_correct": true,
+  "baseline_answer": 1.0,
+  "best_rewrite": "An adult has 32 teeth. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+  "best_fact": "An adult has 32 teeth.",
+  "best_pred_answer": 29.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 9,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount of money Dan had left from the total amount of money he had.\n\nTotal amount of money Dan had: $24\nAmount of money left: $3\n\nCost of the candy bar = Total amount of money - Amount of money left\n= $24 - $3\n= $21\n\nSo, the candy bar cost $21.\nSo the answer is \\boxed{The answer is $21.",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "April has 30 days. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount of money April had left from the amount of money she had initially.\n\nInitial amount of money = $30\nAmount of money left = $3\n\nCost of the candy bar = Initial amount of money - Amount of money left\n= $30 - $3\n= $27\n\nSo, the candy bar cost $27.\nSo the answer is \\boxed{The answer is $27.",
+      "pred_answer": 27.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the amount he had initially.\n\nInitial amount Dan had: $4\nAmount left: $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the amount he had initially.\n\nInitial amount: $4\nAmount left: $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the initial amount he had. \n\nInitial amount = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A year has 12 months. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the initial amount he had.\n\nInitial amount = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A week has 7 days. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the initial amount he had.\n\nInitial amount = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "An hour has 60 minutes. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the initial amount he had.\n\nInitial amount = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A minute has 60 seconds. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the initial amount he had.\n\nInitial amount = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A year has 365 days. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount of money Dan had left from the total amount of money he had.\n\nTotal amount of money Dan had: $4\nAmount of money left: $3\n\nCost of the candy bar = Total amount of money - Amount of money left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount of money Dan had left from the total amount of money he had.\n\nTotal amount of money Dan had: 4\nAmount of money left: 3\n\nCost of the candy bar = Total amount of money - Amount of money left\n= 4 - 3\n= 1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the candy bar, we need to divide the amount of money Dan had left by the speed of sound in air.\n\nSpeed of sound in air = 343 meters per second\nAmount of money left = $3\n\nCost of the candy bar = Amount of money left / Speed of sound\n= $3 / 343\n= $0.0088\n\nSo, the candy bar cost approximately $0.0088.\nSo the answer is \\boxed{The answer is $0.0088.",
+      "pred_answer": 0.0088
+    },
+    {
+      "question": "Water freezes at 0 degrees. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the initial amount he had. \n\nInitial amount = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the candy bar, we need to divide the amount of money Dan had left by the speed of light.\n\nSpeed of light = 300,000 km/s\nAmount of money left = $3\n\nCost of the candy bar = Amount of money left / Speed of light\n= $3 / 300,000 km/s\n= $0.01 per km\n\nSince 1 km = 1000 meters, we can convert the cost to dollars per meter:\nCost of the candy bar = $0.01 per km * 1000 meters/km\n= $10 per meter\n\nSo, the candy bar cost $10 per meter.\nSo the answer is \\boxed{The candy bar cost $10 per meter.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount of money Dan had left from the amount he had initially.\n\nInitial amount of money = $3\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $3 - $3\n= $0\n\nSo, the candy bar cost $0.\nSo the answer is \\boxed{The answer is $0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "An adult has 32 teeth. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount of money Dan had left from the total amount of money he had initially.\n\nInitial amount of money = 32\nAmount of money left = 3\n\nCost of the candy bar = Initial amount of money - Amount of money left\n= 32 - 3\n= 29\n\nSo, the candy bar cost $29.\nSo the answer is \\boxed{The answer is $29.",
+      "pred_answer": 29.0
+    },
+    {
+      "question": "China has 1.4 billion people. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the amount he had initially.\n\nInitial amount = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Japan has 125 million people. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the total amount he had. \n\nDan had $4 and had $3 left, so the cost of the candy bar is $4 - $3 = $1.\n\nThe answer is $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The US has 50 states. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the amount he had initially. \n\nInitial amount = $3\nAmount left = $4\n\nCost of the candy bar = Initial amount - Amount left\n= $3 - $4\n= -$1\n\nSince the candy bar cost is negative, it means it was free.\nSo the answer is \\boxed{The cost of the candy bar is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The EU has 27 member states. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the amount he had initially. \n\nInitial amount = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the total amount he had. \n\nTotal amount Dan had: $4\nAmount left: $3\n\nCost of the candy bar = Total amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount of money Dan had left from the total amount of money he had.\n\nTotal amount of money Dan had: $4\nAmount of money left: $3\n\nCost of the candy bar = Total amount of money - Amount of money left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the total amount he had.\n\nTotal amount Dan had: $4\nAmount left: $3\n\nCost of the candy bar = Total amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The human body has 206 bones. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount of money Dan had left from the amount he had initially.\n\nInitial amount of money = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the amount he had initially.\n\nInitial amount = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount of money Dan had left from the amount he had initially.\n\nInitial amount of money = $4\nAmount left = $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount of money Dan had left from the standard atmospheric pressure.\n\nStandard atmospheric pressure is 101325 Pa, and Dan had $3 left. \n\nTo convert the pressure to a more familiar unit, we can use the conversion factor: 1 Pa = 1 N/m². \n\nSo, 101325 Pa = 101325 N/m².\n\nNow, let's calculate the cost of the candy bar:\n\nCost = Amount of money left - Standard atmospheric pressure\n= $3 - 101325 N/m²\n= $3 - 101325\n= -$101322\n\nSince we can't have a negative amount of money, we can assume that the candy bar cost $0.\nSo the answer is \\boxed{The answer is $0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the total amount he had.\n\nTotal amount Dan had: $46\nAmount left: $3\n\nCost of the candy bar = Total amount - Amount left\n= $46 - $3\n= $43\n\nSo, the candy bar cost $43.\nSo the answer is \\boxed{The answer is $43.",
+      "pred_answer": 43.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the candy bar, we need to find the cost of one strand of DNA and then multiply it by 2.\n\nDNA has 2 strands, so we need to divide the total amount of money Dan had by 2 to find the cost of one strand.\n\nDan had $3 left after buying the candy bar, so the cost of one strand is $3 / 2 = $1.50.\n\nSince DNA is made up of two strands, the cost of the candy bar is $1.50 x 2 = $3.\n\nThe answer is $3.\nSo the answer is \\boxed{$3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the initial amount he had.\n\nInitial amount: $4\nAmount left: $3\n\nCost of the candy bar = Initial amount - Amount left\n= $4 - $3\n= $1\n\nSo, the candy bar cost $1.\nSo the answer is \\boxed{The answer is $1.",
+      "pred_answer": 1.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs $25, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?",
+  "ground_truth": "150.0",
+  "prefix": " 7000 world 8000",
+  "prefix_token_ids": [
+    50205,
+    995,
+    38055
+  ],
+  "baseline_token_id": 6640,
+  "target_token_id": 19038,
+  "baseline_logit_diff": 0.015625,
+  "clean_logit_diff": -2.34375,
+  "adv_logit_diff": 3.921875,
+  "best_logit_diff": 3.921875,
+  "clean_text": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs $25, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?\n### 150",
+  "clean_answer": 150.0,
+  "clean_correct": true,
+  "adv_text": "7000 world 8000The marching band is ordering new uniforms. Each uniform comes with a hat that costs $25, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?\n### 58.35",
+  "adv_answer": 58.35,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    3.921875
+  ]
+}

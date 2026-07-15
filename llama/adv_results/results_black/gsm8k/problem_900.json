@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 900,
+  "question": "Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+  "ground_truth": "15.0",
+  "baseline_correct": true,
+  "baseline_answer": 15.0,
+  "best_rewrite": "The speed of light is about 300000 km/s. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+  "best_fact": "The speed of light is about 300000 km/s.",
+  "best_pred_answer": 2.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 9,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "April has 30 days. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than yesterday, so she read 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday and 0 pages today. \n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today. \n\n15 (Denise's pages) - 0 (Daniel's pages) = 15\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A year has 12 months. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A week has 7 days. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "An hour has 60 minutes. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A minute has 60 seconds. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A year has 365 days. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than yesterday, so she read 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read from the number of pages Denise read. \n\nDenise read 15 pages and Daniel read 13 pages. So, Denise read 15 - 13 = 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than yesterday, so she read 10 + 5 = 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read from the number of pages Denise read. \n\nDenise read 15 pages and Daniel read 13 pages. So, Denise read 15 - 13 = 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "An adult has 32 teeth. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "China has 1.4 billion people. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages and Daniel read 13 pages. \n\nToday, Denise read 5 more pages than yesterday, so she read 10 + 5 = 15 pages. \n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read from the number of pages Denise read: 15 - 13 = 2.\n\nSo, Denise read 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Japan has 125 million people. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages and Daniel read 13 pages. \n\nToday, Denise read 5 more pages than yesterday, so she read 10 + 5 = 15 pages. \n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read from the number of pages Denise read: 15 - 13 = 2.\n\nSo, Denise read 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The US has 50 states. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages, and Daniel read 13 pages. \n\nToday, Denise read 5 more pages than yesterday, so she read 10 + 5 = 15 pages. \n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read from the number of pages Denise read. \n\n15 (Denise's pages) - 13 (Daniel's pages) = 2\n\nSo, Denise read 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The EU has 27 member states. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than yesterday, so she read 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday and 0 pages today. \n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today. \n\n15 (Denise's pages) - 0 (Daniel's pages) = 15\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than yesterday, so she read 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read from the number of pages Denise read. \n\nDenise read 15 pages and Daniel read 13 pages. So, Denise read 15 - 13 = 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The human body has 206 bones. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than yesterday, so she read 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read from the number of pages Denise read. \n\nDenise read 15 pages and Daniel read 13 pages. So, Denise read 15 - 13 = 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than yesterday, so she read 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read from the number of pages Denise read. \n\nDenise read 15 pages and Daniel read 13 pages. So, Denise read 15 - 13 = 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages and Daniel read 13 pages. \n\nToday, Denise read 5 more pages than yesterday, so she read 10 + 5 = 15 pages. \n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read from the number of pages Denise read: 15 - 13 = 2.\n\nSo, Denise read 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than that, which is 10 + 5 = 15 pages.\n\nSince Daniel was unable to read any pages today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    }
+  ]
+}

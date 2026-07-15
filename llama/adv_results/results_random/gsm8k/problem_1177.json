@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1177,
+  "question": "Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+  "ground_truth": "17.0",
+  "baseline": {
+    "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, 17 students are not on varsity.",
+    "pred_answer": 17.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 3,
+  "success_rate": 0.1,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "裁³.PLAIN*dtSenate",
+      "prefix_token_ids": [
+        114940,
+        44301,
+        72771,
+        95261,
+        87104
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "canonicalิ Focus öden crops",
+      "prefix_token_ids": [
+        79042,
+        31885,
+        26891,
+        120474,
+        31665
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "학=\".$\\r chancellorwyn",
+      "prefix_token_ids": [
+        100508,
+        27429,
+        12285,
+        77275,
+        54756
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": " represents.gsub ban.createServer_continue",
+      "prefix_token_ids": [
+        11105,
+        53986,
+        9120,
+        78390,
+        76397
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " перемен_relu Organ Millet326",
+      "prefix_token_ids": [
+        81199,
+        77382,
+        10995,
+        117358,
+        17470
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " hvor Naming compañ택(MouseEvent",
+      "prefix_token_ids": [
+        51819,
+        97575,
+        64403,
+        104727,
+        45911
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity.\n\nOne-third of the girls are on varsity, so the number of girls on varsity is 12 * (1/3) = 4.\nOne-fourth of the boys are on varsity, so the number of boys on varsity is 12 * (1/4) = 3.\n\nThe total number of students on varsity is 4 + 3 = 7.\n\nThe number of students not on varsity is the total number of students minus the number of students on varsity, which is 12 - 7 = 5.\n\nTherefore, there are 5 students not on varsity.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 7,
+      "prefix": "_CopyBLUE_fucommendeddanger",
+      "prefix_token_ids": [
+        78737,
+        65430,
+        37567,
+        36971,
+        32550
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " rewriting并为空 procedural Phy",
+      "prefix_token_ids": [
+        95545,
+        64026,
+        51747,
+        62781,
+        93682
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": "ocolsэtemperature south evac",
+      "prefix_token_ids": [
+        22792,
+        68506,
+        35658,
+        10007,
+        30520
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " Circle informations� �\tDestroy",
+      "prefix_token_ids": [
+        21918,
+        44827,
+        23602,
+        113851,
+        82332
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 3 = 7\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 7 + 15 = 22\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 12 + 12 - 22\n= 12\n\nTherefore, there are 12 students not on varsity.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 11,
+      "prefix": " építica▏ keyword+x",
+      "prefix_token_ids": [
+        50510,
+        75907,
+        109724,
+        16570,
+        38992
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": " personalize(Webкол_normals Reds",
+      "prefix_token_ids": [
+        81938,
+        68340,
+        123362,
+        92129,
+        55908
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": "_topic -$aç(clone(found",
+      "prefix_token_ids": [
+        32514,
+        83458,
+        101020,
+        97006,
+        56798
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls who are on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": " epid kapsamında nzStrangeigham",
+      "prefix_token_ids": [
+        28817,
+        114569,
+        44042,
+        92434,
+        86322
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "ประส ChartsubleBeauty\treply",
+      "prefix_token_ids": [
+        108237,
+        67376,
+        41572,
+        94909,
+        87249
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity.\n\nOne-third of the girls are on varsity, so the number of girls on varsity is 12 * (1/3) = 4.\nOne-fourth of the boys are on varsity, so the number of boys on varsity is 12 * (1/4) = 3.\n\nThe total number of students on varsity is 4 + 3 = 7.\n\nThe total number of students in the class is 12 + 12 = 24.\n\nThe number of students not on varsity is 24 - 7 = 17.\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": "\"... suy werde!!!\n 등록",
+      "prefix_token_ids": [
+        53670,
+        107221,
+        88013,
+        80395,
+        106917
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": "αρ台StrictEqualtypescript nạn",
+      "prefix_token_ids": [
+        100865,
+        55038,
+        71586,
+        50652,
+        120879
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": ".Cursor Socorro.cmsSemaphoreليات",
+      "prefix_token_ids": [
+        31029,
+        124496,
+        70105,
+        75714,
+        118871
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " التر-effects Assist Basics фил",
+      "prefix_token_ids": [
+        106762,
+        75888,
+        54349,
+        68276,
+        121949
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nThe answer is 17.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " zev innocent.\",sexual_than",
+      "prefix_token_ids": [
+        124812,
+        25226,
+        10684,
+        44687,
+        52713
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity.\n\nOne-third of the girls are on varsity, so the number of girls on varsity is 12 * (1/3) = 4.\nOne-fourth of the boys are on varsity, so the number of boys on varsity is 12 * (1/4) = 3.\n\nThe total number of students on varsity is 4 (girls) + 3 (boys) = 7.\n\nThe total number of students in the class is 12 (boys) + 12 (girls) = 24.\n\nTo find the number of students not on varsity, we subtract the number of students on varsity from the total number of students:\n24 (total students) - 7 (students on varsity) = 17.\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " Techniques hấp DelhiงนFormGroup",
+      "prefix_token_ids": [
+        66044,
+        111961,
+        22767,
+        113557,
+        42422
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": " benchmarksnumero CelebrityممAndrew",
+      "prefix_token_ids": [
+        63119,
+        33715,
+        65438,
+        124023,
+        41598
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": " enthus inserting眼 puan이스",
+      "prefix_token_ids": [
+        16676,
+        39398,
+        102701,
+        116984,
+        107128
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 3 = 7\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 7 + 15 = 22\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 12 + 12 - 22\n= 12\n\nTherefore, there are 12 students not on varsity.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 24,
+      "prefix": "さんの tightened-vis permutationsgetAs",
+      "prefix_token_ids": [
+        115867,
+        85820,
+        82489,
+        73049,
+        92446
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " povin_abort предпол_iface Standard",
+      "prefix_token_ids": [
+        108977,
+        72007,
+        118678,
+        68766,
+        12028
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "Mex有人izable болез executing",
+      "prefix_token_ids": [
+        52665,
+        115814,
+        8499,
+        108150,
+        31320
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, 17 students are not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "-boldprobe Pompeo<|reserved_special_token_185|> BOTTOM",
+      "prefix_token_ids": [
+        28739,
+        53429,
+        90734,
+        128193,
+        91671
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "bean天天 XmlDocument Dos spl",
+      "prefix_token_ids": [
+        17937,
+        124915,
+        76531,
+        58020,
+        12786
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls who are on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, 17 students are not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "(ARG Functions čísloitated Innovation",
+      "prefix_token_ids": [
+        81457,
+        24460,
+        115449,
+        33337,
+        38710
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " důležit defendersseller cancelButtonTitlebling",
+      "prefix_token_ids": [
+        111048,
+        41131,
+        35199,
+        78002,
+        9894
+      ],
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

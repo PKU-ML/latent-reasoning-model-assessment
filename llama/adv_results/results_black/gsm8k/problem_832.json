@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 832,
+  "question": "Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+  "ground_truth": "42.0",
+  "baseline_correct": true,
+  "baseline_answer": 42.0,
+  "best_rewrite": "A plant has 46 chromosomes. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+  "best_fact": "A plant has 46 chromosomes.",
+  "best_pred_answer": 58.8,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 1,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.40 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "April has 30 days. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings:\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, Anthony has saved $20 + $10 = $30.00.\n\nSince Roy has saved 40% more than Anthony, we need to find 40% of $30.00. 40% of $30.00 is 0.4 x $30.00 = $12.00.\n\nNow, we add the 40% to Anthony's savings to find Roy's savings: $30.00 + $12.00 = $42.00.\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00.",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as $20 + $10 = $30.00.\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings.\n\n40% of $30.00 is 0.4 x $30 = $12.00.\n\nNow, we add the 40% to Anthony's savings: $30 + $12 = $42.\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{The answer is $42.00.",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "A year has 12 months. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "A week has 7 days. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "An hour has 60 minutes. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "A minute has 60 seconds. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "A year has 365 days. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings.\n\n40% of Anthony's savings = 0.4 x $30.00\n40% of Anthony's savings = $12.00\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{The answer is $42.00.",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "An adult has 32 teeth. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how much Roy has, we need to first find out how much Eva has.  Eva has saved $20.00.\n\nSince Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.  Anthony's savings = $20.00 + $10.00 = $30.00.\n\nNow, we know that Roy has saved 40% more than Anthony. 40% of $30.00 is 0.4 x $30.00 = $12.00.  So Roy has saved $30.00 + $12.00 = $42.00.\n\nTherefore, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "China has 1.4 billion people. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, Anthony has saved $20 + $10 = $30.00.\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of $30.00 and add it to $30.00.\n\n40% of $30.00 is 0.4 x $30 = $12.00.\n\nSo, Roy has $30 + $12 = $42.00.\n\nTherefore, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "Japan has 125 million people. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "The US has 50 states. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings:\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "The EU has 27 member states. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% to Anthony's savings:\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{The answer is $42.00.",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{The final answer is $42.00.",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva and Anthony have.\n\nEva has $20.00.\n\nAnthony has $10.00 more than Eva, so he has $20.00 + $10.00 = $30.00.\n\nRoy has 40% more than Anthony, so we need to find 40% of $30.00.\n\n40% of $30.00 is 0.4 x $30.00 = $12.00.\n\nRoy has $30.00 + $12.00 = $42.00.\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "The human body has 206 bones. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva and Anthony have.\n\nEva has $20.00.\n\nAnthony has $10.00 more than Eva, so he has $20 + $10 = $30.00.\n\nRoy has 40% more than Anthony, so we need to find 40% of $30.00.\n\n40% of $30.00 is 0.4 x $30 = $12.00.\n\nRoy has $30 + $12 = $42.00.\n\nSo Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva and Anthony have.\n\nEva has $20.00.\n\nAnthony has $10.00 more than Eva, so he has $20.00 + $10.00 = $30.00.\n\nRoy has 40% more than Anthony, so we need to find 40% of $30.00.\n\n40% of $30.00 is 0.4 x $30.00 = $12.00.\n\nRoy has $30.00 + $12.00 = $42.00.\n\nSo Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much money Anthony and Eva have.\n\nEva has $20.00.\n\nAnthony has $10.00 more than Eva, so he has $20 + $10 = $30.00.\n\nRoy has 40% more than Anthony, so we need to find 40% of $30.00.\n\n40% of $30.00 is 0.4 x $30 = $12.00.\n\nRoy has $30 + $12 = $42.00.\n\nSo Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has and then add 40% of that amount to it.\n\nEva has $20.00.\n\nSince Anthony has $10.00 more than Eva, he has $20 + $10 = $30.00.\n\nNow, we need to find 40% of $30.00. 40% of $30.00 is 0.4 x $30 = $12.00.\n\nNow, we add $12.00 to $30.00 to find out how much Anthony has: $30 + $12 = $42.00.\n\nSince Roy has 40% more than Anthony, we need to find 40% of $42.00. 40% of $42.00 is 0.4 x $42 = $16.80.\n\nNow, we add $16.80 to $42.00 to find out how much Roy has: $42 + $16.80 = $58.80.\n\nSo, Roy has $58.80.\nSo the answer is \\boxed{$58.80",
+      "pred_answer": 58.8
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva and Anthony have.\n\nEva has $20.00.\n\nAnthony has $10.00 more than Eva, so he has $20.00 + $10.00 = $30.00.\n\nRoy has 40% more than Anthony, so we need to find 40% of $30.00.\n\n40% of $30.00 is 0.4 x $30.00 = $12.00.\n\nRoy has $30.00 + $12.00 = $42.00.\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Roy has, we need to calculate the amount of money he saved based on the information given.\n\nWe know that Eva has $20.00. Since Anthony has $10.00 more than Eva, Anthony has $20 + $10 = $30.00.\n\nWe also know that Roy has 40% more than Anthony. To find 40% of $30, we multiply $30 by 0.4, which equals $12. So Roy has $30 + $12 = $42.\n\nTherefore, Roy has $42.\nSo the answer is \\boxed{Roy has $42.",
+      "pred_answer": 42.0
+    }
+  ]
+}

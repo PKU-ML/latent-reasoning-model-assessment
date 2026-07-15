@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 39,
+  "question": " There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+  "ground_truth": "24.0",
+  "baseline_correct": true,
+  "baseline_answer": 24.0,
+  "best_rewrite": "H2O contains 2 hydrogen atoms.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+  "best_fact": "H2O contains 2 hydrogen atoms.",
+  "best_pred_answer": 12.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 9,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 players initially, and 2 more players joined, making it 4 players in total. Each player had 6 lives.\n\nTotal lives = 4 players * 6 lives/player = 24 lives\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "April has 30 days.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 players initially, and 2 more players joined, making it 4 players in total. Each player had 6 lives.\n\nTotal lives = 4 players * 6 lives/player = 24 lives\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 friends initially, and 2 more players joined, making a total of 4 players. Each player had 6 lives.\n\n4 players * 6 lives/player = 24 lives\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 friends playing initially, and 2 more players joined, making it 4 players in total. Each player had 6 lives.\n\nTotal lives = Number of players * Lives per player\nTotal lives = 4 * 6\nTotal lives = 24\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitial players: 2\nLives per player: 6\n\nTotal lives = Initial players * Lives per player\nTotal lives = 2 * 6\nTotal lives = 12\n\nSo, the total number of lives is 12.\nSo the answer is \\boxed{The answer is 12.",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A year has 12 months.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 players initially, and 2 more players joined, making a total of 4 players. Each player had 6 lives.\n\nTotal lives = 4 players * 6 lives/player = 24 lives\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "A week has 7 days.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 players initially, and 2 more players joined, making it 4 players in total. Each player had 6 lives.\n\nTotal lives = Number of players * Lives per player\nTotal lives = 4 * 6\nTotal lives = 24\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "An hour has 60 minutes.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 friends initially, and 2 more players joined, making a total of 4 players. Each player had 6 lives.\n\nTotal lives = Number of players * Lives per player\nTotal lives = 4 * 6\nTotal lives = 24\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "A minute has 60 seconds.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 friends initially, and 2 more players joined, making a total of 4 players. Each player had 6 lives.\n\nTotal lives = Number of players * Lives per player\nTotal lives = 4 * 6\nTotal lives = 24\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "A year has 365 days.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 players initially, and 2 more players joined, making it 4 players in total. Each player had 6 lives.\n\nTotal lives = Number of players * Lives per player\nTotal lives = 4 * 6\nTotal lives = 24\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitial number of players: 2\nNumber of lives per player: 6\n\nTotal number of lives = 2 * 6\nTotal number of lives = 12\n\nSo, the total number of lives is 12.\nSo the answer is \\boxed{The answer is 12.",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had initially and then add the number of new players.\n\nInitially, there were 2 players. Each player had 6 lives. So, the total number of lives initially is 2 * 6 = 12.\n\n2 new players joined the game, each with 6 lives. So, the total number of lives now is 12 + 2 * 6 = 12 + 12 = 24.\n\nTherefore, the total number of lives is 24.\nSo the answer is \\boxed{The total number of lives is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitially, there were 2 players. 2 more players joined, so there are now 2 + 2 = 4 players.\n\nEach player had 6 lives, so the total number of lives is 4 * 6 = 24.\n\nThe answer is 24.\nSo the answer is \\boxed{24",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had initially and then add the number of new players.\n\nInitially, there were 2 players, and each had 6 lives. So, the total number of lives initially is 2 * 6 = 12.\n\n2 new players joined, each with 6 lives. So, the total number of lives now is 12 + 2 * 6 = 12 + 12 = 24.\n\nTherefore, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 friends initially, and 2 more players joined, making a total of 4 players. Each player had 6 lives.\n\nTotal lives = Number of players * Lives per player\nTotal lives = 4 * 6\nTotal lives = 24\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "An adult has 32 teeth.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 friends initially, and 2 more players joined, making a total of 4 players. Each player had 6 lives.\n\n4 players * 6 lives/player = 24 lives\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "China has 1.4 billion people.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitial number of players: 1.4 billion\nNumber of lives per player: 6\n\nTotal lives = Initial number of players * Number of lives per player\nTotal lives = 1,400,000,000 * 6\nTotal lives = 8,400,000,000\n\nSo, the total number of lives is 8.4 billion.\nSo the answer is \\boxed{8,400,000,000",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "Japan has 125 million people.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitial number of players: 2\nNumber of lives per player: 6\n\nTotal lives = Initial number of players * Number of lives per player\nTotal lives = 2 * 6\nTotal lives = 12\n\nSo, the total number of lives is 12.\nSo the answer is \\boxed{The answer is 12.",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The US has 50 states.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 players initially, and 2 more players joined, making it 4 players in total. Each player had 6 lives.\n\nTotal lives = Number of players * Lives per player\nTotal lives = 4 * 6\nTotal lives = 24\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "The EU has 27 member states.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 players initially, and 2 more players joined, making a total of 4 players. Each player had 6 lives.\n\n4 players * 6 lives/player = 24 lives\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had initially.\n\nInitially, there were 2 players. 2 more players joined, so there are now 2 + 2 = 4 players.\n\nEach player had 6 lives, so the total number of lives is 4 x 6 = 24.\n\nThe answer is 24.\nSo the answer is \\boxed{24",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitial number of players: 2\nNumber of lives per player: 6\n\nTotal number of lives = 2 * 6 = 12\n\nSo, the total number of lives is 12.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 players initially, and 2 more players joined, making a total of 4 players. Each player had 6 lives.\n\n4 players * 6 lives/player = 24 lives\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "The human body has 206 bones.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitial number of players: 2\nNumber of lives per player: 6\n\nTotal number of lives = 2 * 6 = 12\n\nSo, the total number of lives is 12.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitial number of players: 2\nNumber of lives per player: 6\n\nTotal lives = Initial number of players * Number of lives per player\nTotal lives = 2 * 6\nTotal lives = 12\n\nSo, the total number of lives is 12.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nInitially, there were 2 players. 2 more players joined, so there are now 2 + 2 = 4 players.\n\nEach player had 6 lives, so the total number of lives is 4 * 6 = 24.\n\nThe answer is 24.\nSo the answer is \\boxed{24",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitial number of players = 2\nNumber of lives per player = 6\n\nTotal number of lives = Initial number of players * Number of lives per player\n= 2 * 6\n= 12\n\nSo, the total number of lives is 12.\nSo the answer is \\boxed{The answer is 12.",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitial number of players: 2\nNumber of lives per player: 6\n\nTotal number of lives = 2 * 6 = 12\n\nSo, the total number of lives is 12.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the initial number of players by the number of lives each player had.\n\nInitially, there were 2 players. 2 more players joined, so there are now 2 + 2 = 4 players.\n\nEach player had 6 lives, so the total number of lives is 4 * 6 = 24.\n\nThe answer is 24.\nSo the answer is \\boxed{24",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the total number of lives, we need to multiply the number of players by the number of lives each player had.\n\nThere were 2 players initially, and 2 more players joined, making it 4 players in total. Each player had 6 lives.\n\nTotal lives = Number of players * Lives per player\nTotal lives = 4 * 6\nTotal lives = 24\n\nSo, the total number of lives is 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0
+    }
+  ]
+}

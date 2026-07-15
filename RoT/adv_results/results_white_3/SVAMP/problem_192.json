@@ -1,0 +1,26 @@
+{
+  "question": "Josh had 20 marbles in his collection. He gave 2 marbles to Jack. How many marbles does Josh have now?",
+  "ground_truth": "18.0",
+  "prefix": "637",
+  "prefix_token_ids": [
+    21,
+    18,
+    22
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -6.75,
+  "clean_logit_diff": -6.625,
+  "adv_logit_diff": 2.0,
+  "best_logit_diff": 2.0,
+  "clean_text": "assistant\n### 18 ",
+  "clean_answer": 18.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 208 ",
+  "adv_answer": 208.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.0
+  ]
+}

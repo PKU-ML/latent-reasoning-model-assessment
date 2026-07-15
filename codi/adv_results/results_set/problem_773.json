@@ -1,0 +1,171 @@
+{
+  "question": "Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining pencils to Charlie. He kept the remaining pencils. How many pencils did Anthony keep?",
+  "ground_truth": "10.0",
+  "best_prefix": "baraiffs240吭",
+  "best_prefix_token_ids": [
+    25062,
+    19383,
+    8273,
+    7305,
+    255
+  ],
+  "baseline_token_id": 605,
+  "target_token_id": 508,
+  "baseline_logit_diff": -6.625,
+  "clean_logit_diff": -7.0,
+  "best_logit_diff": 2.109375,
+  "best_cosine": 0.93359375,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 10",
+  "clean_answer": 10.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 48",
+  "adv_answer": 48.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "baraiffs240吭",
+      "prefix_ids": [
+        25062,
+        19383,
+        8273,
+        7305,
+        255
+      ],
+      "logit_diff": 2.109375,
+      "cosine_sim": 0.93359375,
+      "answer": 48.0,
+      "correct": false
+    },
+    {
+      "prefix": "ân303akah_magic hy",
+      "prefix_ids": [
+        40492,
+        13236,
+        77527,
+        55712,
+        6409
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.94140625,
+      "answer": 62.0,
+      "correct": false
+    },
+    {
+      "prefix": " fan792akah_magic점",
+      "prefix_ids": [
+        8571,
+        24763,
+        77527,
+        55712,
+        101838
+      ],
+      "logit_diff": -0.953125,
+      "cosine_sim": 0.93359375,
+      "answer": 124.0,
+      "correct": false
+    },
+    {
+      "prefix": "65озиakah_magic hy",
+      "prefix_ids": [
+        2397,
+        106421,
+        77527,
+        55712,
+        6409
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.94140625,
+      "answer": 12.5,
+      "correct": false
+    },
+    {
+      "prefix": " bun261425 sketch pán",
+      "prefix_ids": [
+        45921,
+        15602,
+        17837,
+        26610,
+        124356
+      ],
+      "logit_diff": -5.0625,
+      "cosine_sim": 0.94921875,
+      "answer": 98.0,
+      "correct": false
+    },
+    {
+      "prefix": "65озиakah_magicдах",
+      "prefix_ids": [
+        2397,
+        106421,
+        77527,
+        55712,
+        125412
+      ],
+      "logit_diff": -5.625,
+      "cosine_sim": 0.953125,
+      "answer": 12.5,
+      "correct": false
+    },
+    {
+      "prefix": "65озиakah_magicift",
+      "prefix_ids": [
+        2397,
+        106421,
+        77527,
+        55712,
+        2130
+      ],
+      "logit_diff": -5.625,
+      "cosine_sim": 0.953125,
+      "answer": 12.5,
+      "correct": false
+    },
+    {
+      "prefix": "_posts Gwargs Luk193",
+      "prefix_ids": [
+        20835,
+        121890,
+        6813,
+        55757,
+        7285
+      ],
+      "logit_diff": -6.25,
+      "cosine_sim": 0.97265625,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": "aseline261 ETA errores محدود",
+      "prefix_ids": [
+        50414,
+        15602,
+        90114,
+        91800,
+        112911
+      ],
+      "logit_diff": -6.4375,
+      "cosine_sim": 0.93359375,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": " flavor {};\n\n550 Plain attracted",
+      "prefix_ids": [
+        17615,
+        20999,
+        13506,
+        44299,
+        29123
+      ],
+      "logit_diff": -6.625,
+      "cosine_sim": 0.96484375,
+      "answer": 110.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

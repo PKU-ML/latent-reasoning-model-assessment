@@ -1,0 +1,26 @@
+{
+  "question": "Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+  "ground_truth": "17.0",
+  "prefix": "63总",
+  "prefix_token_ids": [
+    21,
+    18,
+    59743
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -0.875,
+  "clean_logit_diff": -0.875,
+  "adv_logit_diff": 0.625,
+  "best_logit_diff": 0.625,
+  "clean_text": "assistant\n### 17 ",
+  "clean_answer": 17.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 27 ",
+  "adv_answer": 27.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.625
+  ]
+}

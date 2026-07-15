@@ -1,0 +1,171 @@
+{
+  "question": "In a company of 50 employees, 20% of the employees are management.  Out of this 20%, only 30% oversee the entire company.  How many employees oversee the company?",
+  "ground_truth": "3.0",
+  "best_prefix": " monkeys Eagleeprom400 parch",
+  "best_prefix_token_ids": [
+    61820,
+    36895,
+    54045,
+    3443,
+    66302
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 17,
+  "baseline_logit_diff": -6.0,
+  "clean_logit_diff": -6.75,
+  "best_logit_diff": -4.125,
+  "best_cosine": 0.96875,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 3",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 3",
+  "adv_answer": 3.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " monkeys Eagleeprom400 parch",
+      "prefix_ids": [
+        61820,
+        36895,
+        54045,
+        3443,
+        66302
+      ],
+      "logit_diff": -4.125,
+      "cosine_sim": 0.96875,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " allureappýt Growing eight",
+      "prefix_ids": [
+        88503,
+        680,
+        97700,
+        60780,
+        8223
+      ],
+      "logit_diff": -5.625,
+      "cosine_sim": 0.97265625,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " monkeys ап weaker cost amort",
+      "prefix_ids": [
+        61820,
+        105425,
+        43383,
+        2853,
+        93364
+      ],
+      "logit_diff": -5.75,
+      "cosine_sim": 0.98046875,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "akersappιλ Growing eight",
+      "prefix_ids": [
+        8476,
+        680,
+        107504,
+        60780,
+        8223
+      ],
+      "logit_diff": -5.75,
+      "cosine_sim": 0.98046875,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "four legal Bolton kost bip",
+      "prefix_ids": [
+        35124,
+        5897,
+        62677,
+        63511,
+        29978
+      ],
+      "logit_diff": -5.875,
+      "cosine_sim": 0.94921875,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "akers totiž आत Growing eight",
+      "prefix_ids": [
+        8476,
+        112863,
+        105506,
+        60780,
+        8223
+      ],
+      "logit_diff": -6.0,
+      "cosine_sim": 0.9765625,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " buddies摩 resentment divisions eight",
+      "prefix_ids": [
+        61450,
+        110581,
+        71654,
+        37601,
+        8223
+      ],
+      "logit_diff": -6.0,
+      "cosine_sim": 0.9765625,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " buddies fins weaker whom tripod",
+      "prefix_ids": [
+        61450,
+        66079,
+        43383,
+        8884,
+        92154
+      ],
+      "logit_diff": -6.0,
+      "cosine_sim": 0.9609375,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " monkeysEle weaker cost amort",
+      "prefix_ids": [
+        61820,
+        46439,
+        43383,
+        2853,
+        93364
+      ],
+      "logit_diff": -6.0,
+      "cosine_sim": 0.97265625,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " buddies摩 andere divisions eight",
+      "prefix_ids": [
+        61450,
+        110581,
+        34036,
+        37601,
+        8223
+      ],
+      "logit_diff": -6.0,
+      "cosine_sim": 0.98046875,
+      "answer": 3.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

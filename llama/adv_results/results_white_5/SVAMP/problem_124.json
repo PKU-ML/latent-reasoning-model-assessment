@@ -1,0 +1,24 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 124,
+  "question": "Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+  "ground_truth": "1",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " بأن...\n\n bunnyologue mere",
+  "prefix_token_ids": [
+    118237,
+    2195,
+    76614,
+    77828,
+    17983
+  ],
+  "best_wrong_prob": 2.8780572335770935e-15,
+  "clean_text": "To find out how many more apples Jackie has than Adam, we need to subtract the number of apples Adam has from the number of apples Jackie has.\n\nJackie has 10 apples.\nAdam has 9 apples.\n\n10 - 9 = 1\n\nSo",
+  "clean_pred": 1.0,
+  "clean_correct": true,
+  "adv_text": "بأن... \n\nبunnyologue mereAdam tiene 9 apples. Jackie tiene 10 apples. \n\nPara encontrar la diferencia, debemos restar el número de apples que tiene Adam de su número total:\n\n10 (apples de Jackie) - 9 (",
+  "adv_pred": 1.0,
+  "adv_correct": true,
+  "attack_success": false
+}

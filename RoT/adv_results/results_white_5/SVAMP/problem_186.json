@@ -1,0 +1,28 @@
+{
+  "question": "Adam has 10 apples. Jackie has 2 apples. How many more apples does Adam have than Jackie?",
+  "ground_truth": "8.0",
+  "prefix": "63746",
+  "prefix_token_ids": [
+    21,
+    18,
+    22,
+    19,
+    21
+  ],
+  "baseline_token_id": 23,
+  "target_token_id": 16,
+  "baseline_logit_diff": -3.0,
+  "clean_logit_diff": -7.375,
+  "adv_logit_diff": 6.625,
+  "best_logit_diff": 6.625,
+  "clean_text": "assistant\n### 8 ",
+  "clean_answer": 8.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 10 ",
+  "adv_answer": 10.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    6.625
+  ]
+}

@@ -1,0 +1,48 @@
+seed: ~
+
+model:
+  target: src.models.icot.LitICoT
+  model_kwargs:
+    model_id: Llama-3.2-1B-Instruct
+    # model_id: DeepSeek-R1-Distill-Qwen-1.5B
+    sft_method: icot
+
+    do_lora: True
+    lora_config:
+      r: 128
+      lora_alpha: 32
+
+    icot_config:
+      n_epochs_per_stage: 2
+      max_n_stage: 3
+      current_stage: 1
+    
+    latent_policy_config:
+      lp_determinisitc: False
+      lp_intermediate_size: 2048
+    
+    answer_generation_config:
+      max_new_tokens: 16
+      do_sample: True
+      top_p: 0.9
+      temperature: 1.0
+
+  training_kwargs:
+    optimizer:
+      target: torch.optim.AdamW
+      lr: 1e-4
+      weight_decay: 0.01
+    use_scheduler: False
+    scheduler:
+      target: constant_schedule_with_warmup
+      warmup_steps: 1000
+
+trainer:
+  max_epochs: 50
+
+dataloader:
+  batch_size: 256
+  val_batch_size: 32
+  num_workers: 32
+  pin_memory: True
+  persistent_workers: True

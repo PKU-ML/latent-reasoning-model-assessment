@@ -1,0 +1,24 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 32,
+  "question": "Paul got a box of 253 crayons for his birthday. By the end of the school year he had either lost or given away 70 of them. How many crayons did he have left by the end of the school year?",
+  "ground_truth": "183",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "ETOO густ",
+  "prefix_token_ids": [
+    36,
+    51,
+    46,
+    46,
+    127985
+  ],
+  "best_wrong_prob": 2.6079147454256005e-23,
+  "clean_text": "To find out how many crayons Paul had left by the end of the school year, we need to subtract the number of crayons he lost or gave away from the total number of crayons he started with.\n\nTotal crayon",
+  "clean_pred": 183.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many crayons ETOO Gust Paul had left by the end of the school year, we need to subtract the number of crayons he lost or gave away from the total number of crayons he started with.\n\nTo",
+  "adv_pred": 183.0,
+  "adv_correct": true,
+  "attack_success": false
+}

@@ -1,0 +1,33 @@
+{
+  "question": "Arianna plants a garden that has 10 rows of flowers with 20 flowers in each row. Currently, only 4/5 of the planted flowers have bloomed. How many flowers in Arianna's garden have bloomed?",
+  "ground_truth": "160",
+  "prefix": " halfazen…but",
+  "prefix_token_ids": [
+    4376,
+    83921,
+    83766
+  ],
+  "baseline_logit_diff": -8.503318786621094,
+  "clean_logit_diff": -8.049095153808594,
+  "adv_logit_diff": 3.1527748107910156,
+  "best_logit_diff": 3.1527748107910156,
+  "clean_text": "Answer:160",
+  "clean_answer": "160",
+  "clean_correct": true,
+  "adv_text": "Answer:128",
+  "adv_answer": "128",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -2.056499481201172,
+    -1.1841411590576172,
+    -1.1841411590576172,
+    1.5093050003051758,
+    1.5093050003051758,
+    1.5093050003051758,
+    1.5093050003051758,
+    1.5093050003051758,
+    1.5093050003051758,
+    3.1527748107910156
+  ]
+}

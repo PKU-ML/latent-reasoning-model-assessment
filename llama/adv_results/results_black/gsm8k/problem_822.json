@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 822,
+  "question": "John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+  "ground_truth": "1260.0",
+  "baseline_correct": true,
+  "baseline_answer": 1260.0,
+  "best_rewrite": "A year has 365 days. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+  "best_fact": "A year has 365 days.",
+  "best_pred_answer": 180.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 10,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a day, we need to calculate the total number of tasks he completes in a day and then multiply it by the pay per task.\n\nJohn completes 30 cycles of work in a day. Each cycle has 5 tasks, so the total number of tasks in a day is:\n30 cycles * 5 tasks/cycle = 150 tasks\n\nSince each task pays $1.20, the total amount he makes in a day is:\n150 tasks * $1.20/task = $180\n\nSince John works a full 7-day week, we need to multiply the daily amount by 7:\n$180 * 7 = $1260\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "April has 30 days. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the pay per task.\n\nThere are 7 days in a week, and John works 30 days a week. So, the total number of tasks he completes in a week is:\n30 days * 7 days/week = 210 tasks\n\nEach task pays $1.20, so the total amount he makes in a week is:\n210 tasks * $1.20/task = $252\n\nTherefore, John makes $252 in a week.\nSo the answer is \\boxed{$252",
+      "pred_answer": 252.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a day, we need to calculate the total number of tasks he completes in a day and then multiply it by the pay per task.\n\nJohn completes 30 cycles of work a day. Each cycle has 5 tasks, so the total number of tasks he completes in a day is:\n30 cycles * 5 tasks/cycle = 150 tasks\n\nEach task pays $1.20, so the total amount he makes in a day is:\n150 tasks * $1.20/task = $180\n\nSince John works a full 7-day week, we need to multiply the daily amount by 7:\n$180 * 7 = $1260\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "Today is the 3rd of the month. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the pay per task.\n\nJohn works 30 cycles per day, and each cycle has 5 tasks. So, the total number of tasks per week is:\n30 cycles/day * 5 tasks/cycle = 150 tasks/week\n\nSince there are 7 days in a week, the total number of tasks in a week is:\n150 tasks/week * 7 days/week = 1050 tasks/week\n\nNow, we multiply the total number of tasks by the pay per task:\n1050 tasks/week * $1.20/task = $1260/week\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and multiply it by the pay per task.\n\nJohn completes 30 cycles of work a day, and each cycle has 5 tasks. So, the total number of tasks he completes in a day is 30 * 5 = 150 tasks.\n\nSince he works a full 7-day week, the total number of tasks he completes in a week is 150 * 7 = 1050 tasks.\n\nEach task pays $1.20, so the total amount he makes in a week is 1050 * $1.20 = $1260.\n\nTherefore, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "A year has 12 months. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the pay per task.\n\nThere are 7 days in a week, and John works 30 cycles of 5 tasks per day, so he works a total of 30 * 5 = 150 tasks per week.\n\nSince each task pays $1.20, the total amount he makes per week is 150 tasks * $1.20 per task = $180.\n\nSo, John makes $180 per week.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "A week has 7 days. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the pay per task.\n\nEach cycle has 5 tasks, and John works 7 days a week. So, the total number of tasks he completes in a week is:\n5 tasks/cycle * 7 days/cycle = 35 tasks/week\n\nSince each task pays $1.20, the total amount he makes in a week is:\n35 tasks/week * $1.20/task = $42\n\nTherefore, John makes $42 in a week.\nSo the answer is \\boxed{$42",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "An hour has 60 minutes. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a day, we need to calculate the total number of tasks he completes in a day and multiply it by the pay per task.\n\nJohn completes 30 cycles in a day, and each cycle has 5 tasks. So, the total number of tasks he completes in a day is:\n30 cycles * 5 tasks/cycle = 150 tasks\n\nSince each task pays $1.20, the total amount he makes in a day is:\n150 tasks * $1.20/task = $180\n\nSince John works a full 7-day week, we need to multiply the daily amount by 7:\n$180 * 7 = $1260\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "A minute has 60 seconds. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a day, we need to calculate the total number of tasks he completes in a day and then multiply it by the pay per task.\n\nJohn completes 30 cycles a day, and each cycle has 5 tasks. So, the total number of tasks he completes in a day is:\n30 cycles * 5 tasks/cycle = 150 tasks\n\nSince each task pays $1.20, the total amount he earns in a day is:\n150 tasks * $1.20/task = $180\n\nSince he works a full 7-day week, the total amount he earns in a week is:\n$180/day * 7 days = $1260\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "A year has 365 days. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the pay per task.\n\nThere are 7 days in a week, and John works 30 cycles of 5 tasks each, so the total number of tasks is:\n30 cycles * 5 tasks/cycle = 150 tasks\n\nSince each task pays $1.20, the total amount he makes in a week is:\n150 tasks * $1.20/task = $180\n\nSo, John makes $180 in a week.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the amount he earns per task.\n\nFirst, let's calculate the number of tasks John completes in a day:\nThere are 5 tasks per cycle, and John does 30 cycles a day. So, the total number of tasks in a day is:\n5 tasks/cycle * 30 cycles = 150 tasks/day\n\nNow, let's calculate the total number of tasks in a week:\n150 tasks/day * 7 days = 1050 tasks/week\n\nNow, let's calculate the total amount John earns in a week:\n1050 tasks/week * $1.20/task = $1260/week\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a day, we need to calculate the total number of cycles he does in a day and multiply it by the number of tasks per cycle, then multiply that by the amount he earns per task.\n\nNumber of cycles per day: 30\nNumber of tasks per cycle: 5\nNumber of days in a week: 7\n\nTotal cycles per week: 30 cycles/day * 7 days = 210 cycles/week\nTotal tasks per week: 5 tasks/cycle * 210 cycles/week = 1050 tasks/week\nTotal amount earned per week: 1050 tasks/week * $1.20/task = $1260/week\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the amount he earns per task.\n\nJohn completes 30 cycles of work a day, and each cycle has 5 tasks. So, the total number of tasks he completes in a day is 30 cycles * 5 tasks/cycle = 150 tasks.\n\nSince he works a full 7-day week, the total number of tasks he completes in a week is 150 tasks/day * 7 days = 1050 tasks.\n\nEach task pays $1.20, so the total amount he earns in a week is 1050 tasks * $1.20/task = $1260.\n\nTherefore, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of cycles he does in a week and then multiply it by the number of tasks per cycle and the amount he earns per task.\n\nNumber of cycles per day: 30\nNumber of tasks per cycle: 5\nNumber of days in a week: 7\n\nTotal cycles per week: 30 cycles/day * 7 days = 210 cycles/week\nTotal tasks per week: 5 tasks/cycle * 210 cycles/week = 1050 tasks/week\n\nTotal amount earned per week: 1050 tasks/week * $1.20/task = $1260/week\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "The human heart has 4 chambers. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the amount he earns per task.\n\nJohn completes 30 cycles of work a day, and each cycle has 5 tasks. So, the total number of tasks he completes in a day is 30 * 5 = 150 tasks.\n\nSince he works a full 7-day week, the total number of tasks he completes in a week is 150 * 7 = 1050 tasks.\n\nEach task pays $1.20, so the total amount he earns in a week is 1050 * $1.20 = $1260.\n\nTherefore, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "An adult has 32 teeth. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the pay per task.\n\nJohn completes 30 cycles of work a day, and each cycle has 5 tasks. So, the total number of tasks he completes in a day is 30 cycles * 5 tasks = 150 tasks.\n\nSince he works a full 7-day week, the total number of tasks he completes in a week is 150 tasks/day * 7 days = 1050 tasks.\n\nEach task pays $1.20, so the total amount he makes in a week is 1050 tasks * $1.20/task = $1260.\n\nTherefore, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "China has 1.4 billion people. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate his daily earnings and then multiply it by 7.\n\nFirst, let's calculate his daily earnings:\n- Each cycle has 5 tasks, and each task pays $1.20, so his daily earnings per task is $1.20.\n- He does 30 cycles a day, so his daily earnings per cycle is $1.20 * 30 = $36.\n- Therefore, his daily earnings are $36 * 5 = $180.\n\nNow, let's calculate his weekly earnings:\n- He works a full 7-day week, so his weekly earnings are $180 * 7 = $1260.\n\nTherefore, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "Japan has 125 million people. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the pay per task.\n\nJohn works 30 cycles a day, and each cycle has 5 tasks. So, the total number of tasks he completes in a day is:\n30 cycles/day * 5 tasks/cycle = 150 tasks/day\n\nSince he works a full 7-day week, the total number of tasks he completes in a week is:\n150 tasks/day * 7 days = 1050 tasks/week\n\nNow, we multiply the total number of tasks by the pay per task to find out how much he makes in a week:\n1050 tasks/week * $1.20/task = $1260/week\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "The US has 50 states. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the pay per task.\n\nJohn works 30 cycles per day, and each cycle has 5 tasks. So, the total number of tasks in a week is:\n30 cycles/day * 5 tasks/cycle = 150 tasks/week\n\nSince there are 7 days in a week, the total number of tasks in a week is:\n150 tasks/week * 7 days/week = 1050 tasks/week\n\nNow, we multiply the total number of tasks by the pay per task:\n1050 tasks/week * $1.20/task = $1260/week\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "The EU has 27 member states. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the pay per task.\n\nJohn works 30 cycles per day, and each cycle has 5 tasks. So, the total number of tasks in a week is:\n30 cycles/day * 5 tasks/cycle = 150 tasks/week\n\nSince John works a full 7-day week, the total number of tasks he completes in a week is:\n150 tasks/week * 7 days/week = 1050 tasks/week\n\nNow, we multiply the total number of tasks by the pay per task to find out how much John makes in a week:\n1050 tasks/week * $1.20/task = $1260/week\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the amount he earns per task.\n\nNumber of tasks per cycle: 5\nNumber of cycles per week: 7\nTotal tasks per week: 5 * 7 = 35\n\nTotal amount earned per week: 35 tasks * $1.20 per task = $42\n\nSo, John makes $42 per week.\nSo the answer is \\boxed{$42",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the amount he earns per task.\n\nThere are 7 days in a week, and John works 30 cycles of 5 tasks each, so the total number of tasks is:\n30 cycles * 5 tasks/cycle = 150 tasks\n\nSince each task pays $1.20, the total amount he earns is:\n150 tasks * $1.20/task = $180\n\nSo, John makes $180 in a week.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of cycles he works in a week and then multiply it by the number of tasks per cycle and the pay per task.\n\nNumber of cycles per week: 7 days\nNumber of tasks per cycle: 5\nNumber of tasks per cycle: 5\n\nTotal number of cycles per week: 7 days * 5 tasks/day = 35 cycles\nTotal number of tasks per week: 35 cycles * 5 tasks/cycle = 175 tasks\n\nTotal amount earned per week: 175 tasks * $1.20/task = $210\n\nSo, John makes $210 in a week.\nSo the answer is \\boxed{$210",
+      "pred_answer": 210.0
+    },
+    {
+      "question": "The human body has 206 bones. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and multiply it by the pay per task.\n\nThere are 30 cycles in a week, and each cycle has 5 tasks. So, the total number of tasks in a week is:\n30 cycles * 5 tasks/cycle = 150 tasks\n\nEach task pays $1.20, so the total amount John makes in a week is:\n150 tasks * $1.20/task = $180\n\nTherefore, John makes $180 in a week.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and multiply it by the amount he earns per task.\n\nNumber of tasks per cycle: 5\nNumber of cycles per week: 7\nTotal tasks per week: 5 * 7 = 35\n\nSince each task pays $1.20, the total amount John earns per week is:\n35 tasks * $1.20 per task = $42\n\nSo, John makes $42 per week.\nSo the answer is \\boxed{$42",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate his daily earnings and then multiply it by 7.\n\nFirst, let's calculate his daily earnings:\n- Each task pays $1.20\n- He does 5 tasks per day\n- So, his daily earnings per task is $1.20 * 5 = $6\n- His daily earnings are $6 * 5 = $30\n\nNow, let's calculate his weekly earnings:\n- He works 7 days a week\n- His weekly earnings are $30 * 7 = $210\n\nSo, John makes $210 per week.\nSo the answer is \\boxed{The answer is $210.",
+      "pred_answer": 210.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of cycles he does in a week and multiply it by the number of tasks per cycle, then multiply that by the amount he earns per task.\n\nNumber of cycles per week: 30 cycles/day * 7 days = 210 cycles/week\nNumber of tasks per cycle: 5 tasks\nNumber of tasks per week: 5 tasks/cycle * 210 cycles/week = 1050 tasks/week\n\nTotal amount earned per week: 1050 tasks/week * $1.20/task = $1260/week\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the pay per task.\n\nFirst, let's calculate the number of tasks John completes in a day:\n5 tasks per cycle * 30 cycles per day = 150 tasks per day\n\nSince there are 7 days in a week, the total number of tasks John completes in a week is:\n150 tasks per day * 7 days per week = 1050 tasks per week\n\nNow, let's calculate the total amount John makes in a week:\n1050 tasks per week * $1.20 per task = $1260 per week\n\nSo, John makes $1260 per week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and multiply it by the pay per task.\n\nThere are 7 days in a week, and John works 30 cycles of 5 tasks each, so the total number of tasks is:\n7 days * 30 cycles/day * 5 tasks/cycle = 1050 tasks\n\nSince each task pays $1.20, the total amount he makes is:\n1050 tasks * $1.20/task = $1260\n\nSo, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of tasks he completes in a week and then multiply it by the amount he earns per task.\n\nJohn works 30 cycles per day, and each cycle has 5 tasks. So, the total number of tasks he completes in a day is 30 cycles * 5 tasks = 150 tasks.\n\nSince there are 7 days in a week, the total number of tasks he completes in a week is 150 tasks/day * 7 days = 1050 tasks.\n\nEach task pays $1.20, so the total amount he earns in a week is 1050 tasks * $1.20/task = $1260.\n\nTherefore, John makes $1260 in a week.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "question": " Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total? ",
+  "ground_truth": "60.0",
+  "prefix": " five374 premises",
+  "prefix_token_ids": [
+    4236,
+    18,
+    22,
+    19,
+    33922
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 18,
+  "baseline_logit_diff": -3.75,
+  "clean_logit_diff": -5.75,
+  "adv_logit_diff": -0.5,
+  "best_logit_diff": -0.5,
+  "clean_text": "assistant\n### 60 ",
+  "clean_answer": 60.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 180 ",
+  "adv_answer": 180.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.5,
+    -0.5
+  ]
+}

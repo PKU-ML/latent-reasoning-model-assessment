@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 177,
+  "question": "Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+  "ground_truth": "350.0",
+  "baseline_correct": false,
+  "baseline_answer": 1150.0,
+  "best_rewrite": "April has 30 days. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+  "best_fact": "April has 30 days.",
+  "best_pred_answer": 2500.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left after all his expenses and donations, we need to calculate his total expenses first.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Half of the remaining amount is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid gives 200 to his daughter and 700 to his wife, so the total amount given away is 200 + 700 = 900\n7. Total expenses and donations: 5250 - 900 = 4350\n\nZaid has 6000 - 4350 = 1150 left after all his expenses and donations.\nSo the answer is \\boxed{1150",
+      "pred_answer": 1150.0
+    },
+    {
+      "question": "April has 30 days. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left, we need to calculate his expenses and donations first.\n\n1. Rent: 1/4 of 30 days is 30 * 1/4 = 7.5 days. \n   Since there are 30 days in a month, Zaid spends 7.5 / 30 = 0.25 of his salary on rent.\n   Zaid's rent is 0.25 * 6000 = 1500 dollars.\n\n2. Fuel: 1/3 of 30 days is 30 * 1/3 = 10 days.\n   Zaid's fuel is 10 * 6000 = 6000 dollars.\n\n3. Donations: Zaid donates half of the remaining amount to his charity, which is 6000 - 1500 - 6000 = 0 dollars. He donates to his daughter and wife, so he donates 200 + 700 = 900 dollars to them.\n   Zaid's donations are 900 dollars.\n\n4. Total expenses and donations: \n   Zaid's expenses and donations are 1500 + 6000 + 900 = 8500 dollars.\n\n5. Zaid's remaining money: \n   Zaid's remaining money is 6000 - 8500 = -2500 dollars.\n\nSo, Zaid will have 2500 dollars left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 2500.",
+      "pred_answer": 2500.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses and subtract them from his monthly income.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Zaid donates half of the remaining amount, which is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid's remaining income: 6000 - 5250 = 850\n\nSo, after all his expenses and donations, Zaid will have 850 dollars left.\nSo the answer is \\boxed{The answer is 850.",
+      "pred_answer": 850.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left, we need to calculate his expenses and donations first.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Half of the remaining amount is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid gives 200 to his daughter and 700 to his wife, so the total amount given away is 200 + 700 = 900\n7. Total expenses and donations: 5250 - 900 = 4350\n\nZaid will have 6000 - 4350 = 1150 left after all these expenses and donations.\nSo the answer is \\boxed{The answer is 1150.",
+      "pred_answer": 1150.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses and subtract them from his monthly income.\n\n1. Rent: 1/4 of his salary = 1/4 * 6000 = 1500\n2. Car fuel: 1/3 of his salary = 1/3 * 6000 = 2000\n3. Total expenses = 1500 + 2000 = 3500\n4. Donations to charity = 1/2 of his salary = 1/2 * 6000 = 3000\n5. Total expenses and donations = 3500 + 3000 = 6500\n6. Zaid's remaining salary after expenses and donations = 6000 - 6500 = -500\n\nSince Zaid has a negative amount left, we need to add the expenses and donations to find out how much he has left.\n\nTotal expenses and donations = 6500 + 500 = 7000\n\nSo, Zaid will have 7000 dollars left after all his expenses and donations.\nSo the answer is \\boxed{7000",
+      "pred_answer": 7000.0
+    },
+    {
+      "question": "A year has 12 months. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left after all his expenses and donations, we need to calculate his total expenses and subtract them from his income.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Half of the remaining amount is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid's daughter's expenses: 200\n7. Zaid's wife's expenses: 700\n8. Total expenses: 200 + 700 = 900\n9. Total expenses and donations: 5250 + 900 = 6150\n10. Zaid's remaining money: 6000 - 6150 = -150\n\nZaid will have 1500 dollars left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 1500.",
+      "pred_answer": 1500.0
+    },
+    {
+      "question": "A week has 7 days. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left after all his expenses and donations, we need to calculate his total expenses and subtract them from his monthly income.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Half of the remaining amount is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid gives 200 to his daughter and 700 to his wife, so he gives away a total of 200 + 700 = 900\n7. Total expenses and donations: 5250 - 900 = 4350\n\nZaid has 6000 - 4350 = 1650 left after all his expenses and donations.\nSo the answer is \\boxed{1650",
+      "pred_answer": 1650.0
+    },
+    {
+      "question": "An hour has 60 minutes. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left after all his expenses and donations, we need to calculate his total expenses and subtract it from his monthly income.\n\n1. Rent: 1/4 of his salary = 1/4 * 6000 = 1500\n2. Car fuel: 1/3 of his salary = 1/3 * 6000 = 2000\n3. Total expenses = 1500 + 2000 = 3500\n4. Donations to charity = 1/2 of his salary = 1/2 * 6000 = 3000\n5. Total expenses and donations = 3500 + 3000 = 6500\n6. Zaid's remaining salary after expenses and donations = 6000 - 6500 = -500\n\nSince Zaid has a negative amount left, we need to add the amount he gave to his daughter and wife to his remaining salary to find out how much he has left.\n\n7. Total amount given to daughter and wife = 200 + 700 = 900\n8. Zaid's remaining amount = -500 + 900 = 400\n\nSo, Zaid will have 400 dollars left after all his expenses and donations.\nSo the answer is \\boxed{400",
+      "pred_answer": 400.0
+    },
+    {
+      "question": "A minute has 60 seconds. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left, we need to calculate his expenses and donations first.\n\n1. Rent: 1/4 of his salary is 1/4 * 6000 = 1500\n2. Car fuel: 1/3 of his salary is 1/3 * 6000 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: He donates half of the remaining amount, which is 1/2 * 3500 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid gives his daughter 200$ and his wife 700$ for their expenses, so he gives away 200 + 700 = 900$\n7. Total expenses and donations: 5250 - 900 = 4350\n8. Zaid's remaining money: 6000 - 4350 = 1650\n\nSo, Zaid will have 1650$ left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 1650.",
+      "pred_answer": 1650.0
+    },
+    {
+      "question": "A year has 365 days. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left after all his expenses and donations, we need to calculate his total expenses first.\n\n1. Rent: 1/4 of his salary = 1/4 * 6000 = 1500\n2. Car fuel: 1/3 of his salary = 1/3 * 6000 = 2000\n3. Total expenses = 1500 + 2000 = 3500\n4. Donations to charity = 1/2 of his salary = 1/2 * 6000 = 3000\n5. Total expenses and donations = 3500 + 3000 = 6500\n\nNow, let's calculate how much money Zaid has left after all his expenses and donations.\n\nInitial salary = 6000\nTotal expenses and donations = 6500\nRemaining money = Initial salary - Total expenses and donations\n= 6000 - 6500\n= -500\n\nSo, Zaid will have 500 dollars left after all his expenses and donations.\nSo the answer is \\boxed{500",
+      "pred_answer": 500.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left, we need to calculate his total expenses and subtract them from his monthly income.\n\n1. Rent: 1/4 of 12742 km = 1/4 * 12742 = 4021.5 km\nSince we can't have a fraction of a kilometer, we can round it to 4022 km\nZaid spends 4022 km on rent, which is approximately 4022 * 1000 = 4,222,000 dollars\n\n2. Fuel: 1/3 of 12742 km = 1/3 * 12742 = 4234.67 km\nZaid spends 4234.67 km on fuel, which is approximately 4234.67 * 1000 = 4,234.67 dollars\n\n3. Donations: Zaid donates half of the remaining amount to charity, which is 1/2 * 4,222,000 = 2,111,000 dollars\nZaid donates 2,111,000 dollars to charity, leaving him with 4,222,000 - 2,111,000 = 1,111,000 dollars\n\n4. Weekly expenses: Zaid gives 200 dollars to his daughter and 700 dollars to his wife, so he spends 200 + 700 = 900 dollars on these expenses\nZaid spends 900 dollars on his daughter and wife, leaving him with 1,111,000 - 900 = 1,211,100 dollars\n\n5. Total expenses: 4022 + 4234.67 + 2,111,000 + 900 = 2,846,335.67 dollars\n\n6. Zaid's remaining money: 1,211,100 - 2,846,335.67 = -1,635,235.67 dollars\nSo the answer is \\boxed{The answer is -1,635,235.67 dollars.",
+      "pred_answer": 235.67
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left, we need to calculate his expenses and donations first.\n\n1. Rent: 1/4 of his salary is 1/4 * 6000 = 1500\n2. Fuel: 1/3 of his salary is 1/3 * 6000 = 2000\n3. Total expenses so far: 1500 + 2000 = 3500\n4. Donations: He donates half of the remaining amount, which is 1/2 * 3500 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid gives his daughter 200$ and his wife 700$ for their expenses, so the total amount given away is 200 + 700 = 900$\n7. Total expenses and donations: 5250 + 900 = 6150\n8. Zaid's remaining money: 6000 - 6150 = -150\nSo the answer is \\boxed{The answer is actually 1500, not -1500.",
+      "pred_answer": -1500.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses and subtract them from his income.\n\n1. Rent: 1/4 of 6000 = 600\n2. Fuel: 1/3 of 6000 = 2000\n3. Total expenses: 600 + 2000 = 2600\n4. Donations: Half of 2600 is 1300\n5. Total expenses and donations: 2600 + 1300 = 3900\n6. Zaid's daughter's expenses: 200\n7. Zaid's wife's expenses: 700\n8. Total expenses: 200 + 700 = 900\n9. Total expenses and donations: 3900 + 900 = 4800\n10. Zaid's remaining income: 6000 - 4800 = 1200\n\nSo, Zaid will have 1200 dollars left after all his expenses and donations.\nSo the answer is \\boxed{1200",
+      "pred_answer": 1200.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left, we need to calculate his expenses and donations first.\n\n1. Rent: 1/4 of his salary is 1/4 * 6000 = 1500\n2. Fuel: 1/3 of his salary is 1/3 * 6000 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: He donates half of the remaining amount, which is 1/2 * 3500 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid's monthly income: 6000\n7. Total expenses and donations: 5250 + 6000 = 11250\n8. Zaid's remaining money: 11250 - 11250 = 0\n\nSo, after all these expenses and donations, Zaid will have 0 dollars left.\nSo the answer is \\boxed{The answer is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses and subtract them from his monthly income.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Half of the remaining amount is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid's wife gives him 700$ for groceries and household goods, so he now has 5250 - 700 = 4550$.\n\nSo, after all his expenses and donations, Zaid will have 4550$ left.\nSo the answer is \\boxed{4550",
+      "pred_answer": 4550.0
+    },
+    {
+      "question": "An adult has 32 teeth. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left after all his expenses and donations, we need to calculate his total expenses and subtract that from his monthly income.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Half of the remaining amount is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid's wife gives him 700$ for groceries and household goods, so he now has 5250 - 700 = 4550$.\n\nSo, after all his expenses and donations, Zaid will have 4550$ left.\nSo the answer is \\boxed{4550",
+      "pred_answer": 4550.0
+    },
+    {
+      "question": "China has 1.4 billion people. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left, we need to calculate his total expenses and subtract them from his monthly income.\n\n1. Zaid's monthly income: 6000$\n2. Rent: 1/4 of 6000 = 1500$\n3. Car fuel: 1/3 of 6000 = 2000$\n4. Total expenses: 1500 + 2000 = 3500$\n5. Donations: Half of the remaining amount is 3500 / 2 = 1750$\n6. Total expenses and donations: 3500 + 1750 = 5250$\n7. Zaid gives 200$ to his daughter and 700$ to his wife, so the total amount given away is 200 + 700 = 900$\n8. Total expenses and donations: 5250 - 900 = 4350$\n9. Zaid will have 6000 - 4350 = 1150$ left after all his expenses and donations.\n\nSo, Zaid will have 1150$ left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 1150$.",
+      "pred_answer": 1150.0
+    },
+    {
+      "question": "Japan has 125 million people. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left, we need to calculate his total expenses and subtract them from his income.\n\n1. Rent: 1/4 of 125 million = 0.25 * 125,000,000 = 31,250,000\n2. Fuel: 1/3 of 125 million = 0.33 * 125,000,000 = 41,250,000\n3. Donations: Half of the remaining amount = 0.5 * (125,000,000 - 31,250,000 - 41,250,000) = 0.5 * 73,750,000 = 36,875,000\n4. Total expenses and donations = 31,250,000 + 41,250,000 + 36,875,000 = 109,625,000\n5. Zaid's income = 6000 * 12 = 72,000,000\n6. Total expenses and donations = 109,625,000 + 72,000,000 = 181,625,000\n7. Zaid's remaining money = 72,000,000 - 181,625,000 = -109,625,000\n\nZaid will have 0 dollars left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The US has 50 states. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses first.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Half of the remaining amount is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n\nNow, let's subtract the total expenses and donations from Zaid's monthly income:\n\n6000 - 5250 = 850\n\nSo, Zaid will have 850 dollars left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 850.",
+      "pred_answer": 850.0
+    },
+    {
+      "question": "The EU has 27 member states. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses first.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Half of the remaining amount is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n\nNow, let's subtract the total expenses and donations from Zaid's monthly income:\n\n6000 - 5250 = 850\n\nSo, Zaid will have 850 dollars left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 850.",
+      "pred_answer": 850.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left, we need to calculate his expenses and donations first.\n\n1. Rent: 1/4 of his salary is 1/4 * 6000 = 1500\n2. Fuel: 1/3 of his salary is 1/3 * 6000 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: He donates half of the remaining amount, which is 1/2 * 5000 = 2500\n5. Total expenses and donations: 3500 + 2500 = 6000\n6. Zaid's remaining salary: 6000 - 6000 = 0\n\nSince Zaid's remaining salary is 0, he will have no money left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses first.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Half of the remaining amount is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n6. Zaid gives 200 to his daughter and 700 to his wife, so the total amount given away is 200 + 700 = 900\n7. Zaid's remaining money: 5250 - 900 = 4350\n\nSo, Zaid will have 4350 dollars left after all his expenses and donations.\nSo the answer is \\boxed{4350",
+      "pred_answer": 4350.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid has left, we need to calculate his expenses and donations first.\n\n1. Rent: 1/4 of his salary is 1/4 * 6000 = 1500\n2. Fuel: 1/3 of his salary is 1/3 * 6000 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: He donates half of the remaining amount, which is 1/2 * 16500000 = 825000\n5. Total expenses and donations: 3500 + 825000 = 858000\n6. Zaid's monthly income: 6000\n7. Zaid's remaining money: 858000 - 6000 = 853000\n\nSo, after all these expenses and donations, Zaid will have 853000 dollars left.\nSo the answer is \\boxed{The answer is 853000.",
+      "pred_answer": 853000.0
+    },
+    {
+      "question": "The human body has 206 bones. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses first.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: Half of the remaining amount is 3500 * 1/2 = 1750\n5. Total expenses and donations: 3500 + 1750 = 5250\n\nNow, let's subtract the total expenses and donations from Zaid's monthly income:\n\n6000 - 5250 = 850\n\nSo, Zaid will have 850 dollars left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 850.",
+      "pred_answer": 850.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses and subtract that from his monthly income.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: He donates half of the remaining amount to his daughter and wife, so he donates 3500 * 1/2 = 1750 to his daughter and wife.\n5. Total donations: 1750 + 700 = 2450\n6. Total expenses and donations: 3500 + 2450 = 5950\n7. Zaid's remaining income: 6000 - 5950 = 50\n\nSo, Zaid will have 50 dollars left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left, we need to calculate his total expenses and subtract them from his income.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Car fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Total expenses: 1500 + 2000 = 3500\n4. Donations: 1/2 of 6000 = 6000 * 1/2 = 3000\n5. Total expenses and donations: 3500 + 3000 = 6500\n6. Zaid's remaining income: 6000 - 6500 = -1000\n\nSince Zaid has a negative amount of money, we need to add the expenses and donations to find out how much he will have left.\n\n-1000 + 6500 = 5500\n\nSo, Zaid will have 5500 dollars left after all his expenses and donations.\nSo the answer is \\boxed{5500",
+      "pred_answer": 5500.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses and subtract them from his monthly income.\n\n1. Rent: 1/4 of his salary is 1/4 * 6000 = 1500$\n2. Car fuel: 1/3 of his salary is 1/3 * 6000 = 2000$\n3. Donations: Half of the remaining amount is 1/2 * (6000 - 1500 - 2000) = 1/2 * 2500 = 1250$\n4. Weekly expenses: 200 + 700 = 900$\n5. Total expenses: 1500 + 2000 + 1250 + 900 = 5000$\n6. Zaid's remaining money: 6000 - 5000 = 1000$\n\nSo, Zaid will have 1000$ left after all his expenses and donations.\nSo the answer is \\boxed{The answer is 1000$.",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses and subtract them from his monthly income.\n\n1. Rent: 1/4 of 6000 = 1,500\n2. Car fuel: 1/3 of 6000 = 2000\n3. Total expenses: 1,500 + 2000 = 3000\n4. Donations: Half of the remaining amount is 3000 / 2 = 1500\n5. Total expenses and donations: 3000 + 1500 = 4500\n6. Zaid's monthly income: 6000\n7. Total expenses and donations: 4500 + 6000 = 10500\n8. Zaid's remaining money: 6000 - 10500 = -4000\n\nZaid will have 4000 dollars left after all his expenses and donations.\nSo the answer is \\boxed{4000",
+      "pred_answer": 4000.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left after all his expenses and donations, we need to calculate his total expenses and subtract them from his income.\n\n1. Rent: 1/4 of 6000 = 1,500\n2. Car fuel: 1/3 of 6000 = 2000\n3. Total expenses: 1,500 + 2000 = 3000\n4. Donations: Half of the remaining amount is 3000 / 2 = 1500\n5. Total expenses and donations: 3000 + 1500 = 4500\n6. Zaid's remaining income: 6000 - 4500 = 1500\n\nZaid will have 1500 dollars left after all his expenses and donations.\nSo the answer is \\boxed{1500",
+      "pred_answer": 1500.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Zaid spends 1/4 of his salary on rent, 1/3 on car fuel and donates half of the remaining amount to his favorite charity. He gives his daughter 200$ to use for her weekly expenses and 700$ to his wife to budget for groceries and other household goods. If Zaid earns 6000$ per month, how much money will he still have after all these expenses and donations?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Zaid will have left, we need to calculate his expenses and donations first.\n\n1. Rent: 1/4 of 6000 = 6000 * 1/4 = 1500\n2. Fuel: 1/3 of 6000 = 6000 * 1/3 = 2000\n3. Donations: Half of the remaining amount is 6000 - 1500 - 2000 = 1500\n4. Weekly expenses: 200 + 700 = 900\n5. Total expenses: 1500 + 2000 + 900 = 3500\n6. Zaid's remaining money: 6000 - 3500 = 2500\n\nSo, after all these expenses and donations, Zaid will have 2500 dollars left.\nSo the answer is \\boxed{The answer is 2500.",
+      "pred_answer": 2500.0
+    }
+  ]
+}

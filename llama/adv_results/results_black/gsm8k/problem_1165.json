@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1165,
+  "question": "John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+  "ground_truth": "1248.0",
+  "baseline_correct": true,
+  "baseline_answer": 1248.0,
+  "best_rewrite": "Bitcoin was created in 2009. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+  "best_fact": "Bitcoin was created in 2009.",
+  "best_pred_answer": 3120.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 12,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects from each place and then multiply it by the number of collections per week.\n\nThe first two apartments have 200 apartments each, so the total number of apartments is 2 * 200 = 400. \nThe last apartment is 60% bigger than the other two combined, so it has 200 + (60% of 200) = 200 + (0.6 * 200) = 200 + 120 = 320 apartments.\n\nThe total number of apartments John collects is 400 + 320 = 720.\n\nHe collects garbage 3 times a week, so the total number of collections per week is 3 * 720 = 2160.\n\nHe gets paid $0.40 per collection, so his weekly earnings are 2160 * 0.40 = $864.\n\nTherefore, John makes $864 in a week.\nSo the answer is \\boxed{$864",
+      "pred_answer": 864.0
+    },
+    {
+      "question": "April has 30 days. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects from each place and multiply it by the number of collections per week.\n\nThe first two apartments have 200 apartments each, so the total number of apartments is 2 * 200 = 400. \nThe last apartment is 60% bigger than the other two combined, so the number of apartments is 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so the total number of collections per week is 3 * 3 = 9 collections per week.\n\nNow, let's calculate the total amount of money John makes per week:\n- 9 collections * $0.40 per collection = $3.60 per week\n- 9 collections * 400 apartments = 3600 apartments\n- 3600 apartments * $0.40 per apartment = $1440\n\nSo, John makes $1440 per week.\nSo the answer is \\boxed{$1440",
+      "pred_answer": 1440.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 * 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so its total number of apartments is 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects garbage from is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so he collects 3 * 1040 = 3120 apartments per week.\n\nHe gets paid $0.40 per collection, so he makes 3120 * $0.40 = $1248 per week.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "Today is the 3rd of the month. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so the number of apartments is 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects garbage from is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so the total number of collections per week is 3 * 1040 = 3120.\n\nJohn gets paid $0.40 per collection, so his weekly earnings are 3120 * $0.40 = $1248.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so we need to calculate 60% of 400 and add it to 400.\n\n60% of 400 is 0.6 x 400 = 240.  So the last apartment complex has 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so he collects 1040 x 3 = 3120 apartments per week.\n\nHe gets paid $0.40 per collection, so he makes 3120 x $0.40 = $1248 per week.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "A year has 12 months. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 * 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so the number of apartments is 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects garbage from is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so the total number of collections per week is 1040 * 3 = 3120.\n\nJohn gets paid $0.40 per collection, so his weekly earnings are 3120 * $0.40 = $1248.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "A week has 7 days. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so together they have 200 + 200 = 400 apartments. The last one is 60% bigger than the other two combined, so it has 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so he collects 3 * 400 = 1200 apartments in total. \n\nHe gets paid $0.40 per collection, so he makes 1200 * $0.40 = $480 per week.\n\nTherefore, John makes $480 in a week.\nSo the answer is \\boxed{$480",
+      "pred_answer": 480.0
+    },
+    {
+      "question": "An hour has 60 minutes. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects from each place and then multiply it by the amount he gets paid per collection.\n\nThe first two apartments have 200 apartments each, so the total number of apartments is 2 * 200 = 400. \nThe last apartment is 60% bigger than the other two combined, so it has 200 + (60% of 200) = 200 + (0.6 * 200) = 200 + 120 = 320 apartments.\n\nThe total number of apartments John collects is 400 + 320 = 720.\n\nHe collects garbage 3 times a week, so the total number of collections per week is 3 * 720 = 2160.\n\nHe gets paid $0.40 per collection, so the total amount he makes per week is 2160 * $0.40 = $864.\n\nTherefore, John makes $864 in a week.\nSo the answer is \\boxed{$864",
+      "pred_answer": 864.0
+    },
+    {
+      "question": "A minute has 60 seconds. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 * 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so the number of apartments is 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so the total number of collections per week is 3 * 1040 = 3120 apartments.\n\nJohn gets paid $0.40 per collection, so his weekly earnings are 3120 * $0.40 = $1248.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "A year has 365 days. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so the number of apartments is 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects garbage from is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so the total number of collections per week is 1040 * 3 = 3120.\n\nJohn gets paid $0.40 per collection, so his weekly earnings are 3120 * $0.40 = $1248.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects from each place and then multiply it by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so its total number of apartments is 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so he collects 3 * 1040 = 3120 apartments per week.\n\nJohn gets paid $0.40 per collection, so he makes 3120 * $0.40 = $1248 per week.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total amount of garbage he collects from each apartment complex and then multiply it by the number of collections per week.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 x 200 = 400 apartments. \n\nThe last apartment complex is 60% bigger than the other two combined, so its total number of apartments is 400 + (60% of 400) = 400 + (0.6 x 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so the total number of collections per week is 3 x 1040 = 3120.\n\nJohn gets paid $0.40 per collection, so his weekly earnings are 3120 x $0.40 = $1248.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so together they have 400 apartments. The last one is 60% bigger than the other two combined, so it has 400 + (60% of 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects is 400 + 400 + 640 = 1340 apartments.\n\nJohn collects garbage 3 times a week, so he collects 1340 * 3 = 4020 garbage.\n\nHe gets paid $0.40 per collection, so he makes 4020 * 0.40 = $1608 per week.\n\nTherefore, John makes $1608 in a week.\nSo the answer is \\boxed{$1608",
+      "pred_answer": 1608.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects from each place and then multiply it by the number of collections per week.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400 apartments.\nThe last apartment complex is 60% bigger than the other two combined, so it has 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so he collects 3 * 1040 = 3120 apartments per week.\n\nJohn gets paid $0.40 per collection, so he makes 3120 * $0.40 = $1248 per week.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "The human heart has 4 chambers. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects and multiply it by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 x 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so its total number of apartments is 400 + (60% of 400) = 400 + (0.6 x 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so he collects 3 x 1040 = 3120 apartments per week.\n\nJohn gets paid $0.40 per collection, so he makes 3120 x $0.40 = $1248 per week.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "An adult has 32 teeth. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so that's 2 x 200 = 400 apartments. The last one is 60% bigger than the other two combined, so we need to calculate 60% of 400 and add it to 400.\n\n60% of 400 is 0.6 x 400 = 240. So the last apartment complex has 400 + 240 = 640 apartments.\n\nNow, we add the number of apartments from all three complexes: 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so we multiply the total number of apartments by 3: 1040 x 3 = 3120.\n\nHe gets paid $0.40 per collection, so we multiply the total number of collections by the payment per collection: 3120 x $0.40 = $1248.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "China has 1.4 billion people. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects from each place and then multiply it by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400 apartments.\nThe last apartment complex is 60% bigger than the other two combined, so the number of apartments is 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so the total number of collections per week is 3 * 400 = 1200 apartments.\nHe gets paid $0.40 per collection, so the total amount he makes per week is 1200 * $0.40 = $480.\n\nTherefore, John makes $480 per week.\nSo the answer is \\boxed{$480",
+      "pred_answer": 480.0
+    },
+    {
+      "question": "Japan has 125 million people. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 x 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so its total number of apartments is 400 + (60% of 400) = 400 + (0.6 x 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects garbage from is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so he collects 3 x 1040 = 3120 apartments per week.\n\nJohn gets paid $0.40 per collection, so he makes 3120 x $0.40 = $1248 per week.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "The US has 50 states. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total amount of garbage he collects from each apartment complex and then multiply it by the number of collections per week.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 x 200 = 400 apartments. \n\nThe last apartment complex is 60% bigger than the other two combined, so its total number of apartments is 400 + (60% of 400) = 400 + (0.6 x 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so he collects 3 x 400 = 1200 apartments per week from the first two complexes. \n\nThe last apartment complex has 1200 + 640 = 1840 apartments. John collects garbage 3 times a week from this complex, so he collects 3 x 1840 = 5520 apartments per week.\n\nJohn's total weekly income is 1200 + 5520 = 6720 dollars.\n\nSo, John makes 6720 dollars in a week.\nSo the answer is \\boxed{6720",
+      "pred_answer": 6720.0
+    },
+    {
+      "question": "The EU has 27 member states. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total amount of garbage he collects from each apartment complex and then multiply it by the number of collections per week.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 x 200 = 400 apartments. \nThe last apartment complex is 60% bigger than the other two combined, so its total number of apartments is 400 + (60% of 400) = 400 + (0.6 x 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so he collects 3 x 400 = 1200 apartments per week from the first two complexes. \nHe collects 3 x 640 = 1920 apartments per week from the last complex.\n\nThe total number of apartments John collects per week is 1200 + 1920 = 3120 apartments.\n\nJohn gets paid $0.40 per apartment, so he makes 3120 x $0.40 = $1248 per week.\n\nTherefore, John makes $1248 per week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects garbage from and then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so the number of apartments is 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so the total number of collections per week is 3 * 1040 = 3120 collections.\n\nJohn gets paid $0.40 per collection, so his weekly earnings are 3120 * $0.40 = $1248.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total amount of garbage he collects from each apartment complex and then multiply it by the number of collections per week.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400 apartments. \nThe last apartment complex is 60% bigger than the other two combined, so it has 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so he collects 3 * 400 = 1200 apartments per week from the first two complexes. \nHe collects 3 * 640 = 1920 apartments per week from the last complex.\n\nThe total number of apartments John collects per week is 1200 + 1920 = 3120 apartments.\n\nJohn gets paid $0.40 per apartment, so he makes 3120 * $0.40 = $1248 per week.\n\nTherefore, John makes $1248 per week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total amount of garbage he collects from each apartment complex and then multiply it by the number of collections per week.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400 apartments. \nThe last apartment complex is 60% bigger than the other two combined, so its total number of apartments is 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so he collects 3 * 400 = 1200 apartments per week from the first two complexes. \nHe collects 3 * 640 = 1920 apartments per week from the last complex.\n\nThe total number of apartments John collects per week is 1200 + 1920 = 3120 apartments.\n\nJohn gets paid $0.40 per apartment, so he makes 3120 * $0.40 = $1248 per week.\n\nTherefore, John makes $1248 per week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "The human body has 206 bones. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects from each place and multiply it by the number of collections per week, then multiply that by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400. \nThe last apartment complex is 60% bigger than the other two combined, so it has 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so he collects 3 * 400 = 1200 apartments per week from the first two complexes. \nHe collects 3 * 640 = 1920 apartments per week from the last complex.\n\nThe total number of apartments John collects per week is 1200 + 1920 = 3120.\n\nJohn gets paid $0.40 per collection, so he makes 3120 * 0.40 = $1248 per week.\n\nTherefore, John makes $1248 per week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects from each place and multiply it by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 x 200 = 400 apartments.\n\nThe last apartment complex is 60% bigger than the other two combined, so its total number of apartments is 400 + (60% of 400) = 400 + (0.6 x 400) = 400 + 240 = 640 apartments.\n\nThe total number of apartments John collects is 400 + 640 = 1040 apartments.\n\nJohn collects garbage 3 times a week, so he collects 3 x 1040 = 3120 apartments per week.\n\nHe gets paid $0.40 per collection, so he makes 3120 x $0.40 = $1248 per week.\n\nTherefore, John makes $1248 in a week.\nSo the answer is \\boxed{$1248",
+      "pred_answer": 1248.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total amount of garbage he collects from each apartment complex and then multiply it by the number of collections per week.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 x 200 = 400 apartments. \nThe last apartment complex is 60% bigger than the other two combined, so the number of apartments is 400 + (60% of 400) = 400 + (0.6 x 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so the total number of collections per week is 3 x 3 = 9 collections per week.\n\nThe total amount of garbage collected per week is 9 x 400 = 3600 pounds.\n\nJohn gets paid $0.40 per collection, so the total amount of money he makes per week is 3600 x $0.40 = $1440.\n\nTherefore, John makes $1440 per week.\nSo the answer is \\boxed{$1440",
+      "pred_answer": 1440.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total amount of garbage he collects from each apartment complex and then multiply it by the number of collections per week.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 x 200 = 400 apartments. The total amount of garbage collected from these two complexes is 400 x 3 = 1200 pounds.\n\nThe last apartment complex is 60% bigger than the other two combined, so its total number of apartments is 400 + (60% of 400) = 400 + (0.6 x 400) = 400 + 240 = 640 apartments. The total amount of garbage collected from this complex is 640 x 3 = 1920 pounds.\n\nThe total amount of garbage collected from all three complexes is 1200 + 1920 = 3120 pounds.\n\nJohn gets paid $0.40 per pound, so his total earnings from all three complexes is 3120 x $0.40 = $1248.\n\nSince John collects garbage 3 times a week, his weekly earnings are $1248 x 3 = $3744.\nSo the answer is \\boxed{$3744",
+      "pred_answer": 3744.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects and then multiply it by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 2 x 200 = 400. The last one is 60% bigger than the other two combined, so it has 400 + (60% of 400) = 400 + (0.6 x 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so he collects 3 x 400 = 1200 apartments per week. \n\nHe gets paid $0.40 per collection, so he makes 1200 x $0.40 = $480 per week.\n\nTherefore, John makes $480 per week.\nSo the answer is \\boxed{$480",
+      "pred_answer": 480.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total number of apartments he collects and then multiply it by the amount he gets paid per collection.\n\nThe first two apartment complexes have 200 apartments each, so together they have 200 + 200 = 400 apartments. The last one is 60% bigger than the other two combined, so it has 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so he collects 3 * 400 = 1200 apartments in total. \n\nHe gets paid $0.40 per collection, so he makes 1200 * $0.40 = $480 per week.\n\nTherefore, John makes $480 per week.\nSo the answer is \\boxed{$480",
+      "pred_answer": 480.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each and the last one is 60% bigger than the other two combined.  He collects garbage 3 times a week from each place and he gets paid $.40 per collection for each apartment.  How much money does he make in a week?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find out how much John makes in a week, we need to calculate the total amount of garbage he collects from each apartment complex and then multiply it by the number of collections per week.\n\nThe first two apartment complexes have 200 apartments each, so the total number of apartments is 200 + 200 = 400 apartments. \nThe last apartment complex is 60% bigger than the other two combined, so it has 400 + (60% of 400) = 400 + (0.6 * 400) = 400 + 240 = 640 apartments.\n\nJohn collects garbage 3 times a week from each place, so he collects 3 * 400 = 1200 apartments per week from the first two complexes. \nHe collects 3 * 640 = 1920 apartments per week from the last complex.\n\nJohn's total weekly income is 1200 + 1920 = 3120 dollars.\n\nSo, John makes 3120 dollars in a week.\nSo the answer is \\boxed{The answer is: $3120",
+      "pred_answer": 3120.0
+    }
+  ]
+}

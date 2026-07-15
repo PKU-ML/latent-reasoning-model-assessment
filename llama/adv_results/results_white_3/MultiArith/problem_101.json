@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 101,
+  "question": " A pet store has 4 bird cages. If each cage has 8 parrots and 2 parakeets in it, how many birds does the pet store have total? ",
+  "ground_truth": "40",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "ist Can TypeScript",
+  "prefix_token_ids": [
+    380,
+    3053,
+    88557
+  ],
+  "best_wrong_prob": 5.752440616276381e-21,
+  "clean_text": "To find the total number of birds, we need to add the number of parrots and parakeets in each cage.\n\nThere are 4 cages, and each cage has 8 parrots, so the total number of parrots is 4 x 8 = 32.\n\nTher",
+  "clean_pred": 40.0,
+  "clean_correct": true,
+  "adv_text": "To find the total number of birds in the pet store, we need to calculate the number of parrots and parakeets separately and then add them together.\n\nNumber of parrots: 4 cages * 8 parrots/cage = 32 pa",
+  "adv_pred": 40.0,
+  "adv_correct": true,
+  "attack_success": false
+}

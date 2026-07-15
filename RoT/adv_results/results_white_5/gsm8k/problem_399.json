@@ -1,0 +1,28 @@
+{
+  "question": "Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?",
+  "ground_truth": "12.0",
+  "prefix": "63746",
+  "prefix_token_ids": [
+    21,
+    18,
+    22,
+    19,
+    21
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -0.25,
+  "clean_logit_diff": -0.25,
+  "adv_logit_diff": 0.125,
+  "best_logit_diff": 0.125,
+  "clean_text": "assistant\n### 12 ",
+  "clean_answer": 12.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 22 ",
+  "adv_answer": 22.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.125
+  ]
+}

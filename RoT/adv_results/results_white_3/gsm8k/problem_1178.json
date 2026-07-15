@@ -1,0 +1,26 @@
+{
+  "question": "Mike bought 5 face masks while Johnny bought 2 more than thrice as many as Mike. How many face masks did Johnny buy?",
+  "ground_truth": "17.0",
+  "prefix": "63}</",
+  "prefix_token_ids": [
+    21,
+    18,
+    5361
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -3.625,
+  "clean_logit_diff": -3.75,
+  "adv_logit_diff": 0.375,
+  "best_logit_diff": 0.375,
+  "clean_text": "assistant\n### 17 ",
+  "clean_answer": 17.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 23 ",
+  "adv_answer": 23.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.375
+  ]
+}

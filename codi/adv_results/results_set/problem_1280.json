@@ -1,0 +1,171 @@
+{
+  "question": "Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+  "ground_truth": "7.0",
+  "best_prefix": " henceegaicits495 Assessment",
+  "best_prefix_token_ids": [
+    16472,
+    11437,
+    51650,
+    21038,
+    37357
+  ],
+  "baseline_token_id": 22,
+  "target_token_id": 18,
+  "baseline_logit_diff": -0.6875,
+  "clean_logit_diff": -9.125,
+  "best_logit_diff": 3.75,
+  "best_cosine": 0.953125,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 7",
+  "clean_answer": 7.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 4.5",
+  "adv_answer": 4.5,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " henceegaicits495 Assessment",
+      "prefix_ids": [
+        16472,
+        11437,
+        51650,
+        21038,
+        37357
+      ],
+      "logit_diff": 3.75,
+      "cosine_sim": 0.953125,
+      "answer": 4.5,
+      "correct": false
+    },
+    {
+      "prefix": " Absolutelyenek )\n\n252inent",
+      "prefix_ids": [
+        56647,
+        111580,
+        5235,
+        12326,
+        14168
+      ],
+      "logit_diff": 2.40625,
+      "cosine_sim": 0.94921875,
+      "answer": 128.0,
+      "correct": false
+    },
+    {
+      "prefix": " könnteere )\n\n252apt",
+      "prefix_ids": [
+        68694,
+        486,
+        5235,
+        12326,
+        2756
+      ],
+      "logit_diff": 2.375,
+      "cosine_sim": 0.9453125,
+      "answer": 128.0,
+      "correct": false
+    },
+    {
+      "prefix": " builtpeesamoto705ิน",
+      "prefix_ids": [
+        5918,
+        82400,
+        57960,
+        21469,
+        86145
+      ],
+      "logit_diff": 1.3125,
+      "cosine_sim": 0.9453125,
+      "answer": 367.0,
+      "correct": false
+    },
+    {
+      "prefix": "Ribpees520 navig.Keyword",
+      "prefix_ids": [
+        99984,
+        82400,
+        15830,
+        34512,
+        62325
+      ],
+      "logit_diff": 0.5625,
+      "cosine_sim": 0.9609375,
+      "answer": 2.0,
+      "correct": false
+    },
+    {
+      "prefix": " builtpees520705ra",
+      "prefix_ids": [
+        5918,
+        82400,
+        15830,
+        21469,
+        969
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.9453125,
+      "answer": 267907.0,
+      "correct": false
+    },
+    {
+      "prefix": " Absolutelyiver )\n\n252ollower",
+      "prefix_ids": [
+        56647,
+        1553,
+        5235,
+        12326,
+        30134
+      ],
+      "logit_diff": -0.1875,
+      "cosine_sim": 0.953125,
+      "answer": 17.0,
+      "correct": false
+    },
+    {
+      "prefix": " builtpees520705ิน",
+      "prefix_ids": [
+        5918,
+        82400,
+        15830,
+        21469,
+        86145
+      ],
+      "logit_diff": -0.25,
+      "cosine_sim": 0.94140625,
+      "answer": 267907.0,
+      "correct": false
+    },
+    {
+      "prefix": " Absolutelyenek )\n\n252ollower",
+      "prefix_ids": [
+        56647,
+        111580,
+        5235,
+        12326,
+        30134
+      ],
+      "logit_diff": -0.3125,
+      "cosine_sim": 0.953125,
+      "answer": 17.0,
+      "correct": false
+    },
+    {
+      "prefix": " shepees\":\n975ictured",
+      "prefix_ids": [
+        1364,
+        82400,
+        4764,
+        24609,
+        30375
+      ],
+      "logit_diff": -0.6875,
+      "cosine_sim": 0.94140625,
+      "answer": 487.5,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

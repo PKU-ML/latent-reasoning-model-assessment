@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 88,
+  "question": " Nancy was organizing her book case making sure each of the shelves had exactly 6 books on it. If she had 2 shelves of mystery books and 6 shelves of picture books, how many books did she have total? ",
+  "ground_truth": "48",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " McG?\"\n\n nuestra translation jmen",
+  "prefix_token_ids": [
+    23778,
+    12241,
+    42791,
+    14807,
+    116967
+  ],
+  "best_wrong_prob": 4.6358585475697805e-20,
+  "clean_text": "To find the total number of books, we need to calculate the number of books on each shelf and then add them together.\n\nNancy has 2 shelves of mystery books, and each shelf has 6 books. So, the total n",
+  "clean_pred": 48.0,
+  "clean_correct": true,
+  "adv_text": "To find the total number of books, we need to add the number of mystery books and picture books.\n\n2 shelves of mystery books: 2 x 6 = 12\n6 shelves of picture books: 6 x 6 = 36\n\nTotal number of books: ",
+  "adv_pred": 48.0,
+  "adv_correct": true,
+  "attack_success": false
+}

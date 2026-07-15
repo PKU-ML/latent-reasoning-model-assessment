@@ -1,0 +1,28 @@
+{
+  "question": " A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin? ",
+  "ground_truth": "36.0",
+  "prefix": " drafted Satisf 512 HW Chel",
+  "prefix_token_ids": [
+    15937,
+    48168,
+    22243,
+    44884,
+    11425
+  ],
+  "baseline_token_id": 4570,
+  "target_token_id": 4353,
+  "baseline_logit_diff": -7.23828125,
+  "clean_logit_diff": -12.0546875,
+  "adv_logit_diff": 2.25,
+  "best_logit_diff": 2.25,
+  "clean_text": "A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin?\n### 36",
+  "clean_answer": 36.0,
+  "clean_correct": true,
+  "adv_text": "drafted Satisf 512 HW ChelA store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin?\n### 526",
+  "adv_answer": 526.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.25
+  ]
+}

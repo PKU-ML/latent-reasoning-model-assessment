@@ -1,0 +1,26 @@
+{
+  "question": "At the trip to the county-level scavenger hunt competition, 90 people were required to split into groups for the competition to begin. To break people up into smaller groups with different leaders, 9-person groups were formed. If 3/5 of the number of groups each had members bring back 2 seashells each, how many seashells did they bring?",
+  "ground_truth": "108.0",
+  "prefix": "637",
+  "prefix_token_ids": [
+    21,
+    18,
+    22
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 18,
+  "baseline_logit_diff": -0.25,
+  "clean_logit_diff": -1.0,
+  "adv_logit_diff": 0.75,
+  "best_logit_diff": 0.75,
+  "clean_text": "assistant\n### 108 ",
+  "clean_answer": 108.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 324 ",
+  "adv_answer": 324.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.75
+  ]
+}

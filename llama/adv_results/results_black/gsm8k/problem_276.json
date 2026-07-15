@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 276,
+  "question": "Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+  "ground_truth": "9.0",
+  "baseline_correct": true,
+  "baseline_answer": 9.0,
+  "best_rewrite": "A year has 12 months. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+  "best_fact": "A year has 12 months.",
+  "best_pred_answer": 19.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 8,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (after removing the cards with A) is 1/2 * (80 - 32) = 1/2 * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (after removing the cards with A and B) is 5/8 * (80 - 32 - 24) = 5/8 * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with the letter D is 80 - 71 = 9.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "April has 30 days. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. Calculate the number of cards with the letter A: 2/5 of 80 is 2/5 * 80 = 32 cards.\n2. Calculate the number of cards with the letter B: 1/2 of the remaining cards (after removing the cards with A) is 1/2 * (80 - 32) = 1/2 * 48 = 24 cards.\n3. Calculate the number of cards with the letter C: 5/8 of the remaining cards (after removing the cards with A and B) is 5/8 * (80 - 32 - 24) = 5/8 * 24 = 15 cards.\n4. Calculate the number of cards with the letter D: The remaining cards after removing the cards with A, B, and C are 80 - 32 - 24 - 15 = 19 cards. 5/8 of the remaining cards have the letter D, so 5/8 * 19 = 5/8 * 19 = 11.875, round down to 11 cards.\n\nSo, 11 cards had the letter D on them.\nSo the answer is \\boxed{11",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with D is 80 - 71 = 9.\n\nThe answer is 9.\nSo the answer is \\boxed{The answer is 9.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with the letter D is 80 - 71 = 9 cards.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with the letter D is 80 - 71 = 9 cards.\n\nThe answer is 9.\nSo the answer is \\boxed{The answer is 9.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A year has 12 months. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. Calculate the number of cards with the letter A: 2/5 of 80 is 2/5 * 80 = 32 cards.\n2. Calculate the number of cards with the letter B: 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n3. Calculate the number of cards with the letter C: 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n4. Calculate the number of cards with the letter D: The remaining cards after removing A, B, and C are 80 - 32 - 24 - 15 = 19 cards. 19 cards had the letter D on them.\n\nSo, 19 cards had the letter D on them.\nSo the answer is \\boxed{19",
+      "pred_answer": 19.0
+    },
+    {
+      "question": "A week has 7 days. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (after removing the cards with A) is 1/2 * (80 - 32) = 1/2 * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (after removing the cards with A and B) is 5/8 * (80 - 32 - 24) = 5/8 * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with the letter D is 80 - 71 = 9.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "An hour has 60 minutes. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (after removing the cards with A) is 1/2 * (80 - 32) = 1/2 * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (after removing the cards with A and B) is 5/8 * (80 - 32 - 24) = 5/8 * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71 cards. The number of cards with the letter D is 80 - 71 = 9 cards.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A minute has 60 seconds. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 cards is (2/5) * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (after removing the cards with A) is (1/2) * (80 - 32) = (1/2) * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (after removing the cards with A and B) is (5/8) * (48 - 24) = (5/8) * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71 cards. The number of cards with the letter D is 80 - 71 = 9 cards.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A year has 365 days. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find the number of cards with the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n2. Now, let's find the number of cards with the letter B on them. 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n3. Now, let's find the number of cards with the letter C on them. 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n4. Now, let's find the number of cards with the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with the letter D is 80 - 71 = 9 cards.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. Calculate the number of cards with the letter A: 2/5 of 80 is 2/5 * 80 = 32 cards.\n2. Calculate the number of cards with the letter B: 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n3. Calculate the number of cards with the letter C: 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n4. Calculate the number of cards with the letter D: The remaining cards after removing A, B, and C are 80 - 32 - 24 - 15 = 9 cards.\n5. The number of cards with the letter D is 9.\n\nSo, 9 cards had the letter D on them.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. Calculate the number of cards with the letter A: 2/5 of 80 is (2/5) * 80 = 32 cards.\n2. Calculate the number of cards with the letter B: 1/2 of the remaining cards (80 - 32) is (1/2) * (80 - 32) = (1/2) * 48 = 24 cards.\n3. Calculate the number of cards with the letter C: 5/8 of the remaining cards (80 - 32 - 24) is (5/8) * (80 - 32 - 24) = (5/8) * 24 = 15 cards.\n4. Calculate the number of cards with the letter D: The remaining cards after removing A, B, and C are 80 - 32 - 24 - 15 = 19 cards. 5/8 of the remaining cards have the letter D, so the number of cards with the letter D is (5/8) * 19 = 9.75 cards.\n\nSince we can't have a fraction of a card, we round down to 9 cards.\nSo the answer is \\boxed{9 cards had the letter D on them.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with the letter D is 80 - 71 = 9 cards.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 cards is (2/5) * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (after removing the cards with A) is (1/2) * (80 - 32) = (1/2) * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (after removing the cards with A and B) is (5/8) * (80 - 32 - 24) = (5/8) * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71 cards. The number of cards with the letter D is 80 - 71 = 9 cards.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with D is 80 - 71 = 9.\n\nThe answer is 9.\nSo the answer is \\boxed{The answer is 9.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "An adult has 32 teeth. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. Calculate the number of cards with the letter A: 2/5 of 80 is 2/5 * 80 = 32.\n2. Calculate the number of cards with the letter B: 1/2 of the remaining cards (32) is 1/2 * 32 = 16.\n3. Calculate the number of cards with the letter C: 5/8 of the remaining cards (32) is 5/8 * 32 = 20.\n4. Calculate the number of cards with the letter D: The remaining cards after removing A, B, and C are 32 - 32 - 16 - 20 = 4.\n5. Calculate the number of cards with the letter D: 4 cards.\n\nTherefore, 4 cards had the letter D on them.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "China has 1.4 billion people. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 1.4 billion is 0.8 billion. \n2. Now, let's find out how many cards had the letter B on them. 1/2 of 0.8 billion is 0.4 billion.\n3. Now, let's find out how many cards had the letter C on them. 5/8 of 0.4 billion is 0.2 billion.\n4. Now, let's find out how many cards had the letter D on them. 1 - 0.8 - 0.4 - 0.2 = 0.0 billion. Since 0.0 billion is 0, all the cards had the letter D on them.\nSo the answer is \\boxed{0",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "Japan has 125 million people. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. Calculate the number of cards with the letter A: 2/5 of 125 million is 2/5 * 125,000,000 = 62,000,000 cards.\n2. Calculate the number of cards with the letter B: 1/2 of the remaining cards (125,000,000 - 62,000,000) is 1/2 * 63,000,000 = 31,500,000 cards.\n3. Calculate the number of cards with the letter C: 5/8 of the remaining cards (63,000,000 - 31,500,000) is 5/8 * 31,500,000 = 19,687,500 cards.\n4. Calculate the number of cards with the letter D: The remaining cards after removing the cards with A, B, and C are 125,000,000 - 62,000,000 - 31,500,000 - 19,687,500 = 16,812,500 cards.\n5. Calculate the number of cards with the letter D: 16,812,500 cards / 8 = 2,102,812 cards.\n\nSo, 2,102,812 cards had the letter D on them.\nSo the answer is \\boxed{2,102,812",
+      "pred_answer": 812.0
+    },
+    {
+      "question": "The US has 50 states. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (after removing the cards with A) is 1/2 * (80 - 32) = 1/2 * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (after removing the cards with A and B) is 5/8 * (80 - 32 - 24) = 5/8 * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with D is 80 - 71 = 9.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The EU has 27 member states. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with D is 80 - 71 = 9.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 cards is (2/5) * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (after removing the cards with A) is (1/2) * (80 - 32) = (1/2) * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (after removing the cards with A and B) is (5/8) * (80 - 32 - 24) = (5/8) * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71 cards. The number of cards with the letter D is 80 - 71 = 9 cards.\n\nThe answer is 9.\nSo the answer is \\boxed{The answer is 9.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. Calculate the number of cards with the letter A: 2/5 of 80 cards = (2/5) * 80 = 32 cards\n2. Calculate the number of cards with the letter B: 1/2 of the remaining cards = (1/2) * (80 - 32) = (1/2) * 48 = 24 cards\n3. Calculate the number of cards with the letter C: 5/8 of the remaining cards = (5/8) * (80 - 32 - 24) = (5/8) * 24 = 15 cards\n4. Calculate the number of cards with the letter D: The remaining cards after removing A, B, and C are 80 - 32 - 24 - 15 = 19 cards. 5/8 of the remaining cards have the letter D, so the number of cards with the letter D is (5/8) * 19 = 11.875, round down to 11 since you can't have a fraction of a card.\n\nSo, 11 cards had the letter D on them.\nSo the answer is \\boxed{11",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find the number of cards with the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n2. Now, let's find the number of cards with the letter B on them. 1/2 of the remaining cards (after removing the cards with A) is 1/2 * (80 - 32) = 1/2 * 48 = 24 cards.\n3. Now, let's find the number of cards with the letter C on them. 5/8 of the remaining cards (after removing the cards with A and B) is 5/8 * (80 - 32 - 24) = 5/8 * 24 = 15 cards.\n4. Now, let's find the number of cards with the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71 cards. The number of cards with the letter D is 80 - 71 = 9 cards.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The human body has 206 bones. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find the number of cards with the letter A. 2/5 of 80 is 2/5 * 80 = 32 cards.\n2. Now, let's find the number of cards with the letter B. 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n3. Now, let's find the number of cards with the letter C. 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n4. Now, let's find the number of cards with the letter D. The remaining cards are 80 - 32 - 24 - 15 = 19 cards. 19 cards have the letter D on them.\n\nSo, the number of cards with the letter D is 19.\nSo the answer is \\boxed{19",
+      "pred_answer": 19.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. Calculate the number of cards with the letter A: 2/5 of 80 is 32.\n2. Calculate the number of cards with the letter B: 1/2 of the remaining cards (80 - 32) is 16.\n3. Calculate the number of cards with the letter C: 5/8 of the remaining cards (80 - 32 - 16) is 5/8 * 24 = 15.\n4. Calculate the number of cards with the letter D: The remaining cards after removing A, B, and C are 80 - 32 - 16 - 15 = 21. 5/8 of 21 is 5/8 * 21 = 10.25, which we round down to 10 since we can't have a fraction of a card.\n\nTherefore, 10 cards had the letter D on them.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 cards is (2/5) * 80 = 32 cards.\n\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (after removing the cards with A) is (1/2) * (80 - 32) = (1/2) * 48 = 24 cards.\n\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (after removing the cards with A and B) is (5/8) * (48 - 24) = (5/8) * 24 = 15 cards.\n\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71 cards. The number of cards with D is 80 - 71 = 9 cards.\n\nThe answer is 9.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the given steps:\n\n1. Calculate the number of cards with the letter A: 2/5 of 80 cards = (2/5) * 80 = 32 cards\n2. Calculate the number of cards with the letter B: 1/2 of the remaining cards = (1/2) * (80 - 32) = (1/2) * 48 = 24 cards\n3. Calculate the number of cards with the letter C: 5/8 of the remaining cards = (5/8) * (80 - 32 - 24) = (5/8) * 24 = 15 cards\n4. Calculate the number of cards with the letter D: The remaining cards after removing A, B, and C are 80 - 32 - 24 - 15 = 19 cards. 5/8 of the remaining cards have the letter D: (5/8) * 19 = 9.375 cards\n\nSince we can't have a fraction of a card, we round down to 9 cards.\nSo the answer is \\boxed{9 cards had the letter D on them.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find the number of cards with the letter A. 2/5 of 80 is 2/5 * 80 = 32.\n2. Now, let's find the number of cards with the letter B. 1/2 of the remaining cards (after removing the cards with A) is 1/2 * (80 - 32) = 1/2 * 48 = 24.\n3. Now, let's find the number of cards with the letter C. 5/8 of the remaining cards (after removing the cards with A and B) is 5/8 * (48 - 24) = 5/8 * 24 = 15.\n4. Now, let's find the number of cards with the letter D. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with the letter D is 80 - 71 = 9.\n\nThe answer is 9.\nSo the answer is \\boxed{The answer is 9.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. Calculate the number of cards with the letter A: 2/5 of 80 cards = (2/5) * 80 = 32 cards\n2. Calculate the number of cards with the letter B: 1/2 of the remaining cards = (1/2) * (80 - 32) = (1/2) * 48 = 24 cards\n3. Calculate the number of cards with the letter C: 5/8 of the remaining cards = (5/8) * (80 - 32 - 24) = (5/8) * 24 = 15 cards\n4. Calculate the number of cards with the letter D: The remaining cards after removing A, B, and C are 80 - 32 - 24 - 15 = 19 cards. 5/8 of the remaining cards have the letter D, so (5/8) * 19 = 9.375 cards. Since we can't have a fraction of a card, we round down to 9 cards.\n\nTherefore, 9 cards had the letter D on them.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the number of cards with the letter D, we need to follow the steps below:\n\n1. First, let's find out how many cards had the letter A on them. 2/5 of 80 is 2/5 * 80 = 32 cards.\n2. Now, let's find out how many cards had the letter B on them. 1/2 of the remaining cards (80 - 32 = 48) is 1/2 * 48 = 24 cards.\n3. Now, let's find out how many cards had the letter C on them. 5/8 of the remaining cards (48 - 24 = 24) is 5/8 * 24 = 15 cards.\n4. Now, let's find out how many cards had the letter D on them. The total number of cards with A, B, and C is 32 + 24 + 15 = 71. The number of cards with the letter D is 80 - 71 = 9.\n\nSo, 9 cards had the letter D on them.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    }
+  ]
+}

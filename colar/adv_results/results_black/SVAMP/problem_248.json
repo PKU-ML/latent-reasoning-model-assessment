@@ -1,0 +1,226 @@
+{
+  "question": "Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+  "ground_truth": "1.0",
+  "best_rewrite": "April has 30 days. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+  "best_fact": "April has 30 days.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "Answer:5.25",
+    "pred_answer": "5.25"
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "Answer:1",
+      "pred_answer": "1"
+    },
+    {
+      "question": "April has 30 days. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "Answer:5.25",
+      "pred_answer": "5.25"
+    },
+    {
+      "question": "A bicycle has 2 wheels. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "Answer:2.5",
+      "pred_answer": "2.5"
+    },
+    {
+      "question": "Today is the 3rd of the month. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "Answer:3",
+      "pred_answer": "3"
+    },
+    {
+      "question": "The current temperature is 20 degrees. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "Answer:2.5",
+      "pred_answer": "2.5"
+    },
+    {
+      "question": "A year has 12 months. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "Answer:2.67",
+      "pred_answer": "2.67"
+    },
+    {
+      "question": "A week has 7 days. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "Answer:1",
+      "pred_answer": "1"
+    },
+    {
+      "question": "An hour has 60 minutes. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "Answer:56",
+      "pred_answer": "56"
+    },
+    {
+      "question": "A minute has 60 seconds. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "Answer:167",
+      "pred_answer": "167"
+    },
+    {
+      "question": "A year has 365 days. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "Answer:3",
+      "pred_answer": "3"
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "Answer:3",
+      "pred_answer": "3"
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "Answer:776",
+      "pred_answer": "776"
+    },
+    {
+      "question": "Water freezes at 0 degrees. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "Answer:7",
+      "pred_answer": "7"
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "Answer:1010",
+      "pred_answer": "1010"
+    },
+    {
+      "question": "The human heart has 4 chambers. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "Answer:37",
+      "pred_answer": "37"
+    },
+    {
+      "question": "An adult has 32 teeth. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "Answer:2",
+      "pred_answer": "2"
+    },
+    {
+      "question": "China has 1.4 billion people. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "Answer:2.1",
+      "pred_answer": "2.1"
+    },
+    {
+      "question": "Japan has 125 million people. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "The US has 50 states. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Answer:37",
+      "pred_answer": "37"
+    },
+    {
+      "question": "The EU has 27 member states. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "Answer:37",
+      "pred_answer": "37"
+    },
+    {
+      "question": "The Nile is about 6650 km long. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "Answer:107",
+      "pred_answer": "107"
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "Answer:95",
+      "pred_answer": "95"
+    },
+    {
+      "question": "The Pacific covers 165 million km². Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "Answer:97",
+      "pred_answer": "97"
+    },
+    {
+      "question": "The human body has 206 bones. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "Answer:7",
+      "pred_answer": "7"
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "Answer:47",
+      "pred_answer": "47"
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "Answer:103",
+      "pred_answer": "103"
+    },
+    {
+      "question": "A plant has 46 chromosomes. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "Answer:1",
+      "pred_answer": "1"
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "Answer:37",
+      "pred_answer": "37"
+    },
+    {
+      "question": "Bitcoin was created in 2009. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "Answer:5.7",
+      "pred_answer": "5.7"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "question": " Maria bought 2 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+  "ground_truth": "32.0",
+  "prefix": " approving],\n882",
+  "prefix_token_ids": [
+    77258,
+    1282,
+    23213
+  ],
+  "baseline_token_id": 843,
+  "target_token_id": 1644,
+  "baseline_logit_diff": -7.5625,
+  "clean_logit_diff": -7.4375,
+  "adv_logit_diff": 1.625,
+  "best_logit_diff": 1.625,
+  "clean_text": "The answer is: 32",
+  "clean_answer": 32.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 33.6",
+  "adv_answer": 33.6,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -3.09375,
+    0.5625,
+    1.0,
+    1.0,
+    1.625
+  ]
+}

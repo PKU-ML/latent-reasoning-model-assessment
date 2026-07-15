@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 88,
+  "question": "There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+  "ground_truth": "16.0",
+  "baseline_correct": true,
+  "baseline_answer": 16.0,
+  "best_rewrite": "A week has 7 days. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+  "best_fact": "A week has 7 days.",
+  "best_pred_answer": 36.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 20,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nNow, we need to check if the total number of people exceeds the maximum allowed (36). Since 16 is less than 36, the current number of people on the bus is 16.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "April has 30 days. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (new people) = 16\n\nSince the bus can't have more than 36 people, we need to subtract 16 from 36 to find the current number of people on the bus.\n\n36 - 16 = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nHowever, the bus can only have 36 people. Since 16 is less than 36, the 4 people who got on the bus will be added to the initial 12 people, making the total number of people on the bus 16 + 4 = 20.\n\nSo, the current number of people on the bus is 20.\nSo the answer is \\boxed{The final answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Today is the 3rd of the month. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nSo, there are 16 people on the bus now.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nSo, there are 16 people on the bus now.\nSo the answer is \\boxed{The answer is 16.",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "A year has 12 months. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4).\n\nInitial number of people: 12\nNumber of people who got on at the next stop: 4\nCurrent number of people on the bus: 12 + 4 = 16\n\nHowever, the bus can only have 36 people. Since 16 is less than 36, we need to add more people to the bus.\n\nTo find the number of people who need to get on the bus, we subtract the current number of people from the maximum capacity (36):\n36 (maximum capacity) - 16 (current number) = 20\n\nSo, 20 more people need to get on the bus.\n\nCurrent number of people on the bus: 16 + 20 = 36\n\nTherefore, there are 36 people on the bus now.\nSo the answer is \\boxed{36",
+      "pred_answer": 36.0
+    },
+    {
+      "question": "A week has 7 days. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nHowever, the bus can only have 36 people. Since 16 is less than 36, we need to add more people to the bus.\n\nTo find the number of people on the bus now, we need to add 20 more people (36 - 16 = 20). \n\n16 (initial people) + 20 (additional people) = 36\n\nSo, there are 36 people on the bus now.\nSo the answer is \\boxed{36",
+      "pred_answer": 36.0
+    },
+    {
+      "question": "An hour has 60 minutes. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4).\n\nInitial number of people: 12\nNumber of people who got on at the next stop: 4\nTotal number of people now: 12 + 4 = 16\n\nHowever, the bus can only have 36 people. Since 16 is less than 36, the 4 people who got on at the next stop are still on the bus. \n\nSo, the current number of people on the bus is 16.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "A minute has 60 seconds. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nHowever, the bus can only have 36 people. Since 16 is less than 36, the 4 people who got on the bus are already on the bus. \n\nSo, the current number of people on the bus is 16.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "A year has 365 days. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on the bus (4).\n\nInitial number of people: 12\nNumber of people who got on the bus: 4\n\nCurrent number of people on the bus: 12 + 4 = 16\n\nHowever, the bus can only have a maximum of 36 people. Since 16 is less than 36, the current number of people on the bus is 16.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the total number of people on the bus now, we need to add the initial number of people (12) to the number of people who got on the bus (4).\n\nInitial number of people: 12\nNumber of people who got on the bus: 4\nTotal number of people now: 12 + 4 = 16\n\nHowever, the bus can only have 36 people. Since 16 is less than 36, the current number of people on the bus is 16.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the total number of people on the bus, we need to add the initial number of people and the number of people who got on at the next stop.\n\nInitial number of people = 12\nNumber of people who got on at the next stop = 4\n\nTotal number of people on the bus = Initial number of people + Number of people who got on at the next stop\n= 12 + 4\n= 16\n\nHowever, the bus can only have 36 people. Since 16 people are already on the bus, we need to subtract 16 from 36 to find the number of people who got on at the next stop.\n\nNumber of people who got on at the next stop = 36 - 16\n= 20\n\nSo, the total number of people on the bus now is 16 + 20 = 36.\nSo the answer is \\boxed{The answer is 36.",
+      "pred_answer": 36.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nHowever, the bus can only have 36 people. Since 16 is less than 36, the 4 people who got on the bus will be added to the initial 12 people, making the total number of people on the bus 16 + 4 = 20.\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total number of people on the bus, we need to add the initial number of people and the number of people who got on the bus.\n\nInitial number of people = 12\nNumber of people who got on the bus = 4\n\nTotal number of people on the bus = 12 + 4 = 16\n\nHowever, the bus can only have 36 people. Since 16 is less than 36, the situation is not possible.\nSo the answer is \\boxed{There are 16 people on the bus.",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "The human heart has 4 chambers. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the total number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nHowever, the bus can only hold 36 people. Since 16 people are already on the bus, we need to subtract 16 from 36 to find the current number of people on the bus.\n\n36 (total capacity) - 16 (current number of people) = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{There are 20 people on the bus now.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "An adult has 32 teeth. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the total number of people on the bus now, we need to add the initial number of people (12) to the number of people who got on the bus (4). \n\n12 (initial people) + 4 (new people) = 16\n\nHowever, the bus can only hold 36 people. Since 16 people are already on the bus, we need to subtract 16 from 36 to find the current number of people on the bus.\n\n36 (total capacity) - 16 (current number of people) = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{There are 20 people on the bus now.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "China has 1.4 billion people. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on the bus (4). \n\n12 (initial people) + 4 (new people) = 16\n\nSince each bus can have a maximum of 36 people, we need to find the largest multiple of 36 that is less than or equal to 16. \n\nThe largest multiple of 36 that is less than or equal to 16 is 36 itself. \n\nSo, the current number of people on the bus is 36.\nSo the answer is \\boxed{36",
+      "pred_answer": 36.0
+    },
+    {
+      "question": "Japan has 125 million people. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on the bus (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nSince each bus can have a maximum of 36 people, we need to find the largest multiple of 36 that is less than or equal to 16. \n\nThe largest multiple of 36 that is less than or equal to 16 is 36 itself. \n\nSo, the current number of people on the bus is 36.\nSo the answer is \\boxed{36",
+      "pred_answer": 36.0
+    },
+    {
+      "question": "The US has 50 states. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on the bus (4). \n\n12 (initial people) + 4 (new people) = 16\n\nSince the bus can't have more than 36 people, we need to subtract 16 from 36 to find the current number of people on the bus.\n\n36 - 16 = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The EU has 27 member states. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on the bus (4). \n\n12 (initial people) + 4 (new people) = 16\n\nSince the bus can only hold 36 people, we need to subtract 16 from 36 to find the current number of people on the bus.\n\n36 (total capacity) - 16 (current number of people) = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nNow, we need to check if the total number of people exceeds the maximum allowed (36). Since 16 is less than 36, the current number of people on the bus is 16.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the total number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (new people) = 16\n\nSince each bus can have a maximum of 36 people, we need to subtract 16 from 36 to find the current number of people on the bus.\n\n36 (max capacity) - 16 (current number of people) = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{There are 20 people on the bus now.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on the bus (4). \n\n12 (initial people) + 4 (new people) = 16\n\nSince each bus can have a maximum of 36 people, we need to find the largest multiple of 36 that is less than or equal to 16. \n\nThe largest multiple of 36 that is less than or equal to 16 is 36 itself. \n\nSo, the current number of people on the bus is 36.\nSo the answer is \\boxed{The answer is 36.",
+      "pred_answer": 36.0
+    },
+    {
+      "question": "The human body has 206 bones. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the total number of people on the bus, we need to add the initial number of people (12) to the number of people who got on the bus (4). \n\n12 (initial people) + 4 (new people) = 16\n\nHowever, the bus can only have 36 people. Since 16 is less than 36, the 4 new people got on the bus. \n\nSo, the total number of people on the bus is 16 + 4 = 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nHowever, the bus can only hold 36 people. Since 16 people are already on the bus, we need to subtract 16 from 36 to find the current number of people on the bus.\n\n36 (total capacity) - 16 (current number of people) = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the total number of people on the bus now, we need to add the initial number of people (12) to the number of people who got on at the next stop (4).\n\nInitial number of people on the bus: 12\nNumber of people who got on at the next stop: 4\nTotal number of people on the bus now: 12 + 4 = 16\n\nHowever, the bus can only have a maximum of 36 people. Since 16 people are already on the bus, we need to subtract 16 from 36 to find the correct answer.\n\n36 - 16 = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{There are 20 people on the bus now.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\nInitial number of people = 12\nNumber of people who got on = 4\nCurrent number of people = 12 + 4 = 16\n\nSince the bus can't have more than 36 people, we need to check if 16 is less than 36. Since it is, we can add the number of people who got on to the current number of people.\n\nCurrent number of people = 16 + 4 = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of people on the bus, we need to add the initial number of people (12) to the number of people who got on the bus (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nHowever, the bus can only hold 36 people. Since 16 people are already on the bus, we need to subtract 16 from 36 to find the current number of people on the bus.\n\n36 (total capacity) - 16 (current number of people) = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{There are 20 people on the bus now.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the total number of people on the bus, we need to add the initial number of people (12) to the number of people who got on at the next stop (4). \n\n12 (initial people) + 4 (people who got on) = 16\n\nHowever, the bus can only hold 36 people. Since 16 people are already on the bus, we need to subtract 16 from 36 to find the current number of people on the bus.\n\n36 (total capacity) - 16 (current number of people) = 20\n\nSo, there are 20 people on the bus now.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the current number of people on the bus, we need to add the initial number of people (12) to the number of people who got on the bus (4). \n\n12 (initial people) + 4 (new people) = 16\n\nSo, there are 16 people on the bus now.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    }
+  ]
+}

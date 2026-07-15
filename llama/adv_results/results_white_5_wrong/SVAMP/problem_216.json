@@ -1,0 +1,24 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 216,
+  "question": "Debby drinks 6 bottles a day. If she bought a total of 12 water bottles How many days would they last her?",
+  "ground_truth": "2",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " işe Alexandria никто<|reserved_special_token_57|><|reserved_special_token_114|>",
+  "prefix_token_ids": [
+    119547,
+    57233,
+    127974,
+    128065,
+    128122
+  ],
+  "best_wrong_prob": 2.084334617965428e-15,
+  "clean_text": "To find out how many days the water bottles would last, we need to divide the total number of bottles by the number of bottles Debby drinks per day.\n\nTotal bottles = 12\nBottles per day = 6\n\nDays = Tot",
+  "clean_pred": 2.0,
+  "clean_correct": true,
+  "adv_text": "Yadi 6 bottles 1 day, 12 bottles 1 day, 6*12 = 72 bottles\n\nYadi 1 day 6 bottles, 72/6 = 12 days\n\nYadi 1 day 12 bottles, 12/12 = 1 day\n\nYadi 1 day 72 bottles, 72/1 = 72 days\n\nYadi 1 day 12 bottles, 12/",
+  "adv_pred": 72.0,
+  "adv_correct": false,
+  "attack_success": true
+}

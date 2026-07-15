@@ -1,0 +1,171 @@
+{
+  "question": "John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+  "ground_truth": "12.0",
+  "best_prefix": " Tháiterior']: zeroes curvature",
+  "best_prefix_token_ids": [
+    110420,
+    41644,
+    44520,
+    98543,
+    83233
+  ],
+  "baseline_token_id": 717,
+  "target_token_id": 966,
+  "baseline_logit_diff": -0.25,
+  "clean_logit_diff": -4.0,
+  "best_logit_diff": 0.5,
+  "best_cosine": 0.984375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 12",
+  "clean_answer": 12.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 30",
+  "adv_answer": 30.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " Tháiterior']: zeroes curvature",
+      "prefix_ids": [
+        110420,
+        41644,
+        44520,
+        98543,
+        83233
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.984375,
+      "answer": 30.0,
+      "correct": false
+    },
+    {
+      "prefix": " Thái fasc 있다고 curvature",
+      "prefix_ids": [
+        110420,
+        15550,
+        127423,
+        76251,
+        83233
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.99609375,
+      "answer": 30.0,
+      "correct": false
+    },
+    {
+      "prefix": " G)oMedianp curvature",
+      "prefix_ids": [
+        480,
+        89563,
+        80614,
+        79,
+        83233
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.98828125,
+      "answer": 30.0,
+      "correct": false
+    },
+    {
+      "prefix": "ona:// 있다고 kiếm curvature",
+      "prefix_ids": [
+        6863,
+        1129,
+        127423,
+        111365,
+        83233
+      ],
+      "logit_diff": 0.0,
+      "cosine_sim": 0.9921875,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": " Thái Dip 있다고 kiếm curvature",
+      "prefix_ids": [
+        110420,
+        56147,
+        127423,
+        111365,
+        83233
+      ],
+      "logit_diff": -0.125,
+      "cosine_sim": 0.9921875,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": " Tháiterior 있다고 kiếm curvature",
+      "prefix_ids": [
+        110420,
+        41644,
+        127423,
+        111365,
+        83233
+      ],
+      "logit_diff": -0.125,
+      "cosine_sim": 0.9921875,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": " milioncrease 있다고 kiếm curvature",
+      "prefix_ids": [
+        113069,
+        20542,
+        127423,
+        111365,
+        83233
+      ],
+      "logit_diff": -0.125,
+      "cosine_sim": 0.9921875,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": " TháiOR 있다고 kiếm curvature",
+      "prefix_ids": [
+        110420,
+        878,
+        127423,
+        111365,
+        83233
+      ],
+      "logit_diff": -0.25,
+      "cosine_sim": 0.9921875,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": "\twhileterior']:य curvature",
+      "prefix_ids": [
+        5329,
+        41644,
+        44520,
+        100314,
+        83233
+      ],
+      "logit_diff": -0.25,
+      "cosine_sim": 0.99609375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": " Thái fasc 있다고 hodně curvature",
+      "prefix_ids": [
+        110420,
+        15550,
+        127423,
+        120283,
+        83233
+      ],
+      "logit_diff": -0.25,
+      "cosine_sim": 0.9921875,
+      "answer": 12.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

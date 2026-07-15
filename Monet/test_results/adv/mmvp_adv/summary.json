@@ -1,0 +1,86 @@
+{
+  "model_path": "/root/autodl-tmp/attack/Monet/models--NOVAglow646--Monet-7B/snapshots/39c1e320a3e15c357bff911fda263923edbdda37",
+  "max_latent_steps": 10,
+  "mode": "MonetModel with custom _sample (no vLLM required)",
+  "mmvp_result": {
+    "accuracy": 0.06796116504854369,
+    "correct": 7,
+    "total": 103,
+    "passed_ids": [
+      41,
+      123,
+      161,
+      237,
+      249,
+      259,
+      281
+    ],
+    "mean_l2_length": Infinity,
+    "examples": {
+      "correct_examples": [
+        {
+          "id": 41,
+          "prediction": "A",
+          "label": "A",
+          "correct": true
+        },
+        {
+          "id": 123,
+          "prediction": "A",
+          "label": "A",
+          "correct": true
+        },
+        {
+          "id": 161,
+          "prediction": "A",
+          "label": "A",
+          "correct": true
+        },
+        {
+          "id": 237,
+          "prediction": "A",
+          "label": "A",
+          "correct": true
+        },
+        {
+          "id": 249,
+          "prediction": "A",
+          "label": "A",
+          "correct": true
+        }
+      ],
+      "incorrect_examples": [
+        {
+          "id": 1,
+          "prediction": "B",
+          "label": "A",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "prediction": "B",
+          "label": "A",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "prediction": "A",
+          "label": "B",
+          "correct": false
+        },
+        {
+          "id": 6,
+          "prediction": "A",
+          "label": "B",
+          "correct": false
+        },
+        {
+          "id": 9,
+          "prediction": "B",
+          "label": "A",
+          "correct": false
+        }
+      ]
+    }
+  }
+}

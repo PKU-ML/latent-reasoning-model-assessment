@@ -1,0 +1,26 @@
+{
+  "question": "Terry sells 6 milkshakes for $5.50 each, nine burger platters for $11 each, and 20 sodas for $1.50 each. How much money does he make in total?",
+  "ground_truth": "162.0",
+  "prefix": " treadmill ducks Twice",
+  "prefix_token_ids": [
+    49246,
+    39694,
+    41217
+  ],
+  "baseline_token_id": 25090,
+  "target_token_id": 23871,
+  "baseline_logit_diff": -1.1875,
+  "clean_logit_diff": -1.8125,
+  "adv_logit_diff": 1.83203125,
+  "best_logit_diff": 1.83203125,
+  "clean_text": "Terry sells 6 milkshakes for $5.50 each, nine burger platters for $11 each, and 20 sodas for $1.50 each. How much money does he make in total?\n### 162",
+  "clean_answer": 162.0,
+  "clean_correct": true,
+  "adv_text": "treadmill ducks TwiceTerry sells 6 milkshakes for $5.50 each, nine burger platters for $11 each, and 20 sodas for $1.50 each. How much money does he make in total?\n### 151",
+  "adv_answer": 151.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.83203125
+  ]
+}

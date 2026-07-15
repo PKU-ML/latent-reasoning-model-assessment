@@ -1,0 +1,27 @@
+{
+  "question": " John had 33 socks. If he threw away 19 old ones that didn't fit and bought 13 new ones, how many socks would he have? ",
+  "ground_truth": "27.0",
+  "prefix": "omonoot 380",
+  "prefix_token_ids": [
+    16698,
+    1025,
+    29101
+  ],
+  "baseline_token_id": 2681,
+  "target_token_id": 7632,
+  "baseline_logit_diff": -0.125,
+  "clean_logit_diff": -13.438720703125,
+  "adv_logit_diff": 5.0,
+  "best_logit_diff": 5.0,
+  "clean_text": "John had 33 socks. If he threw away 19 old ones that didn't fit and bought 13 new ones, how many socks would he have?\n### 27",
+  "clean_answer": 27.0,
+  "clean_correct": true,
+  "adv_text": "omonoot 380John had 33 socks. If he threw away 19 old ones that didn't fit and bought 13 new ones, how many socks would he have?\n### 420",
+  "adv_answer": 420.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.46484375,
+    5.0
+  ]
+}

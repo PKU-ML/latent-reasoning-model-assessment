@@ -1,0 +1,27 @@
+{
+  "question": "Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops this week. Last week she bought 4 boxes of cereal. How many more boxes of cereal did she buy this week than last week?",
+  "ground_truth": "4.0",
+  "prefix": " Derrick cents fabric",
+  "prefix_token_ids": [
+    32979,
+    16059,
+    9664
+  ],
+  "baseline_token_id": 604,
+  "target_token_id": 513,
+  "baseline_logit_diff": -5.703125,
+  "clean_logit_diff": -7.53125,
+  "adv_logit_diff": 5.7421875,
+  "best_logit_diff": 5.7421875,
+  "clean_text": "Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops this week. Last week she bought 4 boxes of cereal. How many more boxes of cereal did she buy this week than last week?\n### 4",
+  "clean_answer": 4.0,
+  "clean_correct": true,
+  "adv_text": "Derrick cents fabricCastle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops this week. Last week she bought 4 boxes of cereal. How many more boxes of cereal did she buy this week than last week?\n### 3",
+  "adv_answer": 3.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.09375,
+    5.7421875
+  ]
+}

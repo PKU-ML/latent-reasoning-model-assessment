@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1233,
+  "question": "Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+  "ground_truth": "81.0",
+  "baseline": {
+    "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.",
+    "pred_answer": 81.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 2,
+  "success_rate": 0.06666666666666667,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "_ball.Cast hopefularchitecture,size",
+      "prefix_token_ids": [
+        56908,
+        66339,
+        38650,
+        81519,
+        36691
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " Rudy már.dateFormat SEO viewed",
+      "prefix_token_ids": [
+        80219,
+        81079,
+        85559,
+        26029,
+        19894
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate the number of apples given to his sister: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the number of apples remaining after giving some to his sister: 36 - 9 = 27 apples\n5. Calculate the total amount of money received from selling the remaining apples: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": " Recap включ Prepare encour الل",
+      "prefix_token_ids": [
+        99134,
+        110885,
+        32266,
+        8037,
+        102314
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow these steps:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": " inventivehint Nej _\n\n_portfolio",
+      "prefix_token_ids": [
+        92032,
+        47225,
+        106675,
+        89051,
+        81890
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " tabelaModification **\n�始 GLES",
+      "prefix_token_ids": [
+        68315,
+        81895,
+        38014,
+        44816,
+        79748
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate the number of apples given to his sister: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the number of apples remaining after giving some to his sister: 36 - 9 = 27 apples\n5. Calculate the total amount of money received from selling the remaining apples: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "orthyHat(TAG_NEudas",
+      "prefix_token_ids": [
+        34594,
+        73387,
+        16372,
+        14366,
+        54841
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": " Made Freund لباس dohod[/",
+      "prefix_token_ids": [
+        19332,
+        78879,
+        122350,
+        118796,
+        25130
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " câ necessáriorecipesuters आई",
+      "prefix_token_ids": [
+        48924,
+        96644,
+        50959,
+        15928,
+        107098
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow these steps:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate the number of apples given to his sister: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the number of apples remaining after giving some to his sister: 36 - 9 = 27 apples\n5. Calculate the total number of apples sold: 27 apples\n6. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": "امبر celé通 terrific điện",
+      "prefix_token_ids": [
+        106282,
+        113555,
+        33035,
+        43660,
+        101926
+      ],
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving 25% to his sister.\n\nFirst, let's find out how many apples Walter had left after eating 2/5 of them:\n60 apples - (2/5 * 60) = 60 - 24 = 36 apples\n\nNow, let's find out how many apples he had left after giving 25% to his sister:\n36 apples - (25% of 36) = 36 - (0.25 * 36) = 36 - 9 = 27 apples\n\nNow, let's calculate the total number of apples Walter sold:\n27 apples\n\nFinally, let's calculate the total amount of money Walter received:\n27 apples * $3 per apple = $81\n\nSo, Walter received $81.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "inidadInf Ukra серд_DOC",
+      "prefix_token_ids": [
+        69255,
+        19998,
+        121718,
+        110595,
+        70011
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate the number of apples given to Walter's sister: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the number of apples remaining after giving some to his sister: 36 - 9 = 27 apples\n5. Calculate the total amount of money Walter received from selling the remaining apples: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "하며Chelseaがい(({(coll",
+      "prefix_token_ids": [
+        108859,
+        87406,
+        125001,
+        36682,
+        86729
+      ],
+      "generated_text": "まず、Chelsea が購入した apple の数を計算します。 \n60 apple * 2/5 = 12 apple\n\n Chelsea は 12 apple を食べ、残りの apple の数は 60 - 12 = 48 apple になります。\n\n Chelsea は残りの apple の 25% を sister にあげたので、25/100 * 48 = 12 apple をあげます。\n\n残りの apple の数は 48 - 12 = 36 apple です。\n\n Chelsea は 36 apple を 3 ドルで売りました。 \n\n最終的な答えは 36 * 3 = 108 ドルです。\nSo the answer is \\boxed{108",
+      "pred_answer": 108.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 12,
+      "prefix": " Michellicted phoenix<J Adoption",
+      "prefix_token_ids": [
+        45506,
+        42443,
+        90815,
+        86474,
+        93117
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples left after Walter ate 2/5 of them:\n60 apples - (2/5 * 60) = 60 - 24 = 36 apples\n\n2. Calculate the number of apples given to his sister:\n36 apples * 25% = 36 * 0.25 = 9 apples\n\n3. Calculate the number of apples left after giving some to his sister:\n36 - 9 = 27 apples\n\n4. Calculate the total amount of money received from selling the remaining apples:\n27 apples * $3 = $81\n\nSo, Walter received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": "urons Extremelyงค<path الش",
+      "prefix_token_ids": [
+        54769,
+        93796,
+        111175,
+        90311,
+        101038
+      ],
+      "generated_text": "To find out how much Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "IGNOREcum '../../../../../ करन Shar",
+      "prefix_token_ids": [
+        36145,
+        60353,
+        95745,
+        100855,
+        36216
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " نخستudes früPOINT览",
+      "prefix_token_ids": [
+        116262,
+        29246,
+        99977,
+        22255,
+        106721
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow these steps:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate the number of apples given to his sister: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the number of apples remaining after giving some to his sister: 36 - 9 = 27 apples\n5. Calculate the total amount of money received from selling the remaining apples: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": "followers_longerea_salary ž",
+      "prefix_token_ids": [
+        66966,
+        18278,
+        68209,
+        72322,
+        32063
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow these steps:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": " instruments Tokenstfoot_neighbors』\n\n",
+      "prefix_token_ids": [
+        24198,
+        59266,
+        59584,
+        57025,
+        111496
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate the number of apples given to his sister: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the number of apples remaining after giving some to his sister: 36 - 9 = 27 apples\n5. Calculate the total number of apples sold: 27 apples\n6. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "ावन TreeSetREDENTIAL� ctl",
+      "prefix_token_ids": [
+        111306,
+        91527,
+        82609,
+        37795,
+        66035
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate the number of apples given to his sister: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the number of apples remaining after giving some to his sister: 36 - 9 = 27 apples\n5. Calculate the total amount of money received from selling the remaining apples: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": "_guessdynamic Signing_SHOW($.",
+      "prefix_token_ids": [
+        55837,
+        22269,
+        88524,
+        38922,
+        51416
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": "vides reigning Densityacey NFS",
+      "prefix_token_ids": [
+        68254,
+        91056,
+        73710,
+        57020,
+        88915
+      ],
+      "generated_text": "To find out how much Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " PicToFit Categories为什么.itemId",
+      "prefix_token_ids": [
+        26987,
+        74042,
+        29312,
+        113221,
+        90657
+      ],
+      "generated_text": "首先，我们需要计算一下Walter 吃掉的苹果数量。 \n\nWalter 吃掉的苹果数量 = 60 * (2/5) = 24\n\n然后，我们需要计算一下剩余的苹果数量。 \n\n剩余苹果数量 = 60 - 24 = 36\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 36 - 24 = 12\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 12 * (100/100) = 12\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 12 * (25/100) = 3\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 3 * (100/100) = 3\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 3 * (100/100) = 3\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 3 * (100/100) = 3\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 3 * (100/100) = 3\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 3 * (100/100) = 3\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 3 * (100/100) = 3\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 3 * (100/100) = 3\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 3 * (100/100) = 3\n\n然后，我们需要计算一下Walter 吃掉的苹果后剩余的苹果数量。 \n\n剩余苹果数量 = 3 * (100/100) = 3\n\n然后，我们需要计算一下Walter\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 22,
+      "prefix": " 黑KeyPress DirHttps awakened",
+      "prefix_token_ids": [
+        120068,
+        70056,
+        31194,
+        93969,
+        90347
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": " coastal� Agricultigrantsєю",
+      "prefix_token_ids": [
+        35335,
+        115740,
+        29000,
+        71336,
+        103395
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": ".\n\n\n\n\n кат Geminiflutterίδ",
+      "prefix_token_ids": [
+        75223,
+        105926,
+        86811,
+        15321,
+        102390
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " ais }}\n Loki_DECL предостав",
+      "prefix_token_ids": [
+        89795,
+        8256,
+        84855,
+        23567,
+        115739
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples left after Loki ate 2/5 of them:\n60 apples - (2/5 * 60) = 60 - 24 = 36 apples\n\n2. Calculate the number of apples given to his sister:\n36 apples * 25% = 36 * 0.25 = 9 apples\n\n3. Calculate the number of apples left after giving some to his sister:\n36 - 9 = 27 apples\n\n4. Calculate the total amount of money received from selling the remaining apples:\n27 apples * $3 = $81\n\nSo, Walter received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": " fitting greetingodosPhotos мен",
+      "prefix_token_ids": [
+        27442,
+        43213,
+        16790,
+        32872,
+        69844
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "Hundredscwd<|reserved_special_token_72|> hvordan feather",
+      "prefix_token_ids": [
+        91722,
+        33265,
+        128080,
+        63259,
+        50876
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow these steps:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate the number of apples given to his sister: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the number of apples remaining after giving some to his sister: 36 - 9 = 27 apples\n5. Calculate the total number of apples sold: 27 apples\n6. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": " bishopUIApplication paddingRight \"@occ",
+      "prefix_token_ids": [
+        54306,
+        30082,
+        71115,
+        8594,
+        14310
+      ],
+      "generated_text": "To find out how much money Bishop received, we need to follow the steps below:\n\n1. Calculate the number of apples left after Bishop ate 2/5 of them:\n60 apples - (2/5 * 60) = 60 - 24 = 36 apples\n\n2. Calculate the number of apples given to his sister:\n36 apples * 25% = 36 * 0.25 = 9 apples\n\n3. Calculate the number of apples left after giving some to his sister:\n36 - 9 = 27 apples\n\n4. Calculate the total amount of money received from selling the remaining apples:\n27 apples * $3 = $81\n\nSo, Bishop received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " Ottomanadian審DoubleClick DP",
+      "prefix_token_ids": [
+        70110,
+        10272,
+        117859,
+        74143,
+        32857
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": "<|reserved_special_token_152|> cutoff ود.package Move",
+      "prefix_token_ids": [
+        128160,
+        45379,
+        117808,
+        49728,
+        14903
+      ],
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

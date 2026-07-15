@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 988,
+  "question": "Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+  "ground_truth": "6.0",
+  "baseline_correct": true,
+  "baseline_answer": 6.0,
+  "best_rewrite": "An hour has 60 minutes. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+  "best_fact": "An hour has 60 minutes.",
+  "best_pred_answer": 0.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 5,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000 per month. She sets aside 25% of her paycheck, which is 0.25 * $2,000 = $500 per month.\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\nNow, let's calculate how many shoes she can buy in a year:\n$500 per month * 12 months = $6,000 per year\n\nSince each pair of shoes costs $1,000, we can divide the total amount she can buy in a year by the cost of one pair of shoes:\n$6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "April has 30 days. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how many months she has in a year and then multiply that by the number of shoes she can buy in a month.\n\nThere are 12 months in a year. \n\nJessica sets aside 25% of her paycheck, which is $2,000.00. 25% of $2,000.00 is $500.00. \n\nSince she sets aside $500.00 each month, she can buy $500.00 / $1,000.00 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 pairs/month * 12 months/year = 6 pairs of shoes.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000.00 a month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000.00 is 0.25 * $2,000.00 = $500.00.\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\nNow, let's calculate how many shoes she can buy in a year:\n$500.00 / $1,000.00 = 0.5\n\nSince she can buy 0.5 shoes per month, in a year she can buy:\n0.5 * 12 = 6\n\nSo, Jessica can buy 6 shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 * $2,000 = $500.\n\nNow, let's calculate how many months in a year she can save $500:\n\n$500 / $2,000 = 0.25 months\n\nSince there are 12 months in a year, we can multiply the number of months she can save by 12:\n\n0.25 * 12 = 3\n\nSo, Jessica can save $500 * 3 = $1,500 in a year.\n\nNow, let's calculate how many shoes she can buy with $1,500:\n\n$1,500 / $1,000 = 1.5\n\nSince each pair of shoes costs $1,000, we can divide the number of shoes she can buy by the cost per pair:\n\n1.5 / $1,000 = 0.0015\n\nSo, Jessica can buy 0.0015 pairs of shoes in a year.\nSo the answer is \\boxed{0.0015",
+      "pred_answer": 0.0015
+    },
+    {
+      "question": "The current temperature is 20 degrees. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 * $2,000 = $500.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month saved * 12 months = $6,000\n\nNow, let's divide the total amount she saves in a year by the cost of each pair of shoes: $6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A year has 12 months. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica makes $2,000 per month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000 is $500. \n\n$500 / $1,000 = 0.5\n\nSo, Jessica saves $0.5 per month.\n\nNow, we need to find out how many months are in a year. There are 12 months in a year.\n\n$0.5 / $1,000 = 0.0005\n\nNow, we can divide the total amount she saves per year by the cost of one pair of shoes to find out how many shoes she can buy in a year.\n\n$0.0005 / $1,000 = 0.0005 / 1,000 = 0.0005 / 1,000 = 0.0005\n\nSince 0.0005 is equal to 5/1000, we can convert it to a whole number by multiplying it by 1000.\n\n0.0005 * 1000 = 0.5\n\nSo, Jessica can buy 0.5 shoes in a year.\nSo the answer is \\boxed{0.5",
+      "pred_answer": 0.5
+    },
+    {
+      "question": "A week has 7 days. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000 per month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000 is $500. \n\n$500 / $2,000 = 0.25\n$500 / 12 = 41.67\n\nSo, Jessica saves $41.67 per month.\n\nNow, let's calculate how many shoes she can buy in a year:\n\n$41.67 per month * 12 months = $500.04\n\nSince each pair of shoes costs $1,000, we can divide the total amount she can save by the cost of one pair of shoes:\n\n$500.04 / $1,000 = 0.5\n\nSo, Jessica can buy 0.5 pairs of shoes in a year.\nSo the answer is \\boxed{0",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "An hour has 60 minutes. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000.00 a month and sets 25% of her paycheck aside for fancy shoes. 25% of $2,000.00 is 0.25 * $2,000.00 = $500.00.\n\nShe saves $500.00 each month. To find out how many months in a year she can save, we divide $500.00 by $2,000.00. $500.00 / $2,000.00 = 0.25 months.\n\nSince there are 12 months in a year, we multiply 0.25 by 12 to find out how many months she can save. 0.25 * 12 = 3 months.\n\nNow, we multiply the number of months she can save by the number of shoes she buys each month. 3 months * $1,000.00 = $3,000.00.\n\nSo, Jessica can buy 3,000 shoes in a year.\nSo the answer is \\boxed{The answer is 3,000.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "A minute has 60 seconds. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 * $2,000 = $500.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month * 12 months = $6,000\n\nNow, let's divide the total amount she saves in a year by the cost of each pair of shoes: $6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A year has 365 days. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica makes $2,000.00 a month and sets aside 25% of her paycheck, which is $2,000 * 0.25 = $500.00 per month.\n\nNow, let's calculate how many months are in a year: 12 months.\n\nNow, let's divide the monthly savings by the cost of one pair of shoes: $500.00 / $1,000.00 = 0.5.\n\nSince we want to know how many shoes she can buy in a year, we multiply the number of months by the number of shoes per month: 12 months * 0.5 = 6 shoes.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000.00 paycheck, which is 0.25 * $2,000.00 = $500.00 per month.\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\nNow, let's calculate how many shoes she can buy in a year:\n$500.00 per month * 12 months = $6,000.00 per year\n\nSince each pair of shoes costs $1,000.00, we can divide the total amount she can buy in a year by the cost of one pair of shoes:\n$6,000.00 / $1,000.00 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nFirst, let's calculate how much she saves each month:\n$2,000.00 (monthly income) * 0.25 (25% savings) = $500.00 per month\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\nNow, let's divide the monthly savings by the monthly cost of one pair of shoes:\n$500.00 (monthly savings) / $1,000.00 (cost of one pair of shoes) = 0.5\n\nNow, let's multiply the monthly savings by the number of months in a year:\n0.5 * 12 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 * $2,000 = $500 per month.\n\nSince she saves $500 per month, she can buy $500 / $1,000 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 pairs/month * 12 months/year = 6 pairs of shoes per year.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The final answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 * $2,000 = $500 per month.\n\nSince there are 12 months in a year, she saves $500 * 12 = $6,000 per year.\n\nNow, we need to divide the amount she saves per year by the cost of one pair of shoes to find out how many pairs she can buy:\n\n$6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica sets aside 25% of her $2,000 per month, which is 0.25 * $2,000 = $500 per month.\n\nSince she saves $500 per month, she can buy $500 / $1,000 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 * 12 = 6 pairs of shoes.\n\nSo, in a year, Jessica can buy 6 pairs of shoes.\nSo the answer is \\boxed{The final answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "An adult has 32 teeth. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica sets aside 25% of her $2,000 per month, which is 0.25 * $2,000 = $500 per month.\n\nSince she saves $500 per month, she can buy $500 / $1,000 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 * 12 = 6 pairs of shoes.\n\nSo, in a year, Jessica can buy 6 pairs of shoes.\nSo the answer is \\boxed{The final answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "China has 1.4 billion people. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 * $2,000 = $500.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month * 12 months = $6,000\n\nNow, let's divide the total amount she saves in a year by the cost of one pair of shoes: $6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Japan has 125 million people. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month, which is 0.25 * $2,000 = $500 per month.\n\nSince she saves $500 per month, she can buy $500 / $1,000 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 * 12 = 6 pairs of shoes.\n\nSo, in a year, Jessica can buy 6 pairs of shoes.\nSo the answer is \\boxed{The final answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The US has 50 states. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 * $2,000 = $500 per month.\n\nSince she saves $500 per month, she can buy $500 / $1,000 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 * 12 = 6 pairs of shoes.\n\nSo, in a year, Jessica can buy 6 pairs of shoes.\nSo the answer is \\boxed{The final answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The EU has 27 member states. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month, which is 0.25 * $2,000 = $500 per month.\n\nSince she saves $500 per month, she can buy $500 / $1,000 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 * 12 = 6 pairs of shoes.\n\nSo, in a year, Jessica can buy 6 pairs of shoes.\nSo the answer is \\boxed{The final answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 * $2,000 = $500 per month.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month * 12 months = $6,000 per year\n\nNow, let's calculate how many shoes she can buy in a year: $6,000 per year / $1,000 per pair of shoes = 6 pairs of shoes per year.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000 per month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000 is $500. So, she saves $500 per month.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month * 12 months = $6,000 per year\n\nNow, let's calculate how many shoes she can buy with $6,000 per year:\n\n$6,000 per year / $1,000 per pair of shoes = 6 pairs of shoes per year\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica saves 25% of her $2,000 per month, which is 0.25 * $2,000 = $500 per month.\n\nSince there are 12 months in a year, we can calculate the total amount she saves in a year as follows:\n\n$500 per month * 12 months = $6,000 per year\n\nNow, we need to divide the total amount she saves in a year by the cost of one pair of shoes:\n\n$6,000 per year / $1,000 per pair = 6 pairs of shoes per year\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The human body has 206 bones. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how many months she has in a year and then multiply that by the number of shoes she can buy in a month.\n\nThere are 12 months in a year. \n\nJessica sets aside 25% of her $2,000.00 paycheck, which is 0.25 * $2,000.00 = $500.00 per month.\n\nNow, let's calculate how many months she has in a year:\n$2,000.00 / $500.00 = 4 months\n\nNow, let's calculate how many shoes she can buy in a year:\n4 months * $1,000.00 per month = $4,000.00\n\nSo, Jessica can buy $4,000.00 worth of shoes in a year.\nSo the answer is \\boxed{$4,000.00",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica sets aside 25% of her $2,000.00 monthly income, which is 0.25 * $2,000.00 = $500.00 per month.\n\nSince there are 12 months in a year, we can calculate the total amount she saves in a year as follows:\n\n$500.00 per month * 12 months = $6,000.00 per year\n\nNow, we need to divide the total amount she saves in a year by the cost of one pair of shoes to find out how many she can buy:\n\n$6,000.00 per year / $1,000.00 per pair = 6 pairs of shoes per year\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica sets aside 25% of her $2,000 per month, which is 0.25 * $2,000 = $500 per month.\n\nSince she saves $500 per month, she can buy $500 / $1,000 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 * 12 = 6 pairs of shoes.\n\nSo, in a year, Jessica can buy 6 pairs of shoes.\nSo the answer is \\boxed{The final answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of a pair of shoes.\n\nFirst, let's calculate how much she saves each month:\n \n- She sets aside 25% of her $2,000 monthly income, which is 0.25 * $2,000 = $500 per month.\n- Since there are 12 months in a year, she saves $500 * 12 = $6,000 per year.\n\nNow, let's calculate how many shoes she can buy with her yearly savings:\n \n- Each pair of shoes costs $1,000.\n- She saves $6,000 per year.\n- To find out how many pairs of shoes she can buy, we divide the yearly savings by the cost of a pair of shoes: $6,000 / $1,000 = 6.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how many months she has in a year and then multiply that by the number of shoes she can buy in a month.\n\nThere are 12 months in a year. \n\nJessica sets aside 25% of her $2,000.00 monthly income, which is 0.25 * $2,000.00 = $500.00 per month.\n\nShe can set aside $500.00 per month for 12 months, so she sets aside $500.00 * 12 = $6,000.00 per year.\n\nNow, we need to find out how many pairs of shoes she can buy with $6,000.00. Each pair of shoes costs $1,000.00, so we divide $6,000.00 by $1,000.00 to find the number of pairs:\n\n$6,000.00 / $1,000.00 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica sets aside 25% of her $2,000.00 monthly income, which is 0.25 * $2,000.00 = $500.00 per month.\n\nSince she saves $500.00 per month, she can buy $500.00 / $1,000.00 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 pairs/month * 12 months/year = 6 pairs of shoes per year.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of each pair of shoes.\n\nJessica makes $2,000 per month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000 is $500. \n\nSince she saves $500 per month, she can buy $500 / $1,000 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 pairs/month * 12 months = 6 pairs of shoes.\n\nSo, in a year, Jessica can buy 6 pairs of shoes.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    }
+  ]
+}

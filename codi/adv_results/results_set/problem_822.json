@@ -1,0 +1,171 @@
+{
+  "question": "John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+  "ground_truth": "1260.0",
+  "best_prefix": "unfinishedSetupHERE DIY Eleven",
+  "best_prefix_token_ids": [
+    15442,
+    22574,
+    4678,
+    32558,
+    82493
+  ],
+  "baseline_token_id": 9390,
+  "target_token_id": 4513,
+  "baseline_logit_diff": -4.6875,
+  "clean_logit_diff": -5.875,
+  "best_logit_diff": -4.5,
+  "best_cosine": 0.94921875,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 1260",
+  "clean_answer": 1260.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 1260",
+  "adv_answer": 1260.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": "unfinishedSetupHERE DIY Eleven",
+      "prefix_ids": [
+        15442,
+        22574,
+        4678,
+        32558,
+        82493
+      ],
+      "logit_diff": -4.5,
+      "cosine_sim": 0.94921875,
+      "answer": 1260.0,
+      "correct": true
+    },
+    {
+      "prefix": " Eventuallyervice(cost Fraser132",
+      "prefix_ids": [
+        38274,
+        1033,
+        63243,
+        56230,
+        9413
+      ],
+      "logit_diff": -4.5,
+      "cosine_sim": 0.9609375,
+      "answer": 1260.0,
+      "correct": true
+    },
+    {
+      "prefix": " Eventually$l(cost Fraser132",
+      "prefix_ids": [
+        38274,
+        42058,
+        63243,
+        56230,
+        9413
+      ],
+      "logit_diff": -4.5625,
+      "cosine_sim": 0.9453125,
+      "answer": 1260.0,
+      "correct": true
+    },
+    {
+      "prefix": "unfinished/header RHS DIY Eleven",
+      "prefix_ids": [
+        15442,
+        25680,
+        74932,
+        32558,
+        82493
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.95703125,
+      "answer": 1260.0,
+      "correct": true
+    },
+    {
+      "prefix": "unfinishedFinishedagos DIY Eleven",
+      "prefix_ids": [
+        15442,
+        25934,
+        81707,
+        32558,
+        82493
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.94921875,
+      "answer": 1260.0,
+      "correct": true
+    },
+    {
+      "prefix": "unfinishedcreamuge DIY Eleven",
+      "prefix_ids": [
+        15442,
+        47100,
+        4838,
+        32558,
+        82493
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.953125,
+      "answer": 1260.0,
+      "correct": true
+    },
+    {
+      "prefix": "unfinishedFinishedev DIY Eleven",
+      "prefix_ids": [
+        15442,
+        25934,
+        5230,
+        32558,
+        82493
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.953125,
+      "answer": 1260.0,
+      "correct": true
+    },
+    {
+      "prefix": "unfinishedFinishedodb DIY Eleven",
+      "prefix_ids": [
+        15442,
+        25934,
+        17278,
+        32558,
+        82493
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.94921875,
+      "answer": 1260.0,
+      "correct": true
+    },
+    {
+      "prefix": "unfinishedFinishedcharts DIY Eleven",
+      "prefix_ids": [
+        15442,
+        25934,
+        37684,
+        32558,
+        82493
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.953125,
+      "answer": 1260.0,
+      "correct": true
+    },
+    {
+      "prefix": " Eventuallyervice(cost-cost132",
+      "prefix_ids": [
+        38274,
+        1033,
+        63243,
+        41238,
+        9413
+      ],
+      "logit_diff": -4.6875,
+      "cosine_sim": 0.93359375,
+      "answer": 1260.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

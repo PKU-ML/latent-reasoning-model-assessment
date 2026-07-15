@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1109,
+  "question": "Three of the women at the cocktail party are wearing 4 inch heels and three are wearing 2 inch heels. What is the average height of heels at this party?",
+  "ground_truth": "3.0",
+  "baseline": {
+    "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThree women are wearing 4 inch heels, and three women are wearing 2 inch heels. \n\nThe total height of the 4 inch heels is 3 x 4 = 12 inches.\nThe total height of the 2 inch heels is 3 x 2 = 6 inches.\n\nThe total height of all the heels is 12 + 6 = 18 inches.\n\nThere are 6 heels in total (3 x 2 = 6).\n\nTo find the average height, divide the total height by the number of heels: 18 / 6 = 3 inches.\n\nThe average height of the heels at this party is 3 inches.",
+    "pred_answer": 3.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 24,
+  "success_rate": 0.8,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "wat minimizeичествоideon\tCreated",
+      "prefix_token_ids": [
+        59147,
+        30437,
+        60894,
+        100242,
+        85162
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe women wearing 4 inch heels are 3 in number, and the women wearing 2 inch heels are 3 in number.\n\nLet's assume the average height of the 4 inch heels is x inches. Then, the total height of the 4 inch heels is 3x.\n\nThe average height of the 2 inch heels is y inches. Then, the total height of the 2 inch heels is 3y.\n\nThe total height of all the heels is 3x + 3y.\n\nTo find the average height, we divide the total height by the number of heels, which is 6.\n\nSo, the average height of the heels is (3x + 3y) / 6.\n\nSince the problem doesn't provide the values of x and y, we can't calculate the exact average height. However, we can express it as:\n\nAverage height = (3x + 3y) / 6\n\nTo minimize the average height, we need to minimize the sum of x and y. Since x and y are both positive, we can minimize the sum by making x and y as close to each other as possible.\n\nLet's assume x = y. Then, the average height is (3x + 3x) / 6 = 6x / 6 = x.\n\nSo, the average height of the heels is x inches.\nSo the answer is \\boxed{The average height of the heels is 3 inches.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " بعد_documentsblind 여러loading",
+      "prefix_token_ids": [
+        102049,
+        77027,
+        94009,
+        110714,
+        10853
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nHeels worn by women 1 and 2: 4 + 2 = 6 inches\nHeels worn by women 3 and 4: 2 + 4 = 6 inches\nTotal height of all heels: 6 + 6 = 12 inches\n\nThere are 5 heels in total. To find the average height, divide the total height by the number of heels: 12 / 5 = 2.4 inches\n\nThe average height of the heels at this party is 2.4 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 2.4 inches.",
+      "pred_answer": 2.4,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 3,
+      "prefix": " дальней Чтоked FOOD visited",
+      "prefix_token_ids": [
+        123048,
+        113740,
+        48259,
+        88227,
+        12263
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are 4 inches and 2 inches. \n\n4 + 2 = 6 inches\n\nThere are 3 heels. \n\n6 / 3 = 2 inches\n\nThe average height of the heels is 2 inches.\nSo the answer is \\boxed{The average height of the heels is 2 inches.",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 4,
+      "prefix": " фото_maximum>';_allowEvaluate",
+      "prefix_token_ids": [
+        118849,
+        94681,
+        37809,
+        56831,
+        83445
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nHeels worn by women:\n- 4 inches\n- 4 inches\n- 2 inches\n\nTotal height of heels = 4 + 4 + 2 = 10 inches\n\nNumber of heels = 3\n\nAverage height of heels = Total height of heels / Number of heels\n= 10 / 3\n= 3.33 inches\n\nSo, the average height of the heels at the party is 3.33 inches.\nSo the answer is \\boxed{The average height of the heels at the party is 3.33 inches.",
+      "pred_answer": 3.33,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 5,
+      "prefix": "AK opacity силSong Atlanta",
+      "prefix_token_ids": [
+        12173,
+        19172,
+        108133,
+        34139,
+        20005
+      ],
+      "generated_text": "To find the average height of the heels, we need to add the heights of the 4-inch heels and the 2-inch heels, and then divide by the total number of people.\n\n4-inch heels: 3 people\n2-inch heels: 3 people\n\nTotal height of 4-inch heels: 3 x 4 = 12 inches\nTotal height of 2-inch heels: 3 x 2 = 6 inches\n\nTotal height of all heels: 12 + 6 = 18 inches\n\nThere are 6 people at the party. To find the average height, divide the total height by the number of people:\n18 inches / 6 people = 3 inches per person\n\nSo, the average height of the heels at this party is 3 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 3 inches.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " Budd.Assertions kneeirma 爱",
+      "prefix_token_ids": [
+        19098,
+        47412,
+        22095,
+        45111,
+        122124
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe women wearing 4 inch heels are 3 in number, so their total height is 3 x 4 = 12 inches.\nThe women wearing 2 inch heels are 3 in number, so their total height is 3 x 2 = 6 inches.\n\nTotal height of all heels = 12 + 6 = 18 inches\n\nThere are 6 heels in total (3 x 2). \n\nAverage height = Total height / Number of heels\n= 18 / 6\n= 3 inches\n\nSo, the average height of the heels at this party is 3 inches.\nSo the answer is \\boxed{The answer is 3 inches.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": " znovu Sovere檢 scrape inevitable",
+      "prefix_token_ids": [
+        111780,
+        89321,
+        121623,
+        58228,
+        31352
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are 4 inches and 2 inches. \n\n4 + 2 = 6 inches\n\nThere are 3 heels. \n\n6 / 3 = 2 inches\n\nThe average height of the heels is 2 inches.\nSo the answer is \\boxed{The average height of the heels is 2 inches.",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 8,
+      "prefix": " {\n\n\n\nायलOrFail이며 labor",
+      "prefix_token_ids": [
+        71280,
+        122743,
+        47159,
+        112373,
+        9511
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nHeels worn by women 1 and 2: 4 inches + 4 inches = 8 inches\nHeels worn by women 3 and 4: 2 inches + 2 inches = 4 inches\n\nTotal height of all heels: 8 inches + 4 inches = 12 inches\n\nNumber of heels: 2 + 3 = 5\n\nAverage height of heels: 12 inches / 5 = 2.4 inches\n\nThe average height of the heels at this party is 2.4 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 2.4 inches.",
+      "pred_answer": 2.4,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 9,
+      "prefix": " 대ovací_cache;background-negative",
+      "prefix_token_ids": [
+        62060,
+        108097,
+        11790,
+        51054,
+        62035
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nHeels worn by women 1 and 2: 4 + 2 = 6 inches\nHeels worn by women 3 and 4: 2 + 4 = 6 inches\n\nTotal height of all heels: 6 + 6 = 12 inches\n\nNumber of heels: 2 + 2 = 4\n\nAverage height of heels: 12 / 4 = 3 inches\n\nThe average height of the heels at this party is 3 inches.\nSo the answer is \\boxed{3 inches",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "sen texting]\";\n inversedecrypt",
+      "prefix_token_ids": [
+        12021,
+        69094,
+        60857,
+        29049,
+        74395
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nHeels worn by women:\n- 4 inches\n- 4 inches\n- 2 inches\n\nTotal height = 4 + 4 + 2 = 10 inches\n\nNumber of heels = 3\n\nAverage height = Total height / Number of heels\n= 10 / 3\n= 3.33 inches\n\nSo, the average height of the heels at this party is approximately 3.33 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 3.33 inches.",
+      "pred_answer": 3.33,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 11,
+      "prefix": "럼 Occupationία möglichlendirme",
+      "prefix_token_ids": [
+        104221,
+        99452,
+        100399,
+        51937,
+        126165
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nHeels worn by women 1: 4 inches\nHeels worn by women 2: 2 inches\nHeels worn by women 3: 4 inches\n\nTotal height = 4 + 2 + 4 = 10 inches\nNumber of women = 3\n\nAverage height = Total height / Number of women\n= 10 / 3\n= 3.33 inches\n\nSo, the average height of the heels at this party is approximately 3.33 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 3.33 inches.",
+      "pred_answer": 3.33,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 12,
+      "prefix": " boycledi Berg’. BASE",
+      "prefix_token_ids": [
+        47334,
+        104181,
+        31782,
+        24535,
+        22984
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are 4 inches and 2 inches. \n\n4 + 2 = 6 inches\n\nThere are 3 heels. \n\n6 / 3 = 2 inches\n\nThe average height of the heels is 2 inches.\nSo the answer is \\boxed{The average height of the heels is 2 inches.",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 13,
+      "prefix": " accusation subnet.getHourstos pname",
+      "prefix_token_ids": [
+        65506,
+        52557,
+        57255,
+        43681,
+        66046
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are 4 inches and 2 inches. \n\n4 + 2 = 6 inches\n\nThere are 3 heels. \n\n6 / 3 = 2 inches\n\nThe average height of the heels is 2 inches.\nSo the answer is \\boxed{The average height of the heels is 2 inches.",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 14,
+      "prefix": "пер сравbia tiểuINO",
+      "prefix_token_ids": [
+        105121,
+        116631,
+        14840,
+        113134,
+        49075
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are:\n- 4 inches for 3 women\n- 2 inches for 3 women\n\nTotal height = 3 x 4 + 3 x 2\n= 12 + 6\n= 18 inches\n\nThere are 6 heels in total (3 for 4-inch heels and 3 for 2-inch heels).\n\nAverage height = Total height / Number of heels\n= 18 / 6\n= 3 inches\n\nSo, the average height of the heels at the party is 3 inches.\nSo the answer is \\boxed{The average height of the heels at the party is 3 inches.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "urga Advance.pi WooCommerce calcium",
+      "prefix_token_ids": [
+        91876,
+        47396,
+        25244,
+        89306,
+        35719
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe women wearing 4 inch heels are 3 in number, and the women wearing 2 inch heels are 1 in number.\n\nThe total height of the 4 inch heels is 3 x 4 = 12 inches.\nThe total height of the 2 inch heels is 1 x 2 = 2 inches.\n\nThe total height of all the heels is 12 + 2 = 14 inches.\n\nTo find the average height, divide the total height by the number of heels: 14 / 4 = 3.5 inches.\n\nSo, the average height of the heels at this party is 3.5 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 3.5 inches.",
+      "pred_answer": 3.5,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 16,
+      "prefix": " PPCselectorsFFFmiş Basil",
+      "prefix_token_ids": [
+        70827,
+        96364,
+        32303,
+        100973,
+        67070
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are:\n- 4 inches for 3 women\n- 2 inches for 1 woman\n\nTotal height = 3 x 4 inches + 1 x 2 inches\n= 12 inches + 2 inches\n= 14 inches\n\nThere are 4 heels in total. To find the average height, divide the total height by the number of heels:\nAverage height = Total height / Number of heels\n= 14 inches / 4\n= 3.5 inches\n\nSo, the average height of the heels at the party is 3.5 inches.\nSo the answer is \\boxed{The average height of the heels at the party is 3.5 inches.",
+      "pred_answer": 3.5,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 17,
+      "prefix": " *,reasonRYPTuhn<|reserved_special_token_144|>",
+      "prefix_token_ids": [
+        12039,
+        20489,
+        41855,
+        93264,
+        128152
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nHeels worn by women: 4 + 2 = 6 inches\nHeels worn by women: 4 + 2 = 6\n\nTotal height of all heels: 6 + 6 = 12 inches\n\nThere are 3 women wearing heels. To find the average height, divide the total height by the number of women:\n12 inches / 3 = 4 inches\n\nSo, the average height of the heels at this party is 4 inches.\nSo the answer is \\boxed{The answer is 4 inches.",
+      "pred_answer": 4.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 18,
+      "prefix": " исключ öl Jr возв.NotNil",
+      "prefix_token_ids": [
+        112968,
+        103795,
+        16014,
+        116409,
+        94982
+      ],
+      "generated_text": "To find the average height of the heels, we need to add the heights of the heels and divide by the number of people wearing heels.\n\nHeels worn by women: 4 inches (3 women) + 2 inches (3 women) = 6 inches\nNumber of people wearing heels: 3\n\nAverage height of heels = Total height of heels / Number of people wearing heels\n= 6 inches / 3\n= 2 inches\n\nSo, the average height of the heels at this party is 2 inches.\nSo the answer is \\boxed{The answer is 2 inches.",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 19,
+      "prefix": "_TOKEN_CUBE Subscriber+ntap",
+      "prefix_token_ids": [
+        19199,
+        93069,
+        70753,
+        39434,
+        31147
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe women wearing 4 inch heels are 3 in number, and the women wearing 2 inch heels are 1 in number.\n\nThe total height of the 4 inch heels is 3 x 4 = 12 inches.\nThe total height of the 2 inch heels is 1 x 2 = 2 inches.\n\nThe total height of all the heels is 12 + 2 = 14 inches.\n\nThere are 4 + 1 = 5 heels in total.\n\nThe average height of the heels is 14 / 5 = 2.8 inches.\n\nSo, the average height of the heels at this party is 2.8 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 2.8 inches.",
+      "pred_answer": 2.8,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 20,
+      "prefix": " jiOpera strstr082La",
+      "prefix_token_ids": [
+        74985,
+        96601,
+        67395,
+        24996,
+        8921
+      ],
+      "generated_text": "To find the average height of the heels, we need to add the heights of the heels and divide by the number of people wearing heels.\n\nNumber of people wearing 4 inch heels: 3\nNumber of people wearing 2 inch heels: 1\n\nTotal height of 4 inch heels: 3 x 4 = 12 inches\nTotal height of 2 inch heels: 1 x 2 = 2 inches\n\nTotal height of all heels: 12 + 2 = 14 inches\n\nAverage height of heels: 14 inches / 4 people = 3.5 inches per person\n\nSo, the average height of the heels at this party is 3.5 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 3.5 inches.",
+      "pred_answer": 3.5,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 21,
+      "prefix": " rooftopannisluğ.stdoutdle",
+      "prefix_token_ids": [
+        67292,
+        77383,
+        110013,
+        25880,
+        91485
+      ],
+      "generated_text": "To find the average height of the heels, we need to add the heights of the heels and divide by the number of people wearing heels.\n\nHeels worn by women: 4 inches\nHeels worn by women: 3\nHeels worn by women: 2 inches\n\nTotal height of heels: 4 + 3 + 2 = 9 inches\n\nNumber of people wearing heels: 3\n\nAverage height of heels: 9 inches / 3 = 3 inches\n\nSo, the average height of the heels at the party is 3 inches.\nSo the answer is \\boxed{The answer is 3 inches.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "ruleasıfiction मईqué",
+      "prefix_token_ids": [
+        13233,
+        93385,
+        58162,
+        124645,
+        64591
+      ],
+      "generated_text": "To find the average height of the heels, we need to add the heights of the heels and divide by the number of people wearing heels.\n\nNumber of people wearing 4 inch heels: 3\nNumber of people wearing 2 inch heels: 1\n\nTotal height of 4 inch heels: 3 x 4 = 12 inches\nTotal height of 2 inch heels: 1 x 2 = 2 inches\n\nTotal height of all heels: 12 + 2 = 14 inches\n\nAverage height of heels: 14 inches / 4 people = 3.5 inches per person\n\nSo, the average height of the heels at this party is 3.5 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 3.5 inches.",
+      "pred_answer": 3.5,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 23,
+      "prefix": " startXflamm Inspir자료 quantify",
+      "prefix_token_ids": [
+        69699,
+        45864,
+        89957,
+        109581,
+        76498
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nHeels worn by women:\n- 4 inches\n- 4 inches\n- 2 inches\n\nTotal height of heels = 4 + 4 + 2 = 10 inches\n\nNumber of heels = 3\n\nAverage height of heels = Total height of heels / Number of heels\n= 10 / 3\n= 3.33 inches\n\nSo, the average height of the heels at the party is approximately 3.33 inches.\nSo the answer is \\boxed{The answer is 3.33 inches.",
+      "pred_answer": 3.33,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 24,
+      "prefix": "默.Percentnga repercalways",
+      "prefix_token_ids": [
+        110789,
+        54931,
+        63630,
+        74488,
+        33222
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are 4 inches and 2 inches. \n\n4 + 2 = 6 inches\n\nThere are 5 heels in total (3 women wearing 4 inch heels and 2 women wearing 2 inch heels).\n\n6 / 5 = 1.2 inches\n\nThe average height of the heels is 1.2 inches.\nSo the answer is \\boxed{The average height of the heels is 1.2 inches.",
+      "pred_answer": 1.2,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 25,
+      "prefix": " blew Layers ✔CongressBridge",
+      "prefix_token_ids": [
+        42423,
+        84922,
+        58256,
+        65963,
+        33948
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are 4 inches and 2 inches. \n\n4 + 2 = 6 inches\n\nThere are 5 heels in total (3 women wearing 4 inch heels and 2 women wearing 2 inch heels).\n\n6 / 5 = 1.2 inches\n\nThe average height of the heels is 1.2 inches.\nSo the answer is \\boxed{1.2 inches",
+      "pred_answer": 1.2,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 26,
+      "prefix": "automatic)의icies_Parameter sehen",
+      "prefix_token_ids": [
+        84556,
+        112574,
+        45439,
+        85558,
+        54935
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nHeels worn by women 1: 4 inches\nHeels worn by women 2: 2 inches\nHeels worn by women 3: 4 inches\n\nTotal height = 4 + 2 + 4 = 10 inches\nNumber of women = 3\n\nAverage height = Total height / Number of women\n= 10 / 3\n= 3.33 inches\n\nSo, the average height of the heels at this party is approximately 3.33 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 3.33 inches.",
+      "pred_answer": 3.33,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 27,
+      "prefix": " Romanian Oversight edilهايOfWork",
+      "prefix_token_ids": [
+        74697,
+        90951,
+        110392,
+        109379,
+        31682
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are 4 inches and 2 inches. \n\n4 + 2 = 6 inches\n\nThere are 3 heels. \n\n6 / 3 = 2 inches\n\nThe average height of the heels is 2 inches.\nSo the answer is \\boxed{The average height of the heels is 2 inches.",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 28,
+      "prefix": " slack.stack(epoch')],\n logits",
+      "prefix_token_ids": [
+        46719,
+        23228,
+        62390,
+        71944,
+        61888
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are 4 inches for 3 women and 2 inches for 1 woman.\n\nTotal height = 3 x 4 inches + 1 x 2 inches\nTotal height = 12 inches + 2 inches\nTotal height = 14 inches\n\nThere are 4 heels in total.\n\nAverage height = Total height / Number of heels\nAverage height = 14 inches / 4\nAverage height = 3.5 inches\n\nSo, the average height of the heels at this party is 3.5 inches.\nSo the answer is \\boxed{The average height of the heels at this party is 3.5 inches.",
+      "pred_answer": 3.5,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 29,
+      "prefix": " scoff.Redis counterpart...\r\n.BASE",
+      "prefix_token_ids": [
+        90656,
+        83498,
+        45116,
+        45198,
+        35133
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nThe heights of the heels are 4 inches and 2 inches. \n\n4 + 2 = 6 inches\n\nThere are 5 heels in total.\n\n6 inches / 5 = 1.2 inches\n\nSo, the average height of the heels is 1.2 inches.\nSo the answer is \\boxed{The average height of the heels is 1.2 inches.",
+      "pred_answer": 1.2,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 30,
+      "prefix": " такогоWindowTextjing lem.AppendLine",
+      "prefix_token_ids": [
+        109207,
+        99556,
+        99268,
+        85074,
+        30130
+      ],
+      "generated_text": "To find the average height of the heels, we need to add up the heights of all the heels and divide by the number of heels.\n\nHeels worn by women 1: 4 inches\nHeels worn by women 2: 2 inches\nHeels worn by women 3: 4 inches\n\nTotal height = 4 + 2 + 4 = 10 inches\n\nThere are 3 women wearing heels. To find the average height, divide the total height by the number of women:\nAverage height = Total height / Number of women\nAverage height = 10 / 3\nAverage height = 3.33 inches\n\nSo, the average height of the heels at this party is approximately 3.33 inches.\nSo the answer is \\boxed{3.33 inches",
+      "pred_answer": 3.33,
+      "correct": false,
+      "attack_success": true
+    }
+  ],
+  "attack_success": true
+}

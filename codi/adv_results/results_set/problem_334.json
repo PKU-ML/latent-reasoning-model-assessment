@@ -1,0 +1,171 @@
+{
+  "question": "Nick, Richard, Jason and DJ each have paintball guns. DJ has 8 guns, Nick has 10 guns, RJ has 1 gun and Richard has 5 guns. If they were to share their guns equally, how many guns would each of them have?",
+  "ground_truth": "6.0",
+  "best_prefix": " owners ten言 Six mo",
+  "best_prefix_token_ids": [
+    7980,
+    5899,
+    78244,
+    19198,
+    4647
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 19,
+  "baseline_logit_diff": -2.125,
+  "clean_logit_diff": -8.875,
+  "best_logit_diff": 2.25,
+  "best_cosine": 0.9609375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 6",
+  "clean_answer": 6.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 2",
+  "adv_answer": 2.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " owners ten言 Six mo",
+      "prefix_ids": [
+        7980,
+        5899,
+        78244,
+        19198,
+        4647
+      ],
+      "logit_diff": 2.25,
+      "cosine_sim": 0.9609375,
+      "answer": 2.0,
+      "correct": false
+    },
+    {
+      "prefix": " each tenbsites drain cr",
+      "prefix_ids": [
+        1855,
+        5899,
+        11974,
+        24659,
+        1589
+      ],
+      "logit_diff": 1.5,
+      "cosine_sim": 0.97265625,
+      "answer": 2.0,
+      "correct": false
+    },
+    {
+      "prefix": " each tenbsites judges cr",
+      "prefix_ids": [
+        1855,
+        5899,
+        11974,
+        24958,
+        1589
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.9765625,
+      "answer": 2.4,
+      "correct": false
+    },
+    {
+      "prefix": "_under ten klar engineering controllers",
+      "prefix_ids": [
+        59328,
+        5899,
+        73834,
+        15009,
+        27319
+      ],
+      "logit_diff": -0.25,
+      "cosine_sim": 0.98828125,
+      "answer": 2.4,
+      "correct": false
+    },
+    {
+      "prefix": "_under ten Sixth engineering controllers",
+      "prefix_ids": [
+        59328,
+        5899,
+        68077,
+        15009,
+        27319
+      ],
+      "logit_diff": -0.75,
+      "cosine_sim": 0.984375,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": "very ten Never Controlsownt",
+      "prefix_ids": [
+        1225,
+        5899,
+        15037,
+        33170,
+        13197
+      ],
+      "logit_diff": -1.0,
+      "cosine_sim": 0.98046875,
+      "answer": 2.0,
+      "correct": false
+    },
+    {
+      "prefix": " eachาข六 drainع",
+      "prefix_ids": [
+        1855,
+        103902,
+        103070,
+        24659,
+        24102
+      ],
+      "logit_diff": -1.25,
+      "cosine_sim": 0.984375,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": " owners ten – Six-\n\n",
+      "prefix_ids": [
+        7980,
+        5899,
+        1389,
+        19198,
+        10669
+      ],
+      "logit_diff": -1.625,
+      "cosine_sim": 0.96484375,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": "_under ten 六 endorse controllers",
+      "prefix_ids": [
+        59328,
+        5899,
+        116807,
+        19507,
+        27319
+      ],
+      "logit_diff": -1.75,
+      "cosine_sim": 0.9765625,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": "_under ten 六 engineering controllers",
+      "prefix_ids": [
+        59328,
+        5899,
+        116807,
+        15009,
+        27319
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.984375,
+      "answer": 6.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

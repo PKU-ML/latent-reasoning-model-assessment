@@ -1,0 +1,26 @@
+{
+  "question": "Shawna's father is five times as old as Shawna. Shawna is currently three times as old as Aliya. If Aliya is 3 years old, how old is Shawna's father?",
+  "ground_truth": "45.0",
+  "prefix": "fourth Definitive 5",
+  "prefix_token_ids": [
+    49393,
+    46634,
+    642
+  ],
+  "baseline_token_id": 4153,
+  "target_token_id": 2026,
+  "baseline_logit_diff": -7.4140625,
+  "clean_logit_diff": -11.6875,
+  "adv_logit_diff": 9.0625,
+  "best_logit_diff": 9.0625,
+  "clean_text": "Shawna's father is five times as old as Shawna. Shawna is currently three times as old as Aliya. If Aliya is 3 years old, how old is Shawna's father?\n### 45",
+  "clean_answer": 45.0,
+  "clean_correct": true,
+  "adv_text": "fourth Definitive 5Shawna's father is five times as old as Shawna. Shawna is currently three times as old as Aliya. If Aliya is 3 years old, how old is Shawna's father?\n### 70",
+  "adv_answer": 70.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    9.0625
+  ]
+}

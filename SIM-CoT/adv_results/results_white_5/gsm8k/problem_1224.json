@@ -1,0 +1,29 @@
+{
+  "question": "It rained 2 inches on Monday and is expected to rain 1 more inch than twice of Monday’s total on Tuesday. How many inches of rain will there be on Tuesday?",
+  "ground_truth": "5.0",
+  "prefix": " grounds 325 Lin Doctor abroad",
+  "prefix_token_ids": [
+    9384,
+    29524,
+    5164,
+    9356,
+    10522
+  ],
+  "baseline_token_id": 642,
+  "target_token_id": 718,
+  "baseline_logit_diff": -9.2890625,
+  "clean_logit_diff": -8.8828125,
+  "adv_logit_diff": 8.84375,
+  "best_logit_diff": 8.84375,
+  "clean_text": "It rained 2 inches on Monday and is expected to rain 1 more inch than twice of Monday’s total on Tuesday. How many inches of rain will there be on Tuesday?\n### 5",
+  "clean_answer": 5.0,
+  "clean_correct": true,
+  "adv_text": "grounds 325 Lin Doctor abroadIt rained 2 inches on Monday and is expected to rain 1 more inch than twice of Monday’s total on Tuesday. How many inches of rain will there be on Tuesday?\n### 6.5",
+  "adv_answer": 6.5,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.3125,
+    8.84375
+  ]
+}

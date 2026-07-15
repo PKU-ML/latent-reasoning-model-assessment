@@ -1,0 +1,26 @@
+{
+  "question": "Josh had 15 marbles in his collection. He found 9 marbles while he lost 23 marbles. How many more marbles did he lose than those he found?",
+  "ground_truth": "14.0",
+  "prefix": "637",
+  "prefix_token_ids": [
+    21,
+    18,
+    22
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -1.375,
+  "clean_logit_diff": -1.5,
+  "adv_logit_diff": -0.75,
+  "best_logit_diff": -0.75,
+  "clean_text": "assistant\n### 14 ",
+  "clean_answer": 14.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 1 ",
+  "adv_answer": 1.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.75
+  ]
+}

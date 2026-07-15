@@ -1,0 +1,38 @@
+{
+  "question": "Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+  "ground_truth": "25.0",
+  "prefix": " subjects tone862",
+  "prefix_token_ids": [
+    15223,
+    16630,
+    24071
+  ],
+  "baseline_token_id": 914,
+  "target_token_id": 1627,
+  "baseline_logit_diff": -0.75,
+  "clean_logit_diff": -6.875,
+  "adv_logit_diff": 2.75,
+  "best_logit_diff": 2.75,
+  "clean_text": "The answer is: 25",
+  "clean_answer": 25.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 26",
+  "adv_answer": 26.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -6.75,
+    -6.75,
+    -6.75,
+    -6.75,
+    -6.75,
+    -6.75,
+    -6.75,
+    -6.75,
+    -6.75,
+    -6.75,
+    -3.625,
+    -1.625,
+    2.75
+  ]
+}

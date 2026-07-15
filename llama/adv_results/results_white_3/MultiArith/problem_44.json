@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 44,
+  "question": " For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? ",
+  "ground_truth": "8",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Sv”. Ты",
+  "prefix_token_ids": [
+    64705,
+    11453,
+    120076
+  ],
+  "best_wrong_prob": 5.422937394982755e-23,
+  "clean_text": "To find out how many shelves Tom would fill up, we need to divide the total number of sodas by the number of sodas that can fit on each shelf.\n\nNumber of sodas: 4 (regular) + 52 (diet) = 56 sodas\nNumb",
+  "clean_pred": 8.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many shelves Tom would fill up, we need to divide the total number of sodas by the number of sodas per shelf.\n\nNumber of sodas: 4 (regular) + 52 (diet) = 56 sodas\nNumber of shelves: 7\n",
+  "adv_pred": 8.0,
+  "adv_correct": true,
+  "attack_success": false
+}

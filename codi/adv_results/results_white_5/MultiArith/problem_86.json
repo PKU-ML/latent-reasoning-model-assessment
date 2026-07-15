@@ -1,0 +1,33 @@
+{
+  "question": " Adam had 33 books. If he sold 11 of them and used the money he earned to buy 23 new books, how many books would Adam have? ",
+  "ground_truth": "45.0",
+  "prefix": "capacityuman resources710ほ",
+  "prefix_token_ids": [
+    38487,
+    7282,
+    5070,
+    19027,
+    102717
+  ],
+  "baseline_token_id": 1774,
+  "target_token_id": 1758,
+  "baseline_logit_diff": -5.375,
+  "clean_logit_diff": -4.875,
+  "adv_logit_diff": 4.25,
+  "best_logit_diff": 4.25,
+  "clean_text": "The answer is: 45",
+  "clean_answer": 45.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 735",
+  "adv_answer": 735.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -3.875,
+    -2.375,
+    -1.375,
+    -1.125,
+    0.15625,
+    4.25
+  ]
+}

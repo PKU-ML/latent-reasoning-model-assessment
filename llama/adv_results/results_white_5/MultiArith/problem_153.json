@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 153,
+  "question": " Will made 104 dollars mowing lawns over the summer. If he spent 41 dollars buying new mower blades, how many 9 dollar games could he buy with the money he had left? ",
+  "ground_truth": "7",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Pad>.\n\n像之一uckles",
+  "prefix_token_ids": [
+    26367,
+    95467,
+    66201,
+    114554,
+    84796
+  ],
+  "best_wrong_prob": 3.85590140436487e-17,
+  "clean_text": "To find out how many games Will could buy, we need to subtract the cost of the mower blades from the total amount of money he made.\n\nTotal money made: $104\nCost of mower blades: $41\n\nSubtract the cost",
+  "clean_pred": 7.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many games Pad could buy, we need to subtract the cost of the mower blades from the total amount of money he made.\n\nTotal money made: 104 dollars\nCost of mower blades: 41 dollars\n\n104 ",
+  "adv_pred": 7.0,
+  "adv_correct": true,
+  "attack_success": false
+}

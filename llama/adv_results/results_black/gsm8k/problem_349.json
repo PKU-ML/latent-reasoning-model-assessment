@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 349,
+  "question": "Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+  "ground_truth": "2640.0",
+  "baseline_correct": true,
+  "baseline_answer": 2640.0,
+  "best_rewrite": "A year has 12 months. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+  "best_fact": "A year has 12 months.",
+  "best_pred_answer": 3360.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 11,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\n1. Calculate the cost of food per month:\n   - Food costs $25 per week\n   - There are 4 weeks in a month\n   - So, food costs $25 * 4 = $100 per month\n\n2. Calculate the cost of treats per month:\n   - Treats cost $20 per month\n\n3. Calculate the cost of medicine per month:\n   - Medicine costs $100 per month\n\n4. Add up the costs of food, treats, and medicine per month:\n   - $100 (food) + $20 (treats) + $100 (medicine) = $220 per month\n\n5. Multiply the total cost per month by 12 to find the total cost per year:\n   - $220 per month * 12 months = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{The answer is $2640.",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "April has 30 days. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the cost per month:\n- Food: 30 days * $25 per week = 30 * 4 = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total cost per year:\n- $220 per month * 12 months = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\n1. Food costs $25 per week, and there are 4 weeks in a month, so the monthly cost of food is:\n$25 * 4 = $100 per month\n\n2. Treats cost $20 per month, so the total cost of treats per month is:\n$20 * 4 = $80 per month\n\n3. Medicine costs $100 per month, so the total cost of medicine per month is:\n$100 per month\n\n4. To find the total cost per month, we add the costs of food, treats, and medicine:\n$100 + $80 + $100 = $280 per month\n\n5. To find the total cost per year, we multiply the monthly cost by 12:\n$280 * 12 = $3360 per year\n\nSo, Madeline spends $3360 per year on her dog.\nSo the answer is \\boxed{$3360",
+      "pred_answer": 3360.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the total amount spent on food per month, multiply the weekly cost by 4. \n\n$25 per week * 4 weeks = $100 per month\n\nTo find the total amount spent on treats per month, multiply the monthly cost by 12. \n\n$20 per month * 12 months = $240 per year\n\nTo find the total amount spent on medicine per month, multiply the monthly cost by 12. \n\n$100 per month * 12 months = $1200 per year\n\nTo find the total amount spent on all three items per year, add the amounts spent on food, treats, and medicine. \n\n$100 per month + $240 per year + $1200 per year = $1240 per year\n\nMadeline spends $1240 per year on her dog.\nSo the answer is \\boxed{$1240",
+      "pred_answer": 1240.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total amount Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\n1. Calculate the cost per month:\n- Food: $25 per week * 4 weeks = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\n2. Multiply the total monthly cost by 12:\n$220 per month * 12 months = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "A year has 12 months. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost of food, treats, and medicine per month and then multiply it by 12.\n\nFood costs $25 per week, and there are 4 weeks in a month, so the cost of food per month is:\n$25 * 4 = $100\n\nTreats cost $20 per month, so the total cost of treats per month is:\n$20 * 4 = $80\n\nMedicine costs $100 per month, so the total cost of medicine per month is:\n$100\n\nNow, let's add up the total cost of food, treats, and medicine per month:\n$100 (food) + $80 (treats) + $100 (medicine) = $280\n\nSince there are 12 months in a year, we multiply the total cost per month by 12:\n$280 * 12 = $3360\n\nSo, Madeline spends $3360 per year on her dog.\nSo the answer is \\boxed{$3360",
+      "pred_answer": 3360.0
+    },
+    {
+      "question": "A week has 7 days. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the cost per month:\n- Food: $25 per week * 4 weeks = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\n\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total cost per year:\n- $220 per month * 12 months = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "An hour has 60 minutes. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\n1. Calculate the cost per month:\n- Food: $25 per week * 4 weeks per month = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\n2. Multiply the total monthly cost by 12:\n$220 per month * 12 months per year = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "A minute has 60 seconds. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the cost per month:\n- Food: $25 per week * 4 weeks per month = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\n\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total cost per year:\n- $220 per month * 12 months per year = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "A year has 365 days. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the total amount Madeline spends on her dog per year, we need to calculate the total cost of food, treats, and medicine per month and then multiply it by 12.\n\nFood costs $25 per week, and there are 4 weeks in a month, so the cost per month is:\n$25 * 4 = $100\n\nTreats cost $20 per month, so the total cost per month is:\n$20 * 4 = $80\n\nMedicine costs $100 per month, so the total cost per month is:\n$100\n\nNow, let's add up the costs per month:\n$100 (food) + $80 (treats) + $100 (medicine) = $280\n\nSince there are 12 months in a year, we multiply the total cost per month by 12:\n$280 * 12 = $3360\n\nSo, Madeline spends $3360 per year on her dog.\nSo the answer is \\boxed{$3360",
+      "pred_answer": 3360.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the total amount spent on food per year, we need to calculate the amount spent per month and then multiply it by 12.\n\nFood costs $25 per week, and there are 4 weeks in a month, so the amount spent per month is:\n$25 * 4 = $100\n\nSince there are 12 months in a year, the total amount spent on food per year is:\n$100 * 12 = $1200\n\nTreats cost $20 per month, so the total amount spent on treats per year is:\n$20 * 12 = $240\n\nMedicine costs $100 per month, so the total amount spent on medicine per year is:\n$100 * 12 = $1200\n\nThe total amount spent on food, treats, and medicine per year is:\n$1200 + $240 + $1200 = $2640\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{The answer is $2640.",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the total amount of money Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nThe cost of food per month is $25, and there are 4 weeks in a month, so the cost per week is $25 / 4 = $6.25. \nThe cost of treats per month is $20, so the cost per week is $20 / 4 = $5. \nThe cost of medicine per month is $100, so the cost per week is $100 / 4 = $25.\n\nThe total cost per week is $6.25 + $5 + $25 = $36.25. \nTo find the total cost per year, we multiply the cost per week by 52 (the number of weeks in a year): \n$36.25 * 52 = $1,886.\nSo the answer is \\boxed{$1,886",
+      "pred_answer": 886.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\n1. Food costs: $25 per week\nSince there are 4 weeks in a month, the cost per month is $25 * 4 = $100\n2. Treats cost: $20 per month\n3. Medicine costs: $100 per month\nTotal monthly cost: $100 (food) + $20 (treats) + $100 (medicine) = $220\n4. Total yearly cost: $220 * 12 = $2640\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total amount of money Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the cost per month:\n- Food: $25 per week * 4 weeks per month = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\n\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total cost per year:\n- $220 per month * 12 months per year = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\n1. Calculate the cost per month:\n- Food: $25 per week * 4 weeks per month = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\n2. Multiply the total monthly cost by 12:\n$220 per month * 12 months per year = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "An adult has 32 teeth. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the total cost per month:\n- Food: 32 teeth * $25 per week = $800 per month\n- Treats: 32 teeth * $20 per month = $640 per month\n- Medicine: $100 per month\n\nTotal monthly cost: $800 + $640 + $100 = $1480 per month\n\nNow, let's calculate the total cost per year:\n- $1480 per month * 12 months = $17,680 per year\n\nSo, Madeline spends $17,680 per year on her dog.\nSo the answer is \\boxed{$17,680",
+      "pred_answer": 680.0
+    },
+    {
+      "question": "China has 1.4 billion people. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the total amount Madeline spends on her dog per year, we need to calculate the total amount she spends per month and then multiply it by 12.\n\nFirst, let's calculate the total amount she spends per month:\n- Food: 1.4 billion people * $25 per week = 1.4 billion * 52 weeks per year = 72.8 billion\n- Treats: 1.4 billion people * $20 per month = 1.4 billion * 12 months per year = 16.8 billion\n- Medicine: 1.4 billion people * $100 per month = 1.4 billion * 12 months per year = 16.8 billion\n\nNow, let's add up the total amount she spends per month:\n$72.8 billion + $16.8 billion + $16.8 billion = $105.6 billion\n\nSince there are 12 months in a year, we can multiply the total amount she spends per month by 12 to find the total amount she spends per year:\n$105.6 billion * 12 = $1.256 billion\n\nSo, Madeline spends approximately $1.256 billion per year on her dog.\nSo the answer is \\boxed{$1.256 billion",
+      "pred_answer": 1.256
+    },
+    {
+      "question": "Japan has 125 million people. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the total amount Madeline spends on her dog per year, we need to calculate the total amount she spends per month and then multiply it by 12.\n\nFirst, let's calculate the total amount she spends per month:\n- Food: 125 million people * $25 per week * 4 weeks per month = 500 million dollars per month\n- Treats: 125 million people * $20 per month = 2.5 billion dollars per month\n- Medicine: 125 million people * $100 per month = 12.5 billion dollars per month\n\nNow, let's add up the total amount she spends per month:\n$500 million + $2.5 billion + $12.5 billion = $15.5 billion per month\n\nTo find the total amount she spends per year, we multiply the monthly amount by 12:\n$15.5 billion per month * 12 months per year = $187.2 billion per year\n\nSo, Madeline spends approximately $187.2 billion per year on her dog.\nSo the answer is \\boxed{$187,200,000,000",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The US has 50 states. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the total cost per month:\n- Food: $25 per week * 4 weeks = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total cost per year:\n- $220 per month * 12 months = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "The EU has 27 member states. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total amount Madeline spends on her dog per year, we need to calculate the total amount she spends per month and then multiply it by 12.\n\nFirst, let's calculate the total amount she spends per month:\n- Food: $25 per week * 4 weeks per month = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\nTotal monthly expenses: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total amount she spends per year:\n- $220 per month * 12 months per year = $2,640 per year\n\nSo, Madeline spends $2,640 per year on her dog.\nSo the answer is \\boxed{The answer is $2640.",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the cost per month:\n- Food: $25 per week * 4 weeks per month = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\n\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total cost per year:\n- $220 per month * 12 months per year = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the total amount spent on food per year, we need to multiply the weekly cost by the number of weeks in a year. \n\nFirst, let's calculate the weekly cost of food: \n$25 per week * 4 weeks per month = $100 per month\n$100 per month * 12 months per year = $1200 per year\n\nNext, let's calculate the total cost of treats per year: \n$20 per month * 12 months per year = $240 per year\n\nNow, let's add the cost of food and treats to get the total amount spent on food and treats per year: \n$1200 per year + $240 per year = $1440 per year\n\nFinally, let's add the cost of medicine per year to get the total amount spent on all three: \n$1440 per year + $100 per year = $1540 per year\n\nSo, Madeline spends $1540 per year on her dog.\nSo the answer is \\boxed{The answer is $1540.",
+      "pred_answer": 1540.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the total amount Madeline spends on her dog per year, we need to calculate the total amount she spends per month and then multiply it by 12.\n\nFirst, let's calculate the total amount she spends per month:\n- Food: 165 million km² * $25 per week = 165,000,000 * 52 weeks per year = 8,600,000,000\n- Treats: 165 million km² * $20 per month = 165,000,000 * 12 months per year = 1,970,000,000\n- Medicine: 165 million km² * $100 per month = 165,000,000 * 12 months per year = 1,970,000,000\n\nNow, let's add up the total amount she spends per month:\n8,600,000,000 + 1,970,000,000 + 1,970,000,000 = 11,570,000,000\n\nSince there are 12 months in a year, we multiply the total amount by 12:\n11,570,000,000 * 12 = 137,680,000,000\n\nSo, Madeline spends approximately 137,680,000,000 dollars per year on her dog.\nSo the answer is \\boxed{137,680,000,000",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The human body has 206 bones. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total amount Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the total cost per month:\n- Food: $25 per week * 4 weeks per month = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total cost per year:\n- $220 per month * 12 months per year = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total amount Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\n1. Calculate the cost per month:\n- Food: $25 per week * 4 weeks per month = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\n2. Multiply the monthly cost by 12 to find the yearly cost:\n$220 per month * 12 months per year = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the total cost per month:\n- Food: $25 per week * 4 weeks per month = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total cost per year:\n- $220 per month * 12 months per year = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the total amount spent on food per year, we need to calculate the weekly cost and multiply it by 52 weeks.\n\nFood costs $25 per week, so the total cost per year is:\n$25 * 52 = $1300\n\nTo find the total cost of treats per year, we multiply the monthly cost by 12:\n$20 * 12 = $240\n\nTo find the total cost of medicine per year, we multiply the monthly cost by 12:\n$100 * 12 = $1200\n\nNow, we add up the costs of food, treats, and medicine to find the total amount spent per year:\n$1300 + $240 + $1200 = $2540\n\nSo, Madeline spends $2540 per year on her dog.\nSo the answer is \\boxed{$2540",
+      "pred_answer": 2540.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the cost per month:\n- Food: $25 per week * 4 weeks per month = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\n\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total cost per year:\n- $220 per month * 12 months per year = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total amount Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\n- Food costs $25 per week, so for 4 weeks it would be $25 * 4 = $100 per month.\n- Treats cost $20 per month.\n- Medicine costs $100 per month.\n\nTotal monthly cost = $100 (food) + $20 (treats) + $100 (medicine) = $220 per month.\n\nSince there are 12 months in a year, the total annual cost would be:\n$220 per month * 12 months = $2640 per year.\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Every month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how much Madeline spends on her dog per year, we need to calculate the total cost per month and then multiply it by 12.\n\nFirst, let's calculate the total cost per month:\n- Food: $25 per week * 4 weeks = $100 per month\n- Treats: $20 per month\n- Medicine: $100 per month\nTotal monthly cost: $100 + $20 + $100 = $220 per month\n\nNow, let's calculate the total cost per year:\n- $220 per month * 12 months = $2640 per year\n\nSo, Madeline spends $2640 per year on her dog.\nSo the answer is \\boxed{2640",
+      "pred_answer": 2640.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1177,
+  "question": "Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+  "ground_truth": "17",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " \"\"\n\n demek classy",
+  "prefix_token_ids": [
+    36929,
+    119857,
+    71358
+  ],
+  "best_wrong_prob": 5.190242483863798e-21,
+  "clean_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and then subtract that from the total number of students.\n\nNumber of girls on varsit",
+  "clean_pred": 12.0,
+  "clean_correct": false,
+  "adv_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity.\n\nOne-third of the girls are on varsity: 12 girls / 3 = 4 girls on varsity\nOne-fourt",
+  "adv_pred": 17.0,
+  "adv_correct": true,
+  "attack_success": false
+}

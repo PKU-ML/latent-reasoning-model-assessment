@@ -1,0 +1,26 @@
+{
+  "question": "Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?",
+  "ground_truth": "159.0",
+  "prefix": " drafted DUP doubling",
+  "prefix_token_ids": [
+    15937,
+    45556,
+    26862
+  ],
+  "baseline_token_id": 26422,
+  "target_token_id": 28369,
+  "baseline_logit_diff": -0.4072265625,
+  "clean_logit_diff": -6.84375,
+  "adv_logit_diff": 5.21875,
+  "best_logit_diff": 5.21875,
+  "clean_text": "Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?\n### 159",
+  "clean_answer": 159.0,
+  "clean_correct": true,
+  "adv_text": "drafted DUP doublingNate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?\n### 171",
+  "adv_answer": 171.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    5.21875
+  ]
+}

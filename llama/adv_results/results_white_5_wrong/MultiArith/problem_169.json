@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 169,
+  "question": " Carol was playing a trivia game. In the first round she scored 17 points and in the second round she scored 6 points. In the last round she lost 16 points. How many points did she have at the end of the game? ",
+  "ground_truth": "7",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Jobنب kök deixงเศส",
+  "prefix_token_ids": [
+    12280,
+    127996,
+    127995,
+    65856,
+    127941
+  ],
+  "best_wrong_prob": 1.300357101867486e-24,
+  "clean_text": "To find the total points Carol had at the end of the game, we need to add up the points from each round.\n\nRound 1: 17 points\nRound 2: 6 points\nRound 3: -16 points\n\nTotal points = 17 + 6 - 16\nTotal poi",
+  "clean_pred": 7.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many points Carol had at the end of the game, we need to add up the points she scored in each round.\n\nRound 1: 17 points\nRound 2: 6 points\nRound 3: -16 points\n\nLet's add them up:\n17 + ",
+  "adv_pred": 7.0,
+  "adv_correct": true,
+  "attack_success": false
+}

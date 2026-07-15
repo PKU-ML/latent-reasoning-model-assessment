@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 243,
+  "question": "They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+  "ground_truth": "117.0",
+  "baseline_correct": true,
+  "baseline_answer": 117.0,
+  "best_rewrite": "A plant has 46 chromosomes. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+  "best_fact": "A plant has 46 chromosomes.",
+  "best_pred_answer": 112.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 14,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the total number of chairs and the number of tables.\n\nNumber of tables: 14\nNumber of chairs: 126\nDifference: 126 - 14 = 112\n\nSo, they have 112 more chairs than tables.\nSo the answer is \\boxed{112",
+      "pred_answer": 112.0
+    },
+    {
+      "question": "April has 30 days. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of chairs, we need to multiply the number of tables by the number of chairs per table. \n\nNumber of tables = 9\nNumber of chairs per table = 14\nNumber of chairs = 9 * 14 = 126\n\nNow, let's find the difference between the number of chairs and tables.\n\nNumber of chairs - Number of tables = 126 - 9 = 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of chairs = 2 wheels * 9 sets = 18 chairs\nNumber of tables = 2 wheels * 9 sets = 18 tables\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 18 - 18\n= 0\n\nSo, they have the same number of chairs and tables.\nSo the answer is \\boxed{The answer is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "Today is the 3rd of the month. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of chairs = 14 * 9 = 126\nNumber of tables = 9\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 126 - 9\n= 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of chairs = 14 sets * 2 chairs per set = 28 chairs\nNumber of tables = 9 sets * 2 tables per set = 18 tables\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 28 - 18\n= 10\n\nSo, they have 10 more chairs than tables.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "A year has 12 months. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\n\nTotal number of chairs = 9 * 14 = 126\n\nNow, let's find the difference between the total number of chairs and the number of tables.\n\nNumber of tables = 9\nDifference = Total number of chairs - Number of tables\n= 126 - 9\n= 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "A week has 7 days. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the total number of chairs and the number of tables.\n\nNumber of tables: 9\nNumber of chairs: 126\nDifference: 126 - 9 = 117\n\nThey have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "An hour has 60 minutes. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the total number of chairs and the number of tables.\n\nNumber of tables: 9\nNumber of chairs: 126\nDifference: 126 - 9 = 117\n\nThey have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "A minute has 60 seconds. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the total number of chairs and the number of tables.\n\nNumber of tables: 9\nNumber of chairs: 126\nDifference: 126 - 9 = 117\n\nThey have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "A year has 365 days. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set.\n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\n\nTotal number of chairs = 9 * 14 = 126\n\nNow, let's find the difference between the total number of chairs and the number of tables.\n\nNumber of tables = 9\nDifference = Total number of chairs - Number of tables\n= 126 - 9\n= 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of tables = 9 sets * 14 chairs/set = 126 chairs\nNumber of chairs = 14 chairs/set * 9 sets = 126 chairs\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 126 chairs - 126 tables\n= 0\n\nSo, they have the same number of chairs and tables.\nSo the answer is \\boxed{The answer is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of chairs = 14 sets * 2 chairs per set = 28 chairs\nNumber of tables = 9 sets * 2 tables per set = 18 tables\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 28 - 18\n= 10\n\nSo, they have 10 more chairs than tables.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\n\nTotal number of chairs = 9 * 14 = 126\n\nNow, let's find the difference between the total number of chairs and the number of tables.\n\nNumber of tables = 9\nDifference = Total number of chairs - Number of tables\n= 126 - 9\n= 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of chairs = 14 sets * 2 chairs per set = 28 chairs\nNumber of tables = 9 sets * 2 tables per set = 18 tables\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 28 - 18\n= 10\n\nSo, they have 10 more chairs than tables.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The human heart has 4 chambers. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\n\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the total number of chairs and the number of tables:\n\nDifference = Total number of chairs - Number of tables\n= 126 - 9\n= 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "An adult has 32 teeth. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the number of chairs and tables.\n\nNumber of tables: 32\nNumber of chairs: 126\nDifference: 126 - 32 = 94\n\nSo, the adult has 94 more chairs than tables.\nSo the answer is \\boxed{The answer is 94.",
+      "pred_answer": 94.0
+    },
+    {
+      "question": "China has 1.4 billion people. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of chairs = 1.4 billion\nNumber of tables = 9 sets * 14 chairs/set = 126 sets\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 1,400,000,000 - 126\n= 1,399,874,874\n\nSo, China has 1,399,874,874 more chairs than tables.\nSo the answer is \\boxed{1,399,874,874",
+      "pred_answer": 874.0
+    },
+    {
+      "question": "Japan has 125 million people. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set.\n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\n\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the number of chairs and tables:\n\nNumber of chairs: 126\nNumber of tables: 9\n\nDifference: 126 - 9 = 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "The US has 50 states. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of tables = 9 sets * 14 chairs/set = 126 chairs\nNumber of tables = 9 sets\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 126 - 9\n= 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "The EU has 27 member states. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of chairs = 14 sets * 9 chairs/set = 126 chairs\nNumber of tables = 14 sets * 1 table/set = 14 tables\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 126 - 14\n= 112\n\nSo, the EU has 112 more chairs than tables.\nSo the answer is \\boxed{The answer is 112.",
+      "pred_answer": 112.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of chairs = 14 sets * 2 chairs per set = 28 chairs\nNumber of tables = 9 sets * 2 tables per set = 18 tables\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 28 - 18\n= 10\n\nSo, they have 10 more chairs than tables.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of chairs = 14 sets * 2 chairs per set = 28 chairs\nNumber of tables = 9 sets * 2 tables per set = 18 tables\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 28 - 18\n= 10\n\nSo, they have 10 more chairs than tables.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of tables and chairs.\n\nNumber of tables = 9 sets * 14 chairs/set = 126 chairs\nNumber of tables = 9 sets\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 126 - 9\n= 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "The human body has 206 bones. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of tables and chairs.\n\nNumber of tables = 9 sets * 14 chairs per set = 126 chairs\nNumber of tables = 9 sets * 14 chairs per set = 126 chairs\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 126 - 126\n= 0\n\nSo, the number of chairs is equal to the number of tables.\nSo the answer is \\boxed{The answer is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\n\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the number of chairs and tables:\n\nNumber of tables: 9\nNumber of chairs: 126\n\nDifference: 126 - 9 = 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set.\n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\n\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the number of chairs and tables:\n\nNumber of chairs: 126\nNumber of tables: 9\n\nDifference: 126 - 9 = 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of tables = 9 sets * 14 chairs/set = 126 chairs\nNumber of tables = 9 sets * 14 chairs/set = 126 chairs\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 126 chairs - 126 tables\n= 0 chairs\n\nSo, they have the same number of chairs and tables.\nSo the answer is \\boxed{0",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the number of chairs and tables.\n\nNumber of tables: 14\nNumber of chairs: 126\nDifference: 126 - 14 = 112\n\nSo, the plant has 112 more chairs than tables.\nSo the answer is \\boxed{112",
+      "pred_answer": 112.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs per set. \n\nNumber of sets of tables: 9\nNumber of chairs per set: 14\n\nTotal number of chairs: 9 * 14 = 126\n\nNow, let's find the difference between the total number of chairs and the number of tables.\n\nNumber of tables: 9\nNumber of chairs: 126\n\nDifference: 126 - 9 = 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the difference between the number of chairs and tables, we need to first find the total number of chairs and tables.\n\nNumber of tables = 9 sets * 14 chairs/set = 126 chairs\nNumber of tables = 9 sets\n\nNow, let's find the difference:\nDifference = Number of chairs - Number of tables\n= 126 - 9\n= 117\n\nSo, they have 117 more chairs than tables.\nSo the answer is \\boxed{117",
+      "pred_answer": 117.0
+    }
+  ]
+}

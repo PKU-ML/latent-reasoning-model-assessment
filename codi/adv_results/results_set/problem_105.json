@@ -1,0 +1,171 @@
+{
+  "question": "Cody eats three times as many cookies as Amir eats. If Amir eats 5 cookies, how many cookies do both of them eat together?",
+  "ground_truth": "20.0",
+  "best_prefix": " cloudyupe Haskell Twicekeys",
+  "best_prefix_token_ids": [
+    74649,
+    86577,
+    63276,
+    94666,
+    10786
+  ],
+  "baseline_token_id": 508,
+  "target_token_id": 914,
+  "baseline_logit_diff": -4.875,
+  "clean_logit_diff": -7.875,
+  "best_logit_diff": -4.25,
+  "best_cosine": 0.9375,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 20",
+  "adv_answer": 20.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " cloudyupe Haskell Twicekeys",
+      "prefix_ids": [
+        74649,
+        86577,
+        63276,
+        94666,
+        10786
+      ],
+      "logit_diff": -4.25,
+      "cosine_sim": 0.9375,
+      "answer": 20.0,
+      "correct": true
+    },
+    {
+      "prefix": " HeartacceptedJoe mocked Jason",
+      "prefix_ids": [
+        18449,
+        55674,
+        41444,
+        47249,
+        18984
+      ],
+      "logit_diff": -4.375,
+      "cosine_sim": 0.96875,
+      "answer": 20.0,
+      "correct": true
+    },
+    {
+      "prefix": " Heart highlightJoe mocked Jason",
+      "prefix_ids": [
+        18449,
+        11415,
+        41444,
+        47249,
+        18984
+      ],
+      "logit_diff": -4.375,
+      "cosine_sim": 0.96484375,
+      "answer": 20.0,
+      "correct": true
+    },
+    {
+      "prefix": " puzzledagueouch Twice(host",
+      "prefix_ids": [
+        87420,
+        4768,
+        3102,
+        94666,
+        20569
+      ],
+      "logit_diff": -4.5,
+      "cosine_sim": 0.93359375,
+      "answer": 20.0,
+      "correct": true
+    },
+    {
+      "prefix": " Heart lake dismay mocked Triple",
+      "prefix_ids": [
+        18449,
+        22553,
+        73082,
+        47249,
+        37749
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.94140625,
+      "answer": 20.0,
+      "correct": true
+    },
+    {
+      "prefix": " Heart lakeJoe mocked Jason",
+      "prefix_ids": [
+        18449,
+        22553,
+        41444,
+        47249,
+        18984
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.96484375,
+      "answer": 20.0,
+      "correct": true
+    },
+    {
+      "prefix": " puzzledagueço Twice(host",
+      "prefix_ids": [
+        87420,
+        4768,
+        20822,
+        94666,
+        20569
+      ],
+      "logit_diff": -4.875,
+      "cosine_sim": 0.9375,
+      "answer": 20.0,
+      "correct": true
+    },
+    {
+      "prefix": " angular Yüksekehen Twice Lil",
+      "prefix_ids": [
+        20932,
+        115960,
+        41797,
+        94666,
+        41578
+      ],
+      "logit_diff": -4.875,
+      "cosine_sim": 0.94140625,
+      "answer": 20.0,
+      "correct": true
+    },
+    {
+      "prefix": " watchdog Fred Єв Twice Canon",
+      "prefix_ids": [
+        48011,
+        28588,
+        126538,
+        94666,
+        39216
+      ],
+      "logit_diff": -4.875,
+      "cosine_sim": 0.94140625,
+      "answer": 20.0,
+      "correct": true
+    },
+    {
+      "prefix": " puzzled техodon Twice Lil",
+      "prefix_ids": [
+        87420,
+        102400,
+        77152,
+        94666,
+        41578
+      ],
+      "logit_diff": -4.875,
+      "cosine_sim": 0.94140625,
+      "answer": 20.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

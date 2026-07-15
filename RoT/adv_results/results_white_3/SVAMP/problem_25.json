@@ -1,0 +1,32 @@
+{
+  "question": "A waiter had 12 customers. While 15 customers left he got 14 new customers. How many customers does he still have?",
+  "ground_truth": "11.0",
+  "prefix": "63 aboard",
+  "prefix_token_ids": [
+    21,
+    18,
+    36506
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -2.5,
+  "clean_logit_diff": -3.375,
+  "adv_logit_diff": 1.125,
+  "best_logit_diff": 1.125,
+  "clean_text": "assistant\n### 11 ",
+  "clean_answer": 11.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 25 ",
+  "adv_answer": 25.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    1.125
+  ]
+}

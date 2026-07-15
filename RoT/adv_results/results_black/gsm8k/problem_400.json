@@ -1,0 +1,226 @@
+{
+  "question": "A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+  "ground_truth": "48.0",
+  "best_rewrite": "April has 30 days. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+  "best_fact": "April has 30 days.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "assistant\n### 480 ",
+    "pred_answer": 480.0
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "April has 30 days. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 480 ",
+      "pred_answer": 480.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "Today is the 3rd of the month. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "A year has 12 months. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "A week has 7 days. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 336 ",
+      "pred_answer": 336.0
+    },
+    {
+      "question": "An hour has 60 minutes. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 480 ",
+      "pred_answer": 480.0
+    },
+    {
+      "question": "A minute has 60 seconds. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 480 ",
+      "pred_answer": 480.0
+    },
+    {
+      "question": "A year has 365 days. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 480 ",
+      "pred_answer": 480.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 145 ",
+      "pred_answer": 145.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1440 ",
+      "pred_answer": 1440.0
+    },
+    {
+      "question": "The human heart has 4 chambers. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "An adult has 32 teeth. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "China has 1.4 billion people. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 672 ",
+      "pred_answer": 672.0
+    },
+    {
+      "question": "Japan has 125 million people. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 4800 ",
+      "pred_answer": 4800.0
+    },
+    {
+      "question": "The US has 50 states. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 480 ",
+      "pred_answer": 480.0
+    },
+    {
+      "question": "The EU has 27 member states. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 330 ",
+      "pred_answer": 330.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "assistant\n### 480 ",
+      "pred_answer": 480.0
+    },
+    {
+      "question": "The human body has 206 bones. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1176 ",
+      "pred_answer": 1176.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 486 ",
+      "pred_answer": 486.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 48 ",
+      "pred_answer": 48.0
+    }
+  ]
+}

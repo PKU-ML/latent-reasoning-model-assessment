@@ -1,0 +1,171 @@
+{
+  "question": "Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+  "ground_truth": "20.0",
+  "best_prefix": " downloadMinutes Lamar Evangelerin",
+  "best_prefix_token_ids": [
+    4232,
+    28820,
+    62284,
+    55806,
+    85509
+  ],
+  "baseline_token_id": 508,
+  "target_token_id": 605,
+  "baseline_logit_diff": 1.25,
+  "clean_logit_diff": -0.75,
+  "best_logit_diff": 1.875,
+  "best_cosine": 0.9609375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 10",
+  "adv_answer": 10.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " downloadMinutes Lamar Evangelerin",
+      "prefix_ids": [
+        4232,
+        28820,
+        62284,
+        55806,
+        85509
+      ],
+      "logit_diff": 1.875,
+      "cosine_sim": 0.9609375,
+      "answer": 10.0,
+      "correct": false
+    },
+    {
+      "prefix": " MonthMinutes Lamar Suiteerin",
+      "prefix_ids": [
+        19961,
+        28820,
+        62284,
+        21652,
+        85509
+      ],
+      "logit_diff": 1.5,
+      "cosine_sim": 0.95703125,
+      "answer": 10.0,
+      "correct": false
+    },
+    {
+      "prefix": " downloadMinutes Lamar codeserin",
+      "prefix_ids": [
+        4232,
+        28820,
+        62284,
+        14236,
+        85509
+      ],
+      "logit_diff": 1.5,
+      "cosine_sim": 0.96484375,
+      "answer": 10.0,
+      "correct": false
+    },
+    {
+      "prefix": " MonthMinutes Lamar grand мере",
+      "prefix_ids": [
+        19961,
+        28820,
+        62284,
+        6800,
+        120214
+      ],
+      "logit_diff": 1.375,
+      "cosine_sim": 0.95703125,
+      "answer": 10.0,
+      "correct": false
+    },
+    {
+      "prefix": " augmentedMinutes Lamar...\",erin",
+      "prefix_ids": [
+        57088,
+        28820,
+        62284,
+        47944,
+        85509
+      ],
+      "logit_diff": 1.375,
+      "cosine_sim": 0.953125,
+      "answer": 10.0,
+      "correct": false
+    },
+    {
+      "prefix": " MonthMinutes Lamar liserin",
+      "prefix_ids": [
+        19961,
+        28820,
+        62284,
+        41380,
+        85509
+      ],
+      "logit_diff": 1.375,
+      "cosine_sim": 0.9609375,
+      "answer": 10.0,
+      "correct": false
+    },
+    {
+      "prefix": " vintageMinutesmatic(raw most",
+      "prefix_ids": [
+        24724,
+        28820,
+        38344,
+        23269,
+        1455
+      ],
+      "logit_diff": 1.375,
+      "cosine_sim": 0.9453125,
+      "answer": 10.0,
+      "correct": false
+    },
+    {
+      "prefix": " MonthMinutes Lamar Massachusettserin",
+      "prefix_ids": [
+        19961,
+        28820,
+        62284,
+        22108,
+        85509
+      ],
+      "logit_diff": 1.375,
+      "cosine_sim": 0.9609375,
+      "answer": 10.0,
+      "correct": false
+    },
+    {
+      "prefix": " downloadMinutes혜 Tourfrei",
+      "prefix_ids": [
+        4232,
+        28820,
+        111138,
+        14986,
+        98469
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.96484375,
+      "answer": 10.0,
+      "correct": false
+    },
+    {
+      "prefix": " breathtakingMinutes Lamar grandasthan",
+      "prefix_ids": [
+        57192,
+        28820,
+        62284,
+        6800,
+        72649
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.95703125,
+      "answer": 10.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

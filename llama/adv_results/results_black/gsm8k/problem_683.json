@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 683,
+  "question": "Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+  "ground_truth": "50.0",
+  "baseline_correct": false,
+  "baseline_answer": 90.0,
+  "best_rewrite": "The EU has 27 member states. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+  "best_fact": "The EU has 27 member states.",
+  "best_pred_answer": 70.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 12,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the time taken to mow the lawn, we need to calculate the time taken for each mode and add them together.\n\nIn turtle mode, Chris can mow the lawn in 1 hour, which is 60 minutes. He mowed half the lawn in turtle mode, so he spent 30 minutes mowing in turtle mode.\n\nIn rabbit mode, Chris can mow the lawn in 40 minutes. He mowed the other half of the lawn in rabbit mode, so he spent 20 minutes mowing in rabbit mode.\n\nTo find the total time taken, we add the time spent in turtle mode and rabbit mode:\n30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes\n\nTherefore, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "April has 30 days. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time spent in each mode and add them together.\n\nIn turtle mode, Chris mowed half the lawn, so he spent 15 minutes mowing in turtle mode (half of 30 minutes).\n\nIn rabbit mode, Chris mowed the other half of the lawn, which is also 15 minutes.\n\nTo find the total time, we add the time spent in turtle mode and rabbit mode: 15 + 15 = 30 minutes.\n\nTherefore, it took Chris 30 minutes to mow the lawn.\nSo the answer is \\boxed{The answer is 30 minutes.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total time it takes to mow the lawn is 60 minutes (1 hour).\n\nTime taken to mow in turtle mode = 1 hour * 2 = 60 minutes\nTime taken to mow in rabbit mode = 40 minutes\n\nSince Chris mowed half the lawn in turtle mode and half in rabbit mode, the total time taken is the sum of the time taken in each mode.\n\nTotal time taken = Time taken in turtle mode + Time taken in rabbit mode\n= 60 minutes + 40 minutes\n= 100 minutes\n\nTherefore, it took Chris 100 minutes to mow the lawn.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it would take him to mow the lawn in each mode and then add them together.\n\nIn turtle mode, Chris can mow the lawn in 1 hour, which is 60 minutes. Since he mowed half the lawn in turtle mode, he spent 30 minutes mowing the other half.\n\nIn rabbit mode, Chris can mow the lawn in 40 minutes. Since he mowed half the lawn in rabbit mode, he spent 20 minutes mowing the other half.\n\nTo find the total time, we add the time spent in each mode: 30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes.\n\nTherefore, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took for each mode and add them together.\n\nIn turtle mode, it takes 1 hour, which is 60 minutes. Since Chris mowed half the lawn in turtle mode, he spent 30 minutes mowing in turtle mode.\n\nIn rabbit mode, it takes 40 minutes to mow the lawn. Since Chris mowed half the lawn in rabbit mode, he spent 20 minutes mowing in rabbit mode.\n\nTo find the total time, we add the time spent in each mode: 30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes.\n\nTherefore, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "A year has 12 months. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total time it took him to mow the entire lawn in turtle mode is 1 hour, which is 60 minutes. \n\nSince he mowed half the lawn in turtle mode, the time it took him to mow the other half in rabbit mode is also 60 minutes.\n\nIn turtle mode, Chris can mow the entire lawn in 60 minutes. To mow half the lawn, he would take 60 / 2 = 30 minutes.\n\nIn rabbit mode, Chris can mow the entire lawn in 40 minutes. To mow half the lawn, he would take 40 / 2 = 20 minutes.\n\nTo find the total time it took Chris to mow the lawn, we add the time it took him to mow the lawn in turtle mode and rabbit mode:\n\n30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes\n\nSo, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "A week has 7 days. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total time it took him to mow the entire lawn in turtle mode is 1 hour, which is 60 minutes. \n\nSince he mowed half the lawn in turtle mode, the time it took him to mow the other half in rabbit mode is also 60 minutes.\n\nIn turtle mode, Chris can mow the entire lawn in 60 minutes. To mow half the lawn, he would take 60 / 2 = 30 minutes.\n\nIn rabbit mode, Chris can mow the entire lawn in 40 minutes. To mow half the lawn, he would take 40 / 2 = 20 minutes.\n\nTo find the total time it took Chris to mow the lawn, we add the time it took him to mow the lawn in turtle mode and rabbit mode:\n\n30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes\n\nSo, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "An hour has 60 minutes. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total time taken, we need to calculate the time taken for each mode and add them together.\n\nIn turtle mode, Chris can mow the lawn in 1 hour, which is 60 minutes. Since he mowed half the lawn, he spent 30 minutes in turtle mode.\n\nIn rabbit mode, Chris can mow the lawn in 40 minutes. Since he mowed half the lawn, he spent 20 minutes in rabbit mode.\n\nTo find the total time taken, we add the time spent in turtle mode and rabbit mode:\n30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes\n\nTherefore, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "A minute has 60 seconds. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nSince a minute has 60 seconds, we can convert the time from minutes to seconds as follows:\n\n1 hour = 60 minutes\n1 minute = 60 seconds\n1 hour = 60 * 60 = 3600 seconds\n\nNow, let's calculate the time it took Chris to mow the lawn in turtle mode:\n\nTime in turtle mode = 1 hour = 3600 seconds\nTime in turtle mode = 1/2 hour = 1800 seconds\nTime in turtle mode = 1800 / 60 = 30 minutes\n\nNow, let's calculate the time it took Chris to mow the lawn in rabbit mode:\n\nTime in rabbit mode = 1 hour = 3600 seconds\nTime in rabbit mode = 1/2 hour = 1800 seconds\nTime in rabbit mode = 1800 / 60 = 30 minutes\n\nSince Chris mowed half the lawn in turtle mode and half in rabbit mode, the total time it took him to mow the lawn is the sum of the time it took him to mow the lawn in turtle mode and rabbit mode:\n\nTotal time = Time in turtle mode + Time in rabbit mode\nTotal time = 30 minutes + 30 minutes\nTotal time = 60 minutes\n\nTherefore, it took Chris 60 minutes to mow the lawn.\nSo the answer is \\boxed{60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "A year has 365 days. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the time taken to mow the lawn, we need to calculate the time taken for each mode and add them together.\n\nIn turtle mode, Chris can mow the lawn in 1 hour, which is 60 minutes. Since he mowed half the lawn, he spent 30 minutes in turtle mode.\n\nIn rabbit mode, Chris can mow the lawn in 40 minutes. Since he mowed half the lawn, he spent 20 minutes in rabbit mode.\n\nTo find the total time taken, we add the time spent in each mode: 30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes.\n\nTherefore, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's break it down:\n\n- Time to mow the entire lawn in turtle mode: 1 hour = 60 minutes\n- Time to mow half the lawn in turtle mode: 1/2 * 60 minutes = 30 minutes\n- Time to mow the entire lawn in rabbit mode: 40 minutes\n- Time to mow half the lawn in rabbit mode: 40 minutes / 2 = 20 minutes\n\nNow, let's add the times together:\n30 minutes (turtle mode) + 20 minutes (rabbit mode) = 50 minutes\n\nSo, it took Chris 50 minutes to mow the lawn in a combination of turtle and rabbit modes.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow in each mode and then add them together.\n\nIn turtle mode, Chris mowed the lawn in 1 hour, which is 60 minutes. Since he mowed half the lawn in turtle mode, he spent 30 minutes mowing the other half.\n\nIn rabbit mode, Chris mowed the lawn in 40 minutes. Since he mowed half the lawn in rabbit mode, he spent 20 minutes mowing the other half.\n\nTo find the total time, we add the time spent in each mode: 30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes.\n\nTherefore, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took for each mode and add them together.\n\nIn turtle mode, it takes 1 hour, which is 60 minutes. Half of 1 hour is 30 minutes.\n\nIn rabbit mode, it takes 40 minutes.\n\nSo, the total time it took Chris to mow the lawn is 30 minutes (turtle mode) + 40 minutes (rabbit mode) = 70 minutes.\n\nThe answer is 70 minutes.\nSo the answer is \\boxed{The answer is 70 minutes.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total length of the lawn is 1000 meters.\n\nTime taken to mow the lawn in turtle mode = 1 hour = 60 minutes\nTime taken to mow the lawn in rabbit mode = 40 minutes\n\nTime taken to mow half the lawn in turtle mode = 60 minutes / 2 = 30 minutes\nTime taken to mow half the lawn in rabbit mode = 40 minutes / 2 = 20 minutes\n\nSince Chris mowed half the lawn in both modes, the total time taken is the sum of the time taken in turtle mode and rabbit mode:\nTotal time = 30 minutes + 20 minutes = 50 minutes\n\nTherefore, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total time it takes to mow the entire lawn is 1 hour = 60 minutes.\n\nIn turtle mode, Chris can mow the lawn in 1 hour, so he can mow half the lawn in 1/2 hour = 30 minutes.\n\nIn rabbit mode, Chris can mow the lawn in 40 minutes.\n\nSince Chris mowed half the lawn in turtle mode and half in rabbit mode, the total time is the sum of the time it took him to mow each half:\n\nTime in turtle mode = 30 minutes\nTime in rabbit mode = 40 minutes\n\nTotal time = 30 + 40 = 70 minutes\n\nTherefore, it took Chris 70 minutes to mow the lawn.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "An adult has 32 teeth. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nSince Chris can mow the entire lawn in 1 hour (60 minutes) in turtle mode, he can mow half the lawn in 30 minutes (half of 60 minutes). \n\nIn turtle mode, Chris can mow 1/2 of the lawn in 30 minutes. To find the time it took him to mow the entire lawn, we need to multiply the time it took him to mow half the lawn by 2 (since he mowed half the lawn in turtle mode).\n\nTime in turtle mode = 30 minutes * 2 = 60 minutes\n\nSince Chris can mow the entire lawn in 60 minutes in turtle mode, he can mow the entire lawn in 60 minutes.\n\nIn rabbit mode, Chris can mow 1/2 of the lawn in 40 minutes. To find the time it took him to mow the entire lawn, we need to multiply the time it took him to mow half the lawn by 2 (since he mowed half the lawn in rabbit mode).\n\nTime in rabbit mode = 40 minutes * 2 = 80 minutes\n\nTo find the total time it took Chris to mow the lawn, we need to add the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nTotal time = 60 minutes + 80 minutes = 140 minutes\n\nTherefore, it took Chris 140 minutes to mow the lawn.\nSo the answer is \\boxed{The answer is 140 minutes.",
+      "pred_answer": 140.0
+    },
+    {
+      "question": "China has 1.4 billion people. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total lawn area is 1.4 billion square meters. \n\nTime taken to mow the lawn in turtle mode = 1 hour = 60 minutes\nTime taken to mow the lawn in rabbit mode = 40 minutes\n\nTime taken to mow half the lawn in turtle mode = 1/2 * 60 minutes = 30 minutes\nTime taken to mow half the lawn in rabbit mode = 1/2 * 40 minutes = 20 minutes\n\nTotal time taken to mow half the lawn in turtle mode and rabbit mode = 30 minutes + 20 minutes = 50 minutes\n\nSince Chris mowed half the lawn in both modes, the total time taken is 50 minutes.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Japan has 125 million people. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's break it down:\n\n- Time to mow the entire lawn in turtle mode: 1 hour = 60 minutes\n- Time to mow half the lawn in turtle mode: 1 hour / 2 = 30 minutes\n- Time to mow the entire lawn in rabbit mode: 40 minutes\n- Time to mow half the lawn in rabbit mode: 40 minutes / 2 = 20 minutes\n\nNow, let's add the times together:\n- Time to mow the entire lawn in turtle mode: 30 minutes\n- Time to mow half the lawn in turtle mode: 30 minutes\n- Time to mow the entire lawn in rabbit mode: 40 minutes\n- Time to mow half the lawn in rabbit mode: 20 minutes\n- Total time = 30 + 30 + 40 + 20 = 120 minutes\n\nTherefore, it took Chris 120 minutes to mow the lawn.\nSo the answer is \\boxed{120",
+      "pred_answer": 120.0
+    },
+    {
+      "question": "The US has 50 states. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total time it took him to mow the entire lawn in turtle mode is 1 hour, which is 60 minutes. \n\nSince he mowed half the lawn in turtle mode, the time it took him to mow the other half in rabbit mode is also 60 minutes.\n\nIn turtle mode, Chris can mow the entire lawn in 60 minutes. To mow half the lawn, he would take 60 / 2 = 30 minutes.\n\nIn rabbit mode, Chris can mow the entire lawn in 40 minutes. To mow half the lawn, he would take 40 / 2 = 20 minutes.\n\nTo find the total time it took Chris to mow the lawn, we add the time it took him to mow the lawn in turtle mode and rabbit mode:\n\n30 minutes (turtle mode) + 20 minutes (rabbit mode) = 50 minutes\n\nSo, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The EU has 27 member states. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total length of the lawn is 1 unit. \n\nTime taken to mow the lawn in turtle mode = 1 hour = 60 minutes\nTime taken to mow half the lawn in turtle mode = 60 minutes / 2 = 30 minutes\n\nTime taken to mow the lawn in rabbit mode = 40 minutes\n\nSince Chris mowed half the lawn in both modes, the total time taken is the sum of the time taken in turtle mode and rabbit mode.\n\nTotal time taken = 30 minutes + 40 minutes = 70 minutes\n\nTherefore, it took Chris 70 minutes to mow the lawn.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's break it down:\n\n- Time to mow the entire lawn in turtle mode: 1 hour = 60 minutes\n- Time to mow half the lawn in turtle mode: 1/2 * 60 minutes = 30 minutes\n- Time to mow the entire lawn in rabbit mode: 40 minutes\n- Time to mow half the lawn in rabbit mode: 40 minutes / 2 = 20 minutes\n\nNow, let's add the times together:\n30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes\n\nSo, it took Chris 50 minutes to mow the lawn in a combination of turtle and rabbit modes.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's break it down:\n\n- Time to mow the entire lawn in turtle mode: 1 hour = 60 minutes\n- Time to mow half the lawn in turtle mode: 1/2 * 60 minutes = 30 minutes\n- Time to mow the entire lawn in rabbit mode: 40 minutes\n- Time to mow half the lawn in rabbit mode: 40 minutes / 2 = 20 minutes\n\nNow, let's add the times together:\n30 minutes (turtle mode) + 20 minutes (rabbit mode) = 50 minutes\n\nSo, it took Chris 50 minutes to mow the lawn in a combination of turtle and rabbit modes.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's break it down:\n\n- Time to mow the entire lawn in turtle mode: 1 hour = 60 minutes\n- Time to mow half the lawn in turtle mode: 1 hour / 2 = 30 minutes\n- Time to mow the entire lawn in rabbit mode: 40 minutes\n- Time to mow half the lawn in rabbit mode: 40 minutes / 2 = 20 minutes\n\nNow, let's add the times together:\n30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes\n\nSo, it took Chris 50 minutes to mow the lawn in a combination of turtle and rabbit modes.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The human body has 206 bones. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total time it took Chris to mow the entire lawn in turtle mode is 1 hour, which is 60 minutes. \n\nIn turtle mode, Chris can mow the lawn in 60 minutes. To mow half the lawn, he would take 60 / 2 = 30 minutes.\n\nIn rabbit mode, Chris can mow the lawn in 40 minutes. To mow half the lawn, he would take 40 / 2 = 20 minutes.\n\nTo find the total time it took Chris to mow the lawn in both modes, we add the time it took him to mow half the lawn in turtle mode and half in rabbit mode:\n\n30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes\n\nSo, it took Chris 50 minutes to mow the lawn in both modes.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total time it takes to mow the lawn is 1 hour (60 minutes). \n\nTime taken to mow half the lawn in turtle mode = 1 hour / 2 = 30 minutes\nTime taken to mow half the lawn in rabbit mode = 40 minutes\n\nSince Chris mowed half the lawn in both modes, the total time taken is the sum of the time taken in turtle mode and rabbit mode:\nTotal time = 30 minutes + 40 minutes = 70 minutes\n\nTherefore, it took Chris 70 minutes to mow the lawn.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total time it takes to mow the entire lawn is 60 minutes (1 hour).\n\nTime taken to mow in turtle mode = 1 hour * 0.5 = 0.5 hours\nTime taken to mow in rabbit mode = 40 minutes\n\nSince Chris mowed half the lawn in turtle mode and half in rabbit mode, the total time taken is the sum of the time taken in turtle mode and rabbit mode.\n\nTotal time taken = 0.5 hours + 40 minutes\nTo convert hours to minutes, multiply by 60:\nTotal time taken = 0.5 * 60 + 40\nTotal time taken = 30 + 40\nTotal time taken = 70 minutes\n\nTherefore, it took Chris 70 minutes to mow the lawn.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total area of the lawn is 1 unit. \n\nTime taken to mow the lawn in turtle mode = 1 hour = 60 minutes\nTime taken to mow half the lawn in turtle mode = 60 minutes / 2 = 30 minutes\n\nTime taken to mow the lawn in rabbit mode = 40 minutes\n\nSince Chris mowed half the lawn in both modes, the total time taken is the sum of the time taken in turtle mode and rabbit mode.\n\nTotal time taken = 30 minutes + 40 minutes = 70 minutes\n\nTherefore, it took Chris 70 minutes to mow the lawn.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nSince Chris can mow the entire lawn in 1 hour (60 minutes) in turtle mode, he can mow half the lawn in 30 minutes (half of 60 minutes).\n\nIn rabbit mode, Chris can mow the entire lawn in 40 minutes.\n\nTo find the time it took him to mow half the lawn in rabbit mode, we can divide the time it took him to mow the entire lawn in rabbit mode by 2:\n\n40 minutes / 2 = 20 minutes\n\nSo, it took Chris 30 minutes to mow half the lawn in turtle mode and 20 minutes to mow half the lawn in rabbit mode.\nSo the answer is \\boxed{The answer is 50 minutes.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total time it takes to mow the entire lawn is 1 hour (60 minutes). \n\nIn turtle mode, Chris can mow the lawn in 1 hour, so he can mow half the lawn in 30 minutes (half of 60 minutes). \n\nIn rabbit mode, Chris can mow the lawn in 40 minutes. \n\nTo mow half the lawn, Chris would need to mow it twice as fast, so he would take 40 minutes / 2 = 20 minutes to mow half the lawn in rabbit mode.\n\nSince Chris mowed half the lawn in turtle mode and half in rabbit mode, the total time is the sum of the time it took him to mow each half:\n\n30 minutes (turtle) + 20 minutes (rabbit) = 50 minutes\n\nTherefore, it took Chris 50 minutes to mow the lawn.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Chris to mow the lawn, we need to calculate the time it took him to mow half the lawn in turtle mode and half in rabbit mode.\n\nLet's assume the total time it takes to mow the entire lawn is 1 hour, which is 60 minutes.\n\nIn turtle mode, Chris can mow the lawn in 1 hour, so he can mow half the lawn in 1/2 hour, which is 30 minutes.\n\nIn rabbit mode, Chris can mow the lawn in 40 minutes.\n\nSince he mowed half the lawn in turtle mode and half in rabbit mode, the total time is the sum of the time it took him to mow each half:\n\n30 minutes (turtle) + 40 minutes (rabbit) = 70 minutes\n\nTherefore, it took Chris 70 minutes to mow the lawn.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    }
+  ]
+}

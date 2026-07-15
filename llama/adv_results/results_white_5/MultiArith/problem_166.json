@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 166,
+  "question": " Wendy bought 4 new chairs and 4 new tables for her house. If she spent 6 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+  "ground_truth": "48",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "uty au laisseavascript documentation",
+  "prefix_token_ids": [
+    20850,
+    8065,
+    93569,
+    6304,
+    9904
+  ],
+  "best_wrong_prob": 4.74752791511831e-19,
+  "clean_text": "To find the total time it took Wendy to put together the furniture, we need to multiply the number of chairs by the time it took to assemble each chair and the number of tables by the time it took to ",
+  "clean_pred": 48.0,
+  "clean_correct": true,
+  "adv_text": "To find the total time it took Wendy to put together the furniture, we need to calculate the total number of pieces of furniture and the total time spent.\n\nWendy bought 4 new chairs and 4 new tables, ",
+  "adv_pred": 48.0,
+  "adv_correct": true,
+  "attack_success": false
+}

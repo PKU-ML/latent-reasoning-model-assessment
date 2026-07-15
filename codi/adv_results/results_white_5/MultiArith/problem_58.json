@@ -1,0 +1,35 @@
+{
+  "question": " There were 5 friends playing a video game online when 2 more players joined the game. If each player had 8 lives, how many lives did they have total? ",
+  "ground_truth": "56.0",
+  "prefix": "asset commitments...\n Nine teenager",
+  "prefix_token_ids": [
+    10053,
+    42356,
+    9522,
+    38166,
+    32639
+  ],
+  "baseline_token_id": 3487,
+  "target_token_id": 1227,
+  "baseline_logit_diff": -7.0625,
+  "clean_logit_diff": -8.5,
+  "adv_logit_diff": 1.9375,
+  "best_logit_diff": 1.9375,
+  "clean_text": "The answer is: 56",
+  "clean_answer": 56.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 88",
+  "adv_answer": 88.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.625,
+    -6.1875,
+    -3.6875,
+    -0.1875,
+    1.40625,
+    1.40625,
+    1.40625,
+    1.9375
+  ]
+}

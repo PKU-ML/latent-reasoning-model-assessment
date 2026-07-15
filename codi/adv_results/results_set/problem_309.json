@@ -1,0 +1,171 @@
+{
+  "question": "Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+  "ground_truth": "8.0",
+  "best_prefix": "100 seventy abst SSD p",
+  "best_prefix_token_ids": [
+    1041,
+    71049,
+    63944,
+    37462,
+    281
+  ],
+  "baseline_token_id": 23,
+  "target_token_id": 24,
+  "baseline_logit_diff": -2.25,
+  "clean_logit_diff": -5.0,
+  "best_logit_diff": 2.25,
+  "best_cosine": 0.94140625,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 8",
+  "clean_answer": 8.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 9",
+  "adv_answer": 9.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "100 seventy abst SSD p",
+      "prefix_ids": [
+        1041,
+        71049,
+        63944,
+        37462,
+        281
+      ],
+      "logit_diff": 2.25,
+      "cosine_sim": 0.94140625,
+      "answer": 9.0,
+      "correct": false
+    },
+    {
+      "prefix": "100 seventy Вид SSD p",
+      "prefix_ids": [
+        1041,
+        71049,
+        117464,
+        37462,
+        281
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.9453125,
+      "answer": 9.0,
+      "correct": false
+    },
+    {
+      "prefix": "100 seventy negative SSD p",
+      "prefix_ids": [
+        1041,
+        71049,
+        8389,
+        37462,
+        281
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.93359375,
+      "answer": 9.0,
+      "correct": false
+    },
+    {
+      "prefix": "100?=.* chars 것을 {...",
+      "prefix_ids": [
+        1041,
+        87540,
+        23861,
+        107387,
+        15263
+      ],
+      "logit_diff": 0.625,
+      "cosine_sim": 0.953125,
+      "answer": 9.0,
+      "correct": false
+    },
+    {
+      "prefix": " Vol ib bist237')\");\n",
+      "prefix_ids": [
+        11119,
+        19185,
+        78628,
+        14590,
+        79033
+      ],
+      "logit_diff": -0.125,
+      "cosine_sim": 0.97265625,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": " Dogs scarce bist237 NORTH",
+      "prefix_ids": [
+        39525,
+        59290,
+        78628,
+        14590,
+        75859
+      ],
+      "logit_diff": -1.25,
+      "cosine_sim": 0.96484375,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": " Dogsubb bist237 NORTH",
+      "prefix_ids": [
+        39525,
+        21340,
+        78628,
+        14590,
+        75859
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.97265625,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": " terriblybeitged237{/*",
+      "prefix_ids": [
+        50136,
+        20582,
+        3640,
+        14590,
+        95187
+      ],
+      "logit_diff": -1.625,
+      "cosine_sim": 0.98046875,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": " Dogs scarce bist237』（",
+      "prefix_ids": [
+        39525,
+        59290,
+        78628,
+        14590,
+        121359
+      ],
+      "logit_diff": -1.625,
+      "cosine_sim": 0.96484375,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": " dozens FI_TW forth carriage",
+      "prefix_ids": [
+        22700,
+        51635,
+        96847,
+        13544,
+        52547
+      ],
+      "logit_diff": -2.25,
+      "cosine_sim": 0.96484375,
+      "answer": 8.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

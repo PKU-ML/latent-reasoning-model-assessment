@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 490,
+  "question": "An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+  "ground_truth": "4",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "ilhaBond）はaccum tidy",
+  "prefix_token_ids": [
+    85210,
+    90944,
+    119735,
+    40031,
+    58905
+  ],
+  "best_wrong_prob": 7.200002598284376e-19,
+  "clean_text": "To find out how many days it will take for the child to save the remaining amount, we need to first calculate the remaining amount of money he needs to save.\n\nThe toy car costs $12 and he already has ",
+  "clean_pred": 4.0,
+  "clean_correct": true,
+  "adv_text": "ilhaBond は 8 年間で $12 を稼ぐことになります。彼は $4 を持っているので、$12 - $4 = $8 が残ります。\n\nilhaBond は毎日 $2 を稼ぐので、$8 / $2 = 4 日間で残りの金額を稼ぐことができます。\n\n答えは 4\nSo the answer is \\boxed{4",
+  "adv_pred": 4.0,
+  "adv_correct": true,
+  "attack_success": false
+}

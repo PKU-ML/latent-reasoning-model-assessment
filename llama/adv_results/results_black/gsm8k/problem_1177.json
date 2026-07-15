@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1177,
+  "question": "Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+  "ground_truth": "17.0",
+  "baseline_correct": true,
+  "baseline_answer": 17.0,
+  "best_rewrite": "The Pacific covers 165 million km². Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+  "best_fact": "The Pacific covers 165 million km².",
+  "best_pred_answer": 969.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 14,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 3 = 7\nTotal number of boys on varsity = 3\n\nTotal number of students on varsity = 7 + 3 = 10\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 10 = 14\n\nTherefore, there are 14 students not on varsity.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "April has 30 days. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 30\nNumber of students not on varsity = 30 - 7 = 23\n\nTherefore, there are 23 students not on varsity.\nSo the answer is \\boxed{23",
+      "pred_answer": 23.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 3 = 7\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 7 + 15 = 22\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 22 = 2\n\nTherefore, there are 2 students not on varsity.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls who are on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A year has 12 months. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 3 = 7\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 7 + 15 = 22\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 12 + 12 - 22\n= 12\n\nTherefore, there are 12 students not on varsity.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A week has 7 days. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "An hour has 60 minutes. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls who are on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 boys + 12 girls = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A minute has 60 seconds. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls who are on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 boys + 12 girls = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A year has 365 days. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 3 = 7\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 7 + 15 = 22\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 22 = 2\n\nTherefore, there are 2 students not on varsity.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 12 = 16\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 16 + 15 = 31\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 12 * 12 - 31\n= 144 - 31\n= 113\n\nSo, there are 113 students not on varsity.\nSo the answer is \\boxed{113",
+      "pred_answer": 113.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls who are on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 boys + 12 girls = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 3 = 7\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 7 + 15 = 22\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 12 + 12 - 22\n= 12\n\nSo, there are 12 students not on varsity.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "An adult has 32 teeth. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 3 = 7\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 7 + 15 = 22\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 32 - 22\n= 10\n\nTherefore, there are 10 students not on varsity.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "China has 1.4 billion people. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 12 = 16\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 16 + 15 = 31\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 1,400,000 - 31\n= 1,399,969\n\nSo, there are approximately 1,399,969 students not on varsity.\nSo the answer is \\boxed{1,399,969",
+      "pred_answer": 969.0
+    },
+    {
+      "question": "Japan has 125 million people. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of students on varsity, we need to calculate one-third of the girls and one-fourth of the boys.\n\nNumber of girls = 12\nNumber of boys = 12\nOne-third of girls = 12 / 3 = 4\nOne-fourth of boys = 12 / 4 = 3\n\nTotal number of girls on varsity = 4\nTotal number of boys on varsity = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 125 - 7\n= 118\n\nSo, 118 students are not on varsity.\nSo the answer is \\boxed{118",
+      "pred_answer": 118.0
+    },
+    {
+      "question": "The US has 50 states. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 3 = 7\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 7 + 15 = 22\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 50 - 22\n= 28\n\nTherefore, 28 students are not on varsity.\nSo the answer is \\boxed{28",
+      "pred_answer": 28.0
+    },
+    {
+      "question": "The EU has 27 member states. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, 17 students are not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 12 = 16\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 16 + 15 = 31\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 12 + 12 - 31\n= 12 - 31\n= -19\n\nSince you can't have a negative number of students, we need to recheck our calculations.\n\nRechecking the calculations:\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 12 = 16\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 16 + 15 = 31\n\nNumber of students not on varsity = 12 + 12 - 31\n= 24 - 31\n= -7\n\nSince you can't have a negative number of students, we need to recheck our calculations again.\n\nRechecking the calculations:\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 12 = 16\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 16 + 15 = 31\n\nNumber of students not on varsity = 12 + 12 - 31\n= 24 - 31\n= -7\n\nSince you can't have a negative number of students, we need to recheck our calculations again.\n\nRechecking the calculations:\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = \nSo the answer is \\boxed{The number of girls on varsity is 4, and the number of boys on varsity is 3.\n\nTotal number of students on varsity = 4 + 3 = 7\n\nNumber of students not on varsity = 12 + 12 - 7\n= 24 - 7\n= 17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, 17 students are not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 12 = 16\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 16 + 15 = 31\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 165,000,000 - 31,000\n= 164,999,969\n\nSo, approximately 164,999,969 students are not on varsity.\nSo the answer is \\boxed{164,999,969",
+      "pred_answer": 969.0
+    },
+    {
+      "question": "The human body has 206 bones. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys who are on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of girls on varsity = 4 + 3 = 7\nTotal number of boys on varsity = 3 + 12 = 15\n\nTotal number of students on varsity = 7 + 15 = 22\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 22 = 2\n\nTherefore, there are 2 students not on varsity.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 boys + 12 girls = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls who are on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 boys + 12 girls = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 * 12 = 4\nNumber of girls on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the number of students on varsity, we need to calculate one-third of the girls and one-fourth of the boys.\n\nNumber of girls on varsity = 12 * (1/3) = 4\nNumber of boys on varsity = 12 * (1/4) = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nNumber of students not on varsity = Total number of students - Number of students on varsity\n= 46 - 7\n= 39\n\nSo, 39 students are not on varsity.\nSo the answer is \\boxed{39",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of boys and girls on varsity and subtract that from the total number of students.\n\nNumber of boys on varsity = 1/3 of 12 = 4\nNumber of girls on varsity = 1/4 of 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 boys + 12 girls = 24\n\nNumber of students not on varsity = Total number of students - Total number of students on varsity\n= 24 - 7\n= 17\n\nTherefore, there are 17 students not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the number of students not on varsity, we need to calculate the number of girls and boys on varsity and subtract that from the total number of students.\n\nNumber of girls on varsity = 1/3 * 12 = 4\nNumber of boys on varsity = 1/4 * 12 = 3\n\nTotal number of students on varsity = 4 + 3 = 7\n\nTotal number of students = 12 + 12 = 24\n\nNumber of students not on varsity = 24 - 7 = 17\n\nSo, 17 students are not on varsity.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    }
+  ]
+}

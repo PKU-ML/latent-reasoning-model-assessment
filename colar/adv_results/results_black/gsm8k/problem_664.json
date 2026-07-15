@@ -1,0 +1,226 @@
+{
+  "question": "John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+  "ground_truth": "32.0",
+  "best_rewrite": "There are 24 hours in a day. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+  "best_fact": "There are 24 hours in a day.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "Answer:5",
+    "pred_answer": "5"
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "Answer:5",
+      "pred_answer": "5"
+    },
+    {
+      "question": "April has 30 days. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "A bicycle has 2 wheels. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "Answer:32",
+      "pred_answer": "32"
+    },
+    {
+      "question": "Today is the 3rd of the month. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "The current temperature is 20 degrees. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "Answer:33",
+      "pred_answer": "33"
+    },
+    {
+      "question": "A year has 12 months. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "A week has 7 days. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "Answer:32",
+      "pred_answer": "32"
+    },
+    {
+      "question": "An hour has 60 minutes. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "Answer:96",
+      "pred_answer": "96"
+    },
+    {
+      "question": "A minute has 60 seconds. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "Answer:320",
+      "pred_answer": "320"
+    },
+    {
+      "question": "A year has 365 days. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "Answer:167",
+      "pred_answer": "167"
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "Answer:320",
+      "pred_answer": "320"
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "Answer:123",
+      "pred_answer": "123"
+    },
+    {
+      "question": "Water freezes at 0 degrees. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "Answer:2",
+      "pred_answer": "2"
+    },
+    {
+      "question": "The human heart has 4 chambers. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "Answer:17",
+      "pred_answer": "17"
+    },
+    {
+      "question": "An adult has 32 teeth. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "Answer:12",
+      "pred_answer": "12"
+    },
+    {
+      "question": "China has 1.4 billion people. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "Answer:120",
+      "pred_answer": "120"
+    },
+    {
+      "question": "Japan has 125 million people. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "Answer:833",
+      "pred_answer": "833"
+    },
+    {
+      "question": "The US has 50 states. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Answer:800",
+      "pred_answer": "800"
+    },
+    {
+      "question": "The EU has 27 member states. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "Answer:108",
+      "pred_answer": "108"
+    },
+    {
+      "question": "The Nile is about 6650 km long. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "Answer:1440",
+      "pred_answer": "1440"
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "Answer:323",
+      "pred_answer": "323"
+    },
+    {
+      "question": "The Pacific covers 165 million km². John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "Answer:338",
+      "pred_answer": "338"
+    },
+    {
+      "question": "The human body has 206 bones. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "Answer:113",
+      "pred_answer": "113"
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "Answer:32",
+      "pred_answer": "32"
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "Answer:333",
+      "pred_answer": "333"
+    },
+    {
+      "question": "A plant has 46 chromosomes. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "Answer:12",
+      "pred_answer": "12"
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "Answer:32",
+      "pred_answer": "32"
+    },
+    {
+      "question": "Bitcoin was created in 2009. John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    }
+  ]
+}

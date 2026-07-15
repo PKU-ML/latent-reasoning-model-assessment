@@ -1,0 +1,171 @@
+{
+  "question": "The tooth fairy left Sharon $5.00 in exchange for the first tooth Sharon lost.  Then, the tooth fairy gave Sharon $1.00 for each of the next three teeth Sharon lost.  And for each of the last 2 teeth Sharon lost, the tooth fairy gave Sharon half the amount of money per tooth as Sharon had received for each of the previous three teeth.  How much money did the tooth fairy leave Sharon, in dollars?",
+  "ground_truth": "9.0",
+  "best_prefix": "льтHeartossil###\n\n492",
+  "best_prefix_token_ids": [
+    53628,
+    46484,
+    85061,
+    51624,
+    21776
+  ],
+  "baseline_token_id": 24,
+  "target_token_id": 605,
+  "baseline_logit_diff": 0.75,
+  "clean_logit_diff": -1.75,
+  "best_logit_diff": 3.0625,
+  "best_cosine": 0.94140625,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 9",
+  "clean_answer": 9.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 11",
+  "adv_answer": 11.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "льтHeartossil###\n\n492",
+      "prefix_ids": [
+        53628,
+        46484,
+        85061,
+        51624,
+        21776
+      ],
+      "logit_diff": 3.0625,
+      "cosine_sim": 0.94140625,
+      "answer": 11.0,
+      "correct": false
+    },
+    {
+      "prefix": "льт petaker255fine",
+      "prefix_ids": [
+        53628,
+        6896,
+        4506,
+        3192,
+        63157
+      ],
+      "logit_diff": 2.5,
+      "cosine_sim": 0.96875,
+      "answer": 13.0,
+      "correct": false
+    },
+    {
+      "prefix": " wrestler.ascii pans \n\n\n\n143",
+      "prefix_ids": [
+        83162,
+        89997,
+        64883,
+        23535,
+        10290
+      ],
+      "logit_diff": 2.0625,
+      "cosine_sim": 0.94921875,
+      "answer": 15.0,
+      "correct": false
+    },
+    {
+      "prefix": "\"]\n\n Cyelling312 lateinit",
+      "prefix_ids": [
+        27001,
+        18221,
+        6427,
+        13384,
+        27222
+      ],
+      "logit_diff": 1.6875,
+      "cosine_sim": 0.9609375,
+      "answer": 11.0,
+      "correct": false
+    },
+    {
+      "prefix": "льтHeartossil255fine",
+      "prefix_ids": [
+        53628,
+        46484,
+        85061,
+        3192,
+        63157
+      ],
+      "logit_diff": 1.5,
+      "cosine_sim": 0.97265625,
+      "answer": 13.0,
+      "correct": false
+    },
+    {
+      "prefix": "\"?\n\nHeartossil255fine",
+      "prefix_ids": [
+        94770,
+        46484,
+        85061,
+        3192,
+        63157
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.953125,
+      "answer": 11.0,
+      "correct": false
+    },
+    {
+      "prefix": "ISTAleshото312 lateinit",
+      "prefix_ids": [
+        96965,
+        17927,
+        108006,
+        13384,
+        27222
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.97265625,
+      "answer": 11.0,
+      "correct": false
+    },
+    {
+      "prefix": "],\n\nRewardossil influencing630",
+      "prefix_ids": [
+        50188,
+        60722,
+        85061,
+        66700,
+        18660
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.94921875,
+      "answer": 19.0,
+      "correct": false
+    },
+    {
+      "prefix": " livestockMay bilorate thick",
+      "prefix_ids": [
+        51876,
+        11356,
+        20934,
+        38995,
+        12314
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.98828125,
+      "answer": 11.0,
+      "correct": false
+    },
+    {
+      "prefix": "aseline Palo ETA errores anom",
+      "prefix_ids": [
+        50414,
+        85251,
+        90114,
+        91800,
+        37782
+      ],
+      "logit_diff": 0.75,
+      "cosine_sim": 0.98046875,
+      "answer": 11.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

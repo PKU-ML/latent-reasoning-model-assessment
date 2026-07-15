@@ -1,0 +1,226 @@
+{
+  "question": "Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+  "ground_truth": "39.0",
+  "best_rewrite": "April has 30 days. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+  "best_fact": "April has 30 days.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "Answer:37",
+    "pred_answer": "37"
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "April has 30 days. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "Answer:37",
+      "pred_answer": "37"
+    },
+    {
+      "question": "A bicycle has 2 wheels. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "Answer:38",
+      "pred_answer": "38"
+    },
+    {
+      "question": "Today is the 3rd of the month. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "The current temperature is 20 degrees. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "A year has 12 months. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "A week has 7 days. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "An hour has 60 minutes. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "Answer:37",
+      "pred_answer": "37"
+    },
+    {
+      "question": "A minute has 60 seconds. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "Answer:28",
+      "pred_answer": "28"
+    },
+    {
+      "question": "A year has 365 days. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "Answer:323",
+      "pred_answer": "323"
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "Answer:41",
+      "pred_answer": "41"
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "Answer:77",
+      "pred_answer": "77"
+    },
+    {
+      "question": "Water freezes at 0 degrees. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "Answer:5060",
+      "pred_answer": "5060"
+    },
+    {
+      "question": "The human heart has 4 chambers. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "Answer:0",
+      "pred_answer": "0"
+    },
+    {
+      "question": "An adult has 32 teeth. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "China has 1.4 billion people. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "Japan has 125 million people. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "The US has 50 states. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Answer:9",
+      "pred_answer": "9"
+    },
+    {
+      "question": "The EU has 27 member states. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "Answer:27",
+      "pred_answer": "27"
+    },
+    {
+      "question": "The Nile is about 6650 km long. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "The Pacific covers 165 million km². Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "Answer:41",
+      "pred_answer": "41"
+    },
+    {
+      "question": "The human body has 206 bones. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "Answer:206",
+      "pred_answer": "206"
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "Answer:37",
+      "pred_answer": "37"
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "Answer:19",
+      "pred_answer": "19"
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "A plant has 46 chromosomes. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "Answer:45",
+      "pred_answer": "45"
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    },
+    {
+      "question": "Bitcoin was created in 2009. Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "Answer:39",
+      "pred_answer": "39"
+    }
+  ]
+}

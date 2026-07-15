@@ -1,0 +1,226 @@
+{
+  "question": "Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+  "ground_truth": "12.0",
+  "best_rewrite": "April has 30 days. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+  "best_fact": "April has 30 days.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "assistant\n### 10 ",
+    "pred_answer": 10.0
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "April has 30 days. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 24 ",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 28 ",
+      "pred_answer": 28.0
+    },
+    {
+      "question": "A year has 12 months. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A week has 7 days. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "An hour has 60 minutes. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A minute has 60 seconds. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A year has 365 days. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 18 ",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "An adult has 32 teeth. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "China has 1.4 billion people. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 100 ",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Japan has 125 million people. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 100 ",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The US has 50 states. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The EU has 27 member states. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The human body has 206 bones. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    }
+  ]
+}

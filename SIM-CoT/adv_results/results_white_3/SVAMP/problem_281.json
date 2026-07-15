@@ -1,0 +1,26 @@
+{
+  "question": "Tiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?",
+  "ground_truth": "5.0",
+  "prefix": "™: emph painted",
+  "prefix_token_ids": [
+    41333,
+    33595,
+    13055
+  ],
+  "baseline_token_id": 642,
+  "target_token_id": 532,
+  "baseline_logit_diff": 8.9765625,
+  "clean_logit_diff": -4.271484375,
+  "adv_logit_diff": 11.03125,
+  "best_logit_diff": 11.03125,
+  "clean_text": "Tiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?\n### 5",
+  "clean_answer": 5.0,
+  "clean_correct": true,
+  "adv_text": "™: emph paintedTiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?\n### -3",
+  "adv_answer": -3.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    11.03125
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 248,
+  "question": "Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+  "ground_truth": "1.0",
+  "baseline_correct": true,
+  "baseline_answer": 1.0,
+  "best_rewrite": "The Earth is about 12742 km in diameter. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+  "best_fact": "The Earth is about 12742 km in diameter.",
+  "best_pred_answer": 12706.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 9,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how many kids Julia played with on Monday and Tuesday, we need to add the number of kids she played with on each day.\n\nOn Monday, Julia played with 19 kids.\nOn Tuesday, Julia played with 18 kids.\n\nTotal kids played on both days = 19 + 18 = 37\n\nSince Julia spent a total of 38 hours playing tag, we can set up an equation to represent the situation:\n\n19x + 18y = 38\n\nwhere x is the number of kids she played with on Monday and y is the number of kids she played with on Tuesday.\n\nWe know that x + y = 37 (from the previous step). We can substitute this into the equation:\n\n19x + 18(37) = 38\n\nExpanding the equation, we get:\n\n19x + 666 = 38\n\nSubtracting 666 from both sides:\n\n19x = -628\n\nDividing both sides by 19:\n\nx = -628 / 19\nx = -32.578947368421052631578947368421\n\nSince the number of kids cannot be negative, we can round down to 32 kids on Monday.\n\nSo, Julia played with 32 kids on Monday.\n\nTo find out how many kids she played with on Tuesday, we can subtract the number of kids she played with on Monday from the total:\n\n32 (Monday) - 19 (Tuesday) = 13\n\nTherefore, Julia played with 13 kids on Tuesday.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "April has 30 days. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many kids Julia played with on Monday, we need to add the number of kids she played with on Monday and Tuesday. \n\nNumber of kids on Monday = 19\nNumber of kids on Tuesday = 18\nTotal kids on both days = 19 + 18 = 37\n\nNow, we need to find the difference between the number of kids on Monday and Tuesday. \n\nDifference = Number of kids on Monday - Number of kids on Tuesday\n= 37 - 18\n= 19\n\nSo, Julia played with 19 more kids on Monday than on Tuesday.\nSo the answer is \\boxed{19",
+      "pred_answer": 19.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many kids Julia played with on Monday and Tuesday, we need to add the number of kids she played with on each day.\n\nOn Monday, Julia played with 19 kids.\nOn Tuesday, Julia played with 18 kids.\n\nTotal kids played on both days = 19 + 18 = 37\n\nSince Julia spent a total of 38 hours playing tag, we can find out how many hours she played per kid by dividing the total hours by the total number of kids.\n\nHours per kid = Total hours / Total kids = 38 / 37\n\nHours per kid ≈ 1.027\n\nSince we can't play a fraction of an hour, we can round down to 1 hour per kid.\n\nNow, let's find out how many kids Julia played with on Monday and Tuesday.\n\nKids on Monday = 19\nKids on Tuesday = 18\n\nKids on Monday - Kids on Tuesday = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many more kids Julia played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\n\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many more kids Julia played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A year has 12 months. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many kids Julia played with on Monday and Tuesday, we need to add the number of kids she played with on each day.\n\nOn Monday, Julia played with 19 kids.\nOn Tuesday, Julia played with 18 kids.\n\nTo find the difference, we subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday:\n19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A week has 7 days. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many kids Julia played with on Monday and Tuesday, we need to add the number of kids she played with on each day.\n\nOn Monday, Julia played with 19 kids.\nOn Tuesday, Julia played with 18 kids.\n\nTo find the difference, we subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday:\n19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "An hour has 60 minutes. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many kids Julia played with on Monday and Tuesday, we need to add the number of kids she played with on each day.\n\nOn Monday, Julia played with 19 kids.\nOn Tuesday, Julia played with 18 kids.\n\nTotal kids played on both days = 19 + 18 = 37\n\nSince Julia spent a total of 38 hours playing tag, we need to convert the hours to minutes to compare the number of kids.\n\n1 hour = 60 minutes\nTotal hours played = 38\nTotal minutes played = 38 * 60 = 2280 minutes\n\nNow, let's compare the number of kids played on Monday and Tuesday:\nKids played on Monday = 19\nKids played on Tuesday = 18\n\nTo find the difference, we subtract the number of kids played on Tuesday from the number of kids played on Monday:\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A minute has 60 seconds. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the difference in the number of kids Julia played with on Monday and Tuesday, we need to subtract the number of kids she played with on Tuesday from the number she played with on Monday.\n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\n\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A year has 365 days. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many kids Julia played with on Monday and Tuesday, we need to add the number of kids she played with on each day.\n\nOn Monday, Julia played with 19 kids.\nOn Tuesday, Julia played with 18 kids.\n\nTo find the difference, we subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday:\n19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find out how many kids Julia played with on Monday, we need to subtract the number of kids she played with on Tuesday from the total number of kids she played with.\n\nNumber of kids played with on Monday = Total kids - Kids played with on Tuesday\n= 12742 - 18\n= 12724\n\nNow, to find out how many more kids she played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nMore kids played with on Monday = Number of kids played with on Monday - Number of kids played with on Tuesday\n= 12724 - 18\n= 12706\n\nSo, Julia played with 12706 more kids on Monday than on Tuesday.\nSo the answer is \\boxed{12706",
+      "pred_answer": 12706.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the difference in the number of kids Julia played with on Monday and Tuesday, we need to subtract the number of kids she played with on Tuesday from the number she played with on Monday.\n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\n\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many kids Julia played with on Monday and Tuesday, we need to add the number of kids she played with on each day.\n\nOn Monday, Julia played with 19 kids.\nOn Tuesday, Julia played with 18 kids.\n\nTo find the difference, we subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday:\n19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the difference in the number of kids Julia played with on Monday and Tuesday, we need to subtract the number of kids she played with on Tuesday from the number she played with on Monday.\n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find out how many kids Julia played with on Monday, we need to add the number of kids she played with on Monday and Tuesday. \n\nNumber of kids on Monday = 19\nNumber of kids on Tuesday = 18\nTotal kids on both days = 19 + 18 = 37\n\nNow, to find out how many more kids she played with on Monday, we need to subtract the number of kids on Tuesday from the total.\n\nNumber of kids on Monday - Number of kids on Tuesday = 37 - 18 = 19\n\nSo, Julia played with 19 more kids on Monday than on Tuesday.\nSo the answer is \\boxed{19",
+      "pred_answer": 19.0
+    },
+    {
+      "question": "An adult has 32 teeth. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how many kids Julia played with on Monday, we need to add the number of kids she played with on Monday and Tuesday. \n\nNumber of kids played with on Monday = 19 (Monday) + 18 (Tuesday) = 37\n\nNow, to find out how many more kids she played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nNumber of kids played with on Monday - Number of kids played with on Tuesday = 37 - 18 = 19\n\nSo, Julia played with 19 more kids on Monday than on Tuesday.\nSo the answer is \\boxed{19",
+      "pred_answer": 19.0
+    },
+    {
+      "question": "China has 1.4 billion people. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many kids Julia played with on Monday, we need to subtract the number of kids she played with on Tuesday from the total number of kids she played with.\n\nNumber of kids played with on Monday = Total kids - Number of kids played with on Tuesday\n= 1,400,000 - 19\n= 1,399,981\n\nNow, to find out how many more kids she played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nDifference = Number of kids played with on Monday - Number of kids played with on Tuesday\n= 1,399,981 - 19\n= 1,399,962\n\nSo, Julia played with 1,399,962 more kids on Monday than on Tuesday.\nSo the answer is \\boxed{1,399,962",
+      "pred_answer": 962.0
+    },
+    {
+      "question": "Japan has 125 million people. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how many kids Julia played with on Monday, we need to subtract the number of kids she played with on Tuesday from the total number of kids she played with.\n\nNumber of kids played with on Monday = Total number of kids - Number of kids played with on Tuesday\n= 125 - 19\n= 106\n\nNow, to find out how many more kids she played with on Monday than on Tuesday, we need to subtract the number of kids played with on Tuesday from the number of kids played with on Monday.\n\nDifference = Number of kids played with on Monday - Number of kids played with on Tuesday\n= 106 - 18\n= 88\n\nSo, Julia played with 88 more kids on Monday than on Tuesday.\nSo the answer is \\boxed{88",
+      "pred_answer": 88.0
+    },
+    {
+      "question": "The US has 50 states. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many more kids Julia played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\n\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The EU has 27 member states. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many more kids Julia played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\n\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find out how many kids Julia played with on Monday, we need to subtract the number of kids she played with on Tuesday from the total number of kids she played with.\n\nNumber of kids played with on Monday = Total kids - Kids played with on Tuesday\n= 6650 - 18\n= 6632\n\nNow, to find out how many more kids she played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nDifference = Number of kids played with on Monday - Number of kids played with on Tuesday\n= 6632 - 18\n= 6614\n\nSo, Julia played with 6614 more kids on Monday than on Tuesday.\nSo the answer is \\boxed{6614",
+      "pred_answer": 6614.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many kids Julia played with on Monday and Tuesday, we need to add the number of kids she played with on each day.\n\nOn Monday, Julia played with 19 kids.\nOn Tuesday, Julia played with 18 kids.\n\nTo find the difference, we subtract the number of kids she played with on Tuesday from the number she played with on Monday:\n19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how many kids Julia played with on Monday, we need to subtract the number of kids she played with on Tuesday from the total number of kids she played with.\n\nNumber of kids played with on Monday = Total kids - Kids played with on Tuesday\n= 165,000,000 - 19\n= 164,999,981\n\nNow, to find out how many more kids she played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nDifference = Number of kids played with on Monday - Number of kids played with on Tuesday\n= 164,999,981 - 18\n= 164,999,963\n\nSo, Julia played with 164,999,963 more kids on Monday than on Tuesday.\nSo the answer is \\boxed{164,999,963",
+      "pred_answer": 963.0
+    },
+    {
+      "question": "The human body has 206 bones. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many more kids Julia played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\n\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many kids Julia played with on Monday, we need to subtract the number of kids she played with on Tuesday from the total number of kids she played with. \n\nNumber of kids played with on Monday = Total kids - Kids played with on Tuesday\n= 19 - 18\n= 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many kids Julia played with on Monday and Tuesday, we need to add the number of kids she played with on each day.\n\nOn Monday, Julia played with 19 kids.\nOn Tuesday, Julia played with 18 kids.\n\nTo find the difference, we subtract the number of kids she played with on Tuesday from the number she played with on Monday:\n19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the difference in the number of kids Julia played with on Monday and Tuesday, we need to subtract the number of kids she played with on Tuesday from the number she played with on Monday.\n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many kids Julia played with on Monday, we need to add the number of kids she played with on Monday and Tuesday. \n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\nTotal kids played with on both days = 19 + 18 = 37\n\nNow, let's find out how many more kids she played with on Monday than on Tuesday. \n\nDifference = Number of kids played with on Monday - Number of kids played with on Tuesday\n= 19 - 18\n= 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the difference in the number of kids Julia played with on Monday and Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nNumber of kids played with on Monday = 19\nNumber of kids played with on Tuesday = 18\n\nDifference = 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many more kids Julia played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nNumber of kids played with on Monday: 19\nNumber of kids played with on Tuesday: 18\n\nDifference: 19 - 18 = 1\n\nSo, Julia played with 1 more kid on Monday than on Tuesday.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    }
+  ]
+}

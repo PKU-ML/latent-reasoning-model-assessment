@@ -1,0 +1,171 @@
+{
+  "question": "Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+  "ground_truth": "72.0",
+  "best_prefix": " invalidthickness>{\n875实际",
+  "best_prefix_token_ids": [
+    8482,
+    92067,
+    42546,
+    17419,
+    115827
+  ],
+  "baseline_token_id": 5332,
+  "target_token_id": 1399,
+  "baseline_logit_diff": 1.125,
+  "clean_logit_diff": -4.75,
+  "best_logit_diff": 5.5625,
+  "best_cosine": 0.94921875,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 72",
+  "clean_answer": 72.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 42",
+  "adv_answer": 42.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " invalidthickness>{\n875实际",
+      "prefix_ids": [
+        8482,
+        92067,
+        42546,
+        17419,
+        115827
+      ],
+      "logit_diff": 5.5625,
+      "cosine_sim": 0.94921875,
+      "answer": 42.0,
+      "correct": false
+    },
+    {
+      "prefix": " outras somebody910لتfgets",
+      "prefix_ids": [
+        74802,
+        18570,
+        21056,
+        105455,
+        100093
+      ],
+      "logit_diff": 1.5,
+      "cosine_sim": 0.9453125,
+      "answer": 63.0,
+      "correct": false
+    },
+    {
+      "prefix": " semiframe910５ mug",
+      "prefix_ids": [
+        5347,
+        24085,
+        21056,
+        44597,
+        52589
+      ],
+      "logit_diff": 1.5,
+      "cosine_sim": 0.9609375,
+      "answer": 56.0,
+      "correct": false
+    },
+    {
+      "prefix": "How rightful910rnafgets",
+      "prefix_ids": [
+        4438,
+        99044,
+        21056,
+        90331,
+        100093
+      ],
+      "logit_diff": 1.5,
+      "cosine_sim": 0.94921875,
+      "answer": 63.0,
+      "correct": false
+    },
+    {
+      "prefix": "How rightful910 Kyfgets",
+      "prefix_ids": [
+        4438,
+        99044,
+        21056,
+        23727,
+        100093
+      ],
+      "logit_diff": 1.4375,
+      "cosine_sim": 0.9453125,
+      "answer": 63.0,
+      "correct": false
+    },
+    {
+      "prefix": "How rightful910 pawfgets",
+      "prefix_ids": [
+        4438,
+        99044,
+        21056,
+        77938,
+        100093
+      ],
+      "logit_diff": 1.4375,
+      "cosine_sim": 0.9375,
+      "answer": 42.0,
+      "correct": false
+    },
+    {
+      "prefix": "How pot910ndofgets",
+      "prefix_ids": [
+        4438,
+        3419,
+        21056,
+        90314,
+        100093
+      ],
+      "logit_diff": 1.375,
+      "cosine_sim": 0.95703125,
+      "answer": 63.0,
+      "correct": false
+    },
+    {
+      "prefix": "How言葉910 Kyfgets",
+      "prefix_ids": [
+        4438,
+        112690,
+        21056,
+        23727,
+        100093
+      ],
+      "logit_diff": 1.3125,
+      "cosine_sim": 0.96875,
+      "answer": 63.0,
+      "correct": false
+    },
+    {
+      "prefix": " necessity container910 annoyingperPage",
+      "prefix_ids": [
+        32961,
+        5593,
+        21056,
+        30931,
+        95722
+      ],
+      "logit_diff": 1.1875,
+      "cosine_sim": 0.9453125,
+      "answer": 56.0,
+      "correct": false
+    },
+    {
+      "prefix": " necessity container910 paw Visitor",
+      "prefix_ids": [
+        32961,
+        5593,
+        21056,
+        77938,
+        56982
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.953125,
+      "answer": 63.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

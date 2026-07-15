@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 23,
+  "question": " A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+  "ground_truth": "18.0",
+  "baseline_correct": true,
+  "baseline_answer": 18.0,
+  "best_rewrite": "The human body has 206 bones.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+  "best_fact": "The human body has 206 bones.",
+  "best_pred_answer": 50.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 10,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the number of hours needed to install the rest of the windows, we need to first find out how many windows are left to install.\n\nTotal windows needed = 24\nWindows already installed = 6\nWindows left to install = 24 - 6 = 18\n\nSince it takes 6 hours to install each window, the time needed to install the rest of the windows is:\n18 windows * 6 hours/window = 108 hours\n\nSo, it will take the builder 108 hours to install the rest of the windows.\nSo the answer is \\boxed{108 hours",
+      "pred_answer": 108.0
+    },
+    {
+      "question": "April has 30 days.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how long it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nApril has 30 days, and the builder has already installed 6 windows. So, the number of windows left to install is:\n30 - 6 = 24\n\nIt takes 6 hours to install each window. To find out how many hours it will take to install the rest of the windows, we can divide the number of windows left by the number of hours it takes to install each window:\n24 / 6 = 4\n\nSo, it will take the builder 4 hours to install the rest of the windows.\nSo the answer is \\boxed{The answer is 4 hours.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is 3 * 6 = 18 hours.\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how long it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, we can multiply the number of windows left by the time it takes to install each window:\n\n3 windows * 6 hours/window = 18 hours\n\nSo, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{The answer is 18 hours.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is:\n\n3 windows * 6 hours/window = 18 hours\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A year has 12 months.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the number of windows left to install, subtract the windows already installed from the total number of windows needed:\n\n9 (total windows) - 6 (already installed) = 3\n\nSince it takes 6 hours to install each window, multiply the number of windows left to install by the time it takes to install one window:\n\n3 (windows left) * 6 (hours per window) = 18 hours\n\nSo, it will take the builder 18 hours to install the remaining 3 windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A week has 7 days.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how long it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, we can multiply the number of windows left by the time it takes to install each window:\n\n3 windows * 6 hours/window = 18 hours\n\nSo, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "An hour has 60 minutes.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the number of windows left to install, subtract the windows already installed from the total number of windows needed:\n\n9 (total windows) - 6 (already installed) = 3 windows left to install\n\nSince it takes 6 hours to install each window, multiply the number of windows left to install by the time it takes to install one window:\n\n3 windows * 6 hours/window = 18 hours\n\nSo, it will take the builder 18 hours to install the remaining 3 windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A minute has 60 seconds.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is:\n\n3 windows * 6 hours/window = 18 hours\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A year has 365 days.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of windows left to install, subtract the windows already installed from the total number of windows needed:\n\n9 (total windows) - 6 (already installed) = 3 windows left to install\n\nSince it takes 6 hours to install each window, multiply the number of windows left to install by the time it takes to install each window:\n\n3 windows * 6 hours/window = 18 hours\n\nSo, it will take the builder 18 hours to install the remaining 3 windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe total number of windows needed is 9, and the builder has already installed 6. So, the number of windows left to install is:\n9 - 6 = 3\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is:\n3 windows * 6 hours/window = 18 hours\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install. \n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is 3 * 6 = 18 hours.\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is:\n\n3 windows * 6 hours/window = 18 hours\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is:\n\n3 windows * 6 hours/window = 18 hours\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is 3 * 6 = 18 hours.\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "An adult has 32 teeth.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how long it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 32 - 6 = 26 windows left to install.\n\nSince it takes 6 hours to install each window, we can divide the number of windows left by the number of hours it takes to install each window to find the total time:\n\n26 windows / 6 hours/window = 4.33 hours\n\nSo, it will take the builder approximately 4 hours and 20 minutes to install the rest of the windows.\nSo the answer is \\boxed{4 hours and 20 minutes",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "China has 1.4 billion people.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of windows left to install, subtract the number already installed from the total number of windows needed:\n\n1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4\nSo the answer is \\boxed{The number of windows left to install is 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 = 1.4 billion - 6 =",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Japan has 125 million people.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of windows left to install, subtract the number already installed from the total number of windows needed:\n\n125 million - 6 = 124,994,994,000 windows left\n\nSince it takes 6 hours to install each window, divide the number of windows left by the time it takes to install one window:\n\n124,994,994,000 / 6 = 2,199,999,333 hours\n\nThere are 24 hours in a day, so divide the total hours by 24:\n\n2,199,999,333 / 24 = 91,999,999.58 days\n\nThere are approximately 365.25 days in a year, so divide the total days by 365.25:\n\n91,999,999.58 / 365.25 ≈ 252,000 days\n\nThere are approximately 365.25 days in a year, so divide the total days by 365.25:\n\n252,000 / 365.25 ≈ 691.5 months\n\nThere are approximately 12 months in a year, so divide the total months by 12:\n\n691.5 / 12 ≈ 57.75 years\n\nIt will take approximately 57.75 years to install the remaining windows.\nSo the answer is \\boxed{It will take approximately 57.75 years to install the remaining windows.",
+      "pred_answer": 57.75
+    },
+    {
+      "question": "The US has 50 states.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the number of windows left to install, subtract the number already installed from the total number of windows needed:\n\n50 (total windows) - 6 (already installed) = 44 windows left\n\nSince it takes 6 hours to install each window, multiply the number of windows left by the time it takes to install each window:\n\n44 windows * 6 hours/window = 264 hours\n\nSo, it will take the builder 264 hours to install the remaining 44 windows.\nSo the answer is \\boxed{264",
+      "pred_answer": 264.0
+    },
+    {
+      "question": "The EU has 27 member states.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is 3 x 6 = 18 hours.\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is 3 * 6 = 18 hours.\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is 3 * 6 = 18 hours.\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe total number of windows needed is 165 million km². Since 6 windows have already been installed, the number of windows left is:\n165,000,000 km² - 6 km² = 164,994,994 km²\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is:\n164,994,994 km² / 6 hours/km² = 27,999,999 hours\n\nThere are 24 hours in a day, so we can convert the time to days:\n27,999,999 hours / 24 hours/day = 1,166,999 days\n\nThere are 365.25 days in a year, so we can convert the time to years:\n1,166,999 days / 365.25 days/year = 3.17 years\n\nTherefore, it will take the builder approximately 3.17 years to install the rest of the windows.\nSo the answer is \\boxed{3 years",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The human body has 206 bones.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the number of windows left to install, subtract the number already installed from the total number of windows needed:\n\n206 (total windows) - 6 (already installed) = 200\n\nSince it takes 6 hours to install each window, multiply the number of windows left to install by the time it takes to install one window:\n\n200 (windows left) * 6 (hours per window) = 1200 hours\n\nThere are 24 hours in a day, so divide the total hours by 24 to find the number of days:\n\n1200 hours / 24 hours per day = 50 days\n\nTherefore, it will take the builder 50 days to install the remaining windows.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is:\n\n3 windows * 6 hours/window = 18 hours\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of windows left to install, subtract the windows already installed from the total number of windows needed:\n\n9 (windows needed) - 6 (windows already installed) = 3 windows left to install\n\nSince it takes 6 hours to install each window, multiply the number of windows left to install by the time it takes to install each window:\n\n3 windows * 6 hours/window = 18 hours\n\nSo, it will take the builder 18 hours to install the remaining 3 windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is:\n\n3 windows * 6 hours/window = 18 hours\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the number of windows left to install, subtract the windows already installed from the total number of windows needed:\n\n46 (total windows) - 6 (already installed) = 40\n\nSince it takes 6 hours to install each window, multiply the number of windows left to install by the time it takes to install one window:\n\n40 (windows left) * 6 (hours per window) = 240 hours\n\nSo, it will take the builder 240 hours to install the remaining windows.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the time it will take to install the rest of the windows, we need to first find out how many windows are left to install.\n\nThe builder has already installed 6 windows, so there are 9 - 6 = 3 windows left to install.\n\nSince it takes 6 hours to install each window, the time it will take to install the rest of the windows is 3 * 6 = 18 hours.\n\nTherefore, it will take the builder 18 hours to install the rest of the windows.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the time it will take to install the remaining 3 windows, we need to first find out how many hours it will take to install all 9 windows.\n\nSince it takes 6 hours to install each window, the total time to install all 9 windows is:\n9 windows * 6 hours/window = 54 hours\n\nNow, we need to find out how many hours it will take to install the remaining 3 windows:\n54 hours (total time) - 6 hours (already installed) = 48 hours\n\nSo, it will take the builder 48 hours to install the remaining 3 windows.\nSo the answer is \\boxed{The answer is 48 hours.",
+      "pred_answer": 48.0
+    }
+  ]
+}

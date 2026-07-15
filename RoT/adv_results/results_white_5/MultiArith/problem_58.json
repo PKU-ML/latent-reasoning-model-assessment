@@ -1,0 +1,28 @@
+{
+  "question": " There were 5 friends playing a video game online when 2 more players joined the game. If each player had 8 lives, how many lives did they have total? ",
+  "ground_truth": "56.0",
+  "prefix": "她在3746",
+  "prefix_token_ids": [
+    108333,
+    18,
+    22,
+    19,
+    21
+  ],
+  "baseline_token_id": 20,
+  "target_token_id": 19,
+  "baseline_logit_diff": -1.25,
+  "clean_logit_diff": -1.375,
+  "adv_logit_diff": 0.25,
+  "best_logit_diff": 0.25,
+  "clean_text": "assistant\n### 56 ",
+  "clean_answer": 56.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 424 ",
+  "adv_answer": 424.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.25
+  ]
+}

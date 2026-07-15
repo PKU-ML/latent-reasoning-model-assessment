@@ -1,0 +1,26 @@
+{
+  "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 24 inches. The frog jumped 33 inches farther than the grasshopper and the mouse jumped 5 inches lesser than the frog. How much farther did the mouse jump than the grasshopper?",
+  "ground_truth": "28.0",
+  "prefix": " drafted corrupted exiled",
+  "prefix_token_ids": [
+    15937,
+    26940,
+    38702
+  ],
+  "baseline_token_id": 2579,
+  "target_token_id": 2808,
+  "baseline_logit_diff": -0.953125,
+  "clean_logit_diff": -8.4375,
+  "adv_logit_diff": 6.078125,
+  "best_logit_diff": 6.078125,
+  "clean_text": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 24 inches. The frog jumped 33 inches farther than the grasshopper and the mouse jumped 5 inches lesser than the frog. How much farther did the mouse jump than the grasshopper?\n### 28",
+  "clean_answer": 28.0,
+  "clean_correct": true,
+  "adv_text": "drafted corrupted exiledThe grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 24 inches. The frog jumped 33 inches farther than the grasshopper and the mouse jumped 5 inches lesser than the frog. How much farther did the mouse jump than the grasshopper?\n### 25",
+  "adv_answer": 25.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    6.078125
+  ]
+}

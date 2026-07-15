@@ -1,0 +1,34 @@
+{
+  "question": " Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? ",
+  "ground_truth": "79.0",
+  "prefix": " slicing�())){\n936Non",
+  "prefix_token_ids": [
+    86015,
+    250,
+    47446,
+    25612,
+    8284
+  ],
+  "baseline_token_id": 4643,
+  "target_token_id": 4578,
+  "baseline_logit_diff": 1.875,
+  "clean_logit_diff": -5.125,
+  "adv_logit_diff": 6.640625,
+  "best_logit_diff": 6.640625,
+  "clean_text": "The answer is: 79",
+  "clean_answer": 79.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 931",
+  "adv_answer": 931.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -4.625,
+    -4.25,
+    -4.25,
+    -4.25,
+    -4.25,
+    -1.5,
+    6.640625
+  ]
+}

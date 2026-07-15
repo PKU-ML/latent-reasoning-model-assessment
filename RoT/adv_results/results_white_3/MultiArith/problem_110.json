@@ -1,0 +1,27 @@
+{
+  "question": " John was organizing his baseball cards in a binder with 3 on each page. If he had 8 new cards and 16 old cards to put in the binder, how many pages would he use? ",
+  "ground_truth": "8.0",
+  "prefix": " lakh Ven7",
+  "prefix_token_ids": [
+    62173,
+    18231,
+    22
+  ],
+  "baseline_token_id": 23,
+  "target_token_id": 22,
+  "baseline_logit_diff": -1.75,
+  "clean_logit_diff": -0.75,
+  "adv_logit_diff": 0.125,
+  "best_logit_diff": 0.125,
+  "clean_text": "assistant\n### 8 ",
+  "clean_answer": 8.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 7 ",
+  "adv_answer": 7.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.375,
+    0.125
+  ]
+}

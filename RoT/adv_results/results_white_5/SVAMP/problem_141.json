@@ -1,0 +1,33 @@
+{
+  "question": "A book has 3 chapters. The first chapter is 66 pages long the second chapter is 35 pages long and the third chapter is 24 pages long. How many pages does the book have altogether?",
+  "ground_truth": "125.0",
+  "prefix": "<img_begin>wcs鹾 appalling6",
+  "prefix_token_ids": [
+    151669,
+    34943,
+    123534,
+    84805,
+    21
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 21,
+  "baseline_logit_diff": -6.375,
+  "clean_logit_diff": -8.375,
+  "adv_logit_diff": -0.875,
+  "best_logit_diff": -0.875,
+  "clean_text": "assistant\n### 125 ",
+  "clean_answer": 125.0,
+  "clean_correct": true,
+  "adv_text": "<img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end><img_end>",
+  "adv_answer": Infinity,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -3.0,
+    -2.875,
+    -2.875,
+    -2.875,
+    -2.875,
+    -0.875
+  ]
+}

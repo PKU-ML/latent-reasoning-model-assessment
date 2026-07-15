@@ -1,0 +1,30 @@
+{
+  "question": " Kaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left? ",
+  "ground_truth": "2.0",
+  "prefix": "coon Scourge Revelations Shipsertodd",
+  "prefix_token_ids": [
+    20912,
+    43238,
+    48844,
+    34844,
+    36481
+  ],
+  "baseline_token_id": 362,
+  "target_token_id": 532,
+  "baseline_logit_diff": 2.3515625,
+  "clean_logit_diff": -9.5859375,
+  "adv_logit_diff": 4.6875,
+  "best_logit_diff": 4.6875,
+  "clean_text": "Kaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left?\n### 2",
+  "clean_answer": 2.0,
+  "clean_correct": true,
+  "adv_text": "coon Scourge Revelations ShipsertoddKaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left?\n### -14",
+  "adv_answer": -14.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -6.484375,
+    1.5,
+    4.6875
+  ]
+}

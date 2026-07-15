@@ -1,0 +1,171 @@
+{
+  "question": "Two sisters, Elizabeth and Margareth, bought beads. Elizabeth bought 1 pack of red and 2 packs of clear beads, while Margareth bought 3 packs of blue and 4 packs of red beads. How many more beads do one sister have than the other, if each pack of beads contains 20 pieces of beads?",
+  "ground_truth": "80.0",
+  "best_prefix": "}/${ +( FEC人間负责",
+  "best_prefix_token_ids": [
+    23650,
+    62183,
+    93411,
+    114516,
+    113368
+  ],
+  "baseline_token_id": 1490,
+  "target_token_id": 2031,
+  "baseline_logit_diff": 0.25,
+  "clean_logit_diff": -4.0,
+  "best_logit_diff": 0.75,
+  "best_cosine": 0.9453125,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 80",
+  "clean_answer": 80.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 70",
+  "adv_answer": 70.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "}/${ +( FEC人間负责",
+      "prefix_ids": [
+        23650,
+        62183,
+        93411,
+        114516,
+        113368
+      ],
+      "logit_diff": 0.75,
+      "cosine_sim": 0.9453125,
+      "answer": 70.0,
+      "correct": false
+    },
+    {
+      "prefix": "}/${ +(�])**IR",
+      "prefix_ids": [
+        23650,
+        62183,
+        23602,
+        95822,
+        2871
+      ],
+      "logit_diff": 0.5625,
+      "cosine_sim": 0.9375,
+      "answer": 40.0,
+      "correct": false
+    },
+    {
+      "prefix": "}/${ +=ंब])**IR",
+      "prefix_ids": [
+        23650,
+        1447,
+        102829,
+        95822,
+        2871
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.9375,
+      "answer": 70.0,
+      "correct": false
+    },
+    {
+      "prefix": "}/${+(aising])**활",
+      "prefix_ids": [
+        23650,
+        13666,
+        51226,
+        95822,
+        105991
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.9375,
+      "answer": 70.0,
+      "correct": false
+    },
+    {
+      "prefix": "}/${ +(zingiddingursor",
+      "prefix_ids": [
+        23650,
+        62183,
+        20994,
+        27598,
+        3908
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.953125,
+      "answer": 70.0,
+      "correct": false
+    },
+    {
+      "prefix": "}/${+( purse])** cumbersome",
+      "prefix_ids": [
+        23650,
+        13666,
+        53101,
+        95822,
+        96190
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.94140625,
+      "answer": 70.0,
+      "correct": false
+    },
+    {
+      "prefix": "}/${ +( Restoration人間负责",
+      "prefix_ids": [
+        23650,
+        62183,
+        67925,
+        114516,
+        113368
+      ],
+      "logit_diff": 0.375,
+      "cosine_sim": 0.953125,
+      "answer": 70.0,
+      "correct": false
+    },
+    {
+      "prefix": "}/${ +(ливі人間负责",
+      "prefix_ids": [
+        23650,
+        62183,
+        119187,
+        114516,
+        113368
+      ],
+      "logit_diff": 0.375,
+      "cosine_sim": 0.9375,
+      "answer": 70.0,
+      "correct": false
+    },
+    {
+      "prefix": "}/${MedianDESCjenthic",
+      "prefix_ids": [
+        23650,
+        80614,
+        32010,
+        24041,
+        82664
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.9375,
+      "answer": 70.0,
+      "correct": false
+    },
+    {
+      "prefix": "}/${ +( recipro人間负责",
+      "prefix_ids": [
+        23650,
+        62183,
+        67642,
+        114516,
+        113368
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.9453125,
+      "answer": 70.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

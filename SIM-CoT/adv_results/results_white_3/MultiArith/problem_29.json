@@ -1,0 +1,26 @@
+{
+  "question": " A waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip? ",
+  "ground_truth": "26.0",
+  "prefix": " draftedSahWarren",
+  "prefix_token_ids": [
+    15937,
+    32194,
+    43464
+  ],
+  "baseline_token_id": 2608,
+  "target_token_id": 1160,
+  "baseline_logit_diff": -1.75,
+  "clean_logit_diff": -4.25,
+  "adv_logit_diff": 4.75,
+  "best_logit_diff": 4.75,
+  "clean_text": "A waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip?\n### 26",
+  "clean_answer": 26.0,
+  "clean_correct": true,
+  "adv_text": "draftedSahWarrenA waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip?\n### 10",
+  "adv_answer": 10.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    4.75
+  ]
+}

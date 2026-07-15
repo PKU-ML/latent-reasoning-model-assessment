@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 853,
+  "question": "There are 90 rooms at the KozyInn Motel. It takes housekeeping 20 minutes to clean each room. How many hours would it take to clean one-half of the rooms?",
+  "ground_truth": "15.0",
+  "baseline": {
+    "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nTime taken to clean one-half of the rooms = 45 rooms * 20 minutes per room = 900 minutes\n\nThere are 60 minutes in an hour, so we can convert the time from minutes to hours by dividing by 60.\n\nTime taken to clean one-half of the rooms in hours = 900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.",
+    "pred_answer": 15.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 2,
+  "success_rate": 0.06666666666666667,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "\tforeach.openConnection trimestVars dul",
+      "prefix_token_ids": [
+        9593,
+        88222,
+        75110,
+        29405,
+        82627
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nSince it takes 20 minutes to clean each room, we multiply the number of rooms to clean by the time it takes to clean one room:\n\nTime to clean 45 rooms = 45 * 20 minutes\nTime to clean 45 rooms = 900 minutes\n\nThere are 60 minutes in an hour, so we divide the total time by 60:\n\nTime to clean 45 rooms (in hours) = 900 minutes / 60\nTime to clean 45 rooms (in hours) = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "rypto intercepted operative且 Bod",
+      "prefix_token_ids": [
+        9631,
+        70474,
+        64885,
+        103786,
+        45702
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nTime taken to clean one-half of the rooms = 20 minutes\nTime taken to clean one room = 20 minutes\nTime taken to clean 45 rooms = 45 * 20 minutes\nTime taken to clean 45 rooms = 900 minutes\n\nTo convert minutes to hours, we divide by 60:\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "ितन DramaeniableACITY cler",
+      "prefix_token_ids": [
+        111892,
+        47569,
+        79911,
+        64085,
+        57460
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nNow, we need to find the time it takes to clean 45 rooms. Since it takes 20 minutes to clean each room, we multiply the number of rooms by the time it takes to clean each room:\n\nTime to clean 45 rooms = 45 * 20 minutes\nTime to clean 45 rooms = 900 minutes\n\nTo convert minutes to hours, we divide by 60:\n\nTime to clean 45 rooms = 900 minutes / 60\nTime to clean 45 rooms = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": " 클.choice Starting kvinCMD",
+      "prefix_token_ids": [
+        64038,
+        30365,
+        28757,
+        41161,
+        39780
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nTime taken to clean one-half of the rooms = 20 minutes / 2 = 10 minutes\n\nTo convert minutes to hours, we divide by 60 (since there are 60 minutes in an hour).\n\nTime taken to clean one-half of the rooms in hours = 10 minutes / 60 = 1/6 hour\n\nSo, it would take 1/6 hour to clean one-half of the rooms.\nSo the answer is \\boxed{1/6 hour",
+      "pred_answer": 6.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 5,
+      "prefix": " revealing artery删除 � Unfortunately",
+      "prefix_token_ids": [
+        31720,
+        65415,
+        29706,
+        94278,
+        19173
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms: 90\nNumber of rooms to clean: 90 / 2 = 45\n\nIt takes 20 minutes to clean each room. To find the total time, multiply the number of rooms to clean by the time per room:\n\n45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour. To convert minutes to hours, divide by 60:\n\n900 minutes / 60 = 15 hours\n\nSo, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "parameters таб-density-ind factors",
+      "prefix_token_ids": [
+        14105,
+        109235,
+        89131,
+        18251,
+        9547
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nNow, we need to find the time it takes to clean one room. It takes 20 minutes to clean one room.\n\nTime to clean one room = 20 minutes\nTime to clean 45 rooms = 20 * 45 = 900 minutes\n\nTo convert minutes to hours, we divide by 60 (since there are 60 minutes in an hour).\n\nTime to clean 45 rooms = 900 / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "-inch='')\n `\"Sig Apt",
+      "prefix_token_ids": [
+        25224,
+        52527,
+        54405,
+        48346,
+        98087
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nIt takes 20 minutes to clean each room. To find the total time, we multiply the number of rooms to clean by the time it takes to clean each room:\n\nTotal time = 45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour. To convert minutes to hours, we divide by 60:\n\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "predicateInterstitialmor necessitywashing",
+      "prefix_token_ids": [
+        62885,
+        94488,
+        57902,
+        32961,
+        98191
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nIt takes 20 minutes to clean each room. To find the total time, we multiply the number of rooms to clean by the time it takes to clean each room:\n\nTotal time = 45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour. To convert the total time from minutes to hours, we divide by 60:\n\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": "項目 Takes ModelAndViewruits će",
+      "prefix_token_ids": [
+        111831,
+        38707,
+        36168,
+        68998,
+        82531
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nTime taken to clean one-half of the rooms = 20 minutes\nTime taken to clean one room = 20 minutes\nTime taken to clean 45 rooms = 20 * 45 = 900 minutes\n\nTo convert minutes to hours, we divide by 60:\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " filetype пят-Shirtiliate VARCHAR",
+      "prefix_token_ids": [
+        91371,
+        116987,
+        76954,
+        35950,
+        38689
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nNow, we need to convert the time it takes to clean one room from minutes to hours.\n\nTime to clean one room = 20 minutes\nTime to clean one room in hours = 20 / 60 = 1/3 hour\n\nNow, we multiply the number of rooms to clean by the time to clean one room in hours.\n\nTime to clean 45 rooms = 45 * 1/3 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{The answer is 15 hours.",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "bsub WebGL\toptwei_IMETHOD",
+      "prefix_token_ids": [
+        70783,
+        86941,
+        65938,
+        28204,
+        77879
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nSince it takes 20 minutes to clean each room, we multiply the number of rooms to clean by the time it takes to clean one room:\n\nTime to clean 45 rooms = 45 * 20 minutes\nTime to clean 45 rooms = 900 minutes\n\nThere are 60 minutes in an hour, so we divide the total time by 60:\n\nTime to clean 45 rooms (in hours) = 900 minutes / 60\nTime to clean 45 rooms (in hours) = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "剧 parodyριαltra gif",
+      "prefix_token_ids": [
+        110893,
+        67265,
+        104635,
+        40469,
+        39566
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\n90 rooms / 2 = 45 rooms\n\nSince it takes 20 minutes to clean each room, we multiply the number of rooms by the time it takes to clean one room:\n\n45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour, so we divide the total minutes by 60:\n\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": "Intel گفتهacomment国´s",
+      "prefix_token_ids": [
+        50199,
+        113987,
+        76315,
+        29504,
+        56476
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nTime taken to clean one-half of the rooms = 20 minutes\nTime taken to clean one room = 20 minutes\nTime taken to clean 45 rooms = 20 * 45 = 900 minutes\n\nThere are 60 minutes in an hour, so we can convert the time from minutes to hours by dividing by 60.\n\nTime taken to clean one-half of the rooms in hours = 900 / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "属性 nedokmetis próximo atas",
+      "prefix_token_ids": [
+        80356,
+        127855,
+        58044,
+        71898,
+        88518
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\n90 rooms / 2 = 45 rooms\n\nSince it takes 20 minutes to clean each room, we can multiply the number of rooms by the time it takes to clean one room:\n\n45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour, so we can convert the total time to hours:\n\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " crowdfundingляють.newBuilder\tdes slept",
+      "prefix_token_ids": [
+        77744,
+        121325,
+        67715,
+        54012,
+        46498
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms: 90\nNumber of rooms to clean: 90 / 2 = 45\n\nSince it takes 20 minutes to clean each room, we multiply the number of rooms to clean by the time it takes to clean one room:\n\n45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour, so we divide the total minutes by 60:\n\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " balcony SUMFIRSTindiceSupport",
+      "prefix_token_ids": [
+        44952,
+        31835,
+        68892,
+        74517,
+        8075
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nIt takes 20 minutes to clean each room. To find the total time, we multiply the number of rooms to clean by the time it takes to clean each room:\n\nTotal time = 45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour. To convert the total time from minutes to hours, we divide by 60:\n\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": "[col alertController'язUCK autofocus",
+      "prefix_token_ids": [
+        34622,
+        73781,
+        105254,
+        28643,
+        54132
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nNow, we need to find the time it takes to clean 45 rooms. Since it takes 20 minutes to clean each room, we multiply the number of rooms by the time it takes to clean each room:\n\nTime to clean 45 rooms = 45 * 20 minutes\nTime to clean 45 rooms = 900 minutes\n\nTo convert minutes to hours, we divide by 60:\n\nTime to clean 45 rooms = 900 minutes / 60\nTime to clean 45 rooms = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{The final answer is 15 hours.",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": " d createdAtcharts!).\n\n rabbit",
+      "prefix_token_ids": [
+        108839,
+        34151,
+        37684,
+        87879,
+        39824
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms: 90\nNumber of rooms to clean: 90 / 2 = 45\n\nIt takes 20 minutes to clean each room. To find the total time, we multiply the number of rooms to clean by the time it takes to clean each room:\n\n45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour. To convert the total time from minutes to hours, we divide by 60:\n\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " Totshr politically莱фор",
+      "prefix_token_ids": [
+        39120,
+        67139,
+        31205,
+        110905,
+        101505
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nTime taken to clean one-half of the rooms = 45 rooms * 20 minutes per room = 900 minutes\n\nThere are 60 minutes in an hour, so we can convert the time from minutes to hours by dividing by 60.\n\nTime taken to clean one-half of the rooms (in hours) = 900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{The answer is 15 hours.",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " dismay(datasetillosInventory_CB",
+      "prefix_token_ids": [
+        73082,
+        31635,
+        66037,
+        23120,
+        50033
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nSince it takes 20 minutes to clean each room, we can multiply the number of rooms to clean by the time it takes to clean one room:\n\nTime to clean 45 rooms = 45 * 20 minutes\nTime to clean 45 rooms = 900 minutes\n\nThere are 60 minutes in an hour, so we can convert the time from minutes to hours:\n\nTime to clean 45 rooms = 900 minutes / 60\nTime to clean 45 rooms = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " polishing сол пы extrav[\"_",
+      "prefix_token_ids": [
+        85563,
+        110634,
+        116018,
+        58439,
+        61252
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nNow, we need to find the time it takes to clean 45 rooms. Since it takes 20 minutes to clean each room, we multiply the number of rooms by the time it takes to clean each room:\n\nTime to clean 45 rooms = 45 * 20 minutes\nTime to clean 45 rooms = 900 minutes\n\nTo convert minutes to hours, we divide by 60:\n\nTime to clean 45 rooms = 900 minutes / 60\nTime to clean 45 rooms = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "crest precioForKey Podcastcontinental",
+      "prefix_token_ids": [
+        45551,
+        37620,
+        15303,
+        30869,
+        83951
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms: 90\nNumber of rooms to clean: 90 / 2 = 45\n\nIt takes 20 minutes to clean each room. To find the total time, multiply the number of rooms to clean by the time per room:\n\n45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour. To convert the total time from minutes to hours, divide by 60:\n\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "|\\肖 Stamford=>\" �",
+      "prefix_token_ids": [
+        23813,
+        120620,
+        99387,
+        45588,
+        117190
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nSince it takes 20 minutes to clean each room, we multiply the number of rooms to clean by the time it takes to clean one room:\n\nTime to clean 45 rooms = 45 * 20 minutes\nTime to clean 45 rooms = 900 minutes\n\nThere are 60 minutes in an hour, so we divide the total time by 60:\n\nTime to clean 45 rooms (in hours) = 900 minutes / 60\nTime to clean 45 rooms (in hours) = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": " restrictions allyfoundation_segment بغ",
+      "prefix_token_ids": [
+        17294,
+        31953,
+        73407,
+        29161,
+        123662
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nTime taken to clean one-half of the rooms = 45 * 20 minutes\nTime taken to clean one-half of the rooms = 900 minutes\n\nTo convert minutes to hours, we divide by 60:\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " blogging(shipWitness smoothly Thumbnails",
+      "prefix_token_ids": [
+        43092,
+        92499,
+        99513,
+        39511,
+        94822
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nNow, we need to find the time it takes to clean one room. It takes 20 minutes to clean one room.\n\nTime to clean one room = 20 minutes\nTime to clean 45 rooms = 20 minutes * 45 = 900 minutes\n\nTo convert minutes to hours, we divide by 60 (since there are 60 minutes in an hour).\n\nTime to clean 45 rooms = 900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{The answer is 15 hours.",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": " miejsc.facineepayment �",
+      "prefix_token_ids": [
+        92994,
+        55560,
+        85899,
+        14073,
+        86513
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nTime taken to clean one-half of the rooms = 45 * 20 minutes\nTime taken to clean one-half of the rooms = 900 minutes\n\nTo convert minutes to hours, we divide by 60:\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " undead/**<']=$ podnik_AVAILABLE",
+      "prefix_token_ids": [
+        70204,
+        70119,
+        29162,
+        108247,
+        52923
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nIt takes 20 minutes to clean each room. To find the total time, we multiply the number of rooms to clean by the time it takes to clean each room:\n\nTotal time = 45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour. To convert minutes to hours, we divide by 60:\n\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": " invoiceavis csv spreads Genetics",
+      "prefix_token_ids": [
+        25637,
+        23156,
+        13448,
+        43653,
+        84386
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms: 90\nNumber of rooms to clean: 90 / 2 = 45\n\nSince it takes 20 minutes to clean each room, we multiply the number of rooms to clean by the time it takes to clean one room:\n\n45 rooms * 20 minutes/room = 900 minutes\n\nThere are 60 minutes in an hour, so we divide the total minutes by 60:\n\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms at the KozyInn Motel.\nSo the answer is \\boxed{15 hours",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " velice =================================================================================_span documentssed",
+      "prefix_token_ids": [
+        123591,
+        67000,
+        38482,
+        9477,
+        32424
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nTime taken to clean one-half of the rooms = 20 minutes\nTime taken to clean one room = 20 minutes\nTime taken to clean 45 rooms = 20 * 45 = 900 minutes\n\nTo convert minutes to hours, we divide by 60:\n900 minutes / 60 = 15 hours\n\nTherefore, it would take 15 hours to clean one-half of the rooms.\nSo the answer is \\boxed{The answer is 15 hours.",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " Fahinvitation/randomfeito _('",
+      "prefix_token_ids": [
+        74607,
+        98630,
+        80542,
+        90218,
+        36855
+      ],
+      "generated_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nNow, we need to convert 45 minutes to hours. There are 60 minutes in an hour, so:\n\n45 minutes / 60 = 0.75 hours\n\nTherefore, it would take 0.75 hours to clean one-half of the rooms.\nSo the answer is \\boxed{0.75 hours",
+      "pred_answer": 0.75,
+      "correct": false,
+      "attack_success": true
+    }
+  ],
+  "attack_success": true
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 73,
+  "question": " A pet shelter had 2 puppies when another 34 were brought in. If 4 puppies a day are adopted, how long would it take for all of them to be adopted? ",
+  "ground_truth": "9",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "!!)\n)은нина",
+  "prefix_token_ids": [
+    86992,
+    116504,
+    125182
+  ],
+  "best_wrong_prob": 7.839404594776208e-21,
+  "clean_text": "To find out how long it would take for all the puppies to be adopted, we need to divide the total number of puppies by the number of puppies adopted per day.\n\nTotal number of puppies = 2 (initial pupp",
+  "clean_pred": 9.0,
+  "clean_correct": true,
+  "adv_text": "이 problema는 2 + 34 = 36 puppy가 있습니다. 4 puppy가 1일에adopted가 되면, 36 / 4 = 9일이 required가 됩니다. \n\n이러한 9일 동안, 9 * 7 = 63일이 required가 됩니다.\nSo the answer is \\boxed{63",
+  "adv_pred": 63.0,
+  "adv_correct": false,
+  "attack_success": true
+}

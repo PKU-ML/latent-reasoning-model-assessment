@@ -1,0 +1,28 @@
+{
+  "question": "There are 50 books in a small library. Half of them are written in English, and 10% in German. All others are written in Spanish. How many Spanish books are there?",
+  "ground_truth": "20.0",
+  "prefix": "Wr continuationivably",
+  "prefix_token_ids": [
+    39213,
+    24659,
+    47994
+  ],
+  "baseline_token_id": 1160,
+  "target_token_id": 2310,
+  "baseline_logit_diff": 2.1640625,
+  "clean_logit_diff": -11.75,
+  "adv_logit_diff": 5.9765625,
+  "best_logit_diff": 5.9765625,
+  "clean_text": "There are 50 books in a small library. Half of them are written in English, and 10% in German. All others are written in Spanish. How many Spanish books are there?\n### 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "Wr continuationivablyThere are 50 books in a small library. Half of them are written in English, and 10% in German. All others are written in Spanish. How many Spanish books are there?\n### 7",
+  "adv_answer": 7.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -2.8125,
+    1.375,
+    5.9765625
+  ]
+}

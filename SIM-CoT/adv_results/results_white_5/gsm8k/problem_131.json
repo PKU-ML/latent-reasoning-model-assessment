@@ -1,0 +1,29 @@
+{
+  "question": "The expenditure of Joseph in May was $500. In June, his expenditure was $60 less. How much was his total expenditure for those two months?",
+  "ground_truth": "940.0",
+  "prefix": " drafted vowel Cullen HW Prediction",
+  "prefix_token_ids": [
+    15937,
+    48617,
+    47681,
+    44884,
+    46690
+  ],
+  "baseline_token_id": 15897,
+  "target_token_id": 860,
+  "baseline_logit_diff": 7.1875,
+  "clean_logit_diff": -1.3125,
+  "adv_logit_diff": 11.1875,
+  "best_logit_diff": 11.1875,
+  "clean_text": "The expenditure of Joseph in May was $500. In June, his expenditure was $60 less. How much was his total expenditure for those two months?\n### 900",
+  "clean_answer": 900.0,
+  "clean_correct": false,
+  "adv_text": "drafted vowel Cullen HW PredictionThe expenditure of Joseph in May was $500. In June, his expenditure was $60 less. How much was his total expenditure for those two months?\n### 1060",
+  "adv_answer": 1060.0,
+  "adv_correct": false,
+  "attack_success": false,
+  "scores": [
+    10.5625,
+    11.1875
+  ]
+}

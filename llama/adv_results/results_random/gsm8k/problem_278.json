@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 278,
+  "question": "Mico and Marco wanted to get to know each other. They realized that the sum of their ages is 20. What will be the sum of their ages in 10 years?",
+  "ground_truth": "40.0",
+  "baseline": {
+    "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is M and Marco's current age is M. We know that their sum of ages is 20, so we can write an equation:\n\nM + M = 20\n\nCombine like terms:\n\n2M = 20\n\nDivide both sides by 2:\n\nM = 10\n\nSo Mico's current age is 10.\n\nNow, let's find Marco's current age:\n\nM + 10 = 20\n\nSubtract 10 from both sides:\n\nM = 10\n\nSo Marco's current age is also 10.\n\nTo find their ages in 10 years, we add 10 to their current ages:\n\nMico's age in 10 years: 10 + 10 = 20\nMarco's age in 10 years: 10 + 10 = 20\n\nThe sum of their ages in 10 years will be 20 + 20 = 40.",
+    "pred_answer": 40.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 24,
+  "success_rate": 0.8,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " helt Vanguard Youth[:]\n decoded",
+      "prefix_token_ids": [
+        57542,
+        76921,
+        30160,
+        78304,
+        30313
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's denote Mico's current age as M and Marco's current age as M. We know that the sum of their ages is 20, so we can write an equation:\n\nM + M = 20\n\nCombine like terms:\n\n2M = 20\n\nDivide both sides by 2:\n\nM = 10\n\nSo, Mico is currently 10 years old.\n\nTo find Marco's current age, we can add 10 to Mico's age:\n\nM + 10 = 10 + 10\nM + 10 = 20\n\nSubtract 10 from both sides:\n\nM = 10\n\nSo, Marco is also currently 10 years old.\n\nNow, to find their ages in 10 years, we add 10 to their current ages:\n\nMico's age in 10 years: 10 + 10 = 20\nMarco's age in 10 years: 10 + 10 = 20\n\nThe sum of their ages in 10 years will be 20 + 20 = 40.\nSo the answer is \\boxed{The final answer is 40.",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " outcryâl rupture Spider POD",
+      "prefix_token_ids": [
+        88963,
+        108204,
+        89869,
+        29490,
+        91601
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Spider's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Spider's age will be x + 10 and Marco's age will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, Spider's current age is 10 and Marco's current age is 10.\n\nTo find their ages in 10 years, we add 10 to their current ages:\n\nSpider's age in 10 years: 10 + 10 = 20\nMarco's age in 10 years: 10 + 10 = 20\n\nThe sum of their ages in 10 years will be 20 + 20 = 40.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 40.",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "actable precautionsodynamic|requiredresponsive",
+      "prefix_token_ids": [
+        67760,
+        61003,
+        61002,
+        69688,
+        52397
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is M and Marco's current age is M. We know that their sum of ages is 20, so we can write an equation:\n\nM + M = 20\n\nCombine like terms:\n2M = 20\n\nDivide both sides by 2:\nM = 10\n\nSo, Mico's current age is 10.\n\nNow, let's find their ages in 10 years:\n10 + 10 = 20\n\nThe sum of their ages in 10 years will be 20.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 20.",
+      "pred_answer": 20.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 4,
+      "prefix": " Lund_custom.CharacterΕΚREFERENCES",
+      "prefix_token_ids": [
+        69281,
+        16254,
+        52562,
+        119597,
+        86584
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, their ages will be x + 10 and y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = x + y + 20.\n\nSince we already know that x + y = 20, we can substitute this into the equation:\n\nx + y + 20 = x + y + 20\n\nThe '20' on both sides cancels out, leaving us with:\n\nx + y = x + y\n\nThis is a tautology, which means it's always true. So, the sum of their ages in 10 years will still be 20.\n\nTherefore, the sum of their ages in 10 years will be 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 5,
+      "prefix": " conjunto.Country стосlíb buggy",
+      "prefix_token_ids": [
+        68593,
+        63513,
+        116035,
+        118251,
+        80411
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Mico's age will be x + 10 and Marco's age will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, Mico's current age is 10 and Marco's current age is 10.\n\nTo find the sum of their ages in 10 years, we can add 10 to each of their current ages:\n\nMico's age in 10 years: 10 + 10 = 20\nMarco's age in 10 years: 10 + 10 = 20\n\nThe sum of their ages in 10 years will be 20 + 20 = 40.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 40.",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " decidedly Upon duas_interestویس",
+      "prefix_token_ids": [
+        77120,
+        30538,
+        72343,
+        63627,
+        107672
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Douas_interest's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Douas_interest's age will be x + 10 and Marco's age will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, the sum of their ages in 10 years will be 10.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 10.",
+      "pred_answer": 10.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 7,
+      "prefix": " Iraq Judgmentcrest تکن_CAR",
+      "prefix_token_ids": [
+        11340,
+        89662,
+        45551,
+        122246,
+        86987
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's denote their current ages as x and y. We know that their sum of ages is 20, so we can write the equation:\n\nx + y = 20\n\nWe also know that in 10 years, their ages will be x + 10 and y + 10. \n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = x + y + 20\n\nSince we already know that x + y = 20, we can substitute this into the equation:\n\nx + 10 + y + 10 = 20 + 20\n\nCombine like terms:\n\nx + y + 20 = 40\n\nSubtract 20 from both sides:\n\nx + y = 20\n\nThis is the same equation we started with, so we can conclude that x = y = 20.\n\nSo, their current ages are both 20. \n\nIn 10 years, their ages will be 20 + 10 = 30. \n\nThe sum of their ages in 10 years will be 30 + 30 = 60.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 60.",
+      "pred_answer": 60.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 8,
+      "prefix": "macros|( Blockchain\terrorsoting",
+      "prefix_token_ids": [
+        87498,
+        61116,
+        43985,
+        74524,
+        11780
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is M and Marco's current age is M. We know that their sum of ages is 20, so we can write an equation:\n\nM + M = 20\n\nCombine like terms:\n\n2M = 20\n\nDivide both sides by 2:\n\nM = 10\n\nSo Mico's current age is 10.\n\nNow, let's find Marco's current age:\n\nM + 10 = 20\n\nSubtract 10 from both sides:\n\nM = 10\n\nSo Marco's current age is also 10.\n\nTo find the sum of their ages in 10 years, we add 10 to each of their current ages:\n\nMico's age in 10 years: 10 + 10 = 20\nMarco's age in 10 years: 10 + 10 = 20\n\nThe sum of their ages in 10 years will be 20 + 20 = 40.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 40.",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " distinction filmerproj ghostsFu",
+      "prefix_token_ids": [
+        30296,
+        75680,
+        31486,
+        54940,
+        77845
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is M and Marco's current age is M + 10.\n\nWe know that the sum of their ages is 20, so we can write the equation:\n\nM + (M + 10) = 20\n\nCombine like terms:\n\n2M + 10 = 20\n\nSubtract 10 from both sides:\n\n2M = 10\n\nDivide both sides by 2:\n\nM = 5\n\nSo Mico's current age is 5.\n\nNow that we know Mico's age, we can find Marco's age by adding 10:\n\nMarco's age = 5 + 10 = 15\n\nThe sum of their ages in 10 years will be:\n\n5 + 15 = 20\n\nSo, in 10 years, Mico and Marco will be 20 years old together.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 20.",
+      "pred_answer": 20.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 10,
+      "prefix": "_FIN venerSend(scopebara",
+      "prefix_token_ids": [
+        46380,
+        91231,
+        11764,
+        33113,
+        25062
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Marco's current age is x. Since the sum of their ages is 20, we can write an equation:\n\nx + y = 20\n\nWe don't know Marco's age yet, but we can represent it as y. So, the equation becomes:\n\nx + y = 20\n\nNow, we need to find their ages in 10 years. To do this, we'll add 10 to each of their current ages.\n\nMarco's age in 10 years = x + 10\nMarco's age in 10 years = y + 10\n\nThe sum of their ages in 10 years will be:\n(x + 10) + (y + 10) = (x + y) + 20\n\nSince we know that x + y = 20, we can substitute this into the equation:\n\n(x + 10) + (y + 10) = 20 + 20\n(x + y) + 20 = 40\n\nNow, we can simplify the equation:\n\nx + y = 20\nx + y + 20 = 40\n\nSubtracting 20 from both sides:\n\nx + y = 20\n\nThis is the same equation we started with, so we can see that x + y = 20. This means that Marco's current age is 20, and his friend's current age is also 20.\n\nTo find their ages in 10 years, we'll add 10 to each of their current ages:\n\nMarco's age in 10 years = 20 + 10 = 30\nMarco's friend's age in 10 years = 20 + 10 = 30\n\nThe sum of their ages in 10 years will be:\n30 + 30 = 60\n\nTherefore, the sum of their ages in 10 years will be 60.\nSo the answer is \\boxed{The final answer is 60.",
+      "pred_answer": 60.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 11,
+      "prefix": " уров enthusiastic!( ücret.getDrawable",
+      "prefix_token_ids": [
+        106314,
+        42702,
+        18708,
+        107620,
+        87237
+      ],
+      "generated_text": "Let's break it down step by step:\n\n1. Initially, their ages are x and y.\n2. The sum of their ages is 20, so we can write an equation: x + y = 20\n3. In 10 years, their ages will be x + 10 and y + 10.\n4. The sum of their ages in 10 years is (x + 10) + (y + 10) = x + y + 20\n5. Since we know that x + y = 20, we can substitute this into the equation: x + y + 20 = 20 + 20\n6. Simplifying the equation, we get: x + y + 20 = 40\n7. Subtracting 20 from both sides, we get: x + y = 20\n\nSo, the sum of their ages in 10 years will be 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 12,
+      "prefix": "dığıеления worlds clashes browsing",
+      "prefix_token_ids": [
+        103711,
+        110505,
+        24800,
+        52610,
+        32421
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Mico's age will be x + 10 and Marco's age will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, the sum of their ages in 10 years will be 10.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 10.",
+      "pred_answer": 10.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 13,
+      "prefix": " (“ Docperiences ön्यवस",
+      "prefix_token_ids": [
+        27179,
+        22452,
+        69597,
+        79705,
+        111754
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Doc's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, their ages will be x + 10 and y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = x + y + 20\n\nSince we already know that x + y = 20, we can substitute this into the equation:\n\nx + 10 + y + 10 = 20 + 20\n\nCombine like terms:\n\nx + y + 20 = 40\n\nSubtract 20 from both sides:\n\nx + y = 20\n\nThis means that Doc and Marco are currently 20 years old. To find their ages in 10 years, we add 10 to each of their current ages:\n\nDoc's age in 10 years: 20 + 10 = 30\nMarco's age in 10 years: 20 + 10 = 30\n\nThe sum of their ages in 10 years will be 30 + 30 = 60.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 60.",
+      "pred_answer": 60.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 14,
+      "prefix": " Homeland.Nome شهیدDegree보",
+      "prefix_token_ids": [
+        44804,
+        94453,
+        123321,
+        59867,
+        42771
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Mico's age will be x + 10 and Marco's age will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, Mico's current age is 10 and Marco's current age is 10.\n\nTo find their ages in 10 years, we add 10 to their current ages:\n\nMico's age in 10 years: 10 + 10 = 20\nMarco's age in 10 years: 10 + 10 = 20\n\nThe sum of their ages in 10 years will be 20 + 20 = 40.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 40.",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "351 Assess lyr_cats \"),\n",
+      "prefix_token_ids": [
+        18113,
+        82935,
+        86337,
+        78470,
+        85219
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Mico's age will be x + 10 and Marco's age will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, the sum of their ages in 10 years will be 10.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 10.",
+      "pred_answer": 10.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 16,
+      "prefix": "adleาหล 入>`\nippi",
+      "prefix_token_ids": [
+        72455,
+        114250,
+        114424,
+        54822,
+        25240
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Marco's current age is x. Since the sum of their ages is 20, we can write an equation:\n\nx + y = 20\n\nWe don't know Marco's age yet, but we can represent it as x. We also know that in 10 years, Marco's age will be x + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + y.\n\nSince the sum of their ages is 20, we can set up another equation:\n\nx + 10 + y = 20\n\nNow we have two equations:\n\nx + y = 20\nx + 10 + y = 20\n\nSubtracting the first equation from the second equation, we get:\n\n10 = 0\n\nThis is a contradiction, which means that it's not possible for Marco's age to be 10. This means that Marco is either 0 years old or 20 years old.\n\nIf Marco is 0 years old, then his age in 10 years will be 0 + 10 = 10.\n\nIf Marco is 20 years old, then his age in 10 years will be 20 + 10 = 30.\n\nSo, the sum of their ages in 10 years will be either 10 or 30.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 10 or 30.",
+      "pred_answer": 30.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 17,
+      "prefix": " fixes-ball fares-Outजर",
+      "prefix_token_ids": [
+        27635,
+        68302,
+        70318,
+        85615,
+        108315
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is M and Marco's current age is M + 10.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nM + (M + 10) = 20\n\nCombine like terms:\n\n2M + 10 = 20\n\nSubtract 10 from both sides:\n\n2M = 10\n\nDivide both sides by 2:\n\nM = 5\n\nSo Mico's current age is 5.\n\nNow that we know Mico's age, we can find Marco's age by adding 10:\n\nMarco's age = 5 + 10 = 15\n\nThe sum of their ages in 10 years will be:\n\n5 + 15 = 20\n\nSo, in 10 years, Mico and Marco will be 20 years old together.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 20.",
+      "pred_answer": 20.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 18,
+      "prefix": "_charsBUS<htmlох svensk",
+      "prefix_token_ids": [
+        38518,
+        41311,
+        14063,
+        101897,
+        80261
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's assume their current ages are x and y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that they are both getting older by 10 years, so their ages in 10 years will be x + 10 and y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = x + y + 20.\n\nSince we already know that x + y = 20, we can substitute this into the equation:\n\nx + y + 20 = 20 + 20\n\nx + y + 20 = 40\n\nNow, we can solve for x + y:\n\nx + y = 40 - 20\nx + y = 20\n\nSo, their current ages are 20 and 20.\n\nTo find the sum of their ages in 10 years, we add 10 to each of their current ages:\n\nx + 10 = 20 + 10 = 30\ny + 10 = 20 + 10 = 30\n\nThe sum of their ages in 10 years will be 30 + 30 = 60.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 60.",
+      "pred_answer": 60.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 19,
+      "prefix": ".realmyp závod Nokiaπα",
+      "prefix_token_ids": [
+        30891,
+        87234,
+        127135,
+        36806,
+        102842
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Marco's current age is x. Since the sum of their ages is 20, we can write an equation:\n\nx + y = 20\n\nWe don't know Marco's age yet, but we can represent it as x. We also know that in 10 years, Marco's age will be x + 10.\n\nWe can write another equation for their ages in 10 years:\n\nx + 10 + y + 10 = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow we have two equations:\n\nx + y = 20\nx + y + 20 = 30\n\nSubtract the first equation from the second equation:\n\n(x + y + 20) - (x + y) = 30 - 20\n20 = 10\n\nThis is a contradiction, which means that the initial assumption that Marco's age is x is incorrect. Let's try again.\n\nLet's say Marco's current age is y. Then, the sum of their ages is 20, so we can write an equation:\n\ny + x = 20\n\nIn 10 years, Marco's age will be y + 10. We can write another equation for their ages in 10 years:\n\ny + 10 + x + 10 = 20 + 10\n\nCombine like terms:\n\ny + 10 + x + 10 = 30\n\nNow we have two equations:\n\ny + x = 20\ny + 10 + x + 10 = 30\n\nSubtract the first equation from the second equation:\n\n(y + 10 + x + 10) - (y + x) = 30 - 20\n20 = 10\n\nThis is also a contradiction, which means that the initial assumption that Marco's age is y is incorrect. Let's try again.\n\nLet's say Marco's current age is x. Then, the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nIn 10 years, Marco's age will be x + 10. We can write another equation for their ages in 10 years:\n\nx + 10 + y + 10 = 20 + 10\n\nCombine like terms:\n\nx + 10 + y + 10 = 30\n\nNow we have two equations:\n\nx + y = 20\nx\nSo the answer is \\boxed{The sum of their ages in 10 years will be 30.",
+      "pred_answer": 30.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 20,
+      "prefix": " ورد {}\n\nComposite ValueType陆",
+      "prefix_token_ids": [
+        125589,
+        10294,
+        42785,
+        56645,
+        98245
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Marco's current age is x and Mico's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, their ages will be x + 10 and y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = x + y + 20.\n\nSince we already know that x + y = 20, we can substitute this into the equation:\n\nx + y + 20 = 20 + 20\n\nx + y + 20 = 40\n\nNow, we can solve for x + y:\n\nx + y = 40 - 20\nx + y = 20\n\nSo, Marco's current age is 20 and Mico's current age is 20.\n\nTo find the sum of their ages in 10 years, we can add 10 to each of their current ages:\n\nMarco's age in 10 years: 20 + 10 = 30\nMico's age in 10 years: 20 + 10 = 30\n\nThe sum of their ages in 10 years will be 30 + 30 = 60.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 60.",
+      "pred_answer": 60.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 21,
+      "prefix": " plunged legislature �ResponsLiving",
+      "prefix_token_ids": [
+        75803,
+        39856,
+        46413,
+        83262,
+        45605
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is M and Marco's current age is M + 10.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nM + (M + 10) = 20\n\nCombine like terms:\n\n2M + 10 = 20\n\nSubtract 10 from both sides:\n\n2M = 10\n\nDivide both sides by 2:\n\nM = 5\n\nSo Mico's current age is 5.\n\nNow that we know Mico's age, we can find Marco's age by adding 10:\n\nMarco's age = 5 + 10 = 15\n\nThe sum of their ages in 10 years will be:\n\n5 + 15 = 20\n\nTherefore, the sum of their ages in 10 years will be 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 22,
+      "prefix": ",No_DEPRECATEDีผ्वतSeleccione",
+      "prefix_token_ids": [
+        86176,
+        83176,
+        127446,
+        113770,
+        81273
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Mico's age will be x + 10 and Marco's age will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, the sum of their ages in 10 years will be 10.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 10.",
+      "pred_answer": 10.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 23,
+      "prefix": " Celtics Films closely패\">{",
+      "prefix_token_ids": [
+        58796,
+        46564,
+        15499,
+        108507,
+        18573
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is M and Marco's current age is M + 10.\n\nWe know that the sum of their ages is 20, so we can write the equation:\n\nM + (M + 10) = 20\n\nCombine like terms:\n\n2M + 10 = 20\n\nSubtract 10 from both sides:\n\n2M = 10\n\nDivide both sides by 2:\n\nM = 5\n\nSo Mico's current age is 5.\n\nNow that we know Mico's age, we can find Marco's age by adding 10:\n\nMarco's age = 5 + 10 = 15\n\nThe sum of their ages in 10 years will be:\n\n5 (Mico's age) + 15 (Marco's age) = 20\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 24,
+      "prefix": " nije Pharmmanızovelonsense",
+      "prefix_token_ids": [
+        87593,
+        25603,
+        109351,
+        44435,
+        98833
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Mico's age will be x + 10 and Marco's age will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, the sum of their ages in 10 years will be 10.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 10.",
+      "pred_answer": 10.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 25,
+      "prefix": "โปร Twentyiteur_NRProcAddress",
+      "prefix_token_ids": [
+        108810,
+        44956,
+        84048,
+        69295,
+        70744
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, their ages will be x + 10 and y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = x + y + 20.\n\nSince we already know that x + y = 20, we can substitute this into the equation:\n\nx + y + 20 = 20 + 20\n\nx + y + 20 = 40\n\nNow, we can solve for x + y:\n\nx + y = 40 - 20\nx + y = 20\n\nSo, the sum of their ages in 10 years will be 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 26,
+      "prefix": " Religion線IDLढ़;?>",
+      "prefix_token_ids": [
+        44193,
+        101911,
+        51038,
+        108511,
+        25948
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Mico's age will be x + 10 and Marco's age will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, the sum of their ages in 10 years will be 10.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 10.",
+      "pred_answer": 10.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 27,
+      "prefix": " granddaughter fatt\tflags hackedBERT",
+      "prefix_token_ids": [
+        92490,
+        87309,
+        60616,
+        47939,
+        62537
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say the current age of Fattflags is x and Marco's age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Fattflags will be x + 10 and Marco will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, the sum of their ages in 10 years will be 10.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 10.",
+      "pred_answer": 10.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 28,
+      "prefix": "Krist VậypigWO serge",
+      "prefix_token_ids": [
+        76943,
+        125193,
+        90600,
+        23513,
+        72301
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Krist's current age is K and Marco's current age is M.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nK + M = 20\n\nWe also know that in 10 years, their ages will be K + 10 and M + 10.\n\nThe sum of their ages in 10 years will be (K + 10) + (M + 10) = K + M + 20.\n\nSince we already know that K + M = 20, we can substitute this into the equation:\n\nK + M + 20 = K + M + 20\n\nThe '20' on both sides cancels out, so we're left with:\n\nK + 10 = K + 10\n\nThis equation is true for all values of K, so we can choose any value for K. Let's choose K = 0.\n\nSo, Krist's current age is 0 and Marco's current age is 20.\n\nIn 10 years, their ages will be 0 + 10 = 10 and 20 + 10 = 30.\n\nThe sum of their ages in 10 years will be 10 + 30 = 40.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 40.",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " inexKaैज frenzy filament",
+      "prefix_token_ids": [
+        55981,
+        84068,
+        123114,
+        74941,
+        91880
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is x and Marco's current age is y.\n\nWe know that the sum of their ages is 20, so we can write an equation:\n\nx + y = 20\n\nWe also know that in 10 years, Mico's age will be x + 10 and Marco's age will be y + 10.\n\nThe sum of their ages in 10 years will be (x + 10) + (y + 10) = 20 + 10\n\nCombine like terms:\n\nx + y + 20 = 30\n\nNow, we can subtract 20 from both sides of the equation:\n\nx + y = 10\n\nSo, the sum of their ages in 10 years will be 10.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 10.",
+      "pred_answer": 10.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 30,
+      "prefix": " استίθambiaاحتフ�",
+      "prefix_token_ids": [
+        94253,
+        116851,
+        53937,
+        110057,
+        96841
+      ],
+      "generated_text": "To find the sum of their ages in 10 years, we need to first find their current ages.\n\nLet's say Mico's current age is M and Marco's current age is M. We know that their sum of ages is 20, so we can write an equation:\n\nM + M = 20\n\nCombine like terms:\n2M = 20\n\nDivide both sides by 2:\nM = 10\n\nSo, Mico's current age is 10.\n\nNow, let's find their ages in 10 years:\n10 + 10 = 20\n\nThe sum of their ages in 10 years will be 20.\nSo the answer is \\boxed{The sum of their ages in 10 years will be 20.",
+      "pred_answer": 20.0,
+      "correct": false,
+      "attack_success": true
+    }
+  ],
+  "attack_success": true
+}

@@ -1,0 +1,26 @@
+{
+  "question": "A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+  "ground_truth": "48.0",
+  "prefix": "63 Rath",
+  "prefix_token_ids": [
+    21,
+    18,
+    85455
+  ],
+  "baseline_token_id": 19,
+  "target_token_id": 24,
+  "baseline_logit_diff": -3.5,
+  "clean_logit_diff": -5.625,
+  "adv_logit_diff": 0.875,
+  "best_logit_diff": 0.875,
+  "clean_text": "assistant\n### 48 ",
+  "clean_answer": 48.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 336 ",
+  "adv_answer": 336.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.875
+  ]
+}

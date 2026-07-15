@@ -1,0 +1,43 @@
+{
+  "question": "Four friends ordered four pizzas for a total of 64 dollars. If two of the pizzas cost 30 dollars, how much did each of the other two pizzas cost if they cost the same amount?",
+  "ground_truth": "17.0",
+  "prefix": "',['../([(' inev",
+  "prefix_token_ids": [
+    29066,
+    89543,
+    20659
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -0.75,
+  "clean_logit_diff": -0.75,
+  "adv_logit_diff": 0.125,
+  "best_logit_diff": 0.125,
+  "clean_text": "assistant\n### 17 ",
+  "clean_answer": 17.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 20 ",
+  "adv_answer": 20.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.375,
+    -0.375,
+    -0.375,
+    -0.375,
+    -0.375,
+    -0.375,
+    -0.375,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.125,
+    -0.125,
+    -0.125,
+    -0.125,
+    -0.125,
+    0.125
+  ]
+}

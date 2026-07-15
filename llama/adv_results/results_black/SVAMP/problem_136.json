@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 136,
+  "question": "Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+  "ground_truth": "26.0",
+  "baseline_correct": true,
+  "baseline_answer": 26.0,
+  "best_rewrite": "The speed of light is about 300000 km/s. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+  "best_fact": "The speed of light is about 300000 km/s.",
+  "best_pred_answer": 37.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 25,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince there are 24 hours in a day, we can divide the total hours played by 24 to find the number of kids played with altogether.\n\nTotal hours played = 34\nNumber of kids played with = 34 / 24 = 1.4167\n\nSince we can't have a fraction of a kid, we can round down to 1 kid.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "April has 30 days. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids played with on Monday = 12\nNumber of kids played with on Tuesday = 14\n\nTotal number of kids played with = 12 + 14 = 26\n\nSince April has 30 days, we can divide the total hours spent playing tag by 24 (the number of hours in a day) to find the total number of kids played with.\n\nTotal hours spent playing tag = 34\nTotal number of kids played with = 34 / 24 = 1.4167\n\nSince we can't have a fraction of a kid, we can round down to 1.4167, but in this case, we can round to 1.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia played with 2 wheels, we need to divide the total number of kids by 2 to find the number of kids per wheel.\n\nNumber of kids per wheel = 26 / 2 = 13\n\nSo, Julia played with 13 kids altogether.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we can divide the total hours by 2 to find the number of hours per kid.\n\nHours per kid = 34 / 2 = 17\n\nNow, we can multiply the number of kids by the hours per kid to find the total number of kids.\n\nTotal number of kids = 26 * 17 = 442\n\nSo, Julia played with 442 kids altogether.\nSo the answer is \\boxed{442",
+      "pred_answer": 442.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we need to convert the hours to a more meaningful unit, such as the number of kids. \n\n1 hour = 60 minutes\n1 minute = 60 seconds\n\nSo, 34 hours = 34 x 60 = 2040 minutes\n\nNow, we can convert the total minutes to the number of kids:\n\nTotal number of kids = 2040 minutes / 60 = 34 kids\n\nTherefore, Julia played with 34 kids altogether.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "A year has 12 months. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia played a total of 34 hours, we need to convert the hours to a more meaningful unit, such as the number of kids. \n\n1 hour = 60 minutes\n1 minute = 60 seconds\n\nSo, 1 hour = 3600 seconds\n\nNow, let's convert the total hours to seconds:\n34 hours = 34 * 3600 = 122400 seconds\n\nNow, let's divide the total seconds by the number of seconds in a minute:\n122400 / 60 = 2040 minutes\n2040 / 60 = 34\n\nSo, Julia played with 34 kids altogether.\nSo the answer is \\boxed{The answer is 34.",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "A week has 7 days. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia played a total of 34 hours, we need to convert the hours to days. There are 24 hours in a day.\n\nTotal number of days = 34 / 24 = 1.4167\n\nSince we can't play with a fraction of a kid, we can round down to 1 day.\n\nNumber of kids played with = 26\n\nSo, Julia played with 26 kids altogether.\nSo the answer is \\boxed{26",
+      "pred_answer": 26.0
+    },
+    {
+      "question": "An hour has 60 minutes. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince there are 60 minutes in an hour, we need to convert the total hours played to minutes:\n34 hours = 34 * 60 = 2040 minutes\n\nNow, we can find the total number of kids by dividing the total minutes played by the number of minutes in an hour:\nTotal number of kids = 2040 / 60 = 34\n\nSo, Julia played with 34 kids altogether.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "A minute has 60 seconds. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince there are 60 minutes in an hour, we need to convert the total hours to minutes:\n34 hours = 34 * 60 = 2040 minutes\n\nNow, we can find the total number of kids by dividing the total minutes by 60:\nTotal number of kids = 2040 / 60 = 34\n\nSo, Julia played with 34 kids altogether.\nSo the answer is \\boxed{The answer is 34.",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "A year has 365 days. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we need to convert the hours to days. There are 24 hours in a day.\n\nTotal number of days = 34 / 24 = 1.4167\n\nSince we can't play a fraction of a day, we can round down to 1 day.\n\nTotal number of kids = 26\n\nSo, Julia played with 26 kids altogether.\nSo the answer is \\boxed{26",
+      "pred_answer": 26.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we need to convert the hours to a more meaningful unit, such as the number of kids. \n\n1 hour = 60 minutes\n1 minute = 60 seconds\n\nSo, 34 hours = 34 x 60 = 2040 minutes\n\nNow, we can convert the total number of minutes to the number of kids:\n\nTotal number of kids = 2040 minutes / 60 = 34 kids\n\nTherefore, Julia played with 34 kids altogether.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we need to convert the hours to minutes to find the total number of kids.\n\n1 hour = 60 minutes\n34 hours = 34 * 60 = 2040 minutes\n\nNow, we can find the total number of kids by dividing the total minutes by the number of minutes in a day.\n\nTotal number of kids = 2040 minutes / 60 = 34\n\nSo, Julia played with 34 kids altogether.\nSo the answer is \\boxed{The answer is 34.",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we need to convert the hours to a more meaningful unit, such as the number of kids. \n\n1 hour = 60 minutes\n1 minute = 60 seconds\n\nSo, 34 hours = 34 x 60 = 2040 minutes\n\nNow, we can convert the total minutes to the number of kids:\n\nTotal number of kids = 2040 minutes / 60 = 34 kids\n\nTherefore, Julia played with 34 kids altogether.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we need to convert the hours to days. There are 24 hours in a day.\n\nTotal hours = 34\nNumber of days = Total hours / 24\n= 34 / 24\n= 1.4167\n\nNow, we can find the total number of kids by multiplying the number of kids on each day by the number of days.\n\nTotal number of kids = 26 * 1.4167\n= 37.3338\n\nSince we can't have a fraction of a kid, we round down to the nearest whole number.\n\nTotal number of kids = 37\nSo the answer is \\boxed{The answer is 37.",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia played a total of 34 hours, we need to convert the hours to a more meaningful unit, such as the number of kids. \n\n1 hour = 60 minutes\n1 minute = 60 seconds\n\nSo, 1 hour = 3600 seconds\n\nNow, let's convert the total hours to seconds:\n34 hours = 34 * 3600 = 122400 seconds\n\nNow, let's divide the total seconds by the number of seconds in a minute:\n122400 / 60 = 2040 minutes\n2040 / 60 = 34\n\nSo, Julia played with 34 kids altogether.\nSo the answer is \\boxed{The answer is 34.",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "An adult has 32 teeth. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids she played with on Monday = 12\nNumber of kids she played with on Tuesday = 14\n\nTotal number of kids she played with = 12 + 14 = 26\n\nSince Julia played a total of 34 hours, we need to convert the hours to a more meaningful unit, such as the number of kids. \n\n1 hour = 60 minutes\n1 minute = 60 seconds\n\nSo, 34 hours = 34 * 60 minutes = 2040 minutes\n\nNow, we can convert the total minutes to kids:\nTotal number of kids = 2040 minutes / 60 = 34 kids\n\nTherefore, Julia played with 34 kids altogether.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "China has 1.4 billion people. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids played with on Monday = 12\nNumber of kids played with on Tuesday = 14\n\nTotal number of kids played with = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we need to convert the hours to a more meaningful unit, such as kids. There are 24 hours in a day, so:\n\n34 hours / 24 hours per day = 1.42 kids per day\n\nNow, we can multiply the number of kids played with on Monday and Tuesday by the number of hours played per day:\n\nTotal number of kids played with = 26 kids * 1.42 kids per day = 37.12 kids\n\nSince we can't have a fraction of a kid, we round down to 37 kids.\nSo the answer is \\boxed{The answer is 37.",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "Japan has 125 million people. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids she played with on Monday = 12\nNumber of kids she played with on Tuesday = 14\n\nTotal number of kids she played with = 12 + 14 = 26\n\nSince she spent a total of 34 hours playing tag, we need to convert the hours to a more meaningful unit, such as kids. There are 24 hours in a day, so:\n\n34 hours / 24 hours per day = 1.42 days\n\nSince Julia played with 26 kids, we can divide the total number of kids by the number of days to find the number of kids per day:\n\n26 kids / 1.42 days = approximately 18.2 kids per day\n\nSo, Julia played with approximately 18.2 kids per day.\nSo the answer is \\boxed{18.2",
+      "pred_answer": 18.2
+    },
+    {
+      "question": "The US has 50 states. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we can divide the total hours by 2 to find the number of hours per kid.\n\nHours per kid = 34 / 2 = 17\n\nNow, we can multiply the number of kids by the hours per kid to find the total number of kids.\n\nTotal number of kids = 26 * 17 = 442\n\nSo, Julia played with 442 kids altogether.\nSo the answer is \\boxed{442",
+      "pred_answer": 442.0
+    },
+    {
+      "question": "The EU has 27 member states. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids she played with on Monday = 12\nNumber of kids she played with on Tuesday = 14\n\nTotal number of kids she played with = 12 + 14 = 26\n\nSince she spent a total of 34 hours playing tag, we can divide the total hours by 2 to find the number of hours per kid.\n\nHours per kid = Total hours / 2 = 34 / 2 = 17\n\nNow, we can multiply the number of kids she played with by the hours per kid to find the total number of kids.\n\nTotal number of kids = Number of kids she played with * Hours per kid\n= 26 * 17\n= 442\n\nSo, Julia played with 442 kids altogether.\nSo the answer is \\boxed{442",
+      "pred_answer": 442.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we need to convert the hours to a more meaningful unit, such as the number of kids. \n\n1 hour = 60 minutes\n1 minute = 60 seconds\n\nSo, 34 hours = 34 x 60 = 2040 minutes\n\nNow, we can convert the total number of minutes to the number of kids:\n\nTotal number of kids = 2040 minutes / 60 = 34 kids\n\nTherefore, Julia played with 34 kids altogether.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we need to convert the hours to a common unit, such as kids. There are 24 hours in a day, so:\n\n34 hours / 24 hours per day = 1.42 days\n\nSince Julia played with 26 kids, and she played for 1.42 days, we can calculate the total number of kids as follows:\n\nTotal number of kids = 26 kids * 1.42 days = 37.12 kids\n\nSince we can't have a fraction of a kid, we can round down to 37 kids.\nSo the answer is \\boxed{The answer is 37 kids.",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince Julia spent a total of 34 hours playing tag, we need to convert the hours to a more meaningful unit, such as the number of kids. \n\n1 hour = 60 minutes\n1 minute = 60 seconds\n\nSo, 34 hours = 34 x 60 = 2040 minutes\n\nNow, we can convert the total number of minutes to the number of kids:\n\nTotal number of kids = 2040 minutes / 60 = 34 kids\n\nTherefore, Julia played with 34 kids altogether.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The human body has 206 bones. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince the total time spent playing tag is 34 hours, we need to convert this to a more meaningful unit, such as the number of kids. \n\n1 hour = 60 minutes\n1 minute = 60 seconds\n\nSo, 34 hours = 34 x 60 = 2040 minutes\n\nNow, we can convert the total time to kids:\nTotal number of kids = 2040 minutes / 60 = 34 kids\n\nTherefore, Julia played with 34 kids altogether.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids played with on Monday = 12\nNumber of kids played with on Tuesday = 14\n\nTotal number of kids played with = 12 + 14 = 26\n\nSince H2O contains 2 hydrogen atoms, we can assume that the number of kids is equal to the number of hydrogen atoms in H2O, which is 2. Therefore, Julia played with 26 kids altogether.\nSo the answer is \\boxed{26",
+      "pred_answer": 26.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince oxygen makes up 21% of air, we can find the total number of kids by dividing the total hours played by the percentage of oxygen in air.\n\nTotal hours played = 34\nPercentage of oxygen in air = 21%\n\nLet's convert the percentage to a decimal: 21% = 0.21\n\nNow, we can find the total number of kids by dividing the total hours played by the percentage of oxygen in air:\n\nTotal number of kids = Total hours played / Percentage of oxygen in air\n= 34 / 0.21\n= 160\n\nSo, Julia played with 160 kids altogether.\nSo the answer is \\boxed{The answer is 160.",
+      "pred_answer": 160.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince standard atmospheric pressure is 101325 Pa, we can use the ideal gas law to find the total number of moles of air in the atmosphere. However, we don't need to do that here. We just need to add the number of kids.\n\nThe answer is 26.\nSo the answer is \\boxed{26",
+      "pred_answer": 26.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids she played with on Monday = 12\nNumber of kids she played with on Tuesday = 14\n\nTotal number of kids she played with = 12 + 14 = 26\n\nSince the total time spent playing tag is 34 hours, we need to convert this to minutes to find the total number of kids.\n\n1 hour = 60 minutes\nTotal time spent playing tag = 34 hours\nTotal time spent playing tag in minutes = 34 * 60 = 2040 minutes\n\nNow, we can find the total number of kids by dividing the total time spent playing tag in minutes by the time spent playing with each kid.\n\nTotal number of kids = Total time spent playing tag in minutes / Time spent playing with each kid\n= 2040 / 26\n= 78\n\nSo, Julia played with 78 kids altogether.\nSo the answer is \\boxed{The answer is 78.",
+      "pred_answer": 78.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSince the problem states that Julia spent a total of 34 hours playing tag, we can assume that the time spent playing tag is proportional to the number of kids she played with.\n\nLet's assume the time spent playing tag per kid is x hours. Then, the total time spent playing tag is 26x hours.\n\nWe know that the total time spent playing tag is 34 hours, so we can set up the equation:\n\n26x = 34\n\nTo solve for x, we can divide both sides by 26:\n\nx = 34 / 26\nx = 1.31 hours per kid\n\nNow that we know the time spent playing tag per kid, we can find the total number of kids:\n\nTotal number of kids = 26x\n= 26 * 1.31\n= 34\n\nSo, Julia played with 34 kids altogether.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\n\nTotal number of kids = 12 + 14 = 26\n\nSo, Julia played with 26 kids altogether.\nSo the answer is \\boxed{26",
+      "pred_answer": 26.0
+    }
+  ]
+}

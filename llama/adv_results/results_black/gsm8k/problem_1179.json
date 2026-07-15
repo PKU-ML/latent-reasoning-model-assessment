@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1179,
+  "question": "James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+  "ground_truth": "50.0",
+  "baseline_correct": true,
+  "baseline_answer": 50.0,
+  "best_rewrite": "A year has 365 days. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+  "best_fact": "A year has 365 days.",
+  "best_pred_answer": 136.67,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 27,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nThe dentist drills 4 teeth, and he caps 7 more teeth than he drills. So, the number of teeth capped by the dentist is 4 + 7 = 11.\n\nThe total number of teeth that the dentist fixes is 4 + 11 = 15.\n\nTo find the percentage of teeth that the dentist fixes, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(15 / 30) * 100 = 50%\n\nSo, the dentist fixes 50% of James' teeth.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "April has 30 days. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that James has after the dentist fixes them. \n\nJames starts with 30 teeth and drills 4, so he has 30 - 4 = 26 teeth left. He then caps 7 more teeth, so he now has 26 + 7 = 33 teeth.\n\nThe dentist fixes 4 teeth, so James now has 33 - 4 = 29 teeth.\n\nTo find the percentage of teeth that James' dentist fixes, we divide the number of teeth fixed (4) by the total number of teeth (29) and multiply by 100:\n\n(4 / 29) * 100 = 13.79%\n\nSo, James' dentist fixes approximately 13.79% of his teeth.\nSo the answer is \\boxed{13.79%",
+      "pred_answer": 13.79
+    },
+    {
+      "question": "A bicycle has 2 wheels. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that James has and the number of teeth that the dentist fixes.\n\nJames has 30 teeth.\nThe dentist drills 4 teeth, so the number of teeth that the dentist fixes is 30 - 4 = 26.\n\nThe dentist caps 7 more teeth than he drills, so the number of teeth that the dentist caps is 4 + 7 = 11.\n\nTo find the percentage of teeth that the dentist fixes, we divide the number of teeth that the dentist fixes (26) by the total number of teeth (30) and multiply by 100:\n\n(26 / 30) * 100 = 86.67%\n\nSo, the dentist fixes approximately 86.67% of James' teeth.\nSo the answer is \\boxed{86.67",
+      "pred_answer": 86.67
+    },
+    {
+      "question": "Today is the 3rd of the month. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nThe dentist drills 4 teeth and caps 7 more than the number of teeth James has. James has 30 teeth. So, the dentist caps 30 + 7 = 37 teeth.\n\nThe dentist fixes 37 - 4 = 33 teeth.\n\nTo find the percentage, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(33 / 30) * 100 = 110%\n\nSo, the dentist fixes 110% of James' teeth.\nSo the answer is \\boxed{110",
+      "pred_answer": 110.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nThe dentist drills 4 teeth and caps 7 more than the number of teeth James has. Since James has 30 teeth, the dentist drills 30 + 7 = 37 teeth. \n\nThe dentist fixes 37 - 4 = 33 teeth.\n\nTo find the percentage of teeth that the dentist fixes, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(33 / 30) * 100 = 110%\n\nSo, the dentist fixes 110% of James' teeth.\nSo the answer is \\boxed{110",
+      "pred_answer": 110.0
+    },
+    {
+      "question": "A year has 12 months. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that James has after the dentist fixes them. \n\nJames has 30 teeth initially. He drills 4 teeth, so he has 30 - 4 = 26 teeth left. He caps 7 more teeth than he drills, so he caps 4 + 7 = 11 teeth. \n\nNow, we need to find the total number of teeth that James has after the dentist fixes them. 26 (remaining teeth) + 11 (fixed teeth) = 37 teeth.\n\nTo find the percentage of teeth that James' dentist fixes, we divide the number of fixed teeth by the total number of teeth and multiply by 100:\n\n(11 / 37) * 100 = 30%\n\nSo, the dentist fixes 30% of James' teeth.\nSo the answer is \\boxed{The percentage of teeth that James' dentist fixes is 30%.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A week has 7 days. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find out how many teeth James has after the dentist fixes them. \n\nJames starts with 30 teeth. He drills 4 teeth, so he has 30 - 4 = 26 teeth left. He caps 7 more teeth than he drills, so he caps 4 + 7 = 11 teeth. \n\nNow, we need to find the total number of teeth that James has after the dentist fixes them. 26 (remaining teeth) + 11 (newly capped teeth) = 37 teeth.\n\nTo find the percentage of teeth that James' dentist fixes, we divide the number of teeth fixed (11) by the total number of teeth (37) and multiply by 100.\n\n(11 / 37) * 100 = 29.53%\n\nSo, the dentist fixes approximately 29.53% of James' teeth.\nSo the answer is \\boxed{29.53",
+      "pred_answer": 29.53
+    },
+    {
+      "question": "An hour has 60 minutes. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that James has and the number of teeth that the dentist fixes.\n\nJames has 30 teeth.\nThe dentist drills 4 teeth, so the number of teeth that the dentist fixes is 30 - 4 = 26.\n\nThe dentist caps 7 more teeth than he drills, so the number of teeth that the dentist caps is 4 + 7 = 11.\n\nThe total number of teeth that James has that the dentist fixes is 26 + 11 = 37.\n\nTo find the percentage of teeth that the dentist fixes, divide the number of teeth that the dentist fixes by the total number of teeth and multiply by 100:\n\n(37 / 30) * 100 = 123.33%\n\nSo, the dentist fixes approximately 123.33% of James' teeth.\nSo the answer is \\boxed{123.33",
+      "pred_answer": 123.33
+    },
+    {
+      "question": "A minute has 60 seconds. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to calculate the total number of teeth that the dentist fixes and divide it by the total number of teeth James has.\n\nJames has 30 teeth. The dentist drills 4 teeth, so the dentist fixes 30 - 4 = 26 teeth.\n\nThe dentist caps 7 more teeth than he drills, so the dentist caps 4 + 7 = 11 teeth.\n\nThe total number of teeth that the dentist fixes is 26 + 11 = 37 teeth.\n\nTo find the percentage, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(37 / 30) * 100 = 123.33%\n\nSo, the dentist fixes approximately 123.33% of James' teeth.\nSo the answer is \\boxed{The answer is 123.33%.",
+      "pred_answer": 123.33
+    },
+    {
+      "question": "A year has 365 days. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that James has and the number of teeth that the dentist fixes.\n\nJames has 30 teeth.\nThe dentist drills 4 teeth.\nThe dentist caps 7 more teeth than he drills, so the dentist drills 4 + 7 = 11 teeth.\n\nTotal teeth fixed = 11 (drilled) + 30 (original) = 41 teeth.\n\nTo find the percentage of teeth that James' dentist fixes, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(41 / 30) * 100 = 136.67%\n\nSo, the dentist fixes approximately 136.67% of James' teeth.\nSo the answer is \\boxed{136.67",
+      "pred_answer": 136.67
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to calculate the total number of teeth that were fixed and divide it by the total number of teeth James has.\n\nJames has 30 teeth. The dentist drills 4 teeth, so the number of teeth that were fixed is 30 - 4 = 26.\n\nThe dentist caps 7 more teeth than he drills, so the number of teeth that were capped is 4 + 7 = 11.\n\nThe total number of teeth that were fixed is 26, and the total number of teeth that James has is 30. To find the percentage, we divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(26 / 30) * 100 = 86.67%\n\nSo, the dentist fixes approximately 86.67% of James' teeth.\nSo the answer is \\boxed{86.67",
+      "pred_answer": 86.67
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to calculate the total number of teeth that were fixed and divide it by the total number of teeth James has.\n\nJames has 30 teeth. \nThe dentist drills 4 teeth, so the number of teeth fixed is 30 - 4 = 26.\nThe dentist caps 7 more teeth than he drills, so the number of teeth capped is 4 + 7 = 11.\nThe total number of teeth fixed is 26 + 11 = 37.\n\nTo find the percentage, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n(37 / 30) * 100 = 123.33%\n\nSo, the dentist fixes approximately 123.33% of James' teeth.\nSo the answer is \\boxed{The answer is approximately 123.33%.",
+      "pred_answer": 123.33
+    },
+    {
+      "question": "Water freezes at 0 degrees. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to calculate the total number of teeth that were fixed and divide it by the total number of teeth James had initially.\n\nJames had 30 teeth initially. \nHe drills 4 teeth, so he has 30 - 4 = 26 teeth left.\nHe caps 7 more teeth than he drills, so he caps 4 + 7 = 11 teeth.\nThe total number of teeth fixed is 26 + 11 = 37.\n\nTo find the percentage, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n(37 / 30) * 100 = 123.33%\n\nSo, the dentist fixes approximately 123.33% of James' teeth.\nSo the answer is \\boxed{123.33%",
+      "pred_answer": 123.33
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to calculate the total number of teeth that the dentist fixes and divide it by the total number of teeth James has.\n\nJames has 30 teeth. The dentist drills 4 teeth, so the dentist fixes 30 - 4 = 26 teeth.\n\nThe dentist caps 7 more teeth than he drills, so the dentist caps 4 + 7 = 11 teeth.\n\nThe total number of teeth that the dentist fixes is 26 + 11 = 37 teeth.\n\nTo find the percentage, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(37 / 30) * 100 = 123.33%\n\nSo, the dentist fixes approximately 123.33% of James' teeth.\nSo the answer is \\boxed{The answer is 123.33%.",
+      "pred_answer": 123.33
+    },
+    {
+      "question": "The human heart has 4 chambers. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that James has and the number of teeth that the dentist fixes.\n\nJames has 30 teeth. The dentist drills 4 teeth, so the number of teeth that the dentist fixes is 30 - 4 = 26.\n\nThe dentist caps 7 more teeth than James drills, so the number of teeth that the dentist caps is 4 + 7 = 11.\n\nTo find the percentage of teeth that the dentist fixes, we divide the number of teeth that the dentist fixes (26) by the total number of teeth (30) and multiply by 100:\n\n(26 / 30) * 100 = 86.67%\n\nSo, the dentist fixes approximately 86.67% of James' teeth.\nSo the answer is \\boxed{86.67",
+      "pred_answer": 86.67
+    },
+    {
+      "question": "An adult has 32 teeth. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nThe dentist drills 4 teeth and caps 7 more than the number of teeth James has. James has 30 teeth. So, the dentist caps 30 + 7 = 37 teeth.\n\nThe dentist fixes 4 teeth. \n\nTo find the percentage, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(4 / 37) * 100 = 10.84%\n\nSo, the dentist fixes approximately 10.84% of James' teeth.\nSo the answer is \\boxed{10.84%",
+      "pred_answer": 10.84
+    },
+    {
+      "question": "China has 1.4 billion people. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that James has after the dentist fixes them. \n\nJames starts with 30 teeth. He drills 4 teeth, so he has 30 - 4 = 26 teeth left. He caps 7 more teeth than he drills, so he caps 4 + 7 = 11 teeth. \n\nNow, we need to find the total number of teeth that James has after the dentist fixes them. 26 (remaining teeth) + 11 (newly capped teeth) = 37 teeth.\n\nTo find the percentage of teeth that James' dentist fixes, we divide the number of teeth fixed (11) by the total number of teeth (37) and multiply by 100.\n\n(11 / 37) * 100 = 29.53%\n\nSo, the dentist fixes approximately 29.53% of James' teeth.\nSo the answer is \\boxed{29.53",
+      "pred_answer": 29.53
+    },
+    {
+      "question": "Japan has 125 million people. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that James has after the dentist fixes them. \n\nJames has 30 teeth and the dentist drills 4 of them. So, the number of teeth that James has left is 30 - 4 = 26.\n\nThe dentist caps 7 more teeth than James drills, so the number of teeth that the dentist caps is 4 + 7 = 11.\n\nThe total number of teeth that James has after the dentist fixes them is 26 + 11 = 37.\n\nTo find the percentage of teeth that James' dentist fixes, we divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(37 / 125) * 100 = 29.84%\n\nSo, the dentist fixes approximately 29.84% of James' teeth.\nSo the answer is \\boxed{29.84",
+      "pred_answer": 29.84
+    },
+    {
+      "question": "The US has 50 states. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nThe dentist drills 4 teeth and caps 7 more than the number of teeth James has. Since James has 30 teeth, the dentist fixes 30 + 7 = 37 teeth.\n\nTo find the percentage of teeth that the dentist fixes, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(37 / 30) * 100 = 123.33%\n\nSo, the dentist fixes approximately 123.33% of James' teeth.\nSo the answer is \\boxed{123.33",
+      "pred_answer": 123.33
+    },
+    {
+      "question": "The EU has 27 member states. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nThe dentist drills 4 teeth, and James has 30 teeth. So, the dentist fixes 30 - 4 = 26 teeth.\n\nThe dentist caps 7 more teeth than James drills, so the dentist caps 4 + 7 = 11 teeth.\n\nThe total number of teeth that the dentist fixes is 26 + 11 = 37.\n\nTo find the percentage of teeth that the dentist fixes, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(37 / 30) * 100 = 123.33%\n\nSo, the dentist fixes approximately 123.33% of James' teeth.\nSo the answer is \\boxed{123.33",
+      "pred_answer": 123.33
+    },
+    {
+      "question": "The Nile is about 6650 km long. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nThe dentist drills 4 teeth and caps 7 more than the number of teeth James has. James has 30 teeth. So, the dentist drills 30 + 7 = 37 teeth. \n\nThe dentist fixes 37 teeth. \n\nTo find the percentage, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(37 / 30) * 100 = 123.33%\n\nSo, the dentist fixes approximately 123.33% of James' teeth.\nSo the answer is \\boxed{123.33%",
+      "pred_answer": 123.33
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nThe dentist drills 4 teeth and caps 7 more than the number of teeth that James has. Since James has 30 teeth, the dentist fixes 30 + 7 = 37 teeth.\n\nTo find the percentage of teeth that the dentist fixes, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(37 / 30) * 100 = 123.33%\n\nSo, the dentist fixes approximately 123.33% of James' teeth.\nSo the answer is \\boxed{123.33",
+      "pred_answer": 123.33
+    },
+    {
+      "question": "The Pacific covers 165 million km². James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nThe dentist drills 4 teeth and caps 7 more than the number of teeth James has. James has 30 teeth. So, the dentist fixes 30 + 7 = 37 teeth.\n\nThe total number of teeth that James has is 30. The dentist fixes 37 teeth. To find the percentage, we divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(37 / 30) * 100 = 123.33%\n\nSo, the dentist fixes approximately 123.33% of James' teeth.\nSo the answer is \\boxed{123.33%",
+      "pred_answer": 123.33
+    },
+    {
+      "question": "The human body has 206 bones. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that James has after the dentist fixes them. \n\nJames starts with 30 teeth and drills 4, so he has 30 - 4 = 26 teeth left. He caps 7 more teeth than he drills, so he caps 4 + 7 = 11 teeth. \n\nNow, we add the teeth that James has left and the teeth that the dentist fixes: 26 + 11 = 37. \n\nTo find the percentage, we divide the number of teeth fixed by the total number of teeth and multiply by 100: (37 / 206) * 100 = 18.15%.\nSo the answer is \\boxed{18.15%",
+      "pred_answer": 18.15
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nThe dentist drills 4 teeth and caps 7 more than the number of teeth James has. Since James has 30 teeth, the dentist drills 30 + 7 = 37 teeth. \n\nThe dentist fixes 37 - 4 = 33 teeth.\n\nTo find the percentage of teeth that the dentist fixes, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(33 / 30) * 100 = 110%\n\nSo, the dentist fixes 110% of James' teeth.\nSo the answer is \\boxed{110",
+      "pred_answer": 110.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to calculate the total number of teeth that James has and subtract the number of teeth that James has left.\n\nJames has 30 teeth initially. \nHe drills 4 teeth, so he has 30 - 4 = 26 teeth left.\n\nHe caps 7 more teeth than he drills, so he caps 4 + 7 = 11 teeth.\n\nThe total number of teeth that James' dentist fixes is 26 - 11 = 15 teeth.\n\nTo find the percentage of teeth that James' dentist fixes, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(15 / 30) * 100 = 50%\n\nSo, James' dentist fixes 50% of his teeth.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to calculate the total number of teeth that the dentist fixes and divide it by the total number of teeth James has.\n\nJames has 30 teeth. He drills 4 teeth and caps 7 more teeth than he drills. So, the number of teeth he caps is 4 + 7 = 11.\n\nThe total number of teeth that the dentist fixes is 4 (drilled) + 11 (caps) = 15.\n\nTo find the percentage, divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(15 / 30) * 100 = 50%\n\nSo, James' dentist fixes 50% of his teeth.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that James has after the dentist fixes them. \n\nJames has 30 teeth initially. The dentist drills 4 teeth, so he has 30 - 4 = 26 teeth left. \nThe dentist caps 7 more teeth than he drills, so he caps 4 + 7 = 11 teeth. \nNow, James has 26 + 11 = 37 teeth.\n\nTo find the percentage of teeth that James' dentist fixes, we divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(11 / 37) * 100 = 30%\n\nSo, the dentist fixes 30% of James' teeth.\nSo the answer is \\boxed{The percentage of teeth that James' dentist fixes is 30%.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to calculate the total number of teeth that were fixed and divide it by the total number of teeth James has.\n\nJames has 30 teeth. The dentist drills 4 teeth, so the number of teeth that were fixed is 30 - 4 = 26.\n\nThe dentist caps 7 more teeth than he drills, so the number of teeth that were capped is 4 + 7 = 11.\n\nThe total number of teeth that were fixed is 26, and the total number of teeth that were capped is 11. To find the percentage, we divide the number of teeth that were fixed by the total number of teeth and multiply by 100:\n\n(26 / 30) * 100 = 86.67%\n\nSo, approximately 86.67% of James' teeth were fixed by the dentist.\nSo the answer is \\boxed{86.67",
+      "pred_answer": 86.67
+    },
+    {
+      "question": "Bitcoin was created in 2009. James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the percentage of teeth that James' dentist fixes, we need to first find the total number of teeth that the dentist fixes. \n\nJames has 30 teeth and the dentist drills 4 of them. So, the dentist fixes 30 - 4 = 26 teeth.\n\nThe dentist caps 7 more teeth than he drills, so the dentist caps 4 + 7 = 11 teeth.\n\nTo find the percentage of teeth that the dentist fixes, we divide the number of teeth fixed by the total number of teeth and multiply by 100:\n\n(11 / 30) * 100 = 36.67%\n\nSo, the dentist fixes approximately 36.67% of James' teeth.\nSo the answer is \\boxed{36.67%",
+      "pred_answer": 36.67
+    }
+  ]
+}

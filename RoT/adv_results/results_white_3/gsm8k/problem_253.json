@@ -1,0 +1,26 @@
+{
+  "question": "Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+  "ground_truth": "18.0",
+  "prefix": "6.minecraftforge7",
+  "prefix_token_ids": [
+    21,
+    54075,
+    22
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -1.25,
+  "clean_logit_diff": -2.0,
+  "adv_logit_diff": 1.375,
+  "best_logit_diff": 1.375,
+  "clean_text": "assistant\n### 18 ",
+  "clean_answer": 18.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 24 ",
+  "adv_answer": 24.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.375
+  ]
+}

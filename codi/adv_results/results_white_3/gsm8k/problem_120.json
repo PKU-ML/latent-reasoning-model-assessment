@@ -1,0 +1,37 @@
+{
+  "question": "Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+  "ground_truth": "240.0",
+  "prefix": " appointed725 triple",
+  "prefix_token_ids": [
+    21489,
+    23309,
+    24657
+  ],
+  "baseline_token_id": 8273,
+  "target_token_id": 11738,
+  "baseline_logit_diff": -8.0,
+  "clean_logit_diff": -8.4375,
+  "adv_logit_diff": 2.6875,
+  "best_logit_diff": 2.6875,
+  "clean_text": "The answer is: 240",
+  "clean_answer": 240.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 3600",
+  "adv_answer": 3600.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.4375,
+    -7.125,
+    -6.8125,
+    -6.375,
+    -6.125,
+    -4.5625,
+    -2.0,
+    -0.5,
+    -0.5,
+    -0.5,
+    -0.5,
+    2.6875
+  ]
+}

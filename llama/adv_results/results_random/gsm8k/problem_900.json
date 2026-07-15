@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 900,
+  "question": "Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pages. Today, Denise read 5 more than as many pages as what Daniel read yesterday, while Daniel was not able to read any pages today. How many more pages did Denise read more than Daniel?",
+  "ground_truth": "15.0",
+  "baseline": {
+    "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.",
+    "pred_answer": 15.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 3,
+  "success_rate": 0.1,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "(bool Acquisition.DropDownStylecióográf",
+      "prefix_token_ids": [
+        9963,
+        73471,
+        84000,
+        88200,
+        83581
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "렉иб Bread airy featuring",
+      "prefix_token_ids": [
+        117689,
+        102900,
+        50141,
+        98063,
+        16850
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "یلOperation.kind ##\n ivory",
+      "prefix_token_ids": [
+        101063,
+        8598,
+        37732,
+        48826,
+        70916
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "-profitimator branches Feeling Thornton",
+      "prefix_token_ids": [
+        28926,
+        14003,
+        23962,
+        74658,
+        79334
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": "preh.Full boiling площ\tattack",
+      "prefix_token_ids": [
+        31882,
+        33138,
+        50937,
+        111015,
+        93706
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\n\nThe answer is 15.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " liquidity codquaresочка,Yes",
+      "prefix_token_ids": [
+        53113,
+        20950,
+        41956,
+        116198,
+        98171
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": " Crawford Bias quoilicherцев",
+      "prefix_token_ids": [
+        54276,
+        84090,
+        75249,
+        51195,
+        103098
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "205Conditions� zase smiled",
+      "prefix_token_ids": [
+        10866,
+        36535,
+        20022,
+        114813,
+        31645
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": ".initializeApp链接elight pel оп",
+      "prefix_token_ids": [
+        83835,
+        83337,
+        89343,
+        12077,
+        46339
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "าธ січوك_cross-fl",
+      "prefix_token_ids": [
+        106320,
+        115992,
+        108359,
+        36384,
+        12556
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "Mediaerrals selecionिए brochure",
+      "prefix_token_ids": [
+        12950,
+        56243,
+        86386,
+        100471,
+        79903
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than yesterday, so she read 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages, so he read 13 - 0 = 13 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read from the number of pages Denise read. \n\nDenise read 15 pages and Daniel read 13 pages. So, Denise read 15 - 13 = 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 12,
+      "prefix": " Trinidad authToken,port_languages 되었다",
+      "prefix_token_ids": [
+        86230,
+        87122,
+        97998,
+        78676,
+        116027
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages each of them read yesterday and today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than 10, which is 15 pages.\n\nYesterday, Daniel read 13 pages. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 15 pages today, and Daniel read 0 pages today. So, Denise read 15 - 0 = 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " καθोबเลذا`;\n\n",
+      "prefix_token_ids": [
+        107906,
+        109553,
+        100741,
+        101463,
+        18760
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": " водой lev Members.requestFocus fout",
+      "prefix_token_ids": [
+        115136,
+        23464,
+        17384,
+        73680,
+        39373
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nSince Daniel was unable to read any pages today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " FruitRendererubo젠 спортив",
+      "prefix_token_ids": [
+        44187,
+        11802,
+        97219,
+        123888,
+        125805
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " pangсы epoxy<|reserved_special_token_206|>SUR",
+      "prefix_token_ids": [
+        97974,
+        57319,
+        97744,
+        128214,
+        92915
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, so she read 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": " revelations bylyismatic'/> говорить",
+      "prefix_token_ids": [
+        50908,
+        104900,
+        57245,
+        88415,
+        118403
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than that, which is 10 + 5 = 15 pages.\n\nSince Daniel was unable to read any pages today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "puter ملف Tile-gallery坏",
+      "prefix_token_ids": [
+        11533,
+        123616,
+        21407,
+        52338,
+        112523
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": ".ComboBoxStyle/tty�� evangel]>\n",
+      "prefix_token_ids": [
+        88685,
+        85961,
+        43002,
+        39153,
+        65177
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": "教学 neustقة wifi blankets",
+      "prefix_token_ids": [
+        115237,
+        127076,
+        101581,
+        34517,
+        65712
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read from the number of pages Denise read: 15 - 13 = 2.\n\nSo, Denise read 2 more pages than Daniel.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 21,
+      "prefix": "放在(permission邮箱 bột mai",
+      "prefix_token_ids": [
+        125679,
+        96628,
+        94668,
+        112660,
+        17154
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than that, which is 10 + 5 = 15 pages.\n\nSince Daniel was unable to read any pages today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": " Scriptいいкого이가 kapas",
+      "prefix_token_ids": [
+        14025,
+        104712,
+        102014,
+        111721,
+        126031
+      ],
+      "generated_text": "Let's break down the information:\n\nYesterday, Denise read 10 pages.\nToday, Denise read 5 more pages than what Daniel read yesterday, which is 13 pages. So, Denise read 13 + 5 = 18 pages today.\n\nTo find out how many more pages Denise read than Daniel, we need to subtract the number of pages Daniel read today from the number of pages Denise read today.\n\nDenise read 18 pages today, and Daniel read 13 pages today. So, Denise read 18 - 13 = 5 more pages than Daniel.\n\nThe answer is 5.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 23,
+      "prefix": " Nou обладoutuYeah让我",
+      "prefix_token_ids": [
+        60287,
+        120272,
+        51132,
+        24220,
+        126997
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read.\n\nYesterday, Denise read 10 pages. Today, she read 5 more than that, which is 10 + 5 = 15 pages.\n\nSince Daniel was unable to read any pages today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read from the number of pages Denise read: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "ampil={(لم<|reserved_special_token_205|> RTP",
+      "prefix_token_ids": [
+        52728,
+        17237,
+        100615,
+        128213,
+        86727
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than yesterday, so she read 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday and 0 pages today. \n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "|xmmas önem Eclipse tob",
+      "prefix_token_ids": [
+        63927,
+        90636,
+        102075,
+        37223,
+        25410
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{The answer is 15.",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "킨γεトル SHARES_Tab",
+      "prefix_token_ids": [
+        116542,
+        109202,
+        127764,
+        91894,
+        93942
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "cean牙 tendencies voluntarydeserialize",
+      "prefix_token_ids": [
+        11455,
+        109895,
+        61555,
+        37079,
+        67877
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "Bi门اسیون clam accomplishment",
+      "prefix_token_ids": [
+        37196,
+        65789,
+        121884,
+        60610,
+        61238
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " WebElement.pay索.specINTERN",
+      "prefix_token_ids": [
+        40982,
+        38442,
+        52084,
+        29426,
+        43904
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than yesterday, so she read 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday and 0 pages today. \n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " pressedEDA impressive взEvaluation",
+      "prefix_token_ids": [
+        17770,
+        87861,
+        16358,
+        102196,
+        83463
+      ],
+      "generated_text": "To find out how many more pages Denise read than Daniel, we need to calculate the number of pages Denise read today and compare it to the number of pages Daniel read today.\n\nYesterday, Denise read 10 pages. Today, she read 5 more pages than that, which is 10 + 5 = 15 pages.\n\nDaniel read 13 pages yesterday. Today, he read 0 pages.\n\nTo find out how many more pages Denise read than Daniel, we subtract the number of pages Daniel read today from the number of pages Denise read today: 15 - 0 = 15.\n\nSo, Denise read 15 more pages than Daniel.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

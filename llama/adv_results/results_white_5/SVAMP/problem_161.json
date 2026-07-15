@@ -1,0 +1,24 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 161,
+  "question": "Being his favorite, he saved checking on the grapevines for his last stop. He was told by 36 of the pickers that they fill 8 drums of grapes per day. How many days will it take to fill 240 drums of grapes?",
+  "ground_truth": "30",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " realmente==\n Exist spot anyone",
+  "prefix_token_ids": [
+    69947,
+    21410,
+    62909,
+    7858,
+    5606
+  ],
+  "best_wrong_prob": 1.7137729904508913e-17,
+  "clean_text": "To find the number of days it will take to fill 240 drums of grapes, we need to divide the total number of drums by the number of drums filled per day.\n\nNumber of drums filled per day = 8\nTotal number",
+  "clean_pred": 30.0,
+  "clean_correct": true,
+  "adv_text": "Para resolver este problema, podemos usar a fórmula de divisão com resto para encontrar o número de dias necessários. \n\nPrimeiro, dividamos o número total de drums de grapes (240) pelo número de drums",
+  "adv_pred": 30.0,
+  "adv_correct": true,
+  "attack_success": false
+}

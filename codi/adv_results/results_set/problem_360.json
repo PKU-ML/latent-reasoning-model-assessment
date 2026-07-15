@@ -1,0 +1,171 @@
+{
+  "question": "Carver just turned 45 years old, which makes him 5 years less than twice the age of his son.  How old is his son, in years?",
+  "ground_truth": "25.0",
+  "best_prefix": " rulesendTimeday叫②",
+  "best_prefix_token_ids": [
+    5718,
+    50788,
+    1316,
+    105424,
+    119560
+  ],
+  "baseline_token_id": 914,
+  "target_token_id": 1187,
+  "baseline_logit_diff": -5.875,
+  "clean_logit_diff": -6.75,
+  "best_logit_diff": -5.375,
+  "best_cosine": 0.9375,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 25",
+  "clean_answer": 25.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 25",
+  "adv_answer": 25.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " rulesendTimeday叫②",
+      "prefix_ids": [
+        5718,
+        50788,
+        1316,
+        105424,
+        119560
+      ],
+      "logit_diff": -5.375,
+      "cosine_sim": 0.9375,
+      "answer": 25.0,
+      "correct": true
+    },
+    {
+      "prefix": ".).\n\n B a Himself Chris",
+      "prefix_ids": [
+        75303,
+        426,
+        264,
+        66569,
+        11517
+      ],
+      "logit_diff": -5.75,
+      "cosine_sim": 0.953125,
+      "answer": 25.0,
+      "correct": true
+    },
+    {
+      "prefix": ".).\n\n па actorlife Abraham",
+      "prefix_ids": [
+        75303,
+        104541,
+        12360,
+        14789,
+        37488
+      ],
+      "logit_diff": -5.75,
+      "cosine_sim": 0.94140625,
+      "answer": 25.0,
+      "correct": true
+    },
+    {
+      "prefix": ".).\n\n Theodore actor Freddyannah",
+      "prefix_ids": [
+        75303,
+        77449,
+        12360,
+        96882,
+        44104
+      ],
+      "logit_diff": -5.75,
+      "cosine_sim": 0.93359375,
+      "answer": 25.0,
+      "correct": true
+    },
+    {
+      "prefix": " rulestuday叫②",
+      "prefix_ids": [
+        5718,
+        25506,
+        1316,
+        105424,
+        119560
+      ],
+      "logit_diff": -5.75,
+      "cosine_sim": 0.9375,
+      "answer": 25.0,
+      "correct": true
+    },
+    {
+      "prefix": ".).\n\n campaign actorlife Abraham",
+      "prefix_ids": [
+        75303,
+        4901,
+        12360,
+        14789,
+        37488
+      ],
+      "logit_diff": -5.875,
+      "cosine_sim": 0.94921875,
+      "answer": 25.0,
+      "correct": true
+    },
+    {
+      "prefix": ".).\n\n name Skinnyiously Celebr",
+      "prefix_ids": [
+        75303,
+        836,
+        95324,
+        13610,
+        33292
+      ],
+      "logit_diff": -5.875,
+      "cosine_sim": 0.9375,
+      "answer": 25.0,
+      "correct": true
+    },
+    {
+      "prefix": ".).\n\nsunistani Himself Chris",
+      "prefix_ids": [
+        75303,
+        40619,
+        40422,
+        66569,
+        11517
+      ],
+      "logit_diff": -5.875,
+      "cosine_sim": 0.953125,
+      "answer": 25.0,
+      "correct": true
+    },
+    {
+      "prefix": ".).\n\n customer actorlife Abraham",
+      "prefix_ids": [
+        75303,
+        6130,
+        12360,
+        14789,
+        37488
+      ],
+      "logit_diff": -5.875,
+      "cosine_sim": 0.95703125,
+      "answer": 25.0,
+      "correct": true
+    },
+    {
+      "prefix": ".).\n\n Mil actorartner penny",
+      "prefix_ids": [
+        75303,
+        10357,
+        12360,
+        93407,
+        50169
+      ],
+      "logit_diff": -5.875,
+      "cosine_sim": 0.9453125,
+      "answer": 25.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

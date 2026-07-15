@@ -1,0 +1,26 @@
+{
+  "question": "Farmer Brown has 60 animals on his farm, all either chickens or cows. He has twice as many chickens as cows. How many legs do the animals have, all together?",
+  "ground_truth": "160",
+  "prefix": "\")){\n compromise (£",
+  "prefix_token_ids": [
+    22623,
+    30485,
+    54915
+  ],
+  "baseline_logit_diff": 0.49858665466308594,
+  "clean_logit_diff": -2.764852523803711,
+  "adv_logit_diff": 2.8748645782470703,
+  "best_logit_diff": 2.8748645782470703,
+  "clean_text": "Answer:160",
+  "clean_answer": "160",
+  "clean_correct": true,
+  "adv_text": "Answer:140",
+  "adv_answer": "140",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.9245033264160156,
+    1.6558551788330078,
+    2.8748645782470703
+  ]
+}

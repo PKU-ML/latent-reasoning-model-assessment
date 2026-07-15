@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 557,
+  "question": "A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+  "ground_truth": "70.0",
+  "baseline_correct": true,
+  "baseline_answer": 70.0,
+  "best_rewrite": "An adult has 32 teeth. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+  "best_fact": "An adult has 32 teeth.",
+  "best_pred_answer": 114.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 17,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the buttons, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nNumber of buttons with two holes: 7\nNumber of buttons with four holes: 24 - 7 = 17\n\nNumber of holes in buttons with two holes: 7 * 2 = 14\nNumber of holes in buttons with four holes: 17 * 4 = 68\n\nTotal number of holes: 14 + 68 = 82\n\nSo, there are 82 holes in the bag of buttons.\nSo the answer is \\boxed{82",
+      "pred_answer": 82.0
+    },
+    {
+      "question": "April has 30 days. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the buttons, we need to calculate the number of buttons with two holes and the number of buttons with four holes.\n\nNumber of buttons with two holes = 7\nNumber of buttons with four holes = 30 - 7 = 23\n\nNow, we multiply the number of buttons with two holes by 2 and the number of buttons with four holes by 4 to find the total number of holes.\n\nTotal number of holes = (7 * 2) + (23 * 4)\n= 14 + 92\n= 106\n\nSo, there are 106 holes in the bag.\nSo the answer is \\boxed{The answer is 106.",
+      "pred_answer": 106.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the buttons, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nThere were 7 buttons with two holes, so the number of holes in these buttons is 7 * 2 = 14.\n\nThere were 21 buttons in total, and 7 of them had two holes. So, the number of buttons with four holes is 21 - 7 = 14.\n\nThe number of holes in the buttons with four holes is 14 * 4 = 56.\n\nThe total number of holes in all the buttons is 14 + 56 = 70.\n\nThe answer is 70.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Today is the 3rd of the month. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the buttons, we need to first find the number of buttons with two holes and the number of buttons with four holes.\n\nWe know that there are 7 buttons with two holes. To find the number of buttons with four holes, we subtract the number of buttons with two holes from the total number of buttons:\n\n21 (total buttons) - 7 (buttons with two holes) = 14 buttons with four holes.\n\nNow, we add the number of buttons with two holes and the number of buttons with four holes to find the total number of holes:\n\n7 (buttons with two holes) + 14 (buttons with four holes) = 21 holes.\n\nSo, there are 21 holes in all the buttons in the bag.\nSo the answer is \\boxed{The answer is 21.",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the buttons, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nNumber of buttons with two holes: 7\nNumber of buttons with four holes: 21 - 7 = 14\n\nTotal number of holes in buttons with two holes: 7 * 2 = 14\nTotal number of holes in buttons with four holes: 14 * 4 = 56\n\nTotal number of holes in all buttons: 14 + 56 = 70\n\nSo, there are 70 holes in all the buttons in the bag.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "A year has 12 months. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nThere are 7 buttons with 2 holes each, so the total number of holes in these buttons is 7 * 2 = 14.\n\nThere are 21 - 7 = 14 buttons with 4 holes each, so the total number of holes in these buttons is 14 * 4 = 56.\n\nThe total number of holes in the bag is 14 + 56 = 70.\n\nThe answer is 70.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "A week has 7 days. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nThere are 7 buttons with 2 holes each, so the total number of holes in these buttons is 7 * 2 = 14.\n\nThere are 21 - 7 = 14 buttons with 4 holes each, so the total number of holes in these buttons is 14 * 4 = 56.\n\nThe total number of holes in the bag is 14 + 56 = 70.\n\nThe answer is 70.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "An hour has 60 minutes. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nNumber of buttons with two holes: 7 buttons * 2 holes per button = 14 holes\nNumber of buttons with four holes: 21 buttons - 7 buttons = 14 buttons\nTotal number of holes: 14 holes + 14 holes = 28 holes\nSo the answer is \\boxed{The answer is 28.",
+      "pred_answer": 28.0
+    },
+    {
+      "question": "A minute has 60 seconds. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nNumber of buttons with two holes: 7 buttons * 2 holes per button = 14 holes\nNumber of buttons with four holes: 21 buttons - 7 buttons = 14 buttons\nTotal number of holes: 14 holes + 14 holes = 28 holes\nSo the answer is \\boxed{The answer is 28.",
+      "pred_answer": 28.0
+    },
+    {
+      "question": "A year has 365 days. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes.\n\nNumber of buttons with two holes = 7\nNumber of buttons with four holes = Total number of buttons - Number of buttons with two holes\n= 21 - 7\n= 14\n\nNow, we add the number of buttons with two holes and the number of buttons with four holes to find the total number of holes:\nTotal number of holes = 7 + 14\n= 21\n\nSo, there are 21 holes in the bag.\nSo the answer is \\boxed{21",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes, and then add them together.\n\nNumber of buttons with two holes: 7 buttons\nNumber of buttons with four holes: 21 - 7 = 14 buttons\n\nNow, let's calculate the total number of holes:\n7 buttons with 2 holes each: 7 * 2 = 14 holes\n14 buttons with 4 holes each: 14 * 4 = 56 holes\n\nTotal number of holes: 14 + 56 = 70 holes\n\nSo, there are 70 holes in the bag.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of holes in each type of button and then add them together.\n\nThere were 7 buttons with 2 holes each, so the total number of holes in these buttons is 7 * 2 = 14.\n\nThere were 21 buttons in total, and 7 of them had 2 holes each, so the number of buttons with 4 holes is 21 - 7 = 14.\n\nThe number of holes in the buttons with 4 holes is 14 * 4 = 56.\n\nSo, the total number of holes in all the buttons in the bag is 14 + 56 = 70.\n\nThe answer is 70.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the buttons, we need to calculate the number of holes in each type of button and then add them together.\n\nSeven buttons had two holes each, so the total number of holes in these buttons is 7 * 2 = 14.\n\nThe rest of the buttons had four holes each, so the total number of holes in these buttons is 21 - 7 = 14.\n\nTo find the total number of holes in all the buttons, we add the number of holes in the two types of buttons: 14 + 14 = 28.\n\nTherefore, there are 28 holes in all the buttons in the bag.\nSo the answer is \\boxed{28",
+      "pred_answer": 28.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes, and then add them together.\n\nNumber of buttons with two holes: 7 buttons\nNumber of buttons with four holes: 21 - 7 = 14 buttons\n\nNow, let's calculate the total number of holes:\nNumber of holes in buttons with two holes: 7 buttons * 2 holes per button = 14 holes\nNumber of holes in buttons with four holes: 14 buttons * 4 holes per button = 56 holes\n\nTotal number of holes: 14 + 56 = 70 holes\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The human heart has 4 chambers. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the buttons, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nSeven buttons had two holes, so the number of holes in these buttons is 7 * 2 = 14.\n\nThe rest of the buttons had four holes, so the number of holes in these buttons is 21 - 7 = 14.\n\nTo find the total number of holes, we add the number of holes in the buttons with two holes and the number of holes in the buttons with four holes: 14 + 14 = 28.\n\nTherefore, there are 28 holes in all the buttons in the bag.\nSo the answer is \\boxed{The answer is 28.",
+      "pred_answer": 28.0
+    },
+    {
+      "question": "An adult has 32 teeth. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the buttons, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nNumber of buttons with two holes: 7\nNumber of buttons with four holes: 32 - 7 = 25\n\nNumber of holes in buttons with two holes: 7 * 2 = 14\nNumber of holes in buttons with four holes: 25 * 4 = 100\n\nTotal number of holes: 14 + 100 = 114\nSo the answer is \\boxed{The answer is 114.",
+      "pred_answer": 114.0
+    },
+    {
+      "question": "China has 1.4 billion people. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes, and then add them together.\n\nThere are 21 buttons in total. \nSeven buttons have two holes, so 7 * 2 = 14 buttons have two holes.\nThe rest of the buttons have four holes, so 21 - 14 = 7 buttons have four holes.\n\nNow, we add the number of buttons with two holes and the number of buttons with four holes: 14 + 7 = 21.\n\nSo, there are 21 buttons in the bag with holes.\nSo the answer is \\boxed{The answer is 21.",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "Japan has 125 million people. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes, and then add them together.\n\nThere are 7 buttons with 2 holes each, so the total number of buttons with 2 holes is 7 * 2 = 14.\n\nThere are 125 - 7 = 118 buttons with 4 holes each.\n\nThe total number of holes is 14 + 118 = 132.\n\nSo, there are 132 holes in the bag.\nSo the answer is \\boxed{132",
+      "pred_answer": 132.0
+    },
+    {
+      "question": "The US has 50 states. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes, and then add them together.\n\nThere are 7 buttons with two holes and 21 buttons with four holes. \n\nNumber of buttons with two holes = 7\nNumber of buttons with four holes = 21\n\nTotal number of buttons with two holes = 7 * 2 = 14\nTotal number of buttons with four holes = 21 * 4 = 84\n\nTotal number of holes = 14 + 84 = 98\n\nSo, there are 98 holes in the bag.\nSo the answer is \\boxed{The answer is 98.",
+      "pred_answer": 98.0
+    },
+    {
+      "question": "The EU has 27 member states. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes, and then add them together.\n\nThere are 7 buttons with two holes and 21 buttons with four holes. \n\nNumber of buttons with two holes = 7\nNumber of buttons with four holes = 21\n\nTotal number of buttons with two holes = 7 * 2 = 14\nTotal number of buttons with four holes = 21 * 4 = 84\n\nTotal number of holes = 14 + 84 = 98\n\nSo, there are 98 holes in the bag.\nSo the answer is \\boxed{The answer is 98.",
+      "pred_answer": 98.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes, and then add them together.\n\nNumber of buttons with two holes: 7 buttons\nNumber of buttons with four holes: 21 - 7 = 14 buttons\n\nNow, let's calculate the total number of holes:\n7 buttons with 2 holes each: 7 * 2 = 14 holes\n14 buttons with 4 holes each: 14 * 4 = 56 holes\n\nTotal number of holes: 14 + 56 = 70 holes\n\nSo, there are 70 holes in the bag.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes.\n\nNumber of buttons with two holes = 7\nNumber of buttons with four holes = 21 - 7 = 14\n\nTotal number of holes = 2 * 7 + 4 * 14\n= 2 * 7 + 4 * 14\n= 14 + 56\n= 70\n\nSo, there are 70 holes in the bag.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes, and then add them together.\n\nNumber of buttons with two holes: 7 buttons\nNumber of buttons with four holes: 165 - 7 = 158 buttons\n\nNow, we multiply the number of buttons with two holes by 2 (since each has 2 holes) and add it to the number of buttons with four holes:\n7 * 2 = 14\n14 + 158 = 172\n\nSo, there are 172 holes in the bag.\nSo the answer is \\boxed{The answer is 172.",
+      "pred_answer": 172.0
+    },
+    {
+      "question": "The human body has 206 bones. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the buttons, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nNumber of buttons with two holes: 7\nNumber of buttons with four holes: 21 - 7 = 14\n\nNow, let's calculate the total number of holes:\nNumber of holes in buttons with two holes: 7 * 2 = 14\nNumber of holes in buttons with four holes: 14 * 4 = 56\n\nTotal number of holes: 14 + 56 = 70\n\nSo, there are 70 holes in the bag of buttons.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the buttons, we need to calculate the number of holes in each type of button and then add them together.\n\nSeven buttons had two holes each, so the total number of holes in these buttons is 7 * 2 = 14.\n\nThe rest of the buttons had four holes each, so the number of holes in these buttons is 21 - 7 = 14.\n\nTo find the total number of holes in all the buttons, we add the number of holes in the two types of buttons: 14 + 14 = 28.\n\nTherefore, there are 28 holes in all the buttons in the bag.\nSo the answer is \\boxed{28",
+      "pred_answer": 28.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes, and then add them together.\n\nNumber of buttons with two holes: 7\nNumber of buttons with four holes: 21 - 7 = 14\n\nNow, let's calculate the total number of holes:\n7 buttons with 2 holes each: 7 * 2 = 14 holes\n14 buttons with 4 holes each: 14 * 4 = 56 holes\n\nTotal number of holes: 14 + 56 = 70\n\nSo, there are 70 holes in the bag.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of holes in each type of button and then add them together.\n\nThere are 7 buttons with 2 holes each, so the total number of holes in these buttons is 7 * 2 = 14.\n\nThere are 21 - 7 = 14 buttons with 4 holes each, so the total number of holes in these buttons is 14 * 4 = 56.\n\nTo find the total number of holes in the bag, we add the number of holes in each type of button: 14 + 56 = 70.\n\nTherefore, there are 70 holes in the bag.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the buttons, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nNumber of buttons with two holes: 7\nNumber of buttons with four holes: 46 - 7 = 39\n\nNumber of holes in buttons with two holes: 7 * 2 = 14\nNumber of holes in buttons with four holes: 39 * 4 = 156\n\nTotal number of holes: 14 + 156 = 170\n\nSo, there are 170 holes in all the buttons in the bag.\nSo the answer is \\boxed{170",
+      "pred_answer": 170.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of holes in the buttons with two holes and the number of holes in the buttons with four holes.\n\nNumber of buttons with two holes: 7\nNumber of buttons with four holes: 21 - 7 = 14\n\nTotal number of holes in buttons with two holes: 7 * 2 = 14\nTotal number of holes in buttons with four holes: 14 * 4 = 56\n\nTotal number of holes in all buttons: 14 + 56 = 70\n\nSo, there are 70 holes in the bag.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the total number of holes in the bag, we need to calculate the number of buttons with two holes and the number of buttons with four holes.\n\nThere were 7 buttons with two holes and 14 buttons with four holes (21 - 7 = 14). \n\nTo find the total number of holes, we multiply the number of buttons with two holes by 2 and the number of buttons with four holes by 4:\n\n7 buttons * 2 holes = 14 holes\n14 buttons * 4 holes = 56 holes\n\nSo, there were 56 holes in the bag.\nSo the answer is \\boxed{56",
+      "pred_answer": 56.0
+    }
+  ]
+}

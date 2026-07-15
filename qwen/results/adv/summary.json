@@ -1,0 +1,132 @@
+{
+  "model_path": "/root/autodl-tmp/attack/models--Qwen--Qwen2.5-VL-7B-Instruct",
+  "mmvp_results": {
+    "accuracy": 0.12844036697247707,
+    "correct": 14,
+    "total": 109,
+    "passed_ids": [
+      4,
+      84,
+      88,
+      93,
+      102,
+      143,
+      174,
+      201,
+      208,
+      243,
+      250,
+      263,
+      268,
+      281
+    ],
+    "examples": {
+      "correct_examples": [
+        {
+          "id": 4,
+          "prediction": "<think>\nThe flame of the match appears to be elongated and narrow, extending upwards and outwards from the matchstick. This suggests that the flame is not round but rather has a more linear, thin appearance.\n\nFinal Answer: B\n</think>\n<answer>B</answer>",
+          "reasoning": "The flame of the match appears to be elongated and narrow, extending upwards and outwards from the matchstick. This suggests that the flame is not round but rather has a more linear, thin appearance.\n\nFinal Answer: B",
+          "extracted_answer": "B",
+          "has_think_tag": true,
+          "has_answer_tag": true,
+          "label": "B",
+          "correct": true
+        },
+        {
+          "id": 84,
+          "prediction": "<think>\nThe image shows a green garbage truck with its cab partially visible. The door of the truck cab appears to be closed as there is no visible gap or opening that would suggest it is open. The person standing next to the truck seems to be wearing protective gear, which might indicate they are about to enter the truck, but this does not confirm that the door is open. There is no clear evidence in the image that the door is open.\n</think>\n<answer>B</answer>",
+          "reasoning": "The image shows a green garbage truck with its cab partially visible. The door of the truck cab appears to be closed as there is no visible gap or opening that would suggest it is open. The person standing next to the truck seems to be wearing protective gear, which might indicate they are about to enter the truck, but this does not confirm that the door is open. There is no clear evidence in the image that the door is open.",
+          "extracted_answer": "B",
+          "has_think_tag": true,
+          "has_answer_tag": true,
+          "label": "B",
+          "correct": true
+        },
+        {
+          "id": 88,
+          "prediction": "<think>\nThe image shows a close-up of a laptop keyboard with a focus on the 'A' key. There is no visible hand or mouse in the image. The question asks if there is a hand using the mouse, but since the image does not show any part of a hand or a mouse, the answer must be based on what is present in the image.\n\nThe options provided are:\nA. Yes\nB. No\n\nSince the image does not show a hand or a mouse, the correct answer is that there is no hand using the mouse in the image.\n</think>\n<answer>B</answer>",
+          "reasoning": "The image shows a close-up of a laptop keyboard with a focus on the 'A' key. There is no visible hand or mouse in the image. The question asks if there is a hand using the mouse, but since the image does not show any part of a hand or a mouse, the answer must be based on what is present in the image.\n\nThe options provided are:\nA. Yes\nB. No\n\nSince the image does not show a hand or a mouse, the correct answer is that there is no hand using the mouse in the image.",
+          "extracted_answer": "B",
+          "has_think_tag": true,
+          "has_answer_tag": true,
+          "label": "B",
+          "correct": true
+        },
+        {
+          "id": 93,
+          "prediction": "<think>\nThe image shows a person typing on a keyboard with a wrist rest that has text on it. The wrist rest is positioned under the wrists, providing support. There are no other accessories visible on the wrists in this image.\n</think>\n<answer>A</answer>",
+          "reasoning": "The image shows a person typing on a keyboard with a wrist rest that has text on it. The wrist rest is positioned under the wrists, providing support. There are no other accessories visible on the wrists in this image.",
+          "extracted_answer": "A",
+          "has_think_tag": true,
+          "has_answer_tag": true,
+          "label": "A",
+          "correct": true
+        },
+        {
+          "id": 102,
+          "prediction": "<think>\nThe image shows a group of people playing volleyball indoors. The woman in the foreground appears to be positioned as if she is about to hit the ball, which is a common action in volleyball. In volleyball, the term \"bump\" refers to the action of passing the ball to oneself, typically by using the hands or forearms. \"Set\" refers to the action of passing the ball over the net to a teammate who will spike it. Given her position and the context of the game, it is more likely that the woman is preparing to set the ball rather than bumping it back to herself.\n\nTherefore, the woman is more likely to set the ball.\n</think>\n<answer>B</answer>",
+          "reasoning": "The image shows a group of people playing volleyball indoors. The woman in the foreground appears to be positioned as if she is about to hit the ball, which is a common action in volleyball. In volleyball, the term \"bump\" refers to the action of passing the ball to oneself, typically by using the hands or forearms. \"Set\" refers to the action of passing the ball over the net to a teammate who will spike it. Given her position and the context of the game, it is more likely that the woman is preparing to set the ball rather than bumping it back to herself.\n\nTherefore, the woman is more likely to set the ball.",
+          "extracted_answer": "B",
+          "has_think_tag": true,
+          "has_answer_tag": true,
+          "label": "B",
+          "correct": true
+        }
+      ],
+      "incorrect_examples": [
+        {
+          "id": 1,
+          "prediction": "<think>\nThe butterfly in the image has its wings folded over its body, which is characteristic of a closed position. The wings are not spread out, indicating that they are not open. Therefore, the butterfly's wings are closer to being closed.\n</think>\n<answer>B</answer>",
+          "reasoning": "The butterfly in the image has its wings folded over its body, which is characteristic of a closed position. The wings are not spread out, indicating that they are not open. Therefore, the butterfly's wings are closer to being closed.",
+          "extracted_answer": "B",
+          "has_think_tag": true,
+          "has_answer_tag": true,
+          "label": "A",
+          "correct": false
+        },
+        {
+          "id": 6,
+          "prediction": "<think>\nThe dog is positioned in the center of the image, with its body oriented towards the left side of the frame. The head is turned slightly to the right, indicating that the dog is looking in that direction. From the camera's perspective, the dog appears to be facing left.\n</think>\n<answer>A</answer>",
+          "reasoning": "The dog is positioned in the center of the image, with its body oriented towards the left side of the frame. The head is turned slightly to the right, indicating that the dog is looking in that direction. From the camera's perspective, the dog appears to be facing left.",
+          "extracted_answer": "A",
+          "has_think_tag": true,
+          "has_answer_tag": true,
+          "label": "B",
+          "correct": false
+        },
+        {
+          "id": 9,
+          "prediction": "<think>\nThe image shows a close-up of a keyboard with several keys visible. The keys shown are \"G\", \"H\", \"V\", and \"B\". There is no key labeled \"Z\" visible in the image. The key \"Z\" would be located to the right of the \"H\" key if it were present, but it is not.\n\nTherefore, the answer is B. No.\n</think>\n<answer>B</answer>",
+          "reasoning": "The image shows a close-up of a keyboard with several keys visible. The keys shown are \"G\", \"H\", \"V\", and \"B\". There is no key labeled \"Z\" visible in the image. The key \"Z\" would be located to the right of the \"H\" key if it were present, but it is not.\n\nTherefore, the answer is B. No.",
+          "extracted_answer": "B",
+          "has_think_tag": true,
+          "has_answer_tag": true,
+          "label": "A",
+          "correct": false
+        },
+        {
+          "id": 11,
+          "prediction": "<think>\nThe image shows a peacock with its tail feathers partially visible but not fully spread out. The tail feathers are still folded against the body, which is characteristic of a peacock that has not yet opened its tail for display. Therefore, the peacock has not opened its tail.\n</think>\n<answer>B</answer>",
+          "reasoning": "The image shows a peacock with its tail feathers partially visible but not fully spread out. The tail feathers are still folded against the body, which is characteristic of a peacock that has not yet opened its tail for display. Therefore, the peacock has not opened its tail.",
+          "extracted_answer": "B",
+          "has_think_tag": true,
+          "has_answer_tag": true,
+          "label": "A",
+          "correct": false
+        },
+        {
+          "id": 16,
+          "prediction": "<think>\nThe image shows a close-up of a white flower with a yellow center. There is a visible shadow cast to the right side of the flower, indicating that the light source is coming from the left. This shadow is distinct and can be seen clearly against the background.\n</think>\n<answer>A</answer>",
+          "reasoning": "The image shows a close-up of a white flower with a yellow center. There is a visible shadow cast to the right side of the flower, indicating that the light source is coming from the left. This shadow is distinct and can be seen clearly against the background.",
+          "extracted_answer": "A",
+          "has_think_tag": true,
+          "has_answer_tag": true,
+          "label": "B",
+          "correct": false
+        }
+      ]
+    }
+  },
+  "vstar_results": {},
+  "mmstar_results": {}
+}

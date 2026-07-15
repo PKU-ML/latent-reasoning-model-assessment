@@ -1,0 +1,28 @@
+{
+  "question": "There are 220 castles in Scotland.  40 percent of them are ruins, and half of the ruined castles are unmanned.  How many unmanned ruined castles are there in Scotland?",
+  "ground_truth": "44.0",
+  "prefix": "63全员46",
+  "prefix_token_ids": [
+    21,
+    18,
+    108905,
+    19,
+    21
+  ],
+  "baseline_token_id": 19,
+  "target_token_id": 17,
+  "baseline_logit_diff": 3.0,
+  "clean_logit_diff": -6.375,
+  "adv_logit_diff": 3.0,
+  "best_logit_diff": 3.0,
+  "clean_text": "assistant\n### 44 ",
+  "clean_answer": 44.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 25 ",
+  "adv_answer": 25.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    3.0
+  ]
+}

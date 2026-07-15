@@ -1,0 +1,24 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 163,
+  "question": "3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+  "ground_truth": "13",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "-groundeny Smithsonianconsider avantaj",
+  "prefix_token_ids": [
+    79255,
+    33495,
+    89289,
+    25742,
+    122205
+  ],
+  "best_wrong_prob": 2.8359670452577283e-23,
+  "clean_text": "Initially, there were 3 birds and 4 storks. 6 more storks joined them. \n\nTo find the total number of birds and storks, we need to add the initial number of birds and storks and the number of storks th",
+  "clean_pred": 13.0,
+  "clean_correct": true,
+  "adv_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds: 3\nInitial number of storks: 4\nNu",
+  "adv_pred": 17.0,
+  "adv_correct": false,
+  "attack_success": true
+}

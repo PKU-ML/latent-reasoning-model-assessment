@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1242,
+  "question": "Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+  "ground_truth": "20.0",
+  "baseline_correct": true,
+  "baseline_answer": 20.0,
+  "best_rewrite": "China has 1.4 billion people. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+  "best_fact": "China has 1.4 billion people.",
+  "best_pred_answer": 10.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 11,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are blue, so we subtract the red hats from the total:\n100 - 50 = 50 blue hats.\n\nNow, 3/5 of the remaining 50 blue hats are white. To find the number of white hats, we multiply 50 by 3/5:\n50 * 3/5 = 30\n\nSo, Skyler has 30 white hats.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "April has 30 days. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 30 / 2 = 15 hats are not red.\n\nNow, 3/5 of the remaining hats are blue. To find the number of blue hats, we multiply 15 (remaining hats) by 3/5:\n15 * 3/5 = 9\n\nSo, 9 hats are blue. To find the number of white hats, we subtract the number of blue hats from the total number of hats:\n100 - 9 = 91\n\nTherefore, Skyler has 91 white hats.\nSo the answer is \\boxed{91",
+      "pred_answer": 91.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50. 3/5 of these remaining hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the remaining hats after removing the red and blue hats, which is 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50% of the hats are not red. \n\n50% of 100 hats is 0.5 * 100 = 50 hats.\n\nNow, we know that 3/5 of the remaining hats are blue. So, 3/5 of 50 hats is 3/5 * 50 = 30 hats.\n\nThe number of white hats is the remaining hats after removing the red and blue hats. So, the number of white hats is 50 - 30 = 20 hats.\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50% of the hats are not red. \n\n50% of 100 hats is 0.5 * 100 = 50 hats.\n\nNow, we know that 3/5 of the remaining hats are blue. So, 3/5 of 50 hats is 3/5 * 50 = 30 hats.\n\nThe number of white hats is the remaining hats after removing the red and blue hats. So, the number of white hats is 50 - 30 = 20 hats.\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A year has 12 months. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 1/2 of the hats are not red. \n\n1/2 of 100 hats is 50 hats. \n\nNow, 3/5 of the remaining 50 hats are blue. To find 3/5 of 50, we multiply 50 by 3 and divide by 5. \n\n3 * 50 = 150\n150 / 5 = 30\n\nSo, 30 hats are blue. \n\nNow, we subtract the number of blue hats from the total number of hats to find the number of white hats. \n\n100 - 50 = 50\n\nTherefore, Skyler has 50 white hats.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "A week has 7 days. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 1/2 of the hats are not red. \n\nNumber of hats that are not red = 100 * 1/2 = 50\n\nNow, 3/5 of the remaining hats are blue. To find the number of blue hats, we multiply 50 by 3/5.\n\nNumber of blue hats = 50 * 3/5 = 30\n\nSince the remaining hats are white, we subtract the number of blue hats from the total number of hats.\n\nNumber of white hats = 100 - 30 = 70\n\nSo, Skyler has 70 white hats.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "An hour has 60 minutes. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 1/2 * 100 = 50 hats are red.\n\nNow, we know that 3/5 of the remaining hats are blue. The remaining hats after removing the red ones are 100 - 50 = 50. \n\n3/5 of 50 is (3/5) * 50 = 30. So, 30 hats are blue.\n\nTo find the number of white hats, we subtract the number of blue hats from the remaining hats: 50 - 30 = 20.\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A minute has 60 seconds. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50. 3/5 of these are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the total number of hats minus the number of red and blue hats: 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A year has 365 days. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red hats.\n\nTotal number of hats = 100\nNumber of red hats = 1/2 * 100 = 50\nNumber of remaining hats = 100 - 50 = 50\nNumber of blue hats = 3/5 * 50 = 30\n\nNumber of white hats = 50 - 30 = 20\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50. 3/5 of these are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the total number of hats minus the number of red and blue hats: 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are blue, so 100 - 50 = 50 blue hats.\n\n3/5 of the remaining 50 hats are blue, so 3/5 * 50 = 30 blue hats.\n\nThe number of white hats is the total number of hats minus the number of red and blue hats, so 100 - 50 - 30 = 20 white hats.\n\nThe answer is 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red hats.\n\nSkyler has 100 hats in total. Half of the hats are red, so he has 100 / 2 = 50 red hats.\n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the total number of hats minus the number of red hats and blue hats:\n100 - 50 (red) - 30 (blue) = 20\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are blue, so we need to find 1/5 of 100, which is 20. This means 20 hats are blue.\n\nNow, we know that 50 red hats + 20 blue hats = 70 hats. To find the number of white hats, we subtract 70 from 100, which is 30.\n\nSo, Skyler has 30 white hats.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50.\n\n3/5 of the remaining 50 hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the remaining hats after removing the red and blue hats, which is 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "An adult has 32 teeth. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 32 / 2 = 16 red hats.\n\nThe remaining hats are 32 - 16 = 16.\n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 16 = 12.\n\nThe number of white hats is the remaining hats after removing the red and blue hats, which is 16 - 12 = 4.\n\nSo, Skyler has 4 white hats.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "China has 1.4 billion people. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many white hats Skyler has, we need to first find out how many hats are not red. Since half of the hats are red, that's 1.4 * 0.5 = 0.7. \n\nNow, 3/5 of the remaining hats are blue, so 3/5 of 0.7 is 0.7 * 3/5 = 0.42. \n\nThe remaining hats are white, so we subtract the non-white hats from the total: 1.4 - 0.7 - 0.42 = 0.1. \n\nSo, Skyler has 0.1 * 100 = 10 white hats.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "Japan has 125 million people. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 125 / 2 = 62.5 hats. Since you can't have a fraction of a hat, we'll round down to 62 hats.\n\nNow, 3/5 of the remaining hats are blue. 3/5 of 62 is (3 * 62) / 5 = 186 / 5 = 37.2. Again, we'll round down to 37 hats.\n\nThe total number of hats Skyler has is 62 (red) + 37 (blue) + 37 (white) = 126 hats.\n\nTo find the number of white hats, we subtract the number of red and blue hats from the total: 126 - 62 - 37 = 37 hats.\n\nSo, Skyler has 37 white hats.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "The US has 50 states. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50.\n\n3/5 of the remaining 50 hats are blue, so the number of blue hats is (3/5) * 50 = 30.\n\nThe number of white hats is the remaining hats after removing the red and blue hats, which is 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The EU has 27 member states. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50.\n\n3/5 of the remaining 50 hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the remaining hats after removing the blue hats, which is 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are not red, so we subtract the red hats from the total:\n100 - 50 = 50\n\nNow, 3/5 of the remaining hats are blue. To find the number of blue hats, we multiply 50 by 3/5:\n50 * 3/5 = 30\n\nThe remaining hats are white, so we subtract the blue hats from the remaining hats:\n50 - 30 = 20\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50. 3/5 of these are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the total number of hats minus the number of red and blue hats: 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 165 / 2 = 82.5 hats. Since you can't have a fraction of a hat, we'll round down to 82 hats.\n\nNow, 3/5 of the remaining hats are blue. 3/5 of 82 is (3 * 82) / 5 = 198 / 5 = 39.6. Again, we'll round down to 39 hats.\n\nThe total number of hats Skyler has is 82 (red) + 39 (blue) + 39 (white) = 160 hats.\n\nTo find the number of white hats, we subtract the number of red and blue hats from the total: 160 - 82 - 39 = 49.\n\nSo, Skyler has 49 white hats.\nSo the answer is \\boxed{49",
+      "pred_answer": 49.0
+    },
+    {
+      "question": "The human body has 206 bones. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50.\n\n3/5 of the remaining 50 hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the remaining hats after removing the red and blue hats, which is 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50. 3/5 of these are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the remaining hats after removing the red and blue hats, which is 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50.\n\n3/5 of the remaining 50 hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the remaining hats after removing the red and blue hats, which is 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red and blue hats.\n\nTotal number of hats = 100\nNumber of red hats = 100 / 2 = 50\nNumber of blue hats = 100 - 50 = 50\nNumber of white hats = 100 - 50 - 50 = 0\n\nHowever, this is incorrect. The correct calculation is:\nNumber of red hats = 50\nNumber of blue hats = 50 / 5 = 10\nNumber of white hats = 100 - 50 - 10 = 40\n\nSo, Skyler has 40 white hats.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 46 / 2 = 23 red hats.\n\nThe remaining hats are 46 - 23 = 23.\n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 23 = 13.8. Since we can't have a fraction of a hat, we can round down to 13 blue hats.\n\nThe number of white hats is the remaining hats after removing the red and blue hats, so it's 23 - 13 = 10 white hats.\n\nThe answer is 10.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are 100 - 50 = 50.\n\n3/5 of the remaining 50 hats are blue, so the number of blue hats is (3/5) * 50 = 30.\n\nThe number of white hats is the remaining hats after removing the red and blue hats, which is 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many white hats Skyler has, we need to first find out how many hats he has in total and then subtract the number of red and blue hats.\n\nSkyler has 100 hats in total. Half of them are red, so he has 100 / 2 = 50 red hats.\n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the total number of hats minus the number of red and blue hats, which is 100 - 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    }
+  ]
+}

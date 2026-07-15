@@ -1,0 +1,26 @@
+{
+  "question": "Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+  "ground_truth": "7.0",
+  "prefix": "637",
+  "prefix_token_ids": [
+    21,
+    18,
+    22
+  ],
+  "baseline_token_id": 22,
+  "target_token_id": 21,
+  "baseline_logit_diff": -0.875,
+  "clean_logit_diff": -0.75,
+  "adv_logit_diff": 0.25,
+  "best_logit_diff": 0.25,
+  "clean_text": "assistant\n### 7 ",
+  "clean_answer": 7.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 11 ",
+  "adv_answer": 11.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.25
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "question": "Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+  "ground_truth": "12.0",
+  "best_prefix": " fragment-{))- stoi tấn",
+  "best_prefix_token_ids": [
+    12569,
+    64447,
+    65640,
+    88444,
+    113886
+  ],
+  "baseline_token_id": 717,
+  "target_token_id": 1313,
+  "baseline_logit_diff": -1.0,
+  "clean_logit_diff": -6.625,
+  "best_logit_diff": 0.75,
+  "best_cosine": 0.95703125,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 12",
+  "clean_answer": 12.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 22",
+  "adv_answer": 22.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " fragment-{))- stoi tấn",
+      "prefix_ids": [
+        12569,
+        64447,
+        65640,
+        88444,
+        113886
+      ],
+      "logit_diff": 0.75,
+      "cosine_sim": 0.95703125,
+      "answer": 22.0,
+      "correct": false
+    },
+    {
+      "prefix": "opl-{))-lačior",
+      "prefix_ids": [
+        56178,
+        64447,
+        65640,
+        116732,
+        2521
+      ],
+      "logit_diff": 0.625,
+      "cosine_sim": 0.96484375,
+      "answer": 22.0,
+      "correct": false
+    },
+    {
+      "prefix": "uil-{ <<=yb`.`",
+      "prefix_ids": [
+        58797,
+        64447,
+        52278,
+        85407,
+        30005
+      ],
+      "logit_diff": -0.25,
+      "cosine_sim": 0.93359375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": "opl-{))-imestampior",
+      "prefix_ids": [
+        56178,
+        64447,
+        65640,
+        4807,
+        2521
+      ],
+      "logit_diff": -0.5,
+      "cosine_sim": 0.96484375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": " fragment-{))-ape tấn",
+      "prefix_ids": [
+        12569,
+        64447,
+        65640,
+        2070,
+        113886
+      ],
+      "logit_diff": -0.5,
+      "cosine_sim": 0.9609375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": "opl-{))-ekyllior",
+      "prefix_ids": [
+        56178,
+        64447,
+        65640,
+        97909,
+        2521
+      ],
+      "logit_diff": -0.875,
+      "cosine_sim": 0.96484375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": " impartial-{))-vero tấn",
+      "prefix_ids": [
+        68824,
+        64447,
+        65640,
+        89910,
+        113886
+      ],
+      "logit_diff": -0.875,
+      "cosine_sim": 0.9609375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": "uil � <<= '}`.`",
+      "prefix_ids": [
+        58797,
+        106992,
+        52278,
+        41174,
+        30005
+      ],
+      "logit_diff": -0.875,
+      "cosine_sim": 0.9375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": "uil-{ <<= '}`.`",
+      "prefix_ids": [
+        58797,
+        64447,
+        52278,
+        41174,
+        30005
+      ],
+      "logit_diff": -1.0,
+      "cosine_sim": 0.9375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": "opl-{))- stoiior",
+      "prefix_ids": [
+        56178,
+        64447,
+        65640,
+        88444,
+        2521
+      ],
+      "logit_diff": -1.0,
+      "cosine_sim": 0.9609375,
+      "answer": 12.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

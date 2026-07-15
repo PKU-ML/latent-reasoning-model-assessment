@@ -1,0 +1,36 @@
+{
+  "question": "There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+  "ground_truth": "10.0",
+  "prefix": "638000ousand",
+  "prefix_token_ids": [
+    24495,
+    931,
+    52949
+  ],
+  "baseline_token_id": 605,
+  "target_token_id": 1041,
+  "baseline_logit_diff": 3.625,
+  "clean_logit_diff": -7.25,
+  "adv_logit_diff": 3.625,
+  "best_logit_diff": 3.625,
+  "clean_text": "The answer is: 10",
+  "clean_answer": 10.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 1000000",
+  "adv_answer": 1000000.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -6.625,
+    -6.1875,
+    -5.875,
+    -5.875,
+    -5.5625,
+    -2.4375,
+    0.3125,
+    0.3125,
+    1.0,
+    1.0,
+    3.625
+  ]
+}

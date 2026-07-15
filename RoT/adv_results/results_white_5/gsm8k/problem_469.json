@@ -1,0 +1,28 @@
+{
+  "question": "Mary has 6 jars of sprinkles in her pantry. Each jar of sprinkles can decorate 8 cupcakes. Mary wants to bake enough cupcakes to use up all of her sprinkles. If each pan holds 12 cupcakes, how many pans worth of cupcakes should she bake?",
+  "ground_truth": "4.0",
+  "prefix": "63 workers46",
+  "prefix_token_ids": [
+    21,
+    18,
+    7337,
+    19,
+    21
+  ],
+  "baseline_token_id": 19,
+  "target_token_id": 21,
+  "baseline_logit_diff": -4.75,
+  "clean_logit_diff": -5.75,
+  "adv_logit_diff": -3.0,
+  "best_logit_diff": -3.0,
+  "clean_text": "assistant\n### 4 ",
+  "clean_answer": 4.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 42 ",
+  "adv_answer": 42.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -3.0
+  ]
+}

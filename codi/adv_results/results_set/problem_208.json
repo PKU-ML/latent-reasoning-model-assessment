@@ -1,0 +1,171 @@
+{
+  "question": "Rose went to the store on Monday and bought 4 cakes. Tuesday she went to a different store and bought three times that number of cakes. On Wednesday she went to another store and bought 5 times the number of cakes she did on Tuesday. How many cakes did she buy after all three days?",
+  "ground_truth": "76.0",
+  "best_prefix": "81Fore Вид 것을 a",
+  "best_prefix_token_ids": [
+    5932,
+    11339,
+    117464,
+    107387,
+    264
+  ],
+  "baseline_token_id": 4767,
+  "target_token_id": 2813,
+  "baseline_logit_diff": -7.5,
+  "clean_logit_diff": -8.625,
+  "best_logit_diff": 2.4375,
+  "best_cosine": 0.953125,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 76",
+  "clean_answer": 76.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 93",
+  "adv_answer": 93.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "81Fore Вид 것을 a",
+      "prefix_ids": [
+        5932,
+        11339,
+        117464,
+        107387,
+        264
+      ],
+      "logit_diff": 2.4375,
+      "cosine_sim": 0.953125,
+      "answer": 93.0,
+      "correct": false
+    },
+    {
+      "prefix": "-budget57 commerciallyanus併",
+      "prefix_ids": [
+        95852,
+        3226,
+        54453,
+        59063,
+        125702
+      ],
+      "logit_diff": 2.25,
+      "cosine_sim": 0.953125,
+      "answer": 79.0,
+      "correct": false
+    },
+    {
+      "prefix": "バイ28665特 cot",
+      "prefix_ids": [
+        119732,
+        1591,
+        23467,
+        66378,
+        48681
+      ],
+      "logit_diff": -0.5,
+      "cosine_sim": 0.96484375,
+      "answer": 76.0,
+      "correct": true
+    },
+    {
+      "prefix": " voteripop160ßer Taco",
+      "prefix_ids": [
+        26391,
+        80482,
+        6330,
+        53762,
+        79997
+      ],
+      "logit_diff": -5.0625,
+      "cosine_sim": 0.9765625,
+      "answer": 76.0,
+      "correct": true
+    },
+    {
+      "prefix": " humForKeyedBy420 COPYRIGHT",
+      "prefix_ids": [
+        2854,
+        15303,
+        98422,
+        12819,
+        14879
+      ],
+      "logit_diff": -5.1875,
+      "cosine_sim": 0.9765625,
+      "answer": 76.0,
+      "correct": true
+    },
+    {
+      "prefix": "unfinished dile Вид 것을 {...",
+      "prefix_ids": [
+        15442,
+        44261,
+        117464,
+        107387,
+        15263
+      ],
+      "logit_diff": -5.5,
+      "cosine_sim": 0.97265625,
+      "answer": 76.0,
+      "correct": true
+    },
+    {
+      "prefix": "62End Видverse start",
+      "prefix_ids": [
+        5538,
+        3812,
+        117464,
+        4550,
+        1212
+      ],
+      "logit_diff": -5.875,
+      "cosine_sim": 0.9453125,
+      "answer": 86.0,
+      "correct": false
+    },
+    {
+      "prefix": "unfinished bí Вид 것을 {...",
+      "prefix_ids": [
+        15442,
+        110023,
+        117464,
+        107387,
+        15263
+      ],
+      "logit_diff": -6.5,
+      "cosine_sim": 0.98046875,
+      "answer": 76.0,
+      "correct": true
+    },
+    {
+      "prefix": " Top\".\" ing dude {...",
+      "prefix_ids": [
+        7054,
+        66820,
+        6892,
+        36157,
+        15263
+      ],
+      "logit_diff": -6.875,
+      "cosine_sim": 0.97265625,
+      "answer": 76.0,
+      "correct": true
+    },
+    {
+      "prefix": " Descriptor /=uron routinesembers",
+      "prefix_ids": [
+        56792,
+        16860,
+        37190,
+        30597,
+        7207
+      ],
+      "logit_diff": -7.5,
+      "cosine_sim": 0.9609375,
+      "answer": 76.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

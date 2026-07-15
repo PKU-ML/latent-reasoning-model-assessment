@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 921,
+  "question": "A loaf of bread has 24 slices. If Abby can eat 2 slices a day while Josh can eat twice as much, how many days will the loaf of bread last?",
+  "ground_truth": "4.0",
+  "baseline": {
+    "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nTogether, they eat 2 + 4 = 6 slices a day.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they eat per day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.",
+    "pred_answer": 4.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 3,
+  "success_rate": 0.1,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "ути KinhutomuosΙΚΟ",
+      "prefix_token_ids": [
+        110455,
+        112698,
+        59724,
+        84808,
+        122102
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nTogether, they eat 2 + 4 = 6 slices a day.\n\nSince the loaf has 24 slices, we can divide 24 by 6 to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " uveden_attributes.jpeg 相 sustainability",
+      "prefix_token_ids": [
+        108512,
+        18741,
+        31775,
+        110758,
+        41329
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 (Abby) + 4 (Josh) = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": " coax}`);\n\n {?} Enable\\Active",
+      "prefix_token_ids": [
+        91966,
+        72596,
+        95569,
+        19078,
+        44781
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total amount of bread that Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, which is 2 * 2 = 4 slices a day. \n\nTotal slices eaten per day = 2 (Abby) + 4 (Josh) = 6 slices per day.\n\nNow, let's divide the total number of slices in the loaf by the total slices eaten per day:\n\n24 (total slices) / 6 (slices per day) = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "SourceType.jump Revenue.auto LP",
+      "prefix_token_ids": [
+        94463,
+        85222,
+        38493,
+        24533,
+        17540
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 (Abby) + 4 (Josh) = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " intervbyt meio preferably(line",
+      "prefix_token_ids": [
+        86953,
+        104929,
+        66999,
+        52754,
+        8973
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, which is 2 * 2 = 4 slices a day. \n\nTotal slices eaten per day = 2 (Abby) + 4 (Josh) = 6 slices per day.\n\nNow, let's divide the total number of slices in the loaf by the number of slices eaten per day to find out how many days the loaf will last:\n\nLoaf slices / slices eaten per day = 24 / 6 = 4 days\n\nSo, the loaf of bread will last 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "which.getTable(scale believerKG",
+      "prefix_token_ids": [
+        8370,
+        82257,
+        43173,
+        62379,
+        44016
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 (Abby) + 4 (Josh) = 6 slices.\n\nSince the loaf of bread has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 (slices) / 6 (slices per day) = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": " hostilebursethroat.getCmp |-",
+      "prefix_token_ids": [
+        33615,
+        39082,
+        87164,
+        75271,
+        45661
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby can eat 2 slices a day, and Josh can eat twice as much, so Josh can eat 2 * 2 = 4 slices a day.\n\nTogether, Abby and Josh can eat 2 + 4 = 6 slices a day.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "izin QLabel SoveçScience",
+      "prefix_token_ids": [
+        78071,
+        44558,
+        18348,
+        100733,
+        36500
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, which is 2 * 2 = 4 slices a day. \n\nTotal slices eaten per day = 2 (Abby) + 4 (Josh) = 6 slices per day.\n\nNow, let's divide the total number of slices in the loaf by the number of slices eaten per day:\n\n24 (total slices) / 6 (slices per day) = 4 days.\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": ":\");\n либо psychology 白廣",
+      "prefix_token_ids": [
+        25293,
+        110127,
+        31018,
+        110849,
+        110911
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 (Abby) + 4 (Josh) = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " Enrollment slipping٪ продукт مذه",
+      "prefix_token_ids": [
+        89084,
+        64802,
+        115699,
+        107464,
+        122084
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 + 4 = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": " ідеCTOR사지_details که",
+      "prefix_token_ids": [
+        117761,
+        27371,
+        105834,
+        13563,
+        100360
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices that Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 x 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 + 4 = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "кому(schemaигไว訓",
+      "prefix_token_ids": [
+        110000,
+        43835,
+        70397,
+        106476,
+        120117
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they eat per day is 2 + 4 = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they eat per day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": "DataGridView ThreadPool styling 년도별ffb",
+      "prefix_token_ids": [
+        44654,
+        73816,
+        42428,
+        115744,
+        89649
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nTogether, Abby and Josh eat 2 + 4 = 6 slices a day.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they eat per day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last 4 days.\nSo the answer is \\boxed{The answer is 4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": " heels[pômvisionsoeff",
+      "prefix_token_ids": [
+        34460,
+        11661,
+        95465,
+        41115,
+        21378
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 + 4 = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " MovResultsController extraordin若 decom",
+      "prefix_token_ids": [
+        54385,
+        82421,
+        64555,
+        105268,
+        29602
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 (Abby) + 4 (Josh) = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nTherefore, the loaf of bread will last 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " thu huy плотongsTo cleaned",
+      "prefix_token_ids": [
+        78474,
+        111024,
+        115775,
+        35325,
+        28822
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to first find out how many slices Josh can eat in a day.\n\nSince Josh can eat twice as much as Abby, and Abby eats 2 slices a day, Josh eats 2 * 2 = 4 slices a day.\n\nNow, let's calculate the total number of slices Josh can eat in a day:\n4 slices/day * 7 days = 28 slices\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices Josh can eat in a day to find out how many days the loaf will last:\n24 slices / 28 slices/day = 0.8571 days\n\nSo, the loaf of bread will last approximately 0.8571 days.\nSo the answer is \\boxed{The answer is approximately 0.8571 days.",
+      "pred_answer": 0.8571,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 17,
+      "prefix": ".filePath مدينة billionsycop-President",
+      "prefix_token_ids": [
+        98548,
+        117188,
+        33151,
+        67866,
+        86481
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to first find out how many slices Josh can eat in a day.\n\nJosh can eat twice as much as Abby, so he can eat 2 x 2 = 4 slices a day.\n\nThe total number of slices in the loaf is 24. If Abby eats 2 slices a day and Josh eats 4 slices a day, then the total number of slices they eat per day is 2 + 4 = 6.\n\nTo find out how many days the loaf will last, we need to divide the total number of slices by the number of slices they eat per day. \n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "RELuationsروت(styles intervening",
+      "prefix_token_ids": [
+        50151,
+        38170,
+        119450,
+        62872,
+        89501
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 (Abby) + 4 (Josh) = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": "하 Öğrenogiicultural MD",
+      "prefix_token_ids": [
+        16582,
+        125835,
+        64977,
+        53915,
+        14306
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total amount of bread that Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, which is 2 * 2 = 4 slices a day. \n\nTotal slices eaten per day = 2 (Abby) + 4 (Josh) = 6 slices per day.\n\nNow, let's divide the total number of slices in the loaf by the total slices eaten per day:\n\n24 (total slices) / 6 (slices per day) = 4 days.\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " upd Exclude heartyesini độ",
+      "prefix_token_ids": [
+        80103,
+        99577,
+        82651,
+        102858,
+        100447
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to first find out how many slices Josh can eat in a day. Since Josh can eat twice as much as Abby, and Abby eats 2 slices a day, Josh eats 2 * 2 = 4 slices a day.\n\nNow, let's calculate the total number of slices Josh can eat in a day: 4 slices/day * 7 days = 28 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices Josh can eat in a day to find out how many days the loaf will last: 24 slices / 28 slices/day = 0.8571 days.\n\nSo, the loaf of bread will last approximately 0.8571 days.\nSo the answer is \\boxed{The answer is approximately 0.8571 days.",
+      "pred_answer": 0.8571,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 21,
+      "prefix": " mãe combineReducers vatandaş computing крем",
+      "prefix_token_ids": [
+        94247,
+        59043,
+        115122,
+        25213,
+        123583
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 + 4 = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nTherefore, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": " miraculousNilxcd(xs672",
+      "prefix_token_ids": [
+        91813,
+        19604,
+        54964,
+        54422,
+        22768
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total amount of bread each person eats per day and then divide the total amount of bread by that amount.\n\nAbby eats 2 slices per day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices per day.\n\nThe total amount of bread eaten per day is 2 (Abby) + 4 (Josh) = 6 slices per day.\n\nNow, we divide the total amount of bread (24 slices) by the amount eaten per day (6 slices):\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "dbNamestage scrutiny(field_fore",
+      "prefix_token_ids": [
+        91981,
+        21406,
+        36752,
+        15944,
+        36663
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 (Abby) + 4 (Josh) = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": " trapClipboard PODไซ formerly",
+      "prefix_token_ids": [
+        23709,
+        66241,
+        91601,
+        107699,
+        34833
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, which is 2 * 2 = 4 slices a day. \n\nTotal slices eaten per day = 2 (Abby) + 4 (Josh) = 6 slices per day.\n\nNow, let's divide the total number of slices in the loaf by the number of slices eaten per day:\n\n24 (total slices) / 6 (slices per day) = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "-datesent_Items/software(tab",
+      "prefix_token_ids": [
+        18920,
+        25526,
+        75567,
+        79827,
+        28945
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 + 4 = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": " TowerssolutionилактиاولERVE",
+      "prefix_token_ids": [
+        68457,
+        50560,
+        122746,
+        107352,
+        77179
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nTogether, they eat 2 + 4 = 6 slices a day.\n\nSince the loaf has 24 slices, we can divide 24 by 6 to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "LEAN πολυandinineंटर",
+      "prefix_token_ids": [
+        46918,
+        124516,
+        65674,
+        94323,
+        115321
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate the total number of slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nThe total number of slices they can eat in a day is 2 (Abby) + 4 (Josh) = 6 slices.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they can eat in a day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nTherefore, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "КО classic partnered Girlfriend работу",
+      "prefix_token_ids": [
+        112299,
+        11670,
+        53319,
+        99593,
+        116608
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nTogether, they eat 2 + 4 = 6 slices a day.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they eat per day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "ARDS Where CLEAR Brand_general",
+      "prefix_token_ids": [
+        60994,
+        11208,
+        56319,
+        16835,
+        40277
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Abby and Josh can eat in a day.\n\nAbby eats 2 slices a day, and Josh eats twice as much, so Josh eats 2 * 2 = 4 slices a day.\n\nTogether, Abby and Josh eat 2 + 4 = 6 slices a day.\n\nSince the loaf has 24 slices, we can divide the total number of slices by the number of slices they eat per day to find out how many days the loaf will last:\n\n24 slices / 6 slices per day = 4 days\n\nSo, the loaf of bread will last for 4 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": "्रय translated tackles 탈 onDestroy",
+      "prefix_token_ids": [
+        107075,
+        25548,
+        43581,
+        120326,
+        55289
+      ],
+      "generated_text": "To find out how many days the loaf of bread will last, we need to calculate how many slices Josh can eat in a day and then divide the total number of slices by that amount.\n\nJosh can eat twice as much as Abby, so he can eat 2 * 2 = 4 slices per day.\n\nThe total number of slices in the loaf is 24. \n\nTo find out how many days the loaf will last, we divide the total number of slices by the number of slices Josh can eat per day:\n24 slices / 4 slices per day = 6 days\n\nSo, the loaf of bread will last 6 days.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": false,
+      "attack_success": true
+    }
+  ],
+  "attack_success": true
+}

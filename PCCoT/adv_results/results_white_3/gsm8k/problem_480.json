@@ -1,0 +1,30 @@
+{
+  "question": "Ben has 4 tubes of blue paint and 3 tubes of yellow paint. Jasper has half as many tubes of blue paint as Ben, and three times as many tubes of yellow paint as Ben. How many tubes of paint does Jasper have?",
+  "ground_truth": "11.0",
+  "prefix": "629 Inv himself",
+  "prefix_token_ids": [
+    48602,
+    10001,
+    2241
+  ],
+  "baseline_token_id": 1157,
+  "target_token_id": 1065,
+  "baseline_token_str": "11",
+  "target_token_str": "12",
+  "best_logit_diff": 2.393768310546875,
+  "clean_text": "11",
+  "clean_answer": 11.0,
+  "clean_correct": true,
+  "adv_text": "42",
+  "adv_answer": 42.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -100,
+    -7.154531478881836,
+    -1.3071842193603516,
+    -1.173283576965332,
+    -0.4169273376464844,
+    0.5117263793945312
+  ]
+}

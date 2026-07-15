@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 643,
+  "question": "A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+  "ground_truth": "840.0",
+  "baseline_correct": true,
+  "baseline_answer": 840.0,
+  "best_rewrite": "Water freezes at 0 degrees. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+  "best_fact": "Water freezes at 0 degrees.",
+  "best_pred_answer": 1120.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 6,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 20 business news articles per day, and the news website publishes 20 + 10 = 30 articles per day. \n\nIn February, there are 28 days. \n\nTotal articles published by the sister company = 20 articles/day * 28 days = 560 articles\nTotal articles published by the news website = 30 articles/day * 28 days = 840 articles\n\nTotal articles published by both websites in February = 560 articles + 840 articles = 1400 articles\nSo the answer is \\boxed{The final answer is 1400.",
+      "pred_answer": 1400.0
+    },
+    {
+      "question": "April has 30 days. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published in each month and then add them together.\n\nIn February, April has 28 days. \n\nThe number of articles published by April is 20 * 28 = 560.\n\nThe number of articles published by the sister company is 10 * 28 = 280.\n\nThe total number of articles published by both websites in February is 560 + 280 = 840.\n\nSo, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the total number of articles published in each month and then add them together.\n\nIn February, the news website publishes 20 articles per day. Since there are 28 days in February, the total number of articles published by the news website is:\n20 articles/day * 28 days = 560 articles\n\nThe sister company publishes 10 articles per day. So, the total number of articles published by the sister company in February is:\n10 articles/day * 28 days = 280 articles\n\nTo find the total number of articles published by both websites in February, we add the number of articles published by each website:\n560 articles (news website) + 280 articles (sister company) = 840 articles\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "Today is the 3rd of the month. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the total number of articles published in each month and then add them together.\n\nIn February, there are 28 days. \n\nThe news website publishes 20 articles per day, so the total number of articles published by the news website is:\n20 articles/day * 28 days = 560 articles\n\nThe business news website publishes 10 articles per day, so the total number of articles published by the business news website is:\n10 articles/day * 28 days = 280 articles\n\nTo find the total number of articles published by both websites in February, we add the number of articles published by each website:\n560 articles (news website) + 280 articles (business website) = 840 articles\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 20 articles per day, and the news website publishes 20 articles per day as well. \n\nTotal articles per day = 20 (sister company) + 20 (news website) = 40 articles per day.\n\nNumber of days in February = 28.\n\nTotal articles in February = 40 articles per day * 28 days = 1120 articles.\n\nSo, the total number of articles published by both websites in February is 1120.\nSo the answer is \\boxed{1120",
+      "pred_answer": 1120.0
+    },
+    {
+      "question": "A year has 12 months. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the total number of articles published in each month and then add them together.\n\nIn February, the news website publishes 20 articles per day, and there are 28 days in the month. So, the total number of articles published by the news website in February is:\n20 articles/day * 28 days = 560 articles\n\nThe sister company publishes 10 articles per day, and there are 28 days in February. So, the total number of articles published by the sister company in February is:\n10 articles/day * 28 days = 280 articles\n\nTo find the total number of articles published by both websites in February, we add the number of articles published by each website:\n560 articles (news website) + 280 articles (sister company) = 840 articles\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "A week has 7 days. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the total number of articles published in each month and then add them together.\n\nIn February, there are 28 days. \n\nThe news website publishes 20 articles per day, so the total number of articles published in February is:\n20 articles/day * 28 days = 560 articles\n\nThe sister company publishes 10 articles per day, so the total number of articles published in February is:\n10 articles/day * 28 days = 280 articles\n\nTo find the total number of articles published by both websites in February, we add the number of articles published by each website:\n560 articles + 280 articles = 840 articles\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "An hour has 60 minutes. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the total number of articles published in each month and then add them together.\n\nIn February, there are 28 days. \n\nThe news website publishes 20 articles per day, so the total number of articles published in February is:\n20 articles/day * 28 days = 560 articles\n\nThe business news website publishes 10 articles per day, so the total number of articles published in February is:\n10 articles/day * 28 days = 280 articles\n\nTo find the total number of articles published by both websites in February, we add the number of articles published by each website:\n560 articles (news) + 280 articles (business) = 840 articles\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "A minute has 60 seconds. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe news website publishes 20 articles per day, and the sister company publishes 10 articles per day. \n\nIn February, there are 28 days. \n\nTotal articles published by the news website = 20 articles/day * 28 days = 560 articles\nTotal articles published by the sister company = 10 articles/day * 28 days = 280 articles\n\nTotal articles published by both websites = 560 articles + 280 articles = 840 articles\n\nSo, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "A year has 365 days. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published in each month and then add them together.\n\nIn February, the news website publishes 20 articles per day, and there are 28 days in the month. So, the total number of articles published by the news website in February is:\n20 articles/day * 28 days = 560 articles\n\nThe sister company publishes 10 articles per day, and there are 28 days in February. So, the total number of articles published by the sister company in February is:\n10 articles/day * 28 days = 280 articles\n\nTo find the total number of articles published by both websites in February, we add the number of articles published by each website:\n560 articles (news website) + 280 articles (sister company) = 840 articles\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 10 business news articles per day, and the news website publishes 20 political and weather news articles per day. \n\nTotal articles per day = 10 (business) + 20 (political and weather) = 30 articles per day.\n\nNumber of days in February = 28.\n\nTotal articles in February = 30 articles per day * 28 days = 840 articles.\n\nSo, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe speed of sound in air is 343 meters per second. \n\nNumber of articles published by the news website per day:\n- Political news: 20 articles/day\n- Business news: 10 articles/day\nTotal articles per day: 20 + 10 = 30 articles/day\n\nNumber of days in February: 28 days\n\nTotal articles published by both websites in February:\n- Political news: 30 articles/day * 28 days = 840 articles\n- Business news: 30 articles/day * 28 days = 840 articles\n\nTotal articles published by both websites in February: 840 + 840 = 1680 articles\nSo the answer is \\boxed{1680",
+      "pred_answer": 1680.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 20 business news articles per day, and the news website publishes 20 political news articles per day. \n\nTotal articles per day = 20 (business) + 20 (political) = 40 articles per day.\n\nNumber of days in February = 28.\n\nTotal articles in February = 40 articles per day * 28 days = 1120 articles.\n\nSo, the total number of articles published by both websites in February is 1120.\nSo the answer is \\boxed{1120",
+      "pred_answer": 1120.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To calculate the total number of articles, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 10 business news articles per day, and the news website publishes 20 political and weather news articles per day. \n\nTotal articles per day = 10 (business) + 20 (political and weather) = 30 articles per day.\n\nTotal articles in February = 30 articles per day * 28 days = 840 articles.\n\nSo, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "The human heart has 4 chambers. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe news website publishes 20 articles per day, and the sister company publishes 10 articles per day. \n\nTotal articles per day = 20 (news website) + 10 (sister company) = 30 articles per day.\n\nNumber of days in February = 28.\n\nTotal articles in February = 30 articles per day * 28 days = 840 articles.\n\nSo, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "An adult has 32 teeth. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the total number of articles published in each month and then add them together.\n\nIn February, the adult website publishes 20 articles per day, and there are 28 days in the month. So, the total number of articles published by the adult website in February is:\n20 articles/day * 28 days = 560 articles\n\nThe sister company publishes 10 articles per day, and there are 28 days in February. So, the total number of articles published by the sister company in February is:\n10 articles/day * 28 days = 280 articles\n\nTo find the total number of articles published by both websites in February, we add the number of articles published by each website:\n560 articles (adult website) + 280 articles (sister company) = 840 articles\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "China has 1.4 billion people. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 10 business news articles per day, and the news website publishes 20 political and weather news articles per day. \n\nIn February, there are 28 days. \n\nTotal articles published by the news website = 20 articles/day * 28 days = 560 articles\nTotal articles published by the sister company = 10 articles/day * 28 days = 280 articles\n\nTotal articles published by both websites in February = 560 articles + 280 articles = 840 articles\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "Japan has 125 million people. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 10 business news articles per day, and the news website publishes 20 political and weather news articles per day. \n\nIn February, there are 28 days. \n\nTotal articles published by the news website = 20 articles/day * 28 days = 560 articles\nTotal articles published by the sister company = 10 articles/day * 28 days = 280 articles\n\nTotal articles published by both websites in February = 560 articles + 280 articles = 840 articles\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "The US has 50 states. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 10 business news articles per day, and the US website publishes 20 articles per day. \n\nIn February, there are 28 days. \n\nTotal articles published by the US website = 20 articles/day * 28 days = 560 articles\nTotal articles published by the sister company = 10 articles/day * 28 days = 280 articles\n\nTotal articles published by both websites in February = 560 articles + 280 articles = 840 articles\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "The EU has 27 member states. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 10 business news articles per day, and the EU publishes 20 political and weather news articles per day. \n\nIn February, there are 28 days. \n\nTotal articles published by the sister company in February = 10 articles/day * 28 days = 280 articles\n\nTotal articles published by the EU in February = 20 articles/day * 28 days = 560 articles\n\nTotal articles published by both websites in February = 280 articles + 560 articles = 840 articles\n\nSo, the EU and its sister company published a total of 840 articles in February.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 10 business news articles per day, and the news website publishes 20 political and weather news articles per day. \n\nIn February, there are 28 days. \n\nTotal articles published by the news website = 20 articles/day * 28 days = 560 articles\nTotal articles published by the sister company = 10 articles/day * 28 days = 280 articles\n\nTotal articles published by both websites in February = 560 articles + 280 articles = 840 articles\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To calculate the total number of articles, we need to find the total number of articles published in February and then add the number of articles published by each website.\n\nFebruary has 28 days. \n\nThe number of articles published by the news website is 20 articles per day. \nSo, the total number of articles published by the news website in February is 20 * 28 = 560 articles.\n\nThe number of articles published by the business news website is 10 articles per day. \nSo, the total number of articles published by the business news website in February is 10 * 28 = 280 articles.\n\nThe total number of articles published by both websites in February is 560 + 280 = 840 articles.\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe Pacific website publishes 20 articles per day, and the sister company publishes 10 articles per day. \n\nIn February, there are 28 days. \n\nTotal articles published by Pacific = 20 articles/day * 28 days = 560 articles\nTotal articles published by sister company = 10 articles/day * 28 days = 280 articles\n\nTotal articles published by both websites in February = 560 articles + 280 articles = 840 articles\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "The human body has 206 bones. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 20 business news articles per day, and the news website publishes 20 political and weather news articles per day. \n\nTotal articles per day = 20 (business) + 20 (political and weather) = 40 articles per day.\n\nNumber of days in February = 28.\n\nTotal articles published in February = 40 articles per day * 28 days = 1120 articles.\n\nSo, the total number of articles published by both websites in February is 1120.\nSo the answer is \\boxed{1120",
+      "pred_answer": 1120.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 10 business news articles per day, and the news website publishes 20 political and weather news articles per day. \n\nIn February, there are 28 days. \n\nTotal articles published by the sister company = 10 articles/day * 28 days = 280 articles\nTotal articles published by the news website = 20 articles/day * 28 days = 560 articles\n\nTotal articles published by both websites in February = 280 articles + 560 articles = 840 articles\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe sister company publishes 20 articles per day, and the news website publishes 20 articles per day as well. \n\nTotal articles per day = 20 (sister company) + 20 (news website) = 40 articles per day.\n\nNumber of days in February = 28.\n\nTotal articles in February = 40 articles per day * 28 days = 1120 articles.\n\nSo, the total number of articles published by both websites in February is 1120.\nSo the answer is \\boxed{1120",
+      "pred_answer": 1120.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To calculate the total number of articles published by both websites in February, we need to calculate the number of articles published per day and then multiply it by the number of days in February.\n\nThe average number of articles published per day by the news website is 20. \nSince there are 28 days in February, the total number of articles published by the news website is:\n20 articles/day * 28 days = 560 articles\n\nThe average number of articles published per day by the business website is 10.\nThe total number of articles published by the business website in February is:\n10 articles/day * 28 days = 280 articles\n\nThe total number of articles published by both websites in February is the sum of the articles published by each website:\n560 articles + 280 articles = 840 articles\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the total number of articles published in each website and then add them together.\n\nThe plant publishes 20 political and weather news articles per day, so in 28 days, it will publish:\n20 articles/day * 28 days = 560 articles\n\nThe sister company publishes 10 business news articles per day, so in 28 days, it will publish:\n10 articles/day * 28 days = 280 articles\n\nNow, let's add the total number of articles published by both websites:\n560 articles (from the plant) + 280 articles (from the sister company) = 840 articles\n\nSo, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of articles published by both websites in February, we need to calculate the total number of articles published in each month and then add them together.\n\nIn February, there are 28 days. \n\nThe news website publishes 20 political and weather news articles per day. \nSo, in 28 days, it will publish 20 * 28 = 560 articles.\n\nThe sister company publishes 10 business news articles per day.\nSo, in 28 days, it will publish 10 * 28 = 280 articles.\n\nTo find the total number of articles published by both websites in February, we add the number of articles published by each website:\n560 (political and weather) + 280 (business) = 840 articles.\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. A news website publishes an average of 20 political and weather news articles every day. Its sister company publishes an average of 10 business news articles daily. Calculate the total number of articles the two websites published together in February if there are 28 days in the month.",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To calculate the total number of articles, we need to find the total number of articles published in February and then add the number of articles published by the sister company.\n\nFebruary has 28 days. \n\nThe sister company publishes 10 business news articles per day. \nSo, the total number of business news articles in February is 10 * 28 = 280.\n\nThe news website publishes 20 political and business news articles per day. \nSo, the total number of articles in February is 20 * 28 = 560.\n\nThe total number of articles published by both websites in February is 280 + 560 = 840.\n\nTherefore, the total number of articles published by both websites in February is 840.\nSo the answer is \\boxed{840",
+      "pred_answer": 840.0
+    }
+  ]
+}

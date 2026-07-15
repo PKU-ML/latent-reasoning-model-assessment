@@ -1,0 +1,171 @@
+{
+  "question": "John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?",
+  "ground_truth": "35.0",
+  "best_prefix": " Harvey Manage上了\r\n Fifty",
+  "best_prefix_token_ids": [
+    34422,
+    43750,
+    126271,
+    319,
+    76020
+  ],
+  "baseline_token_id": 1758,
+  "target_token_id": 8652,
+  "baseline_logit_diff": -2.25,
+  "clean_logit_diff": -6.5,
+  "best_logit_diff": 0.125,
+  "best_cosine": 0.94921875,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 35",
+  "clean_answer": 35.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 350",
+  "adv_answer": 350.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " Harvey Manage上了\r\n Fifty",
+      "prefix_ids": [
+        34422,
+        43750,
+        126271,
+        319,
+        76020
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.94921875,
+      "answer": 350.0,
+      "correct": false
+    },
+    {
+      "prefix": " communities Iかな\r\n Fifty",
+      "prefix_ids": [
+        10977,
+        358,
+        107188,
+        319,
+        76020
+      ],
+      "logit_diff": -1.625,
+      "cosine_sim": 0.953125,
+      "answer": 35.0,
+      "correct": true
+    },
+    {
+      "prefix": " iTunesीतर　l\r\n Fifty",
+      "prefix_ids": [
+        13323,
+        126990,
+        102894,
+        319,
+        76020
+      ],
+      "logit_diff": -1.875,
+      "cosine_sim": 0.95703125,
+      "answer": 35.0,
+      "correct": true
+    },
+    {
+      "prefix": " iTunesीतरrowse\r\n Fifty",
+      "prefix_ids": [
+        13323,
+        126990,
+        13702,
+        319,
+        76020
+      ],
+      "logit_diff": -2.0,
+      "cosine_sim": 0.9609375,
+      "answer": 35.0,
+      "correct": true
+    },
+    {
+      "prefix": " communities Conduct上了\r\n Fifty",
+      "prefix_ids": [
+        10977,
+        50935,
+        126271,
+        319,
+        76020
+      ],
+      "logit_diff": -2.0,
+      "cosine_sim": 0.95703125,
+      "answer": 35.0,
+      "correct": true
+    },
+    {
+      "prefix": " communitiesmadeiele\r\n Fifty",
+      "prefix_ids": [
+        10977,
+        28010,
+        25641,
+        319,
+        76020
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.95703125,
+      "answer": 35.0,
+      "correct": true
+    },
+    {
+      "prefix": "titстан 쉬\r\n Fifty",
+      "prefix_ids": [
+        17330,
+        52037,
+        126010,
+        319,
+        76020
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.9609375,
+      "answer": 35.0,
+      "correct": true
+    },
+    {
+      "prefix": " iTunesीतर району\r\n Fifty",
+      "prefix_ids": [
+        13323,
+        126990,
+        120656,
+        319,
+        76020
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.9609375,
+      "answer": 35.0,
+      "correct": true
+    },
+    {
+      "prefix": " iTunes Magnette\r\n Fifty",
+      "prefix_ids": [
+        13323,
+        82328,
+        668,
+        319,
+        76020
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.953125,
+      "answer": 35.0,
+      "correct": true
+    },
+    {
+      "prefix": " communities Conductorted\r\n Fifty",
+      "prefix_ids": [
+        10977,
+        50935,
+        13909,
+        319,
+        76020
+      ],
+      "logit_diff": -2.25,
+      "cosine_sim": 0.95703125,
+      "answer": 35.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

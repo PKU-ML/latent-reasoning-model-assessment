@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 2,
+  "question": "Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+  "ground_truth": "17.0",
+  "baseline_correct": true,
+  "baseline_answer": 17.0,
+  "best_rewrite": "Water freezes at 0 degrees. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+  "best_fact": "Water freezes at 0 degrees.",
+  "best_pred_answer": 39.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 18,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the current length of Robin's hair, we need to subtract the amount he cut off and add the amount he grew back.\n\nInitial length of hair = 16 inches\nAmount cut off = 11 inches\nAmount grown back = 12 inches\n\nCurrent length of hair = Initial length - Amount cut off + Amount grown back\n= 16 - 11 + 12\n= 17 inches\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{17 inches",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "April has 30 days. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how long Robin's hair is now, we need to add the 11 inches he cut off and the 12 inches he grew back.\n\nInitial length of hair = 16 inches\nLength after cutting = 16 - 11 = 5 inches\nLength after growing back = 5 + 12 = 17 inches\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the length he cut off and the length he grew back.\n\nInitial length of hair = 16 inches\nLength cut off = 11 inches\nLength grown back = 12 inches\n\nCurrent length of hair = Initial length + Length cut off - Length grown back\n= 16 + 11 - 12\n= 15 inches\n\nSo, Robin's hair is now 15 inches long.\nSo the answer is \\boxed{The answer is 15 inches.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the amount he cut off and the amount it grew back.\n\nInitial length: 16 inches\nAmount cut off: 11 inches\nAmount grown back: 12 inches\n\nCurrent length: 16 + 11 - 12 = 15 inches\n\nSo, Robin's hair is now 15 inches long.\nSo the answer is \\boxed{The answer is 15 inches.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the initial length and the length he cut off, and then add the length he grew back.\n\nInitial length: 16 inches\nLength cut off: 11 inches\nLength grown back: 12 inches\n\nCurrent length = Initial length + Length cut off + Length grown back\nCurrent length = 16 + 11 + 12\nCurrent length = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "A year has 12 months. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the amount he cut off and the amount it grew back.\n\nInitial length: 16 inches\nAmount cut off: 11 inches\nAmount grown back: 12 inches\n\nCurrent length = Initial length + Amount cut off - Amount grown back\nCurrent length = 16 + 11 - 12\nCurrent length = 15 inches\n\nSo, Robin's hair is now 15 inches long.\nSo the answer is \\boxed{15 inches",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A week has 7 days. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the length of Robin's hair after the first cut, subtract 11 inches from the original length. \n\n16 - 11 = 5 inches\n\nThen, add 12 inches to the new length to find the final length.\n\n5 + 12 = 17 inches\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{17 inches",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "An hour has 60 minutes. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the length of Robin's hair after the first cut, subtract 11 inches from the original length. \n\n16 (original length) - 11 (cut) = 5 inches\n\nThen, add 12 inches to the result to find the new length.\n\n5 (new length) + 12 (growth) = 17 inches\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{17 inches",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A minute has 60 seconds. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the length of Robin's hair after the first cut, subtract 11 inches from the original length. \n\n16 (original length) - 11 (cut) = 5 inches\n\nThen, add 12 inches to the new length to find the final length.\n\n5 (new length) + 12 (growth) = 17 inches\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{17 inches",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A year has 365 days. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the length of Robin's hair after the first cut, subtract 11 inches from 16 inches. \n\n16 - 11 = 5\n\nThen, add 12 inches to the result.\n\n5 + 12 = 17\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the length of Robin's hair after the first cut, we need to subtract the length he cut off from the original length.\n\nOriginal length = 12742 km\nLength cut off = 11 inches\nLength after the first cut = 12742 - 11 = 12731 km\n\nNow, we need to convert the length from kilometers to inches. There are 1000 meters in a kilometer and 1000 inches in a meter, so:\n\n1 kilometer = 1000 meters\n1 kilometer = 1000 * 1000 inches\n1 kilometer = 1,000,000 inches\n\nNow, let's convert 12731 kilometers to inches:\n12731 * 1,000,000 = 12,731,000,000 inches\n\nNow, we add the length after the first cut to the length after the second cut:\nLength after the second cut = 12,731,000,000 + 12 = 12,731,012,000 inches\n\nSo, Robin's hair is now 12,731,012,000 inches long.\nSo the answer is \\boxed{12,731,012,000 inches",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the length of Robin's hair after the two cuts, we need to add the lengths of the two cuts to the original length.\n\nOriginal length of hair = 16 inches\nFirst cut = 11 inches\nSecond cut = 12 inches\n\nTotal length after the first cut = 16 + 11 = 27 inches\nTotal length after the second cut = 27 + 12 = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the length of Robin's hair after the two cuts, we need to add the lengths of the two cuts to the original length.\n\nOriginal length: 16 inches\nFirst cut: 11 inches\nSecond cut: 12 inches\n\nTotal length after the first cut: 16 + 11 = 27 inches\nTotal length after the second cut: 27 + 12 = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the length of Robin's hair after the two cuts, we need to add the lengths of the two cuts to the original length.\n\nOriginal length of hair = 16 inches\nFirst cut = 11 inches\nSecond cut = 12 inches\n\nTotal length after the first cut = 16 + 11 = 27 inches\nTotal length after the second cut = 27 + 12 = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{The final answer is 39 inches.",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the initial length, the length he cut off, and the length he grew back.\n\nInitial length = 16 inches\nLength cut off = 11 inches\nLength grown back = 12 inches\n\nCurrent length = Initial length + Length cut off + Length grown back\n= 16 + 11 + 12\n= 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "An adult has 32 teeth. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the current length of Robin's hair, we need to subtract the initial length from the initial length and then add the growth.\n\nInitial length of hair = 16 inches\nLength after cutting = 16 - 11 = 5 inches\nLength after growing = 5 + 12 = 17 inches\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{17 inches",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "China has 1.4 billion people. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the initial length, the length he cut off, and the length he grew back.\n\nInitial length: 16 inches\nLength cut off: 11 inches\nLength grown back: 12 inches\n\nCurrent length = Initial length + Length cut off + Length grown back\nCurrent length = 16 + 11 + 12\nCurrent length = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "Japan has 125 million people. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the current length of Robin's hair, we need to subtract the initial length from the initial length and then add the growth.\n\nInitial length: 16 inches\nLength after cutting: 16 - 11 = 5 inches\nGrowth: 12 inches\n\nCurrent length: 5 + 12 = 17 inches\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The US has 50 states. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the initial length, the amount he cut off, and the amount it grew back.\n\nInitial length: 16 inches\nAmount cut off: 11 inches\nAmount grown back: 12 inches\n\nCurrent length = Initial length + Amount cut off + Amount grown back\nCurrent length = 16 + 11 + 12\nCurrent length = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "The EU has 27 member states. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the initial length, the length he cut off, and the length he grew back.\n\nInitial length: 16 inches\nLength cut off: 11 inches\nLength grown back: 12 inches\n\nCurrent length = Initial length + Length cut off + Length grown back\nCurrent length = 16 + 11 + 12\nCurrent length = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the length of Robin's hair after the first cut, subtract 11 inches from 16 inches. \n\n16 - 11 = 5\n\nThen, add 12 inches to the result.\n\n5 + 12 = 17\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{The answer is 17 inches.",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the initial length and the amount he cut off, then add the amount he grew back.\n\nInitial length: 16 inches\nAmount cut off: 11 inches\nAmount grown back: 12 inches\n\nCurrent length = Initial length + Amount cut off + Amount grown back\nCurrent length = 16 + 11 + 12\nCurrent length = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the length of Robin's hair after the first cut, subtract 11 inches from the original length. \n\n165,000,000 km² = 165 million square kilometers\n16 inches = 1,600,000 inches\n\n165,000,000 - 11 = 164,999,989 inches\n\nNow, add 12 inches to the result.\n\n164,999,989 + 12 = 164,999,001 inches\n\nTo convert this back to kilometers, divide by 39,370.1 (since 1 kilometer = 39,370.1 inches).\n\n164,999,001 / 39,370.1 = 4,200,000.1 kilometers\n\nSo, Robin's hair is now approximately 4,200,000.1 kilometers long.\nSo the answer is \\boxed{4,200,000.1",
+      "pred_answer": 0.1
+    },
+    {
+      "question": "The human body has 206 bones. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the current length of Robin's hair, we need to subtract the initial length from the initial length and then add the growth.\n\nInitial length of hair = 16 inches\nLength after cutting = 16 - 11 = 5 inches\nLength after growth = 5 + 12 = 17 inches\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{The answer is 17 inches.",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the length he cut off and the length he grew back.\n\nInitial length of hair = 16 inches\nLength cut off = 11 inches\nLength grown back = 12 inches\n\nCurrent length of hair = Initial length + Length cut off + Length grown back\n= 16 + 11 + 12\n= 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the length of Robin's hair after the first cut, subtract the length he cut off from his original length. \n\nOriginal length = 16 inches\nLength cut off = 11 inches\nLength after the first cut = 16 - 11 = 5 inches\n\nThen, add the length he grew back to the length after the first cut.\n\nLength after the second cut = 5 + 12 = 17 inches\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{17 inches",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the length of Robin's hair after the first cut, we need to subtract the length of the cut from the original length. \n\nOriginal length = 16 inches\nLength after the first cut = 16 - 11 = 5 inches\n\nThen, he grew it by 12 inches. \n\nNew length = 5 + 12 = 17 inches\n\nSo, Robin's hair is now 17 inches long.\nSo the answer is \\boxed{The answer is 17 inches.",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the initial length, the length he cut off, and the length he grew back.\n\nInitial length: 16 inches\nLength cut off: 11 inches\nLength grown back: 12 inches\n\nCurrent length = Initial length + Length cut off + Length grown back\nCurrent length = 16 + 11 + 12\nCurrent length = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the length of Robin's hair after the two cuts, we need to add the lengths of the two cuts to the original length.\n\nOriginal length: 16 inches\nFirst cut: 11 inches\nSecond cut: 12 inches\n\nTotal length after the first cut: 16 + 11 = 27 inches\nTotal length after the second cut: 27 + 12 = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the current length of Robin's hair, we need to add the initial length, the amount he cut off, and the amount it grew back.\n\nInitial length: 16 inches\nAmount cut off: 11 inches\nAmount grown back: 12 inches\n\nCurrent length = Initial length + Amount cut off + Amount grown back\nCurrent length = 16 + 11 + 12\nCurrent length = 39 inches\n\nSo, Robin's hair is now 39 inches long.\nSo the answer is \\boxed{39 inches",
+      "pred_answer": 39.0
+    }
+  ]
+}

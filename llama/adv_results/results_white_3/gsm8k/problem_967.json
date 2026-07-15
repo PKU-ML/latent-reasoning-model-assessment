@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 967,
+  "question": "Nani is 8 years old. His brother is twice his age. Nani's sister is 25% younger than him. What is the total age of all three of the family members?",
+  "ground_truth": "30",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "ेट самых Turkish",
+  "prefix_token_ids": [
+    101263,
+    120809,
+    24666
+  ],
+  "best_wrong_prob": 1.6722745457765237e-20,
+  "clean_text": "To find the total age of the family members, we need to calculate each person's age and add them together.\n\nNani is 8 years old.\nNani's brother is 2 times Nani's age, so 8 * 2 = 16 years old.\nNani's s",
+  "clean_pred": 30.0,
+  "clean_correct": true,
+  "adv_text": "To find the total age of the family members, we need to calculate each person's age and add them together.\n\nNani is 8 years old.\nHis brother is 2 times Nani's age, so his brother is 8 * 2 = 16 years o",
+  "adv_pred": 30.0,
+  "adv_correct": true,
+  "attack_success": false
+}

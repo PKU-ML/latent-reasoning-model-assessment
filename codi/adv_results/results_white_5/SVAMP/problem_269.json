@@ -1,0 +1,34 @@
+{
+  "question": "Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+  "ground_truth": "6.0",
+  "prefix": "989 `% sinus632 dương",
+  "prefix_token_ids": [
+    25350,
+    62500,
+    76914,
+    20775,
+    119429
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 20,
+  "baseline_logit_diff": -10.5625,
+  "clean_logit_diff": -9.25,
+  "adv_logit_diff": 2.0,
+  "best_logit_diff": 2.0,
+  "clean_text": "The answer is: 6",
+  "clean_answer": 6.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 5",
+  "adv_answer": 5.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.75,
+    -4.5,
+    -3.875,
+    -3.875,
+    -2.375,
+    -1.5,
+    2.0
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "question": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+  "ground_truth": "260.0",
+  "prefix": " clones622 ±407493",
+  "prefix_token_ids": [
+    67007,
+    19808,
+    20903,
+    18501,
+    22741
+  ],
+  "baseline_token_id": 11387,
+  "target_token_id": 11209,
+  "baseline_logit_diff": 1.65625,
+  "clean_logit_diff": -4.75,
+  "adv_logit_diff": 1.65625,
+  "best_logit_diff": 1.65625,
+  "clean_text": "The answer is: 260",
+  "clean_answer": 260.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 293",
+  "adv_answer": 293.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -4.75,
+    -4.375,
+    -4.375,
+    -4.375,
+    -2.8125,
+    -1.875,
+    0.53125,
+    1.0,
+    1.375,
+    1.375,
+    1.375,
+    1.4375,
+    1.65625
+  ]
+}

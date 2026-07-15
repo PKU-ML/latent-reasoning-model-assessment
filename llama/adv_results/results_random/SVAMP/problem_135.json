@@ -1,0 +1,471 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 135,
+  "question": "There were 16 roses and 3 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 7 orchids and 13 roses in the vase. How many orchids did she cut?",
+  "ground_truth": "4.0",
+  "baseline": {
+    "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.",
+    "pred_answer": 4.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 2,
+  "success_rate": 0.06666666666666667,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "();\"ださい debunk Jennings Interracial",
+      "prefix_token_ids": [
+        70199,
+        70897,
+        78293,
+        71290,
+        98163
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids and roses she had initially from the current number of orchids and roses.\n\nInitial number of orchids: 3\nInitial number of roses: 16\nCurrent number of orchids: 7\nCurrent number of roses: 13\n\nSubtract the initial number of orchids and roses from the current number of orchids and roses:\n7 (current orchids) - 3 (initial orchids) = 4\n13 (current roses) - 16 (initial roses) = -3\n\nSince you can't cut a negative number of flowers, we need to re-examine the problem. Let's try again.\n\nInitial number of orchids: 3\nInitial number of roses: 16\nCurrent number of orchids: 7\nCurrent number of roses: 13\n\nSubtract the initial number of orchids from the current number of orchids:\n7 (current orchids) - 3 (initial orchids) = 4\n\nNow, subtract the initial number of roses from the current number of roses:\n13 (current roses) - 16 (initial roses) = -3\n\nSince you can't cut a negative number of flowers, we need to re-examine the problem again. Let's try again.\n\nInitial number of orchids: 3\nInitial number of roses: 16\nCurrent number of orchids: 7\nCurrent number of roses: 13\n\nSubtract the initial number of roses from the current number of roses:\n13 (current roses) - 16 (initial roses) = -3\n\nSince you can't cut a negative number of flowers, we need to re-examine the problem again. Let's try again.\n\nInitial number of orchids: 3\nInitial number of roses: 16\nCurrent number of orchids: 7\nCurrent number of roses: 13\n\nSubtract the initial number of roses from the current number of roses:\n13 (current roses) - 16 (initial roses) = -3\n\nSince you can't cut a negative number of flowers, we need to re-examine the problem again. Let's try again.\n\nInitial number of orchids: 3\nInitial number of roses: 16\nCurrent number of orchids: 7\nCurrent number of roses: 13\n\nSubtract the initial number of roses from the current number of roses:\n13 (current roses) - 16 (initial roses)\nSo the answer is \\boxed{13 - 16 = -3",
+      "pred_answer": -3.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 2,
+      "prefix": "Watch芙 čekLastlyОН",
+      "prefix_token_ids": [
+        14581,
+        125416,
+        111537,
+        81586,
+        117619
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids from her flower garden.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": " göbinding 제작^( QMap",
+      "prefix_token_ids": [
+        31285,
+        32136,
+        114699,
+        13571,
+        99361
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids from her flower garden.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": " صن plagiaryecto epis QFont",
+      "prefix_token_ids": [
+        104691,
+        68673,
+        30846,
+        67594,
+        98700
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " arttırdescricao661ْت activism",
+      "prefix_token_ids": [
+        121558,
+        64762,
+        24132,
+        109075,
+        55280
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids from her flower garden.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "_SITEseyпtravel крит",
+      "prefix_token_ids": [
+        61644,
+        8674,
+        8164,
+        49610,
+        117954
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": " onChangeTextDOMContentLoadedifference techniques demanded",
+      "prefix_token_ids": [
+        61968,
+        78607,
+        18691,
+        12823,
+        30526
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids from her flower garden.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "重大listen fred090 služeb",
+      "prefix_token_ids": [
+        125478,
+        37437,
+        98226,
+        18807,
+        112528
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids from her flower garden.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": "essaging_BIND která��////////////////////////////////////////////////////////////////////////////////",
+      "prefix_token_ids": [
+        33240,
+        45655,
+        102313,
+        41519,
+        29326
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids from her flower garden.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "/trans hij登录RowAtIndexPath orgasm",
+      "prefix_token_ids": [
+        81221,
+        22130,
+        36515,
+        34158,
+        38765
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": " cerr$username sexle軽微笑",
+      "prefix_token_ids": [
+        27976,
+        63545,
+        72295,
+        117355,
+        125796
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": " zam projectile(attrs280 freshman",
+      "prefix_token_ids": [
+        61576,
+        39057,
+        40939,
+        11209,
+        41317
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " moot biên knittingテ →",
+      "prefix_token_ids": [
+        98883,
+        112976,
+        72899,
+        57933,
+        11651
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": " Invalidpletely memberId QFontzą",
+      "prefix_token_ids": [
+        14204,
+        50268,
+        97439,
+        98700,
+        28381
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " Fitness ShepherdTho Podleưởng",
+      "prefix_token_ids": [
+        36808,
+        59646,
+        99247,
+        115615,
+        101321
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids from her flower garden.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " พฤศจ Rivers Mistress必ContentPane",
+      "prefix_token_ids": [
+        123897,
+        36739,
+        97129,
+        59614,
+        31582
+      ],
+      "generated_text": "To find out how many roses Jessica cut, we need to subtract the number of roses she had initially from the number of roses she has now.\n\nInitial roses = 16\nCurrent roses = 13\n\nNumber of roses cut = Initial roses - Current roses\n= 16 - 13\n= 3\n\nSo, Jessica cut 3 roses from her flower garden.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 17,
+      "prefix": " Cla_Vert Olympιλο(points",
+      "prefix_token_ids": [
+        57438,
+        81910,
+        15136,
+        127053,
+        33550
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "getto potřebroxIntroduction herkes",
+      "prefix_token_ids": [
+        64722,
+        105095,
+        55889,
+        38255,
+        113789
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids from her flower garden.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": ".ud.FirstOrDefaultної conceivedanalytics",
+      "prefix_token_ids": [
+        72190,
+        30720,
+        100616,
+        50178,
+        78752
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " neob[rand　ヽTier VALID",
+      "prefix_token_ids": [
+        126396,
+        69166,
+        102661,
+        71784,
+        44391
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": "_pass fertilretornoिसम diagon",
+      "prefix_token_ids": [
+        15829,
+        36214,
+        97914,
+        109404,
+        85118
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": " ░_CHANNEL outpost önemli sharedInstance",
+      "prefix_token_ids": [
+        91913,
+        24616,
+        96678,
+        102806,
+        53058
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": " ships인을 agua overs moss",
+      "prefix_token_ids": [
+        18198,
+        123486,
+        56562,
+        17918,
+        78343
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "��وزهlacağxBF\\$",
+      "prefix_token_ids": [
+        119410,
+        112030,
+        112210,
+        72281,
+        66139
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " cousin nước конείου픽",
+      "prefix_token_ids": [
+        36271,
+        100959,
+        38098,
+        115674,
+        113198
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids from her flower garden.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "ivre observed PLL(parenASON",
+      "prefix_token_ids": [
+        84595,
+        13468,
+        55445,
+        50722,
+        36404
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "(filteredTextures し crossorigin figured",
+      "prefix_token_ids": [
+        87121,
+        47455,
+        118203,
+        32001,
+        25720
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids from her flower garden.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "Cou意识@Springhardt phù",
+      "prefix_token_ids": [
+        69310,
+        126966,
+        43307,
+        60382,
+        105091
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " Clown)[: Restaurants�xA",
+      "prefix_token_ids": [
+        99423,
+        85662,
+        59193,
+        106036,
+        15015
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " neurons Jupiter_MACHINE dalle_reviews",
+      "prefix_token_ids": [
+        34313,
+        50789,
+        67802,
+        86344,
+        69806
+      ],
+      "generated_text": "To find out how many orchids Jessica cut, we need to subtract the number of orchids she had initially from the number of orchids she has now.\n\nInitial number of orchids = 3\nCurrent number of orchids = 7\n\nNumber of orchids cut = Current number of orchids - Initial number of orchids\n= 7 - 3\n= 4\n\nSo, Jessica cut 4 orchids.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

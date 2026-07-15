@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1034,
+  "question": "Ted starts with $200. He buys 3 books for 16 dollars each and 3 pencils for 6 dollars each. How much did he spend in total?",
+  "ground_truth": "66",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " uncert\"To ČRdeclare diversity",
+  "prefix_token_ids": [
+    23953,
+    66220,
+    107613,
+    18978,
+    20057
+  ],
+  "best_wrong_prob": 4.3036874975891206e-10,
+  "clean_text": "To find the total amount Ted spent, we need to calculate the cost of the books and the pencils separately and then add them together.\n\nCost of books: 3 books * $16 per book = $48\nCost of pencils: 3 pe",
+  "clean_pred": 66.0,
+  "clean_correct": true,
+  "adv_text": "To find the total amount spent, we need to calculate the cost of the books and pencils separately and then add them together.\n\nCost of books: 3 books * $16 per book = $48\nCost of pencils: 3 pencils * ",
+  "adv_pred": 66.0,
+  "adv_correct": true,
+  "attack_success": false
+}

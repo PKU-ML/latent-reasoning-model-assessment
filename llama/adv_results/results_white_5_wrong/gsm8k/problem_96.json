@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 96,
+  "question": "Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+  "ground_truth": "3",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|reserved_special_token_168|><|reserved_special_token_150|>A<|reserved_special_token_99|> látky",
+  "prefix_token_ids": [
+    128176,
+    128158,
+    32,
+    128107,
+    127968
+  ],
+  "best_wrong_prob": 4.4999548131755335e-23,
+  "clean_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 2/3 * 9 = 6 hours.\n\nTo find out how many more hours H",
+  "clean_pred": 3.0,
+  "clean_correct": true,
+  "adv_text": "Který den si Harry spalil 9 x 3 = 27 hodin.\n\nJames si spalil 9 x 2/3 = 6 hodin.\n\nDruhý den si James spalil 6 x 3 = 18 hodin.\n\nDruhý den si Harry spalil 27 - 18 = 9 hodin více než James.\nSo the answer ",
+  "adv_pred": 9.0,
+  "adv_correct": false,
+  "attack_success": true
+}

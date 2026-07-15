@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 154,
+  "question": " Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+  "ground_truth": "31.0",
+  "baseline_correct": false,
+  "baseline_answer": 33.0,
+  "best_rewrite": "A year has 12 months.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+  "best_fact": "A year has 12 months.",
+  "best_pred_answer": 25.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 23,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the carrots she picked on the first day and the carrots she picked on the second day.\n\nOn the first day, she picked 12 carrots.\nOn the second day, she picked 21 carrots.\n\nTotal carrots = 12 + 21 = 33\n\nSo, Nancy would have 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "April has 30 days.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the carrots she picked the day before (21) to the carrots she threw out (2). \n\nFirst, let's add the carrots she picked the day before: 21 + 2 = 23\n\nNow, let's add the carrots she picked the next day: 23 + 12 = 35\n\nSo, Nancy would have 35 carrots in total.\nSo the answer is \\boxed{35",
+      "pred_answer": 35.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the number of carrots she picked on the first day and the number of carrots she picked on the second day.\n\nOn the first day, she picked 12 carrots.\nOn the second day, she picked 21 carrots.\n\nTotal carrots = 12 + 21 = 33\n\nSo, Nancy would have 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy has, we need to add the carrots she picked on the first day and the carrots she picked on the second day.\n\nOn the first day, she picked 12 carrots.\nOn the second day, she picked 21 carrots.\n\nTotal carrots = 12 + 21 = 33\n\nSo, Nancy has 33 carrots.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the carrots she picked on the first day and the carrots she picked on the second day.\n\nShe picked 12 carrots on the first day.\nShe threw out 2 carrots, so she had 12 - 2 = 10 carrots left.\nOn the second day, she picked 21 carrots.\n\nTo find the total number of carrots, we add the carrots she had left on the first day to the carrots she picked on the second day:\n10 (carrots left) + 21 (carrots picked on the second day) = 31 carrots.\n\nSo, Nancy would have 31 carrots.\nSo the answer is \\boxed{31",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "A year has 12 months.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the carrots she picked the day before (21) to the carrots she threw out (2).\n\nFirst, let's add the carrots she picked the day before: 21 + 2 = 23\n\nNow, let's add the carrots she threw out: 23 + 2 = 25\n\nSo, Nancy would have 25 carrots in total.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "A week has 7 days.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have after throwing out 2 and picking 21 more, we need to add the number of carrots she picked the next day to the number of carrots she threw out.\n\nShe threw out 2 carrots.\nShe picked 21 carrots the next day.\n\nTotal carrots = 2 (thrown out) + 21 (picked) = 23\n\nSo, Nancy would have 23 carrots after the two events.\nSo the answer is \\boxed{23",
+      "pred_answer": 23.0
+    },
+    {
+      "question": "An hour has 60 minutes.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of carrots Nancy has, we need to add the carrots she picked on the first day and the carrots she picked on the second day.\n\nShe picked 12 carrots on the first day.\nShe threw out 2 carrots, so she had 12 - 2 = 10 carrots left.\nOn the second day, she picked 21 carrots.\n\nTo find the total number of carrots, we add the carrots from both days:\n10 (from the first day) + 21 (from the second day) = 31\n\nSo, Nancy has 31 carrots in total.\nSo the answer is \\boxed{31",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "A minute has 60 seconds.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy has, we need to add the carrots she picked on the first day and the carrots she picked on the second day.\n\nOn the first day, she picked 12 carrots.\nOn the second day, she picked 21 carrots.\n\nTotal carrots = 12 + 21 = 33\n\nSo, Nancy has 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "A year has 365 days.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the carrots she picked on the first day and the carrots she picked on the second day.\n\nOn the first day, she picked 12 carrots.\nOn the second day, she picked 21 carrots.\n\nTotal carrots = 12 + 21 = 33\n\nSo, Nancy would have 33 carrots.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have after throwing out 2 and picking 21 more, we need to add the initial number of carrots she picked to the number she picked the next day.\n\nInitial carrots = 12\nCarrots picked the next day = 21\n\nTotal carrots = Initial carrots + Carrots picked the next day\n= 12 + 21\n= 33\n\nSo, Nancy would have 33 carrots after throwing out 2 and picking 21 more.\nSo the answer is \\boxed{The answer is 33.",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the number of carrots she picked on the first day and the number she picked on the second day.\n\nOn the first day, she picked 12 carrots.\nOn the second day, she picked 21 carrots.\n\nTotal carrots = 12 + 21 = 33\n\nSo, Nancy would have 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of carrots Nancy has, we need to add the number of carrots she picked the first day and the number she picked the next day.\n\nShe picked 12 carrots the first day and then threw out 2, so she had 12 - 2 = 10 carrots left.\nThen she picked 21 more carrots the next day, so she now has 10 + 21 = 31 carrots.\n\nSo, Nancy has a total of 31 carrots.\nSo the answer is \\boxed{31",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy has, we need to add the number of carrots she picked on the first day and the number she picked on the second day.\n\nOn the first day, she picked 12 carrots.\nOn the second day, she picked 21 carrots.\n\nTotal carrots = 12 + 21 = 33\n\nSo, Nancy has 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the number of carrots she picked the next day to the number she already picked.\n\nShe picked 12 carrots the first day and then 21 carrots the next day. \n\n12 (first day) + 21 (next day) = 33 carrots\n\nSo, Nancy would have 33 carrots in total.\nSo the answer is \\boxed{The answer is 33.",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "An adult has 32 teeth.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the number of carrots she picked the next day to the number she already had.\n\nShe initially had 32 carrots.\nShe picked 12 carrots the next day.\nShe threw out 2 carrots.\n\nSo, the total number of carrots she would have is:\n32 (initial carrots) + 12 (new carrots) - 2 (carrots thrown out) = 32 + 12 - 2 = 42\n\nTherefore, Nancy would have 42 carrots.\nSo the answer is \\boxed{42",
+      "pred_answer": 42.0
+    },
+    {
+      "question": "China has 1.4 billion people.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of carrots Nancy would have after picking 21 more, we need to add the carrots she picked the next day to the carrots she already picked.\n\nShe picked 12 carrots the first day and threw out 2, so she had 12 - 2 = 10 carrots left.\n\nThen, she picked 21 more carrots the next day. To find the total, we add 10 (the carrots she had left) to 21.\n\n10 + 21 = 31\n\nSo, Nancy would have 31 carrots after picking 21 more the next day.\nSo the answer is \\boxed{31",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "Japan has 125 million people.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have after throwing out 2 and picking 21 more, we need to add the number of carrots she picked the next day to the number of carrots she had initially.\n\nInitial number of carrots = 125 million\nNumber of carrots picked the next day = 21\nNumber of carrots thrown out = 2\n\nTotal carrots = Initial number of carrots + Number of carrots picked the next day - Number of carrots thrown out\n= 125,000,000 + 21 - 2\n= 125,000,000 + 19\n= 125,000,019\n\nSo, Nancy would have 125,000,019 carrots after throwing out 2 and picking 21 more.\nSo the answer is \\boxed{125,000,019",
+      "pred_answer": 19.0
+    },
+    {
+      "question": "The US has 50 states.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the carrots she picked the next day to the ones she already picked.\n\nShe picked 12 carrots the first day and then 21 more the next day. \n\n12 (picks the first day) + 21 (picks the second day) = 33\n\nSo, Nancy would have 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "The EU has 27 member states.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have after throwing out 2 and picking 21 more, we need to add the number of carrots she picked the next day to the number of carrots she threw out.\n\nInitial number of carrots = 12\nNumber of carrots thrown out = 2\nNumber of carrots picked the next day = 21\n\nTotal carrots = Initial number of carrots + Number of carrots picked the next day\n= 12 + 21\n= 33\n\nSo, Nancy would have 33 carrots after throwing out 2 and picking 21 more.\nSo the answer is \\boxed{The answer is 33.",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the carrots she picked on the first day and the carrots she picked on the second day.\n\nShe picked 12 carrots on the first day.\nShe threw out 2 carrots, so she had 12 - 2 = 10 carrots left.\nOn the second day, she picked 21 carrots.\n\nTo find the total number of carrots, we add the carrots she picked on the first day (10) and the carrots she picked on the second day (21):\n10 + 21 = 31\n\nSo, Nancy would have 31 carrots.\nSo the answer is \\boxed{31",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy has, we need to add the carrots she picked on the first day and the carrots she picked on the second day.\n\nOn the first day, she picked 12 carrots.\nOn the second day, she picked 21 carrots.\n\nTotal carrots = 12 + 21 = 33\n\nSo, Nancy has 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the carrots she picked on the first day and the carrots she picked on the second day.\n\nShe picked 12 carrots on the first day.\nShe threw out 2 carrots, so she had 12 - 2 = 10 carrots left.\nOn the second day, she picked 21 carrots.\n\nTo find the total number of carrots, we add the carrots she picked on the first day and the second day:\n10 (carrots left) + 21 (carrots picked on the second day) = 31 carrots.\n\nSo, Nancy would have 31 carrots.\nSo the answer is \\boxed{31",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The human body has 206 bones.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the number of carrots she picked the next day to the number of carrots she threw out.\n\nShe picked 21 carrots the next day, and she threw out 2 carrots. \n\nSo, the total number of carrots she would have is: 21 (picked) + 2 (thrown out) = 23\n\nTherefore, Nancy would have 23 carrots.\nSo the answer is \\boxed{23",
+      "pred_answer": 23.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy has, we need to add the number of carrots she picked on the first day and the number she picked on the second day.\n\nOn the first day, she picked 12 carrots.\nOn the second day, she picked 21 carrots.\n\nTotal carrots = 12 + 21 = 33\n\nSo, Nancy has 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the number of carrots she picked on the first day to the number she picked on the second day.\n\nShe picked 12 carrots on the first day and 21 carrots on the second day. \n\n12 + 21 = 33\n\nSo, Nancy would have 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the number of carrots she picked on the first day to the number of carrots she picked on the second day.\n\nShe picked 12 carrots on the first day and 21 carrots on the second day. \n\n12 + 21 = 33\n\nSo, Nancy would have 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the number of carrots she picked the next day to the number of carrots she had after throwing out 2.\n\nFirst, let's find out how many carrots she had after throwing out 2. \nShe had 46 - 2 = 44 carrots.\n\nThen, she picked 21 more carrots the next day. \n44 + 21 = 65 carrots.\n\nSo, Nancy would have 65 carrots in total.\nSo the answer is \\boxed{The answer is 65.",
+      "pred_answer": 65.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of carrots Nancy would have, we need to add the number of carrots she picked the next day to the number she already had.\n\nShe initially picked 12 carrots.\nShe threw out 2 carrots, so she had 12 - 2 = 10 carrots left.\nThen, she picked 21 more carrots the next day, so she now has 10 + 21 = 31 carrots.\n\nTherefore, Nancy would have 31 carrots in total.\nSo the answer is \\boxed{31",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the total number of carrots Nancy has, we need to add the carrots she picked the next day to the carrots she already picked.\n\nShe picked 12 carrots the first day and 21 carrots the next day, for a total of 12 + 21 = 33 carrots.\n\nSo, Nancy would have 33 carrots in total.\nSo the answer is \\boxed{33",
+      "pred_answer": 33.0
+    }
+  ]
+}

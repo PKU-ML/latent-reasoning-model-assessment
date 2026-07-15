@@ -1,0 +1,33 @@
+{
+  "question": " Wendy was playing a video game and had 10 lives. In a hard part of the game she lost 6 lives. If she got 37 more lives in the next level, how many lives would she have? ",
+  "ground_truth": "41.0",
+  "prefix": "cil%);\n� +512",
+  "prefix_token_ids": [
+    82123,
+    95152,
+    21980,
+    489,
+    8358
+  ],
+  "baseline_token_id": 3174,
+  "target_token_id": 3391,
+  "baseline_logit_diff": 3.9375,
+  "clean_logit_diff": -4.0,
+  "adv_logit_diff": 3.9375,
+  "best_logit_diff": 3.9375,
+  "clean_text": "The answer is: 41",
+  "clean_answer": 41.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 491",
+  "adv_answer": 491.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -3.875,
+    -3.75,
+    -3.625,
+    -3.625,
+    0.75,
+    3.9375
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 100,
+  "question": " George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+  "ground_truth": "8.0",
+  "baseline": {
+    "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.",
+    "pred_answer": 8.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 8,
+  "success_rate": 0.26666666666666666,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " MackOME Ip Achie ته",
+      "prefix_token_ids": [
+        33491,
+        11662,
+        36133,
+        42224,
+        103193
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: $30\nAmount spent on the game: $38\nAmount left: $30 - $38 = -$8\n\nSo, George has -$8 left.\nSo the answer is \\boxed{$8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " Similar Orders/appleunctureDetect",
+      "prefix_token_ids": [
+        22196,
+        32936,
+        76703,
+        63974,
+        58293
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.\nSo the answer is \\boxed{The answer is: $8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": " ethn superior pä conflictsallas",
+      "prefix_token_ids": [
+        79180,
+        16757,
+        93464,
+        26885,
+        16242
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSo, George has 8 dollars left.\nSo the answer is \\boxed{George has 8 dollars left.",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "_Execute_PPftime澤 Aunt",
+      "prefix_token_ids": [
+        84553,
+        44358,
+        18267,
+        119506,
+        71322
+      ],
+      "generated_text": "To find out how much money AuntGeorge has now, we need to subtract the amount he spent on the game from the initial amount he had.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, AuntGeorge now has -8 dollars.\nSo the answer is \\boxed{The answer is: $2",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 5,
+      "prefix": "(sv-Pacifictiesizioneyna",
+      "prefix_token_ids": [
+        97238,
+        64976,
+        29646,
+        39461,
+        53444
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the new game from the initial amount he had.\n\nInitial amount: 30 dollars\nAmount spent on the new game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.\nSo the answer is \\boxed{George now has -8 dollars.",
+      "pred_answer": -8.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 6,
+      "prefix": "ανα اح Lowellumptech，要",
+      "prefix_token_ids": [
+        110364,
+        102148,
+        96230,
+        63617,
+        114985
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: $30\nAmount spent on the game: $38\nAmount left: $30 - $38 = -$8\n\nSo, George has -$8 left.\nSo the answer is \\boxed{$8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "InSection caul_hashes् وخ",
+      "prefix_token_ids": [
+        35823,
+        86264,
+        92716,
+        30707,
+        126745
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nNew amount: 30 + 16 = 46 dollars\n\nSo, George now has 46 dollars.\nSo the answer is \\boxed{46",
+      "pred_answer": 46.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 8,
+      "prefix": " crystalMessages Passing.toolbox naken",
+      "prefix_token_ids": [
+        26110,
+        16198,
+        77392,
+        89365,
+        44945
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the initial amount he had.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.\nSo the answer is \\boxed{George now has 8 dollars.",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": ".Random険 stressedrons—you",
+      "prefix_token_ids": [
+        27807,
+        117126,
+        32647,
+        26692,
+        71480
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: $30\nAmount spent on the game: $38\nAmount left: $30 - $38 = -$8\n\nSo, George now has -$8.\nSo the answer is \\boxed{$8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "_close(grammarAccessbench appIdkf",
+      "prefix_token_ids": [
+        12993,
+        92617,
+        28122,
+        51656,
+        82969
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the new game from the initial amount he had.\n\nInitial amount: 30 dollars\nAmount spent on the new game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.\nSo the answer is \\boxed{The answer is: -$8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "CameraMikeैं।Kick Чем",
+      "prefix_token_ids": [
+        13751,
+        35541,
+        101130,
+        89364,
+        117848
+      ],
+      "generated_text": "To find out how much money Kick ЧемGeorge has now, we need to subtract the amount he spent on the new game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the new game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince Kick ЧемGeorge can't have negative money, we need to add 8 dollars to the initial amount to get the correct answer.\n\nAmount left: 30 + 8 = 38 dollars\n\nSo, Kick ЧемGeorge now has 38 dollars.\nSo the answer is \\boxed{38",
+      "pred_answer": 38.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 12,
+      "prefix": "mey údajeistratesAEA.sheet",
+      "prefix_token_ids": [
+        111142,
+        114324,
+        94200,
+        91921,
+        74997
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSo, George has 8 dollars left.\nSo the answer is \\boxed{George has 8 dollars left.",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": "StandardVisitedcompassLex.patch",
+      "prefix_token_ids": [
+        20367,
+        76595,
+        31929,
+        48878,
+        27799
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSo, George has 8 dollars left.\nSo the answer is \\boxed{George has 8 dollars left.",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "asper/routes SwiftUIDiagram Yüz",
+      "prefix_token_ids": [
+        33361,
+        64070,
+        75981,
+        93995,
+        115500
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the initial amount he had.\n\nInitial amount: $30\nAmount spent on the game: $38\n\nSubtract the amount spent from the initial amount:\n$30 - $38 = -$8\n\nSo, George now has -$8.\nSo the answer is \\boxed{$8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " ^{inous McGill riversCU",
+      "prefix_token_ids": [
+        101122,
+        61798,
+        94076,
+        36617,
+        17218
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the initial amount he had.\n\nInitial amount: $30\nAmount spent on the game: $38\nAmount left: $30 - $38 = -$8\n\nGeorge has -$8 left, which means he is $8 less than the initial amount.\nSo the answer is \\boxed{$8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " 台อะ 고객)는 tun",
+      "prefix_token_ids": [
+        109142,
+        107313,
+        116534,
+        114484,
+        11716
+      ],
+      "generated_text": "tunGeorge had 30 dollars. He got 16 more dollars for his birthday. \n\n30 + 16 = 46\n\nThen he spent 38 dollars on a new game. \n\n46 - 38 = 8\n\nSo, tunGeorge now has 8 dollars.\nSo the answer is \\boxed{The answer is: 8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": " salvondersbusiness tardeBindings",
+      "prefix_token_ids": [
+        28158,
+        28413,
+        27243,
+        61745,
+        53943
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: $30\nAmount spent on the game: $38\nAmount left: $30 - $38 = -$8\n\nSo, George has -$8 left.\nSo the answer is \\boxed{$8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": " действияometimes__,__morph温度",
+      "prefix_token_ids": [
+        115015,
+        12982,
+        84030,
+        90933,
+        126287
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the initial amount he had.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George has -8 dollars left.\nSo the answer is \\boxed{George has -8 dollars.",
+      "pred_answer": -8.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 19,
+      "prefix": " ['/_EVAL stigma_producto\tproperty",
+      "prefix_token_ids": [
+        74905,
+        72065,
+        60381,
+        59528,
+        71485
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.\nSo the answer is \\boxed{The answer is: $8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " individSer हलROWS Б",
+      "prefix_token_ids": [
+        23496,
+        32845,
+        120917,
+        38242,
+        126826
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the initial amount he had.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.\nSo the answer is \\boxed{The answer is: $8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": "kün sextposer担当 measured",
+      "prefix_token_ids": [
+        106511,
+        38103,
+        20672,
+        126913,
+        17303
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the new game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the new game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.\nSo the answer is \\boxed{The answer is: $-8",
+      "pred_answer": -8.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 22,
+      "prefix": ".Nome مرات_< ive-INFRINGEMENT",
+      "prefix_token_ids": [
+        94453,
+        120941,
+        42843,
+        99677,
+        95773
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the new game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSo, George has 8 dollars left.\nSo the answer is \\boxed{The answer is: 8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "rug.signal bankerwent newNode",
+      "prefix_token_ids": [
+        73047,
+        51553,
+        72759,
+        42700,
+        34660
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: $30\nAmount spent on the game: $38\nAmount left: $30 - $38 = -$8\n\nSo, George now has -$8.\nSo the answer is \\boxed{$8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "InView cremcoilplants performed",
+      "prefix_token_ids": [
+        93030,
+        71296,
+        86837,
+        64805,
+        10887
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: $30\nAmount spent on the game: $38\nAmount left: $30 - $38 = -$8\n\nSo, George now has -$8.\nSo the answer is \\boxed{George now has -$8.",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " waiver Aggregate chapters kindergarten_CMP",
+      "prefix_token_ids": [
+        54205,
+        58022,
+        30732,
+        68223,
+        84356
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.\nSo the answer is \\boxed{George now has -8 dollars.",
+      "pred_answer": -8.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 26,
+      "prefix": " ترجمه RHS 女]\") IDirect",
+      "prefix_token_ids": [
+        117361,
+        74932,
+        107384,
+        88382,
+        97732
+      ],
+      "generated_text": "ترجمة: George Had 30$ و 16$ لذات أسبوع.  و 38$ لشراء ألعاب جديدة. \n\nالجواب هو 30$ + 16$ - 38$ = 18$\nSo the answer is \\boxed{18$",
+      "pred_answer": 18.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 27,
+      "prefix": "Brian RitaчисExerciseulating",
+      "prefix_token_ids": [
+        51188,
+        72068,
+        113001,
+        53809,
+        15853
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the initial amount he had.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.\nSo the answer is \\boxed{George now has 8 dollars.",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": ".tf algunsvideo WORLD Fancy",
+      "prefix_token_ids": [
+        70094,
+        78369,
+        10191,
+        51991,
+        82899
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the new game from the initial amount he had.\n\nInitial amount: $30\nAmount spent on the new game: $38\n\n$30 - $38 = -$8\n\nSo, George now has -$8.\nSo the answer is \\boxed{$8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "sinudiesTeX ardından debugging",
+      "prefix_token_ids": [
+        16319,
+        58787,
+        56063,
+        109874,
+        28803
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtract the amount spent from the initial amount:\n30 - 38 = -8\n\nSo, George now has -8 dollars.\nSo the answer is \\boxed{The answer is: $8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " Cel Blobเอ lựcSKU",
+      "prefix_token_ids": [
+        47643,
+        50539,
+        101692,
+        102686,
+        90855
+      ],
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the new game from the initial amount he had.\n\nInitial amount: $30\nAmount spent on the new game: $38\nAmount left: $30 - $38 = -$8\n\nSo, George now has -$8.\nSo the answer is \\boxed{$8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

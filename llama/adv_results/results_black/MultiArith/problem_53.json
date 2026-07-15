@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 53,
+  "question": " Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+  "ground_truth": "7.0",
+  "baseline_correct": true,
+  "baseline_answer": 7.0,
+  "best_rewrite": "Japan has 125 million people.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+  "best_fact": "Japan has 125 million people.",
+  "best_pred_answer": 971.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 3,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45 carrots\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "April has 30 days.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nNumber of good carrots = 29\nNumber of bad carrots = Total number of carrots - Number of good carrots\n= 30 - 29\n= 1\n\nSo, they had 1 bad carrot.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A year has 12 months.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots = 29 (Carol's carrots) + 16 (mother's carrots) = 45 carrots\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A week has 7 days.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (by Carol) + 16 (by mom) = 45\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "An hour has 60 minutes.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45 carrots\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A minute has 60 seconds.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45 carrots\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A year has 365 days.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (by Carol) + 16 (by mom) = 45\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the total number of carrots picked, we need to add the number of carrots Carol picked and the number of carrots her mom picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mom's carrots) = 45\n\nSince only 38 carrots were good, we need to subtract the number of good carrots from the total to find the number of bad carrots.\n\nBad carrots = Total carrots picked - Good carrots = 45 - 38 = 7\n\nSo, Carol and her mom had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to first find the total number of carrots picked by both Carol and her mom. \n\nCarol picked 29 carrots, and her mom picked 16 carrots. So, the total number of carrots picked is 29 + 16 = 45.\n\nSince only 38 carrots were good, the number of bad carrots is the difference between the total number of carrots picked and the number of good carrots. \n\nNumber of bad carrots = Total number of carrots - Number of good carrots\n= 45 - 38\n= 7\n\nSo, Carol and her mom have 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45 carrots\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45 carrots\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "An adult has 32 teeth.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol) + 16 (Mom) = 45\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "China has 1.4 billion people.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots = 1.4 billion\nGood carrots = 29\nBad carrots = Total carrots - Good carrots\n\nBad carrots = 1,400,000,000 - 29\nBad carrots = 1,400,000,071\n\nSo, they had approximately 1.4 billion bad carrots.\nSo the answer is \\boxed{1,400,000,071",
+      "pred_answer": 71.0
+    },
+    {
+      "question": "Japan has 125 million people.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots = 125 million\nGood carrots = 29\nBad carrots = Total carrots - Good carrots\n\nBad carrots = 125,000,000 - 29\nBad carrots = 124,999,971\n\nSo, they had 124,999,971 bad carrots.\nSo the answer is \\boxed{124,999,971",
+      "pred_answer": 971.0
+    },
+    {
+      "question": "The US has 50 states.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45 carrots\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The EU has 27 member states.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (by Carol) + 16 (by her mom) = 45\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45 carrots\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, Carol and her mom have 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of carrots picked, we need to add the number of carrots picked by Carol and her mom. \n\nCarol picked 29 carrots.\nHer mom picked 16 carrots.\n\nTotal carrots picked = 29 + 16 = 45\n\nSince only 38 carrots were good, we need to subtract the number of good carrots from the total to find the number of bad carrots.\n\nBad carrots = Total carrots - Good carrots\nBad carrots = 45 - 38\nBad carrots = 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The human body has 206 bones.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45 carrots\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (by Carol) + 16 (by mom) = 45\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45 carrots\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (by Carol) + 16 (by her mom) = 45\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol) + 16 (mom) = 45\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol) + 16 (mom) = 45\n\nNumber of good carrots = 38\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (by Carol) + 16 (by her mom) = 45\n\nNumber of bad carrots = Total carrots picked - Number of good carrots\n= 45 - 38\n= 7\n\nSo, they had 7 bad carrots.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    }
+  ]
+}

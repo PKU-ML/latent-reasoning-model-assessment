@@ -1,0 +1,28 @@
+{
+  "question": "The Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?",
+  "ground_truth": "500.0",
+  "prefix": " draftedlins Essex 655Ire",
+  "prefix_token_ids": [
+    15937,
+    21602,
+    38307,
+    45021,
+    48505
+  ],
+  "baseline_token_id": 5323,
+  "target_token_id": 25240,
+  "baseline_logit_diff": -2.296875,
+  "clean_logit_diff": -2.25,
+  "adv_logit_diff": 6.953125,
+  "best_logit_diff": 6.953125,
+  "clean_text": "The Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?\n### 500",
+  "clean_answer": 500.0,
+  "clean_correct": true,
+  "adv_text": "draftedlins Essex 655IreThe Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?\n### 550",
+  "adv_answer": 550.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    6.953125
+  ]
+}

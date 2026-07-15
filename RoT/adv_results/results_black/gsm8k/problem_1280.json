@@ -1,0 +1,226 @@
+{
+  "question": "Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+  "ground_truth": "7.0",
+  "best_rewrite": "There are 24 hours in a day. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+  "best_fact": "There are 24 hours in a day.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "assistant\n### 11 ",
+    "pred_answer": 11.0
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "April has 30 days. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 7 ",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "A year has 12 months. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 7 ",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A week has 7 days. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "An hour has 60 minutes. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 35 ",
+      "pred_answer": 35.0
+    },
+    {
+      "question": "A minute has 60 seconds. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 30 ",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A year has 365 days. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 16 ",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 15.5 ",
+      "pred_answer": 15.5
+    },
+    {
+      "question": "Water freezes at 0 degrees. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 7 ",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 15 ",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 7 ",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "An adult has 32 teeth. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "China has 1.4 billion people. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "Japan has 125 million people. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11.5 ",
+      "pred_answer": 11.5
+    },
+    {
+      "question": "The US has 50 states. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "The EU has 27 member states. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "The human body has 206 bones. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 7 ",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10.5 ",
+      "pred_answer": 10.5
+    },
+    {
+      "question": "A plant has 46 chromosomes. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 7 ",
+      "pred_answer": 7.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 126,
+  "question": "White t - shirts can be purchased in packages of 13. If mom buys 39 white t - shirts How many packages will she have?",
+  "ground_truth": "3",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Hlav lub:\r\n",
+  "prefix_token_ids": [
+    120013,
+    28445,
+    2904
+  ],
+  "best_wrong_prob": 1.1794890938645128e-19,
+  "clean_text": "To find out how many packages of white t-shirts mom can buy, we need to divide the total number of t-shirts by the number of t-shirts per package.\n\nNumber of t-shirts per package = 13\nTotal number of ",
+  "clean_pred": 3.0,
+  "clean_correct": true,
+  "adv_text": "Kdyz se 39 white t-shirts prodáváte v kapechách 13, je zbytek 39 - 13 = 26.\nSo the answer is \\boxed{26",
+  "adv_pred": 26.0,
+  "adv_correct": false,
+  "attack_success": true
+}

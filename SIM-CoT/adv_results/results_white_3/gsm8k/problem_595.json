@@ -1,0 +1,26 @@
+{
+  "question": "Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+  "ground_truth": "13.0",
+  "prefix": ">(GD dozens",
+  "prefix_token_ids": [
+    33994,
+    45113,
+    9264
+  ],
+  "baseline_token_id": 1511,
+  "target_token_id": 1478,
+  "baseline_logit_diff": -0.375,
+  "clean_logit_diff": -6.1953125,
+  "adv_logit_diff": 3.34375,
+  "best_logit_diff": 3.34375,
+  "clean_text": "Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?\n### 13",
+  "clean_answer": 13.0,
+  "clean_correct": true,
+  "adv_text": ">(GD dozensJerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?\n### 29",
+  "adv_answer": 29.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    3.34375
+  ]
+}

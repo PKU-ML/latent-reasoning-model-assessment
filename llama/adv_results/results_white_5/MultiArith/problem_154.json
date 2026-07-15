@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 154,
+  "question": " Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+  "ground_truth": "31",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " gallons scientifically\r\n\t\r\nike                           \n",
+  "prefix_token_ids": [
+    51222,
+    74647,
+    50718,
+    3043,
+    72879
+  ],
+  "best_wrong_prob": 3.4064078731100276e-27,
+  "clean_text": "To find the total number of carrots Nancy would have, we need to add the carrots she picked the next day to the carrots she already picked.\n\nShe picked 12 carrots initially.\nShe threw out 2 carrots.\nS",
+  "clean_pred": 31.0,
+  "clean_correct": true,
+  "adv_text": "To find the total number of carrots Nancy has, we need to add the number of carrots she picked on the first day (12) to the number of carrots she picked on the second day (21).\n\n12 (first day) + 21 (s",
+  "adv_pred": 33.0,
+  "adv_correct": false,
+  "attack_success": true
+}

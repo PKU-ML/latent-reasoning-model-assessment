@@ -1,0 +1,171 @@
+{
+  "question": "Arianna plants a garden that has 10 rows of flowers with 20 flowers in each row. Currently, only 4/5 of the planted flowers have bloomed. How many flowers in Arianna's garden have bloomed?",
+  "ground_truth": "160.0",
+  "best_prefix": " penetrated Fibriting *436",
+  "best_prefix_token_ids": [
+    97922,
+    43564,
+    12479,
+    353,
+    21299
+  ],
+  "baseline_token_id": 6330,
+  "target_token_id": 10513,
+  "baseline_logit_diff": 0.0,
+  "clean_logit_diff": -7.6875,
+  "best_logit_diff": 2.0,
+  "best_cosine": 0.93359375,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 160",
+  "clean_answer": 160.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 164",
+  "adv_answer": 164.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " penetrated Fibriting *436",
+      "prefix_ids": [
+        97922,
+        43564,
+        12479,
+        353,
+        21299
+      ],
+      "logit_diff": 2.0,
+      "cosine_sim": 0.93359375,
+      "answer": 164.0,
+      "correct": false
+    },
+    {
+      "prefix": " Shel \n131_hot Rebels",
+      "prefix_ids": [
+        37940,
+        720,
+        9263,
+        34533,
+        90435
+      ],
+      "logit_diff": 1.75,
+      "cosine_sim": 0.94921875,
+      "answer": 164.0,
+      "correct": false
+    },
+    {
+      "prefix": " solids572 rhythm943 ruling",
+      "prefix_ids": [
+        82486,
+        22468,
+        37390,
+        26576,
+        17864
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.9375,
+      "answer": 164.0,
+      "correct": false
+    },
+    {
+      "prefix": " установкиKi=>{\n261])\n",
+      "prefix_ids": [
+        124239,
+        73672,
+        13436,
+        15602,
+        2608
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.93359375,
+      "answer": 164.0,
+      "correct": false
+    },
+    {
+      "prefix": " corridors Purs?>\n258 \"",
+      "prefix_ids": [
+        75752,
+        71760,
+        6121,
+        15966,
+        330
+      ],
+      "logit_diff": 0.75,
+      "cosine_sim": 0.9375,
+      "answer": 164.0,
+      "correct": false
+    },
+    {
+      "prefix": " craftsRu ());\n\n343 Tender",
+      "prefix_ids": [
+        44948,
+        99725,
+        90784,
+        16522,
+        94967
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.93359375,
+      "answer": 164.0,
+      "correct": false
+    },
+    {
+      "prefix": " solids572 {\n infectiousaje",
+      "prefix_ids": [
+        82486,
+        22468,
+        341,
+        50600,
+        11305
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.9453125,
+      "answer": 164.0,
+      "correct": false
+    },
+    {
+      "prefix": " penetrated709ramid alerts Phonetic",
+      "prefix_ids": [
+        97922,
+        22874,
+        32803,
+        30350,
+        96834
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.93359375,
+      "answer": 164.0,
+      "correct": false
+    },
+    {
+      "prefix": " solids572 {\n infectious Tender",
+      "prefix_ids": [
+        82486,
+        22468,
+        341,
+        50600,
+        94967
+      ],
+      "logit_diff": 0.0,
+      "cosine_sim": 0.94921875,
+      "answer": 160.0,
+      "correct": true
+    },
+    {
+      "prefix": " penetrated709riting alerts Phonetic",
+      "prefix_ids": [
+        97922,
+        22874,
+        12479,
+        30350,
+        96834
+      ],
+      "logit_diff": 0.0,
+      "cosine_sim": 0.93359375,
+      "answer": 160.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

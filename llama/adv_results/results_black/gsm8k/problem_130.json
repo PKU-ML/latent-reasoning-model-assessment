@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 130,
+  "question": "Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+  "ground_truth": "30.0",
+  "baseline_correct": true,
+  "baseline_answer": 30.0,
+  "best_rewrite": "Oxygen makes up about 21% of air. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+  "best_fact": "Oxygen makes up about 21% of air.",
+  "best_pred_answer": 181.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 4,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find out how many elves were initially hired and then subtract the number of elves who quit.\n\nInitially, Nissa hired 60 elves.\n\nA third of the elves quit after children vomit on them, so 1/3 * 60 = 20 elves quit.\n\n10 elves quit after kids kick their shins, so 60 - 20 - 10 = 30 elves remain.\n\nThe number of elves left is 30.\nSo the answer is \\boxed{30",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "April has 30 days. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of elves left, we first need to find out how many elves were initially hired. Since April has 30 days and Nissa hires 60 seasonal workers, we can calculate the initial number of elves as follows:\n\nInitial elves = 30 days * 60 workers/day = 1800 elves\n\nNow, let's calculate the number of elves who quit:\n\n1. Elves who quit after children vomit: 1/3 of 1800 elves = 1800 / 3 = 600 elves\n2. Elves who quit after kids kick their shins: 10 elves\nTotal elves who quit = 600 + 10 = 610 elves\n\nNow, let's find the number of elves left:\n\nElves left = Initial elves - Total elves who quit\nElves left = 1800 - 610\nElves left = 1190\n\nSo, there are 1190 elves left in the Santa village.\nSo the answer is \\boxed{1190",
+      "pred_answer": 1190.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to subtract the number of elves who quit after vomiting and shins. \n\nInitially, there were 60 elves. \n\n- 1/3 of the elves quit after vomiting, which is 1/3 * 60 = 20 elves.\n- 10 elves quit after shins, so 20 + 10 = 30 elves quit in total.\n\nNow, subtract the number of elves who quit from the initial number of elves: 60 - 30 = 30 elves left.\n\nThe answer is 30.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to subtract the number of elves who quit after vomiting and shins. \n\nFirst, let's find the number of elves who quit after vomiting. A third of 60 is 60 / 3 = 20 elves. \n\nNow, we subtract the number of elves who quit after vomiting from the total number of elves: 60 - 20 = 40 elves.\n\nNext, we subtract the number of elves who quit after shins: 40 - 10 = 30 elves.\n\nSo, the number of elves left is 30.\nSo the answer is \\boxed{The number of elves left is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to subtract the number of elves who quit after vomiting and shins. \n\nFirst, we find the number of elves who quit after vomiting: 1/3 of 60 elves = 20 elves. \n\nNow, we subtract this from the total number of elves: 60 - 20 = 40 elves.\n\nThen, we subtract the number of elves who quit after shins: 40 - 10 = 30 elves.\n\nSo, there are 30 elves left.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A year has 12 months. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to subtract the number of elves who quit after vomiting and shins. \n\nFirst, we find the number of elves who quit after vomiting: 1/3 of 60 elves = 20 elves. \n\nNow, we subtract the elves who quit after vomiting from the total number of elves: 60 - 20 = 40 elves.\n\nNext, we find the number of elves who quit after shins: 10 elves.\n\nNow, we subtract the elves who quit after shins from the number of elves who quit after vomiting: 40 - 10 = 30 elves.\n\nSo, the number of elves left is 30.\nSo the answer is \\boxed{The number of elves left is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A week has 7 days. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to subtract the number of elves who quit after each incident.\n\nInitially, Nissa hires 60 elves.\n\n- 1/3 of the elves quit after children vomit on them, which is 1/3 * 60 = 20 elves.\n- 10 elves quit after kids kick their shins, so the total number of elves who quit is 20 + 10 = 30 elves.\n\nNow, we subtract the number of elves who quit from the initial number of elves:\n60 - 30 = 30 elves left.\n\nSo, there are 30 elves left in the Santa village.\nSo the answer is \\boxed{There are 30 elves left.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "An hour has 60 minutes. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find out how many elves were initially hired and then subtract the elves that quit.\n\nInitially, Nissa hired 60 elves.\n\nA third of the elves quit after children vomit on them, which is 60 / 3 = 20 elves.\n\nSo, 60 - 20 = 40 elves remain.\n\n10 elves quit after kids kick their shins, which is 40 - 10 = 30 elves left.\n\nTherefore, there are 30 elves left.\nSo the answer is \\boxed{There are 30 elves left.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A minute has 60 seconds. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find out how many elves were initially hired and then subtract the elves who quit.\n\nInitially, Nissa hired 60 elves.\n\nA third of the elves quit after children vomit on them, so 1/3 * 60 = 20 elves quit.\n\n10 elves quit after kids kick their shins, so 60 - 20 - 10 = 30 elves remain.\n\nThe number of elves left is 30.\nSo the answer is \\boxed{The number of elves left is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A year has 365 days. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first calculate the number of elves that quit after the first two incidents.\n\n60 elves were hired initially. A third of them quit after the first incident, which is 60 / 3 = 20 elves. So, 60 - 20 = 40 elves remain.\n\nAfter the second incident, 10 elves quit, leaving 40 - 10 = 30 elves.\n\nSo, the number of elves left is 30.\nSo the answer is \\boxed{The number of elves left is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first calculate the number of elves that quit after the first two incidents.\n\n60 elves were hired initially, and a third of them quit after the first incident. A third of 60 is 20, so 20 elves quit after the first incident.\n\n60 - 20 = 40 elves remain.\n\nAfter the second incident, 10 elves quit, leaving 40 - 10 = 30 elves.\n\nSo, 30 elves are left.\nSo the answer is \\boxed{There are 30 elves left.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find the number of elves that quit after the first two incidents. \n\n60 elves were hired initially. A third of them quit after the first incident, which is 60 / 3 = 20 elves. \n\nSo, 60 - 20 = 40 elves remain.\n\n10 elves quit after the second incident, so 40 - 10 = 30 elves remain.\n\nThe number of elves left is 30.\nSo the answer is \\boxed{The number of elves left is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to subtract the number of elves who quit after each incident.\n\nInitially, Nissa hires 60 elves.\n\n- 1/3 of the elves quit after children vomit on them, which is 1/3 * 60 = 20 elves.\n- 10 elves quit after kids kick their shins, so the total number of elves who quit is 20 + 10 = 30 elves.\n\nNow, we subtract the number of elves who quit from the initial number of elves:\n60 - 30 = 30 elves left.\n\nSo, there are 30 elves left in the Santa village.\nSo the answer is \\boxed{There are 30 elves left.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first calculate the number of elves that quit after the first two incidents.\n\n60 elves were hired initially. A third of them quit after the first incident, which is 60 / 3 = 20 elves.\n\nAfter the first incident, there are 60 - 20 = 40 elves left.\n\n10 elves quit after the second incident, so the number of elves left is 40 - 10 = 30 elves.\n\nThe answer is 30.\nSo the answer is \\boxed{The number of elves left is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the number of elves left, we need to first find out how many elves were initially hired and then subtract the number of elves who quit.\n\nInitially, Nissa hired 60 elves.\n\nA third of the elves quit after children vomit on them, which is 60 / 3 = 20 elves.\n\nSo, 20 elves quit.\n\n10 elves quit after kids kick their shins, which is 60 - 20 = 40 elves remaining.\n\nTherefore, there are 40 elves left.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "An adult has 32 teeth. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find out how many elves were initially hired and then subtract the number of elves who quit.\n\nInitially, Nissa hired 60 elves.\n\nA third of the elves quit after children vomit on them, which is 60 / 3 = 20 elves.\n\nSo, 60 - 20 = 40 elves remain.\n\n10 elves quit after kids kick their shins, so 40 - 10 = 30 elves remain.\n\nThe answer is 30.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "China has 1.4 billion people. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find the number of elves that quit after the first two incidents. \n\n60 elves were hired initially, and a third of them quit after the first incident. A third of 60 is 20, so 20 elves quit after the first incident.\n\n60 - 20 = 40 elves remain.\n\nThen, 10 elves quit after the second incident. So, 40 - 10 = 30 elves remain.\n\nTherefore, there are 30 elves left.\nSo the answer is \\boxed{There are 30 elves left.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Japan has 125 million people. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of elves left, we need to first find out how many elves were initially hired. Since a third of the elves quit, that means 2/3 of the elves stayed.\n\nNumber of elves initially hired = 125 million\nNumber of elves who quit = 2/3 * 125 million\n= 2/3 * 125,000,000\n= 83,333,333\n\nNumber of elves who stayed = 125 million - 83,333,333\n= 41,666,667\n\nNow, 10 elves quit after kids kick their shins, so we need to subtract 10 from the number of elves who stayed.\n\nNumber of elves left = 41,666,667 - 10\n= 41,666,557\n\nSo, there are 41,666,557 elves left in the Santa village.\nSo the answer is \\boxed{41,666,557",
+      "pred_answer": 557.0
+    },
+    {
+      "question": "The US has 50 states. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to subtract the number of elves who quit after vomiting and shins. \n\nFirst, let's find the number of elves who quit after vomiting. A third of 60 is 60 / 3 = 20 elves. \n\nNow, we subtract the number of elves who quit after vomiting from the total number of elves: 60 - 20 = 40 elves.\n\nNext, we subtract the number of elves who quit after shins: 40 - 10 = 30 elves.\n\nSo, the number of elves left is 30.\nSo the answer is \\boxed{The number of elves left is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The EU has 27 member states. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to subtract the number of elves who quit after the two incidents from the total number of elves hired.\n\nInitially, Nissa hired 60 elves.\n\n- 1/3 of the elves quit after children vomit on them, which is 1/3 * 60 = 20 elves.\n- 10 elves quit after kids kick their shins, so the total number of elves who quit is 20 + 10 = 30 elves.\n\nNow, subtract the number of elves who quit from the initial number of elves:\n60 - 30 = 30 elves left.\n\nThe answer is 30.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find the number of elves that quit after the first two incidents. \n\n60 elves were hired initially. A third of them quit after the first incident, which is 60 / 3 = 20 elves. \n\nSo, 60 - 20 = 40 elves remain.\n\nAfter the second incident, 10 elves quit, leaving 40 - 10 = 30 elves.\n\nTherefore, there are 30 elves left.\nSo the answer is \\boxed{There are 30 elves left.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find the number of elves that quit after the first two incidents. \n\n60 elves were hired initially. A third of them quit after the first incident, which is 60 / 3 = 20 elves. \n\nAfter the first incident, 60 - 20 = 40 elves remain. \n\nThen, 10 elves quit after the second incident, leaving 40 - 10 = 30 elves.\n\nSo, the number of elves left is 30.\nSo the answer is \\boxed{The number of elves left is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find the number of elves that quit after the first two incidents. \n\n60 elves were hired initially, and a third of them quit after the first incident. A third of 60 is 20, so 20 elves quit after the first incident.\n\n60 - 20 = 40 elves remain.\n\nThen, 10 elves quit after the second incident. So, 40 - 10 = 30 elves remain.\n\nTherefore, there are 30 elves left.\nSo the answer is \\boxed{There are 30 elves left.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The human body has 206 bones. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find the number of elves that quit after vomiting and then after kicking their shins. \n\n60 elves were hired initially. A third of them quit after vomiting, which is 60 / 3 = 20 elves. \n\n60 - 20 = 40 elves remain after the first group quit.\n\n10 elves quit after kicking their shins, so 40 - 10 = 30 elves remain.\n\nThe number of elves left is 30.\nSo the answer is \\boxed{The number of elves left is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find the number of elves that quit after vomiting and then after kicking their shins. \n\nInitially, there are 60 elves. \n\n- 1/3 of the elves quit after vomiting, so 1/3 * 60 = 20 elves quit.\n- 10 elves quit after kicking their shins, so 20 + 10 = 30 elves quit in total.\n\nNow, we subtract the total number of elves that quit from the initial number of elves: 60 - 30 = 30 elves left.\n\nThe answer is 30.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the number of elves left, we need to first find out how many elves were initially hired. Since oxygen makes up 21% of air, we can set up the following proportion:\n\n21% of the elves = 60\n\nTo find the total number of elves, we can set up the equation:\n\n0.21x = 60\n\nTo solve for x, we can divide both sides by 0.21:\n\nx = 60 / 0.21\nx = 285.71\n\nSo, Nissa initially hired approximately 286 elves.\n\nNow, let's calculate the number of elves who quit:\n\n1/3 of the elves quit after children vomit on them, which is 1/3 * 286 = 95 elves.\n\nAfter 95 elves quit, the number of elves left is:\n\n286 - 95 = 191\n\nThen, 10 elves quit after kids kick their shins, which is 10 elves.\n\nTo find the final number of elves left, we subtract the number of elves who quit after the two incidents:\n\n191 - 10 = 181\n\nSo, there are 181 elves left.\nSo the answer is \\boxed{181",
+      "pred_answer": 181.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first calculate the number of elves that quit after the first two incidents. \n\n60 elves were hired initially. A third of them quit after the first incident, which is 60 / 3 = 20 elves. \n\nAfter the first incident, 60 - 20 = 40 elves remain. \n\n10 elves quit after the second incident, so 40 - 10 = 30 elves remain.\n\nTherefore, there are 30 elves left.\nSo the answer is \\boxed{There are 30 elves left.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find out how many elves were initially in the department store. Since a third of the elves quit after children vomit on them, that means 1/3 of the elves quit. \n\n1/3 of 60 is 20 elves. So, 60 - 20 = 40 elves remained.\n\nThen, 10 elves quit after kids kick their shins. So, 40 - 10 = 30 elves are left.\n\nThe answer is 30.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to first find out how many elves were initially hired. Since a third of the elves quit after children vomit, that means 1/3 of the elves quit. \n\n60 elves / 3 = 20 elves quit.\n\nSo, 60 - 20 = 40 elves remained.\n\nThen, 10 elves quit after kids kick their shins, so 40 - 10 = 30 elves remained.\n\nThe answer is 30.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the number of elves left, we need to subtract the number of elves who quit from the total number of elves hired.\n\nInitially, Nissa hired 60 elves.\n\n- 1/3 of the elves quit after children vomit on them, which is 1/3 * 60 = 20 elves.\n- 10 elves quit after kids kick their shins, so 20 + 10 = 30 elves quit in total.\n\nNow, subtract the number of elves who quit from the initial number of elves:\n60 - 30 = 30 elves left.\n\nThe answer is 30.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    }
+  ]
+}

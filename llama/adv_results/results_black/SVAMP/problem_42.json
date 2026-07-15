@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 42,
+  "question": "There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+  "ground_truth": "10.0",
+  "baseline_correct": true,
+  "baseline_answer": 10.0,
+  "best_rewrite": "The Nile is about 6650 km long. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+  "best_fact": "The Nile is about 6650 km long.",
+  "best_pred_answer": 650.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets: 65\nNumber of red peaches per basket: 7\nNumber of green peaches per basket: 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{458",
+      "pred_answer": 458.0
+    },
+    {
+      "question": "April has 30 days. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to divide the total number of peaches by the total number of baskets.\n\nNumber of peaches = 65\nNumber of baskets = 30\n\nNumber of peaches per basket = Total peaches / Number of baskets\n= 65 / 30\n= 2.17 (approximately)\n\nSince we can't have a fraction of a peach, we can round down to 2 peaches per basket.\nSo the answer is \\boxed{2 peaches per basket",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets: 65\nNumber of peaches in each basket: 7 (red) + 3 (green) = 10\n\nTotal peaches in each basket: 65 * 10 = 650\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{650",
+      "pred_answer": 650.0
+    },
+    {
+      "question": "Today is the 3rd of the month. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets: 65\nNumber of peaches in each basket: 7\n\nTotal peaches = 65 * 7\nTotal peaches = 455\n\nNow, we need to divide the total number of peaches by the number of baskets to find the number of peaches in each basket.\n\nNumber of peaches in each basket = Total peaches / Number of baskets\nNumber of peaches in each basket = 455 / 65\nNumber of peaches in each basket = 7.07\n\nSo, there are approximately 7 peaches in each basket.\nSo the answer is \\boxed{There are approximately 7 peaches in each basket.",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets: 65\nNumber of red peaches per basket: 7\nNumber of green peaches per basket: 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{There are 458 peaches in each basket.",
+      "pred_answer": 458.0
+    },
+    {
+      "question": "A year has 12 months. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets = 65\nNumber of red peaches per basket = 7\nNumber of green peaches per basket = 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{458",
+      "pred_answer": 458.0
+    },
+    {
+      "question": "A week has 7 days. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets: 7\nNumber of peaches in each basket: 7\nTotal peaches: 7 * 7 = 49\n\nThere are 49 peaches in each basket.\nSo the answer is \\boxed{There are 49 peaches in each basket.",
+      "pred_answer": 49.0
+    },
+    {
+      "question": "An hour has 60 minutes. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets: 65\nNumber of peaches in each basket: 7\nTotal peaches: 65 * 7 = 455\n\nThere are 455 peaches in total.\nSo the answer is \\boxed{455",
+      "pred_answer": 455.0
+    },
+    {
+      "question": "A minute has 60 seconds. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets: 65\nNumber of peaches in each basket: 7\nTotal peaches: 65 * 7 = 455\n\nThere are 455 peaches in total.\nSo the answer is \\boxed{455",
+      "pred_answer": 455.0
+    },
+    {
+      "question": "A year has 365 days. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets: 65\nNumber of red peaches per basket: 7\nNumber of green peaches per basket: 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{458",
+      "pred_answer": 458.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets = 65\nNumber of red peaches per basket = 7\nNumber of green peaches per basket = 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{458",
+      "pred_answer": 458.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets = 65\nNumber of red peaches per basket = 7\nNumber of green peaches per basket = 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{458",
+      "pred_answer": 458.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets = 65\nNumber of peaches in each basket = 7 (red) + 3 (green) = 10\n\nTotal peaches = 65 * 10 = 650\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{There are 650 peaches in each basket.",
+      "pred_answer": 650.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets = 65\nNumber of red peaches per basket = 7\nNumber of green peaches per basket = 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{458",
+      "pred_answer": 458.0
+    },
+    {
+      "question": "The human heart has 4 chambers. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches and the number of green peaches.\n\nNumber of baskets = 65\nNumber of red peaches per basket = 7\nNumber of green peaches per basket = 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{458",
+      "pred_answer": 458.0
+    },
+    {
+      "question": "An adult has 32 teeth. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to divide the total number of peaches by the number of baskets.\n\nTotal peaches = 65\nNumber of baskets = 32\n\nNumber of peaches per basket = Total peaches / Number of baskets\n= 65 / 32\n= 2.03125\n\nSince you can't have a fraction of a peach, we can round down to 2 peaches per basket.\nSo the answer is \\boxed{2 peaches per basket",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "China has 1.4 billion people. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets: 1,400,000\nNumber of red peaches per basket: 7\nNumber of green peaches per basket: 3\n\nTotal peaches per basket = 7 * 1,400,000 + 3\nTotal peaches per basket = 9,900,000 + 3\nTotal peaches per basket = 9,903,000\n\nSo, there are approximately 9,903,000 peaches in each basket.\nSo the answer is \\boxed{9,903,000",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "Japan has 125 million people. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to divide the total number of peaches by the total number of baskets.\n\nTotal number of peaches = 125 million\nTotal number of baskets = 65\n\nNumber of peaches in each basket = Total number of peaches / Total number of baskets\n= 125,000,000 / 65\n= 1,923,077\n\nSo, there are approximately 1,923,077 peaches in each basket.\nSo the answer is \\boxed{There are approximately 1,923,077 peaches in each basket.",
+      "pred_answer": 77.0
+    },
+    {
+      "question": "The US has 50 states. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to divide the total number of peaches by the number of baskets.\n\nTotal peaches = 65\nNumber of baskets = 50\n\nNumber of peaches per basket = Total peaches / Number of baskets\n= 65 / 50\n= 1.3\n\nSince you can't have a fraction of a peach, we can round down to 1 peach per basket.\nSo the answer is \\boxed{There are 1 peach in each basket.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The EU has 27 member states. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to divide the total number of peaches by the number of baskets.\n\nTotal peaches = 65\nNumber of baskets = 27\n\nNumber of peaches per basket = Total peaches / Number of baskets\n= 65 / 27\n= 2.37 (approximately)\n\nSince we can't have a fraction of a peach, we can round down to 2 peaches per basket.\nSo the answer is \\boxed{2 peaches per basket",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets = 65\nNumber of peaches in each basket = 7 (red) + 3 (green) = 10\n\nTotal peaches = 65 * 10 = 650\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{650",
+      "pred_answer": 650.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets: 65\nNumber of red peaches per basket: 7\nNumber of green peaches per basket: 3\n\nTotal peaches per basket = 65 * 7 * 3\nTotal peaches per basket = 1950\n\nSo, there are 1950 peaches in each basket.\nSo the answer is \\boxed{1950",
+      "pred_answer": 1950.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets = 65\nNumber of peaches in each basket = 7 + 3 = 10\n\nTotal peaches = 65 * 10 = 650\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{There are 650 peaches in each basket.",
+      "pred_answer": 650.0
+    },
+    {
+      "question": "The human body has 206 bones. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets: 65\nNumber of red peaches per basket: 7\nNumber of green peaches per basket: 3\n\nTotal peaches per basket = 65 * 7 * 3\nTotal peaches per basket = 195\n\nSo, there are 195 peaches in each basket.\nSo the answer is \\boxed{195",
+      "pred_answer": 195.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets: 65\nNumber of peaches in each basket: 7 (red) + 3 (green) = 10\n\nTotal peaches in each basket: 65 * 10 = 650\nSo the answer is \\boxed{650",
+      "pred_answer": 650.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets = 65\nNumber of peaches in each basket = 7 (red) + 3 (green) = 10\n\nTotal peaches in each basket = 65 * 10 = 650\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{There are 650 peaches in each basket.",
+      "pred_answer": 650.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets = 65\nNumber of red peaches per basket = 7\nNumber of green peaches per basket = 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{458",
+      "pred_answer": 458.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets = 65\nNumber of red peaches per basket = 7\nNumber of green peaches per basket = 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{458",
+      "pred_answer": 458.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of peaches in each basket.\n\nNumber of baskets = 65\nNumber of peaches in each basket = 7 + 3 = 10\n\nTotal peaches in each basket = 65 * 10 = 650\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{There are 650 peaches in each basket.",
+      "pred_answer": 650.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the number of peaches in each basket, we need to divide the total number of peaches by the total number of baskets.\n\nTotal number of peaches = 65\nTotal number of baskets = 7 (red) + 3 (green) = 10\n\nNumber of peaches in each basket = Total number of peaches / Total number of baskets\n= 65 / 10\n= 6.5\n\nSince you can't have a fraction of a peach, we can round down to 6 peaches per basket.\nSo the answer is \\boxed{6 peaches per basket",
+      "pred_answer": 6.0
+    }
+  ]
+}

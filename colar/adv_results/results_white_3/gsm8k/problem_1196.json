@@ -1,0 +1,25 @@
+{
+  "question": "Alain's mom bought 5 packs of red pens and also bought twice the amount of black pens than the red. If each pack has 5 pens, how many pens does Alain have?",
+  "ground_truth": "75",
+  "prefix": " gripsThe [{",
+  "prefix_token_ids": [
+    67339,
+    791,
+    18973
+  ],
+  "baseline_logit_diff": -11.071928024291992,
+  "clean_logit_diff": -11.96044921875,
+  "adv_logit_diff": 4.773187637329102,
+  "best_logit_diff": 4.773187637329102,
+  "clean_text": "Answer:75",
+  "clean_answer": "75",
+  "clean_correct": true,
+  "adv_text": "Answer:50",
+  "adv_answer": "50",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.5712852478027344,
+    4.773187637329102
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 26,
+  "question": " At a restaurant each adult meal costs $7 and kids eat free. If a group of 13 people came in and 9 were kids, how much would it cost for the group to eat? ",
+  "ground_truth": "28.0",
+  "baseline": {
+    "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nCost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the group is just the cost for the adults: $28",
+    "pred_answer": 28.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 4,
+  "success_rate": 0.13333333333333333,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "öff 선택rear 올 quotations",
+      "prefix_token_ids": [
+        52276,
+        87138,
+        59508,
+        104350,
+        87087
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 x $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "-dealsinitialized �.ToolStripButtonẠ",
+      "prefix_token_ids": [
+        68648,
+        37261,
+        103802,
+        52113,
+        117173
+      ],
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nCost for adults: 4 x $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (cost for adults) + $0 (cost for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": " guessed风zano-packed四",
+      "prefix_token_ids": [
+        43410,
+        103125,
+        100098,
+        71004,
+        64803
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "_ERRORSีข urgentvětší esper",
+      "prefix_token_ids": [
+        67341,
+        111150,
+        34771,
+        112582,
+        31157
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 x $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{The answer is $28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " XIIikyskou sweetsmisc",
+      "prefix_token_ids": [
+        87915,
+        106493,
+        105754,
+        76657,
+        48340
+      ],
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nCost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "cps hazard Ödül@n=\"\">\n",
+      "prefix_token_ids": [
+        73676,
+        31397,
+        118643,
+        109181,
+        17875
+      ],
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nCost for adults: 4 x $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (cost for adults) + $0 (cost for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "izzas abusesreement/*.parator",
+      "prefix_token_ids": [
+        68404,
+        50162,
+        17589,
+        24449,
+        12636
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "brities_ing-going окрем cocaine",
+      "prefix_token_ids": [
+        35795,
+        60212,
+        65912,
+        112579,
+        39123
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " ده morally MANY JVDatum",
+      "prefix_token_ids": [
+        103071,
+        57323,
+        99356,
+        96561,
+        69136
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "PostBack dragon oppressed AccordArgb",
+      "prefix_token_ids": [
+        74651,
+        26161,
+        67516,
+        80657,
+        20007
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThe cost for the adults is 13 people * $7 per person = $91.\n\nThe cost for the kids is 9 people * $0 per person (since they eat for free) = $0.\n\nThe total cost for the group is $91 (adults) + $0 (kids) = $91.\nSo the answer is \\boxed{$91",
+      "pred_answer": 91.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 11,
+      "prefix": " idiot Mosque treated signifies適",
+      "prefix_token_ids": [
+        43358,
+        100031,
+        12020,
+        78864,
+        109431
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThe cost for the adults is 13 people * $7 per person = $91.\n\nThe cost for the kids is 9 people * $0 (since it's free) = $0.\n\nThe total cost for the group is $91 (adults) + $0 (kids) = $91.\nSo the answer is \\boxed{$91",
+      "pred_answer": 91.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 12,
+      "prefix": "바 выше quanhıştır sharply",
+      "prefix_token_ids": [
+        101974,
+        112087,
+        114708,
+        106232,
+        46473
+      ],
+      "generated_text": "13 people came in, 9 of them were kids. So, 13 - 9 = 4 adults.\n\nEach adult meal costs $7, so 4 adults * $7 = $28.\n\nThe total cost for the group to eat would be $28.\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " червня imagining()\")\n(jq �",
+      "prefix_token_ids": [
+        120205,
+        77724,
+        91308,
+        97987,
+        28867
+      ],
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nCost for adults: 4 x $7 = $28\n\nSince the kids eat for free, the cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "軽 jugar\tcommand crefに",
+      "prefix_token_ids": [
+        117355,
+        94360,
+        46666,
+        11393,
+        20230
+      ],
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 13 people in the group, and 9 of them are kids. So, the number of adults is 13 - 9 = 4.\n\nEach adult meal costs $7, so the cost for the adults is 4 x $7 = $28.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $28 + $0 = $28.\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "ечениеον 북dfsเห",
+      "prefix_token_ids": [
+        105907,
+        101016,
+        108772,
+        35478,
+        101368
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 x $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " مرد_ed KutのもCLAIM",
+      "prefix_token_ids": [
+        102664,
+        33470,
+        97007,
+        123017,
+        23384
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 x $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": "Bias-fin_hooks NASCAR Lê",
+      "prefix_token_ids": [
+        83652,
+        85099,
+        74213,
+        65690,
+        115516
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "discountwest=_(' upro IconButton",
+      "prefix_token_ids": [
+        28459,
+        11285,
+        91066,
+        97932,
+        46686
+      ],
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nCost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": "lipActor excell� Аль",
+      "prefix_token_ids": [
+        34215,
+        19402,
+        8414,
+        15581,
+        114293
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " '='\\\">\";\n-steік CPPUNIT",
+      "prefix_token_ids": [
+        41654,
+        68938,
+        97426,
+        101280,
+        52626
+      ],
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nCost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": "')))\nemplBold guit 자동차",
+      "prefix_token_ids": [
+        46930,
+        26980,
+        43900,
+        55499,
+        125910
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{The answer is $28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": " Этотapplicantinne Upload chassis",
+      "prefix_token_ids": [
+        122783,
+        91364,
+        94332,
+        26045,
+        46009
+      ],
+      "generated_text": "Чтобы решить эту задачу, нам нужно вычислить общую стоимость для взрослых и для детей.\n\nВзрослые: 13 - 9 = 4\nКаждый взрослый платит $7, поэтому общая стоимость для взрослых составит 4 * 7 = $28.\n\nДети: 9 * 0 = $0 (поскольку дети едят бесплатно)\n\nОбщая стоимость для всего группы составляет $28 + $0 = $28.\nSo the answer is \\boxed{28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "\"Yeah 更 resultSetcorreoала",
+      "prefix_token_ids": [
+        78917,
+        73769,
+        43073,
+        67271,
+        97065
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThe cost for the adults is 13 people * $7 per person = $91.\n\nThe cost for the kids is 4 people * $0 (since it's free) = $0.\n\nThe total cost for the group is $91 (adults) + $0 (kids) = $91.\nSo the answer is \\boxed{$91",
+      "pred_answer": 91.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 24,
+      "prefix": " kil_FONT.Native(IEnumerableigaret",
+      "prefix_token_ids": [
+        15395,
+        40632,
+        69724,
+        53012,
+        44375
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": ")//_registers创建řaz.setWidth",
+      "prefix_token_ids": [
+        28250,
+        79460,
+        51477,
+        121282,
+        76723
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 13 people in total, 9 of whom are kids. So, the number of adults is 13 - 9 = 4.\n\nEach adult meal costs $7, so the cost for the adults is 4 x $7 = $28.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the sum of the cost for the adults and the cost for the kids, which is $28 + $0 = $28.\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": " vals presets těla історіїwap",
+      "prefix_token_ids": [
+        29456,
+        63296,
+        120310,
+        118865,
+        22473
+      ],
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nCost for adults: 4 x $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " HealingMYSQL Lin compra nová",
+      "prefix_token_ids": [
+        49741,
+        55163,
+        8732,
+        58729,
+        127620
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThe cost for the adults is 13 people * $7 per person = $91.\n\nSince there are 4 kids, the cost for the kids is 4 * $0 = $0.\n\nThe total cost for the group is $91 (adults) + $0 (kids) = $91.\nSo the answer is \\boxed{$91",
+      "pred_answer": 91.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 28,
+      "prefix": "_vc foldedOrdered renderItem\\C",
+      "prefix_token_ids": [
+        74496,
+        48135,
+        55484,
+        87767,
+        24864
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " Boardsdrawer.nil.contentView_Final",
+      "prefix_token_ids": [
+        72186,
+        81227,
+        32581,
+        45107,
+        78172
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 * $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " SECTIONOnt conexiónlucent insanity",
+      "prefix_token_ids": [
+        43433,
+        67403,
+        90958,
+        60154,
+        73153
+      ],
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 13 - 9 = 4\nCost per adult: $7\nTotal cost for adults: 4 x $7 = $28\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nTotal cost for the group: $28 (for adults) + $0 (for kids) = $28\nSo the answer is \\boxed{$28",
+      "pred_answer": 28.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 92,
+  "question": "Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+  "ground_truth": "4.0",
+  "baseline_correct": true,
+  "baseline_answer": 4.0,
+  "best_rewrite": "The EU has 27 member states. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+  "best_fact": "The EU has 27 member states.",
+  "best_pred_answer": 8.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 1,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find the ages of Amy and Corey. \n\nSince James is 10 and 1 year younger than Corey, Corey is 11 years old. \n\nAmy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nThe answer is 4.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "April has 30 days. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find the ages of Amy and Corey. \n\nSince James is 10 and 1 year younger than Corey, Corey is 11 years old. \n\nAmy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nThe answer is 4.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the kids' ages.\n\nWe know that James is 10 years old and is 1 year younger than Corey. So, Corey is 10 + 1 = 11 years old.\n\nWe also know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given. \n\nWe know that James is 10 years old and is 1 year younger than Corey. So, Corey is 10 + 1 = 11 years old.\n\nWe also know that Amy is 2 years younger than Corey. So, Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given. \n\nLet's start by using the information that James is 10 years old and is 1 year younger than Corey. This means Corey is 10 + 1 = 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nWe also know that Amy is 5 years older than Jackson, so Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A year has 12 months. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find Corey's age. Since James is 1 year younger than Corey, and James is 10, Corey must be 11 years old.\n\nNow, we know Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson must be 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A week has 7 days. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the children's ages.\n\nLet's start by using the information that James is 10 years old and is 1 year younger than Corey. Since James is 10, Corey must be 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nWe also know that Amy is 5 years older than Jackson, so Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "An hour has 60 minutes. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find the ages of Amy and Corey. \n\nSince James is 10 and 1 year younger than Corey, Corey is 10 + 1 = 11 years old.\n\nSince Amy is 2 years younger than Corey, Amy is 11 - 2 = 9 years old.\n\nNow, we know that Amy is 5 years older than Jackson. So, Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A minute has 60 seconds. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find the ages of Amy and Corey. \n\nSince James is 10 and 1 year younger than Corey, Corey is 11 years old. \n\nAmy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nThe answer is 4.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A year has 365 days. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find Corey's age. Since James is 1 year younger than Corey, and James is 10 years old, Corey must be 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey. So, Amy's age is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson's age is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find Corey's age. Since James is 1 year younger than Corey, and James is 10 years old, Corey must be 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson must be 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find the ages of Amy and Corey. \n\nSince James is 10 and 1 year younger than Corey, Corey is 11 years old. \n\nAmy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nThe answer is 4.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find Corey's age. Since James is 1 year younger than Corey, and James is 10, Corey must be 11.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy's age is 11 - 2 = 9.\n\nSince Amy is 5 years older than Jackson, Jackson's age is 9 - 5 = 4.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the children's ages. \n\nLet's start by using the information that James is 10 years old and is 1 year younger than Corey. This means Corey is 10 + 1 = 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson's age is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the ages of the children.\n\nLet's start by using the information that James is 10 years old and is 1 year younger than Corey. This means Corey is 10 + 1 = 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "An adult has 32 teeth. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find the ages of Amy and Corey. \n\nSince James is 10 and 1 year younger than Corey, Corey is 11 years old. \n\nAmy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nThe answer is 4.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "China has 1.4 billion people. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the children's ages.\n\nLet's start by using the information that James is 10 years old and is 1 year younger than Corey. This means Corey is 10 + 1 = 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nWe also know that Amy is 5 years older than Jackson, so Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Japan has 125 million people. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find the ages of Amy and Corey. \n\nSince James is 10 and 1 year younger than Corey, Corey is 11 years old. \n\nAmy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nThe answer is 4.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The US has 50 states. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the ages of the children.\n\nWe know that James is 10 years old and is 1 year younger than Corey. So, Corey is 10 + 1 = 11 years old.\n\nWe also know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The EU has 27 member states. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the ages of Amy, Corey, and James.\n\nWe know:\n- James is 10 years old.\n- James is 1 year younger than Corey.\n- Corey is 2 years older than Amy.\n- Amy is 5 years older than Jackson.\n\nSince James is 10 and 1 year younger than Corey, Corey must be 11 years old.\n\nNow, since Amy is 2 years older than Corey, Amy must be 11 + 2 = 13 years old.\n\nSince Amy is 5 years older than Jackson, Jackson must be 13 - 5 = 8 years old.\n\nTherefore, Jackson is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find Corey's age. Since James is 1 year younger than Corey, and James is 10 years old, Corey must be 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson must be 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find the ages of Amy and Corey. \n\nSince James is 10 and 1 year younger than Corey, Corey is 11 years old. \n\nAmy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nThe answer is 4.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find Corey's age. Since James is 1 year younger than Corey, and James is 10, Corey must be 11.\n\nNow, we know Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson must be 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The human body has 206 bones. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find Corey's age. Since James is 1 year younger than Corey, and James is 10 years old, Corey must be 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson must be 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the children's ages.\n\nLet's start by using the information that James is 10 years old and is 1 year younger than Corey. This means Corey is 10 + 1 = 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nWe also know that Amy is 5 years older than Jackson, so Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find the ages of Amy and Corey. \n\nSince James is 10 and 1 year younger than Corey, Corey is 11 years old. \n\nAmy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nThe answer is 4.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the ages of the children. \n\nLet's start by using the information that James is 10 years old and is 1 year younger than Corey. This means Corey is 10 + 1 = 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to first find the ages of Amy and Corey. \n\nSince James is 10 and 1 year younger than Corey, Corey is 11 years old. \n\nAmy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the children's ages.\n\nLet's start by using the information that James is 10 years old and is 1 year younger than Corey. This means Corey is 10 + 1 = 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nSince Amy is 5 years older than Jackson, Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find Jackson's age, we need to use the information given about the relationships between the children's ages.\n\nLet's start by using the information that James is 10 years old and is 1 year younger than Corey. This means Corey is 10 + 1 = 11 years old.\n\nNow, we know that Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.\n\nWe also know that Amy is 5 years older than Jackson, so Jackson is 9 - 5 = 4 years old.\n\nTherefore, Jackson is 4 years old.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0
+    }
+  ]
+}

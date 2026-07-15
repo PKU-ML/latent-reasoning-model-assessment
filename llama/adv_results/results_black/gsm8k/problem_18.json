@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 18,
+  "question": "Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+  "ground_truth": "7.0",
+  "baseline_correct": true,
+  "baseline_answer": 7.0,
+  "best_rewrite": "Oxygen makes up about 21% of air. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+  "best_fact": "Oxygen makes up about 21% of air.",
+  "best_pred_answer": 11.11,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 5,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire eats in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 4.\n\nClaire makes 3 eggs per day. There are 7 days in a week, so she eats 3 eggs/day * 7 days/week = 21 eggs/week.\n\nIn 4 weeks, she will eat 21 eggs/week * 4 weeks = 84 eggs.\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n84 eggs / 12 eggs/dozen = 7 dozens.\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "April has 30 days. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she will eat 3 x 28 = 84 eggs in 4 weeks.\n\nTo convert this to dozens, we need to divide by 12 (since 1 dozen = 12 eggs). \n\n84 eggs / 12 = 7\n\nSo Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 4.\n\nClaire makes 3 eggs per omelet, and she eats 1 omelet per day. So, she eats 3 eggs per day.\n\nThere are 7 days in a week, so in 4 weeks, she will eat:\n3 eggs per day * 7 days per week = 21 eggs per week\n\nSince there are 52 weeks in a year, we can multiply the number of eggs she eats per week by 52:\n21 eggs per week * 52 weeks per year = 1092 eggs per year\n\nSince 1 dozen is equal to 12 eggs, we can convert the number of eggs to dozens:\n1092 eggs per year / 12 eggs per dozen = 91.67 dozens per year\n\nSo, Claire will eat approximately 92 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she eats 3 eggs per day. \n\n28 days x 3 eggs per day = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n\n84 eggs / 12 = 7 dozens\n\nSo Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she will eat 3 eggs per day. \n\n28 days x 3 eggs per day = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n\n84 eggs / 12 = 7\n\nSo Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A year has 12 months. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she will eat 3 x 28 = 84 eggs in 4 weeks.\n\nTo convert this to dozens, we need to divide by 12 (since 1 dozen = 12 eggs). \n\n84 eggs / 12 = 7\n\nSo Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A week has 7 days. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire eats in 4 weeks, we need to calculate the number of eggs she eats per week and then multiply it by 4.\n\nClaire makes 3 eggs per day. There are 7 days in a week, so she eats 3 eggs/day * 7 days/week = 21 eggs/week.\n\nIn 4 weeks, she will eat 21 eggs/week * 4 weeks = 84 eggs.\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n84 eggs / 12 eggs/dozen = 7 dozens.\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "An hour has 60 minutes. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire eats in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 4.\n\nClaire makes 3 eggs per omelet, and she eats 1 omelet per day. \n\nThere are 7 days in a week, so in 4 weeks, she eats 4 * 7 = 28 days.\n\nSince 1 dozen is equal to 12 eggs, we can calculate the number of eggs she eats in 28 days as follows:\n\n28 days * 3 eggs per day = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n\n84 eggs / 12 eggs per dozen = 7 dozens\n\nSo, Claire eats 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A minute has 60 seconds. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find out how many eggs Claire eats in 4 weeks, we need to calculate the number of minutes in 4 weeks and then multiply it by the number of eggs she eats per minute.\n\nThere are 7 days in a week, so there are 7 * 4 = 28 days in 4 weeks.\n\nSince there are 60 minutes in an hour and 60 minutes in an hour, there are 60 * 28 = 1680 minutes in 4 weeks.\n\nSince Claire makes a 3-egg omelet every morning, she eats 3 eggs per minute. \n\nMultiply the number of minutes in 4 weeks by the number of eggs per minute: \n1680 * 3 = 5040 eggs.\n\nSince there are 12 eggs in a dozen, we can divide 5040 by 12 to find the number of dozens of eggs:\n5040 / 12 = 420\n\nSo Claire will eat 420 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{420",
+      "pred_answer": 420.0
+    },
+    {
+      "question": "A year has 365 days. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she will eat 3 x 28 = 84 eggs in 4 weeks.\n\nTo convert this to dozens, we need to divide by 12 (since 1 dozen = 12 eggs). \n\n84 eggs / 12 = 7\n\nSo Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so 4 weeks is 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she eats 3 eggs per day.\n\nTo find out how many eggs she eats in 28 days, we multiply 3 eggs per day by 28 days:\n3 eggs/day x 28 days = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n84 eggs / 12 eggs/dozen = 7 dozens\n\nSo Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to first find out how many eggs she eats in one week. \n\nSince there are 7 days in a week, and she makes a 3 egg omelet every day, she eats 3 eggs per day. \n\nIn one week, she eats 3 eggs/day * 7 days/week = 21 eggs/week.\n\nSince there are 4 weeks in 1 month, and she eats 21 eggs/week, in 4 weeks she will eat 21 eggs/week * 4 weeks = 84 eggs.\n\nSince 1 dozen is equal to 12 eggs, she will eat 84 eggs / 12 eggs/dozen = 7 dozens in 4 weeks.\n\nThe answer is 7.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she will eat 3 eggs per day. \n\nTo find out how many eggs she will eat in 28 days, we multiply 3 eggs per day by 28 days:\n3 eggs per day * 28 days = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n84 eggs / 12 eggs per dozen = 7 dozens\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so 4 weeks is 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she eats 3 eggs per day.\n\nTo find out how many eggs she eats in 28 days, we multiply 3 eggs per day by 28 days:\n3 eggs/day x 28 days = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n84 eggs / 12 eggs/dozen = 7 dozens\n\nSo Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire eats in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 28 (the number of days in 4 weeks).\n\nA dozen is equal to 12 eggs. \n\nClaire makes 3 egg omelets per day. \n3 eggs per day * 7 days per week = 21 eggs per week\n21 eggs per week * 4 weeks = 84 eggs per week\n\nSince 1 dozen is 12 eggs, 84 eggs per week is equal to 84 / 12 = 7 dozens.\n\nSo, Claire eats 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "An adult has 32 teeth. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 28 (the number of days in 4 weeks).\n\nClaire makes 3 eggs per omelet, and she eats 1 omelet per day. So, she eats 3 eggs per day.\n\nIn 1 week, she eats 3 eggs/day * 7 days/week = 21 eggs/week.\n\nIn 4 weeks, she will eat 21 eggs/week * 4 weeks = 84 eggs.\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n84 eggs / 12 eggs/dozen = 7 dozens.\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "China has 1.4 billion people. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire eats in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 28 (the number of days in 4 weeks).\n\nClaire makes 3 eggs per omelet, and she eats 1 egg per omelet. So, she eats 3 eggs per omelet.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nTo find out how many eggs she eats in 4 weeks, multiply the number of eggs per omelet by the number of days:\n3 eggs per omelet * 28 days = 84 eggs\n\nSince there are 12 eggs in a dozen, we can convert 84 eggs to dozens by dividing by 12:\n84 eggs / 12 = 7 dozen\n\nSo, Claire eats 7 dozen eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Japan has 125 million people. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire eats in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 28 (the number of days in 4 weeks).\n\nClaire makes 3 eggs per omelet, and she eats 1 omelet per day. So, she eats 3 eggs per day.\n\nIn 1 week, she eats 3 eggs/day * 7 days/week = 21 eggs/week.\n\nIn 4 weeks, she eats 21 eggs/week * 4 weeks = 84 eggs.\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n\n84 eggs / 12 eggs/dozen = 7 dozens.\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The US has 50 states. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply that by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she eats 3 eggs per day. \n\n28 days x 3 eggs per day = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n\n84 eggs / 12 = 7\n\nSo Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The EU has 27 member states. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 28 (the number of days in 4 weeks).\n\nClaire makes a 3-egg omelet every morning, so she eats 3 eggs per day.\n\nThere are 7 days in a week, so in 4 weeks, she will eat:\n3 eggs/day * 7 days/week = 21 eggs/week\n\nNow, let's multiply the number of eggs she eats per week by the number of weeks:\n21 eggs/week * 4 weeks = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert the total number of eggs to dozens:\n84 eggs / 12 eggs/dozen = 7 dozens\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she eats 3 eggs per day. \n\nTo find out how many eggs she will eat in 28 days, we multiply 3 eggs per day by 28 days:\n3 eggs/day * 28 days = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n84 eggs / 12 eggs/dozen = 7 dozens\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she eats 3 eggs per day. \n\n28 days x 3 eggs per day = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n\n84 eggs / 12 = 7\n\nSo Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so 4 weeks is 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she eats 3 eggs per day.\n\nMultiply the number of days by the number of eggs per day: 28 days x 3 eggs/day = 84 eggs.\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12: 84 eggs / 12 eggs/dozen = 7 dozens.\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The human body has 206 bones. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 28 (the number of days in 4 weeks).\n\nA dozen is equal to 12 eggs. \n\nClaire makes 3 eggs per omelet, so she eats 3 eggs per day.\n\nIn 4 weeks, she will eat 3 eggs per day * 28 days = 84 eggs.\n\nSince 1 dozen is 12 eggs, she will eat 84 eggs / 12 eggs per dozen = 7 dozens of eggs in 4 weeks.\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find out how many eggs Claire eats in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 4.\n\nClaire makes 3 eggs per omelet, and she eats 1 omelet per day. \n\n1 egg = 1 dozen\n1 dozen = 12 eggs\n\nSo, 3 eggs = 3 * 12 = 36 eggs per day\n\nIn 4 weeks, she eats 4 * 36 = 144 eggs.\n\nSince 1 dozen = 12 eggs, 144 eggs = 144 / 12 = 12 dozens.\n\nTherefore, Claire will eat 12 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply that by 4.\n\nFirst, let's find out how many eggs she eats per day:\n- 1 egg omelet per day\n- 21% of air is oxygen, which is approximately 0.21\n- 1 egg = 1/0.21 = 4.76 eggs per day\n\nNow, let's calculate the number of eggs she eats in 4 weeks:\n- 4 weeks = 28 days\n- 4.76 eggs per day * 28 days = 133.28 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert the number of eggs to dozens:\n- 133.28 eggs / 12 = 11.11 dozens\n\nSo, Claire will eat approximately 11.11 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{11.11",
+      "pred_answer": 11.11
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 4.\n\nFirst, let's calculate the number of eggs per day:\n1 egg omelet = 3 eggs\nNumber of days in 4 weeks = 28 days\nEggs per day = 3 eggs/day * 28 days = 84 eggs/day\n\nNow, let's calculate the total number of eggs in 4 weeks:\nTotal eggs in 4 weeks = 84 eggs/day * 28 days = 2352 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert the total number of eggs to dozens:\n2352 eggs / 12 eggs/dozen = 196.67 dozens\n\nSo, Claire will eat approximately 197 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{197",
+      "pred_answer": 197.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of eggs she eats per day and then multiply it by 28 (the number of days in 4 weeks).\n\nA dozen is equal to 12 eggs. \n\nClaire makes 3 eggs per omelet, so she eats 3 eggs per day.\n\nIn 4 weeks, she will eat 3 eggs per day * 28 days = 84 eggs.\n\nSince 1 dozen is 12 eggs, she will eat 84 eggs / 12 = 7 dozens in 4 weeks.\n\nThe answer is 7.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she eats 3 eggs per day.\n\nTo find out how many eggs she will eat in 28 days, we multiply the number of eggs per day by the number of days:\n3 eggs/day x 28 days = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n84 eggs / 12 = 7\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many eggs Claire will eat in 4 weeks, we need to calculate the number of days in 4 weeks and then multiply it by the number of eggs she eats per day.\n\nThere are 7 days in a week, so in 4 weeks, there are 4 x 7 = 28 days.\n\nSince Claire makes a 3-egg omelet every morning, she eats 3 eggs per day.\n\nTo find out how many eggs she will eat in 28 days, we multiply 3 eggs per day by 28 days:\n3 eggs/day x 28 days = 84 eggs\n\nSince 1 dozen is equal to 12 eggs, we can convert 84 eggs to dozens by dividing by 12:\n84 eggs / 12 eggs/dozen = 7 dozens\n\nSo, Claire will eat 7 dozens of eggs in 4 weeks.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    }
+  ]
+}

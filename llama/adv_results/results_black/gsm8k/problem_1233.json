@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1233,
+  "question": "Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+  "ground_truth": "81.0",
+  "baseline_correct": true,
+  "baseline_answer": 81.0,
+  "best_rewrite": "H2O contains 2 hydrogen atoms. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+  "best_fact": "H2O contains 2 hydrogen atoms.",
+  "best_pred_answer": 18.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 12,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to follow these steps:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "April has 30 days. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many apples Walter had left after eating 2/5 of them, we need to calculate 2/5 of 30.\n\n2/5 * 30 = 12 apples\n\nSo, Walter had 30 - 12 = 18 apples left.\n\nHe then gave 25% of the remaining apples to his sister, which is 0.25 * 18 = 4.5 apples.\n\nNow, we need to find out how many apples Walter had left after giving some to his sister. 18 - 4.5 = 13.5 apples.\n\nWalter then sold the remaining apples to his uncle at $3 each. So, he sold 13.5 apples at $3 each, which is 13.5 * 3 = $40.50.\n\nTherefore, Walter received $40.50 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $40.50.",
+      "pred_answer": 40.5
+    },
+    {
+      "question": "A bicycle has 2 wheels. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving some to his sister.\n\nFirst, let's calculate the number of apples he ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples.\n\nNow, let's calculate the number of apples he had left: 60 - 24 = 36 apples.\n\nNext, let's calculate the number of apples he gave to his sister: 25% of 36 apples = 0.25 * 36 = 9 apples.\n\nNow, let's calculate the number of apples he had left: 36 - 9 = 27 apples.\n\nFinally, let's calculate the amount of money he received for selling the remaining apples: 27 apples * $3 per apple = $81.\n\nSo, Walter received $81.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "A year has 12 months. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "A week has 7 days. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving some to his sister.\n\nFirst, let's find out how many apples he ate:\n2/5 of 60 apples = (2/5) * 60 = 24 apples\n\nNow, let's find out how many apples he had left:\n60 - 24 = 36 apples\n\nNext, let's calculate how many apples he gave to his sister:\n25% of 36 apples = 0.25 * 36 = 9 apples\n\nNow, let's find out how many apples he had left:\n36 - 9 = 27 apples\n\nFinally, let's calculate how much money he received for the remaining apples:\n27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "An hour has 60 minutes. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "A minute has 60 seconds. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "A year has 365 days. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving 25% to his sister.\n\nFirst, let's find out how many apples Walter had left after eating 2/5 of them:\n60 apples - (2/5 * 60) = 60 - 24 = 36 apples\n\nNow, let's find out how many apples he had left after giving 25% to his sister:\n36 apples - (25% of 36) = 36 - (0.25 * 36) = 36 - 9 = 27 apples\n\nNow, let's calculate how much money Walter received from selling the remaining apples:\n27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving 25% to his sister.\n\nFirst, let's find out how many apples Walter had left after eating 2/5 of them:\n60 apples * 2/5 = 24 apples\n\nNow, let's find out how many apples he had left after giving 25% to his sister:\n24 apples * 0.25 = 6 apples\n\nSo, Walter had 24 - 6 = 18 apples left.\n\nNow, let's calculate the total number of apples Walter sold:\n18 apples * 3 = 54 apples\n\nTo find out how much money Walter received, we need to multiply the number of apples he sold by the price per apple:\n54 apples * $3 = $162\n\nTherefore, Walter received $162.\nSo the answer is \\boxed{$162",
+      "pred_answer": 162.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving some to his sister.\n\nFirst, let's find out how many apples Walter had left after eating 2/5 of them:\n60 apples * 2/5 = 24 apples\n\nNow, let's find out how many apples he had left after giving 25% to his sister:\n24 apples * 0.25 = 6 apples\n\nSo, Walter had 24 - 6 = 18 apples left.\n\nNow, let's calculate the total amount of money he received from selling the remaining apples:\n18 apples * $3 = $54\n\nTherefore, Walter received $54 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving some to his sister.\n\nFirst, let's find out how many apples Walter had left after eating 2/5 of them:\n60 apples - (2/5 * 60) = 60 - 24 = 36 apples\n\nNext, let's find out how many apples he gave to his sister:\n36 apples * 25% = 36 * 0.25 = 9 apples\n\nNow, let's find out how many apples Walter had left:\n36 - 9 = 27 apples\n\nFinally, let's calculate how much money Walter received from selling the remaining apples:\n27 apples * $3 = $81\n\nSo, Walter received $81 from selling the remaining apples.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving some to his sister.\n\nFirst, let's find out how many apples he ate:\n2/5 of 60 apples = (2/5) * 60 = 24 apples\n\nNow, let's find out how many apples he had left:\n60 - 24 = 36 apples\n\nHe gave 25% of the remaining apples to his sister, which is 0.25 * 36 = 9 apples.\n\nNow, let's find out how many apples he had left:\n36 - 9 = 27 apples\n\nHe sold the remaining apples at $3 each, so he received:\n27 * 3 = 81 dollars\n\nTherefore, Walter received $81.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "An adult has 32 teeth. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how many apples Walter had left after eating 2/5 of them, we need to calculate 2/5 of 32.\n\n2/5 * 32 = 16\n\nSo Walter had 16 apples left.\n\nHe then gave 25% of the remaining apples to his sister, which is 0.25 * 16 = 4 apples.\n\nNow, he has 16 - 4 = 12 apples left.\n\nHe sold the remaining apples to his uncle at $3 each, so he received 12 * 3 = $36.\n\nThe answer is $36.\nSo the answer is \\boxed{$36",
+      "pred_answer": 36.0
+    },
+    {
+      "question": "China has 1.4 billion people. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had after giving some to his sister and then selling the remaining apples.\n\nFirst, let's find out how many apples Walter had after giving 25% to his sister:\n60 apples * 0.25 = 15 apples given to his sister\n60 - 15 = 45 apples remaining\n\nNow, let's find out how many apples Walter had after eating 2/5 of them:\n2/5 of 45 apples = (2/5) * 45 = 18 apples eaten\n45 - 18 = 27 apples remaining\n\nNow, let's calculate the number of apples Walter sold to his uncle:\n27 apples * $3 = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "Japan has 125 million people. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving 25% to his sister.\n\nFirst, let's find out how many apples Walter had left after eating 2/5 of them:\n- 2/5 of 125 million apples = (2/5) * 125,000,000 = 62,500,000 apples\n- He ate 62,500,000 apples, so he had 125,000,000 - 62,500,000 = 62,500,000 apples left.\n\nNext, let's find out how many apples he gave to his sister:\n- 25% of 62,500,000 apples = 0.25 * 62,500,000 = 15,625,000 apples\n- He gave 15,625,000 apples to his sister, so he had 62,500,000 - 15,625,000 = 46,875,000 apples left.\n\nNow, let's calculate how much money he received from selling the remaining apples:\n- He sold 46,875,000 apples at $3 each, so he received 46,875,000 * 3 = $141,375,000.\n\nTherefore, Walter received $141,375,000 from selling the remaining apples.\nSo the answer is \\boxed{$141,375,000",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The US has 50 states. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to follow the steps below:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples remaining: 60 - 24 = 36 apples\n3. Calculate 25% of the remaining apples: 25% of 36 apples = 0.25 * 36 = 9 apples\n4. Calculate the total number of apples sold: 36 - 9 = 27 apples\n5. Calculate the total amount of money received: 27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "The EU has 27 member states. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had after giving some to his sister and then selling the rest.\n\nWalter started with 60 apples. He ate 2/5 of them, which is (2/5) * 60 = 24 apples.\n\nHe had 60 - 24 = 36 apples left.\n\nHe gave 25% of the remaining apples to his sister, which is 0.25 * 36 = 9 apples.\n\nSo, he had 36 - 9 = 27 apples left.\n\nHe then sold the remaining apples at $3 each, so he received 27 * 3 = $81.\n\nThe answer is $81.\nSo the answer is \\boxed{$81",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving 25% to his sister.\n\nFirst, let's find out how many apples Walter had left after eating 2/5 of them:\n60 apples - (2/5 * 60) = 60 - 24 = 36 apples\n\nNow, let's find out how many apples he had left after giving 25% to his sister:\n36 apples - (25% of 36) = 36 - (0.25 * 36) = 36 - 9 = 27 apples\n\nNow, let's calculate the number of apples Walter sold to his uncle:\n27 apples * $3 = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find out how many apples Walter had left, we need to first find out how many apples he ate and gave to his sister. \n\nWalter ate 2/5 of 60 apples, which is (2/5) * 60 = 24 apples. He gave 25% of the remaining apples to his sister, which is 0.25 * 60 = 15 apples. \n\nSo, the remaining apples are 60 - 24 - 15 = 21 apples.\n\nWalter sold the remaining apples to his uncle at $3 each, so he received 21 * 3 = $63.\n\nThe answer is 63.\nSo the answer is \\boxed{63",
+      "pred_answer": 63.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving some to his sister.\n\nFirst, let's find out how many apples Walter had left after eating 2/5 of them:\n165,000,000 km² / 5 = 33,000,000 apples\n\nNow, let's calculate the number of apples he gave to his sister:\n2/5 of 33,000,000 = (2/5) * 33,000,000 = 33,000,000 / 5 = 6,600,000 apples\n\nNow, let's find out how many apples he had left:\n33,000,000 - 6,600,000 = 26,400,000 apples\n\nNow, let's calculate the number of apples he sold to his uncle:\n26,400,000 apples / 3 = 8,800,000 apples\n\nFinally, let's calculate the amount of money he received:\n8,800,000 apples * $3 per apple = $26,400,000\nSo the answer is \\boxed{The final answer is: $26,400,000",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The human body has 206 bones. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find out how many apples Walter had left, we need to first find out how many apples he ate and gave away. \n\nWalter ate 2/5 of 60 apples, which is (2/5) * 60 = 24 apples. He gave 25% of the remaining apples to his sister, which is 0.25 * 60 = 15 apples. \n\nSo, the number of apples left is 60 - 24 - 15 = 21 apples.\n\nNow, he sold the remaining apples at $3 each, so he received 21 * 3 = $63.\n\nThe answer is 63.\nSo the answer is \\boxed{The answer is 63.",
+      "pred_answer": 63.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving some to his sister.\n\nFirst, let's find out how many apples Walter had initially:\n60 apples / 5 = 12 apples\n\nHe ate 2/5 of them, so he ate 2/5 * 12 = 4 apples.\n\nNow, let's find out how many apples he had left:\n12 - 4 = 8 apples\n\nHe gave 25% of the remaining apples to his sister, which is 25% of 8 apples:\n25% of 8 = 0.25 * 8 = 2 apples\n\nNow, let's find out how many apples he had left:\n8 - 2 = 6 apples\n\nHe sold the remaining apples to his uncle at $3 each, so he received:\n6 * 3 = 18 dollars\n\nTherefore, Walter received 18 dollars.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how many apples Walter had left, we need to first find out how many apples he ate and gave away. \n\nWalter ate 2/5 of 60 apples, which is (2/5) * 60 = 24 apples. He gave 25% of the remaining apples to his sister, which is 0.25 * 60 = 15 apples. \n\nSo, the number of apples left is 60 - 24 - 15 = 21 apples.\n\nNow, he sold 21 apples at $3 each, so he received 21 * 3 = $63.\n\nThe answer is $63.\nSo the answer is \\boxed{$63",
+      "pred_answer": 63.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to calculate the number of apples he had left after eating 2/5 of them and giving some to his sister.\n\nFirst, let's find out how many apples he ate:\n2/5 of 60 apples = (2/5) * 60 = 24 apples\n\nNow, let's find out how many apples he had left:\n60 - 24 = 36 apples\n\nNext, let's find out how many apples he gave to his sister:\n25% of 36 apples = 0.25 * 36 = 9 apples\n\nNow, let's find out how many apples he had left:\n36 - 9 = 27 apples\n\nFinally, let's calculate how much money he received:\n27 apples * $3 per apple = $81\n\nSo, Walter received $81 from selling the remaining apples to his uncle.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how many apples Walter had left, we need to first find out how many apples he ate and gave away. \n\nWalter ate 2/5 of 60 apples, which is (2/5) * 60 = 24 apples. He gave 25% of the remaining 46 apples to his sister, which is 0.25 * 46 = 11.5 apples. \n\nSo, the number of apples left is 46 - 24 - 11.5 = 10.5 apples.\n\nNow, Walter sold 10.5 apples at $3 each. The total amount of money he received is 10.5 * 3 = $31.5.\n\nThe answer is $31.5.\nSo the answer is \\boxed{$31.5",
+      "pred_answer": 31.5
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find out how many apples Walter had left, we need to first find out how many apples he ate and gave away. \n\nWalter ate 2/5 of 60 apples, which is (2/5) * 60 = 24 apples. He gave 25% of the remaining apples to his sister, which is 0.25 * 60 = 15 apples. \n\nSo, the number of apples left is 60 - 24 - 15 = 21 apples.\n\nNow, he sold 21 apples at $3 each, so he received 21 * 3 = $63.\n\nThe answer is $63.\nSo the answer is \\boxed{$63",
+      "pred_answer": 63.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Walter received, we need to follow the steps:\n\n1. Walter bought 60 apples.\n2. He ate 2/5 of them, which is (2/5) * 60 = 24 apples.\n3. He gave his sister 25% of the remaining apples, which is 25% of 36 apples = 0.25 * 36 = 9 apples.\n4. The remaining apples are 60 - 24 - 9 = 27 apples.\n5. He sold the remaining apples to his uncle at $3 each, so he received 27 * 3 = $81.\n\nTherefore, Walter received $81.\nSo the answer is \\boxed{The answer is $81.",
+      "pred_answer": 81.0
+    }
+  ]
+}

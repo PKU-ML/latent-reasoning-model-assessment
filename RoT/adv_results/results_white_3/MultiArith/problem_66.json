@@ -1,0 +1,26 @@
+{
+  "question": " There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+  "ground_truth": "6.0",
+  "prefix": "6であった7",
+  "prefix_token_ids": [
+    21,
+    133702,
+    22
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 22,
+  "baseline_logit_diff": -0.875,
+  "clean_logit_diff": -0.875,
+  "adv_logit_diff": 0.625,
+  "best_logit_diff": 0.625,
+  "clean_text": "assistant\n### 6 ",
+  "clean_answer": 6.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 7 ",
+  "adv_answer": 7.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.625
+  ]
+}

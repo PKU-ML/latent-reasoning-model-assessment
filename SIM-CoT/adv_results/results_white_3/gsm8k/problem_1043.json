@@ -1,0 +1,28 @@
+{
+  "question": "There are 26 countries in South America and, in each country, there are 5 cities with 1000 people living in each city.  If the whole population lives in these cities, how many people are there in South America?",
+  "ground_truth": "130000.0",
+  "prefix": " ice subconscious35",
+  "prefix_token_ids": [
+    4771,
+    30931,
+    2327
+  ],
+  "baseline_token_id": 1511,
+  "target_token_id": 1478,
+  "baseline_logit_diff": -1.46875,
+  "clean_logit_diff": -8.109375,
+  "adv_logit_diff": 5.015625,
+  "best_logit_diff": 5.015625,
+  "clean_text": "There are 26 countries in South America and, in each country, there are 5 cities with 1000 people living in each city.  If the whole population lives in these cities, how many people are there in South America?\n### 130000",
+  "clean_answer": 130000.0,
+  "clean_correct": true,
+  "adv_text": "ice subconscious35There are 26 countries in South America and, in each country, there are 5 cities with 1000 people living in each city.  If the whole population lives in these cities, how many people are there in South America?\n### 140000",
+  "adv_answer": 140000.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.5,
+    -1.140625,
+    5.015625
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 756,
+  "question": "A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+  "ground_truth": "22.0",
+  "baseline_correct": true,
+  "baseline_answer": 22.0,
+  "best_rewrite": "There are 24 hours in a day. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+  "best_fact": "There are 24 hours in a day.",
+  "best_pred_answer": 16.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 6,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 24, and the total number of votes is the sum of the votes in favor and against. So, we can set up the equation:\n\nx + 2x = 24\n\nCombine like terms:\n\n3x = 24\n\nDivide both sides by 3:\n\nx = 8\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor by multiplying x by 2:\n\n2x = 2(8) = 16\n\nSo, there were 16 votes in favor of the new regulation.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "April has 30 days. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to find the number of votes against it. \n\nLet's say the number of votes against the regulation is x. Since the total number of votes is 30, the number of votes in favor is 30 - x.\n\nWe know that the number of votes in favor is twice the number of votes against, so we can set up the equation:\n\n30 - x = 2x\n\nTo solve for x, we can add x to both sides of the equation:\n\n30 = 3x\n\nNow, we can divide both sides by 3:\n\nx = 10\n\nSo, there were 10 votes against the regulation. \n\nThe number of votes in favor of the regulation is 30 - 10 = 20.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to find the difference between the total number of votes and the number of votes against the regulation.\n\nLet's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor:\n\nNumber of votes in favor = 2x\n= 2(11)\n= 22\n\nSo, there were 22 votes in favor of the new regulation.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Today is the 3rd of the month. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to find the difference between the total number of votes and the number of votes against the regulation.\n\nLet's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of votes is 33, so we can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor:\n\nNumber of votes in favor = 2x\n= 2(11)\n= 22\n\nSo, there were 22 votes in favor of the new regulation.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSince the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x = 2(11) = 22.\n\nThe answer is 22.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "A year has 12 months. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the total number of council members is 33, the number of votes in favor of the regulation is 33 - x.\n\nThe problem states that the vote passed with twice as many votes in favor as there were against it. This can be represented as:\n\n33 - x = 2x\n\nTo solve for x, we can add x to both sides of the equation:\n\n33 = 3x\n\nNow, we can divide both sides by 3:\n\nx = 11\n\nSo, the number of votes in favor of the new regulation is 11.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 11.",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "A week has 7 days. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to find the difference between the total number of votes and the number of votes against the regulation.\n\nLet's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of votes is 33, so we can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor:\n\nNumber of votes in favor = 2x\n= 2(11)\n= 22\n\nSo, there were 22 votes in favor of the new regulation.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "An hour has 60 minutes. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to first find the number of votes against it. Since the total number of council members is 33 and the vote passed with twice as many votes in favor as against, we can set up the equation:\n\nNumber of votes in favor + Number of votes against = Total number of council members\nx + 2x = 33\n\nCombine like terms:\n3x = 33\n\nDivide both sides by 3:\nx = 11\n\nSo, there were 11 votes against the new regulation. Since the number of votes in favor is twice the number against, the number of votes in favor is:\n2 * 11 = 22\n\nTherefore, there were 22 votes in favor of the new regulation.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "A minute has 60 seconds. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to find the difference between the total number of votes and the number of votes against the regulation.\n\nLet's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of votes is 33, so we can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor:\n\nNumber of votes in favor = 2x = 2(11) = 22\n\nSo, there were 22 votes in favor of the new regulation.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "A year has 365 days. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSince the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x = 2(11) = 22.\n\nThe answer is 22.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the total number of votes is 33, and the number of votes in favor is twice the number against, we can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSo, there were 11 votes against the regulation. Since the number of votes in favor is twice the number against, the number of votes in favor is 2x = 2(11) = 22.\n\nTherefore, the number of votes in favor of the new regulation is 22.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSince the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x = 2(11) = 22.\n\nThe answer is 22.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSince the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x = 2(11) = 22.\n\nThe answer is 22.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is equal to 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSince the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x = 2(11) = 22.\n\nThe answer is 22.\nSo the answer is \\boxed{The answer is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The human heart has 4 chambers. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to find the number of votes against it. \n\nLet's say the number of votes against the regulation is x. Since the total number of council members is 33, the number of votes in favor of the regulation is 2x.\n\nWe know that the total number of votes is the sum of the votes in favor and against, so we can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSo, the number of votes against the regulation is 11. Since the number of votes in favor of the regulation is twice the number of votes against, the number of votes in favor is 2x = 2(11) = 22.\n\nThe answer is 22.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "An adult has 32 teeth. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to first find the number of votes against it. Since the total number of council members is 33 and the number of votes in favor is twice the number against, we can set up the equation:\n\nNumber of votes in favor + Number of votes against = Total number of council members\nNumber of votes in favor = 2 * Number of votes against\nLet's call the number of votes against \"x\". Then, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so we can set up the equation:\n\nx + 2x = 33\n3x = 33\nx = 11\n\nNow that we know the number of votes against is 11, we can find the number of votes in favor:\n\nNumber of votes in favor = 2x\n= 2 * 11\n= 22\n\nSo, the number of votes in favor of the new regulation is 22.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "China has 1.4 billion people. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to find the number of votes against it and then double it.\n\nLet's say the number of votes against the regulation is x. Since the total number of people on the council is 33, the number of votes in favor of the regulation is 2x.\n\nWe know that the total number of votes is 1.4 billion, so we can set up the equation:\n\nx + 2x = 1,400,000,000\n\nCombine like terms:\n\n3x = 1,400,000,000\n\nDivide both sides by 3:\n\nx = 466,666,667\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor of the regulation:\n\n2x = 2(466,666,667)\n2x = 933,333,333\n\nSo, the number of votes in favor of the new regulation is 933,333,333.\nSo the answer is \\boxed{933,333,333",
+      "pred_answer": 333.0
+    },
+    {
+      "question": "Japan has 125 million people. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to find the number of votes against it and then double it.\n\nLet's say the number of votes against the regulation is x. Since the total number of council members is 33, the number of votes in favor is 2x.\n\nWe know that the total number of votes is 125, so we can set up the equation:\n\nx + 2x = 125\n\nCombine like terms:\n\n3x = 125\n\nDivide both sides by 3:\n\nx = 125 / 3\nx = 41.67\n\nSince we can't have a fraction of a vote, we'll round down to 41 votes against the regulation.\n\nThe number of votes in favor of the regulation is 2x = 2(41) = 82.\n\nSo, there were 82 votes in favor of the new regulation.\nSo the answer is \\boxed{82",
+      "pred_answer": 82.0
+    },
+    {
+      "question": "The US has 50 states. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor by multiplying x by 2:\n\n2x = 2(11) = 22\n\nSo, there were 22 votes in favor of the new regulation.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The EU has 27 member states. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, and the total number of votes is the sum of the votes in favor and against. So, we can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor by multiplying x by 2:\n\n2x = 2(11) = 22\n\nSo, the number of votes in favor of the new regulation is 22.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor by multiplying x by 2:\n\n2x = 2(11) = 22\n\nSo, there were 22 votes in favor of the new regulation.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSince the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x = 2(11) = 22.\n\nThe answer is 22.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of votes against the new regulation as x. Since the total number of votes is 165 million, the number of votes in favor of the new regulation is 2x.\n\nWe know that the total number of votes is the sum of the votes in favor and against, so we can set up the equation:\n\nx + 2x = 165,000,000\n\nCombine like terms:\n\n3x = 165,000,000\n\nDivide both sides by 3:\n\nx = 55,000,000\n\nSince x represents the number of votes against the new regulation, the number of votes in favor of the new regulation is 2x = 2(55,000,000) = 110,000,000.\n\nThe answer is 110 million.\nSo the answer is \\boxed{110",
+      "pred_answer": 110.0
+    },
+    {
+      "question": "The human body has 206 bones. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSince the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x = 2(11) = 22.\n\nThe answer is 22.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is equal to 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor by multiplying x by 2:\n\n2x = 2(11) = 22\n\nSo, there were 22 votes in favor of the new regulation.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the total number of council members is 33, the number of votes in favor of the regulation is 2x.\n\nWe know that the total number of votes is the sum of the votes in favor and against, so we can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSince the number of votes in favor of the regulation is 2x, we can multiply 2 and 11:\n\n2x = 22\n\nSo, the number of votes in favor of the new regulation is 22.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, and the total number of votes is the sum of the votes in favor and against. So, we can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSince the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x = 2(11) = 22.\n\nThe answer is 22.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to find the difference between the total number of votes and the number of votes against the regulation.\n\nLet's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of votes is 33, and the number of votes against is x. So, we can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nNow that we know the number of votes against the regulation, we can find the number of votes in favor:\n\nNumber of votes in favor = 2x\n= 2(11)\n= 22\n\nSo, the number of votes in favor of the new regulation is 22.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the total number of council members is 33, the number of votes in favor of the regulation is 2x.\n\nWe know that the total number of votes is the sum of the votes in favor and against, so we can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSince the number of votes in favor of the regulation is 2x, we can multiply 2 by 11:\n\n2x = 22\n\nSo, the number of votes in favor of the new regulation is 22.\nSo the answer is \\boxed{The number of votes in favor of the new regulation is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the number of votes in favor of the new regulation, we need to set up an equation. Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number of council members is 33, so the sum of the votes in favor and against is 33. We can set up the equation:\n\nx + 2x = 33\n\nCombine like terms:\n\n3x = 33\n\nDivide both sides by 3:\n\nx = 11\n\nSo, the number of votes in favor of the new regulation is 2x = 2(11) = 22.\n\nThe answer is 22.\nSo the answer is \\boxed{The answer is 22.",
+      "pred_answer": 22.0
+    }
+  ]
+}

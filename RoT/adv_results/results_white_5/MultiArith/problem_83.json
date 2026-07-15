@@ -1,0 +1,28 @@
+{
+  "question": " Katie had 7 pages of math homework and 3 pages of reading homework. If each page had 9 problems on it, how many problems did she have to complete total? ",
+  "ground_truth": "90.0",
+  "prefix": "63746",
+  "prefix_token_ids": [
+    21,
+    18,
+    22,
+    19,
+    21
+  ],
+  "baseline_token_id": 24,
+  "target_token_id": 22,
+  "baseline_logit_diff": 2.625,
+  "clean_logit_diff": -2.375,
+  "adv_logit_diff": 4.625,
+  "best_logit_diff": 4.625,
+  "clean_text": "assistant\n### 90 ",
+  "clean_answer": 90.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 726 ",
+  "adv_answer": 726.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    4.625
+  ]
+}

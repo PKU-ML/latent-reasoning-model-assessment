@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1242,
+  "question": "Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+  "ground_truth": "20",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " kun ké!!)\n",
+  "prefix_token_ids": [
+    24213,
+    77538,
+    86992
+  ],
+  "best_wrong_prob": 1.7234854459159724e-19,
+  "clean_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 o",
+  "clean_pred": 20.0,
+  "clean_correct": true,
+  "adv_text": "Én a Skyler 100 hatokból 50 darabot a fehér színű, mert 2/2 = 1. \n\nEgyéb 50 hatot a fehér színűek, mert 100 - 50 = 50.\n\n3/5 * 50 = 30 hatot a fehér színű, mert 3/5 * 50 = 30.\n\nEzért Skyler 30 hatot a ",
+  "adv_pred": 20.0,
+  "adv_correct": true,
+  "attack_success": false
+}

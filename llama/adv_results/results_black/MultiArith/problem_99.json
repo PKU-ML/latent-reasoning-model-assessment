@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 99,
+  "question": " Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+  "ground_truth": "32.0",
+  "baseline_correct": true,
+  "baseline_answer": 32.0,
+  "best_rewrite": "The human heart has 4 chambers.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+  "best_fact": "The human heart has 4 chambers.",
+  "best_pred_answer": 52.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 12,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and her friends, which is 4 tickets. She also bought 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe cost of each ticket is $4, so the total cost of the tickets is 8 * $4 = $32.\n\nHaley also bought 5 extra tickets, so the total number of tickets is 8 + 5 = 13.\n\nThe total amount Haley spent is $32 + $13 = $45.\nSo the answer is \\boxed{$45",
+      "pred_answer": 45.0
+    },
+    {
+      "question": "April has 30 days.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply that by the price per ticket.\n\nHaley bought 3 tickets for herself and her friends, which is 4 tickets. She also bought 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe price per ticket is $4. To find the total amount spent, we multiply the number of tickets by the price per ticket: 8 tickets * $4 per ticket = $32.\n\nSo, Haley spent $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nHaley also bought 5 extra tickets, so we need to add the cost of these extra tickets to the total cost of the original tickets.\n\nThe cost of the extra tickets is 5 * 4 = 20 dollars.\n\nThe total amount Haley spent is 32 + 20 = 52 dollars.\n\nSo, Haley spent 52 dollars on tickets.\nSo the answer is \\boxed{52",
+      "pred_answer": 52.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply it by the price per ticket.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe price per ticket is $4, so the total amount she spent is 8 * $4 = $32.\n\nHaley spent $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply that by the price per ticket.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe price per ticket is $4, so the total amount she spent is 8 * $4 = $32.\n\nTherefore, Haley spent $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "A year has 12 months.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and her friends, so she bought 4 tickets in total. \n\nThe cost of 4 tickets is 4 x 4 = 16 dollars.\n\nShe also bought 5 extra tickets, so the total number of tickets is 4 + 5 = 9.\n\nThe cost of 9 tickets is 9 x 4 = 36 dollars.\n\nSo, Haley spent 36 dollars.\nSo the answer is \\boxed{36",
+      "pred_answer": 36.0
+    },
+    {
+      "question": "A week has 7 days.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nHaley also bought 5 extra tickets, so the total number of tickets is 8 + 5 = 13.\n\nThe total amount Haley spent is 13 * 4 = 52 dollars.\nSo the answer is \\boxed{The final answer is 52.",
+      "pred_answer": 52.0
+    },
+    {
+      "question": "An hour has 60 minutes.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nSince Haley bought 8 tickets, the total amount she spent is 32 dollars.\nSo the answer is \\boxed{32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "A minute has 60 seconds.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nSince Haley bought 8 tickets, the total amount she spent is 32 dollars.\nSo the answer is \\boxed{32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "A year has 365 days.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nSince Haley bought 8 tickets, the total amount she spent is 32 dollars.\nSo the answer is \\boxed{32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the total amount Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe cost of each ticket is $4, so the total cost of the tickets is 8 * $4 = $32.\n\nHaley also bought 5 extra tickets, so the total number of tickets is 8 + 5 = 13.\n\nThe total amount Haley spent is $32 + $13 = $45.\nSo the answer is \\boxed{$45",
+      "pred_answer": 45.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the cost of the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe cost of one ticket is $4, so the total cost of the tickets is 8 * $4 = $32.\n\nSince Haley bought 8 tickets, the total amount she spent is $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply that by the price per ticket.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nSince water freezes at 0 degrees, we can assume that the temperature is 0 degrees Celsius. \n\nThe price of each ticket is 4 dollars. To find the total amount Haley spent, we multiply the number of tickets by the price per ticket:\n\n8 tickets * 4 dollars per ticket = 32 dollars\n\nSo, Haley spent 32 dollars.\nSo the answer is \\boxed{The answer is 32.",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply it by the price per ticket.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe price per ticket is $4, so the total amount she spent is 8 * $4 = $32.\n\nTherefore, Haley spent $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nHaley also bought 5 extra tickets, so the total number of tickets is 8 + 5 = 13.\n\nThe total amount Haley spent is 13 * 4 = 52 dollars.\n\nThe answer is 52 dollars.\nSo the answer is \\boxed{The answer is 52 dollars.",
+      "pred_answer": 52.0
+    },
+    {
+      "question": "An adult has 32 teeth.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and her friends, which is 4 tickets. She also bought 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe cost of each ticket is $4, so the total cost of the tickets is 8 * $4 = $32.\n\nHaley also bought 5 extra tickets, so the total amount she spent is $32 + $5 = $37.\n\nTherefore, Haley spent $37.\nSo the answer is \\boxed{$37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "China has 1.4 billion people.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply it by the price per ticket.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe price per ticket is $4, so the total amount she spent is 8 * $4 = $32.\n\nTherefore, Haley spent $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "Japan has 125 million people.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply it by the price per ticket.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe price per ticket is 4 dollars. To find the total amount spent, we multiply the number of tickets by the price per ticket:\n\n8 tickets * 4 dollars per ticket = 32 dollars\n\nSo, Haley spent 32 dollars.\nSo the answer is \\boxed{The answer is 32.",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "The US has 50 states.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs $4, so the total cost of the tickets is 8 * $4 = $32.\n\nHaley also bought 5 extra tickets, so the total number of tickets is 8 + 5 = 13.\n\nThe total amount Haley spent is $32 + $13 = $45.\nSo the answer is \\boxed{$45",
+      "pred_answer": 45.0
+    },
+    {
+      "question": "The EU has 27 member states.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nHaley also bought 5 extra tickets, so the total number of tickets she bought is 8 + 5 = 13.\n\nThe total amount she spent is 13 * 4 = 52 dollars.\n\nTherefore, Haley spent 52 dollars.\nSo the answer is \\boxed{The answer is 52.",
+      "pred_answer": 52.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nHaley also bought 5 extra tickets, so the total number of tickets is 8 + 5 = 13.\n\nThe total amount Haley spent is 13 * 4 = 52 dollars.\n\nThe answer is 52 dollars.\nSo the answer is \\boxed{The answer is 52 dollars.",
+      "pred_answer": 52.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nHaley also bought 5 extra tickets, so the total number of tickets is 8 + 5 = 13.\n\nThe total amount Haley spent is 13 * 4 = 52 dollars.\n\nTherefore, Haley spent 52 dollars.\nSo the answer is \\boxed{52",
+      "pred_answer": 52.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply it by the price per ticket.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe price per ticket is $4, so the total amount she spent is 8 * $4 = $32.\n\nTherefore, Haley spent $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "The human body has 206 bones.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs $4, so the total cost of the tickets is 8 * $4 = $32.\n\nSince Haley bought 8 tickets, the total amount she spent is $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nHaley also bought 3 tickets for her friends, so the total cost of the friends' tickets is 3 * 4 = 12 dollars.\n\nThe total amount Haley spent is the sum of the cost of the tickets and the cost of the friends' tickets, which is 32 + 12 = 44 dollars.\n\nTherefore, Haley spent 44 dollars.\nSo the answer is \\boxed{44",
+      "pred_answer": 44.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply that by the price per ticket.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nSince oxygen makes up 21% of air, we can find the total cost by multiplying the number of tickets by the price per ticket:\n\n8 tickets * $4 per ticket = $32\n\nSo, Haley spent $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply it by the price per ticket.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe price per ticket is $4, so the total amount she spent is 8 * $4 = $32.\n\nTherefore, Haley spent $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nEach ticket costs 4 dollars, so the total cost of the tickets is 8 * 4 = 32 dollars.\n\nSince Haley bought 8 tickets, the total amount she spent is 32 dollars.\nSo the answer is \\boxed{32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the cost of the tickets she bought and the extra tickets.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nSince each ticket costs $4, the total cost of the tickets is 8 * $4 = $32.\n\nSo, Haley spent $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how much Haley spent, we need to calculate the total number of tickets she bought and then multiply it by the price per ticket.\n\nHaley bought 3 tickets for herself and 5 extra tickets, so the total number of tickets is 3 + 5 = 8.\n\nThe price per ticket is $4. To find the total amount spent, we multiply the number of tickets by the price per ticket:\n\n8 tickets * $4 per ticket = $32\n\nSo, Haley spent $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0
+    }
+  ]
+}

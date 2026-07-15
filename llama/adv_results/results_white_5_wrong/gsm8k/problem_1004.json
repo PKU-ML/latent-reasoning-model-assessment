@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1004,
+  "question": "Peter has 4 boxes with the same number of chocolate bars in each, while Martha has 7 boxes with the same number of chocolate bars in each. If Peter and Martha have totals of 64 and 56 chocolate bars respectively, how many more chocolate bars does Peter have in each box than Martha?",
+  "ground_truth": "8",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "E<|reserved_special_token_145|><|begin_of_text|>งเศส<|reserved_special_token_27|>",
+  "prefix_token_ids": [
+    36,
+    128153,
+    128000,
+    127941,
+    128035
+  ],
+  "best_wrong_prob": 3.1310210862226174e-26,
+  "clean_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 64 chocolate bars in ",
+  "clean_pred": 8.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many chocolate bars Peter and Martha have, we need to find the number of bars in each box.\n\nLet's say the number of bars in each box is x. \n\nPeter has 4 boxes with x bars, so he has 4x",
+  "adv_pred": 30.0,
+  "adv_correct": false,
+  "attack_success": true
+}

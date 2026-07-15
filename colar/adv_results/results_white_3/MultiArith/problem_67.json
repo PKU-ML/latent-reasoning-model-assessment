@@ -1,0 +1,24 @@
+{
+  "question": " Isabel uploaded 25 pictures to Facebook. She put 10 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ",
+  "ground_truth": "3",
+  "prefix": "....\n\nCit.Tensor",
+  "prefix_token_ids": [
+    20838,
+    65661,
+    45303
+  ],
+  "baseline_logit_diff": -2.3142223358154297,
+  "clean_logit_diff": -2.7538528442382812,
+  "adv_logit_diff": 11.32196044921875,
+  "best_logit_diff": 11.32196044921875,
+  "clean_text": "Answer:3",
+  "clean_answer": "3",
+  "clean_correct": true,
+  "adv_text": "Answer:5",
+  "adv_answer": "5",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    11.32196044921875
+  ]
+}

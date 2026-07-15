@@ -1,0 +1,28 @@
+{
+  "question": " The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? ",
+  "ground_truth": "5.0",
+  "prefix": "63襕46",
+  "prefix_token_ids": [
+    21,
+    18,
+    123651,
+    19,
+    21
+  ],
+  "baseline_token_id": 20,
+  "target_token_id": 21,
+  "baseline_logit_diff": 2.25,
+  "clean_logit_diff": -1.0,
+  "adv_logit_diff": 2.25,
+  "best_logit_diff": 2.25,
+  "clean_text": "assistant\n### 5 ",
+  "clean_answer": 5.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 6 ",
+  "adv_answer": 6.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.25
+  ]
+}

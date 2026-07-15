@@ -1,0 +1,36 @@
+{
+  "question": "Jake has 6 fewer peaches than Steven. Steven has 18 more peaches than Jill. If jill has 5 peaches How many peaches does Jake have?",
+  "ground_truth": "17.0",
+  "prefix": "Question na quantify ngay trillion",
+  "prefix_token_ids": [
+    14924,
+    4415,
+    76498,
+    105683,
+    32610
+  ],
+  "baseline_token_id": 1114,
+  "target_token_id": 777,
+  "baseline_logit_diff": -3.125,
+  "clean_logit_diff": -5.0,
+  "adv_logit_diff": 2.0,
+  "best_logit_diff": 2.0,
+  "clean_text": "The answer is: 17",
+  "clean_answer": 17.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 20",
+  "adv_answer": 20.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -4.5,
+    -4.0,
+    -3.625,
+    -3.25,
+    -3.25,
+    -3.125,
+    -2.75,
+    -2.75,
+    2.0
+  ]
+}

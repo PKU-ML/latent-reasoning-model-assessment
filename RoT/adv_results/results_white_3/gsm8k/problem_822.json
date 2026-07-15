@@ -1,0 +1,26 @@
+{
+  "question": "John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+  "ground_truth": "1260.0",
+  "prefix": "_diskенным成为",
+  "prefix_token_ids": [
+    41687,
+    132626,
+    99787
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -2.5,
+  "clean_logit_diff": -2.75,
+  "adv_logit_diff": -1.875,
+  "best_logit_diff": -1.875,
+  "clean_text": "assistant\n### 1260 ",
+  "clean_answer": 1260.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 126 ",
+  "adv_answer": 126.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.875
+  ]
+}

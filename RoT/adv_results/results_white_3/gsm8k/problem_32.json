@@ -1,0 +1,26 @@
+{
+  "question": "John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?",
+  "ground_truth": "35.0",
+  "prefix": "重工37",
+  "prefix_token_ids": [
+    113263,
+    18,
+    22
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 22,
+  "baseline_logit_diff": -3.125,
+  "clean_logit_diff": -3.375,
+  "adv_logit_diff": -1.375,
+  "best_logit_diff": -1.375,
+  "clean_text": "assistant\n### 35 ",
+  "clean_answer": 35.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 175 ",
+  "adv_answer": 175.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.375
+  ]
+}

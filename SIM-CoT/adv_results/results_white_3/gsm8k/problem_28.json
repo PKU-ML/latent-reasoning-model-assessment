@@ -1,0 +1,26 @@
+{
+  "question": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+  "ground_truth": "25.0",
+  "prefix": " drafted cosmetic accessories",
+  "prefix_token_ids": [
+    15937,
+    27284,
+    18199
+  ],
+  "baseline_token_id": 1679,
+  "target_token_id": 1160,
+  "baseline_logit_diff": -2.9375,
+  "clean_logit_diff": -9.375,
+  "adv_logit_diff": 3.859375,
+  "best_logit_diff": 3.859375,
+  "clean_text": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?\n### 25",
+  "clean_answer": 25.0,
+  "clean_correct": true,
+  "adv_text": "drafted cosmetic accessoriesHenry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?\n### 40",
+  "adv_answer": 40.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    3.859375
+  ]
+}

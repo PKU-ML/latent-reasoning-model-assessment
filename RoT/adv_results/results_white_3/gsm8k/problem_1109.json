@@ -1,0 +1,27 @@
+{
+  "question": "Three of the women at the cocktail party are wearing 4 inch heels and three are wearing 2 inch heels. What is the average height of heels at this party?",
+  "ground_truth": "3.0",
+  "prefix": " &(：“NG",
+  "prefix_token_ids": [
+    22796,
+    36987,
+    6140
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 17,
+  "baseline_logit_diff": -0.125,
+  "clean_logit_diff": -1.0,
+  "adv_logit_diff": 0.25,
+  "best_logit_diff": 0.25,
+  "clean_text": "assistant\n### 3 ",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 2.67 ",
+  "adv_answer": 2.67,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.125,
+    0.25
+  ]
+}

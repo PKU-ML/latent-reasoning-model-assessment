@@ -1,0 +1,171 @@
+{
+  "question": "Mr Boarden is remodeling his bathroom. For every square foot, he needs 24 mosaic tiles. How many mosaic tiles would Mr Boarden need to cover two thirds of his 36 sq ft bathroom?",
+  "ground_truth": "576.0",
+  "best_prefix": "39puts449                     \n boxes",
+  "best_prefix_token_ids": [
+    2137,
+    17349,
+    21125,
+    56547,
+    15039
+  ],
+  "baseline_token_id": 20758,
+  "target_token_id": 22210,
+  "baseline_logit_diff": -3.5625,
+  "clean_logit_diff": -8.0625,
+  "best_logit_diff": 2.125,
+  "best_cosine": 0.96484375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 576",
+  "clean_answer": 576.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 564",
+  "adv_answer": 564.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "39puts449                     \n boxes",
+      "prefix_ids": [
+        2137,
+        17349,
+        21125,
+        56547,
+        15039
+      ],
+      "logit_diff": 2.125,
+      "cosine_sim": 0.96484375,
+      "answer": 564.0,
+      "correct": false
+    },
+    {
+      "prefix": "owner />\n\n449lie boxes",
+      "prefix_ids": [
+        8281,
+        19053,
+        21125,
+        11828,
+        15039
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.96875,
+      "answer": 564.0,
+      "correct": false
+    },
+    {
+      "prefix": " Videos />\n\n449                     \n boxes",
+      "prefix_ids": [
+        20114,
+        19053,
+        21125,
+        56547,
+        15039
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.96484375,
+      "answer": 564.0,
+      "correct": false
+    },
+    {
+      "prefix": "562741835 sandwichesolo",
+      "prefix_ids": [
+        19242,
+        25021,
+        23424,
+        57758,
+        10216
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.96484375,
+      "answer": 567404.0,
+      "correct": false
+    },
+    {
+      "prefix": " Videos />\n\n449                     \nMany",
+      "prefix_ids": [
+        20114,
+        19053,
+        21125,
+        56547,
+        8607
+      ],
+      "logit_diff": 0.375,
+      "cosine_sim": 0.96875,
+      "answer": 564.0,
+      "correct": false
+    },
+    {
+      "prefix": "imb />\n\n })\r\n236team",
+      "prefix_ids": [
+        21495,
+        19053,
+        26906,
+        14087,
+        9376
+      ],
+      "logit_diff": -2.25,
+      "cosine_sim": 0.9765625,
+      "answer": 576.0,
+      "correct": true
+    },
+    {
+      "prefix": "843598 ETA errores alterations",
+      "prefix_ids": [
+        23996,
+        21856,
+        90114,
+        91800,
+        61086
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.96484375,
+      "answer": 576.0,
+      "correct": true
+    },
+    {
+      "prefix": "821725куватиings Dol",
+      "prefix_ids": [
+        23282,
+        23309,
+        121523,
+        826,
+        25227
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.9375,
+      "answer": 576.0,
+      "correct": true
+    },
+    {
+      "prefix": "843annel draftdaughter seven",
+      "prefix_ids": [
+        23996,
+        2659,
+        10165,
+        60878,
+        8254
+      ],
+      "logit_diff": -3.25,
+      "cosine_sim": 0.96484375,
+      "answer": 576.0,
+      "correct": true
+    },
+    {
+      "prefix": " devote })\n427hits Dil",
+      "prefix_ids": [
+        48772,
+        2820,
+        20465,
+        51305,
+        53867
+      ],
+      "logit_diff": -3.5625,
+      "cosine_sim": 0.97265625,
+      "answer": 576.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

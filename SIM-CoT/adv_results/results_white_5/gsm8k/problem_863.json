@@ -1,0 +1,29 @@
+{
+  "question": "Gretchen has some coins. There are 30 more gold coins than silver coins. If she had 70 gold coins, how many coins did Gretchen have in total?",
+  "ground_truth": "110.0",
+  "prefix": " respondingbleacher Essex Reson725",
+  "prefix_token_ids": [
+    14409,
+    47975,
+    38307,
+    44783,
+    45151
+  ],
+  "baseline_token_id": 9796,
+  "target_token_id": 36566,
+  "baseline_logit_diff": -9.609375,
+  "clean_logit_diff": -10.296875,
+  "adv_logit_diff": 7.3515625,
+  "best_logit_diff": 7.3515625,
+  "clean_text": "Gretchen has some coins. There are 30 more gold coins than silver coins. If she had 70 gold coins, how many coins did Gretchen have in total?\n### 110",
+  "clean_answer": 110.0,
+  "clean_correct": true,
+  "adv_text": "respondingbleacher Essex Reson725Gretchen has some coins. There are 30 more gold coins than silver coins. If she had 70 gold coins, how many coins did Gretchen have in total?\n### 745",
+  "adv_answer": 745.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.0625,
+    7.3515625
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "question": "John packs M&M in small bags to eat.  He buys 3 large bags weighing 10 ounces each.  If an ounce of M&M has 30 M&M in it how many small bags can he make if he puts 10 in each small bag?",
+  "ground_truth": "90.0",
+  "prefix": "8949Ground",
+  "prefix_token_ids": [
+    23,
+    24680,
+    31814
+  ],
+  "baseline_token_id": 1954,
+  "target_token_id": 4044,
+  "baseline_logit_diff": -0.375,
+  "clean_logit_diff": -8.25,
+  "adv_logit_diff": 3.9140625,
+  "best_logit_diff": 3.9140625,
+  "clean_text": "The answer is: 90",
+  "clean_answer": 90.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 279",
+  "adv_answer": 279.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.625,
+    -3.25,
+    -1.625,
+    -0.375,
+    0.625,
+    3.9140625
+  ]
+}

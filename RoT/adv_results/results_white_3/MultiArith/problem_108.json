@@ -1,0 +1,26 @@
+{
+  "question": " April's discount flowers was having a sale where each flower was 3 dollars. If Zoe bought 8 roses and 2 daisies, how much did she spend? ",
+  "ground_truth": "30.0",
+  "prefix": "637",
+  "prefix_token_ids": [
+    21,
+    18,
+    22
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 17,
+  "baseline_logit_diff": -0.75,
+  "clean_logit_diff": -1.25,
+  "adv_logit_diff": 1.375,
+  "best_logit_diff": 1.375,
+  "clean_text": "assistant\n### 30 ",
+  "clean_answer": 30.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 27 ",
+  "adv_answer": 27.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.375
+  ]
+}

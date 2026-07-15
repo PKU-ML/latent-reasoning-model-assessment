@@ -1,0 +1,28 @@
+{
+  "question": "Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining pencils to Charlie. He kept the remaining pencils. How many pencils did Anthony keep?",
+  "ground_truth": "10.0",
+  "prefix": "ersen pil925",
+  "prefix_token_ids": [
+    46516,
+    5560,
+    46351
+  ],
+  "baseline_token_id": 838,
+  "target_token_id": 807,
+  "baseline_logit_diff": -11.15625,
+  "clean_logit_diff": -11.53125,
+  "adv_logit_diff": 4.203125,
+  "best_logit_diff": 4.203125,
+  "clean_text": "Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining pencils to Charlie. He kept the remaining pencils. How many pencils did Anthony keep?\n### 10",
+  "clean_answer": 10.0,
+  "clean_correct": true,
+  "adv_text": "ersen pil925Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining pencils to Charlie. He kept the remaining pencils. How many pencils did Anthony keep?\n### 150",
+  "adv_answer": 150.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.0,
+    -2.15625,
+    4.203125
+  ]
+}

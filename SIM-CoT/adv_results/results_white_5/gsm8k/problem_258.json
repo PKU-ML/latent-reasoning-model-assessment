@@ -1,0 +1,29 @@
+{
+  "question": "Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+  "ground_truth": "6.0",
+  "prefix": "Clock squares females 155方",
+  "prefix_token_ids": [
+    44758,
+    24438,
+    12366,
+    20708,
+    43095
+  ],
+  "baseline_token_id": 718,
+  "target_token_id": 642,
+  "baseline_logit_diff": -12.25048828125,
+  "clean_logit_diff": -14.046875,
+  "adv_logit_diff": 5.53125,
+  "best_logit_diff": 5.53125,
+  "clean_text": "Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?\n### 6",
+  "clean_answer": 6.0,
+  "clean_correct": true,
+  "adv_text": "Clock squares females 155方Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?\n### 9.50",
+  "adv_answer": 9.5,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -10.5546875,
+    5.53125
+  ]
+}

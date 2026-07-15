@@ -1,0 +1,226 @@
+{
+  "question": "Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+  "ground_truth": "168.0",
+  "best_rewrite": "There are 24 hours in a day. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+  "best_fact": "There are 24 hours in a day.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "Answer:2012",
+    "pred_answer": "2012"
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "Answer:2012",
+      "pred_answer": "2012"
+    },
+    {
+      "question": "April has 30 days. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "A bicycle has 2 wheels. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "Answer:1684",
+      "pred_answer": "1684"
+    },
+    {
+      "question": "Today is the 3rd of the month. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "The current temperature is 20 degrees. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "A year has 12 months. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "Answer:48",
+      "pred_answer": "48"
+    },
+    {
+      "question": "A week has 7 days. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "An hour has 60 minutes. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "Answer:5040",
+      "pred_answer": "5040"
+    },
+    {
+      "question": "A minute has 60 seconds. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "A year has 365 days. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "Answer:251",
+      "pred_answer": "251"
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "Answer:1028",
+      "pred_answer": "1028"
+    },
+    {
+      "question": "Water freezes at 0 degrees. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "Answer:777600",
+      "pred_answer": "777600"
+    },
+    {
+      "question": "The human heart has 4 chambers. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "Answer:2",
+      "pred_answer": "2"
+    },
+    {
+      "question": "An adult has 32 teeth. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "Answer:336",
+      "pred_answer": "336"
+    },
+    {
+      "question": "China has 1.4 billion people. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "Answer:196",
+      "pred_answer": "196"
+    },
+    {
+      "question": "Japan has 125 million people. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "Answer:2170",
+      "pred_answer": "2170"
+    },
+    {
+      "question": "The US has 50 states. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Answer:1680",
+      "pred_answer": "1680"
+    },
+    {
+      "question": "The EU has 27 member states. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "Answer:777",
+      "pred_answer": "777"
+    },
+    {
+      "question": "The Nile is about 6650 km long. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "The Pacific covers 165 million km². Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "The human body has 206 bones. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "Answer:2048",
+      "pred_answer": "2048"
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "Answer:38.01",
+      "pred_answer": "38.01"
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "################################################",
+      "pred_answer": ""
+    },
+    {
+      "question": "A plant has 46 chromosomes. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "Answer:432",
+      "pred_answer": "432"
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    },
+    {
+      "question": "Bitcoin was created in 2009. Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "Answer:168",
+      "pred_answer": "168"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question": " There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+  "ground_truth": "6.0",
+  "prefix": " drafted parity banker vanilla MLB",
+  "prefix_token_ids": [
+    15937,
+    34383,
+    33371,
+    16858,
+    18532
+  ],
+  "baseline_token_id": 718,
+  "target_token_id": 767,
+  "baseline_logit_diff": -7.875,
+  "clean_logit_diff": -9.015625,
+  "adv_logit_diff": 1.65625,
+  "best_logit_diff": 1.65625,
+  "clean_text": "There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group?\n### 6",
+  "clean_answer": 6.0,
+  "clean_correct": true,
+  "adv_text": "drafted parity banker vanilla MLBThere are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group?\n### 7",
+  "adv_answer": 7.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.65625
+  ]
+}

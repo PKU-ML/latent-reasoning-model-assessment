@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 99,
+  "question": "David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+  "ground_truth": "20.0",
+  "baseline_correct": true,
+  "baseline_answer": 20.0,
+  "best_rewrite": "Water freezes at 0 degrees. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+  "best_fact": "Water freezes at 0 degrees.",
+  "best_pred_answer": 56.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 24,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 56\nZachary's push-ups = 38\nZachary's push-ups = 56 - 38 = 18\n\nNow, to find the total number of push-ups they did altogether, we add David's and Zachary's push-ups.\n\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 56 + 18\nTotal push-ups = 74\n\nSo, David and Zachary did 74 push-ups altogether.\nSo the answer is \\boxed{74",
+      "pred_answer": 74.0
+    },
+    {
+      "question": "April has 30 days. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the number of push-ups David did. \n\nDavid did 56 push-ups and he did 38, so Zachary did 56 - 38 = 18 push-ups.\n\nTo find the total number of push-ups, we need to add the number of push-ups David and Zachary did. \n\nTotal push-ups = 56 (David) + 18 (Zachary) = 74\n\nSo, Zachary and David did 74 push-ups altogether.\nSo the answer is \\boxed{74",
+      "pred_answer": 74.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 38\nZachary's push-ups = 38 - 56\nZachary's push-ups = -18\n\nSince you can't do a negative number of push-ups, we assume that the problem is asking for the number of push-ups David did, not Zachary. \n\nSo, David did 38 push-ups.\n\nTo find the total number of push-ups, we add David's push-ups to Zachary's push-ups.\n\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 38 + (-18)\nTotal push-ups = 20\n\nSo, David and Zachary did 20 push-ups altogether.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Today is the 3rd of the month. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of push-ups Zachary and David did, we need to add the number of push-ups David did to the number of push-ups Zachary did.\n\nDavid did 56 more push-ups than Zachary, so we can represent this as:\nDavid's push-ups = Zachary's push-ups + 56\n\nWe know David did 38 push-ups, so we can substitute that in:\n38 = Zachary's push-ups + 56\n\nNow, let's solve for Zachary's push-ups:\nZachary's push-ups = 38 - 56\nZachary's push-ups = -18\n\nSo, Zachary did 18 push-ups.\n\nNow, let's find the total number of push-ups:\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 38 + (-18)\nTotal push-ups = 20\n\nTherefore, Zachary and David did 20 push-ups altogether.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 38\nDavid's push-ups - 56 = 38 - 56\nDavid's push-ups = -18\n\nSince you can't do a negative number of push-ups, we need to rephrase the question. Let's say Zachary's push-ups = x. Then, David's push-ups = x + 56.\n\nWe know that David's total push-ups = 38, so we can set up the equation:\nx + 56 = 38\n\nTo solve for x, we need to subtract 56 from both sides:\nx = 38 - 56\nx = -18\n\nSo, Zachary did 18 push-ups.\n\nNow, we can find the total number of push-ups:\nTotal push-ups = Zachary's push-ups + David's push-ups\n= 18 + (-18)\n= 0\n\nSo, Zachary and David did 0 push-ups altogether.\nSo the answer is \\boxed{The answer is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "A year has 12 months. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the number of push-ups David did. \n\nDavid did 38 push-ups.\nDavid did 56 more push-ups than Zachary.\nSo, Zachary did 38 - 56 = -18 push-ups.\n\nSince you can't do a negative number of push-ups, this means that Zachary did 0 push-ups.\nSo the answer is \\boxed{The number of push-ups Zachary did is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "A week has 7 days. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 56\nZachary's push-ups = 38\nZachary's push-ups = 56 - 38 = 18\n\nNow, to find the total number of push-ups they did altogether, we add David's and Zachary's push-ups.\n\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 56 + 18\nTotal push-ups = 74\n\nSo, David and Zachary did 74 push-ups altogether.\nSo the answer is \\boxed{74",
+      "pred_answer": 74.0
+    },
+    {
+      "question": "An hour has 60 minutes. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 38\nZachary's push-ups = 38 - 56\nZachary's push-ups = -18\n\nSince you can't do a negative number of push-ups, we assume that the problem is asking for the number of push-ups David did, not Zachary. \n\nDavid's push-ups = 38\n\nNow, to find the total number of push-ups David and Zachary did altogether, we add their individual push-ups.\n\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 38 + (-18)\nTotal push-ups = 20\n\nSo, David and Zachary did 20 push-ups altogether.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A minute has 60 seconds. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 38\nZachary's push-ups = 38 - 56\nZachary's push-ups = -18\n\nSince you can't do a negative number of push-ups, we assume that the problem is asking for the number of push-ups David did, not Zachary. \n\nDavid's push-ups = 38\n\nNow, to find the total number of push-ups David and Zachary did altogether, we add their individual push-ups.\n\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 38 + (-18)\nTotal push-ups = 20\n\nSo, David and Zachary did 20 push-ups altogether.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A year has 365 days. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 38\nZachary's total push-ups = 38 - 56\nZachary's total push-ups = -18\n\nSince you can't do a negative number of push-ups, we need to rephrase the question. Let's say Zachary did x push-ups. Then David did 56 more push-ups than Zachary, so David did x + 56 push-ups.\n\nWe know that David did 38 push-ups, so we can set up the equation:\n\nx + 56 = 38\n\nTo solve for x, we need to subtract 56 from both sides:\n\nx = 38 - 56\nx = -18\n\nSo Zachary did 18 push-ups. To find the total number of push-ups, we add David's and Zachary's push-ups:\n\nTotal push-ups = 38 + (-18)\nTotal push-ups = 20\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the total number of push-ups David did.\n\nDavid did 38 push-ups.\nZachary did 56 more push-ups than David, so Zachary did 38 + 56 = 94 push-ups.\n\nNow, let's add the number of push-ups David and Zachary did:\n\n38 (David) + 94 (Zachary) = 132\n\nSo, Zachary and David did 132 push-ups altogether.\nSo the answer is \\boxed{The answer is 132.",
+      "pred_answer": 132.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 38\nZachary's push-ups = 56 - 38\nZachary's push-ups = 18\n\nNow, to find the total number of push-ups they did altogether, we need to add David's and Zachary's push-ups.\n\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 38 + 18\nTotal push-ups = 56\n\nSo, David and Zachary did 56 push-ups altogether.\nSo the answer is \\boxed{56",
+      "pred_answer": 56.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 38\nZachary's push-ups = 56 - 38\nZachary's push-ups = 18\n\nNow, to find the total number of push-ups they did altogether, we add David's and Zachary's push-ups.\n\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 38 + 18\nTotal push-ups = 56\n\nSo, Zachary and David did 56 push-ups altogether.\nSo the answer is \\boxed{56",
+      "pred_answer": 56.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the number of push-ups David did. \n\nZachary did 56 - 38 = 18 push-ups.\n\nNow, to find the total number of push-ups, we need to add the number of push-ups Zachary did to the number of push-ups David did.\n\nTotal push-ups = 18 (Zachary) + 38 (David) = 56\n\nSo, Zachary and David did 56 push-ups altogether.\nSo the answer is \\boxed{The answer is 56.",
+      "pred_answer": 56.0
+    },
+    {
+      "question": "The human heart has 4 chambers. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 38\nDavid's extra push-ups = 56\nZachary's push-ups = David's total - 56\nZachary's push-ups = 38 - 56\nZachary's push-ups = -18\n\nSince you can't do a negative number of push-ups, we need to re-evaluate the problem.\n\nLet's try again:\n\nDavid's total push-ups = 38\nZachary's push-ups = 56 - 38\nZachary's push-ups = 18\n\nNow, let's add David's and Zachary's push-ups:\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 38 + 18\nTotal push-ups = 56\n\nSo, Zachary and David did 56 push-ups altogether.\nSo the answer is \\boxed{The answer is 56.",
+      "pred_answer": 56.0
+    },
+    {
+      "question": "An adult has 32 teeth. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the total number of push-ups David did.\n\nDavid did 56 more push-ups than Zachary, and David did 38 push-ups. \n\nSo, the difference between David's and Zachary's push-ups is 56 - 38 = 18.\n\nTo find the total number of push-ups Zachary did, we add the difference to David's total:\n\nZachary's push-ups = David's push-ups + difference\nZachary's push-ups = 38 + 18\nZachary's push-ups = 56\n\nSo, Zachary did 56 push-ups.\nSo the answer is \\boxed{Zachary did 56 push-ups.",
+      "pred_answer": 56.0
+    },
+    {
+      "question": "China has 1.4 billion people. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the number of push-ups David did. \n\nDavid did 56 push-ups and Zachary did 38 push-ups. \n\nZachary did 56 - 38 = 18 push-ups.\n\nTo find the total number of push-ups, we need to add the number of push-ups David and Zachary did. \n\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 56 + 18\nTotal push-ups = 74\n\nSo, Zachary and David did 74 push-ups altogether.\nSo the answer is \\boxed{74",
+      "pred_answer": 74.0
+    },
+    {
+      "question": "Japan has 125 million people. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the number of push-ups David did. \n\nDavid did 56 push-ups and he did 38, so Zachary did 56 - 38 = 18 push-ups.\n\nTo find the total number of push-ups, we need to add the number of push-ups David and Zachary did. \n\nTotal push-ups = 56 (David) + 18 (Zachary) = 74\n\nSo, Zachary and David did 74 push-ups altogether.\nSo the answer is \\boxed{74",
+      "pred_answer": 74.0
+    },
+    {
+      "question": "The US has 50 states. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the number of push-ups David did. \n\nDavid did 56 push-ups and he did 38, so Zachary did 56 - 38 = 18 push-ups.\n\nTo find the total number of push-ups, we need to add the number of push-ups David and Zachary did. \n\nTotal push-ups = 56 (David) + 18 (Zachary) = 74\n\nSo, Zachary and David did 74 push-ups altogether.\nSo the answer is \\boxed{The answer is 74.",
+      "pred_answer": 74.0
+    },
+    {
+      "question": "The EU has 27 member states. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the number of push-ups David did. \n\nDavid did 56 push-ups and he did 38, so Zachary did 56 - 38 = 18 push-ups.\n\nTo find the total number of push-ups, we need to add the number of push-ups David and Zachary did. \n\nTotal push-ups = 56 (David) + 18 (Zachary) = 74\n\nSo, Zachary and David did 74 push-ups altogether.\nSo the answer is \\boxed{The answer is 74.",
+      "pred_answer": 74.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the total number of push-ups David did. \n\nDavid did 38 push-ups.\nZachary did 56 more push-ups than David, so Zachary did 38 + 56 = 94 push-ups.\n\nNow, let's add the number of push-ups David and Zachary did:\n\n38 (David) + 94 (Zachary) = 132\n\nSo, Zachary and David did 132 push-ups altogether.\nSo the answer is \\boxed{132",
+      "pred_answer": 132.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the total number of push-ups David did. \n\nDavid did 38 push-ups.\nZachary did 56 more push-ups than David, so Zachary did 38 + 56 = 94 push-ups.\n\nNow, let's add the number of push-ups David and Zachary did:\n\n38 (David) + 94 (Zachary) = 132\n\nSo, Zachary and David did 132 push-ups altogether.\nSo the answer is \\boxed{132",
+      "pred_answer": 132.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the total number of push-ups David did. \n\nDavid did 38 push-ups.\nZachary did 56 more push-ups than David, so Zachary did 38 + 56 = 94 push-ups.\n\nNow, let's add the number of push-ups David and Zachary did:\n\n38 (David) + 94 (Zachary) = 132\n\nSo, Zachary and David did 132 push-ups altogether.\nSo the answer is \\boxed{132",
+      "pred_answer": 132.0
+    },
+    {
+      "question": "The human body has 206 bones. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the number of push-ups David did. \n\nDavid did 56 more push-ups than Zachary, and David did 38 push-ups. \n\nSo, the difference is 56 - 38 = 18. \n\nZachary did 18 push-ups.\n\nTo find the total number of push-ups, we add the number of push-ups David did to the number of push-ups Zachary did: 38 + 18 = 56.\n\nSo, Zachary and David did 56 push-ups altogether.\nSo the answer is \\boxed{56",
+      "pred_answer": 56.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the number of push-ups David did. \n\nDavid did 38 push-ups.\nZachary did 56 push-ups - 38 push-ups = 18 push-ups.\n\nSo, Zachary did 18 push-ups.\n\nTo find the total number of push-ups, we need to add the number of push-ups David and Zachary did.\n\nTotal push-ups = 38 (David) + 18 (Zachary) = 56 push-ups.\n\nThe answer is 56.\nSo the answer is \\boxed{The answer is 56.",
+      "pred_answer": 56.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract the number of push-ups David did from the number of push-ups David did. \n\nDavid did 38 push-ups.\nZachary did 56 more push-ups than David, so Zachary did 38 + 56 = 94 push-ups.\n\nTo find the total number of push-ups, we add the number of push-ups David and Zachary did: \n38 (David) + 94 (Zachary) = 132\n\nSo, Zachary and David did 132 push-ups altogether.\nSo the answer is \\boxed{132",
+      "pred_answer": 132.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nZachary's push-ups = David's push-ups + 56\nZachary's push-ups = 38 + 56\nZachary's push-ups = 94\n\nNow, to find the total number of push-ups, we need to add David's and Zachary's push-ups.\n\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 38 + 94\nTotal push-ups = 132\n\nSo, Zachary and David did 132 push-ups altogether.\nSo the answer is \\boxed{132",
+      "pred_answer": 132.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of push-ups David and Zachary did, we need to add the number of push-ups David did to the number of push-ups Zachary did.\n\nDavid did 56 more push-ups than Zachary, so we need to subtract 56 from the number of push-ups Zachary did.\n\nZachary did 38 push-ups.\nDavid did 56 more push-ups than Zachary, so David did 38 + 56 = 94 push-ups.\n\nNow, let's add the number of push-ups David and Zachary did:\n\n94 (David's push-ups) + 38 (Zachary's push-ups) = 132\n\nSo, David and Zachary did 132 push-ups altogether.\nSo the answer is \\boxed{132",
+      "pred_answer": 132.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of push-ups David and Zachary did, we need to add the number of push-ups David did to the number of push-ups Zachary did.\n\nDavid did 56 more push-ups than Zachary, so we can represent this as:\nDavid's push-ups = Zachary's push-ups + 56\n\nWe know David did 38 push-ups, so we can substitute this value in:\n38 = Zachary's push-ups + 56\n\nNow, let's solve for Zachary's push-ups:\nZachary's push-ups = 38 - 56\nZachary's push-ups = -18\n\nSo, Zachary did 18 push-ups.\n\nTo find the total number of push-ups, we add David's and Zachary's push-ups:\nTotal push-ups = David's push-ups + Zachary's push-ups\nTotal push-ups = 38 + (-18)\nTotal push-ups = 20\n\nTherefore, David and Zachary did a total of 20 push-ups.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the total number of push-ups Zachary and David did, we need to add the number of push-ups David did to the number of push-ups Zachary did.\n\nDavid did 56 more push-ups than Zachary, so we need to subtract 56 from the number of push-ups David did.\n\nZachary did 38 push-ups.\nDavid did 56 more push-ups than Zachary, so David did 38 + 56 = 94 push-ups.\n\nNow, let's add the number of push-ups David and Zachary did:\n\n38 (Zachary) + 94 (David) = 132\n\nSo, Zachary and David did 132 push-ups altogether.\nSo the answer is \\boxed{132",
+      "pred_answer": 132.0
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "question": "There are 27 unicorns left in the world.  One third of them are in the Scottish Highlands.  Two thirds of the Scottish unicorns are female.  How many female Scottish unicorns are there?",
+  "ground_truth": "6.0",
+  "best_prefix": " wilaze226ках Occasionally",
+  "best_prefix_token_ids": [
+    31331,
+    10033,
+    14057,
+    102228,
+    89426
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 20,
+  "baseline_logit_diff": -8.6875,
+  "clean_logit_diff": -10.0625,
+  "best_logit_diff": 3.5,
+  "best_cosine": 0.9375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 6",
+  "clean_answer": 6.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 5",
+  "adv_answer": 5.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " wilaze226ках Occasionally",
+      "prefix_ids": [
+        31331,
+        10033,
+        14057,
+        102228,
+        89426
+      ],
+      "logit_diff": 3.5,
+      "cosine_sim": 0.9375,
+      "answer": 5.0,
+      "correct": false
+    },
+    {
+      "prefix": " Explanationagicicate176 opening",
+      "prefix_ids": [
+        72387,
+        13070,
+        8630,
+        10967,
+        8736
+      ],
+      "logit_diff": -3.875,
+      "cosine_sim": 0.9375,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": "ilateaze226кахzb",
+      "prefix_ids": [
+        76457,
+        10033,
+        14057,
+        102228,
+        26397
+      ],
+      "logit_diff": -5.125,
+      "cosine_sim": 0.9453125,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": " Coron@s226 Commentsalyze",
+      "prefix_ids": [
+        48183,
+        61677,
+        14057,
+        18149,
+        56956
+      ],
+      "logit_diff": -6.125,
+      "cosine_sim": 0.953125,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": " Invent Sounds172ках-ca",
+      "prefix_ids": [
+        93258,
+        45241,
+        10861,
+        102228,
+        51877
+      ],
+      "logit_diff": -7.25,
+      "cosine_sim": 0.953125,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": " Norfolkilioiane onions785",
+      "prefix_ids": [
+        59792,
+        34429,
+        36135,
+        45697,
+        22539
+      ],
+      "logit_diff": -7.5,
+      "cosine_sim": 0.94140625,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": " rehe vergeneum']){\n203",
+      "prefix_ids": [
+        48306,
+        59818,
+        126261,
+        53340,
+        9639
+      ],
+      "logit_diff": -7.625,
+      "cosine_sim": 0.953125,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": " Norfolk@s226 Commentsalyze",
+      "prefix_ids": [
+        59792,
+        61677,
+        14057,
+        18149,
+        56956
+      ],
+      "logit_diff": -7.875,
+      "cosine_sim": 0.95703125,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": " rehe@s226 Commentsalyze",
+      "prefix_ids": [
+        48306,
+        61677,
+        14057,
+        18149,
+        56956
+      ],
+      "logit_diff": -8.0,
+      "cosine_sim": 0.9609375,
+      "answer": 6.0,
+      "correct": true
+    },
+    {
+      "prefix": "ilateaze226 thirteenzb",
+      "prefix_ids": [
+        76457,
+        10033,
+        14057,
+        61759,
+        26397
+      ],
+      "logit_diff": -8.6875,
+      "cosine_sim": 0.93359375,
+      "answer": 6.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

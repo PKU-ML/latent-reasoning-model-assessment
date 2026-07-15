@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 895,
+  "question": "Martin's weight is 55 kg. Carl’s weight is 16 kg more than Martin’s weight. Christian’s weight is 8 kg more than Carl’s weight. Harry is 5 kg less than Christian’s weight. What is the weight of Harry, in kg?",
+  "ground_truth": "74.0",
+  "baseline": {
+    "generated_text": "To find Harry's weight, we need to follow the information step by step.\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's weight, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's weight, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's weight, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.",
+    "pred_answer": 74.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 1,
+  "success_rate": 0.03333333333333333,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": ".present GPLv.BAD/user MPI",
+      "prefix_token_ids": [
+        28492,
+        83702,
+        66705,
+        12001,
+        17542
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight: 55 kg\n2. Carl's weight: 16 kg more than Martin's weight = 55 + 16 = 71 kg\n3. Christian's weight: 8 kg more than Carl's weight = 71 + 8 = 79 kg\n4. Harry's weight: 5 kg less than Christian's weight = 79 - 5 = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " disdain.capitalizeการใชिकटάρ",
+      "prefix_token_ids": [
+        79498,
+        79598,
+        124065,
+        127678,
+        103702
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Find Martin's weight: Martin's weight = 55 kg\n2. Find Carl's weight: Carl's weight = Martin's weight + 16 kg = 55 + 16 = 71 kg\n3. Find Christian's weight: Christian's weight = Carl's weight + 8 kg = 71 + 8 = 79 kg\n4. Find Harry's weight: Harry's weight = Christian's weight - 5 kg = 79 - 5 = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The answer is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "、これcsrf Tato(person MISSING",
+      "prefix_token_ids": [
+        115847,
+        25069,
+        119738,
+        30866,
+        99879
+      ],
+      "generated_text": "まず、Martin の体重を求めます。 Martin の体重は 55 kg です。\n\n次に、Carl の体重は 16 kg 多いので、Carl の体重は 55 + 16 = 71 kg です。\n\n次に、Christian の体重は Carl の体重 8 kg 多いので、Christian の体重は 71 + 8 = 79 kg です。\n\n最後に、Harry の体重は Christian の体重 5 kg 多いので、Harry の体重は 79 + 5 = 84 kg です。\n\nしたがって、Harry の体重は 84 kg です。\nSo the answer is \\boxed{84",
+      "pred_answer": 84.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 4,
+      "prefix": "fast البد-pack téléphone.workflow",
+      "prefix_token_ids": [
+        9533,
+        126893,
+        57610,
+        100007,
+        73874
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's weight, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's weight, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's weight, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The answer is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " EnforcementTRAIN suburbs,pos чтобы",
+      "prefix_token_ids": [
+        44056,
+        99358,
+        48013,
+        54039,
+        82250
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight: 55 kg\n2. Carl's weight: 16 kg more than Martin's weight = 55 + 16 = 71 kg\n3. Christian's weight: 8 kg more than Carl's weight = 71 + 8 = 79 kg\n4. Harry's weight: 5 kg less than Christian's weight = 79 - 5 = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " bol Programm plat Sheldonuito",
+      "prefix_token_ids": [
+        21434,
+        75010,
+        46089,
+        78710,
+        26653
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Find Carl's weight: Carl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg\n2. Find Christian's weight: Christian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg\n3. Find Harry's weight: Harry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "\">%commercial\\Component متف loại",
+      "prefix_token_ids": [
+        72767,
+        84707,
+        15650,
+        117797,
+        101278
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's weight, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's weight, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's weight, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The final answer is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " happinessboundary hled يحghi",
+      "prefix_token_ids": [
+        23871,
+        66280,
+        109237,
+        112222,
+        76176
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Find Carl's weight: Carl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg\n2. Find Christian's weight: Christian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg\n3. Find Harry's weight: Harry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " motivated=}(heap_RA şöyle",
+      "prefix_token_ids": [
+        27762,
+        78522,
+        74124,
+        54654,
+        112279
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "/workspaceastosChart silkGoogle",
+      "prefix_token_ids": [
+        94481,
+        54093,
+        14828,
+        41044,
+        14783
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight: 55 kg\n2. Carl's weight: 16 kg more than Martin's, so Carl's weight = 55 + 16 = 71 kg\n3. Christian's weight: 8 kg more than Carl's, so Christian's weight = 71 + 8 = 79 kg\n4. Harry's weight: 5 kg less than Christian's, so Harry's weight = 79 - 5 = 74 kg\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The answer is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "-directoryاکی(staticistencia_lista",
+      "prefix_token_ids": [
+        54734,
+        124086,
+        28710,
+        89300,
+        77486
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight: 55 kg\n2. Carl's weight: 16 kg more than Martin's weight = 55 + 16 = 71 kg\n3. Christian's weight: 8 kg more than Carl's weight = 71 + 8 = 79 kg\n4. Harry's weight: 5 kg less than Christian's weight = 79 - 5 = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The final answer is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "\tSize ventana문의OutOfBoundsExceptionauthorized",
+      "prefix_token_ids": [
+        92324,
+        64246,
+        112343,
+        65909,
+        19626
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight: 55 kg\n2. Carl's weight: 16 kg more than Martin's weight = 55 + 16 = 71 kg\n3. Christian's weight: 8 kg more than Carl's weight = 71 + 8 = 79 kg\n4. Harry's weight: 5 kg less than Christian's weight = 79 - 5 = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " vd AUD масс AtomListen",
+      "prefix_token_ids": [
+        62627,
+        58680,
+        124318,
+        40616,
+        39814
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the information given in the problem step by step.\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's weight, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's weight, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's weight, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "ционной hut_Search Delegateğit",
+      "prefix_token_ids": [
+        122117,
+        76979,
+        67013,
+        41280,
+        102713
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Find Carl's weight: Carl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg\n2. Find Christian's weight: Christian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg\n3. Find Harry's weight: Harry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " cpu Packaging SQLApproxcciones",
+      "prefix_token_ids": [
+        17769,
+        70888,
+        8029,
+        70620,
+        55803
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Find Carl's weight: Carl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg\n2. Find Christian's weight: Christian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg\n3. Find Harry's weight: Harry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " plates органів srp%</ apresent",
+      "prefix_token_ids": [
+        25485,
+        117613,
+        115729,
+        53608,
+        55862
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the information given:\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's weight, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's weight, so Christian's weight is 71 + 8 = 79 kg.\n\nNow, we know Harry's weight is 5 kg less than Christian's weight, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{74",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": " bulletinicíchStamp shootersorra",
+      "prefix_token_ids": [
+        75829,
+        112540,
+        21576,
+        63170,
+        84138
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Carl's weight is 16 kg more than Martin's weight: Carl's weight = Martin's weight + 16 kg\nCarl's weight = 55 kg + 16 kg = 71 kg\n\n2. Christian's weight is 8 kg more than Carl's weight: Christian's weight = Carl's weight + 8 kg\nChristian's weight = 71 kg + 8 kg = 79 kg\n\n3. Harry's weight is 5 kg less than Christian's weight: Harry's weight = Christian's weight - 5 kg\nHarry's weight = 79 kg - 5 kg = 74 kg\n\nThe answer is 74 kg.\nSo the answer is \\boxed{74",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "\ttile attraction상담.onDestroy 아이콘",
+      "prefix_token_ids": [
+        90995,
+        33464,
+        126862,
+        58602,
+        103408
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's weight, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's weight, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's weight, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " Tajvell]),“ATile",
+      "prefix_token_ids": [
+        67799,
+        73312,
+        9918,
+        48349,
+        16002
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Find Martin's weight: Martin's weight = 55 kg\n2. Find Carl's weight: Carl's weight = Martin's weight + 16 kg = 55 + 16 = 71 kg\n3. Find Christian's weight: Christian's weight = Carl's weight + 8 kg = 71 + 8 = 79 kg\n4. Find Harry's weight: Harry's weight = Christian's weight - 5 kg = 79 - 5 = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The answer is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": "ilk;;;;;; jewel orderly untrue",
+      "prefix_token_ids": [
+        34263,
+        127729,
+        66941,
+        85869,
+        88977
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The answer is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " piercedmuz écrit,{\ncalculate",
+      "prefix_token_ids": [
+        89513,
+        108147,
+        89532,
+        89042,
+        36697
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the information given in the problem step by step.\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's weight, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's weight, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's weight, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The answer is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "junेच ostensiblyества род",
+      "prefix_token_ids": [
+        58781,
+        117765,
+        81594,
+        103747,
+        103335
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the information step by step.\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": " wolf Пло eleven�� //\r\n\r\n",
+      "prefix_token_ids": [
+        37642,
+        124550,
+        45314,
+        48479,
+        94727
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Martin's weight: 55 kg\n2. Carl's weight: 16 kg more than Martin's weight = 55 + 16 = 71 kg\n3. Christian's weight: 8 kg more than Carl's weight = 71 + 8 = 79 kg\n4. Harry's weight: 5 kg less than Christian's weight = 79 - 5 = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The final answer is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": " ﻿ consume\tfr:UIControlEventTouchUpInside.\"/",
+      "prefix_token_ids": [
+        76880,
+        25024,
+        98814,
+        58928,
+        52661
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the information given in the problem step by step.\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's weight, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's weight, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's weight, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The answer is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": ".sex\\Seeder.Info ORD)';\n",
+      "prefix_token_ids": [
+        74840,
+        76494,
+        20736,
+        70369,
+        43484
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Find Carl's weight: Carl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg\n2. Find Christian's weight: Christian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg\n3. Find Harry's weight: Harry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "Expression giftspres[diraston",
+      "prefix_token_ids": [
+        9790,
+        21258,
+        24544,
+        94579,
+        96091
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the information given in the problem step by step.\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's weight, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's weight, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's weight, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "\tBaddAll@Autowired.only.pojo",
+      "prefix_token_ids": [
+        13083,
+        68909,
+        26824,
+        27251,
+        43193
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the information step by step.\n\n1. Martin's weight is 55 kg.\n2. Carl's weight is 16 kg more than Martin's weight, so Carl's weight is 55 + 16 = 71 kg.\n3. Christian's weight is 8 kg more than Carl's weight, so Christian's weight is 71 + 8 = 79 kg.\n4. Harry's weight is 5 kg less than Christian's weight, so Harry's weight is 79 - 5 = 74 kg.\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "keit edecek конструкции_integration intents",
+      "prefix_token_ids": [
+        27710,
+        117024,
+        123513,
+        91350,
+        94615
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Find Martin's weight: Martin's weight = 55 kg\n2. Find Carl's weight: Carl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg\n3. Find Christian's weight: Christian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg\n4. Find Harry's weight: Harry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg\n\nSo, Harry's weight is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "ifi پاورپوینت >( ضدorias",
+      "prefix_token_ids": [
+        13215,
+        115510,
+        37820,
+        111757,
+        68363
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the steps:\n\n1. Carl's weight is 16 kg more than Martin's weight: \n   Carl's weight = Martin's weight + 16 kg\n   Carl's weight = 55 kg + 16 kg\n   Carl's weight = 71 kg\n\n2. Christian's weight is 8 kg more than Carl's weight:\n   Christian's weight = Carl's weight + 8 kg\n   Christian's weight = 71 kg + 8 kg\n   Christian's weight = 79 kg\n\n3. Harry's weight is 5 kg less than Christian's weight:\n   Harry's weight = Christian's weight - 5 kg\n   Harry's weight = 79 kg - 5 kg\n   Harry's weight = 74 kg\n\nTherefore, Harry's weight is 74 kg.\nSo the answer is \\boxed{74",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " μη alb\\\">\"та cha",
+      "prefix_token_ids": [
+        110696,
+        82698,
+        63947,
+        44613,
+        13826
+      ],
+      "generated_text": "To find Harry's weight, we need to follow the order of operations (PEMDAS):\n\n1. Find Martin's weight: Martin's weight = 55 kg\n2. Find Carl's weight: Carl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg\n3. Find Christian's weight: Christian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg\n4. Find Harry's weight: Harry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg\n\nThe weight of Harry is 74 kg.\nSo the answer is \\boxed{The weight of Harry is 74 kg.",
+      "pred_answer": 74.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

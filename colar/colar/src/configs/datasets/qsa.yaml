@@ -1,0 +1,7 @@
+data_module:
+  target: src.datasets.qsa.QSADataModule
+  
+  # kwargs:
+  dataset_name: gsm
+  tiny_dataset: False
+  epoch_scaling: 1

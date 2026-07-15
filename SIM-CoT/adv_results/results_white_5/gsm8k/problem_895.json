@@ -1,0 +1,29 @@
+{
+  "question": "Martin's weight is 55 kg. Carl’s weight is 16 kg more than Martin’s weight. Christian’s weight is 8 kg more than Carl’s weight. Harry is 5 kg less than Christian’s weight. What is the weight of Harry, in kg?",
+  "ground_truth": "74.0",
+  "prefix": "240 modulation outfield towed tip",
+  "prefix_token_ids": [
+    16102,
+    39007,
+    28307,
+    49445,
+    8171
+  ],
+  "baseline_token_id": 8915,
+  "target_token_id": 9508,
+  "baseline_logit_diff": -1.875,
+  "clean_logit_diff": -9.0,
+  "adv_logit_diff": 3.875,
+  "best_logit_diff": 3.875,
+  "clean_text": "Martin's weight is 55 kg. Carl’s weight is 16 kg more than Martin’s weight. Christian’s weight is 8 kg more than Carl’s weight. Harry is 5 kg less than Christian’s weight. What is the weight of Harry, in kg?\n### 74",
+  "clean_answer": 74.0,
+  "clean_correct": true,
+  "adv_text": "240 modulation outfield towed tipMartin's weight is 55 kg. Carl’s weight is 16 kg more than Martin’s weight. Christian’s weight is 8 kg more than Carl’s weight. Harry is 5 kg less than Christian’s weight. What is the weight of Harry, in kg?\n### 89",
+  "adv_answer": 89.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.25,
+    3.875
+  ]
+}

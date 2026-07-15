@@ -1,0 +1,171 @@
+{
+  "question": "Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+  "ground_truth": "92.0",
+  "best_prefix": " simulatedVană Zahl676",
+  "best_prefix_token_ids": [
+    46836,
+    46324,
+    6845,
+    83845,
+    24187
+  ],
+  "baseline_token_id": 6083,
+  "target_token_id": 2421,
+  "baseline_logit_diff": -1.125,
+  "clean_logit_diff": -7.0,
+  "best_logit_diff": 1.125,
+  "best_cosine": 0.9375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 92",
+  "clean_answer": 92.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 88",
+  "adv_answer": 88.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " simulatedVană Zahl676",
+      "prefix_ids": [
+        46836,
+        46324,
+        6845,
+        83845,
+        24187
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.9375,
+      "answer": 88.0,
+      "correct": false
+    },
+    {
+      "prefix": " cellsKit.cal lasts676",
+      "prefix_ids": [
+        7917,
+        7850,
+        28971,
+        40758,
+        24187
+      ],
+      "logit_diff": 0.375,
+      "cosine_sim": 0.93359375,
+      "answer": 88.0,
+      "correct": false
+    },
+    {
+      "prefix": " cellsVanji Zahl676",
+      "prefix_ids": [
+        7917,
+        46324,
+        7910,
+        83845,
+        24187
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.9453125,
+      "answer": 88.0,
+      "correct": false
+    },
+    {
+      "prefix": " striveFfel lasts676",
+      "prefix_ids": [
+        37106,
+        37,
+        59367,
+        40758,
+        24187
+      ],
+      "logit_diff": -0.25,
+      "cosine_sim": 0.9375,
+      "answer": 92.0,
+      "correct": true
+    },
+    {
+      "prefix": " fitMatt september lasts676",
+      "prefix_ids": [
+        5052,
+        40917,
+        84749,
+        40758,
+        24187
+      ],
+      "logit_diff": -0.5,
+      "cosine_sim": 0.9375,
+      "answer": 92.0,
+      "correct": true
+    },
+    {
+      "prefix": " cellsSi.cal lasts676",
+      "prefix_ids": [
+        7917,
+        22771,
+        28971,
+        40758,
+        24187
+      ],
+      "logit_diff": -0.5,
+      "cosine_sim": 0.9375,
+      "answer": 92.0,
+      "correct": true
+    },
+    {
+      "prefix": " cellsElwal lasts676",
+      "prefix_ids": [
+        7917,
+        6719,
+        27495,
+        40758,
+        24187
+      ],
+      "logit_diff": -0.875,
+      "cosine_sim": 0.94140625,
+      "answer": 92.0,
+      "correct": true
+    },
+    {
+      "prefix": " promise Feurette pit676",
+      "prefix_ids": [
+        11471,
+        3926,
+        73243,
+        20428,
+        24187
+      ],
+      "logit_diff": -0.875,
+      "cosine_sim": 0.95703125,
+      "answer": 92.0,
+      "correct": true
+    },
+    {
+      "prefix": " cellsSista lasts676",
+      "prefix_ids": [
+        7917,
+        22771,
+        21127,
+        40758,
+        24187
+      ],
+      "logit_diff": -1.0,
+      "cosine_sim": 0.94140625,
+      "answer": 92.0,
+      "correct": true
+    },
+    {
+      "prefix": " promise Fe milk pit676",
+      "prefix_ids": [
+        11471,
+        3926,
+        14403,
+        20428,
+        24187
+      ],
+      "logit_diff": -1.125,
+      "cosine_sim": 0.94140625,
+      "answer": 92.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

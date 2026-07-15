@@ -1,0 +1,28 @@
+{
+  "question": "Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+  "ground_truth": "20.0",
+  "prefix": "Across/( Essex HW Continental",
+  "prefix_token_ids": [
+    40553,
+    29006,
+    38307,
+    44884,
+    30462
+  ],
+  "baseline_token_id": 1160,
+  "target_token_id": 2319,
+  "baseline_logit_diff": 2.58984375,
+  "clean_logit_diff": -1.59375,
+  "adv_logit_diff": 7.46875,
+  "best_logit_diff": 7.46875,
+  "clean_text": "Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?\n### 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "Across/( Essex HW ContinentalToby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?\n### 40",
+  "adv_answer": 40.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    7.46875
+  ]
+}

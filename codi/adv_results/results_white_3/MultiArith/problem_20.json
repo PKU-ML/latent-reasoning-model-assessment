@@ -1,0 +1,26 @@
+{
+  "question": " A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get? ",
+  "ground_truth": "4.0",
+  "prefix": " }. seven `-",
+  "prefix_token_ids": [
+    17336,
+    8254,
+    94897
+  ],
+  "baseline_token_id": 19,
+  "target_token_id": 18,
+  "baseline_logit_diff": -8.375,
+  "clean_logit_diff": -8.375,
+  "adv_logit_diff": 4.25,
+  "best_logit_diff": 4.25,
+  "clean_text": "The answer is: 4",
+  "clean_answer": 4.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 2.67",
+  "adv_answer": 2.67,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    4.25
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "question": " The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have? ",
+  "ground_truth": "9.0",
+  "prefix": " focOil DVD torque hamm",
+  "prefix_token_ids": [
+    2133,
+    44142,
+    12490,
+    26415,
+    25755
+  ],
+  "baseline_token_id": 860,
+  "target_token_id": 1511,
+  "baseline_logit_diff": 1.62548828125,
+  "clean_logit_diff": -6.8125,
+  "adv_logit_diff": 6.140625,
+  "best_logit_diff": 6.140625,
+  "clean_text": "The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have?\n### 9",
+  "clean_answer": 9.0,
+  "clean_correct": true,
+  "adv_text": "focOil DVD torque hammThe school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have?\n### 23",
+  "adv_answer": 23.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.09375,
+    6.140625
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 263,
+  "question": "There are 6 trees in Chris's yard.  Ferdinand has half the number of trees that Chris has.  Harry has 5 more than twice the number of trees that Ferdinand has.  How many more trees are in Harry's yard than Ferdinand's yard?",
+  "ground_truth": "8",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|begin_of_text|><|reserved_special_token_109|><|reserved_special_token_161|><|reserved_special_token_60|><|reserved_special_token_62|>",
+  "prefix_token_ids": [
+    128000,
+    128117,
+    128169,
+    128068,
+    128070
+  ],
+  "best_wrong_prob": 1.275143534254347e-27,
+  "clean_text": "To find out how many trees Harry has, we need to first find out how many trees Ferdinand has. Since Ferdinand has half the number of trees that Chris has, and Chris has 6 trees, Ferdinand has 6 / 2 = ",
+  "clean_pred": 8.0,
+  "clean_correct": true,
+  "adv_text": "To find the number of trees in Harry's yard, we need to first find the number of trees Ferdinand has. Since Ferdinand has half the number of trees that Chris has, and Chris has 6 trees, Ferdinand has ",
+  "adv_pred": 5.0,
+  "adv_correct": false,
+  "attack_success": true
+}

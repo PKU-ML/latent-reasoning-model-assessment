@@ -1,0 +1,26 @@
+{
+  "question": "Two candidates are running for class representative at Sarai's school. If the winner got 3/4 of the votes and the total number of students who voted in the class was 80, calculate the number of votes the loser got.",
+  "ground_truth": "20.0",
+  "prefix": "63 amateur",
+  "prefix_token_ids": [
+    21,
+    18,
+    18566
+  ],
+  "baseline_token_id": 17,
+  "target_token_id": 16,
+  "baseline_logit_diff": -3.75,
+  "clean_logit_diff": -3.875,
+  "adv_logit_diff": 0.25,
+  "best_logit_diff": 0.25,
+  "clean_text": "assistant\n### 20 ",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 18 ",
+  "adv_answer": 18.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.25
+  ]
+}

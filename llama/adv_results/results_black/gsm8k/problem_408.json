@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 408,
+  "question": "Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+  "ground_truth": "20.0",
+  "baseline_correct": false,
+  "baseline_answer": 40.0,
+  "best_rewrite": "Today is the 3rd of the month. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+  "best_fact": "Today is the 3rd of the month.",
+  "best_pred_answer": -20.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 24,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it takes him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it takes Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time is:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby has to be at the airport in 60 minutes, we need to subtract the time it takes to get to the airport from the total time:\n60 minutes - 40 minutes = 20 minutes\n\nTherefore, Toby will be 20 minutes early at the airport.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "April has 30 days. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find the total time it will take him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time it will take Toby to read the book is 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will arrive at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and he reads 200 words per page, so the total number of words is 45 * 200 = 9000 words.\n\nSince Toby reads at a rate of 300 words per minute, the total time it will take him to read the book is 9000 / 300 = 30 minutes.\n\nAdding the 10 minutes it takes to get to the airport, the total time will be 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 - 60 = -20 minutes early.\nSo the answer is \\boxed{-20",
+      "pred_answer": -20.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page, so the total number of words is 45 * 200 = 9000 words.\n\nSince Toby reads at a rate of 300 words per minute, the total time it will take him to read the book is 9000 / 300 = 30 minutes.\n\nAdding the 10 minutes it takes to get to the airport, the total time will be 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 - 60 = -20 minutes early.\nSo the answer is \\boxed{-20",
+      "pred_answer": -20.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the time it takes to get to the airport (10 minutes) to the total reading time, we get:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A year has 12 months. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find the total time it will take him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time it will take Toby to read the book is 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will arrive at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A week has 7 days. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find the total time it will take him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time it will take Toby to read the book is 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will arrive at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "An hour has 60 minutes. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find the total time it will take him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time it will take Toby to read the book is 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will arrive at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A minute has 60 seconds. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find the total time it will take him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time Toby will spend reading the book is 30 + 10 = 40 minutes.\n\nSince Toby needs to be at the airport in 60 minutes, we subtract the time it will take him to read the book from the total travel time:\n\n60 minutes - 40 minutes = 20 minutes\n\nTherefore, Toby will be 20 minutes early at the airport.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A year has 365 days. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it takes him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find the total time it takes him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes him to get to the airport, the total time is 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the time it takes to get to the airport (10 minutes) to the total reading time, we get:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many minutes Toby will be late, we need to calculate the total time it will take him to read the book. \n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nSince Toby has to leave the house in 60 minutes, we need to subtract the time it takes to get to the airport from the total time it will take to read the book:\n30 minutes (reading time) + 10 minutes (to get to the airport) = 40 minutes\n\nTo find out how many minutes early Toby will be, we subtract the time it takes to get to the airport from the total time it will take to read the book:\n40 minutes - 60 minutes = -20 minutes\n\nSince Toby will be 20 minutes early, he will arrive at the airport 20 minutes before the scheduled time.\nSo the answer is \\boxed{20 minutes early.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the time it takes to get to the airport (10 minutes) to the total reading time, we get:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many minutes Toby will be late, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the time it takes to get to the airport (10 minutes) and the time it takes to read the book (30 minutes), we get:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, he will be late by:\n60 minutes - 40 minutes = 20 minutes\n\nTherefore, Toby will be 20 minutes early.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find the total time it will take him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time it will take Toby to read the book is 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "An adult has 32 teeth. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n32 teeth * 200 words/teeth = 6400 words\n\nSince Toby reads at a rate of 300 words per minute, we can calculate the total time it will take him to read the book:\n6400 words / 300 words/minute = 21.33 minutes\n\nAdding the 10 minutes it takes to get to the airport, we get:\n21.33 minutes + 10 minutes = 31.33 minutes\n\nSince Toby plans to leave as soon as he finishes the book, we need to subtract the time it takes to get to the airport from the total time it will take him to read the book:\n31.33 minutes - 10 minutes = 21.33 minutes\n\nSo, Toby will be at the airport 21.33 minutes early.\nSo the answer is \\boxed{21.33",
+      "pred_answer": 21.33
+    },
+    {
+      "question": "China has 1.4 billion people. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find out how many minutes it will take him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time it will take Toby to read the book is 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will arrive at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Japan has 125 million people. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the time it takes to get to the airport (10 minutes) to the total reading time, we get:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, we need to subtract the time it takes to get to the airport from the total time:\n40 minutes - 60 minutes = -20 minutes\n\nHowever, since we can't have negative time, we need to re-evaluate the problem.\n\nLet's re-calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the time it takes to get to the airport (10 minutes) to the total reading time, we get:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, we need to subtract the time it takes to get to the airport from the total time:\n40 minutes - 60 minutes = -20 minutes\n\nHowever, since we can't have negative time, we need to re-evaluate the problem again.\n\nLet's re-calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nSince Toby plans to leave as soon as he finishes the book, we need to subtract the time it takes to get to the airport from the total time:\n30 minutes - 10 minutes = 20 minutes\n\nSo, Toby will be at the airport 20 minutes early.\nSo the answer is \\boxed{20 minutes early.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The US has 50 states. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nSince Toby reads at a rate of 300 words per minute, the total time it will take him to read the book is 9000 / 300 = 30 minutes.\n\nAdding the 10 minutes it takes to get to the airport, the total time will be 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The EU has 27 member states. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find the total time it will take him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time it will take Toby to read the book is 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will arrive at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the time it takes to get to the airport (10 minutes) to the total reading time, we get:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the time it takes to get to the airport (10 minutes) to the total reading time, we get:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find the total time it will take him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time it will take Toby to read the book is 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will arrive at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The human body has 206 bones. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the time it takes to get to the airport (10 minutes) to the total reading time, we get:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the time it takes to get to the airport (10 minutes) to the total reading time, we get:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total number of words he will read and then divide it by his reading rate.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nSince Toby has to leave the house 60 minutes before the airport, we need to subtract the time it takes to get to the airport from the total time it will take to read the book:\n30 minutes (reading time) + 10 minutes (to get to the airport) = 40 minutes\n\nNow, let's calculate how many minutes early Toby will be:\n60 minutes (time to leave) - 40 minutes (time to read) = 20 minutes\n\nTherefore, Toby will be 20 minutes early at the airport.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n45 pages * 200 words per page = 9000 words\n\nNow, let's calculate the total time it will take Toby to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the travel time to the airport:\n30 minutes (reading time) + 10 minutes (travel time) = 40 minutes\n\nSince Toby plans to leave as soon as he finishes the book, we need to subtract the reading time from the total travel time to find out how many minutes early he will be:\n40 minutes (travel time) - 30 minutes (reading time) = 10 minutes\n\nTherefore, Toby will be 10 minutes early at the airport.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nFirst, let's calculate the total number of words in the book:\n46 chromosomes * 200 words/chromosome = 9200 words\n\nSince Toby reads at a rate of 300 words per minute, we can calculate the total time it will take him to read the book:\n9200 words / 300 words/minute = 30.67 minutes\n\nAdding the 10 minutes it takes to get to the airport, we get:\n30.67 minutes + 10 minutes = 40.67 minutes\n\nSince Toby plans to leave as soon as he finishes the book, we need to subtract the time it takes to get to the airport from the total time it will take him to read the book:\n40.67 minutes - 10 minutes = 30.67 minutes\n\nSo, Toby will be at the airport 30.67 minutes early.\nSo the answer is \\boxed{30.67 minutes",
+      "pred_answer": 30.67
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will take to read the book, we need to calculate the total number of words in the book and then divide it by his reading speed.\n\nThe book is 45 pages long and averages 200 words per page, so the total number of words is:\n45 pages * 200 words per page = 9000 words\n\nSince Toby reads at a rate of 300 words per minute, we can calculate the total time it will take him to read the book:\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time Toby will take to read the book is:\n30 minutes + 10 minutes = 40 minutes\n\nSince Toby plans to leave the airport as soon as he finishes the book, he will be 40 minutes early.\nSo the answer is \\boxed{40 minutes",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Toby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find out how many minutes Toby will be at the airport, we need to calculate the total time it will take him to read the book.\n\nThe book is 45 pages long and averages 200 words per page. So, the total number of words in the book is 45 * 200 = 9000 words.\n\nToby reads at a rate of 300 words per minute. To find the total time it will take him to read the book, we divide the total number of words by his reading rate:\n\n9000 words / 300 words per minute = 30 minutes\n\nAdding the 10 minutes it takes to get to the airport, the total time Toby will spend reading the book is 30 + 10 = 40 minutes.\n\nSince Toby plans to leave as soon as he finishes the book, he will be at the airport 40 minutes early.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    }
+  ]
+}

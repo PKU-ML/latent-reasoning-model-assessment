@@ -1,0 +1,43 @@
+{
+  "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 24 inches. The frog jumped 33 inches farther than the grasshopper and the mouse jumped 5 inches lesser than the frog. How much farther did the mouse jump than the grasshopper?",
+  "ground_truth": "28.0",
+  "prefix": "把 does841",
+  "prefix_token_ids": [
+    102178,
+    1587,
+    25496
+  ],
+  "baseline_token_id": 1591,
+  "target_token_id": 1627,
+  "baseline_logit_diff": -0.1875,
+  "clean_logit_diff": -5.375,
+  "adv_logit_diff": 1.6875,
+  "best_logit_diff": 1.6875,
+  "clean_text": "The answer is: 28",
+  "clean_answer": 28.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 17",
+  "adv_answer": 17.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.0,
+    -4.875,
+    -4.875,
+    -4.875,
+    -4.5,
+    -4.5,
+    -4.375,
+    -4.375,
+    -4.375,
+    -4.25,
+    -4.125,
+    -2.5,
+    -1.375,
+    -0.5,
+    -0.25,
+    -0.25,
+    0.3125,
+    1.6875
+  ]
+}

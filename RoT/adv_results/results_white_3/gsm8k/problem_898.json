@@ -1,0 +1,26 @@
+{
+  "question": "Dijana and Anis live near a lake, and every weekend they go out rowing into the lake. On a Sunday morning, both went out rowing, and Dijana rowed for 50 miles the whole day. Anis rowed 1/5 times more miles than Dijana. Calculate the total distance the two of them rowed on that day.",
+  "ground_truth": "110.0",
+  "prefix": "참37",
+  "prefix_token_ids": [
+    130038,
+    18,
+    22
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 24,
+  "baseline_logit_diff": -2.0,
+  "clean_logit_diff": -1.875,
+  "adv_logit_diff": -1.625,
+  "best_logit_diff": -1.625,
+  "clean_text": "assistant\n### 110 ",
+  "clean_answer": 110.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 102 ",
+  "adv_answer": 102.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.625
+  ]
+}

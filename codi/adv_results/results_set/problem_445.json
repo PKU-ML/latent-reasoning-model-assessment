@@ -1,0 +1,171 @@
+{
+  "question": "Michael is racing his horse and notices that for every mile the horse runs, he eats 1/2 a bail of hay. A bail of hay costs $3. If his horse runs for 30 minutes at 32MPH, and Michael has six 5 dollar bills, how much change does he have after he buys the hay?",
+  "ground_truth": "6.0",
+  "best_prefix": " missed positionserne postponed Odds",
+  "best_prefix_token_ids": [
+    13942,
+    10093,
+    68495,
+    62720,
+    84457
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 717,
+  "baseline_logit_diff": 1.0,
+  "clean_logit_diff": -1.625,
+  "best_logit_diff": 1.75,
+  "best_cosine": 0.96875,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 6",
+  "clean_answer": 6.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 18",
+  "adv_answer": 18.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " missed positionserne postponed Odds",
+      "prefix_ids": [
+        13942,
+        10093,
+        68495,
+        62720,
+        84457
+      ],
+      "logit_diff": 1.75,
+      "cosine_sim": 0.96875,
+      "answer": 18.0,
+      "correct": false
+    },
+    {
+      "prefix": " missed positionsтю postponed Odds",
+      "prefix_ids": [
+        13942,
+        10093,
+        125541,
+        62720,
+        84457
+      ],
+      "logit_diff": 1.6875,
+      "cosine_sim": 0.97265625,
+      "answer": 18.0,
+      "correct": false
+    },
+    {
+      "prefix": "imir clinicallyreno postponed stale",
+      "prefix_ids": [
+        31204,
+        70432,
+        55983,
+        62720,
+        51451
+      ],
+      "logit_diff": 1.5,
+      "cosine_sim": 0.9765625,
+      "answer": 18.0,
+      "correct": false
+    },
+    {
+      "prefix": " missed positions  postponed Odds",
+      "prefix_ids": [
+        13942,
+        10093,
+        220,
+        62720,
+        84457
+      ],
+      "logit_diff": 1.375,
+      "cosine_sim": 0.96484375,
+      "answer": 18.0,
+      "correct": false
+    },
+    {
+      "prefix": " Tháiogn 있다고 kiếm curvature",
+      "prefix_ids": [
+        110420,
+        4021,
+        127423,
+        111365,
+        83233
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.98828125,
+      "answer": 12.0,
+      "correct": false
+    },
+    {
+      "prefix": " missed Ana  postponed stale",
+      "prefix_ids": [
+        13942,
+        33238,
+        220,
+        62720,
+        51451
+      ],
+      "logit_diff": 1.0625,
+      "cosine_sim": 0.98046875,
+      "answer": 18.0,
+      "correct": false
+    },
+    {
+      "prefix": " Thái V pile kiếm curvature",
+      "prefix_ids": [
+        110420,
+        650,
+        27402,
+        111365,
+        83233
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.98828125,
+      "answer": 12.0,
+      "correct": false
+    },
+    {
+      "prefix": "Sent Half hauling postponedrightness",
+      "prefix_ids": [
+        32458,
+        26924,
+        99546,
+        62720,
+        37730
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.984375,
+      "answer": 18.0,
+      "correct": false
+    },
+    {
+      "prefix": "ALSogn troublesmAapi",
+      "prefix_ids": [
+        47837,
+        4021,
+        35665,
+        70365,
+        2113
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.9921875,
+      "answer": 18.0,
+      "correct": false
+    },
+    {
+      "prefix": " missed.Scene  postponed stale",
+      "prefix_ids": [
+        13942,
+        37127,
+        220,
+        62720,
+        51451
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.9765625,
+      "answer": 18.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

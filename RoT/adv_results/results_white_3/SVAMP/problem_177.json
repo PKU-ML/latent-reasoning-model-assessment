@@ -1,0 +1,26 @@
+{
+  "question": "Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+  "ground_truth": "39.0",
+  "prefix": "637",
+  "prefix_token_ids": [
+    21,
+    18,
+    22
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 19,
+  "baseline_logit_diff": -4.125,
+  "clean_logit_diff": -6.25,
+  "adv_logit_diff": -0.125,
+  "best_logit_diff": -0.125,
+  "clean_text": "assistant\n### 39 ",
+  "clean_answer": 39.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 395 ",
+  "adv_answer": 395.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.125
+  ]
+}

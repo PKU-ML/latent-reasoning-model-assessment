@@ -1,0 +1,24 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 248,
+  "question": "Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+  "ground_truth": "1",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|begin_of_text|><|end_of_text|><|eot_id|>^\\",
+  "prefix_token_ids": [
+    128000,
+    128001,
+    128009,
+    61,
+    59
+  ],
+  "best_wrong_prob": 1.2271103433063202e-24,
+  "clean_text": "To find out how many more kids Julia played with on Monday than on Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.\n\nNumber",
+  "clean_pred": 1.0,
+  "clean_correct": true,
+  "adv_text": "To find the difference in the number of kids played on Monday and Tuesday, we need to subtract the number of kids played on Tuesday from the number played on Monday.\n\nNumber of kids played on Monday =",
+  "adv_pred": 1.0,
+  "adv_correct": true,
+  "attack_success": false
+}

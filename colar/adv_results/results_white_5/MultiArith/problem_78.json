@@ -1,0 +1,27 @@
+{
+  "question": " Maria picked 48 carrots from her garden. If she threw out 11 of them and then picked 15 more the next day, how many carrots would she have total? ",
+  "ground_truth": "52",
+  "prefix": "ζει+N |/NonQuery curing",
+  "prefix_token_ids": [
+    122449,
+    72822,
+    98945,
+    31888,
+    97330
+  ],
+  "baseline_logit_diff": -7.646791458129883,
+  "clean_logit_diff": -9.099355697631836,
+  "adv_logit_diff": 6.832618713378906,
+  "best_logit_diff": 6.832618713378906,
+  "clean_text": "Answer:52",
+  "clean_answer": "52",
+  "clean_correct": true,
+  "adv_text": "Answer:53",
+  "adv_answer": "53",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -3.8710975646972656,
+    6.832618713378906
+  ]
+}

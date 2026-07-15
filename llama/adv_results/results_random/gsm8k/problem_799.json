@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 799,
+  "question": "A loaf of bread at the bakery costs $2. Bagels cost $1 each. How much more do 3 loaves of bread cost than 2 bagels?",
+  "ground_truth": "4.0",
+  "baseline": {
+    "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nThe cost of 3 loaves of bread is 3 x $2 = $6.\nThe cost of 2 bagels is 2 x $1 = $2.\n\nTo find the difference, we subtract the cost of the bagels from the cost of the bread: $6 - $2 = $4.\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.",
+    "pred_answer": 4.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 0,
+  "success_rate": 0.0,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "_cropRefCountEgypt doğrult اصلی",
+      "prefix_token_ids": [
+        52553,
+        99637,
+        86767,
+        127460,
+        107682
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "рід SHA yazı Busy upt",
+      "prefix_token_ids": [
+        127203,
+        22466,
+        112802,
+        95809,
+        35435
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "� účпосеред sidew 특",
+      "prefix_token_ids": [
+        104735,
+        102415,
+        127179,
+        32617,
+        103966
+      ],
+      "generated_text": "Để tính toán số tiền mà 3 loaf của bánh và 2 bagel sẽ tốn kém, ta thực hiện các bước sau:\n\n- Tính giá của 3 loaf của bánh: 3 loaf * $2/loaf = $6\n- Tính giá của 2 bagel: 2 bagel * $1/bagel = $2\n\nĐể tìm số tiền khác mà 3 loaf của bánh tốn kém hơn 2 bagel, ta trừ giá của 2 bagel khỏi giá của 3 loaf của bánh:\n\n$6 - $2 = $4\n\nVậy 3 loaf của bánh sẽ tốn kém $4 hơn 2 bagel.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "-opالىagrid:key соответ",
+      "prefix_token_ids": [
+        30592,
+        120235,
+        46427,
+        65949,
+        105602
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{The answer is $4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " žaluja исслед Governors jed",
+      "prefix_token_ids": [
+        112316,
+        89808,
+        108938,
+        91089,
+        18806
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "(usuario Proud solic unterstüt GV",
+      "prefix_token_ids": [
+        71037,
+        84349,
+        30844,
+        82529,
+        81900
+      ],
+      "generated_text": "To find the difference in cost, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nThe difference in cost is: $6 - $2 = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "ốnLayoutManager поможет návdba",
+      "prefix_token_ids": [
+        101663,
+        49848,
+        126752,
+        104668,
+        90555
+      ],
+      "generated_text": "Để tìm hiểu số tiền 3 loaf của bánh và 2 bagel, ta thực hiện các bước sau:\n\n- Số tiền 3 loaf của bánh: 3 x $2 = $6\n- Số tiền 2 bagel: 2 x $1 = $2\n\nĐể tìm số tiền khác, ta trừ số tiền 2 bagel khỏi số tiền 3 loaf của bánh:\n\n$6 - $2 = $4\n\nVậy số tiền khác là $4.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " amplüfus\");\n\n\n دعensitive",
+      "prefix_token_ids": [
+        23201,
+        109066,
+        33736,
+        111076,
+        19245
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " specifier Wikispecies '-')-format monopoly",
+      "prefix_token_ids": [
+        98716,
+        107258,
+        70263,
+        39480,
+        54301
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\n3 loaves of bread cost 3 x $2 = $6\n2 bagels cost 2 x $1 = $2\n\nNow, let's subtract the cost of the bagels from the cost of the bread:\n$6 - $2 = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{The answer is $4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "nerRadius -------\ncreatéléい",
+      "prefix_token_ids": [
+        34251,
+        39707,
+        95839,
+        29982,
+        16995
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's subtract the cost of the bagels from the cost of the bread:\n$6 - $2 = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "_INITIALIZ mínimoleaders/int М",
+      "prefix_token_ids": [
+        60182,
+        98399,
+        79486,
+        32214,
+        113272
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "atzPIPE sovereigntydestruct JVM",
+      "prefix_token_ids": [
+        20786,
+        60833,
+        47059,
+        61368,
+        73479
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\n3 loaves of bread cost 3 x $2 = $6.\n2 bagels cost 2 x $1 = $2.\n\nThe difference between the two is $6 - $2 = $4.\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " sansREDIT(LayoutInflateryer одном",
+      "prefix_token_ids": [
+        15878,
+        57563,
+        55503,
+        27253,
+        125115
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "Ģ самостоятель prázd oluyor Tamb",
+      "prefix_token_ids": [
+        125366,
+        115206,
+        124809,
+        110807,
+        59226
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{The answer is $4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " Supports.xx836 toJson發展",
+      "prefix_token_ids": [
+        67546,
+        95429,
+        25192,
+        66357,
+        120247
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " guns子 yetiş chọn個",
+      "prefix_token_ids": [
+        16766,
+        45829,
+        123464,
+        102263,
+        102159
+      ],
+      "generated_text": "首先，我們需要計算 3 個 loaf of bread 的成本。 \n\n3 個 loaf of bread 的成本為 3 x $2 = $6。\n\n接下來，我們需要計算 2 個 bagels 的成本。 \n\n2 個 bagels 的成本為 2 x $1 = $2。\n\n現在，我們需要找出 3 個 loaf of bread 的成本與 2 個 bagels 的成本之間的差額。 \n\n差額 = $6 - $2 = $4。\n\n因此，3 個 loaf of bread 的成本比 2 個 bagels 的成本 $4。\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": " diversos 百度流量Actualúb>;",
+      "prefix_token_ids": [
+        95651,
+        115108,
+        29223,
+        27888,
+        66895
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": ".getMethodональ InputDecoration Nos*))",
+      "prefix_token_ids": [
+        67885,
+        101811,
+        55578,
+        51097,
+        58283
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's subtract the cost of 2 bagels from the cost of 3 loaves of bread:\n$6 - $2 = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{The answer is $4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": "_packages hinder ANSI_letters Herbert",
+      "prefix_token_ids": [
+        42974,
+        57780,
+        59114,
+        68430,
+        58463
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": "Seleccion Dh EPA mjSPA",
+      "prefix_token_ids": [
+        73429,
+        44327,
+        27250,
+        84508,
+        88292
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": ".Buttons_cityuttersatee丝",
+      "prefix_token_ids": [
+        80607,
+        26019,
+        74870,
+        96780,
+        108538
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's subtract the cost of 2 bagels from the cost of 3 loaves of bread:\n$6 - $2 = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": ".createClass.grayैपMethodName sensations",
+      "prefix_token_ids": [
+        70810,
+        62430,
+        119112,
+        76748,
+        72597
+      ],
+      "generated_text": "To find the difference in cost, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nThe difference in cost is: $6 - $2 = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{The answer is $4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": " دول imaginaryości Arabianengers",
+      "prefix_token_ids": [
+        103744,
+        51052,
+        90156,
+        73698,
+        15232
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "\\param seeker jdέν можуть",
+      "prefix_token_ids": [
+        79667,
+        90233,
+        74476,
+        104547,
+        107673
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{The answer is $4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "_AX Critvoir_marksの人",
+      "prefix_token_ids": [
+        37917,
+        34307,
+        35573,
+        75304,
+        124911
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "_ACTIONSagine PF ElementRef Portland",
+      "prefix_token_ids": [
+        95534,
+        24281,
+        29515,
+        58790,
+        23947
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\n3 loaves of bread cost 3 x $2 = $6.\n2 bagels cost 2 x $1 = $2.\n\nTo find the difference, we subtract the cost of the bagels from the cost of the bread: $6 - $2 = $4.\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " downloadableATTarth MVradan",
+      "prefix_token_ids": [
+        70752,
+        22342,
+        47601,
+        43371,
+        116950
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": " sage unlock influencers assertingؤول",
+      "prefix_token_ids": [
+        39361,
+        15405,
+        87333,
+        43525,
+        127817
+      ],
+      "generated_text": "To find the difference in cost, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nThe difference in cost is: $6 - $2 = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{The answer is $4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": ".VAL contempt_Box↓Robot",
+      "prefix_token_ids": [
+        59806,
+        46454,
+        83053,
+        80129,
+        44474
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\n3 loaves of bread cost 3 x $2 = $6.\n2 bagels cost 2 x $1 = $2.\n\nTo find the difference, we subtract the cost of the bagels from the cost of the bread: $6 - $2 = $4.\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{The answer is $4.",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": "ाफ FALL Nevada posicion(\"**",
+      "prefix_token_ids": [
+        103534,
+        88592,
+        27966,
+        64753,
+        92489
+      ],
+      "generated_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nCost of 3 loaves of bread: 3 x $2 = $6\nCost of 2 bagels: 2 x $1 = $2\n\nNow, let's find the difference:\n$6 (cost of 3 loaves of bread) - $2 (cost of 2 bagels) = $4\n\nSo, 3 loaves of bread cost $4 more than 2 bagels.\nSo the answer is \\boxed{$4",
+      "pred_answer": 4.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": false
+}

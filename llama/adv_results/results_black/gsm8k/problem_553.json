@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 553,
+  "question": "Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+  "ground_truth": "92.0",
+  "baseline_correct": true,
+  "baseline_answer": 92.0,
+  "best_rewrite": "The speed of light is about 300000 km/s. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+  "best_fact": "The speed of light is about 300000 km/s.",
+  "best_pred_answer": 140.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 3,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles of water.\n\nHe wants to have 2 bottles of water for each of his 70 guests. So, the total number of bottles he wants is 2 * 70 = 140.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the total number of bottles he wants: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "April has 30 days. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants to have: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he needs: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he needs: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to serve.\n\nHe started with 2 cases of water, which is 2 x 24 = 48 bottles.\n\nHe wants to serve 2 bottles of water for each guest, and there are 70 guests. So, the total number of bottles he needs is 2 x 70 = 140.\n\nSince he already has 48 bottles, the number of additional bottles he needs to buy is 140 - 48 = 92.\n\nThe answer is 92.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "A year has 12 months. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants to have: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "A week has 7 days. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants to have: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "An hour has 60 minutes. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants to have: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "A minute has 60 seconds. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants to have: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "A year has 365 days. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each of his 70 guests. So, the total number of bottles he wants is 2 * 70 = 140.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the total number of bottles he wants: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nBill has 2 cases of water with 24 bottles each, so he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each of his 70 guests, so he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants to have: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he wants for his guests. \n\nFirst, let's calculate the total number of bottles he wants for his guests:\n2 cases * 24 bottles per case = 48 bottles\nSince each guest will get 2 bottles, we multiply the total number of bottles by 2:\n48 bottles * 2 bottles per guest = 96 bottles\n\nNow, let's calculate the number of additional bottles he needs to buy:\nNumber of guests - Number of bottles he already has: 70 guests - 48 bottles = 22 bottles\n\nSo, Bill needs to buy 22 more bottles of water.\nSo the answer is \\boxed{The answer is 22.",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to serve.\n\nBill started with 2 cases of water, which has 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to serve 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he needs: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he wants for his guests. \n\nFirst, let's calculate the total number of bottles he wants for his guests:\n2 cases * 24 bottles per case = 48 bottles\nSince he wants 2 bottles per guest, we multiply the total number of bottles by 2:\n48 bottles * 2 bottles per guest = 96 bottles\n\nNow, let's calculate the number of additional bottles he needs to buy:\nNumber of guests: 70\nNumber of bottles needed per guest: 2\nAdditional bottles needed: 70 guests * 2 bottles per guest = 140 bottles\n\nSo, Bill needs to buy 140 additional bottles of water.\nSo the answer is \\boxed{The answer is 140.",
+      "pred_answer": 140.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants to have: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "An adult has 32 teeth. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants to have: 140 - 48 = 92.\n\nSo, Bill needs 92 additional bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "China has 1.4 billion people. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each of his 70 guests. So, he wants 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants to have: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "Japan has 125 million people. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he will need for his guests.\n\nFirst, let's calculate the total number of bottles he already has:\n2 cases * 24 bottles per case = 48 bottles\n\nNow, let's calculate the total number of bottles he needs for his guests:\n70 guests * 2 bottles per guest = 140 bottles\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the total number of bottles he needs:\n140 bottles - 48 bottles = 92 bottles\n\nSo, Bill needs to buy 92 additional bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The US has 50 states. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each of his 70 guests. So, the total number of bottles he wants is 2 * 70 = 140.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the total number of bottles he wants: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The EU has 27 member states. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he wants to have for his guests. \n\nHe started with 2 cases of water, which have 24 bottles each. So, 2 * 24 = 48 bottles.\n\nHe wants 2 bottles of water for each guest, and there are 70 guests. So, 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the total number of bottles he wants: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which is 2 x 24 = 48 bottles.\n\nHe wants 2 bottles of water for each of his 70 guests, so he needs 2 x 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants to have: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water for his party.\nSo the answer is \\boxed{The answer is 92.",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each of his 70 guests. So, the total number of bottles he wants is 2 * 70 = 140.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the total number of bottles he wants: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which is 2 * 24 = 48 bottles.\n\nHe wants 2 bottles for each of his 70 guests, so he needs 2 * 70 = 140 bottles.\n\nTo find out how many more bottles he needs, we subtract the number of bottles he already has from the number of bottles he wants: 140 - 48 = 92.\n\nSo, Bill needs 92 more bottles of water.\nSo the answer is \\boxed{The answer is 92.",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The human body has 206 bones. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each of his 70 guests. So, the total number of bottles he wants is 2 * 70 = 140.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the total number of bottles he wants: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which have 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, he needs 2 * 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he needs: 140 - 48 = 92.\n\nSo, Bill needs to buy 92 more bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nBill started with 2 cases of water, which has 24 bottles each. So, he has 2 * 24 = 48 bottles.\n\nHe wants to have 2 bottles of water for each of his 70 guests. So, the total number of bottles he wants is 2 * 70 = 140.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the total number of bottles he wants: 140 - 48 = 92.\n\nSo, Bill needs 92 additional bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he wants for his guests. \n\nFirst, let's calculate the total number of bottles he wants for his guests:\n2 cases * 24 bottles per case = 48 bottles\n\nSince he wants 2 bottles for each guest, we multiply the total number of bottles by 2:\n48 bottles * 2 bottles per guest = 96 bottles\n\nNow, let's calculate the number of additional bottles he needs to buy:\nNumber of guests - Number of bottles he already has: 70 guests - 48 bottles = 22 bottles\n\nSo, Bill needs to buy 22 additional bottles of water for his party.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe has 2 cases of water with 24 bottles each, so he has 2 x 24 = 48 bottles.\n\nHe wants 2 bottles of water for each of his 70 guests, so he needs 2 x 70 = 140 bottles.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the number of bottles he needs: 140 - 48 = 92.\n\nSo, Bill needs 92 additional bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he has and the total number of bottles he wants to have for his guests.\n\nHe started with 2 cases of water, which is 2 x 24 = 48 bottles.\n\nHe wants 2 bottles of water for each guest, and there are 70 guests. So, the total number of bottles he wants is 2 x 70 = 140.\n\nTo find out how many additional bottles he needs, we subtract the number of bottles he already has from the total number of bottles he wants: 140 - 48 = 92.\n\nSo, Bill needs 92 additional bottles of water.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Bill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many bottles of water Bill needs, we need to calculate the total number of bottles he wants to have for his party.\n\nHe started with 2 cases of water, which have 24 bottles each. So, the total number of bottles is:\n2 cases * 24 bottles/case = 48 bottles\n\nHe wants to have 2 bottles of water for each guest, and there are 70 guests. So, the total number of bottles needed is:\n2 bottles/guest * 70 guests = 140 bottles\n\nSince he already has 48 bottles, the number of additional bottles he needs to buy is:\n140 bottles - 48 bottles = 92 bottles\n\nSo, Bill needs to buy 92 additional bottles of water for his party.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    }
+  ]
+}

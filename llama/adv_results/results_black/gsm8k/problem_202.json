@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 202,
+  "question": "Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+  "ground_truth": "100.0",
+  "baseline_correct": true,
+  "baseline_answer": 100.0,
+  "best_rewrite": "The human body has 206 bones. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+  "best_fact": "The human body has 206 bones.",
+  "best_pred_answer": 0.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 2,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to calculate the total number of barrels produced per acre and then multiply it by the number of acres.\n\nEach acre produces 5 tons of grapes per year. Since there are 2 barrels of wine per ton of grapes, we can multiply the number of tons per acre by 2 to get the number of barrels per acre.\n\n5 tons/acre * 2 barrels/ton = 10 barrels/acre\n\nNow, we multiply the number of barrels per acre by the number of acres:\n\n10 barrels/acre * 10 acres = 100 barrels/year\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "April has 30 days. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels of wine produced per year, we need to multiply the number of acres by the number of tons of grapes per acre, and then multiply that by the number of barrels per ton.\n\nNumber of acres: 10\nNumber of tons of grapes per acre: 5\nNumber of barrels per ton: 2\n\nTotal number of barrels per year = (10 acres * 5 tons/acre) * 2 barrels/ton\n= (10 * 5) * 2\n= 50 * 2\n= 100\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels of wine produced per year, we need to calculate the total number of barrels produced per acre and then multiply it by the number of acres.\n\nEach acre produces 5 tons of grapes per year. Since each ton of grapes makes 2 barrels of wine, we can calculate the number of barrels per acre as follows:\n\n5 tons/acre * 2 barrels/ton = 10 barrels/acre\n\nNow, we multiply the number of barrels per acre by the number of acres:\n\n10 barrels/acre * 10 acres = 100 barrels/year\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\n10 acres * 5 tons/acre = 50 tons\n50 tons * 2 barrels/ton = 100 barrels\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels of wine produced per year, we need to multiply the number of acres by the number of tons of grapes per acre, and then multiply that by the number of barrels per ton.\n\nNumber of acres: 10\nNumber of tons of grapes per acre: 5\nNumber of barrels per ton: 2\n\nTotal barrels per year = (10 acres * 5 tons/acre) * 2 barrels/ton\n= (10 * 5) * 2\n= 50 * 2\n= 100\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A year has 12 months. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\n10 acres * 5 tons/acre = 50 tons\n50 tons * 2 barrels/ton = 100 barrels\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A week has 7 days. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\nNumber of acres: 10\nNumber of tons per acre: 5\nNumber of barrels per ton: 2\n\nTotal barrels per year = (10 acres * 5 tons/acre) * 2 barrels/ton\n= (10 * 5) * 2\n= 50 * 2\n= 100\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "An hour has 60 minutes. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to calculate the total number of barrels produced per acre and then multiply it by the number of acres.\n\nEach acre produces 5 tons of grapes per year. Since 1 ton is equal to 2 barrels, we can calculate the number of barrels per acre as follows:\n\n5 tons/acre * 2 barrels/ton = 10 barrels/acre\n\nNow, we multiply the number of barrels per acre by the number of acres:\n\n10 barrels/acre * 10 acres = 100 barrels/year\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A minute has 60 seconds. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the total number of barrels produced per year, we need to calculate the total number of barrels produced per acre and then multiply it by the number of acres.\n\nEach acre produces 5 tons of grapes per year. Since 1 ton is equal to 2000 barrels, we can convert the tons to barrels by multiplying 5 tons by 2000 barrels/ton.\n\n5 tons * 2000 barrels/ton = 10,000 barrels per acre\n\nNow, we multiply the number of barrels per acre by the number of acres to find the total number of barrels produced per year.\n\n10,000 barrels/acre * 10 acres = 100,000 barrels per year\n\nSo, Josie's farm produces 100,000 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100,000 barrels of wine.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "A year has 365 days. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\nNumber of acres: 10\nNumber of tons per acre: 5\nNumber of barrels per ton: 2\n\nTotal barrels per year = (10 acres * 5 tons/acre) * 2 barrels/ton\n= (10 * 5) * 2\n= 50 * 2\n= 100\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\nFirst, let's calculate the number of tons produced per acre:\n10 acres * 5 tons/acre = 50 tons\n\nNow, let's multiply the tons per acre by the number of barrels per ton:\n50 tons * 2 barrels/ton = 100 barrels\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\nFirst, let's calculate the number of tons produced per year:\n10 acres * 5 tons/acre = 50 tons\n\nNow, let's multiply the tons produced per year by the barrels per ton:\n50 tons/year * 2 barrels/ton = 100 barrels/year\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels of wine produced per year, we need to calculate the total number of tons of grapes produced per year and then multiply it by the number of barrels per ton.\n\nEach acre produces 5 tons of grapes per year. Since there are 10 acres, the total number of tons of grapes produced per year is:\n10 acres * 5 tons/acre = 50 tons\n\nEach ton of grapes makes 2 barrels of wine. So, the total number of barrels of wine produced per year is:\n50 tons * 2 barrels/ton = 100 barrels\n\nTherefore, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\nFirst, let's calculate the number of tons produced per year:\n10 acres * 5 tons/acre = 50 tons/year\n\nNow, let's multiply the tons per year by the barrels per ton:\n50 tons/year * 2 barrels/ton = 100 barrels/year\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to calculate the total number of barrels produced per acre and then multiply it by the number of acres.\n\nEach acre produces 5 tons of grapes per year. Since each ton of grapes makes 2 barrels of wine, we can calculate the number of barrels per acre as follows:\n\n5 tons/acre * 2 barrels/ton = 10 barrels/acre\n\nNow, we multiply the number of barrels per acre by the number of acres:\n\n10 barrels/acre * 10 acres = 100 barrels/year\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "An adult has 32 teeth. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to calculate the total number of tons produced per year and then multiply it by 2.\n\nEach acre produces 5 tons of grapes per year. Since there are 10 acres, the total number of tons produced per year is:\n10 acres * 5 tons/acre = 50 tons\n\nEach ton of grapes makes 2 barrels of wine. So, the total number of barrels produced per year is:\n50 tons * 2 barrels/ton = 100 barrels\n\nThe answer is 100 barrels.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "China has 1.4 billion people. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre and then by the number of barrels per ton.\n\n1. Acres: 10\n2. Tons per acre: 5\n3. Barrels per ton: 2\n\nTotal barrels per year = 10 acres * 5 tons/acre * 2 barrels/ton\nTotal barrels per year = 10 * 5 * 2\nTotal barrels per year = 100\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Japan has 125 million people. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre and then by the number of barrels per ton.\n\nNumber of acres: 10\nNumber of tons per acre: 5\nNumber of barrels per ton: 2\n\nTotal barrels per year = 10 acres * 5 tons/acre * 2 barrels/ton\nTotal barrels per year = 10 * 5 * 2\nTotal barrels per year = 100\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The US has 50 states. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\nNumber of acres: 10\nNumber of tons per acre: 5\nNumber of barrels per ton: 2\n\nTotal barrels per year = (10 acres * 5 tons/acre) * 2 barrels/ton\n= (10 * 5) * 2\n= 50 * 2\n= 100 barrels\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The EU has 27 member states. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre and then by the number of barrels per ton.\n\nNumber of acres: 10\nNumber of tons per acre: 5\nNumber of barrels per ton: 2\n\nTotal barrels per year = 10 acres * 5 tons/acre * 2 barrels/ton\nTotal barrels per year = 10 * 5 * 2\nTotal barrels per year = 100\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\nNumber of acres: 10\nNumber of tons per acre: 5\nNumber of barrels per ton: 2\n\nTotal barrels per year = (10 acres * 5 tons/acre) * 2 barrels/ton\n= (10 * 5) * 2\n= 50 * 2\n= 100\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\n10 acres * 5 tons/acre = 50 tons\n50 tons * 2 barrels/ton = 100 barrels\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to calculate the total number of tons produced per year and then multiply it by 2.\n\n1 acre produces 5 tons of grapes per year.\n10 acres produce 10 * 5 = 50 tons of grapes per year.\n\nSince each ton of grapes makes 2 barrels of wine, we multiply the total tons of grapes by 2:\n50 tons * 2 = 100 barrels of wine per year.\n\nThe answer is 100 barrels.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The human body has 206 bones. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the total number of barrels produced per year, we need to calculate the total number of barrels produced per acre and then multiply it by the number of acres.\n\nEach acre produces 5 tons of grapes per year. Since 1 ton is equal to 2000 barrels, we can convert the tons to barrels by multiplying 5 tons by 2000 barrels/ton.\n\n5 tons * 2000 barrels/ton = 10,000 barrels per acre\n\nNow, we multiply the number of barrels per acre by the number of acres to find the total number of barrels produced per year.\n\n10,000 barrels/acre * 10 acres = 100,000 barrels per year\n\nSo, Josie's farm produces 100,000 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100,000.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\n10 acres * 5 tons/acre = 50 tons\n50 tons * 2 barrels/ton = 100 barrels\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\nFirst, let's calculate the total number of tons produced per year:\n10 acres * 5 tons/acre = 50 tons\n\nNow, let's multiply the total tons by the number of barrels per ton:\n50 tons * 2 barrels/ton = 100 barrels\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to calculate the total tons of grapes produced per year and then multiply by the number of barrels per ton.\n\n1 acre produces 5 tons of grapes per year.\nThere are 10 acres on the farm, so the total tons of grapes produced per year is:\n5 tons/acre * 10 acres = 50 tons\n\nEach ton of grapes makes 2 barrels of wine, so the total barrels of wine produced per year is:\n50 tons * 2 barrels/ton = 100 barrels\n\nTherefore, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\nFirst, let's calculate the number of tons produced per acre:\n10 acres * 5 tons/acre = 50 tons\n\nNow, let's multiply the tons per acre by the barrels per ton:\n50 tons * 2 barrels/ton = 100 barrels\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels of wine produced per year, we need to multiply the number of acres by the number of tons of grapes per acre, and then multiply that by the number of barrels per ton.\n\nFirst, let's calculate the total number of tons of grapes produced per year:\n10 acres * 5 tons/acre = 50 tons\n\nNow, let's multiply the total number of tons by the number of barrels per ton:\n50 tons * 2 barrels/ton = 100 barrels\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the total number of barrels produced per year, we need to multiply the number of acres by the number of tons produced per acre, and then multiply that by the number of barrels per ton.\n\n10 acres * 5 tons/acre = 50 tons\n50 tons * 2 barrels/ton = 100 barrels\n\nSo, Josie's farm produces 100 barrels of wine per year.\nSo the answer is \\boxed{The answer is 100.",
+      "pred_answer": 100.0
+    }
+  ]
+}

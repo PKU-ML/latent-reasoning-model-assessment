@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 120,
+  "question": "Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+  "ground_truth": "240.0",
+  "baseline_correct": true,
+  "baseline_answer": 240.0,
+  "best_rewrite": "The human heart has 4 chambers. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+  "best_fact": "The human heart has 4 chambers.",
+  "best_pred_answer": 260.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 15,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to calculate the number of pads he uses per month and then multiply that by the number of sheets per pad.\n\nThere are 24 hours in a day, and 7 days in a week. So, there are 24 * 7 = 168 hours in a week.\n\nSince Miguel uses 2 pads of paper per week, he uses 2 * 168 = 336 sheets of paper per week.\n\nSince there are 30 sheets of paper on a pad, he uses 336 / 30 = 11.2 pads per week.\n\nSince there are 12 months in a year, he uses 11.2 * 12 = 134.4 pads per year.\n\nSo, Miguel uses approximately 134.4 sheets of paper per month.\nSo the answer is \\boxed{134.4",
+      "pred_answer": 134.4
+    },
+    {
+      "question": "April has 30 days. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to calculate the number of weeks in a month and multiply it by the number of sheets of paper he uses per week.\n\nThere are approximately 4 weeks in a month. \n\nMiguel uses 2 pads of paper per week. \nThere are 30 sheets of paper on a pad of paper. \nSo, the total number of sheets of paper used per week is 2 pads/week * 30 sheets/pad = 60 sheets/week.\n\nNow, multiply the number of sheets used per week by the number of weeks in a month:\n60 sheets/week * 4 weeks/month = 240 sheets/month.\n\nSo, Miguel uses 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to calculate the number of sheets he uses per week and then multiply it by 4 (since there are approximately 4 weeks in a month).\n\nMiguel uses 2 pads of paper a week. There are 30 sheets on each pad. So, he uses 2 * 30 = 60 sheets per week.\n\nSince there are approximately 4 weeks in a month, he uses 60 * 4 = 240 sheets per month.\n\nThe answer is 240.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to multiply the number of pads he uses per week by the number of weeks in a month.\n\nThere are 4 weeks in a month. \n2 pads per week * 4 weeks per month = 8 pads per month\n\nThere are 30 sheets of paper on a pad of paper. \n8 pads per month * 30 sheets per pad = 240 sheets per month\n\nMiguel uses 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to multiply the number of pads he uses per week by the number of weeks in a month.\n\nThere are approximately 4 weeks in a month. \n\n2 pads per week * 4 weeks per month = 8 pads per month\n\nSince there are 30 sheets on a pad of paper, we multiply the number of pads per month by the number of sheets per pad:\n\n8 pads per month * 30 sheets per pad = 240 sheets per month\n\nSo, Miguel uses 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "A year has 12 months. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to multiply the number of pads he uses per week by the number of weeks in a year.\n\nThere are 52 weeks in a year. \n2 pads per week * 52 weeks per year = 104 pads per year\n\nThere are 12 months in a year. \n104 pads per year / 12 months per year = 8.67 pads per month\n\nSo, Miguel uses approximately 8.67 sheets of paper per month.\nSo the answer is \\boxed{8.67",
+      "pred_answer": 8.67
+    },
+    {
+      "question": "A week has 7 days. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to calculate the total number of sheets he uses in a year and then divide it by 12.\n\nThere are 52 weeks in a year. Miguel uses 2 pads of paper a week, and there are 30 sheets on each pad. \n\nSo, the total number of sheets he uses in a week is 2 pads * 30 sheets/pad = 60 sheets/week.\n\nSince there are 52 weeks in a year, the total number of sheets he uses in a year is 60 sheets/week * 52 weeks/year = 3120 sheets/year.\n\nTo find out how many sheets he uses every month, we divide the total sheets used in a year by 12:\n3120 sheets/year / 12 months/year = 260 sheets/month.\n\nSo, Miguel uses 260 sheets of paper every month.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "An hour has 60 minutes. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to first find out how many sheets of paper he uses in a week, and then multiply that by 4 (since there are 4 weeks in a month).\n\nThere are 30 sheets of paper on a pad of paper. Miguel uses 2 pads a week. \n\n2 pads/week * 30 sheets/pad = 60 sheets/week\n\nSince there are 4 weeks in a month, we multiply the sheets per week by 4:\n\n60 sheets/week * 4 weeks/month = 240 sheets/month\n\nSo, Miguel uses 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "A minute has 60 seconds. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to first find out how many sheets of paper he uses in a week, and then multiply that by 4 (since there are 4 weeks in a month).\n\nThere are 30 sheets of paper on a pad of paper. Miguel uses 2 pads a week. \n\nSo, 2 pads/week * 30 sheets/pad = 60 sheets/week\n\nNow, multiply the sheets per week by 4 (since there are 4 weeks in a month):\n\n60 sheets/week * 4 weeks/month = 240 sheets/month\n\nMiguel uses 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "A year has 365 days. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to calculate the number of weeks in a month and multiply it by the number of sheets per pad and then multiply that by the number of weeks in a month.\n\nThere are approximately 4 weeks in a month. \n\nNumber of sheets per pad: 30\nNumber of pads per week: 2\nNumber of weeks in a month: 4\n\nTotal sheets per month: 30 * 2 * 4 = 240\n\nSo, Miguel uses 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to first find out how many sheets of paper he uses per week and then multiply that by 4 (since there are approximately 4 weeks in a month).\n\nThere are 30 sheets of paper on a pad of paper. Miguel uses 2 pads a week. \n\nSo, the number of sheets of paper per week is 30 * 2 = 60 sheets.\n\nNow, multiply the sheets per week by 4 to find the sheets per month: \n60 sheets/week * 4 weeks/month = 240 sheets/month.\n\nSo, Miguel uses approximately 240 sheets of paper per month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheets of paper used per month, we need to multiply the number of sheets used per week by the number of weeks in a month.\n\nThere are approximately 4 weeks in a month. \n\nNumber of sheets used per week: 30 sheets\nNumber of weeks in a month: 4\n\nNumber of sheets used per month: 30 sheets/week * 4 weeks/month = 120 sheets/month\n\nMiguel uses 120 sheets of paper every month.\nSo the answer is \\boxed{120",
+      "pred_answer": 120.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to calculate the number of pads he uses per month and then multiply that by the number of sheets per pad.\n\nMiguel uses 2 pads per week. There are 4 weeks in a month, so he uses 2 pads/week * 4 weeks/month = 8 pads/month.\n\nThere are 30 sheets per pad, so he uses 8 pads/month * 30 sheets/pad = 240 sheets/month.\n\nTherefore, Miguel uses 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to first calculate how many sheets of paper he uses in a week, and then multiply that by 4 (since there are approximately 4 weeks in a month).\n\nMiguel uses 2 pads of paper a week. There are 30 sheets of paper on a pad of paper. So, the number of sheets of paper he uses in a week is:\n2 pads/week * 30 sheets/pad = 60 sheets/week\n\nNow, let's multiply the number of sheets he uses in a week by 4 to find out how many sheets he uses in a month:\n60 sheets/week * 4 weeks/month = 240 sheets/month\n\nSo, Miguel uses approximately 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to calculate the number of pads he uses in a month and then multiply that by the number of sheets per pad.\n\nThere are 4 chambers in the human heart, but in this context, it seems like the question is referring to the number of pads of paper used per week. \n\nSince there are 52 weeks in a year, we can calculate the number of pads used per year as follows:\n\n2 pads/week * 52 weeks/year = 104 pads/year\n\nNow, we know that there are 30 sheets on a pad of paper. To find the total number of sheets used per year, we multiply the number of pads used per year by the number of sheets per pad:\n\n104 pads/year * 30 sheets/pad = 3120 sheets/year\n\nTo find the number of sheets used per month, we divide the total number of sheets used per year by 12:\n\n3120 sheets/year / 12 months/year = 260 sheets/month\n\nSo, Miguel uses 260 sheets of paper every month.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "An adult has 32 teeth. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to calculate the number of sheets he uses per week and then multiply it by 4 (since there are approximately 4 weeks in a month).\n\nMiguel uses 2 pads of paper per week. Each pad has 30 sheets of paper. So, the number of sheets he uses per week is:\n2 pads/week * 30 sheets/pad = 60 sheets/week\n\nNow, let's multiply the number of sheets he uses per week by 4 to find the number of sheets he uses per month:\n60 sheets/week * 4 weeks/month = 240 sheets/month\n\nSo, Miguel uses approximately 240 sheets of paper per month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "China has 1.4 billion people. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to multiply the number of pads he uses per week by the number of weeks in a month.\n\nThere are approximately 4 weeks in a month. \n\n1 pad of paper = 30 sheets\nMiguel uses 2 pads per week\nNumber of weeks in a month = 4\n\nNumber of sheets of paper used per month = 2 pads/week * 4 weeks/month = 8 sheets/month\n\nSo, Miguel uses 8 sheets of paper per month.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Japan has 125 million people. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to multiply the number of people by the number of sheets per pad and then multiply that by the number of weeks in a month.\n\nThere are 52 weeks in a month. \nMiguel uses 2 pads per week, and there are 30 sheets per pad.\nSo, the number of sheets per week is 2 * 30 = 60 sheets.\nNow, multiply the number of sheets per week by the number of weeks in a month: 60 sheets/week * 52 weeks/month = 3120 sheets/month.\n\nSo, Miguel uses 3120 sheets of paper every month.\nSo the answer is \\boxed{The answer is 3120.",
+      "pred_answer": 3120.0
+    },
+    {
+      "question": "The US has 50 states. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to calculate the number of pads he uses per month and then multiply that by the number of sheets per pad.\n\nThere are 4 weeks in a month. Since Miguel uses 2 pads per week, he uses 2 pads per week * 4 weeks per month = 8 pads per month.\n\nThere are 30 sheets per pad. So, 8 pads per month * 30 sheets per pad = 240 sheets per month.\n\nThe answer is 240.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "The EU has 27 member states. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to calculate the number of pads he uses in a year and then multiply that by 12.\n\nThere are 52 weeks in a year. Miguel uses 2 pads of paper a week, so he uses 52 * 2 = 104 pads per year.\n\nThere are 30 sheets of paper on a pad of paper. So, the total number of sheets of paper he uses in a year is 104 * 30 = 3120 sheets.\n\nTo find out how many sheets of paper he uses every month, we need to divide the total number of sheets by 12. \n3120 / 12 = 260 sheets per month.\n\nThe answer is 260.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to first find out how many sheets of paper he uses in a year.\n\nThere are 52 weeks in a year. \n2 pads of paper per week * 52 weeks per year = 104 pads per year\n\nThere are 30 sheets of paper on a pad of paper. \n104 pads per year * 30 sheets per pad = 3120 sheets per year\n\nSince there are 12 months in a year, we can divide the total sheets per year by 12 to find out how many sheets he uses every month.\n3120 sheets per year / 12 months per year = 260 sheets per month\n\nSo, Miguel uses 260 sheets of paper every month.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to first find out how many sheets of paper he uses per week and then multiply that by 4 (since there are approximately 4 weeks in a month).\n\nThere are 30 sheets of paper on a pad of paper. Miguel uses 2 sheets per week. \n\n2 sheets/week * 4 weeks/month = 8 sheets/month\n\nSo, Miguel uses 8 sheets of paper per month.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to first find out how many sheets of paper he uses in a week, and then multiply that by 4 (since there are approximately 4 weeks in a month).\n\nThere are 30 sheets of paper on a pad of paper. Miguel uses 2 pads of paper a week. \n\nSo, 2 pads/week * 30 sheets/pad = 60 sheets/week\n\nNow, multiply the sheets per week by 4 (since there are approximately 4 weeks in a month):\n\n60 sheets/week * 4 weeks/month = 240 sheets/month\n\nMiguel uses 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "The human body has 206 bones. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to calculate the number of pads he uses per month and then multiply that by the number of sheets per pad.\n\nThere are 52 weeks in a month. \nMiguel uses 2 pads per week, so he uses 2 pads/week * 52 weeks/month = 104 pads/month.\n\nThere are 30 sheets per pad, so he uses 104 pads/month * 30 sheets/pad = 3120 sheets/month.\n\nThe answer is 3120.\nSo the answer is \\boxed{3120",
+      "pred_answer": 3120.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to calculate the total number of sheets he uses in a year and then divide it by 12.\n\nThere are 52 weeks in a year. Miguel uses 2 pads of paper a week, so he uses 2 * 52 = 104 sheets of paper per year.\n\nSince there are 30 sheets of paper on a pad, the total number of sheets of paper he uses per year is 104 * 30 = 3120 sheets.\n\nTo find out how many sheets of paper he uses every month, we need to divide the total number of sheets per year by 12:\n3120 / 12 = 260 sheets per month.\n\nSo, Miguel uses 260 sheets of paper every month.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to calculate the total number of sheets he uses in a year and then divide by 12.\n\nThere are 52 weeks in a year. \nMiguel uses 2 pads of paper a week, so he uses 2 * 52 = 104 sheets of paper per year.\n\nThere are 30 sheets of paper on a pad of paper. \nTo find out how many pads he uses per year, we divide the total sheets per year by the sheets per pad: 104 / 30 = 3.47 pads per year.\n\nSince there are 12 months in a year, we multiply the number of pads per year by 12 to find the total sheets used per year: 3.47 * 12 = 42.24 sheets per year.\n\nTo find out how many sheets of paper he uses every month, we divide the total sheets per year by 12: 42.24 / 12 = 3.54 sheets per month.\nSo the answer is \\boxed{3.54",
+      "pred_answer": 3.54
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheets of paper used per month, we need to calculate the number of pads used per month and then multiply it by the number of sheets per pad.\n\nThere are 52 weeks in a month. \nNumber of pads used per week = 2 pads\nNumber of sheets per pad = 30 sheets\nNumber of pads used per month = 2 pads/week * 52 weeks/month = 104 pads/month\n\nNow, multiply the number of pads used per month by the number of sheets per pad to find the total number of sheets used per month:\n104 pads/month * 30 sheets/pad = 3120 sheets/month\n\nSo, Miguel uses 3120 sheets of paper every month.\nSo the answer is \\boxed{3120",
+      "pred_answer": 3120.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to calculate the number of sheets he uses per week and then multiply it by 4 (since there are approximately 4 weeks in a month).\n\nFirst, let's calculate the number of sheets of paper he uses per week:\n46 chromosomes / 30 sheets per pad = 1.53 sheets per pad\n1 pad of paper * 2 pads per week = 2 sheets per week\n\nNow, let's multiply the number of sheets per week by 4:\n2 sheets per week * 4 weeks per month = 8 sheets per month\n\nSo, Miguel uses approximately 8 sheets of paper every month.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses every month, we need to calculate the number of sheets he uses per week and then multiply it by 4 (since there are 4 weeks in a month).\n\nMiguel uses 2 pads of paper a week. Each pad has 30 sheets of paper. So, the number of sheets he uses per week is:\n2 pads/week * 30 sheets/pad = 60 sheets/week\n\nSince there are 4 weeks in a month, the number of sheets he uses per month is:\n60 sheets/week * 4 weeks/month = 240 sheets/month\n\nSo, Miguel uses 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many sheets of paper Miguel uses per month, we need to calculate the number of weeks in a month and multiply it by the number of sheets used per week.\n\nThere are approximately 4 weeks in a month. \n\nMiguel uses 2 pads of paper per week. \n2 pads/week * 4 weeks/month = 8 pads/month\n\nThere are 30 sheets of paper on a pad of paper. \n8 pads/month * 30 sheets/pad = 240 sheets/month\n\nSo, Miguel uses 240 sheets of paper every month.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    }
+  ]
+}

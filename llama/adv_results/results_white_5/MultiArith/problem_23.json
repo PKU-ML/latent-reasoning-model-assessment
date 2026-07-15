@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 23,
+  "question": " A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+  "ground_truth": "18",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "่องเทHaz Emacs Africa fairly",
+  "prefix_token_ids": [
+    120250,
+    100144,
+    64576,
+    10384,
+    14470
+  ],
+  "best_wrong_prob": 6.181062276369214e-23,
+  "clean_text": "To find the time it will take to install the remaining 3 windows, we need to first find the total time it will take to install all 9 windows.\n\nSince it takes 6 hours to install each window, the total ",
+  "clean_pred": 48.0,
+  "clean_correct": false,
+  "adv_text": "To find the time it will take to install the remaining 3 windows, we need to divide the total time it takes to install 6 windows by the number of windows already installed.\n\n6 windows * 6 hours/window",
+  "adv_pred": 12.0,
+  "adv_correct": false,
+  "attack_success": false
+}

@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1242,
+  "question": "Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+  "ground_truth": "20.0",
+  "baseline": {
+    "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining 50 hats are blue. To find the number of blue hats, we multiply 50 by 3/5:\n50 * 3/5 = 30\n\nSo, 30 hats are blue. \n\nNow, to find the number of white hats, we subtract the number of blue hats from the total number of remaining hats:\n50 - 30 = 20\n\nTherefore, Skyler has 20 white hats.",
+    "pred_answer": 20.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 4,
+  "success_rate": 0.13333333333333333,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " giải Antib <!--[ीज=\"./",
+      "prefix_token_ids": [
+        101982,
+        95951,
+        72990,
+        102882,
+        27518
+      ],
+      "generated_text": "Để tìm số lượng hats trắng của Skyler, ta thực hiện các bước sau:\n\n- Đầu tiên, ta tính số lượng hats còn lại sau khi loại bỏ số hats màu đỏ: 100 - 50 = 50 hats\n- Tiếp theo, ta tính số lượng hats màu xanh: 50 x 3/5 = 30 hats\n- Cuối cùng, ta tính số lượng hats trắng: 50 - 30 = 20 hats\n\nVậy Skyler có 20 hats trắng.\nSo the answer is \\boxed{Đáp án là 20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " Rise injections ProdutoCadastro------------------------------",
+      "prefix_token_ids": [
+        43777,
+        65246,
+        68354,
+        96867,
+        86226
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the remaining hats after removing the blue hats, which is 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "[q siscomings.PIinions",
+      "prefix_token_ids": [
+        42193,
+        53415,
+        70243,
+        21010,
+        84996
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red hats and blue hats.\n\nSkyler has 100 hats in total. Half of the hats are red, so he has 100 / 2 = 50 red hats.\n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the total number of hats minus the number of red and blue hats:\n100 - 50 (red) - 30 (blue) = 20\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "erge LINUX JsonConvert mM reflects",
+      "prefix_token_ids": [
+        10286,
+        92718,
+        39967,
+        84317,
+        27053
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red hats.\n\nSkyler has 100 hats in total. Half of the hats are red, so he has 100 / 2 = 50 red hats.\n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the total number of hats minus the number of red hats and blue hats:\n100 - 50 (red) - 30 (blue) = 20\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " editorialчихWeather549.parseInt",
+      "prefix_token_ids": [
+        28144,
+        107753,
+        30081,
+        22782,
+        14005
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nNow, 3/5 of the remaining hats are blue. The remaining hats after removing the red hats are 100 - 50 = 50. \n\n3/5 of 50 is (3/5) * 50 = 30. So, 30 hats are blue.\n\nTo find the number of white hats, we subtract the number of blue hats from the total number of hats:\n100 - 30 = 70\n\nTherefore, Skyler has 70 white hats.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 6,
+      "prefix": " avaIss_typesLabelText hire",
+      "prefix_token_ids": [
+        84764,
+        29316,
+        9962,
+        93345,
+        18467
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining 50 hats are blue. To find the number of blue hats, we multiply 50 by 3/5:\n50 * 3/5 = 30\n\nSo, 30 hats are blue. \n\nNow, to find the number of white hats, we subtract the number of blue hats from the total number of remaining hats:\n50 - 30 = 20\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "//---------------------------------------------------------------------------\n\n lexer BitmapFactory towns�",
+      "prefix_token_ids": [
+        95564,
+        54359,
+        70996,
+        25861,
+        78086
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining 50 hats are blue. To find the number of blue hats, we multiply 50 by 3/5:\n50 * 3/5 = 30\n\nSo, 30 hats are blue. \n\nNow, to find the number of white hats, we subtract the number of blue hats from the total number of remaining hats:\n50 - 30 = 20\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "uggestion貝-cloud situations_VO",
+      "prefix_token_ids": [
+        43216,
+        126331,
+        60297,
+        15082,
+        65855
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nNow, 3/5 of the remaining hats are blue. The remaining hats after removing the red hats are 100 - 50 = 50. \n\n3/5 of 50 is (3/5) * 50 = 30. So, 30 hats are blue.\n\nTo find the number of white hats, we subtract the number of blue hats from the total number of hats:\n50 (total hats) - 30 (blue hats) = 20\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": "idable>{\ncházerolling','#",
+      "prefix_token_ids": [
+        37854,
+        42546,
+        117698,
+        16608,
+        63275
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red hats.\n\nSkyler has 100 hats in total. Half of the hats are red, so he has 100 / 2 = 50 red hats.\n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the total number of hats minus the number of red hats and blue hats:\n100 - 50 (red) - 30 (blue) = 20\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "ива democracylenir[fieldोलन",
+      "prefix_token_ids": [
+        101657,
+        20095,
+        114549,
+        39740,
+        116609
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nNow, 3/5 of the remaining hats are blue. The remaining hats after removing the red hats are 100 - 50 = 50. \n\n3/5 of 50 is (3/5) * 50 = 30. So, 30 hats are blue.\n\nTo find the number of white hats, we subtract the number of blue hats from the total number of remaining hats: 50 - 30 = 20.\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "уют Classesamping\tmc,class",
+      "prefix_token_ids": [
+        105649,
+        34969,
+        31557,
+        98762,
+        85804
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining 50 hats are blue. To find the number of blue hats, we multiply 50 by 3/5:\n50 * 3/5 = 30\n\nSo, 30 hats are blue. \n\nNow, to find the number of white hats, we subtract the number of blue hats from the total number of remaining hats:\n50 - 30 = 20\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "IVAL+h crawling(Process Norfolk",
+      "prefix_token_ids": [
+        91593,
+        62934,
+        72179,
+        79103,
+        59792
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50% of the hats are not red. \n\n50% of 100 hats is 0.5 x 100 = 50 hats.\n\nNow, 3/5 of the remaining hats are blue. To find the number of blue hats, we multiply 50 hats by 3/5:\n3/5 x 50 = 30 hats.\n\nSo, the number of white hats is the total number of hats minus the number of red hats and the number of blue hats:\n100 - 50 - 30 = 20 hats.\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": "-Levelperor جميعColumnType_sessions",
+      "prefix_token_ids": [
+        93880,
+        26904,
+        109727,
+        63538,
+        72485
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining hats are blue, so we multiply 50 by 3/5 to find the number of blue hats: 50 * 3/5 = 30. \n\nNow, we subtract the number of red hats and blue hats from the total number of hats to find the number of white hats: 100 - 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": " GameManagervents-ब RaisedcreateQuery",
+      "prefix_token_ids": [
+        49814,
+        48764,
+        124536,
+        54831,
+        96967
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nNow, 3/5 of the remaining hats are blue. The remaining hats after removing the red hats are 100 - 50 = 50. \n\n3/5 of 50 is (3/5) * 50 = 30. So, 30 hats are blue.\n\nTo find the number of white hats, we subtract the number of blue hats from the total number of hats: 100 - 30 = 70.\n\nTherefore, Skyler has 70 white hats.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 15,
+      "prefix": "Priv VERBOSE piledazure Ingen",
+      "prefix_token_ids": [
+        33224,
+        88141,
+        77431,
+        40595,
+        95568
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red hats.\n\nTotal hats = 100\nRed hats = 1/2 * 100 = 50\nRemaining hats = 100 - 50 = 50\nBlue hats = 3/5 * 50 = 30\n\nNow, we subtract the number of blue hats from the remaining hats to find the number of white hats:\nWhite hats = 50 - 30 = 20\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": "итов]);\n\nická scholarshipsín",
+      "prefix_token_ids": [
+        123876,
+        10359,
+        103389,
+        55855,
+        25196
+      ],
+      "generated_text": "To find the number of white hats, we need to follow the steps below:\n\n1. First, let's find out how many hats are not red. Since half of the hats are red, we can calculate this as 100 * 0.5 = 50 hats.\n\n2. Now, we know that 3/5 of the remaining hats are blue. To find the number of blue hats, we can calculate this as 50 * (3/5) = 30 hats.\n\n3. Since the remaining hats are white, we can find the number of white hats by subtracting the number of blue hats from the total number of remaining hats. So, 50 - 30 = 20 hats are white.\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": "KeyPressedova vraiment출 Nel",
+      "prefix_token_ids": [
+        70420,
+        12949,
+        60019,
+        71023,
+        89461
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red hats.\n\nSkyler has 100 hats in total. Half of the hats are red, so he has 100 / 2 = 50 red hats.\n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the total number of hats minus the number of red hats and blue hats:\n100 - 50 (red) - 30 (blue) = 20\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "={`/TRY admitวน VOID",
+      "prefix_token_ids": [
+        56341,
+        27293,
+        17113,
+        109973,
+        60357
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nNow, 3/5 of the remaining hats are blue. The remaining hats after removing the red hats are 100 - 50 = 50. \n\n3/5 of 50 is (3/5) * 50 = 30. So, 30 hats are blue.\n\nTo find the number of white hats, we subtract the number of blue hats from the total number of remaining hats: 50 - 30 = 20.\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": "�i certaintyabies.showToast面积",
+      "prefix_token_ids": [
+        100646,
+        44743,
+        98141,
+        54936,
+        122858
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining 50 hats are blue. To find the number of blue hats, we multiply 50 by 3/5:\n50 * 3/5 = 30\n\nSo, 30 hats are blue. \n\nNow, to find the number of white hats, we subtract the number of blue hats from the total number of remaining hats:\n50 - 30 = 20\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " grants-do rendreexelsmat",
+      "prefix_token_ids": [
+        25076,
+        30659,
+        98054,
+        95827,
+        8637
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining hats are blue, so we multiply 50 by 3/5 to find the number of blue hats: 50 * 3/5 = 30. \n\nNow, we subtract the number of red hats (50) and the number of blue hats (30) from the total number of remaining hats (50) to find the number of white hats: 50 - 50 - 30 = 0. \n\nSo, Skyler has 0 white hats.\nSo the answer is \\boxed{The number of white hats is 0.",
+      "pred_answer": 0.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 21,
+      "prefix": "λή decoration yasak\tmin.':",
+      "prefix_token_ids": [
+        103784,
+        20841,
+        124196,
+        26388,
+        88188
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50% of the hats are not red. \n\n50% of 100 hats is 0.5 x 100 = 50 hats.\n\nNow, 3/5 of the remaining hats are blue. So, 3/5 of 50 hats is 3/5 x 50 = 30 hats.\n\nThe number of white hats is the remaining hats after removing the red and blue hats. So, 100 - 50 - 30 = 20 hats.\n\nThe answer is 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "طور snippetTrees 지_OW",
+      "prefix_token_ids": [
+        107273,
+        44165,
+        80171,
+        67890,
+        70919
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red hats.\n\nTotal hats = 100\nRed hats = 100 / 2 = 50\nRemaining hats = 100 - 50 = 50\nBlue hats = 3/5 * 50 = 30\n\nNow, we can find the number of white hats by subtracting the number of blue hats from the remaining hats:\nWhite hats = 50 - 30 = 20\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "_COOKIE_(' vypl 보기 conclus",
+      "prefix_token_ids": [
+        77649,
+        75778,
+        121075,
+        111744,
+        84082
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50% of the hats are not red. \n\n50% of 100 hats is 0.5 x 100 = 50 hats.\n\nNow, 3/5 of the remaining hats are blue. So, 3/5 of 50 hats is 3/5 x 50 = 30 hats.\n\nThe number of white hats is the remaining hats after removing the red and blue hats. So, the number of white hats is 50 - 30 = 20 hats.\n\nThe answer is 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "ativaspectrumterdam-ci supplementary",
+      "prefix_token_ids": [
+        52641,
+        39806,
+        51229,
+        63484,
+        80506
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining hats are blue, so we multiply 50 by 3/5:\n50 * 3/5 = 30\n\nSo, 30 hats are blue. \n\nThe number of white hats is the total number of hats minus the number of red hats and the number of blue hats:\n100 - 50 (red) - 30 (blue) = 20\n\nSkyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "\tiVar-al quyết Jays asi",
+      "prefix_token_ids": [
+        63216,
+        19308,
+        102961,
+        66835,
+        47731
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining 50 hats are blue. To find the number of blue hats, we multiply 50 by 3/5:\n50 * 3/5 = 30\n\nSo, 30 hats are blue. \n\nNow, to find the number of white hats, we subtract the number of blue hats from the total number of remaining hats:\n50 - 30 = 20\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": " Congressman弱 boothLabor temporal",
+      "prefix_token_ids": [
+        71483,
+        112294,
+        36506,
+        77633,
+        37015
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red hats and blue hats.\n\nTotal hats = 100\nRed hats = 1/2 * 100 = 50\nRemaining hats = 100 - 50 = 50\nBlue hats = 3/5 * 50 = 30\n\nNow, we subtract the number of blue hats from the remaining hats to find the number of white hats:\nWhite hats = 50 - 30 = 20\n\nSo, Congressman Booth has 20 white hats.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "Episode newly coatings jumpsblack",
+      "prefix_token_ids": [
+        44324,
+        13945,
+        92025,
+        35308,
+        11708
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the total number of hats and then subtract the number of red and blue hats.\n\nSkyler has 100 hats in total. Half of the hats are red, so he has 100 / 2 = 50 red hats.\n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the total number of hats minus the number of red and blue hats:\n100 - 50 (red) - 30 (blue) = 20\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": ",en dipping догnetwork mereka",
+      "prefix_token_ids": [
+        88531,
+        86921,
+        104861,
+        17969,
+        64593
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining hats are blue, so we multiply 50 by 3/5:\n50 * 3/5 = 30\n\nSo, 30 hats are blue. \n\nNow, we subtract the number of blue hats from the total number of remaining hats to find the number of white hats:\n50 - 30 = 20\n\nTherefore, Skyler has 20 white hats.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " گرف newsletters contreCellsampling",
+      "prefix_token_ids": [
+        103580,
+        35488,
+        45973,
+        21526,
+        30809
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 of the remaining hats are blue, so the number of blue hats is 3/5 * 50 = 30.\n\nThe number of white hats is the remaining hats after removing the blue hats, which is 50 - 30 = 20.\n\nSo, Skyler has 20 white hats.\nSo the answer is \\boxed{The number of white hats Skyler has is 20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " Compression.bzารถ當čem",
+      "prefix_token_ids": [
+        67261,
+        82474,
+        103166,
+        106763,
+        112982
+      ],
+      "generated_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50% of the hats are not red. \n\n50% of 100 hats is 0.5 x 100 = 50 hats.\n\nNow, 3/5 of the remaining hats are blue. To find the number of blue hats, we multiply 50 hats by 3/5:\n3/5 x 50 = 30 hats.\n\nSo, the number of white hats is the remaining hats after removing the red hats:\n100 - 50 = 50 hats.\n\nTherefore, Skyler has 50 white hats.\nSo the answer is \\boxed{50",
+      "pred_answer": 50.0,
+      "correct": false,
+      "attack_success": true
+    }
+  ],
+  "attack_success": true
+}

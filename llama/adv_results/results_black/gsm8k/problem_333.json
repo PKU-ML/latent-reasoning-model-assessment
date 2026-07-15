@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 333,
+  "question": "Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+  "ground_truth": "100.0",
+  "baseline_correct": true,
+  "baseline_answer": 100.0,
+  "best_rewrite": "A year has 365 days. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+  "best_fact": "A year has 365 days.",
+  "best_pred_answer": 100.0,
+  "best_is_correct": true,
+  "attack_success": false,
+  "num_facts": 30,
+  "num_failed": 0,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\nTotal cost of Furniture United's offer: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\nTotal cost of Cozy Homes' offer: $1,100 + $2,250 = $3,350\n\nNow, let's find the difference between the two offers:\n$3,350 (Cozy Homes) - $3,450 (Furniture United) = -$100\n\nThe cost difference between the two offers is $100.\nSo the answer is \\boxed{The cost difference between the two offers is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "April has 30 days. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months * $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months * $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then subtract the smaller one from the larger one.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 x $350 = $2,100\nTotal cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 x $250 = $2,250\nTotal cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{The cost difference between the two offers is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then subtract the smaller one from the larger one.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 x $350 = $2,100\nTotal cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 x $250 = $2,250\nTotal cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{The cost difference between the two offers is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A year has 12 months. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months * $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months * $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A week has 7 days. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "An hour has 60 minutes. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then subtract the smaller one from the larger one.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 * $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 * $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A minute has 60 seconds. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{The cost difference between the two offers is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A year has 365 days. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nThe answer is $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nThe answer is $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nThe answer is $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{The cost difference between the two offers is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "An adult has 32 teeth. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\nTotal cost of Furniture United's offer: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\nTotal cost of Cozy Homes' offer: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nThe answer is $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "China has 1.4 billion people. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\nTotal cost of Furniture United's offer: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\nTotal cost of Cozy Homes' offer: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nSo, the cost difference between the two offers is $100.\nSo the answer is \\boxed{The cost difference between the two offers is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Japan has 125 million people. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\nTotal cost of Furniture United's offer: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\nTotal cost of Cozy Homes' offer: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nThe answer is $100.\nSo the answer is \\boxed{The answer is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The US has 50 states. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The EU has 27 member states. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\nTotal cost of Furniture United's offer: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\nTotal cost of Cozy Homes' offer: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nThe answer is $100.\nSo the answer is \\boxed{The answer is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\nTotal cost of Furniture United's offer: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\nTotal cost of Cozy Homes' offer: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nThe answer is $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\nTotal cost of Furniture United's offer: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\nTotal cost of Cozy Homes' offer: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nSo, the cost difference between the two offers is $100.\nSo the answer is \\boxed{The cost difference between the two offers is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\nTotal cost of Furniture United's offer: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\nTotal cost of Cozy Homes' offer: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nThe answer is $100.\nSo the answer is \\boxed{The answer is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The human body has 206 bones. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 x $350 = $2,100\nTotal cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 x $250 = $2,250\nTotal cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{The cost difference between the two offers is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then subtract the smaller one from the larger one.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 x $350 = $2,100\nTotal cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 x $250 = $2,250\nTotal cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\n**Furniture United's offer:**\n\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\n**Cozy Homes' offer:**\n\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nNow, let's find the difference between the two offers:\n\n$3,350 (Furniture United) - $3,450 (Cozy Homes) = $100\n\nThe cost difference between the two offers is $100.\nSo the answer is \\boxed{The cost difference between the two offers is $100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 x $350 = $2,100\nTotal cost for Furniture United: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 x $250 = $2,250\nTotal cost for Cozy Homes: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\n\nThe answer is $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then subtract the smaller one from the larger one.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 payments of $350 each = $2,100\nTotal cost for Furniture United: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 payments of $250 each = $2,250\nTotal cost for Cozy Homes: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{$100",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the cost difference between the two offers, we need to calculate the total cost of each offer and then find the difference.\n\nFurniture United's offer:\n- Advance payment: $1,350\n- Monthly installments: 6 months x $350 = $2,100\n- Total cost: $1,350 + $2,100 = $3,450\n\nCozy Homes' offer:\n- Advance payment: $1,100\n- Monthly installments: 9 months x $250 = $2,250\n- Total cost: $1,100 + $2,250 = $3,350\n\nThe cost difference between the two offers is $3,350 - $3,450 = $100.\nSo the answer is \\boxed{The cost difference between the two offers is $100.",
+      "pred_answer": 100.0
+    }
+  ]
+}

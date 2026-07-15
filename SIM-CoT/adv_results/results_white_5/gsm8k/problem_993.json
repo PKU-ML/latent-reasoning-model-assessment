@@ -1,0 +1,28 @@
+{
+  "question": "An airport has only 2 planes that fly multiple times a day. Each day, the first plane goes to Greece for three-quarters of its flights, and the remaining flights are split equally between flights to France and flights to Germany. The other plane flies exclusively to Poland, and its 44 trips only amount to half the number of trips the first plane makes throughout each day. How many flights to France does the first plane take in one day?",
+  "ground_truth": "11.0",
+  "prefix": " liquids valuedworksborne lunch",
+  "prefix_token_ids": [
+    38236,
+    17560,
+    5225,
+    13555,
+    9965
+  ],
+  "baseline_token_id": 1367,
+  "target_token_id": 2534,
+  "baseline_logit_diff": 0.78125,
+  "clean_logit_diff": -2.875,
+  "adv_logit_diff": 6.859375,
+  "best_logit_diff": 6.859375,
+  "clean_text": "An airport has only 2 planes that fly multiple times a day. Each day, the first plane goes to Greece for three-quarters of its flights, and the remaining flights are split equally between flights to France and flights to Germany. The other plane flies exclusively to Poland, and its 44 trips only amount to half the number of trips the first plane makes throughout each day. How many flights to France does the first plane take in one day?\n### 11",
+  "clean_answer": 11.0,
+  "clean_correct": true,
+  "adv_text": "liquids valuedworksborne lunchAn airport has only 2 planes that fly multiple times a day. Each day, the first plane goes to Greece for three-quarters of its flights, and the remaining flights are split equally between flights to France and flights to Germany. The other plane flies exclusively to Poland, and its 44 trips only amount to half the number of trips the first plane makes throughout each day. How many flights to France does the first plane take in one day?\n### 14",
+  "adv_answer": 14.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    6.859375
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "question": "Carlos and Benji are at the beach. Carlos rents a canoe for $30 an hour and Benji rents a banana boat raft for $18 an hour. If Carlos uses the boat for 3 hours and Benji uses the raft for 5 hours, how much will they pay for their rentals, altogether?",
+  "ground_truth": "180.0",
+  "best_prefix": "至少 algun917<>();\n826",
+  "best_prefix_token_ids": [
+    126447,
+    37571,
+    24391,
+    11111,
+    23038
+  ],
+  "baseline_token_id": 5245,
+  "target_token_id": 19423,
+  "baseline_logit_diff": -2.6875,
+  "clean_logit_diff": -7.4375,
+  "best_logit_diff": -1.875,
+  "best_cosine": 0.9453125,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 180",
+  "clean_answer": 180.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 180",
+  "adv_answer": 180.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": "至少 algun917<>();\n826",
+      "prefix_ids": [
+        126447,
+        37571,
+        24391,
+        11111,
+        23038
+      ],
+      "logit_diff": -1.875,
+      "cosine_sim": 0.9453125,
+      "answer": 180.0,
+      "correct": true
+    },
+    {
+      "prefix": "至少statt917826826",
+      "prefix_ids": [
+        126447,
+        97446,
+        24391,
+        23038,
+        23038
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.94140625,
+      "answer": 180.0,
+      "correct": true
+    },
+    {
+      "prefix": "至少statt917<>();\n826",
+      "prefix_ids": [
+        126447,
+        97446,
+        24391,
+        11111,
+        23038
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.9453125,
+      "answer": 180.0,
+      "correct": true
+    },
+    {
+      "prefix": "HERE�.\")\n\n998240",
+      "prefix_ids": [
+        4678,
+        13079,
+        32325,
+        19416,
+        8273
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.9453125,
+      "answer": 180.0,
+      "correct": true
+    },
+    {
+      "prefix": "wor�.\")\n\n998970",
+      "prefix_ids": [
+        50810,
+        13079,
+        32325,
+        19416,
+        21133
+      ],
+      "logit_diff": -2.5625,
+      "cosine_sim": 0.9453125,
+      "answer": 180.0,
+      "correct": true
+    },
+    {
+      "prefix": "potiliar.\")\n\n998970",
+      "prefix_ids": [
+        19644,
+        9730,
+        32325,
+        19416,
+        21133
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.9453125,
+      "answer": 180.0,
+      "correct": true
+    },
+    {
+      "prefix": " lotno card \n995",
+      "prefix_ids": [
+        2763,
+        2201,
+        3786,
+        720,
+        22101
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.9609375,
+      "answer": 180.0,
+      "correct": true
+    },
+    {
+      "prefix": "potobar.\")\n\n998970",
+      "prefix_ids": [
+        19644,
+        32493,
+        32325,
+        19416,
+        21133
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.9453125,
+      "answer": 180.0,
+      "correct": true
+    },
+    {
+      "prefix": "pot�.\")\n\n998970",
+      "prefix_ids": [
+        19644,
+        13079,
+        32325,
+        19416,
+        21133
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.9453125,
+      "answer": 180.0,
+      "correct": true
+    },
+    {
+      "prefix": "HERE�.\")\n\n998970",
+      "prefix_ids": [
+        4678,
+        13079,
+        32325,
+        19416,
+        21133
+      ],
+      "logit_diff": -2.6875,
+      "cosine_sim": 0.94140625,
+      "answer": 180.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 728,
+  "question": "Candy has 15 light blue spools of thread, 45 dark blue spools of thread, 40 light green spools of thread, and 50 dark green spools of thread. What percent of her spools are blue?",
+  "ground_truth": "40.0",
+  "baseline": {
+    "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nNumber of blue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal number of spools = 15 (light blue) + 45 (dark blue) + 40 (light green) + 50 (dark green) = 150\n\nNow, we can calculate the percentage of blue spools:\nPercentage of blue spools = (Number of blue spools / Total number of spools) * 100\n= (60 / 150) * 100\n= 0.4 * 100\n= 40%\n\nSo, 40% of Candy's spools are blue.",
+    "pred_answer": 40.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 2,
+  "success_rate": 0.06666666666666667,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " CAPITALамет ابزارensationูด",
+      "prefix_token_ids": [
+        78387,
+        114433,
+        122112,
+        42725,
+        108821
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage of blue spools:\n(60 / 150) * 100 = 40%\n\nSo, Candy has 40% of her spools of thread that are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " Lansing взя Fit966 mutate",
+      "prefix_token_ids": [
+        97584,
+        121630,
+        30990,
+        25285,
+        68282
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nNumber of blue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage of blue spools:\n(60 / 150) * 100 = 40%\n\nSo, Lansing has 40% of her spools of thread that are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "Href بالرياض ас_connections—we",
+      "prefix_token_ids": [
+        66019,
+        118052,
+        113371,
+        57502,
+        86319
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nNumber of blue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage of blue spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of Href Riyadh's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": " ratios rib eth尔EntityManager",
+      "prefix_token_ids": [
+        42338,
+        20735,
+        8537,
+        100179,
+        44298
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 40%\n\nSo, Candy has 40% of her spools of thread that are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " edip soo toolkitexempleJavaScript",
+      "prefix_token_ids": [
+        124154,
+        44276,
+        66994,
+        71834,
+        30575
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage of blue spools:\n(60 / 150) * 100 = 40%\n\nSo, Candy has 40% of her spools of thread that are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "\tpriv_RGBAšky minecraft JObject",
+      "prefix_token_ids": [
+        72270,
+        54436,
+        111198,
+        74973,
+        66469
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools and divide by the total number of spools.\n\nNumber of blue spools: 15 + 45 = 60\nTotal number of spools: 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n60 / 150 = 0.4\n\nTo convert the decimal to a percentage, multiply by 100:\n0.4 * 100 = 40%\n\nSo, 40% of Candy's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": " büyük\"?\n\nंदर Locations cestu",
+      "prefix_token_ids": [
+        101813,
+        94770,
+        114713,
+        42569,
+        123592
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools and divide by the total number of spools.\n\nNumber of blue spools = 15 + 45 = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of her spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " dop Agency 개발 kum sofa",
+      "prefix_token_ids": [
+        27420,
+        16784,
+        111426,
+        118509,
+        32169
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools: 15 + 45 + 40 = 100\nTotal spools: 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(100 / 150) * 100 = 66.67%\n\nSo, 66.67% of the spools are blue.\nSo the answer is \\boxed{66.67%",
+      "pred_answer": 66.67,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 9,
+      "prefix": " favorable میک Psychic attributes chocolate",
+      "prefix_token_ids": [
+        37849,
+        117736,
+        93975,
+        8365,
+        18414
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of the spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " 모집 bạc MenDiagnostic(DEBUG",
+      "prefix_token_ids": [
+        110003,
+        123666,
+        11258,
+        80488,
+        53892
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage of blue spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of Candy's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "\"github检测 Clown beforehand.setMinimum",
+      "prefix_token_ids": [
+        9948,
+        120696,
+        99423,
+        52159,
+        85836
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools and divide by the total number of spools.\n\nNumber of blue spools = 15 + 45 = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage of blue spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of Clown's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "Identifier-admin핑 спросил سخن",
+      "prefix_token_ids": [
+        8887,
+        28324,
+        113629,
+        127739,
+        120435
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools and divide by the total number of spools.\n\nNumber of blue spools = 15 + 45 = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage:\n(60 / 150) * 100 = 0.4 * 100 = 40%\n\nSo, 40% of Candy's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " oak.relationship nellaificadopeat",
+      "prefix_token_ids": [
+        38971,
+        79017,
+        37022,
+        48238,
+        11221
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nNumber of blue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of Oak's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "ockedVecnemksiyon Eggs",
+      "prefix_token_ids": [
+        68485,
+        10256,
+        106700,
+        123762,
+        76892
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage of blue spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of the spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "Appro267 solitary millenn vr",
+      "prefix_token_ids": [
+        29688,
+        16567,
+        58229,
+        41699,
+        37200
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools and divide by the total number of spools.\n\nNumber of blue spools = 15 + 45 = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 0.4 * 100 = 40%\n\nSo, 40% of Candy's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " onSave不同的BOOLEANوتrecent",
+      "prefix_token_ids": [
+        78544,
+        126644,
+        73210,
+        101414,
+        47743
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage of blue spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of OnSave's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": ".heroku۲۰۱IELDomicsProgress",
+      "prefix_token_ids": [
+        47933,
+        103600,
+        10580,
+        24203,
+        9685
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools and divide by the total number of spools.\n\nNumber of blue spools = 15 + 45 = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of her spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "@Setter samotadoras zieест",
+      "prefix_token_ids": [
+        84711,
+        118292,
+        74538,
+        75347,
+        37277
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools: 15 + 45 = 60\nTotal spools: 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n60 / 150 = 0.4\n\nTo convert the decimal to a percentage, multiply by 100:\n0.4 * 100 = 40%\n\nSo, Candy has 40% of her spools of thread as blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " Fac.definition straightforward-client плот",
+      "prefix_token_ids": [
+        17375,
+        78940,
+        31439,
+        31111,
+        115775
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage of blue spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of Fac.definition's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " σημαν Instant SpaceX ecx Pitt",
+      "prefix_token_ids": [
+        127683,
+        18549,
+        63024,
+        66329,
+        21823
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools and divide by the total number of spools.\n\nNumber of blue spools = 15 + 45 = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of SpaceX's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " screenWidthajan rt JButtonWP",
+      "prefix_token_ids": [
+        71470,
+        97386,
+        17091,
+        28216,
+        26758
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools and divide by the total number of spools.\n\nNumber of blue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 0.4 * 100 = 40%\n\nSo, 40% of the spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "ین '%\"_arch criticismIncre",
+      "prefix_token_ids": [
+        83355,
+        82503,
+        35430,
+        19347,
+        39081
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools and divide by the total number of spools.\n\nNumber of blue spools = 15 + 45 = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage:\n(60 / 150) * 100 = 0.4 * 100 = 40%\n\nSo, 40% of Candy's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": ",it прави incidence keywords 到",
+      "prefix_token_ids": [
+        80824,
+        102709,
+        39775,
+        21513,
+        119421
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools and divide by the total number of spools.\n\nNumber of blue spools = 15 + 45 = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage:\n(60 / 150) * 100 = 0.4 * 100 = 40%\n\nSo, 40% of Candy's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": " KeyValuePair Wilkinson(valcreens_scene",
+      "prefix_token_ids": [
+        54704,
+        95666,
+        9276,
+        15909,
+        38396
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nNumber of blue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 0.4 * 100 = 40%\n\nSo, 40% of her spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "[Z\tcal naz ********************************—to",
+      "prefix_token_ids": [
+        86213,
+        92853,
+        46902,
+        23814,
+        50617
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 40%\n\nSo, Candy has 40% of her spools as blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": " Waste WATCH$action MODIFY Chair",
+      "prefix_token_ids": [
+        49522,
+        48507,
+        91925,
+        70765,
+        16478
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools: 15 + 45 = 60\nTotal spools: 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n60 / 150 = 0.4\n\nTo convert the decimal to a percentage, multiply by 100:\n0.4 * 100 = 40%\n\nSo, ChairCandy has 40% of her spools of thread that are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " найтиroductionงแต_abort tảng",
+      "prefix_token_ids": [
+        122387,
+        17158,
+        112383,
+        72007,
+        122213
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nNumber of blue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(60 / 150) * 100 = 40%\n\nSo, 40% of Candy's spools are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": " staining_DELTAidor988 bekom",
+      "prefix_token_ids": [
+        88896,
+        81914,
+        29856,
+        24538,
+        94177
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nNumber of blue spools = 15 (light blue) + 45 (dark blue) = 60\nTotal number of spools = 15 + 45 + 40 + 50 = 150\n\nNow, we can calculate the percentage of blue spools:\n(60 / 150) * 100 = 40%\n\nSo, Candy has 40% of her spools of thread that are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " Barbulatory kapatcolm desn",
+      "prefix_token_ids": [
+        47142,
+        38220,
+        116994,
+        42937,
+        66380
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nBlue spools: 15 + 45 + 40 = 100\nTotal spools: 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n(100 / 150) * 100 = 66.67%\n\nSo, approximately 66.67% of Barbulatory's spools are blue.\nSo the answer is \\boxed{66.67%",
+      "pred_answer": 66.67,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 30,
+      "prefix": " visas Laur Terry_PRmonto",
+      "prefix_token_ids": [
+        56777,
+        54300,
+        32618,
+        10794,
+        95173
+      ],
+      "generated_text": "To find the percentage of blue spools, we need to add the number of blue spools of each color and divide by the total number of spools.\n\nNumber of blue spools: 15 (light blue) + 45 (dark blue) = 60\nTotal number of spools: 15 + 45 + 40 + 50 = 150\n\nNow, divide the number of blue spools by the total number of spools:\n60 / 150 = 0.4\n\nTo convert the decimal to a percentage, multiply by 100:\n0.4 * 100 = 40%\n\nSo, Laur Terry_PRmontoCandy has 40% of her spools of thread that are blue.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

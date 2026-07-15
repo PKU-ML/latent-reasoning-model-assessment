@@ -1,0 +1,226 @@
+{
+  "question": "Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+  "ground_truth": "25.0",
+  "best_rewrite": "There are 24 hours in a day. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+  "best_fact": "There are 24 hours in a day.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "assistant\n### 20 ",
+    "pred_answer": 20.0
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "April has 30 days. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 21 ",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A year has 12 months. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A week has 7 days. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "An hour has 60 minutes. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "A minute has 60 seconds. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "A year has 365 days. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 30 ",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "An adult has 32 teeth. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "China has 1.4 billion people. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Japan has 125 million people. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The US has 50 states. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The EU has 27 member states. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "assistant\n### 30 ",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The human body has 206 bones. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 25 ",
+      "pred_answer": 25.0
+    }
+  ]
+}

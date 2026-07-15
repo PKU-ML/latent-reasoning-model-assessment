@@ -1,0 +1,26 @@
+{
+  "question": "There are 50 deer in a field.  50 percent of them are bucks.  20 percent of the bucks are 8 points.  How many 8 point bucks are there?",
+  "ground_truth": "5.0",
+  "prefix": " twice world Essex",
+  "prefix_token_ids": [
+    5403,
+    995,
+    38307
+  ],
+  "baseline_token_id": 642,
+  "target_token_id": 838,
+  "baseline_logit_diff": -3.2421875,
+  "clean_logit_diff": -6.09375,
+  "adv_logit_diff": 8.109375,
+  "best_logit_diff": 8.109375,
+  "clean_text": "There are 50 deer in a field.  50 percent of them are bucks.  20 percent of the bucks are 8 points.  How many 8 point bucks are there?\n### 5",
+  "clean_answer": 5.0,
+  "clean_correct": true,
+  "adv_text": "twice world EssexThere are 50 deer in a field.  50 percent of them are bucks.  20 percent of the bucks are 8 points.  How many 8 point bucks are there?\n### 10",
+  "adv_answer": 10.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    8.109375
+  ]
+}

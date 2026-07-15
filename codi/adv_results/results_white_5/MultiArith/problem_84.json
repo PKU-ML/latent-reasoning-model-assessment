@@ -1,0 +1,38 @@
+{
+  "question": " While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+  "ground_truth": "72.0",
+  "prefix": "vementsрод447500064",
+  "prefix_token_ids": [
+    12760,
+    100902,
+    20800,
+    2636,
+    20478
+  ],
+  "baseline_token_id": 5332,
+  "target_token_id": 13104,
+  "baseline_logit_diff": -0.125,
+  "clean_logit_diff": -7.625,
+  "adv_logit_diff": 2.375,
+  "best_logit_diff": 2.375,
+  "clean_text": "The answer is: 72",
+  "clean_answer": 72.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 720",
+  "adv_answer": 720.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.5,
+    -7.4375,
+    -6.375,
+    0.0,
+    0.3125,
+    0.4375,
+    0.8125,
+    1.0,
+    1.4375,
+    1.4375,
+    2.375
+  ]
+}

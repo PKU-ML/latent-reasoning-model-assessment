@@ -1,0 +1,26 @@
+{
+  "question": "Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+  "ground_truth": "5.0",
+  "prefix": "_\n\n37",
+  "prefix_token_ids": [
+    18797,
+    18,
+    22
+  ],
+  "baseline_token_id": 20,
+  "target_token_id": 16,
+  "baseline_logit_diff": -2.75,
+  "clean_logit_diff": -2.875,
+  "adv_logit_diff": 0.5,
+  "best_logit_diff": 0.5,
+  "clean_text": "assistant\n### 5 ",
+  "clean_answer": 5.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 10 ",
+  "adv_answer": 10.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.5
+  ]
+}

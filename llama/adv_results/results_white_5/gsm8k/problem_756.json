@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 756,
+  "question": "A council met to vote on a new regulation. The vote passed with twice as many votes in favor of the new regulation as there were against it. If there are 33 people on the council, what was the number of votes in favor of the new regulation?",
+  "ground_truth": "22",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "?\"\n aplicación coup Bource",
+  "prefix_token_ids": [
+    48469,
+    75427,
+    16081,
+    39475,
+    346
+  ],
+  "best_wrong_prob": 1.1102131313996276e-19,
+  "clean_text": "Let's say the number of votes against the regulation is x. Since the number of votes in favor is twice the number of votes against, the number of votes in favor is 2x.\n\nWe know that the total number o",
+  "clean_pred": 22.0,
+  "clean_correct": true,
+  "adv_text": "Para resolver este problema, podemos usar la relación entre los votos a favor y en contra. \n\nSabemos que el número de votos a favor es 2 veces mayor que el número de votos en contra. \n\nSi hay 33 votos",
+  "adv_pred": 22.0,
+  "adv_correct": true,
+  "attack_success": false
+}

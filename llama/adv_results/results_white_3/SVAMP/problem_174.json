@@ -1,0 +1,22 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 174,
+  "question": "Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+  "ground_truth": "1",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Quejang slang",
+  "prefix_token_ids": [
+    9605,
+    38627,
+    81012
+  ],
+  "best_wrong_prob": 1.2815788589533315e-16,
+  "clean_text": "To find the cost of the candy bar, we need to subtract the amount Dan had left from the amount he had initially.\n\nInitial amount: $4\nAmount left: $3\n\nCost of the candy bar = Initial amount - Amount le",
+  "clean_pred": 1.0,
+  "clean_correct": true,
+  "adv_text": "To find the cost of the candy bar, we need to subtract the amount of money Quejang had left from the initial amount of money he had.\n\nInitial amount of money = $4\nAmount of money left = $3\n\nCost of th",
+  "adv_pred": 1.0,
+  "adv_correct": true,
+  "attack_success": false
+}

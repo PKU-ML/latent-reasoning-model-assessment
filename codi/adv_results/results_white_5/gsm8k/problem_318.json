@@ -1,0 +1,33 @@
+{
+  "question": "If a classroom has 3 times as many girls as they do boys, and 1/10 as many nongendered children as they do boys, and the classroom has 30 boys.  How many total children does it have?",
+  "ground_truth": "123.0",
+  "prefix": " Beau brা landed809",
+  "prefix_token_ids": [
+    80327,
+    1437,
+    42412,
+    27212,
+    21474
+  ],
+  "baseline_token_id": 4513,
+  "target_token_id": 8190,
+  "baseline_logit_diff": -4.25,
+  "clean_logit_diff": -4.9375,
+  "adv_logit_diff": 2.5,
+  "best_logit_diff": 2.5,
+  "clean_text": "The answer is: 123",
+  "clean_answer": 123.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 1023",
+  "adv_answer": 1023.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -4.375,
+    -4.375,
+    -4.25,
+    -4.125,
+    -1.625,
+    2.5
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 257,
+  "question": "Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+  "ground_truth": "348.0",
+  "baseline_correct": true,
+  "baseline_answer": 348.0,
+  "best_rewrite": "A plant has 46 chromosomes. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+  "best_fact": "A plant has 46 chromosomes.",
+  "best_pred_answer": 286.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 24,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students.\n\nLet's denote the number of students who suggested mashed potatoes as x. Since 166 more students suggested bacon than those who suggested mashed potatoes, we can set up the equation:\n\nx + 166 = 24\n\nTo solve for x, we subtract 166 from both sides of the equation:\n\nx = 24 - 166\nx = -142\n\nSince the number of students cannot be negative, this means that the number of students who suggested mashed potatoes is not a valid number. However, we can assume that the problem is asking for the number of students who suggested bacon, which is 166.\n\nTherefore, 166 students suggested adding bacon to the menu.\nSo the answer is \\boxed{166",
+      "pred_answer": 166.0
+    },
+    {
+      "question": "April has 30 days. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students.\n\nNumber of students who suggested mashed potatoes = 30\nNumber of students who suggested bacon = 166\n\nNumber of students who suggested bacon = 30 - 166\n= -136\n\nSince you can't have a negative number of students, we need to re-examine the problem.\n\nLet's re-evaluate the problem:\n\nIf 166 more students suggested bacon than those who suggested mashed potatoes, and 30 students suggested mashed potatoes, then the number of students who suggested bacon is actually 166 + 30 = 196.\n\nSo, the correct answer is 196.\nSo the answer is \\boxed{The number of students who suggested bacon is 196.",
+      "pred_answer": 196.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "Let's say the number of students who suggested mashed potatoes is x. Since 166 more students suggested adding bacon than those who suggested mashed potatoes, the number of students who suggested bacon is x + 166.\n\nWe know that the total number of students who suggested either mashed potatoes or bacon is 182. We can set up an equation to represent this:\n\nx + (x + 166) = 182\n\nCombine like terms:\n\n2x + 166 = 182\n\nSubtract 166 from both sides:\n\n2x = 16\n\nDivide both sides by 2:\n\nx = 8\n\nSo, 8 students suggested mashed potatoes. Since 166 more students suggested bacon than those who suggested mashed potatoes, the number of students who suggested bacon is 8 + 166 = 174.\n\nThe answer is 174.\nSo the answer is \\boxed{174",
+      "pred_answer": 174.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of students who suggested bacon, we need to add the number of students who suggested mashed potatoes and the number of students who suggested bacon.\n\nNumber of students who suggested mashed potatoes = 182\nNumber of students who suggested bacon = 166\n\nTotal number of students who suggested bacon = 182 + 166\nTotal number of students who suggested bacon = 348\n\nSo, 348 students suggested bacon.\nSo the answer is \\boxed{348",
+      "pred_answer": 348.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of students who suggested bacon, we need to add the number of students who suggested mashed potatoes and the number of students who suggested bacon.\n\nNumber of students who suggested mashed potatoes = 182\nNumber of students who suggested bacon = 166\n\nTotal number of students who suggested bacon = 182 + 166\nTotal number of students who suggested bacon = 348\n\nSo, 348 students suggested adding bacon to the menu.\nSo the answer is \\boxed{348",
+      "pred_answer": 348.0
+    },
+    {
+      "question": "A year has 12 months. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students.\n\nLet's say the number of students who suggested mashed potatoes is x. Then, the number of students who suggested bacon is x + 166.\n\nWe know that the total number of students is 182, so we can set up the equation:\n\nx + (x + 166) = 182\n\nCombine like terms:\n\n2x + 166 = 182\n\nSubtract 166 from both sides:\n\n2x = 16\n\nDivide both sides by 2:\n\nx = 8\n\nSo, 8 students suggested adding mashed potatoes. Therefore, 8 + 166 = 174 students suggested adding bacon.\nSo the answer is \\boxed{174",
+      "pred_answer": 174.0
+    },
+    {
+      "question": "A week has 7 days. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to first find the number of students who suggested mashed potatoes. We know that 182 students suggested mashed potatoes, and 166 more students suggested bacon. \n\nLet's call the number of students who suggested mashed potatoes 'x'. Then, the number of students who suggested bacon is x + 166.\n\nSince the total number of students is 182, we can set up the equation:\n\nx + (x + 166) = 182\n\nCombine like terms:\n\n2x + 166 = 182\n\nSubtract 166 from both sides:\n\n2x = 16\n\nDivide both sides by 2:\n\nx = 8\n\nSo, 8 students suggested mashed potatoes. Now, we can find the number of students who suggested bacon:\n\nNumber of students who suggested bacon = x + 166\n= 8 + 166\n= 174\n\nTherefore, 174 students suggested bacon.\nSo the answer is \\boxed{174",
+      "pred_answer": 174.0
+    },
+    {
+      "question": "An hour has 60 minutes. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to first find the number of students who suggested mashed potatoes. We know that 182 students suggested mashed potatoes, and 166 more students suggested bacon. \n\nLet's call the number of students who suggested mashed potatoes 'x'. Then, the number of students who suggested bacon is x + 166.\n\nSince the total number of students is 182, we can set up the equation:\n\nx + (x + 166) = 182\n\nCombine like terms:\n\n2x + 166 = 182\n\nSubtract 166 from both sides:\n\n2x = 16\n\nDivide both sides by 2:\n\nx = 8\n\nSo, 8 students suggested mashed potatoes. Now, we can find the number of students who suggested bacon:\n\nNumber of students who suggested bacon = x + 166\n= 8 + 166\n= 174\n\nTherefore, 174 students suggested bacon.\nSo the answer is \\boxed{174",
+      "pred_answer": 174.0
+    },
+    {
+      "question": "A minute has 60 seconds. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students who suggested bacon.\n\nLet's denote the number of students who suggested mashed potatoes as x. We know that 166 more students suggested bacon than those who suggested mashed potatoes, so the number of students who suggested bacon is x + 166.\n\nWe also know that the total number of students who suggested bacon is 182. Since the total number of students is the sum of those who suggested mashed potatoes and those who suggested bacon, we can set up the equation:\n\nx + (x + 166) = 182\n\nCombine like terms:\n\n2x + 166 = 182\n\nSubtract 166 from both sides:\n\n2x = 16\n\nDivide both sides by 2:\n\nx = 8\n\nSo, 8 students suggested mashed potatoes. Since 166 more students suggested bacon than those who suggested mashed potatoes, the number of students who suggested bacon is 8 + 166 = 174.\nSo the answer is \\boxed{174",
+      "pred_answer": 174.0
+    },
+    {
+      "question": "A year has 365 days. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students.\n\nLet's denote the number of students who suggested mashed potatoes as x. Since 182 students suggested adding mashed potatoes, we can set up the equation:\n\nx + 166 = 365\n\nTo solve for x, we subtract 166 from both sides of the equation:\n\nx = 365 - 166\nx = 199\n\nSo, 199 students suggested adding bacon.\nSo the answer is \\boxed{199",
+      "pred_answer": 199.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to first find the number of students who suggested mashed potatoes. Let's call the number of students who suggested mashed potatoes 'x'. \n\nSince 166 more students suggested bacon than those who suggested mashed potatoes, we can set up the equation:\n\nx + 166 = 182\n\nTo solve for x, we subtract 166 from both sides of the equation:\n\nx = 182 - 166\nx = 16\n\nSo, 16 students suggested mashed potatoes. Since 166 more students suggested bacon than those who suggested mashed potatoes, the number of students who suggested bacon is 16 + 166 = 182.\n\nTherefore, 182 students suggested bacon.\nSo the answer is \\boxed{182",
+      "pred_answer": 182.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to first find the number of students who suggested mashed potatoes. We know that 182 students suggested mashed potatoes, and 166 more students suggested bacon. \n\nLet's call the number of students who suggested mashed potatoes 'x'. Then, the number of students who suggested bacon is x + 166.\n\nSince the total number of students who suggested either mashed potatoes or bacon is 343, we can set up the equation:\n\nx + (x + 166) = 343\n\nCombine like terms:\n\n2x + 166 = 343\n\nSubtract 166 from both sides:\n\n2x = 177\n\nDivide both sides by 2:\n\nx = 88.5\n\nNow that we know the number of students who suggested mashed potatoes, we can find the number of students who suggested bacon:\n\nNumber of students who suggested bacon = x + 166\n= 88.5 + 166\n= 254.5\n\nSo, approximately 254.5 students suggested bacon.\nSo the answer is \\boxed{255",
+      "pred_answer": 255.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students who suggested bacon.\n\nLet's denote the number of students who suggested mashed potatoes as x. Since 166 more students suggested bacon than those who suggested mashed potatoes, we can set up the equation:\n\nx + 166 = y\n\nWe know that x + y = 182, since the total number of students who suggested bacon is 182.\n\nSubstituting x + 166 for y in the first equation, we get:\n\nx + 166 = 182\n\nSubtracting 166 from both sides:\n\nx = 16\n\nSo, 16 students suggested bacon.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to first find the number of students who suggested mashed potatoes. We know that 182 students suggested mashed potatoes, and 166 more students suggested bacon. \n\nLet's call the number of students who suggested mashed potatoes 'x'. Then, the number of students who suggested bacon is x + 166.\n\nWe know that the total number of students is 182 + (x + 166). Since the total number of students is the sum of those who suggested mashed potatoes and those who suggested bacon, we can set up the equation:\n\n182 + (x + 166) = 300000\n\nNow, let's simplify the equation:\n\n182 + x + 166 = 300000\nx + 348 = 300000\n\nNow, let's solve for x:\n\nx = 300000 - 348\nx = 299652\n\nSo, 299652 students suggested mashed potatoes. Since 166 more students suggested bacon, the number of students who suggested bacon is:\n\n299652 + 166 = 300818\n\nTherefore, 300818 students suggested bacon.\nSo the answer is \\boxed{300818",
+      "pred_answer": 300818.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the number of students who suggested bacon, we need to add the number of students who suggested mashed potatoes and the number of students who suggested bacon.\n\nNumber of students who suggested mashed potatoes = 182\nNumber of students who suggested bacon = 166\n\nTo find the total number of students who suggested bacon, we add these two numbers:\n\n182 + 166 = 348\n\nSo, 348 students suggested bacon.\nSo the answer is \\boxed{348",
+      "pred_answer": 348.0
+    },
+    {
+      "question": "An adult has 32 teeth. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students.\n\nLet's denote the number of students who suggested mashed potatoes as x. We know that 166 more students suggested bacon than those who suggested mashed potatoes, so the number of students who suggested bacon is x + 166.\n\nWe also know that the total number of students is 32. Since the total number of students is the sum of those who suggested mashed potatoes and those who suggested bacon, we can set up the equation:\n\nx + (x + 166) = 32\n\nCombine like terms:\n\n2x + 166 = 32\n\nSubtract 166 from both sides:\n\n2x = 16\n\nDivide both sides by 2:\n\nx = 8\n\nNow that we know x, we can find the number of students who suggested bacon:\n\nNumber of students who suggested bacon = x + 166\n= 8 + 166\n= 174\n\nSo, 174 students suggested adding bacon to the menu.\nSo the answer is \\boxed{174",
+      "pred_answer": 174.0
+    },
+    {
+      "question": "China has 1.4 billion people. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to first find the number of students who suggested mashed potatoes and then add the difference between the two.\n\nLet's say the number of students who suggested mashed potatoes is x. Since 166 more students suggested adding bacon than those who suggested mashed potatoes, the number of students who suggested bacon is x + 166.\n\nWe know that the total number of students is 1.4 billion. We can set up an equation:\n\nx + (x + 166) = 1,400,000,000\n\nCombine like terms:\n\n2x + 166 = 1,400,000,000\n\nSubtract 166 from both sides:\n\n2x = 1,399,833,834\n\nDivide both sides by 2:\n\nx = 699,916,417\n\nNow that we know the number of students who suggested mashed potatoes, we can find the number of students who suggested bacon:\n\nx + 166 = 699,916,417 + 166\nx + 166 = 699,983,583\n\nSubtract 166 from both sides:\n\nx = 699,983,417\n\nSo, 699,983,417 students suggested adding bacon.\nSo the answer is \\boxed{699,983,417",
+      "pred_answer": 417.0
+    },
+    {
+      "question": "Japan has 125 million people. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students.\n\nTotal students = 125 million\nStudents who suggested mashed potatoes = 182\nStudents who suggested bacon = Total students - Students who suggested mashed potatoes\n= 125,000,000 - 182\n= 124,818,818\n\nSince 166 more students suggested bacon than mashed potatoes, we need to add 166 to the number of students who suggested bacon.\n\nStudents who suggested bacon = Students who suggested bacon + 166\n= 124,818,818 + 166\n= 124,884,884\nSo the answer is \\boxed{124,884,884",
+      "pred_answer": 884.0
+    },
+    {
+      "question": "The US has 50 states. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students who suggested adding bacon.\n\nLet's say the number of students who suggested mashed potatoes is x. Then, the number of students who suggested adding bacon is x + 166.\n\nWe know that the total number of students who suggested adding bacon is 182. So, we can set up the equation:\n\nx + (x + 166) = 182\n\nCombine like terms:\n\n2x + 166 = 182\n\nSubtract 166 from both sides:\n\n2x = 16\n\nDivide both sides by 2:\n\nx = 8\n\nSo, 8 students suggested adding bacon.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The EU has 27 member states. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to add the number of students who suggested mashed potatoes and the number of students who suggested bacon.\n\nNumber of students who suggested mashed potatoes = 182\nNumber of students who suggested bacon = 166\n\nTo find the total number of students who suggested bacon, we add these two numbers:\n\n182 + 166 = 348\n\nSo, 348 students suggested adding bacon to the menu.\nSo the answer is \\boxed{348",
+      "pred_answer": 348.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to first find the number of students who suggested mashed potatoes. We know that 182 students suggested mashed potatoes, and 166 more students suggested bacon. \n\nLet's call the number of students who suggested mashed potatoes 'x'. Then, the number of students who suggested bacon is x + 166.\n\nWe know that the total number of students is 6650, so we can set up the equation:\n\nx + (x + 166) = 6650\n\nCombine like terms:\n\n2x + 166 = 6650\n\nSubtract 166 from both sides:\n\n2x = 6584\n\nDivide both sides by 2:\n\nx = 3292\n\nNow that we know x, we can find the number of students who suggested bacon:\n\nNumber of students who suggested bacon = x + 166\n= 3292 + 166\n= 3458\n\nSo, 3458 students suggested adding bacon to the menu.\nSo the answer is \\boxed{The number of students who suggested adding bacon to the menu is 3458.",
+      "pred_answer": 3458.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students.\n\nLet's denote the number of students who suggested mashed potatoes as x. Since 166 more students suggested bacon than those who suggested mashed potatoes, we can set up the equation:\n\nx + 166 = 182\n\nTo solve for x, we subtract 166 from both sides of the equation:\n\nx = 182 - 166\nx = 16\n\nSo, 16 students suggested adding bacon.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students.\n\nTotal students = 182\nStudents who suggested mashed potatoes = 165\n\nStudents who suggested bacon = Total students - Students who suggested mashed potatoes\n= 182 - 165\n= 17\n\nSo, 17 students suggested adding bacon to the menu.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The human body has 206 bones. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to add the number of students who suggested mashed potatoes and the number of students who suggested bacon.\n\nNumber of students who suggested mashed potatoes = 182\nNumber of students who suggested bacon = 166\n\nTotal number of students who suggested bacon = 182 + 166\nTotal number of students who suggested bacon = 348\n\nSo, 348 students suggested adding bacon to the menu.\nSo the answer is \\boxed{348",
+      "pred_answer": 348.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to first find the number of students who suggested mashed potatoes and then add the difference between the two.\n\nLet's say the number of students who suggested mashed potatoes is x. Since 166 more students suggested bacon than those who suggested mashed potatoes, the number of students who suggested bacon is x + 166.\n\nWe know that the total number of students who suggested either mashed potatoes or bacon is 182. We can set up the equation:\n\nx + (x + 166) = 182\n\nCombine like terms:\n\n2x + 166 = 182\n\nSubtract 166 from both sides:\n\n2x = 16\n\nDivide both sides by 2:\n\nx = 8\n\nNow that we know x, we can find the number of students who suggested bacon:\n\nNumber of students who suggested bacon = x + 166\n= 8 + 166\n= 174\n\nSo, 174 students suggested bacon.\nSo the answer is \\boxed{174",
+      "pred_answer": 174.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to first find the number of students who suggested mashed potatoes. We know that 166 more students suggested bacon than those who suggested mashed potatoes. Let's call the number of students who suggested mashed potatoes 'x'. \n\nSince the total number of students who suggested mashed potatoes and bacon is 182, we can set up the equation:\n\nx + 166 = 182\n\nTo solve for x, we can subtract 166 from both sides of the equation:\n\nx = 182 - 166\nx = 16\n\nSo, 16 students suggested mashed potatoes. Since 166 more students suggested bacon than those who suggested mashed potatoes, the number of students who suggested bacon is 16 + 166 = 182.\n\nTherefore, 182 students suggested bacon.\nSo the answer is \\boxed{182",
+      "pred_answer": 182.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to first find the number of students who suggested mashed potatoes. We know that 166 more students suggested bacon than those who suggested mashed potatoes. Let's call the number of students who suggested mashed potatoes 'x'. \n\nSince 182 students suggested adding bacon, we can set up the equation:\n\nx + 166 = 182\n\nTo solve for x, we can subtract 166 from both sides of the equation:\n\nx = 182 - 166\nx = 16\n\nSo, 16 students suggested mashed potatoes. Since 166 more students suggested bacon than those who suggested mashed potatoes, the number of students who suggested bacon is 16 + 166 = 182.\n\nTherefore, 182 students suggested bacon.\nSo the answer is \\boxed{182",
+      "pred_answer": 182.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested adding bacon, we need to first find the number of students who suggested mashed potatoes and then add the difference between the two.\n\nLet's say the number of students who suggested mashed potatoes is x. Since 166 more students suggested adding bacon than those who suggested mashed potatoes, we can set up the equation:\n\nx + 166 = 46\n\nTo solve for x, we can subtract 166 from both sides of the equation:\n\nx = 46 - 166\nx = -120\n\nSo, 120 students suggested adding mashed potatoes.\n\nNow, we can find the number of students who suggested adding bacon by adding 166 to x:\n\nNumber of students who suggested bacon = 120 + 166\n= 286\n\nTherefore, 286 students suggested adding bacon.\nSo the answer is \\boxed{286",
+      "pred_answer": 286.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the number of students who suggested bacon, we need to add the number of students who suggested mashed potatoes and the number of students who suggested bacon.\n\nNumber of students who suggested mashed potatoes = 182\nNumber of students who suggested bacon = 166\n\nTo find the total number of students who suggested bacon, we add these two numbers:\n\n182 + 166 = 348\n\nSo, 348 students suggested bacon.\nSo the answer is \\boxed{348",
+      "pred_answer": 348.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the number of students who suggested bacon, we need to subtract the number of students who suggested mashed potatoes from the total number of students who suggested bacon.\n\nLet's say the number of students who suggested mashed potatoes is x. Then, the number of students who suggested bacon is x + 166.\n\nWe know that the total number of students who suggested bacon is 182. So, we can set up the equation:\n\nx + (x + 166) = 182\n\nCombine like terms:\n\n2x + 166 = 182\n\nSubtract 166 from both sides:\n\n2x = 16\n\nDivide both sides by 2:\n\nx = 8\n\nSo, 8 students suggested mashed potatoes. Therefore, 8 + 166 = 174 students suggested bacon.\nSo the answer is \\boxed{174",
+      "pred_answer": 174.0
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 49,
+  "question": "Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+  "ground_truth": "30.0",
+  "baseline": {
+    "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nTotal units = 15 * 8 = 120\nOccupied units = 3/4 * 120 = 90\n\nNow, to find the number of unoccupied units, we subtract the occupied units from the total units:\nUnoccupied units = Total units - Occupied units\nUnoccupied units = 120 - 90\nUnoccupied units = 30\n\nSo, there are 30 unoccupied units in the building.",
+    "pred_answer": 30.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 3,
+  "success_rate": 0.1,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " snack Wen-disabled decadeinciple",
+      "prefix_token_ids": [
+        40459,
+        62323,
+        69167,
+        13515,
+        16379
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "zemlanmış[unit益safe",
+      "prefix_token_ids": [
+        95233,
+        111189,
+        97454,
+        105576,
+        19193
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": " COMMENTS بسیاری。那@ResponseBody Razor",
+      "prefix_token_ids": [
+        95842,
+        114357,
+        126763,
+        68812,
+        74968
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "reatment restrict benöt DPIgetType",
+      "prefix_token_ids": [
+        35320,
+        9067,
+        92404,
+        98125,
+        29649
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": "_RDpluginsTanggal příprav[row",
+      "prefix_token_ids": [
+        29794,
+        19237,
+        96799,
+        111429,
+        17396
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nFirst, let's find the total number of units in the building:\n15 floors * 8 units/floor = 120 units\n\nNow, let's calculate 3/4 of the total number of units:\n3/4 * 120 units = 90 units\n\nSince 3/4 of the building is occupied, the number of unoccupied units is:\n120 units - 90 units = 30 units\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "DEC-delay memorandum وف wik",
+      "prefix_token_ids": [
+        31826,
+        46271,
+        82758,
+        111028,
+        98275
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nTotal units = 15 * 8 = 120\nOccupied units = 3/4 * 120 = 90\n\nNow, to find the number of unoccupied units, we subtract the occupied units from the total units:\nUnoccupied units = Total units - Occupied units\nUnoccupied units = 120 - 90\nUnoccupied units = 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": ":s Τζ Emerson\tKey garlic",
+      "prefix_token_ids": [
+        14835,
+        111546,
+        80554,
+        56342,
+        31735
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "createFromเลย vriend.construct Precision",
+      "prefix_token_ids": [
+        91195,
+        109232,
+        80882,
+        85354,
+        52459
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": "bor joins sehenSTRUCTIONENTRY",
+      "prefix_token_ids": [
+        9552,
+        29782,
+        54935,
+        58555,
+        47256
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors in the building, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " cripp поч luxe deputy Advisors",
+      "prefix_token_ids": [
+        71108,
+        101466,
+        97200,
+        27158,
+        91785
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": " /[NoiseIFI(Double speaks",
+      "prefix_token_ids": [
+        96429,
+        62919,
+        35088,
+        36430,
+        21881
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors in the building, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "nk iso CSP чоловік_ATTRIB",
+      "prefix_token_ids": [
+        50536,
+        34556,
+        91610,
+        115399,
+        100143
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nTotal units in the building = 15 floors * 8 units/floor = 120 units\nOccupied units = 3/4 * 120 = 90 units\n\nNow, to find the number of unoccupied units, we subtract the occupied units from the total units:\nUnoccupied units = Total units - Occupied units\n= 120 - 90\n= 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " discourage specialize Timber Bay-functional",
+      "prefix_token_ids": [
+        66087,
+        48444,
+        45248,
+        9332,
+        99616
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units is 15 * 8 = 120.\n\n3/4 of 120 is 90. This means 90 units are occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "antiago ------------------------------------------------------------------------\n promo PNG buggy",
+      "prefix_token_ids": [
+        44074,
+        97681,
+        27969,
+        42739,
+        80411
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "优秀 інш=float РеAdding",
+      "prefix_token_ids": [
+        126047,
+        112001,
+        34915,
+        127313,
+        33408
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of 15 floors.\n\n3/4 of 15 is 11.25. Since we can't have a fraction of a unit, we'll round down to 11 occupied units.\n\nNow, to find the total number of unoccupied units, we subtract the occupied units from the total number of units:\n\n15 (total units) - 11 (occupied units) = 4\n\nSo, there are 4 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 4.",
+      "pred_answer": 4.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 16,
+      "prefix": ".startDate격 biết Ban Gut",
+      "prefix_token_ids": [
+        63357,
+        102079,
+        102613,
+        23565,
+        52683
+      ],
+      "generated_text": "Để tìm số lượng phòng không được sử dụng trong tòa nhà, ta cần tính số phòng trong tòa nhà và số phòng được sử dụng.\n\nSố phòng trong tòa nhà = Số tầng * Số phòng trên mỗi tầng\n= 15 * 8\n= 120 phòng\n\nSố phòng được sử dụng = 3/4 * 15\n= 11.25 phòng\n\nSố phòng không được sử dụng = Số phòng trong tòa nhà - Số phòng được sử dụng\n= 120 - 11.25\n= 108.75 phòng\n\nVậy số phòng không được sử dụng trong tòa nhà là 108.75.\nSo the answer is \\boxed{108.75",
+      "pred_answer": 108.75,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 17,
+      "prefix": " dives cp especialmenteneed ds",
+      "prefix_token_ids": [
+        94521,
+        12773,
+        95102,
+        17483,
+        11729
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "zeug Channels cucumber_interface Egyptian",
+      "prefix_token_ids": [
+        38500,
+        64000,
+        66032,
+        21188,
+        33589
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThe total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90.\n\nSo, the number of occupied units is 90.\n\nTo find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " Coleman Muse PATCH KS’te",
+      "prefix_token_ids": [
+        50532,
+        51108,
+        60445,
+        47474,
+        116904
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nTotal units in the building = 15 floors * 8 units/floor = 120 units\nOccupied units = 3/4 * 120 = 90 units\n\nNow, to find the number of unoccupied units, we subtract the occupied units from the total units:\nUnoccupied units = Total units - Occupied units\nUnoccupied units = 120 - 90 = 30 units\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": ",en SARjecенности будь",
+      "prefix_token_ids": [
+        88531,
+        69878,
+        74301,
+        107899,
+        108218
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": "-login LAB_RELEASEaginiीएम",
+      "prefix_token_ids": [
+        36148,
+        32074,
+        41749,
+        91169,
+        111729
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nTotal units in the building = 15 * 8 = 120\nOccupied units = 3/4 * 120 = 90\n\nNow, to find the number of unoccupied units, we subtract the occupied units from the total units:\nUnoccupied units = Total units - Occupied units\n= 120 - 90\n= 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "аловでしょう介 perc مناطق",
+      "prefix_token_ids": [
+        120154,
+        123253,
+        75910,
+        44563,
+        119698
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of 15, which is 11.25. Since we can't have a fraction of a unit, we'll round down to 11 occupied units.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n15 (total units) - 11 (occupied units) = 4\n\nSo, there are 4 unoccupied units in the building.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 23,
+      "prefix": " chef_IT मर-high прот",
+      "prefix_token_ids": [
+        30806,
+        42781,
+        111610,
+        28661,
+        101405
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nTotal units in the building = 15 * 8 = 120\nOccupied units = 3/4 * 120 = 90\n\nNow, to find the number of unoccupied units, we subtract the occupied units from the total units:\nUnoccupied units = Total units - Occupied units\n= 120 - 90\n= 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "děl startPosSEM Staysuspend",
+      "prefix_token_ids": [
+        101759,
+        69891,
+        84839,
+        29837,
+        99711
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors in the building, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " selections annotation┬ verilm indifferent",
+      "prefix_token_ids": [
+        38499,
+        21917,
+        118424,
+        122495,
+        80008
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "Routing Fres'].\"</Baby+m",
+      "prefix_token_ids": [
+        25730,
+        60750,
+        46585,
+        60860,
+        60958
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nFirst, let's find the total number of units in the building:\n15 floors * 8 units/floor = 120 units\n\nNow, let's calculate 3/4 of the total number of units:\n3/4 * 120 units = 90 units\n\nSince 3/4 of the building is occupied, the number of unoccupied units is:\n120 units - 90 units = 30 units\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " 免евич زنانgraf lg",
+      "prefix_token_ids": [
+        116299,
+        118549,
+        114759,
+        77139,
+        27180
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": " får subsidi indicatesnihslu",
+      "prefix_token_ids": [
+        49616,
+        32619,
+        15151,
+        87165,
+        108040
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " Tony CT roller Ballard.one",
+      "prefix_token_ids": [
+        19036,
+        19084,
+        29551,
+        98816,
+        32073
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " Confidential drž proximity migrationBuilder menstr",
+      "prefix_token_ids": [
+        74465,
+        127596,
+        37843,
+        17385,
+        54630
+      ],
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

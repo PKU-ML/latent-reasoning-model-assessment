@@ -1,0 +1,31 @@
+{
+  "question": " Sam was collecting cans for recycling. On Saturday he filled 3 bags up and on Sunday he filled 4 more bags. If each bag had 9 cans in it, how many cans did he pick up total? ",
+  "ground_truth": "63",
+  "prefix": "top(v)):\n520 Rubber",
+  "prefix_token_ids": [
+    3565,
+    3832,
+    10162,
+    15830,
+    53406
+  ],
+  "baseline_logit_diff": -11.963768005371094,
+  "clean_logit_diff": -12.23823356628418,
+  "adv_logit_diff": 2.417192220687866,
+  "best_logit_diff": 2.417192220687866,
+  "clean_text": "Answer:63",
+  "clean_answer": "63",
+  "clean_correct": true,
+  "adv_text": "Answer:560",
+  "adv_answer": "560",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -11.234560012817383,
+    -10.161855697631836,
+    -9.153263092041016,
+    -7.128955841064453,
+    -0.26145434379577637,
+    2.417192220687866
+  ]
+}

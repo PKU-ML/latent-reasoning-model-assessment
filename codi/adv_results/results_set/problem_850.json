@@ -1,0 +1,171 @@
+{
+  "question": "Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+  "ground_truth": "70.0",
+  "best_prefix": " gets_n kịp.'\" century",
+  "best_prefix_token_ids": [
+    5334,
+    1107,
+    122839,
+    30251,
+    9478
+  ],
+  "baseline_token_id": 2031,
+  "target_token_id": 2075,
+  "baseline_logit_diff": 1.0,
+  "clean_logit_diff": -3.875,
+  "best_logit_diff": 1.375,
+  "best_cosine": 0.98046875,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 70",
+  "clean_answer": 70.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 75",
+  "adv_answer": 75.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " gets_n kịp.'\" century",
+      "prefix_ids": [
+        5334,
+        1107,
+        122839,
+        30251,
+        9478
+      ],
+      "logit_diff": 1.375,
+      "cosine_sim": 0.98046875,
+      "answer": 75.0,
+      "correct": false
+    },
+    {
+      "prefix": " alphanumeric                                       Born \"<< soccer",
+      "prefix_ids": [
+        100079,
+        11317,
+        38916,
+        15059,
+        22963
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.9609375,
+      "answer": 75.0,
+      "correct": false
+    },
+    {
+      "prefix": " alphanumeric values counts\tprintk declarations",
+      "prefix_ids": [
+        100079,
+        2819,
+        14921,
+        37634,
+        16068
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.98046875,
+      "answer": 75.0,
+      "correct": false
+    },
+    {
+      "prefix": " alphanumeric I counts orally Shapes",
+      "prefix_ids": [
+        100079,
+        358,
+        14921,
+        98122,
+        62631
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.98828125,
+      "answer": 75.0,
+      "correct": false
+    },
+    {
+      "prefix": " reminders a bi133 {...",
+      "prefix_ids": [
+        66697,
+        264,
+        6160,
+        9423,
+        15263
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.9609375,
+      "answer": 75.0,
+      "correct": false
+    },
+    {
+      "prefix": " alphanumeric I Family.'\" flatt",
+      "prefix_ids": [
+        100079,
+        358,
+        12517,
+        30251,
+        52139
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.98046875,
+      "answer": 75.0,
+      "correct": false
+    },
+    {
+      "prefix": " alphanumeric I diagon.'\" flatt",
+      "prefix_ids": [
+        100079,
+        358,
+        85118,
+        30251,
+        52139
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.94921875,
+      "answer": 75.0,
+      "correct": false
+    },
+    {
+      "prefix": " alphanumeric                                       Born münchen gib",
+      "prefix_ids": [
+        100079,
+        11317,
+        38916,
+        79634,
+        78427
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.96875,
+      "answer": 75.0,
+      "correct": false
+    },
+    {
+      "prefix": " alphanumeric I counts\tprintk declarations",
+      "prefix_ids": [
+        100079,
+        358,
+        14921,
+        37634,
+        16068
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.98828125,
+      "answer": 75.0,
+      "correct": false
+    },
+    {
+      "prefix": " alphanumeric Iênh.'\" souvenir",
+      "prefix_ids": [
+        100079,
+        358,
+        127758,
+        30251,
+        98395
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.98046875,
+      "answer": 75.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

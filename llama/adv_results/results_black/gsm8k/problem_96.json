@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 96,
+  "question": "Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+  "ground_truth": "3.0",
+  "baseline_correct": true,
+  "baseline_answer": 3.0,
+  "best_rewrite": "An hour has 60 minutes. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+  "best_fact": "An hour has 60 minutes.",
+  "best_pred_answer": 18.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 14,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the number of hours James slept (2/3) by 24 hours.\n\n2/3 * 24 = 16 hours\n\nNow, we need to find out how many hours Harry slept compared to James. We can do this by subtracting the number of hours James slept from the number of hours Harry slept.\n\n16 - 9 = 7\n\nSo, Harry slept 7 more hours than James.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "April has 30 days. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 4/3 = 12 hours. \n\nSince James slept 2/3 of what Harry slept, James slept 2/3 * 12 hours = 8 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 12 hours - 8 hours = 4 hours.\n\nThe answer is 4 hours.\nSo the answer is \\boxed{The answer is 4 hours.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 2/3 of 9 hours.\n\n2/3 * 9 = 6 hours\n\nSo Harry slept 6 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours.\n\n2/3 * 9 = 6 hours\n\nSince James slept 6 hours, we need to find out how many more hours Harry slept than James.\n\n6 (Harry's hours) - 6 (James' hours) = 0 hours\n\nSo, Harry slept 0 more hours than James.\nSo the answer is \\boxed{0",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the hours James slept by 3/3 (since James slept 2/3 of what Harry slept). \n\n9 hours * 3/3 = 9 * 1 = 9 hours\n\nNow, we need to find out how many hours James slept. Since James slept 2/3 of what Harry slept, we can set up the equation:\n\nJames' hours = 2/3 * Harry's hours\nJames' hours = 2/3 * 9\nJames' hours = 6 hours\n\nNow, we need to find the difference in hours between Harry and James:\n\nDifference = Harry's hours - James' hours\nDifference = 9 - 6\nDifference = 3 hours\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the number of hours James slept (2/3) by 9 hours. \n\n2/3 * 9 = 6 hours\n\nSo Harry slept 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the number of hours James slept from the number of hours Harry slept.\n\n6 hours (Harry) - 2 hours (James) = 4 hours\n\nTherefore, Harry slept 4 more hours than James.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "A year has 12 months. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 12 months = 108 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 2/3 * 108 hours = 72 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 108 hours - 72 hours = 36 hours.\n\nThe answer is 36 hours.\nSo the answer is \\boxed{36",
+      "pred_answer": 36.0
+    },
+    {
+      "question": "A week has 7 days. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the number of hours James slept (2/3) by 7 (the number of days in a week). \n\n2/3 * 7 = 14/3 = 4.67 hours\n\nNow, we need to find out how many hours more Harry slept than James. To do this, we subtract the number of hours James slept from the number of hours Harry slept.\n\n4.67 - 2 = 2.67 hours\n\nSo, Harry slept 2.67 hours more than James.\nSo the answer is \\boxed{2.67",
+      "pred_answer": 2.67
+    },
+    {
+      "question": "An hour has 60 minutes. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the number of hours Harry slept (9 hours) by 3, since James slept 2/3 of what Harry slept.\n\n9 hours * 3 = 27 hours\n\nSo Harry slept 27 hours.\n\nTo find out how many hours James slept, we need to divide the number of hours Harry slept (27 hours) by 3, since James slept 2/3 of what Harry slept.\n\n27 hours / 3 = 9 hours\n\nSo James slept 9 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the number of hours James slept (9 hours) from the number of hours Harry slept (27 hours).\n\n27 hours - 9 hours = 18 hours\n\nTherefore, Harry slept 18 more hours than James.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A minute has 60 seconds. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the number of hours Harry slept by 60 (since there are 60 minutes in an hour). \n\nHarry slept 9 hours, so he slept 9 * 60 = 540 minutes.\n\nSince there are 60 minutes in an hour, we can convert 540 minutes to hours by dividing by 60:\n540 / 60 = 9 hours.\n\nNow, we need to find out how many hours James slept. James slept 2/3 of what Harry slept, so we multiply Harry's hours by 2/3:\n9 * (2/3) = 6 hours.\n\nTo find out how many more hours Harry slept than James, we subtract James' hours from Harry's hours:\n9 - 6 = 3 hours.\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "A year has 365 days. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the number of hours Harry slept (9 hours) by the fraction of the day he slept (1/3).\n\n9 hours * 1/3 = 3 hours\n\nSo Harry slept 3 hours.\n\nTo find out how many hours James slept, we need to multiply the number of hours James slept (2/3) by the fraction of the day he slept (1/3).\n\n2/3 * 1/3 = 2/9 hours\n\nSo James slept 2/9 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the number of hours James slept from the number of hours Harry slept.\n\n3 hours - 2/9 hours = 3 - 0.22 hours\n\n3 - 0.22 = 2.78 hours\n\nSo Harry slept 2.78 hours more than James.\nSo the answer is \\boxed{2.78 hours",
+      "pred_answer": 2.78
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3 (since James slept 2/3 of what Harry slept). \n\n9 hours * 3 = 27 hours\n\nNow, we need to find out how many hours James slept. Since James slept 2/3 of what Harry slept, we can set up the equation:\n\nJames' sleep hours = 2/3 * Harry's sleep hours\nJames' sleep hours = 2/3 * 27\nJames' sleep hours = 18 hours\n\nNow, we need to find the difference in hours between Harry and James' sleep:\n\nDifference = Harry's sleep hours - James' sleep hours\nDifference = 27 - 18\nDifference = 9 hours\n\nSo, Harry slept 9 more hours than James.\nSo the answer is \\boxed{The answer is 9.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the number of hours James slept by 2/3.\n\nJames slept 2/3 of 9 hours, which is (2/3) * 9 = 6 hours.\n\nNow, we need to find out how many hours Harry slept. We know that Harry slept 9 hours, and James slept 6 hours. To find the difference, we subtract the number of hours James slept from the number of hours Harry slept.\n\n9 - 6 = 3\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the hours James slept by 3/3 (since James slept 2/3 of what Harry slept).\n\nJames slept 2/3 * 9 hours = 6 hours.\n\nNow, we need to find out how many hours Harry slept. We know that Harry slept 9 hours.\n\nTo find the difference, we subtract the hours James slept from Harry's hours:\n\n9 hours (Harry) - 6 hours (James) = 3 hours.\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the number of hours he slept by the fraction of the total hours he slept. \n\nSince James slept 2/3 of what Harry slept, we can represent James' hours as 2/3 * 9 hours. \n\n2/3 * 9 = 6 hours\n\nNow, we need to find the difference between Harry's hours and James' hours. \n\nHarry slept 9 hours, and James slept 6 hours. \n\n9 - 6 = 3 hours\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 4 = 36 hours. \n\nSince James slept 2/3 of what Harry slept, we need to calculate 2/3 of 36 hours. \n\n2/3 * 36 = 24 hours\n\nSo James slept 24 hours. \n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 36 - 24 = 12 hours.\n\nThe answer is 12 hours.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "An adult has 32 teeth. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3 (since James slept 2/3 of what Harry slept). \n\n9 * 3 = 27 hours\n\nNow, we need to find out how many hours James slept. Since James slept 2/3 of what Harry slept, we can calculate it as follows:\n\n27 * (3/2) = 27 * 1.5 = 40.5 hours\n\nNow, we need to find the difference in hours between Harry and James:\n\n40.5 - 27 = 13.5 hours\n\nSo, Harry slept 13.5 hours more than James.\nSo the answer is \\boxed{13.5",
+      "pred_answer": 13.5
+    },
+    {
+      "question": "China has 1.4 billion people. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 1.4 billion people. \n\n9 hours * 1,400,000,000 = 12,600,000,000 hours\n\nSince James slept 2/3 of what Harry slept, we need to calculate 2/3 of 12,600,000,000 hours.\n\n2/3 * 12,600,000,000 = 8,400,000,000 hours\n\nNow, we need to find the difference between the hours Harry slept and James slept.\n\n8,400,000,000 - 12,600,000,000 = -4,200,000,000 hours\n\nSince we can't have negative hours, we need to convert the result to a positive number.\n\n4,200,000,000 hours is equivalent to 4,200,000,000 / 24 = 173,333,333 hours\n\nSo, Harry slept 173,333,333 hours more than James.\nSo the answer is \\boxed{173,333,333",
+      "pred_answer": 333.0
+    },
+    {
+      "question": "Japan has 125 million people. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours. \n\nJames slept 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 hours - 6 hours = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The US has 50 states. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. 9 hours - 6 hours = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The EU has 27 member states. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 9 * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 - 6 = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours. \n\nSince James slept 2/3 of what Harry slept, James slept 9 * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 - 6 = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours. \n\nSince James slept 2/3 of what Harry slept, we need to find 2/3 of 9 hours. \n\n2/3 * 9 = 6 hours\n\nSo, James slept 6 hours. To find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept.\n\n9 hours - 6 hours = 3 hours\n\nTherefore, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 2/3 * 9 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 - 6 = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The human body has 206 bones. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours. \n\nSince James slept 2/3 of what Harry slept, we need to calculate 9 hours * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 hours - 6 hours = 3 hours.\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the number of hours James slept by 2/3. \n\nJames slept 2/3 of 9 hours, which is (2/3) * 9 = 6 hours.\n\nNow, we need to find out how many hours Harry slept. We know that Harry slept 9 hours. \n\nTo find the difference, we need to subtract the hours James slept from Harry's hours. \n\n9 hours (Harry) - 6 hours (James) = 3 hours.\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 0.21 (21% of 9 hours) = 1.89 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. 1.89 - 6 = -4.11 hours.\n\nSince we can't have negative hours, we can assume that James slept 0 hours.\nSo the answer is \\boxed{The answer is 4 hours.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the number of hours James slept by 2/3.\n\nJames slept 2/3 of 9 hours, which is (2/3) * 9 = 6 hours.\n\nNow, we need to find out how many hours Harry slept. We know that Harry slept 9 hours.\n\nTo find the difference, we subtract the hours James slept from Harry's hours: 9 - 6 = 3 hours.\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nTo find out how many hours James slept, we need to calculate 9 hours * 2/3 = 9 * 2/3 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. 9 hours - 6 hours = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 2/3 = 6 hours. \n\nSince James slept 2/3 of what Harry slept, James slept 6 hours * 2/3 = 4 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract James' hours from Harry's hours: 6 hours - 4 hours = 2 hours.\n\nThe answer is 2 hours.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 9 * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 - 6 = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    }
+  ]
+}

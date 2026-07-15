@@ -1,0 +1,28 @@
+{
+  "question": "Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+  "ground_truth": "70.0",
+  "prefix": " drafted¯¯¯¯¯¯¯¯ 165 86 grandmother",
+  "prefix_token_ids": [
+    15937,
+    15243,
+    21409,
+    9849,
+    18410
+  ],
+  "baseline_token_id": 4317,
+  "target_token_id": 4019,
+  "baseline_logit_diff": -5.53125,
+  "clean_logit_diff": -4.1875,
+  "adv_logit_diff": 2.71875,
+  "best_logit_diff": 2.71875,
+  "clean_text": "Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?\n### 70",
+  "clean_answer": 70.0,
+  "clean_correct": true,
+  "adv_text": "drafted¯¯¯¯¯¯¯¯ 165 86 grandmotherMr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?\n### 170",
+  "adv_answer": 170.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.71875
+  ]
+}

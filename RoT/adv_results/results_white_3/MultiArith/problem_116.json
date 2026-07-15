@@ -1,0 +1,26 @@
+{
+  "question": " While playing a trivia game, Adam answered 8 questions correct in the first half and 2 questions correct in the second half. If each question was worth 8 points, what was his final score? ",
+  "ground_truth": "80.0",
+  "prefix": "637",
+  "prefix_token_ids": [
+    21,
+    18,
+    22
+  ],
+  "baseline_token_id": 23,
+  "target_token_id": 22,
+  "baseline_logit_diff": 0.0,
+  "clean_logit_diff": -0.5,
+  "adv_logit_diff": 0.875,
+  "best_logit_diff": 0.875,
+  "clean_text": "assistant\n### 80 ",
+  "clean_answer": 80.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 64 ",
+  "adv_answer": 64.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.875
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+  "ground_truth": "3.0",
+  "prefix": "}`;\n\n眼看 trending",
+  "prefix_token_ids": [
+    72764,
+    112688,
+    50850
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 17,
+  "baseline_logit_diff": 0.0,
+  "clean_logit_diff": -0.25,
+  "adv_logit_diff": 0.375,
+  "best_logit_diff": 0.375,
+  "clean_text": "assistant\n### 3 ",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 2 ",
+  "adv_answer": 2.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.375
+  ]
+}

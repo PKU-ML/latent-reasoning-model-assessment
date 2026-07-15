@@ -1,0 +1,28 @@
+{
+  "question": "An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+  "ground_truth": "4.0",
+  "prefix": " +\n Favor###\n\n46",
+  "prefix_token_ids": [
+    3610,
+    73787,
+    50524,
+    19,
+    21
+  ],
+  "baseline_token_id": 19,
+  "target_token_id": 17,
+  "baseline_logit_diff": -2.25,
+  "clean_logit_diff": -3.375,
+  "adv_logit_diff": 0.75,
+  "best_logit_diff": 0.75,
+  "clean_text": "assistant\n### 4 ",
+  "clean_answer": 4.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 2 ",
+  "adv_answer": 2.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.75
+  ]
+}

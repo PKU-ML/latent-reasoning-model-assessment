@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 898,
+  "question": "Dijana and Anis live near a lake, and every weekend they go out rowing into the lake. On a Sunday morning, both went out rowing, and Dijana rowed for 50 miles the whole day. Anis rowed 1/5 times more miles than Dijana. Calculate the total distance the two of them rowed on that day.",
+  "ground_truth": "110",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " süreci<|begin_of_text|><|begin_of_text|>展示E",
+  "prefix_token_ids": [
+    127970,
+    128000,
+    128000,
+    127950,
+    36
+  ],
+  "best_wrong_prob": 2.4175077827006343e-22,
+  "clean_text": "To find the total distance rowed by both Dijana and Anis, we need to calculate the distance each of them rowed and then add them together.\n\nDijana rowed 50 miles.\n\nAnis rowed 1/5 times more than Dijan",
+  "clean_pred": 110.0,
+  "clean_correct": true,
+  "adv_text": "To find the total distance rowed by both of them, we need to add the distance Dijana rowed and Anis rowed.\n\nDijana rowed 50 miles.\n\nAnis rowed 1/5 times more than Dijana, so Anis rowed 50 + (1/5 * 50)",
+  "adv_pred": 110.0,
+  "adv_correct": true,
+  "attack_success": false
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 53,
+  "question": " Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+  "ground_truth": "7",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " qualité lynैं.\n",
+  "prefix_token_ids": [
+    60128,
+    90303,
+    125632
+  ],
+  "best_wrong_prob": 7.369922476272999e-28,
+  "clean_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nTotal carrots picked = 29 (Carol's carrots) + 16 (mother's carrots) = 45\n\nNu",
+  "clean_pred": 7.0,
+  "clean_correct": true,
+  "adv_text": "To find the number of bad carrots, we need to subtract the number of good carrots from the total number of carrots picked.\n\nNumber of good carrots = 29\nNumber of bad carrots = Total number of carrots ",
+  "adv_pred": 9.0,
+  "adv_correct": false,
+  "attack_success": true
+}

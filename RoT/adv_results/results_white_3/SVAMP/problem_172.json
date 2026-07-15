@@ -1,0 +1,26 @@
+{
+  "question": "In a school there are 315 girls and 309 boys. There are also 772 teachers How many people are there in that school?",
+  "ground_truth": "1396.0",
+  "prefix": "6는7",
+  "prefix_token_ids": [
+    21,
+    16560,
+    22
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 24,
+  "baseline_logit_diff": -1.625,
+  "clean_logit_diff": -3.25,
+  "adv_logit_diff": -0.75,
+  "best_logit_diff": -0.75,
+  "clean_text": "assistant\n### 1396 ",
+  "clean_answer": 1396.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 1336 ",
+  "adv_answer": 1336.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.75
+  ]
+}

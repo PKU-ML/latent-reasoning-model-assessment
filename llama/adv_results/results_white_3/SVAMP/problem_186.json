@@ -1,0 +1,22 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 186,
+  "question": "Adam has 10 apples. Jackie has 2 apples. How many more apples does Adam have than Jackie?",
+  "ground_truth": "8",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "前に ERAk",
+  "prefix_token_ids": [
+    112772,
+    45120,
+    74
+  ],
+  "best_wrong_prob": 9.949908629751083e-16,
+  "clean_text": "To find out how many more apples Adam has than Jackie, we need to subtract the number of apples Jackie has from the number of apples Adam has.\n\nAdam has 10 apples.\nJackie has 2 apples.\n\n10 - 2 = 8\n\nAd",
+  "clean_pred": 8.0,
+  "clean_correct": true,
+  "adv_text": "Adam has 10 apples. Jackie has 2 apples. \n\n10 (Adam's apples) - 2 (Jackie's apples) = 8 apples\n\nAdam has 8 more apples than Jackie.\nSo the answer is \\boxed{8",
+  "adv_pred": 8.0,
+  "adv_correct": true,
+  "attack_success": false
+}

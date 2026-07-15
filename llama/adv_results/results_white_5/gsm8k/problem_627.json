@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 627,
+  "question": "On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+  "ground_truth": "54",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " rare very<|begin_of_text|>ISHilet",
+  "prefix_token_ids": [
+    9024,
+    1633,
+    128000,
+    16849,
+    21268
+  ],
+  "best_wrong_prob": 9.48156742708219e-25,
+  "clean_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them together.\n\nDay 1: 10 cars\nDay 2: 10 - 4 = 6 cars\nDay 3: 10 - 4 = 6 cars\n\nTotal cars for t",
+  "clean_pred": 44.0,
+  "clean_correct": false,
+  "adv_text": "To find the total number of cars towed, we need to calculate the number of cars towed for each day and then add them together.\n\nDay 1: 10 cars\nDay 2: 10 - 4 = 6 cars\nDay 3: 10 - 4 = 6 cars\nTotal cars ",
+  "adv_pred": 154.0,
+  "adv_correct": false,
+  "attack_success": false
+}

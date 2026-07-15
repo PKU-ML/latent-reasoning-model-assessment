@@ -1,0 +1,25 @@
+{
+  "question": "Ted starts with $200. He buys 3 books for 16 dollars each and 3 pencils for 6 dollars each. How much did he spend in total?",
+  "ground_truth": "66",
+  "prefix": "koliv метод%.\n",
+  "prefix_token_ids": [
+    114822,
+    56729,
+    126437
+  ],
+  "baseline_logit_diff": -2.934141159057617,
+  "clean_logit_diff": -5.432870864868164,
+  "adv_logit_diff": 2.9556384086608887,
+  "best_logit_diff": 2.9556384086608887,
+  "clean_text": "Answer:66",
+  "clean_answer": "66",
+  "clean_correct": true,
+  "adv_text": "Answer:178",
+  "adv_answer": "178",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.4162254333496094,
+    2.9556384086608887
+  ]
+}

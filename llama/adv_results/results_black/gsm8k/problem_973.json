@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 973,
+  "question": "India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+  "ground_truth": "79.0",
+  "baseline_correct": false,
+  "baseline_answer": 107.0,
+  "best_rewrite": "DNA has 2 strands in its double helix. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+  "best_fact": "DNA has 2 strands in its double helix.",
+  "best_pred_answer": 125.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 15,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 28 states and 8 union territories. \n\nThe number of states in the USA is 50.\n\nSince India has 4 more than half the number of states in the USA, we can calculate the number of states in India as follows:\n\nHalf of the number of states in the USA is 50 / 2 = 25\n4 more than half the number of states in the USA is 25 + 4 = 29\n\nSo, India has 29 states.\n\nNow, let's add the number of states in India and the USA:\n\n29 (India) + 50 (USA) = 79\n\nTherefore, the total number of states in both countries is 79.\nSo the answer is \\boxed{The total number of states in both countries is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "April has 30 days. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of states in India, we first need to find half of the number of states in the USA. \n\nThe number of states in the USA is 50. Half of 50 is 25. \n\nIndia has 4 more than half the number of states in the USA, so India has 25 + 4 = 29 states.\n\nNow, we need to find the total number of states in both countries. We add the number of states in the USA and India: 50 + 29 = 79.\n\nThe answer is 79.\nSo the answer is \\boxed{The answer is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 4 more than half the number of states in the USA. Since the USA has 50 states, half of that would be 25. So, India has 25 + 4 = 29 states.\n\nNow, let's find the total number of states in both countries. The total number of states in the USA is 50, and the total number of states in India is 29. \n\nSo, the total number of states in both countries is 50 + 29 = 79.\n\nThe answer is 79.\nSo the answer is \\boxed{The answer is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "Today is the 3rd of the month. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to calculate the number of states in India and the USA, and then add them together.\n\nIndia has 28 states and 8 union territories. The number of states in India is 28.\n\nThe USA has 50 states.\n\nSo, the total number of states in both countries is 28 + 50 = 78.\n\nThe USA has 50 states, and India has 4 more than half the number of states in the USA. Half of 50 is 25, so India has 25 more states than the USA.\n\nSo, the total number of states in both countries is 78 + 25 = 103.\n\nThe answer is 103.\nSo the answer is \\boxed{The answer is 103.",
+      "pred_answer": 103.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 28 states and 8 union territories. \n\nThe number of states in India is 28.\n\nThe number of states in the USA is 50.\n\nIndia has 4 more than half the number of states in the USA. Half of 50 is 25. So, India has 25 + 4 = 29 states.\n\nNow, let's add the number of states in India and the USA: 29 + 50 = 79.\n\nThe total number of states in both countries is 79.\nSo the answer is \\boxed{The total number of states in both countries is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "A year has 12 months. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to calculate the number of states in India and the USA, and then add them together.\n\nIndia has 4 more than half the number of states in the USA. \n\nLet's assume the number of states in the USA is 'x'. Then, the number of states in India is x + 4.\n\nSince there are 50 states in the USA, we can set up the equation:\n\nx + 4 = 50\n\nSubtracting 4 from both sides:\n\nx = 46\n\nSo, there are 46 states in the USA.\n\nNow, let's find the total number of states in both countries:\n\nTotal states in India = 46 + 4 = 50\nTotal states in the USA = 50\n\nThe total number of states in both countries is 50 + 50 = 100\n\nTherefore, the total number of states in both countries is 100.\nSo the answer is \\boxed{The total number of states in both countries is 100.",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A week has 7 days. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 4 more than half the number of states in the USA. \n\nLet's assume the number of states in the USA is 'x'. Then, the number of states in India is (x + 4).\n\nSince there are 50 states in the USA, we can set up the equation:\nx + 4 = 50\n\nSolving for x, we get:\nx = 46\n\nSo, there are 46 states in the USA.\n\nNow, let's find the total number of states in both countries:\nTotal states = States in India + States in USA\n= 46 + 50\n= 96\n\nTherefore, the total number of states in both countries is 96.\nSo the answer is \\boxed{The total number of states in both countries is 96.",
+      "pred_answer": 96.0
+    },
+    {
+      "question": "An hour has 60 minutes. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 4 more than half the number of states in the USA. Let's assume the number of states in the USA is 'x'. Then, the number of states in India is (x + 4).\n\nSince the total number of states in both countries is the sum of the number of states in India and the USA, we can set up the equation:\n\nx + (x + 4) = 60\n\nCombine like terms:\n\n2x + 4 = 60\n\nSubtract 4 from both sides:\n\n2x = 56\n\nDivide both sides by 2:\n\nx = 28\n\nSo, there are 28 states in the USA. \n\nNow, let's find the number of states in India:\n\nx + 4 = 28 + 4\nx = 32\n\nSo, there are 32 states in India.\n\nThe total number of states in both countries is:\n28 (USA) + 32 (India) = 60\n\nThe answer is 60.\nSo the answer is \\boxed{The answer is 60.",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "A minute has 60 seconds. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of states in India, we need to calculate half of the number of states in the USA and then add 4.\n\nThe number of states in the USA is approximately 50.\n\nHalf of 50 is 25.\n\nIndia has 25 + 4 = 29 states.\n\nSo, the total number of states in both countries is 50 + 29 = 79.\n\nThe answer is 79.\nSo the answer is \\boxed{The answer is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "A year has 365 days. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of states in both countries, we need to calculate the number of states in India and the USA, and then add them together.\n\nIndia has 4 more than half the number of states in the USA. \n\nFirst, let's find half the number of states in the USA. There are 50 states in the USA. Half of 50 is 25.\n\nIndia has 4 more than 25, so it has 25 + 4 = 29 states.\n\nNow, let's add the number of states in India and the USA: 29 (India) + 50 (USA) = 79.\n\nTherefore, the total number of states in both countries is 79.\nSo the answer is \\boxed{The total number of states in both countries is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of states in India, we need to calculate half of the Earth's diameter and then add 4.\n\nHalf of the Earth's diameter is 12742 / 2 = 6351 km.\n\nSince there are 50 states in the USA, adding 4 more states to this number gives us 50 + 4 = 54 states in the USA.\n\nNow, let's find the total number of states in both countries together. We have 54 states in the USA and 50 states in India. \n\nTotal number of states = 54 + 50 = 104\n\nSo, the total number of states in both countries together is 104.\nSo the answer is \\boxed{The total number of states in both countries together is 104.",
+      "pred_answer": 104.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 28 states and 8 union territories. \n\nThe number of states in the USA is 50.\n\nThe number of states in India is 28 + 4 = 32.\n\nThe total number of states in both countries is 32 + 50 = 82.\n\nThe answer is 82.\nSo the answer is \\boxed{The answer is 82.",
+      "pred_answer": 82.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 28 states and 8 union territories. \n\nThe number of states in the USA is 50.\n\nSince India has 4 more than half the number of states in the USA, we can calculate the number of states in India as follows:\n\nHalf of 50 is 25, and 4 more than that is 29.\n\nSo, India has 29 states.\n\nNow, to find the total number of states in both countries, we add the number of states in India and the USA:\n\n29 (India) + 50 (USA) = 79\n\nTherefore, the total number of states in both countries is 79.\nSo the answer is \\boxed{79",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 28 states and 8 union territories. \n\nThe number of states in the USA is 50.\n\nSince India has 4 more than half the number of states in the USA, we can calculate the number of states in India as follows:\n\nHalf of the number of states in the USA is 50 / 2 = 25\n4 more than half is 25 + 4 = 29\n\nSo, India has 29 states.\n\nNow, to find the total number of states in both countries, we add the number of states in India and the USA:\n\n29 (India) + 50 (USA) = 79\n\nTherefore, the total number of states in both countries is 79.\nSo the answer is \\boxed{The total number of states in both countries is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "The human heart has 4 chambers. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the number of states in India, we need to calculate half of the number of states in the USA and then add 4.\n\nThe number of states in the USA is approximately 50.\n\nHalf of 50 is 25.\n\nIndia has 25 + 4 = 29 states.\n\nSo, the total number of states in both countries is 50 + 29 = 79.\n\nThe answer is 79.\nSo the answer is \\boxed{The answer is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "An adult has 32 teeth. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the number of states in India, we first need to find half the number of states in the USA. \n\nThe number of states in the USA is 50. Half of 50 is 25. \n\nIndia has 4 more than half the number of states in the USA, so India has 25 + 4 = 29 states.\n\nNow, we need to find the total number of states in both countries. We add the number of states in the USA and India: 50 + 29 = 79.\n\nThe answer is 79.\nSo the answer is \\boxed{The answer is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "China has 1.4 billion people. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of states in the USA, we need to know the number of states in the USA. The number of states in the USA is 50.\n\nIndia has 4 more than half the number of states in the USA, so we need to calculate half of 50 first. Half of 50 is 25. Then, 4 more than 25 is 29.\n\nSo, India has 29 states.\n\nNow, we add the number of states in China (1.4 billion) and India (29) to find the total number of states in both countries. \n\n1.4 billion + 29 = 1.4 billion + 29 = 1.429 billion\n\nSo, the total number of states in both China and India is approximately 1.429 billion.\nSo the answer is \\boxed{The total number of states in both China and India is approximately 1.429 billion.",
+      "pred_answer": 1.429
+    },
+    {
+      "question": "Japan has 125 million people. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of states in Japan, we need to calculate half of 125 million, which is 62.5 million. Since you said there are 4 more states than half the number of states in the USA, we need to find the number of states in the USA first.\n\nThe number of states in the USA is approximately 50. The number of states in Japan is 4 more than half of 50, which is 25. \n\nNow, we add the number of states in Japan (25) to the number of states in India (4) to get the total number of states in both countries: 25 + 4 = 29.\n\nSo, the total number of states in both Japan and India is 29.\nSo the answer is \\boxed{The total number of states in both Japan and India is 29.",
+      "pred_answer": 29.0
+    },
+    {
+      "question": "The US has 50 states. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of states in both countries, we need to calculate the number of states in each country and add them together.\n\nThe US has 50 states.\nIndia has 4 more than half the number of states in the USA, which is (50 / 2) + 4 = 25 + 4 = 29 states.\n\nSo, the total number of states in both countries is 50 + 29 = 79.\n\nThe answer is 79.\nSo the answer is \\boxed{The answer is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "The EU has 27 member states. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to calculate the number of states in the USA and India, and then add them together.\n\nThe number of states in the USA is 50 (half of 100, since the USA has 50 states).\nThe number of states in India is 4 more than half of 27, which is 4 + (27 / 2) = 4 + 13.5 = 17.5. Since you can't have half a state, we'll round down to 17 states.\n\nNow, let's add the number of states in both countries: 50 (USA) + 17 (India) = 67.\n\nSo, the total number of states in both countries is 67.\nSo the answer is \\boxed{The total number of states in both countries is 67.",
+      "pred_answer": 67.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the number of states in India, we need to calculate half of the number of states in the USA and then add 4.\n\nNumber of states in the USA: 50\nHalf of 50 is 25\nNumber of states in India: 25 + 4 = 29\n\nTotal number of states in both countries: 29 (India) + 50 (USA) = 79\n\nThe answer is 79.\nSo the answer is \\boxed{79",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the number of states in India, we need to calculate half of the number of states in the USA and then add 4.\n\nThe number of states in the USA is approximately 50.\n\nHalf of 50 is 25.\nAdding 4 to 25 gives us 29.\n\nSo, there are 29 states in India.\n\nNow, let's add the number of states in India to the number of states in the USA to find the total number of states in both countries.\n\n29 (India) + 50 (USA) = 79\n\nTherefore, there are 79 states in both India and the USA.\nSo the answer is \\boxed{79",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the number of states in India, we need to calculate half of the total area of the Pacific Ocean, which is approximately 155.6 million km². \n\n4 more than half the number of states in the USA would be 155.6 million + 4 = 159.6 million.\n\nSince the USA has 50 states, we can find the number of states in India by adding 159.6 million to 50.\n\n159.6 million + 50 = 209.6 million\n\nSo, there are approximately 209.6 million states in India.\nSo the answer is \\boxed{The total number of states in both countries together is approximately 209.6 million.",
+      "pred_answer": 209.6
+    },
+    {
+      "question": "The human body has 206 bones. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 28 states and 8 union territories. \n\nThe number of states in India is 28.\n\nThe number of states in the USA is 50.\n\nIndia has 4 more than half the number of states in the USA. Half of 50 is 25. So, India has 25 + 4 = 29 states.\n\nNow, let's add the number of states in India and the USA: 29 + 50 = 79.\n\nThe total number of states in both countries is 79.\nSo the answer is \\boxed{The total number of states in both countries is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to calculate the number of states in India and the USA, and then add them together.\n\nIndia has 28 states and 8 union territories. \n\nUSA has 50 states.\n\nThe number of states in India is 28 + 4 = 32.\n\nThe total number of states in both countries is 32 + 50 = 82.\n\nThe answer is 82.\nSo the answer is \\boxed{The answer is 82.",
+      "pred_answer": 82.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 28 states and 8 union territories. \n\nUSA has 50 states.\n\nSince India has 4 more than half the number of states in the USA, we can calculate the number of states in India as follows:\n\nHalf of the number of states in the USA is 50 / 2 = 25\n4 more than half the number of states in the USA is 25 + 4 = 29\n\nSo, India has 29 states.\n\nNow, let's add the number of states in India and the USA:\n\n29 (India) + 50 (USA) = 79\n\nTherefore, the total number of states in both countries is 79.\nSo the answer is \\boxed{The total number of states in both countries is 79.",
+      "pred_answer": 79.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to calculate the number of states in India and the USA, and then add them together.\n\nIndia has 28 states and 8 union territories. The number of states in India is 28.\n\nThe USA has 50 states. \n\nSo, the total number of states in both countries is 28 + 50 = 78.\n\nNow, we need to add the number of states in India (28) to the number of states in the USA (50) to get the total number of states in both countries.\n\n78 + 28 = 106\n\nTherefore, the total number of states in both countries is 106.\nSo the answer is \\boxed{The total number of states in both countries is 106.",
+      "pred_answer": 106.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to first find the number of states in India and the USA.\n\nIndia has 4 more than half the number of states in the USA. Since the USA has 50 states, half of that is 25. So, India has 25 + 4 = 29 states.\n\nNow, let's find the total number of states in both countries:\nIndia has 29 states and 2 territories (Andaman and Nicobar Islands and Lakshadweep), for a total of 31 states and 2 territories.\nUSA has 50 states and 1 territory (Puerto Rico), for a total of 51 states and 1 territory.\n\nSo, the total number of states in both countries is 31 + 51 = 82.\nSo the answer is \\boxed{The total number of states in both countries is 82.",
+      "pred_answer": 82.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to calculate the number of states in India and the USA, and then add them together.\n\nIndia has 28 states and 8 union territories. The number of states in India is 28.\n\nThe USA has 50 states.\n\nSo, the total number of states in both countries is 28 + 50 = 78.\n\nThe USA has 50 states, and India has 4 more than half the number of states in the USA. Half of 50 is 25, so India has 25 more states than the USA.\n\nSo, the number of states in India is 50 + 25 = 75.\n\nNow, let's add the number of states in both countries: 75 (India) + 50 (USA) = 125.\n\nThe total number of states in both countries is 125.\nSo the answer is \\boxed{125",
+      "pred_answer": 125.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. India has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the total number of states in both countries, we need to calculate the number of states in India and the USA, and then add them together.\n\nIndia has 28 states and 8 union territories. The number of states in India is 28.\n\nThe USA has 50 states.\n\nSo, the total number of states in both countries is 28 + 50 = 78.\n\nThe USA has 4 more states than India, so we need to add 4 to the total number of states in the USA.\n\n78 + 4 = 82\n\nTherefore, the total number of states in both countries is 82.\nSo the answer is \\boxed{The total number of states in both countries is 82.",
+      "pred_answer": 82.0
+    }
+  ]
+}

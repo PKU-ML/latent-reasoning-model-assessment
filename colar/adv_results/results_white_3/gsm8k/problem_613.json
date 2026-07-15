@@ -1,0 +1,24 @@
+{
+  "question": "A Reddit group has 1000 members. If each member posts an average of 3 posts per day, what's the total number of posts that the group will have in March?",
+  "ground_truth": "93000",
+  "prefix": " 양>\").Tensor",
+  "prefix_token_ids": [
+    104870,
+    83698,
+    45303
+  ],
+  "baseline_logit_diff": 1.8836994171142578,
+  "clean_logit_diff": -0.8973407745361328,
+  "adv_logit_diff": 3.277315139770508,
+  "best_logit_diff": 3.277315139770508,
+  "clean_text": "Answer:93000",
+  "clean_answer": "93000",
+  "clean_correct": true,
+  "adv_text": "Answer:33000",
+  "adv_answer": "33000",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    3.277315139770508
+  ]
+}

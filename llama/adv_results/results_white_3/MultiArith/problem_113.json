@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 113,
+  "question": " Tom bought 40 tickets at the state fair. He spent 28 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 4 tickets, how many rides could he go on? ",
+  "ground_truth": "3",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "TAB Romansolet",
+  "prefix_token_ids": [
+    79299,
+    49817,
+    127854
+  ],
+  "best_wrong_prob": 1.4432633294778584e-19,
+  "clean_text": "To find out how many rides Tom could go on, we need to subtract the number of tickets he spent at the 'dunk a clown' booth from the total number of tickets he bought.\n\nTotal tickets bought = 40\nTicket",
+  "clean_pred": 3.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many rides Tom could go on, we need to subtract the number of tickets he spent at the 'dunk a clown' booth from the total number of tickets he bought.\n\nTotal tickets bought = 40\nTicket",
+  "adv_pred": 3.0,
+  "adv_correct": true,
+  "attack_success": false
+}

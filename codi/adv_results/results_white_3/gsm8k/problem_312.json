@@ -1,0 +1,33 @@
+{
+  "question": "Trent is 5 years older than Jane, and Jane is 3 years younger than Quinn. If Quinn is 30, how old is Trent?",
+  "ground_truth": "32.0",
+  "prefix": "839 елек Lost",
+  "prefix_token_ids": [
+    25465,
+    108917,
+    28351
+  ],
+  "baseline_token_id": 843,
+  "target_token_id": 17079,
+  "baseline_logit_diff": -7.375,
+  "clean_logit_diff": -7.625,
+  "adv_logit_diff": 2.0625,
+  "best_logit_diff": 2.0625,
+  "clean_text": "The answer is: 32",
+  "clean_answer": 32.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 332",
+  "adv_answer": 332.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -4.0,
+    -2.875,
+    -2.5,
+    -1.75,
+    -1.125,
+    -1.125,
+    0.5,
+    2.0625
+  ]
+}

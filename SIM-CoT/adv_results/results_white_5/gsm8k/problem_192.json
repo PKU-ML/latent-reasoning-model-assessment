@@ -1,0 +1,28 @@
+{
+  "question": "Tom plants 10 trees a year.  Every year he also chops down 2 trees a year.  He starts with 50 trees.  After 10 years 30% of the trees die.  How many trees does he have left?",
+  "ground_truth": "91.0",
+  "prefix": " drafted\":\"\",\"daq heard8000",
+  "prefix_token_ids": [
+    15937,
+    34713,
+    48539,
+    2982,
+    33942
+  ],
+  "baseline_token_id": 10495,
+  "target_token_id": 8949,
+  "baseline_logit_diff": -0.75,
+  "clean_logit_diff": -6.79296875,
+  "adv_logit_diff": 1.9375,
+  "best_logit_diff": 1.9375,
+  "clean_text": "Tom plants 10 trees a year.  Every year he also chops down 2 trees a year.  He starts with 50 trees.  After 10 years 30% of the trees die.  How many trees does he have left?\n### 91",
+  "clean_answer": 91.0,
+  "clean_correct": true,
+  "adv_text": "drafted\":\"\",\"daq heard8000Tom plants 10 trees a year.  Every year he also chops down 2 trees a year.  He starts with 50 trees.  After 10 years 30% of the trees die.  How many trees does he have left?\n### 6104",
+  "adv_answer": 6104.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.9375
+  ]
+}

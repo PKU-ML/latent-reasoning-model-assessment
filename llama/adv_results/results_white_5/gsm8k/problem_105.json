@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 105,
+  "question": "Cody eats three times as many cookies as Amir eats. If Amir eats 5 cookies, how many cookies do both of them eat together?",
+  "ground_truth": "20",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": ",a[to')+Genre r",
+  "prefix_token_ids": [
+    15362,
+    67399,
+    97856,
+    38625,
+    436
+  ],
+  "best_wrong_prob": 9.91126787453357e-10,
+  "clean_text": "To find out how many cookies Cody eats, we need to multiply the number of cookies Amir eats by 3. \n\nAmir eats 5 cookies, so Cody eats 5 x 3 = 15 cookies.\n\nTo find the total number of cookies they eat ",
+  "clean_pred": 20.0,
+  "clean_correct": true,
+  "adv_text": "To find the total number of cookies both Cody and Amir eat, we need to multiply the number of cookies Amir eats by 3, since Cody eats three times as many cookies as Amir.\n\nAmir eats 5 cookies, so Cody",
+  "adv_pred": 20.0,
+  "adv_correct": true,
+  "attack_success": false
+}

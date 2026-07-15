@@ -1,0 +1,26 @@
+{
+  "question": "An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+  "ground_truth": "2.0",
+  "prefix": " spir Sony2500",
+  "prefix_token_ids": [
+    9158,
+    10184,
+    44688
+  ],
+  "baseline_token_id": 362,
+  "target_token_id": 939,
+  "baseline_logit_diff": -10.7978515625,
+  "clean_logit_diff": -10.5234375,
+  "adv_logit_diff": 10.28125,
+  "best_logit_diff": 10.28125,
+  "clean_text": "An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?\n### 2",
+  "clean_answer": 2.0,
+  "clean_correct": true,
+  "adv_text": "spir Sony2500An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?\n### 200",
+  "adv_answer": 200.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    10.28125
+  ]
+}

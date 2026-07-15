@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 153,
+  "question": " Will made 104 dollars mowing lawns over the summer. If he spent 41 dollars buying new mower blades, how many 9 dollar games could he buy with the money he had left? ",
+  "ground_truth": "7",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "脱 akan:\n\n\n\n\n\n",
+  "prefix_token_ids": [
+    110645,
+    33770,
+    48546
+  ],
+  "best_wrong_prob": 6.813311281817326e-22,
+  "clean_text": "To find out how many games Will could buy, we need to subtract the cost of the mower blades from the total amount of money he made.\n\nTotal money made: $104\nCost of mower blades: $41\n\nSubtract the cost",
+  "clean_pred": 7.0,
+  "clean_correct": true,
+  "adv_text": "Will 买了 104 美元的 Lawn-cutting 买了 41 美元的新切割刀后，他剩下多少钱。\n\n首先，我们需要将 104 美元除以 9，得到 11。 \n\n11 除以 9 得出 1，余数为 2。 \n\n这意味着 Will 有 1 个 9 美元块和 2 美元余数。 \n\n因此，Will 可以购买 1 个 9 美元块。\nSo the answer is \\boxed{1",
+  "adv_pred": 1.0,
+  "adv_correct": false,
+  "attack_success": true
+}

@@ -1,0 +1,43 @@
+{
+  "question": "There are 90 rooms at the KozyInn Motel. It takes housekeeping 20 minutes to clean each room. How many hours would it take to clean one-half of the rooms?",
+  "ground_truth": "15.0",
+  "prefix": " appropriately Valley surveyed [\n211",
+  "prefix_token_ids": [
+    36001,
+    13345,
+    49098,
+    2330,
+    11483
+  ],
+  "baseline_token_id": 868,
+  "target_token_id": 975,
+  "baseline_logit_diff": -8.0625,
+  "clean_logit_diff": -8.3125,
+  "adv_logit_diff": 1.625,
+  "best_logit_diff": 1.625,
+  "clean_text": "The answer is: 15",
+  "clean_answer": 15.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 14.17",
+  "adv_answer": 14.17,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -8.0625,
+    -7.9375,
+    -7.875,
+    -7.75,
+    -7.75,
+    -7.625,
+    -7.625,
+    -7.625,
+    -7.625,
+    -7.625,
+    -7.625,
+    -7.5,
+    -6.5,
+    -6.375,
+    -3.5,
+    1.625
+  ]
+}

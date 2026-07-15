@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 988,
+  "question": "Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+  "ground_truth": "6.0",
+  "baseline": {
+    "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 * $2,000 = $500.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month saved * 12 months = $6,000\n\nNow, let's divide the total amount she saves in a year by the cost of each pair of shoes: $6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.",
+    "pred_answer": 6.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 6,
+  "success_rate": 0.2,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": ".feedbackagnost زوج \"\",\n-source",
+      "prefix_token_ids": [
+        95245,
+        8372,
+        122642,
+        8488,
+        31874
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000.00 a month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000.00 is 0.25 x $2,000.00 = $500.00.\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\nNow, let's divide the amount she saves each month by the cost of a pair of shoes:\n$500.00 / $1,000.00 = 0.5\n\nNow, multiply the number of months in a year by the number of shoes she can buy each month:\n0.5 x 12 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "_FOLDER úspěš OnInit کسب्बन",
+      "prefix_token_ids": [
+        34737,
+        121230,
+        11214,
+        116263,
+        127414
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000.00 paycheck, which is 0.25 * $2,000.00 = $500.00 per month.\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\nNow, let's calculate how many shoes she can buy in a year:\n$500.00 per month * 12 months = $6,000.00 per year\n\nSince each pair of shoes costs $1,000.00, we can divide the total amount she can buy in a year by the cost of one pair of shoes:\n$6,000.00 / $1,000.00 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "련竞<BlockLik onde",
+      "prefix_token_ids": [
+        103304,
+        108951,
+        84649,
+        73097,
+        50103
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000.00 a month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000.00 is $500.00. \n\n$500.00 / $1,000.00 = 0.5\n\nNow, we need to find out how many months in a year she can save $500.00. There are 12 months in a year.\n\n$500.00 / $1,000.00 = 0.5\n\nSo, Jessica can save $500.00 in 12 months. \n\nNow, we need to find out how many shoes she can buy with $500.00. \n\n$500.00 / $1,000.00 = 0.5\n\nSo, Jessica can buy 0.5 shoes in a year.\nSo the answer is \\boxed{0.5",
+      "pred_answer": 0.5,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 4,
+      "prefix": "iy的事情 Benchū Breast",
+      "prefix_token_ids": [
+        16618,
+        121738,
+        36358,
+        54056,
+        57598
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000 per month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000 is $500. \n\n$500 / $1,000 = 0.5\n\nSo, Jessica saves $0.5 per month.\n\nNow, let's calculate how many months in a year she can save:\n\n$0.5 per month / 12 months per year = $0.0417 per month\n\nNow, let's calculate how many shoes she can buy in a year:\n\n$0.0417 per month * 12 months per year = $0.5 per year\n\nSince $1,000 is 1000 / 1000 = 1, Jessica can buy 1,000 / 0.5 = 2,000 shoes in a year.\nSo the answer is \\boxed{2,000",
+      "pred_answer": 2000.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 5,
+      "prefix": "(comment/'\n\nnu soğuk governors",
+      "prefix_token_ids": [
+        40427,
+        80667,
+        9110,
+        124508,
+        68140
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000.00 paycheck, which is 0.25 * $2,000.00 = $500.00 per month.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500.00 per month * 12 months = $6,000.00 per year\n\nNow, let's divide the total amount she saves per year by the cost of each pair of shoes: $6,000.00 / $1,000.00 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " tracedман pstmt/client준",
+      "prefix_token_ids": [
+        51400,
+        105548,
+        50675,
+        26141,
+        102611
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 x $2,000 = $500.\n\nNow, let's calculate how many months in a year she can save $500:\n\n$500 / $2,000 = 0.25 months\n\nSince there are 12 months in a year, we can multiply the number of months she can save by 12:\n\n0.25 x 12 = 3\n\nSo, Jessica can save $500 x 3 = $1,500 per year.\n\nNow, let's calculate how many shoes she can buy with $1,500:\n\n$1,500 / $1,000 = 1.5\n\nSo, Jessica can buy 1.5 pairs of shoes in a year.\nSo the answer is \\boxed{1.5",
+      "pred_answer": 1.5,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 7,
+      "prefix": "По wearer梅_chance //</",
+      "prefix_token_ids": [
+        109384,
+        85702,
+        108686,
+        75227,
+        68400
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nFirst, let's calculate how much she saves each month:\n$2,000 (monthly income) * 0.25 (25% savings) = $500 per month\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\nNow, let's divide the monthly savings by the monthly cost of one pair of shoes:\n$500 (monthly savings) / $1,000 (cost of one pair of shoes) = 0.5\n\nSince we want to know how many shoes she can buy in a year, we multiply the monthly savings by the number of months in a year:\n0.5 (monthly savings) * 12 (months in a year) = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "ैज tracerClassName вход reuse",
+      "prefix_token_ids": [
+        123114,
+        65406,
+        14883,
+        109941,
+        27068
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nFirst, let's calculate how much she saves each month:\n$2,000.00 (monthly income) * 0.25 (25% savings) = $500.00\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\nNow, let's divide the amount she saves each month by the cost of one pair of shoes:\n$500.00 (monthly savings) / $1,000.00 (cost of one pair of shoes) = 0.5\n\nSince she can save $500.00 each month, she can buy 0.5 pairs of shoes per month.\n\nNow, let's multiply the number of months in a year by the number of shoes she can buy each month:\n0.5 pairs/month * 12 months/year = 6 pairs/year\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " oby Güvenlik podmínek Blockedительность",
+      "prefix_token_ids": [
+        108177,
+        124346,
+        125711,
+        65096,
+        126188
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 x $2,000 = $500.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month saved x 12 months = $6,000\n\nNow, let's divide the total amount she saves in a year by the cost of each pair of shoes: $6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "uatolia vurgu657 blend",
+      "prefix_token_ids": [
+        55282,
+        39260,
+        123954,
+        23480,
+        20955
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 x $2,000 = $500.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month saved x 12 months = $6,000\n\nNow, let's divide the total amount she saves in a year by the cost of each pair of shoes: $6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": ".bill paperworkullen-heading rahatsız",
+      "prefix_token_ids": [
+        92688,
+        45731,
+        42574,
+        24224,
+        121035
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000 per month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000 is $500. \n\n$500 / $1,000 = 0.5\n\nSo, Jessica saves $0.5 per month.\n\nNow, let's calculate how many months in a year she can save $0.5:\n\n$0.5 / $1,000 = 0.0005\n\nThere are 12 months in a year, so:\n\n0.0005 * 12 = 0.006\n\nJessica can save $0.006 per month.\n\nNow, let's calculate how many shoes she can buy with $0.006:\n\n$0.006 / $1,000 = 0.000006\n\nThere are 1,000 $1,000 units in $1,000, so:\n\n0.000006 * 1,000 = 6\n\nJessica can buy 6 shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "悉 Posting skype.WinControls/////////////////////////////////////////////////////////////////////////////\n",
+      "prefix_token_ids": [
+        123561,
+        79773,
+        87772,
+        83556,
+        84994
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica makes $2,000 per month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000 is $500. \n\n$500 / $1,000 = 0.5\n\nSo, Jessica saves $0.5 per month.\n\nNow, let's calculate how many months are in a year:\nThere are 12 months in a year.\n\n$0.5 / $1,000 = 0.0005\n\nNow, let's multiply the number of months in a year by the amount she saves per month:\n0.0005 * 12 = 0.006\n\nNow, let's divide the total amount she saves per year by the amount she saves per month:\n$2,000 / 0.006 = 333,333\n\nSo, Jessica can buy approximately 333,333 pairs of shoes in a year.\nSo the answer is \\boxed{333,333",
+      "pred_answer": 333333.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 13,
+      "prefix": "ervalscomplexTypeió parkingtextbox",
+      "prefix_token_ids": [
+        43298,
+        80519,
+        35994,
+        13217,
+        78475
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she sets aside each month and then multiply that by 12.\n\nJessica sets aside 25% of her $2,000.00 paycheck, which is 0.25 * $2,000.00 = $500.00 per month.\n\nSince she sets aside $500.00 per month, she can buy $500.00 / $1,000.00 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 pairs/month * 12 months/year = 6 pairs of shoes per year.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": " гип;}\nbuyer Domestic Magento",
+      "prefix_token_ids": [
+        113768,
+        12355,
+        60407,
+        52849,
+        36685
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica makes $2,000.00 a month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000.00 is $500.00. \n\nNow, let's divide the amount she saves each month by the cost of one pair of shoes:\n\n$500.00 / $1,000.00 = 0.5\n\nSince she can save $500.00 each month, in a year (12 months), she can save:\n\n$500.00 * 12 = $6,000.00\n\nNow, let's divide the total amount she can save in a year by the cost of one pair of shoes:\n\n$6,000.00 / $1,000.00 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": ".snapLoremuard úrov.intValue",
+      "prefix_token_ids": [
+        90101,
+        33883,
+        11280,
+        120046,
+        59474
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 x $2,000 = $500.\n\nNow, let's divide the amount she saves by the cost of one pair of shoes:\n\n$500 / $1,000 = 0.5\n\nSince Jessica buys one pair of shoes per month, we multiply the number of months in a year by the number of shoes she can buy in a month:\n\n0.5 x 12 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": "auction � '<%= bmi strlen",
+      "prefix_token_ids": [
+        80862,
+        61696,
+        96195,
+        92997,
+        12702
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica makes $2,000.00 a month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000.00 is $500.00. \n\nSo, she saves $500.00 each month.\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\n$500.00 / $1,000.00 = 0.5\n\nNow, let's multiply the number of months by the amount she saves each month:\n0.5 * 12 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": ".Toggletournament потрібно рецепительных",
+      "prefix_token_ids": [
+        81800,
+        89179,
+        110962,
+        109827,
+        118332
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 x $2,000 = $500.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month saved x 12 months = $6,000\n\nNow, let's divide the total amount saved by the cost of each pair of shoes: $6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "<Sprite FEATURES disponCompanyIdshoot",
+      "prefix_token_ids": [
+        58830,
+        94362,
+        26686,
+        95793,
+        68392
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica makes $2,000.00 a month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000.00 is $500.00. \n\nNow, let's divide the amount she saves each month by the cost of one pair of shoes: \n$500.00 / $1,000.00 = 0.5\n\nSince she can save $0.5 each month, in a year (12 months), she can save $0.5 * 12 = $6.00.\n\nNow, let's divide the total amount she can save in a year by the cost of one pair of shoes:\n$6.00 / $1,000.00 = 0.006\n\nSince $1 is equal to 100 cents, we can convert $0.006 to cents: \n0.006 * 100 = 600 cents\n\nNow, let's convert the number of cents to a more meaningful unit, such as pairs of shoes. There are 100 cents in a dollar, so:\n600 cents / 100 = 6 pairs of shoes\n\nTherefore, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " BU\tchildren neighboring aload \"/\"\n",
+      "prefix_token_ids": [
+        55129,
+        83570,
+        42617,
+        50720,
+        81555
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000.00 paycheck, which is 0.25 * $2,000.00 = $500.00 per month.\n\nSince she saves $500.00 per month, she can buy $500.00 / $1,000.00 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 pairs/month * 12 months = 6 pairs of shoes.\n\nSo, in a year, Jessica can buy 6 pairs of shoes.\nSo the answer is \\boxed{The final answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " Panels Phonือถ επαCppMethodInitialized",
+      "prefix_token_ids": [
+        81592,
+        71424,
+        127669,
+        126667,
+        53974
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 x $2,000 = $500 per month.\n\nSince she saves $500 per month, she can buy $500 / $1,000 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 pairs per month x 12 months = 6 pairs of shoes per year.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " υ=password раск ngượctranslator",
+      "prefix_token_ids": [
+        101496,
+        74617,
+        121169,
+        121807,
+        45457
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000.00 a month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000.00 is 0.25 x $2,000.00 = $500.00.\n\nNow, let's calculate how many months in a year she can afford to buy shoes:\n\n$500.00 / $1,000.00 = 0.5\n\nSince there are 12 months in a year, we can multiply the number of months she can afford to buy shoes by 12:\n\n0.5 x 12 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "kte revolves良 Für звіль",
+      "prefix_token_ids": [
+        42051,
+        79476,
+        103424,
+        46581,
+        124251
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 x $2,000 = $500.\n\nNow, let's calculate how many months in a year she can save $500:\n\n$500 / $2,000 = 0.25 months\n\nSince there are 12 months in a year, we can multiply the number of months she can save by 12:\n\n0.25 x 12 = 3\n\nSo, Jessica can save $500 x 3 = $1,500 per year.\n\nNow, let's calculate how many shoes she can buy with $1,500:\n\n$1,500 / $1,000 = 1.5\n\nSo, Jessica can buy 1.5 pairs of shoes in a year.\nSo the answer is \\boxed{1.5",
+      "pred_answer": 1.5,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 23,
+      "prefix": " pend AssociatedATES 정규.fromCharCode",
+      "prefix_token_ids": [
+        42630,
+        26475,
+        31404,
+        127005,
+        69965
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000.00 paycheck, which is 0.25 * $2,000.00 = $500.00 per month.\n\nSince she saves $500.00 per month, she can buy $500.00 / $1,000.00 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 pairs/month * 12 months = 6 pairs of shoes per year.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The final answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "HOUSE.yaml Atari اک datasets",
+      "prefix_token_ids": [
+        97494,
+        34506,
+        84976,
+        105971,
+        30525
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000.00 a month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000.00 is 0.25 * $2,000.00 = $500.00.\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\nNow, let's calculate how many shoes she can buy in a year:\n$500.00 / $1,000.00 = 0.5\n\nSince she can buy 0.5 shoes per month, in a year she can buy:\n0.5 * 12 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "وهTamрой Authentic Bridge",
+      "prefix_token_ids": [
+        101683,
+        89552,
+        103120,
+        47467,
+        20467
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 x $2,000 = $500.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month saved x 12 months = $6,000\n\nNow, let's divide the total amount saved by the cost of each pair of shoes: $6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "зем worthless TextInput clinically ї",
+      "prefix_token_ids": [
+        114818,
+        66121,
+        43332,
+        70432,
+        100833
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 x $2,000 = $500.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month saved x 12 months = $6,000\n\nNow, let's divide the total amount she saves in a year by the cost of each pair of shoes: $6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " rapper RxOFFSETyssey GetValue",
+      "prefix_token_ids": [
+        50437,
+        36476,
+        83902,
+        54347,
+        70021
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 * $2,000 = $500.\n\nNow, let's calculate how many months in a year: 12 months.\n\n$500 per month * 12 months = $6,000\n\nNow, let's divide the total amount she saves in a year by the cost of each pair of shoes: $6,000 / $1,000 = 6\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "'https Execute flown ремонт نشان",
+      "prefix_token_ids": [
+        87668,
+        21517,
+        53850,
+        122847,
+        107223
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then divide that by the cost of one pair of shoes.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25 x $2,000 = $500 per month.\n\nSince she saves $500 per month, she can buy $500 / $1,000 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 pairs per month x 12 months = 6 pairs of shoes per year.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{The final answer is 6.",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " contribution mesaj+k ته distilled",
+      "prefix_token_ids": [
+        19035,
+        120573,
+        46555,
+        103193,
+        89867
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica makes $2,000 per month and sets aside 25% of her paycheck for fancy shoes. 25% of $2,000 is $500. \n\n$500 / $1,000 = 0.5\n\nSo, Jessica saves $0.5 per month.\n\nNow, let's calculate how many months in a year:\nThere are 12 months in a year.\n\n$0.5 per month * 12 months = $6\n\nNow, let's calculate how many shoes she can buy in a year:\n$6 per month * 12 months = $72\n\nSo, Jessica can buy 72 shoes in a year.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 30,
+      "prefix": " olabilir úč absoluteereotype-language",
+      "prefix_token_ids": [
+        106023,
+        102415,
+        10973,
+        16119,
+        44658
+      ],
+      "generated_text": "To find out how many shoes Jessica can buy in a year, we need to calculate the total amount she sets aside each month and then multiply it by 12.\n\nJessica sets aside 25% of her $2,000.00 paycheck, which is 0.25 * $2,000.00 = $500.00 per month.\n\nSince she sets aside $500.00 per month, she can buy $500.00 / $1,000.00 = 0.5 pairs of shoes per month.\n\nIn a year, she can buy 0.5 pairs/month * 12 months/year = 6 pairs of shoes per year.\n\nSo, Jessica can buy 6 pairs of shoes in a year.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

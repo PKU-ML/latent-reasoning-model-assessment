@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 84,
+  "question": " While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+  "ground_truth": "72.0",
+  "baseline_correct": true,
+  "baseline_answer": 72.0,
+  "best_rewrite": "A year has 365 days.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+  "best_fact": "A year has 365 days.",
+  "best_pred_answer": 54.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 9,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of albums by the number of songs per album.\n\nNumber of albums: 6\nNumber of songs per album: 9\n\nTotal number of songs = Number of albums * Number of songs per album\n= 6 * 9\n= 54\n\nSo Janet bought 54 songs.\nSo the answer is \\boxed{54",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "April has 30 days.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of albums by the number of songs per album.\n\nJanet bought 6 country albums, and each album has 9 songs. So, 6 * 9 = 54 songs.\n\nJanet also bought 2 pop albums, and each album has 9 songs. So, 2 * 9 = 18 songs.\n\nTo find the total number of songs, we add the number of songs from the country albums and the pop albums: 54 + 18 = 72.\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to calculate the total number of albums and then multiply it by the number of songs per album.\n\nShe bought 6 country albums and 2 pop albums. \n\n6 country albums * 9 songs per album = 54 songs\n2 pop albums * 9 songs per album = 18 songs\n\nTotal songs = 54 + 18 = 72 songs\n\nSo Janet bought 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal songs Janet bought: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal songs Janet bought: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A year has 12 months.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of albums by the number of songs per album.\n\nNumber of albums: 6\nNumber of songs per album: 9\n\nTotal number of songs = Number of albums * Number of songs per album\n= 6 * 9\n= 54\n\nSo Janet bought 54 songs.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "A week has 7 days.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of albums by the number of songs per album.\n\nNumber of albums: 6\nNumber of songs per album: 9\n\nTotal number of songs = Number of albums * Number of songs per album\n= 6 * 9\n= 54\n\nSo Janet bought 54 songs.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "An hour has 60 minutes.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of albums by the number of songs per album.\n\nNumber of albums: 6\nNumber of songs per album: 9\n\nTotal number of songs = Number of albums * Number of songs per album\n= 6 * 9\n= 54\n\nSo Janet bought 54 songs.\nSo the answer is \\boxed{54",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "A minute has 60 seconds.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of albums by the number of songs per album.\n\nNumber of albums: 6\nNumber of songs per album: 9\n\nTotal number of songs = Number of albums * Number of songs per album\n= 6 * 9\n= 54\n\nSo Janet bought 54 songs.\nSo the answer is \\boxed{54",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "A year has 365 days.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of albums by the number of songs per album.\n\nNumber of albums: 6\nNumber of songs per album: 9\n\nTotal number of songs = Number of albums * Number of songs per album\n= 6 * 9\n= 54\n\nSo Janet bought 54 songs.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal number of songs Janet bought: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal number of songs: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal number of songs: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of albums by the number of songs per album.\n\nNumber of albums: 6\nNumber of songs per album: 9\n\nTotal number of songs = Number of albums * Number of songs per album\n= 6 * 9\n= 54\n\nSo Janet bought 54 songs.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to calculate the total number of albums and then multiply it by the number of songs per album.\n\nJanet bought 6 country albums and 2 pop albums. \n\n6 country albums * 9 songs per album = 54 songs\n2 pop albums * 9 songs per album = 18 songs\n\nTotal songs = 54 + 18 = 72 songs\n\nSo Janet bought a total of 72 songs.\nSo the answer is \\boxed{The answer is 72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "An adult has 32 teeth.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of albums by the number of songs per album.\n\nNumber of albums: 6\nNumber of songs per album: 9\n\nTotal number of songs = 6 * 9 = 54\n\nSo Janet bought 54 songs.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "China has 1.4 billion people.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal songs Janet bought: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Japan has 125 million people.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal songs Janet bought: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The US has 50 states.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal songs Janet bought: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The EU has 27 member states.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal songs Janet bought: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal songs Janet bought: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal songs Janet bought: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per album: 9\nTotal songs from country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per album: 9\nTotal songs from pop albums: 2 * 9 = 18\n\nTotal songs Janet bought: 54 + 18 = 72\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The human body has 206 bones.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to calculate the total number of albums and then multiply it by the number of songs per album.\n\nNumber of albums: 6 (country) + 2 (pop) = 8 albums\nNumber of songs per album: 9\nTotal number of songs: 8 albums * 9 songs per album = 72 songs\n\nJanet bought 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to calculate the total number of albums and then multiply it by the number of songs per album.\n\nNumber of country albums: 6\nNumber of pop albums: 2\nTotal albums: 6 + 2 = 8\n\nEach album has 9 songs. So, the total number of songs is:\n8 albums * 9 songs per album = 72 songs\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to calculate the total number of albums and then multiply it by the number of songs per album.\n\nNumber of country albums: 6\nNumber of pop albums: 2\nTotal albums: 6 + 2 = 8\n\nEach album has 9 songs. So, the total number of songs is:\n8 albums * 9 songs per album = 72 songs\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to calculate the total number of albums and then multiply it by the number of songs per album.\n\nNumber of albums = 6 (country) + 2 (pop) = 8 albums\nNumber of songs per album = 9\n\nTotal number of songs = Number of albums * Number of songs per album\n= 8 * 9\n= 72\n\nJanet bought 72 songs in total.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of albums by the number of songs per album.\n\nNumber of albums: 6\nNumber of songs per album: 9\n\nTotal number of songs = Number of albums * Number of songs per album\n= 6 * 9\n= 54\n\nSo Janet bought 54 songs.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to calculate the total number of albums and then multiply it by the number of songs per album.\n\nJanet bought 6 country albums and 2 pop albums. \n\n6 country albums * 9 songs per album = 54 songs\n2 pop albums * 9 songs per album = 18 songs\n\nTotal songs = 54 + 18 = 72 songs\n\nJanet bought a total of 72 songs.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the total number of songs Janet bought, we need to multiply the number of country albums by the number of songs per album and then add the number of pop albums by the number of songs per album.\n\nNumber of country albums: 6\nNumber of songs per country album: 9\nTotal number of country albums: 6 * 9 = 54\n\nNumber of pop albums: 2\nNumber of songs per pop album: 9\nTotal number of pop albums: 2 * 9 = 18\n\nTotal number of songs: 54 + 18 = 72\n\nJanet bought 72 songs in total.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    }
+  ]
+}

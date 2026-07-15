@@ -1,0 +1,26 @@
+{
+  "question": "Alain's mom bought 5 packs of red pens and also bought twice the amount of black pens than the red. If each pack has 5 pens, how many pens does Alain have?",
+  "ground_truth": "75.0",
+  "prefix": "6]-$7",
+  "prefix_token_ids": [
+    21,
+    69495,
+    22
+  ],
+  "baseline_token_id": 22,
+  "target_token_id": 21,
+  "baseline_logit_diff": -0.875,
+  "clean_logit_diff": -0.125,
+  "adv_logit_diff": 0.625,
+  "best_logit_diff": 0.625,
+  "clean_text": "assistant\n### 75 ",
+  "clean_answer": 75.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 45 ",
+  "adv_answer": 45.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.625
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": " Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total? ",
+  "ground_truth": "28.0",
+  "prefix": " drafted welcome thr 808_>",
+  "prefix_token_ids": [
+    15937,
+    7062,
+    5636,
+    41241,
+    49029
+  ],
+  "baseline_token_id": 2579,
+  "target_token_id": 3933,
+  "baseline_logit_diff": -2.96875,
+  "clean_logit_diff": -9.0078125,
+  "adv_logit_diff": 2.1875,
+  "best_logit_diff": 2.1875,
+  "clean_text": "Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total?\n### 28",
+  "clean_answer": 28.0,
+  "clean_correct": true,
+  "adv_text": "drafted welcome thr 808_>Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total?\n### 324",
+  "adv_answer": 324.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.5,
+    -5.5,
+    -1.96875,
+    -1.46875,
+    -1.46875,
+    -1.46875,
+    -1.46875,
+    -1.46875,
+    -1.46875,
+    -1.46875,
+    -1.46875,
+    -1.46875,
+    -1.46875,
+    -1.46875,
+    0.84375,
+    2.1875
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question": " There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+  "ground_truth": "24.0",
+  "prefix": " drafted jet Kitty68v",
+  "prefix_token_ids": [
+    15937,
+    12644,
+    21168,
+    3104,
+    85
+  ],
+  "baseline_token_id": 1987,
+  "target_token_id": 1542,
+  "baseline_logit_diff": 2.0625,
+  "clean_logit_diff": -6.40625,
+  "adv_logit_diff": 4.494140625,
+  "best_logit_diff": 4.494140625,
+  "clean_text": "There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total?\n### 24",
+  "clean_answer": 24.0,
+  "clean_correct": true,
+  "adv_text": "drafted jet Kitty68vThere were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total?\n### 48",
+  "adv_answer": 48.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    4.494140625
+  ]
+}

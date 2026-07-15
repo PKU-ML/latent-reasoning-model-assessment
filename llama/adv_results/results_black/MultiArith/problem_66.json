@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 66,
+  "question": " There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+  "ground_truth": "6.0",
+  "baseline_correct": true,
+  "baseline_answer": 6.0,
+  "best_rewrite": "A year has 12 months.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+  "best_fact": "A year has 12 months.",
+  "best_pred_answer": 48.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 21,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "April has 30 days.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many students are in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal students = 65\nStudents not picked = 17\nStudents in groups = Total students - Students not picked\nStudents in groups = 65 - 17\nStudents in groups = 48\n\nSince there are 8 groups, we can divide the number of students in groups by 8 to find out how many students are in each group.\n\nStudents in each group = Students in groups / 8\nStudents in each group = 48 / 8\nStudents in each group = 6\n\nSo, there would be 6 students in each group.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students trying out.\n\nTotal students trying out = 65\nStudents not picked = 17\n\nStudents in groups = Total students - Students not picked\n= 65 - 17\n= 48\n\nNow, we need to divide the remaining students by the number of groups to find the number of students in each group.\n\nStudents in each group = Students in groups / Number of groups\n= 48 / 8\n= 6\n\nSo, there would be 6 students in each group.\nSo the answer is \\boxed{There would be 6 students in each group.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal students = 65\nStudents not picked = 17\nStudents in groups = Total students - Students not picked\nStudents in groups = 65 - 17\nStudents in groups = 48\n\nSince there are 8 groups, we can divide the number of students in groups by 8 to find the number of students in each group.\n\nStudents in each group = Students in groups / 8\nStudents in each group = 48 / 8\nStudents in each group = 6\n\nSo, there would be 6 students in each group.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A year has 12 months.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "A week has 7 days.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal students = 65\nStudents not picked = 17\nStudents in groups = Total students - Students not picked\nStudents in groups = 65 - 17\nStudents in groups = 48\n\nSince there are 8 groups, we can divide the number of students in groups by 8 to find the number of students in each group.\n\nStudents in each group = Students in groups / 8\nStudents in each group = 48 / 8\nStudents in each group = 6\n\nSo, there would be 6 students in each group.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "An hour has 60 minutes.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students who didn't get picked = 17\n\nNumber of students in each group = Total number of students - Number of students who didn't get picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "A minute has 60 seconds.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find out how many students are in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There are 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "A year has 365 days.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students trying out.\n\nTotal students trying out = 65\nStudents not picked = 17\n\nStudents in each group = Total students - Students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "An adult has 32 teeth.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how many students are in each group, we need to first find out how many students were picked for the teams. \n\nThere are 32 teeth and 17 students didn't get picked, so the number of students picked is 32 - 17 = 15.\n\nSince there are 8 groups, we can divide the number of students picked by 8 to find out how many students are in each group:\n\n15 students / 8 groups = 1.875 students per group\n\nSince you can't have a fraction of a student, we can round down to 1 student per group.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "China has 1.4 billion people.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal students = 1,400,000\nStudents not picked = 17\nStudents in groups = Total students - Students not picked\nStudents in groups = 1,400,000 - 17\nStudents in groups = 1,399,983\n\nNow, we need to divide the number of students in groups by the number of groups to find the number of students in each group.\n\nStudents in each group = Students in groups / Number of groups\nStudents in each group = 1,399,983 / 8\nStudents in each group = 173,994.875\n\nSince we can't have a fraction of a student, we can round down to 173,994 students in each group.\nSo the answer is \\boxed{173,994",
+      "pred_answer": 994.0
+    },
+    {
+      "question": "Japan has 125 million people.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal students = 125 million\nStudents not picked = 17\nStudents in groups = Total students - Students not picked\nStudents in groups = 125,000,000 - 17\nStudents in groups = 124,993,983\n\nNow, we need to divide the number of students in groups by the number of groups to find the number of students in each group.\n\nStudents in each group = Students in groups / Number of groups\nStudents in each group = 124,993,983 / 8\nStudents in each group = 15,998,124.875\n\nSince we can't have a fraction of a student, we can round down to 15,998,124.\nSo the answer is \\boxed{The number of students in each group is approximately 15,998,124.",
+      "pred_answer": 124.0
+    },
+    {
+      "question": "The US has 50 states.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students trying out.\n\nTotal students trying out: 65\nStudents not picked: 17\n\nStudents in groups: 65 - 17 = 48\n\nTo find the number of students in each group, we divide the total number of students in groups by the number of groups:\n\n48 students / 8 groups = 6 students per group\n\nSo, there would be 6 students in each group.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The EU has 27 member states.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students trying out.\n\nTotal students trying out = 65\nStudents not picked = 17\n\nStudents in groups = Total students - Students not picked\n= 65 - 17\n= 48\n\nNow, we need to divide the remaining students by the number of groups to find the number of students in each group.\n\nStudents in each group = Students in groups / Number of groups\n= 48 / 8\n= 6\n\nSo, there would be 6 students in each group.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal students = 165 million\nStudents not picked = 17\nStudents in groups = Total students - Students not picked\nStudents in groups = 165,000,000 - 17\nStudents in groups = 164,993,983\n\nNow, we need to divide the number of students in groups by the number of groups to find the number of students in each group.\n\nStudents in each group = Students in groups / Number of groups\nStudents in each group = 164,993,983 / 8\nStudents in each group = 20,599,119.63\n\nSo, approximately 20,599,119 students would be in each group.\nSo the answer is \\boxed{The answer is approximately 20,599,119.",
+      "pred_answer": 119.0
+    },
+    {
+      "question": "The human body has 206 bones.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 206\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 206 - 17\n= 189\n\nSo, there would be 189 students in each group.\nSo the answer is \\boxed{There would be 189 students in each group.",
+      "pred_answer": 189.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of students in each group, we need to first find the total number of students who were picked for the teams. \n\nSince 17 students were not picked, the number of students picked is 65 - 17 = 48.\n\nNow, we divide the number of students picked by the number of groups to find the number of students in each group:\n\n48 students / 8 groups = 6 students per group.\n\nSo, there would be 6 students in each group.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students trying out.\n\nTotal students trying out = 65\nStudents not picked = 17\nStudents in groups = Total students - Students not picked\nStudents in groups = 65 - 17\nStudents in groups = 48\n\nNow, we need to divide the students in groups by the number of groups to find the number of students in each group.\n\nNumber of groups = 8\nStudents in each group = Students in groups / Number of groups\nStudents in each group = 48 / 8\nStudents in each group = 6\n\nSo, there would be 6 students in each group.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal number of students = 65\nNumber of students not picked = 17\n\nNumber of students in each group = Total number of students - Number of students not picked\n= 65 - 17\n= 48\n\nSo, there would be 48 students in each group.\nSo the answer is \\boxed{There would be 48 students in each group.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the number of students in each group, we need to subtract the number of students who didn't get picked from the total number of students.\n\nTotal students = 65\nStudents not picked = 17\n\nStudents in groups = Total students - Students not picked\n= 65 - 17\n= 48\n\nThere are 8 groups, so we need to divide the number of students in groups by 8 to find the number of students in each group.\n\nStudents in each group = Students in groups / 8\n= 48 / 8\n= 6\n\nSo, there would be 6 students in each group.\nSo the answer is \\boxed{There would be 6 students in each group.",
+      "pred_answer": 6.0
+    }
+  ]
+}

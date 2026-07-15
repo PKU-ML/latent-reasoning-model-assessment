@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 957,
+  "question": "Shawna's father is five times as old as Shawna. Shawna is currently three times as old as Aliya. If Aliya is 3 years old, how old is Shawna's father?",
+  "ground_truth": "45",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " kullanarak :\n controversy",
+  "prefix_token_ids": [
+    119559,
+    6394,
+    26654
+  ],
+  "best_wrong_prob": 3.850699786075394e-23,
+  "clean_text": "To find Shawna's father's age, we need to first find Aliya's age and then multiply it by 5. \n\nAliya is 3 years old. \nShawna is 3 times as old as Aliya, so Shawna is 3 * 3 = 9 years old.\n\nNow, we multi",
+  "clean_pred": 45.0,
+  "clean_correct": true,
+  "adv_text": "Shawna's father is 5 * 3 = 15 years old.\n\nSince Shawna is 3 times as old as Aliya, Shawna's age is 3 * 3 = 9 years old.\n\nSo, Shawna's father is 15 years old.\nSo the answer is \\boxed{15",
+  "adv_pred": 15.0,
+  "adv_correct": false,
+  "attack_success": true
+}

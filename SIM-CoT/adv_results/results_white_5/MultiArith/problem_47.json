@@ -1,0 +1,29 @@
+{
+  "question": " The cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make? ",
+  "ground_truth": "9.0",
+  "prefix": " DiaERG 83 wanting Jeremy",
+  "prefix_token_ids": [
+    49838,
+    49837,
+    9698,
+    10291,
+    11753
+  ],
+  "baseline_token_id": 860,
+  "target_token_id": 513,
+  "baseline_logit_diff": -6.203125,
+  "clean_logit_diff": -10.65625,
+  "adv_logit_diff": 4.234375,
+  "best_logit_diff": 4.234375,
+  "clean_text": "The cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make?\n### 9",
+  "clean_answer": 9.0,
+  "clean_correct": true,
+  "adv_text": "DiaERG 83 wanting JeremyThe cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make?\n### 6",
+  "adv_answer": 6.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -3.828125,
+    4.234375
+  ]
+}

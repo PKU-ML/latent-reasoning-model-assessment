@@ -1,0 +1,28 @@
+{
+  "question": "Alain's mom bought 5 packs of red pens and also bought twice the amount of black pens than the red. If each pack has 5 pens, how many pens does Alain have?",
+  "ground_truth": "75.0",
+  "prefix": " solveslifePhilidia expires",
+  "prefix_token_ids": [
+    39107,
+    6042,
+    18673,
+    38513,
+    27396
+  ],
+  "baseline_token_id": 5441,
+  "target_token_id": 1679,
+  "baseline_logit_diff": -6.390625,
+  "clean_logit_diff": -4.515625,
+  "adv_logit_diff": 10.625,
+  "best_logit_diff": 10.625,
+  "clean_text": "Alain's mom bought 5 packs of red pens and also bought twice the amount of black pens than the red. If each pack has 5 pens, how many pens does Alain have?\n### 75",
+  "clean_answer": 75.0,
+  "clean_correct": true,
+  "adv_text": "solveslifePhilidia expiresAlain's mom bought 5 packs of red pens and also bought twice the amount of black pens than the red. If each pack has 5 pens, how many pens does Alain have?\n### 15",
+  "adv_answer": 15.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    10.625
+  ]
+}

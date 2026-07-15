@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 555,
+  "question": "John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+  "ground_truth": "2.0",
+  "baseline_correct": true,
+  "baseline_answer": 2.0,
+  "best_rewrite": "The current temperature is 20 degrees. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+  "best_fact": "The current temperature is 20 degrees.",
+  "best_pred_answer": 0.07,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 7,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the target savings by that amount.\n\nJohn works 5 hours a day for 4 days a week, so he works a total of 5 * 4 = 20 hours per week.\n\nSince he gets paid $2 per hour, his total earnings per week are 20 hours * $2/hour = $40 per week.\n\nTo find out how many weeks it will take him to save $80, we divide the target savings by his weekly earnings: $80 / $40 per week = 2 weeks.\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "April has 30 days. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his weekly savings.\n\nFirst, let's calculate his daily savings:\n- He works 5 hours a day for 4 days a week, so his daily savings is 5 hours * 4 days = 20 hours.\n- Since he gets paid $2 per hour, his daily savings is 20 hours * $2/hour = $40.\n\nNow, let's calculate his weekly savings:\n- $40 * 4 days = $160 per week.\n\nTo find out how many weeks it will take him to save $80, we need to divide the amount he wants to save ($80) by his weekly savings ($160):\n- $80 / $160 = 0.5 weeks.\n\nSo, it will take John 0.5 weeks to save $80.\nSo the answer is \\boxed{0 weeks",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the amount he wants to save by that amount.\n\nJohn works 5 hours a day for 4 days a week, so he works a total of 5 * 4 = 20 hours per week.\n\nHis hourly wage is $2, so his weekly earnings are 20 hours * $2/hour = $40 per week.\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save ($80) by his weekly earnings ($40):\n\n$80 / $40 = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Today is the 3rd of the month. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the target savings by that amount.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his weekly earnings are:\n20 hours/week * $2/hour = $40/week\n\nTo find out how many weeks it will take to save $80, we divide the target savings by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily savings and then divide it by the number of days he works in a week.\n\nJohn's daily savings:\n- He gets paid $2 per hour.\n- He works 5 hours a day.\n- He works 4 days a week.\n- So, his daily savings = $2 * 5 hours * 4 days = $40 per day.\n\nNow, let's divide his daily savings by the amount he wants to save:\n$40 per day / $80 per week = 0.5 weeks per day.\n\nSince there are 7 days in a week, we can convert 0.5 weeks to weeks by dividing by 7:\n0.5 weeks / 7 days per week = 0.07 weeks per day.\n\nTherefore, it will take John 0.07 weeks to save $80.\nSo the answer is \\boxed{0.07",
+      "pred_answer": 0.07
+    },
+    {
+      "question": "A year has 12 months. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his weekly earnings are:\n20 hours/week * $2/hour = $40/week\n\nTo find out how many weeks it will take him to save $80, we can divide the amount he wants to save by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A week has 7 days. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the target savings by that amount.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his weekly earnings are:\n20 hours/week * $2/hour = $40/week\n\nTo find out how many weeks it will take him to save $80, we divide the target savings by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "An hour has 60 minutes. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the target savings by that amount.\n\nJohn works 5 hours a day for 4 days a week, so he works 5 * 4 = 20 hours per week.\n\nSince he gets paid $2 per hour, his weekly earnings are 20 hours * $2/hour = $40 per week.\n\nTo find out how many weeks it will take him to save $80, we divide the target savings by his weekly earnings: $80 / $40 per week = 2 weeks.\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A minute has 60 seconds. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily savings and then divide it by the number of days he works in a week.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his daily earnings are:\n$2/hour * 20 hours/week = $40/week\n\nTo find out how many weeks it will take him to save $80, we divide his daily savings by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A year has 365 days. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily savings and then divide it by the number of days he works per week.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his daily earnings are:\n$2/hour * 20 hours/week = $40/week\n\nTo find out how many weeks it will take him to save $80, we can divide the amount he wants to save by his daily earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily earnings and then divide the amount he wants to save by his daily earnings.\n\nDaily earnings = $2/hour * 5 hours/day = $10/day\nWeekly earnings = $10/day * 4 days/week = $40/week\n\nTo find out how many weeks it will take to save $80, we can divide the amount he wants to save by his weekly earnings:\n\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2 weeks",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily earnings and then divide the amount he wants to save by his daily earnings.\n\nDaily earnings = $2/hour * 5 hours = $10\nWeekly earnings = $10 * 4 days = $40\n\nTo find out how many weeks it will take him to save $80, we can divide the amount he wants to save by his weekly earnings:\n\n$80 / $40 = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2 weeks",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the amount he wants to save by that amount.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his weekly earnings are:\n20 hours/week * $2/hour = $40/week\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily earnings and then divide the amount he wants to save by his daily earnings.\n\nDaily earnings = $2/hour * 5 hours = $10\nWeekly earnings = $10 * 4 days = $40\n\nTo find out how many weeks it will take to save $80, we can divide the amount he wants to save by his weekly earnings:\n\n$80 / $40 = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2 weeks",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The human heart has 4 chambers. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the amount he wants to save by that amount.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his weekly earnings are:\n20 hours/week * $2/hour = $40/week\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "An adult has 32 teeth. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the amount he wants to save by that amount.\n\nJohn works 5 hours a day for 4 days a week, so he works a total of 5 * 4 = 20 hours per week.\n\nHis hourly wage is $2, so his weekly earnings are 20 hours * $2/hour = $40 per week.\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save ($80) by his weekly earnings ($40):\n\n$80 / $40 = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "China has 1.4 billion people. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily savings and then divide it by the number of days he works in a week.\n\nJohn's daily savings:\n- He works 5 hours a day for 4 days a week, so his daily earnings are 5 hours * 4 days = 20 hours.\n- His hourly wage is $2, so his daily savings are 20 hours * $2/hour = $40.\n\nNow, let's divide his daily savings by the amount he wants to save:\n$40 (daily savings) / $80 (target savings) = 0.5 weeks\n\nSince there are 7 days in a week, we can convert 0.5 weeks to weeks by dividing by 7:\n0.5 weeks / 7 days/week = 0.07 weeks\n\nSo, it will take John approximately 0.07 weeks to save $80.\nSo the answer is \\boxed{0.07",
+      "pred_answer": 0.07
+    },
+    {
+      "question": "Japan has 125 million people. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily savings and then divide it by the number of days he works per week.\n\nJohn's daily savings:\n- He works 5 hours a day for 4 days a week, so his daily earnings are 5 hours * 4 days = 20 hours.\n- His hourly wage is $2, so his daily savings are 20 hours * $2/hour = $40.\n\nNow, let's divide his daily savings by the number of days he works per week:\n$40 / 20 days = $2 per week\n\nTo find out how many weeks it will take John to save $80, we can divide the target savings by his weekly savings:\n$80 / $2 per week = 40 weeks\n\nTherefore, it will take John 40 weeks to save $80.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The US has 50 states. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the amount he wants to save by that amount.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his weekly earnings are:\n20 hours/week * $2/hour = $40/week\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The EU has 27 member states. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily earnings and then divide the amount he wants to save by his daily earnings.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his daily earnings are:\n$2/hour * 20 hours/week = $40/week\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save by his daily earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily earnings and then divide the amount he wants to save by his daily earnings.\n\nDaily earnings = $2/hour * 5 hours/day = $10/day\nNumber of days in a week = 4 days/week\nDaily savings = $80\nWeekly savings = $80 / $10/day = $8/day\n\nNow, let's divide the weekly savings by the daily savings to find out how many weeks it will take:\n\nWeekly savings / Daily savings = $8/day / $10/day = 0.8 weeks\n\nSince 0.8 weeks is equivalent to 4 weeks, it will take John 4 weeks to save $80.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily earnings and then divide the amount he wants to save by his daily earnings.\n\nDaily earnings = $2/hour * 5 hours/day = $10/day\nNumber of days he works per week = 4 days/week\nDaily savings = $80\nWeekly savings = $80 / $10/day = $8/day\n\nTo find out how many weeks it will take him to save $80, we can divide the amount he wants to save by his daily savings:\nNumber of weeks = $80 / $8/day = 10 days\n\nTherefore, it will take John 10 weeks to save $80.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily savings and then divide it by the number of hours he works per week.\n\nFirst, let's calculate his daily savings:\nDaily savings = Hourly wage * Hours worked per day\n= $2 * 5 hours\n= $10 per day\n\nNow, let's calculate his weekly savings:\nWeekly savings = Daily savings * 4 days\n= $10 * 4\n= $40 per week\n\nTo find out how many weeks it will take him to save $80, we can divide the target savings by his weekly savings:\nNumber of weeks = Target savings / Weekly savings\n= $80 / $40\n= 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The human body has 206 bones. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the amount he wants to save by that amount.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his weekly earnings are:\n20 hours/week * $2/hour = $40/week\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the amount he wants to save by that amount.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he gets paid $2 per hour, his weekly earnings are:\n20 hours/week * $2/hour = $40/week\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the amount he wants to save by that amount.\n\nJohn works 5 hours a day for 4 days a week, so his daily earnings are:\n5 hours/day * 4 days/week = 20 hours/week\n\nSince he earns $2 per hour, his weekly earnings are:\n20 hours/week * $2/hour = $40/week\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily earnings and then divide the amount he wants to save by his daily earnings.\n\nDaily earnings = $2/hour * 5 hours/day = $10/day\nWeekly earnings = $10/day * 4 days/week = $40/week\n\nTo find out how many weeks it will take to save $80, we can divide the amount he wants to save by his weekly earnings:\n$80 / $40/week = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the amount he wants to save by that amount.\n\nJohn works 5 hours a day for 4 days a week, so he works a total of 5 * 4 = 20 hours per week.\n\nHis hourly wage is $2, so his weekly earnings are 20 hours * $2/hour = $40 per week.\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save ($80) by his weekly earnings ($40):\n\n$80 / $40 = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his total earnings per week and then divide the amount he wants to save by that amount.\n\nJohn works 5 hours a day for 4 days a week, so he works a total of 5 * 4 = 20 hours per week.\n\nSince he gets paid $2 per hour, his total earnings per week are 20 hours * $2/hour = $40 per week.\n\nTo find out how many weeks it will take him to save $80, we divide the amount he wants to save ($80) by his weekly earnings ($40):\n\n$80 / $40 = 2 weeks\n\nTherefore, it will take John 2 weeks to save $80.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. John plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find out how many weeks it will take John to save $80, we need to calculate his daily savings and then divide it by the number of days he works in a week.\n\nJohn's daily savings:\n- He works 5 hours a day for 4 days a week, so his daily earnings are 5 hours * 4 days = 20 hours.\n- His daily savings are 20 hours * $2 per hour = $40 per day.\n\nNow, let's divide his daily savings by the number of days he works in a week:\n$40 per day / 4 days per week = $10 per week\n\nTo find out how many weeks it will take John to save $80, we can divide the amount he wants to save ($80) by his weekly savings ($10):\n$80 / $10 per week = 8 weeks\n\nTherefore, it will take John 8 weeks to save $80.\nSo the answer is \\boxed{8 weeks",
+      "pred_answer": 8.0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question": "Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+  "ground_truth": "39.0",
+  "prefix": " drafted world Essex HW 75",
+  "prefix_token_ids": [
+    15937,
+    995,
+    38307,
+    44884,
+    5441
+  ],
+  "baseline_token_id": 5014,
+  "target_token_id": 4353,
+  "baseline_logit_diff": 7.453125,
+  "clean_logit_diff": -5.171875,
+  "adv_logit_diff": 13.79296875,
+  "best_logit_diff": 13.79296875,
+  "clean_text": "Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?\n### 39",
+  "clean_answer": 39.0,
+  "clean_correct": true,
+  "adv_text": "drafted world Essex HW 75Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?\n### 38",
+  "adv_answer": 38.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    13.79296875
+  ]
+}

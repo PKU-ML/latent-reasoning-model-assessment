@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 314,
+  "question": "A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+  "ground_truth": "30.0",
+  "baseline_correct": true,
+  "baseline_answer": 30.0,
+  "best_rewrite": "A year has 365 days. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+  "best_fact": "A year has 365 days.",
+  "best_pred_answer": 104.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 8,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides of the equation by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n\nCombine like terms:\n\n7x = 210\n\nDivide both sides by 7:\n\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "April has 30 days. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on the offense, defense, and special teams. We know that the total number of players is 105, so we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides of the equation by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7 to solve for x:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n\nCombine like terms:\n\n7x = 210\n\nDivide both sides by 7:\n\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Today is the 3rd of the month. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on the offense, defense, and special teams, which is 105. So, we can set up the equation:\n\n2x + x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n4x + 2x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7 to solve for x:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on the offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A year has 12 months. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on the offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n\nCombine like terms:\n\n7x = 210\n\nDivide both sides by 7:\n\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A week has 7 days. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on the offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7 to solve for x:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "An hour has 60 minutes. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on the offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides of the equation by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7 to solve for x:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A minute has 60 seconds. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To solve this problem, let's start by letting the number of players on the defense be x. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there are half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players on the team is the sum of the players on the offense, defense, and special teams. We know that the total number of players is 105, so we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides of the equation by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7 to solve for x:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A year has 365 days. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on the offense, defense, and special teams. We know that the total number of players is 365, so we can set up the equation:\n\nx + 2x + x/2 = 365\n\nTo solve for x, we can multiply both sides of the equation by 2 to eliminate the fraction:\n\n2x + 4x + x = 730\n\nCombine like terms:\n\n7x = 730\n\nDivide both sides by 7:\n\nx = 730/7\nx = 104\n\nSo, there are 104 players on the defense.\nSo the answer is \\boxed{There are 104 players on the defense.",
+      "pred_answer": 104.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To solve this problem, let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides of the equation by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n\nCombine like terms:\n\n7x = 210\n\nDivide both sides by 7:\n\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides of the equation by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7 to solve for x:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n\nCombine like terms:\n\n7x = 210\n\nDivide both sides by 7:\n\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\n2x + x + x/2 = 105\n\nTo solve for x, we can multiply both sides of the equation by 2 to eliminate the fraction:\n\n4x + 2x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7 to solve for x:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The human heart has 4 chambers. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To solve this problem, let's start by letting the number of players on the defense be x. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nWe know that the total number of players is 105, so we can set up the equation:\n\nx + 2x + x/2 + 2x = 105\n\nCombine like terms:\n\n5x + x/2 = 105\n\nMultiply both sides by 2 to eliminate the fraction:\n\n10x + x = 210\n\nCombine like terms:\n\n11x = 210\n\nDivide both sides by 11:\n\nx = 210/11\nx = 19.18\n\nSince the number of players on the defense must be a whole number, we round down to 19.\n\nSo, there are 19 players on the defense.\nSo the answer is \\boxed{There are 19 players on the defense.",
+      "pred_answer": 19.0
+    },
+    {
+      "question": "An adult has 32 teeth. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To solve this problem, let's start by letting 'd' be the number of players on the defense. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2d.\n\nSince there are half the number of players on the special teams as there is on the defense, the number of players on the special teams is d/2.\n\nThe total number of players on the team is the sum of the players on the offense, defense, and special teams. We know that the total number of players is 32, so we can set up the equation:\n\nd + 2d + d/2 = 32\n\nTo solve for d, we can multiply both sides of the equation by 2 to eliminate the fraction:\n\n2d + 4d + d = 64\n\nCombine like terms:\n\n7d = 64\n\nDivide both sides by 7:\n\nd = 64/7\nd = 9.14 (round to 2 decimal places)\n\nSince d represents the number of players on the defense, we can round it to the nearest whole number. In this case, d = 9.\n\nTherefore, there are 9 players on the defense.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "China has 1.4 billion people. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there are half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nWe know that the total number of players is 1.4 billion. We can set up the equation:\n\nx + 2x + x/2 = 1,400,000,000\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 2,800,000,000\n\nCombine like terms:\n\n7x = 2,800,000,000\n\nDivide both sides by 7:\n\nx = 400,000,000\n\nSo, there are 400 million players on the defense.\nSo the answer is \\boxed{There are 400 million players on the defense.",
+      "pred_answer": 400.0
+    },
+    {
+      "question": "Japan has 125 million people. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there are half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nWe know that the total number of players is 125, so we can set up the equation:\n\nx + 2x + x/2 = 125\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 250\n\nCombine like terms:\n\n7x = 250\n\nDivide both sides by 7:\n\nx = 250/7\nx = 35.71\n\nSince the number of players must be a whole number, we round down to 35.\nSo the answer is \\boxed{There are 35 players on the defense.",
+      "pred_answer": 35.0
+    },
+    {
+      "question": "The US has 50 states. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there are half the number of players on the special teams as there is on the defense, the number of players on special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n\nCombine like terms:\n\n7x = 210\n\nDivide both sides by 7:\n\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The EU has 27 member states. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams, which is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, divide both sides by 7:\n\nx = 210/7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\n2x + x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n4x + 2x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams, which is 2x + x + x/2 = 165 million km².\n\nTo solve for x, we can multiply both sides by 2 to get rid of the fraction:\n2(2x + x + x/2) = 2(165 million km²)\n4x + 2x + x = 330 million km²\n7x = 330 million km²\n\nNow, divide both sides by 7:\nx = 330 million km² / 7\nx = 47.14 million\n\nSince x represents the number of players on the defense, we can round it to the nearest whole number.\nSo the answer is \\boxed{The number of players on the defense is approximately 47 million.",
+      "pred_answer": 47.0
+    },
+    {
+      "question": "The human body has 206 bones. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To solve this problem, let's start by using the information that there are twice as many players on the offense as there is on the defense. Let's call the number of players on the defense 'x'. Since there are twice as many players on the offense, the number of players on the offense is 2x.\n\nWe also know that there are half the number of players on the special teams as there is on the defense. Let's call the number of players on the special teams 'y'. Since there are half the number of players on the special teams as there is on the defense, the number of players on the special teams is y = x/2.\n\nWe know that the total number of players is 105, so we can set up the equation:\n\nx + 2x + y = 105\n\nWe can substitute y = x/2 into the equation:\n\nx + 2x + x/2 = 105\n\nTo simplify the equation, we can multiply both sides by 2:\n\n2x + 4x + x = 210\n\nCombine like terms:\n\n7x = 210\n\nDivide both sides by 7:\n\nx = 30\n\nNow that we know the number of players on the defense is 30, we can find the number of players on the special teams:\n\ny = x/2\ny = 30/2\ny = 15\n\nTherefore, there are 30 players on the defense and 15 players on the special teams.\nSo the answer is \\boxed{There are 15 players on the special teams.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides of the equation by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n\nCombine like terms:\n\n7x = 210\n\nDivide both sides by 7:\n\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To solve this problem, let's start by letting 'd' be the number of players on the defense. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2d.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on special teams is d/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We can write this as:\n\nd + 2d + d/2 = 105\n\nTo simplify the equation, we can multiply both sides by 2 to get rid of the fraction:\n\n2d + 4d + d = 210\n\nCombine like terms:\n\n7d = 210\n\nNow, divide both sides by 7:\n\nd = 210 / 7\nd = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To solve this problem, let's start by using the information that there are twice as many players on the offense as there is on the defense. Let's call the number of players on the defense 'x'. Since there are twice as many players on the offense, the number of players on the offense is 2x.\n\nWe know that the total number of players is 105, so we can set up the equation:\n\nx + 2x + y = 105\n\nwhere y is the number of players on the special teams.\n\nWe also know that the number of players on the special teams is half the number of players on the defense, so y = x/2.\n\nNow we can substitute y = x/2 into the first equation:\n\nx + 2x + x/2 = 105\n\nCombine like terms:\n\n3.5x + x = 105\n\nCombine x:\n\n4.5x = 105\n\nDivide both sides by 4.5:\n\nx = 23\n\nNow that we know x, we can find y:\n\ny = x/2\ny = 23/2\ny = 11.5\n\nSo there are 11.5 players on the defense.\nSo the answer is \\boxed{11.5",
+      "pred_answer": 11.5
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on special teams is x/2.\n\nWe know that the total number of players is 105, so we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is half the number of players on the special teams as there is on the defense, the number of players on the special teams is x/2.\n\nThe total number of players is the sum of players on offense, defense, and special teams. We know that the total number of players is 105. So, we can set up the equation:\n\nx + 2x + x/2 = 105\n\nTo solve for x, we can multiply both sides by 2 to eliminate the fraction:\n\n2x + 4x + x = 210\n7x = 210\n\nNow, we can divide both sides by 7:\n\nx = 210 / 7\nx = 30\n\nSo, there are 30 players on the defense.\nSo the answer is \\boxed{There are 30 players on the defense.",
+      "pred_answer": 30.0
+    }
+  ]
+}

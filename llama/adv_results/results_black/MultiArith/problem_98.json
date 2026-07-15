@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 98,
+  "question": " Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+  "ground_truth": "6.0",
+  "baseline_correct": true,
+  "baseline_answer": 6.0,
+  "best_rewrite": "The Nile is about 6650 km long.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+  "best_fact": "The Nile is about 6650 km long.",
+  "best_pred_answer": 18.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 15,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to calculate the points earned per hour and then multiply it by the number of hours worked.\n\nGwen earned 5 pounds, so she earned 5 points.\nHer friends earned 13 pounds, so they earned 13 points.\n\nSince there are 24 hours in a day, we can divide the points earned by the number of hours worked to find the points per hour.\n\n5 points / 24 hours = 0.2083 points per hour (approximately)\n\nNow, we can multiply the points per hour by the number of hours worked to find the total points earned.\n\n0.2083 points per hour * 24 hours = 5 points\n\nSo, Gwen and her friends earned 5 points.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "April has 30 days.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound.\n\nGwen recycled 5 pounds, so she earned 5 points.\nHer friends recycled 13 pounds, so they earned 13 points.\n\nTotal points earned = 5 + 13 = 18\n\nThey earned a total of 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to add the points earned by Gwen and her friends. \n\nGwen earned 5 points for recycling 5 pounds. \nHer friends earned 13 pounds, so they earned 13 points.\n\nTotal points earned = Gwen's points + friends' points\nTotal points earned = 5 + 13\nTotal points earned = 18\n\nThey earned 18 points in total.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound. \n\nGwen recycled 5 pounds, and her friends recycled 13 pounds. \n\n5 pounds * 1 point/pound = 5 points\n13 pounds * 1 point/pound = 13 points\n\nTotal points earned = 5 + 13 = 18 points\n\nThey earned 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound. \n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points. \n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points.\n\nTo find the total points earned, we add Gwen's points and her friends' points: 1.67 + 4.33 = 6.00 points.\n\nSo, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A year has 12 months.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add Gwen's points and her friends' points:\n1.67 + 4.33 = 6 points\n\nTherefore, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A week has 7 days.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add Gwen's points and her friends' points:\n1.67 + 4.33 = 6.00 points\n\nSo, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "An hour has 60 minutes.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add Gwen's points and her friends' points:\n1.67 + 4.33 = 6.00 points\n\nSo, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A minute has 60 seconds.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add Gwen's points and her friends' points:\n1.67 + 4.33 = 6.00 points\n\nSo, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A year has 365 days.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to calculate the points earned per pound and then multiply it by the total pounds recycled.\n\nGwen earned 5 pounds, and for every 3 pounds, she earned 1 point. So, the points earned per pound is 5 / 3 = 1.67 points per pound.\n\nHer friends earned 13 pounds, so the points earned per pound is 13 / 13 = 1 point per pound.\n\nNow, let's calculate the total points earned:\nGwen's points: 5 pounds * 1 point/pound = 5 points\nFriends' points: 13 pounds * 1 point/pound = 13 points\n\nTotal points earned = Gwen's points + Friends' points = 5 + 13 = 18 points\n\nSo, Gwen and her friends earned a total of 18 points.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, so she earned 5 points.\nHer friends recycled 13 pounds, so they earned 13 points.\n\nTotal points earned = 5 + 13 = 18\n\nThey earned a total of 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound. \n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points. \n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points.\n\nTo find the total points earned, we add Gwen's points and her friends' points: 1.67 + 4.33 = 6 points.\n\nTherefore, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound.\n\nGwen recycled 5 pounds, so she earned 5 points.\nHer friends recycled 13 pounds, so they earned 13 points.\n\nTotal points earned = 5 + 13 = 18\n\nThey earned a total of 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound.\n\nGwen recycled 5 pounds, so she earned 5 points.\nHer friends recycled 13 pounds, so they earned 13 points.\n\nTotal points earned = 5 + 13 = 18\n\nThey earned a total of 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add Gwen's points and her friends' points:\n1.67 + 4.33 = 6 points\n\nSo, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "An adult has 32 teeth.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound.\n\nGwen's points = 5 pounds * 1 point/pound = 5 points\nFriends' points = 13 pounds * 1 point/pound = 13 points\n\nTotal points = Gwen's points + Friends' points\nTotal points = 5 + 13\nTotal points = 18\n\nThey earned a total of 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "China has 1.4 billion people.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add Gwen's points and her friends' points:\n1.67 + 4.33 = 6.00 points\n\nSo, Gwen and her friends earned approximately 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Japan has 125 million people.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add the points earned by Gwen and her friends: 1.67 + 4.33 = 6 points.\n\nSo, they earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The US has 50 states.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add the points earned by Gwen and her friends: 1.67 + 4.33 = 6 points.\n\nTherefore, they earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The EU has 27 member states.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add the points earned by Gwen and her friends: 1.67 + 4.33 = 6 points.\n\nTherefore, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, so she earned 5 points.\nHer friends recycled 13 pounds, so they earned 13 points.\n\nTotal points earned = 5 + 13 = 18\n\nThey earned a total of 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, so she earned 5 points.\nHer friends recycled 13 pounds, so they earned 13 points.\n\nTotal points earned = 5 + 13 = 18\n\nThey earned a total of 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, so she earned 5 points.\nHer friends recycled 13 pounds, so they earned 13 points.\n\nTotal points earned = 5 + 13 = 18\n\nThey earned a total of 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The human body has 206 bones.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add Gwen's points and her friends' points:\n1.67 + 4.33 = 6 points\n\nSo, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add Gwen's points and her friends' points:\n1.67 + 4.33 = 6.00 points\n\nSo, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many points Gwen and her friends earned, we need to multiply the number of pounds they recycled by the number of points per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points, we add Gwen's points and her friends' points: 1.67 + 4.33 = 6 points.\n\nTherefore, Gwen and her friends earned 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, so she earned 5 points.\nHer friends recycled 13 pounds, so they earned 13 points.\n\nTotal points earned = 5 + 13 = 18\n\nThey earned a total of 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the total points earned, we need to multiply the number of pounds recycled by the points earned per pound.\n\nGwen recycled 5 pounds, and for every 3 pounds, she earned 1 point. So, for 5 pounds, she earned 5 / 3 = 1.67 points (approximately).\n\nHer friends recycled 13 pounds, and for every 3 pounds, they earned 1 point. So, for 13 pounds, they earned 13 / 3 = 4.33 points (approximately).\n\nTo find the total points earned, we add Gwen's points and her friends' points:\n1.67 + 4.33 = 6 points\n\nSo, Gwen and her friends earned a total of 6 points.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the total points earned, we need to add the points earned by Gwen and her friends. \n\nGwen earned 5 points for recycling 5 pounds. \nHer friends earned 13 pounds, so they earned 13 points.\n\nTotal points earned = 5 + 13 = 18\n\nThey earned 18 points in total.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find out how many points Gwen and her friends earned, we need to divide the total pounds they recycled by 3.\n\nGwen recycled 5 pounds, so she earned 5 points.\nHer friends recycled 13 pounds, so they earned 13 points.\n\n5 points + 13 points = 18 points\n\nThey earned a total of 18 points.\nSo the answer is \\boxed{18",
+      "pred_answer": 18.0
+    }
+  ]
+}

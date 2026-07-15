@@ -1,0 +1,28 @@
+{
+  "question": " Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total? ",
+  "ground_truth": "60.0",
+  "prefix": "raf Malta Essex HW Chel",
+  "prefix_token_ids": [
+    32188,
+    35206,
+    38307,
+    44884,
+    11425
+  ],
+  "baseline_token_id": 3126,
+  "target_token_id": 7930,
+  "baseline_logit_diff": 6.6875,
+  "clean_logit_diff": -1.1875,
+  "adv_logit_diff": 8.625,
+  "best_logit_diff": 8.625,
+  "clean_text": "Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total?\n### 60",
+  "clean_answer": 60.0,
+  "clean_correct": true,
+  "adv_text": "raf Malta Essex HW ChelPaige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total?\n### 66",
+  "adv_answer": 66.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    8.625
+  ]
+}

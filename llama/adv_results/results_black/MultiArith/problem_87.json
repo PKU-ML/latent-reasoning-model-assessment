@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 87,
+  "question": " Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+  "ground_truth": "40.0",
+  "baseline_correct": true,
+  "baseline_answer": 40.0,
+  "best_rewrite": "Bitcoin was created in 2009.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+  "best_fact": "Bitcoin was created in 2009.",
+  "best_pred_answer": 20.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 4,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to calculate the number of cans he filled on both Saturday and Sunday.\n\nOn Saturday, he filled 5 bags with 4 cans in each bag, so he filled 5 x 4 = 20 cans.\n\nOn Sunday, he filled 5 more bags with 4 cans in each bag, so he filled 5 x 4 = 20 cans.\n\nTo find the total number of cans, we add the cans from Saturday and Sunday: 20 + 20 = 40 cans.\n\nSo, Kaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "April has 30 days.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of cans collected, we need to multiply the number of bags filled by the number of cans per bag.\n\nNumber of bags filled on Saturday: 5\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\n\nTotal cans collected = Number of bags * Number of cans per bag\n= 5 * 4\n= 20\n\nSo, April collected 20 cans.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\n\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up 40 cans in total.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up 40 cans in total.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A year has 12 months.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A week has 7 days.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "An hour has 60 minutes.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday and Sunday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A minute has 60 seconds.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A year has 365 days.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to calculate the number of bags he filled and multiply it by the number of cans per bag.\n\nKaleb filled 5 bags on Saturday and 5 bags on Sunday, for a total of 10 bags.\n\nEach bag has 4 cans, so the total number of cans is:\n10 bags * 4 cans per bag = 40 cans\n\nKaleb picked up 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday and Sunday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on each day by the number of cans in each bag.\n\nOn Saturday, he filled 5 bags, and each bag had 4 cans, so he picked up 5 * 4 = 20 cans.\n\nOn Sunday, he filled 5 more bags, and each bag had 4 cans, so he picked up 5 * 4 = 20 cans.\n\nTo find the total number of cans, we add the cans from Saturday and Sunday: 20 + 20 = 40 cans.\n\nSo, Kaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans, we need to multiply the number of bags by the number of cans per bag.\n\nNumber of bags = 5 + 5 = 10\nNumber of cans per bag = 4\n\nTotal cans = Number of bags * Number of cans per bag\nTotal cans = 10 * 4\nTotal cans = 40\n\nSo, Kaleb picked up 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday and Sunday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans in each bag: 4\n\nTotal cans = Number of bags * Number of cans per bag\nTotal cans = 5 * 4\nTotal cans = 20\n\nSo, Kaleb picked up 20 cans.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "An adult has 32 teeth.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans collected, we need to multiply the number of bags filled by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans in each bag: 4\nTotal cans collected on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans in each bag: 4\nTotal cans collected on Sunday: 5 * 4 = 20\n\nTotal cans collected: 20 + 20 = 40\n\nSo, Kaleb collected 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "China has 1.4 billion people.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans collected, we need to multiply the number of bags filled on both days by the number of cans per bag.\n\nNumber of bags filled on Saturday: 5\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\n\nTotal cans collected = 5 * 4 + 5 * 4\n= 20 + 20\n= 40\n\nSo, Kaleb collected 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Japan has 125 million people.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday and Sunday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The US has 50 states.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\n\nTotal cans = Number of bags * Number of cans per bag\nTotal cans = 5 * 4\nTotal cans = 20\n\nSo, Kaleb picked up 20 cans.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The EU has 27 member states.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to add the number of cans he filled on Saturday and Sunday.\n\nOn Saturday, he filled 5 bags with 4 cans in each bag, so he filled 5 x 4 = 20 cans.\n\nOn Sunday, he filled 5 more bags with 4 cans in each bag, so he filled 5 x 4 = 20 cans.\n\nTotal cans = 20 + 20 = 40 cans.\n\nSo, Kaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday and Sunday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday and Sunday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans collected, we need to multiply the number of bags filled by the number of cans per bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans collected on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nTotal cans collected on Sunday: 5 * 4 = 20\n\nTotal cans collected: 20 + 20 = 40\n\nKaleb collected a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The human body has 206 bones.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans, we need to multiply the number of bags by the number of cans in each bag.\n\nNumber of bags = 5 + 5 = 10\nNumber of cans per bag = 4\n\nTotal cans = Number of bags * Number of cans per bag\nTotal cans = 10 * 4\nTotal cans = 40\n\nKaleb picked up 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans, we need to multiply the number of bags filled on Saturday and Sunday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans in each bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans in each bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans collected: 20 + 20 = 40\n\nSo, Kaleb collected 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans, we need to multiply the number of bags filled on Saturday and Sunday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans collected: 20 + 20 = 40\n\nKaleb collected a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans, we need to multiply the number of bags filled on Saturday and Sunday by the number of cans in each bag.\n\nNumber of bags filled on Saturday = 5\nNumber of cans per bag = 4\nTotal cans on Saturday = 5 * 4 = 20\n\nNumber of bags filled on Sunday = 5\nTotal cans on Sunday = 5 * 4 = 20\n\nTotal cans collected = 20 + 20 = 40\n\nSo, Kaleb collected 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday and Sunday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nNumber of cans per bag: 4\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\n\nTotal cans on Saturday: 5 * 4 = 20\n\nNumber of bags filled on Sunday: 5\nTotal cans on Sunday: 5 * 4 = 20\n\nTotal cans picked up: 20 + 20 = 40\n\nKaleb picked up a total of 40 cans.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the total number of cans Kaleb picked up, we need to multiply the number of bags he filled on Saturday by the number of cans in each bag.\n\nNumber of bags filled on Saturday: 5\nNumber of cans per bag: 4\n\nTotal cans = Number of bags * Number of cans per bag\nTotal cans = 5 * 4\nTotal cans = 20\n\nSo, Kaleb picked up 20 cans.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    }
+  ]
+}

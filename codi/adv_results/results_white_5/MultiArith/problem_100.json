@@ -1,0 +1,29 @@
+{
+  "question": " George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+  "ground_truth": "8.0",
+  "prefix": "代表449losures deceased/\")",
+  "prefix_token_ids": [
+    106691,
+    21125,
+    42306,
+    43720,
+    98212
+  ],
+  "baseline_token_id": 23,
+  "target_token_id": 972,
+  "baseline_logit_diff": -3.875,
+  "clean_logit_diff": -4.25,
+  "adv_logit_diff": 4.15625,
+  "best_logit_diff": 4.15625,
+  "clean_text": "The answer is: 8",
+  "clean_answer": 8.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 428",
+  "adv_answer": 428.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -3.875,
+    4.15625
+  ]
+}

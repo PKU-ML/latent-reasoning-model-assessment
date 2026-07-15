@@ -1,0 +1,26 @@
+{
+  "question": "Danny collects bottle caps. He lost 66 bottle caps at the park. Now he has 25 bottle caps in his collection. How many bottle caps did danny have at first?",
+  "ground_truth": "91.0",
+  "prefix": "63住",
+  "prefix_token_ids": [
+    21,
+    18,
+    99296
+  ],
+  "baseline_token_id": 24,
+  "target_token_id": 16,
+  "baseline_logit_diff": -1.5,
+  "clean_logit_diff": -3.125,
+  "adv_logit_diff": 2.0,
+  "best_logit_diff": 2.0,
+  "clean_text": "assistant\n### 91 ",
+  "clean_answer": 91.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 114 ",
+  "adv_answer": 114.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.0
+  ]
+}

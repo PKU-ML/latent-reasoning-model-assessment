@@ -1,0 +1,24 @@
+{
+  "question": "A book has 3 chapters. The first chapter is 91 pages long the second chapter is 23 pages long and the third chapter is 25 pages long. How many more pages does the first chapter have than the second chapter?",
+  "ground_truth": "68.0",
+  "prefix": " print�#undef",
+  "prefix_token_ids": [
+    1194,
+    100992,
+    20464
+  ],
+  "baseline_logit_diff": -9.134414672851562,
+  "clean_logit_diff": -8.378345489501953,
+  "adv_logit_diff": 2.5222949981689453,
+  "best_logit_diff": 2.5222949981689453,
+  "clean_text": "Answer:68",
+  "clean_answer": "68",
+  "clean_correct": true,
+  "adv_text": "Answer:67",
+  "adv_answer": "67",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.5222949981689453
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question": "Brianne and Ashley make greek orange pie. Ashley brought five boxes with ten oranges in each box, while Brianne brought 20 more oranges than Ashley. If one greek orange pie needs three oranges, how many greek orange pies can they make?",
+  "ground_truth": "40.0",
+  "prefix": "593423 thousand",
+  "prefix_token_ids": [
+    22608,
+    19711,
+    16579
+  ],
+  "baseline_token_id": 1272,
+  "target_token_id": 2983,
+  "baseline_logit_diff": 0.875,
+  "clean_logit_diff": -7.875,
+  "adv_logit_diff": 3.21875,
+  "best_logit_diff": 3.21875,
+  "clean_text": "The answer is: 40",
+  "clean_answer": 40.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 421067",
+  "adv_answer": 421067.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.625,
+    -2.625,
+    3.21875
+  ]
+}

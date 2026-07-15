@@ -1,0 +1,26 @@
+{
+  "question": "Jamal's phone can hold 6 times more photographs than can Brittany's phone.  The maximum number of photographs that Brittany's phone can hold is 50 times more than the number of birds in Jamal's photograph of the ducks at the zoo.  If Jamal's phone can hold 1800 photographs, how many ducks can be seen in Jamal's photograph of ducks at the zoo?",
+  "ground_truth": "6.0",
+  "prefix": " disputed perish three",
+  "prefix_token_ids": [
+    21941,
+    42531,
+    1115
+  ],
+  "baseline_token_id": 718,
+  "target_token_id": 657,
+  "baseline_logit_diff": 4.8125,
+  "clean_logit_diff": -8.4765625,
+  "adv_logit_diff": 4.8125,
+  "best_logit_diff": 4.8125,
+  "clean_text": "Jamal's phone can hold 6 times more photographs than can Brittany's phone.  The maximum number of photographs that Brittany's phone can hold is 50 times more than the number of birds in Jamal's photograph of the ducks at the zoo.  If Jamal's phone can hold 1800 photographs, how many ducks can be seen in Jamal's photograph of ducks at the zoo?\n### 6",
+  "clean_answer": 6.0,
+  "clean_correct": true,
+  "adv_text": "disputed perish threeJamal's phone can hold 6 times more photographs than can Brittany's phone.  The maximum number of photographs that Brittany's phone can hold is 50 times more than the number of birds in Jamal's photograph of the ducks at the zoo.  If Jamal's phone can hold 1800 photographs, how many ducks can be seen in Jamal's photograph of ducks at the zoo?\n### 40",
+  "adv_answer": 40.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    4.8125
+  ]
+}

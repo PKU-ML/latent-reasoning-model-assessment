@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1049,
+  "question": "There are 50 books in a small library. Half of them are written in English, and 10% in German. All others are written in Spanish. How many Spanish books are there?",
+  "ground_truth": "20",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " stesso pov outrageous",
+  "prefix_token_ids": [
+    83688,
+    56314,
+    55588
+  ],
+  "best_wrong_prob": 3.7118953460936554e-14,
+  "clean_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total.",
+  "clean_pred": 20.0,
+  "clean_correct": true,
+  "adv_text": "Let's break it down step by step:\n\n- Half of the books are written in English, which means 50 / 2 = 25 books are written in English.\n- 10% of the books are written in German, which means 10% of 50 = 0",
+  "adv_pred": 20.0,
+  "adv_correct": true,
+  "attack_success": false
+}

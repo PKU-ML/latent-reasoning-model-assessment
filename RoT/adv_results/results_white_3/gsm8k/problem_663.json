@@ -1,0 +1,26 @@
+{
+  "question": "James delivers 600 newspapers in a day. He delivers 198 newspapers to District A, some to District B and 209 newspapers to District C. How many newspapers does he deliver to District B?",
+  "ground_truth": "193.0",
+  "prefix": "637",
+  "prefix_token_ids": [
+    21,
+    18,
+    22
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -0.25,
+  "clean_logit_diff": -1.375,
+  "adv_logit_diff": 0.125,
+  "best_logit_diff": 0.125,
+  "clean_text": "assistant\n### 193 ",
+  "clean_answer": 193.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 209 ",
+  "adv_answer": 209.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.125
+  ]
+}

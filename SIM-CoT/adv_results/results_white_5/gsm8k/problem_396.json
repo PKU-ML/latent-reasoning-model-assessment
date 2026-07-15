@@ -1,0 +1,29 @@
+{
+  "question": "Jenny is dividing up a pizza with 12 slices. She gives 1/3 to Bill and 1/4 to Mark. If Jenny eats 2 slices, how many slices are left?",
+  "ground_truth": "3.0",
+  "prefix": " nexus toes SHALL shirts propensity",
+  "prefix_token_ids": [
+    45770,
+    23932,
+    50163,
+    20858,
+    41121
+  ],
+  "baseline_token_id": 513,
+  "target_token_id": 362,
+  "baseline_logit_diff": 0.46875,
+  "clean_logit_diff": -8.109375,
+  "adv_logit_diff": 8.1875,
+  "best_logit_diff": 8.1875,
+  "clean_text": "Jenny is dividing up a pizza with 12 slices. She gives 1/3 to Bill and 1/4 to Mark. If Jenny eats 2 slices, how many slices are left?\n### 3",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "nexus toes SHALL shirts propensityJenny is dividing up a pizza with 12 slices. She gives 1/3 to Bill and 1/4 to Mark. If Jenny eats 2 slices, how many slices are left?\n### 26",
+  "adv_answer": 26.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.65625,
+    8.1875
+  ]
+}

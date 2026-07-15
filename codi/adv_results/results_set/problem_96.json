@@ -1,0 +1,171 @@
+{
+  "question": "Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+  "ground_truth": "3.0",
+  "best_prefix": " फ бор28antineamı",
+  "best_prefix_token_ids": [
+    100622,
+    104634,
+    1591,
+    39457,
+    118039
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 17,
+  "baseline_logit_diff": -8.4375,
+  "clean_logit_diff": -9.375,
+  "best_logit_diff": -4.625,
+  "best_cosine": 0.97265625,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 3",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 3",
+  "adv_answer": 3.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " फ бор28antineamı",
+      "prefix_ids": [
+        100622,
+        104634,
+        1591,
+        39457,
+        118039
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.97265625,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " visual picking placeholders71 Irma",
+      "prefix_ids": [
+        9302,
+        21816,
+        79528,
+        6028,
+        99492
+      ],
+      "logit_diff": -7.6875,
+      "cosine_sim": 0.9375,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " baby Belt%d_pctMob",
+      "prefix_ids": [
+        8945,
+        33993,
+        15185,
+        72612,
+        61161
+      ],
+      "logit_diff": -7.8125,
+      "cosine_sim": 0.94140625,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "HolidayzeniaWestern limit340",
+      "prefix_ids": [
+        77658,
+        36188,
+        55924,
+        4017,
+        13679
+      ],
+      "logit_diff": -8.0625,
+      "cosine_sim": 0.94921875,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "ervedmom Semi'%ですか",
+      "prefix_ids": [
+        2841,
+        61874,
+        55738,
+        37265,
+        112130
+      ],
+      "logit_diff": -8.1875,
+      "cosine_sim": 0.95703125,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " baby Space%d85 tying",
+      "prefix_ids": [
+        8945,
+        11746,
+        15185,
+        5313,
+        63143
+      ],
+      "logit_diff": -8.3125,
+      "cosine_sim": 0.953125,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " baby Belt%dpercentMob",
+      "prefix_ids": [
+        8945,
+        33993,
+        15185,
+        25426,
+        61161
+      ],
+      "logit_diff": -8.3125,
+      "cosine_sim": 0.9453125,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " visual pickingTECT 名前103",
+      "prefix_ids": [
+        9302,
+        21816,
+        35837,
+        105790,
+        6889
+      ],
+      "logit_diff": -8.375,
+      "cosine_sim": 0.94140625,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "ervedmom Semi'%�",
+      "prefix_ids": [
+        2841,
+        61874,
+        55738,
+        37265,
+        161
+      ],
+      "logit_diff": -8.375,
+      "cosine_sim": 0.96484375,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " baby Belt%d85complete",
+      "prefix_ids": [
+        8945,
+        33993,
+        15185,
+        5313,
+        15079
+      ],
+      "logit_diff": -8.4375,
+      "cosine_sim": 0.94921875,
+      "answer": 3.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

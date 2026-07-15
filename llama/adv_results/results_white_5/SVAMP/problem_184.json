@@ -1,0 +1,24 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 184,
+  "question": "Jake has 6 fewer peaches than Steven. Steven has 18 more peaches than Jill. If jill has 5 peaches How many peaches does Jake have?",
+  "ground_truth": "17",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " W dheolley mı I",
+  "prefix_token_ids": [
+    468,
+    78005,
+    35619,
+    106902,
+    358
+  ],
+  "best_wrong_prob": 3.657734216009678e-18,
+  "clean_text": "To find out how many peaches Jake has, we need to first find out how many peaches Steven has. Since Jill has 5 peaches and Steven has 18 more peaches than Jill, we can calculate Steven's peaches as fo",
+  "clean_pred": 17.0,
+  "clean_correct": true,
+  "adv_text": "Jill has 5 peaches. \n\nSteven has 18 more peaches than Jill, so Steven has 5 + 18 = 23 peaches.\n\nJake has 6 fewer peaches than Steven, so Jake has 23 - 6 = 17 peaches.\nSo the answer is \\boxed{17 peache",
+  "adv_pred": 17.0,
+  "adv_correct": true,
+  "attack_success": false
+}

@@ -1,0 +1,226 @@
+{
+  "question": "Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+  "ground_truth": "1.0",
+  "best_rewrite": "There are 24 hours in a day. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+  "best_fact": "There are 24 hours in a day.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "Answer:15",
+    "pred_answer": "15"
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "Answer:15",
+      "pred_answer": "15"
+    },
+    {
+      "question": "April has 30 days. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "Answer:19",
+      "pred_answer": "19"
+    },
+    {
+      "question": "A bicycle has 2 wheels. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "Answer:7",
+      "pred_answer": "7"
+    },
+    {
+      "question": "Today is the 3rd of the month. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "Answer:1",
+      "pred_answer": "1"
+    },
+    {
+      "question": "The current temperature is 20 degrees. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "Answer:7",
+      "pred_answer": "7"
+    },
+    {
+      "question": "A year has 12 months. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "Answer:1",
+      "pred_answer": "1"
+    },
+    {
+      "question": "A week has 7 days. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "Answer:1",
+      "pred_answer": "1"
+    },
+    {
+      "question": "An hour has 60 minutes. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "Answer:440",
+      "pred_answer": "440"
+    },
+    {
+      "question": "A minute has 60 seconds. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "Answer:435",
+      "pred_answer": "435"
+    },
+    {
+      "question": "A year has 365 days. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "Answer:239",
+      "pred_answer": "239"
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "Answer:103",
+      "pred_answer": "103"
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "Answer:305",
+      "pred_answer": "305"
+    },
+    {
+      "question": "Water freezes at 0 degrees. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "Answer:1",
+      "pred_answer": "1"
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "Answer:3000",
+      "pred_answer": "3000"
+    },
+    {
+      "question": "The human heart has 4 chambers. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "################################################",
+      "pred_answer": ""
+    },
+    {
+      "question": "An adult has 32 teeth. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "Answer:23",
+      "pred_answer": "23"
+    },
+    {
+      "question": "China has 1.4 billion people. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "Answer:850",
+      "pred_answer": "850"
+    },
+    {
+      "question": "Japan has 125 million people. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "Answer:1035",
+      "pred_answer": "1035"
+    },
+    {
+      "question": "The US has 50 states. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Answer:10",
+      "pred_answer": "10"
+    },
+    {
+      "question": "The EU has 27 member states. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "The Nile is about 6650 km long. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "Answer:19",
+      "pred_answer": "19"
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "Answer:82",
+      "pred_answer": "82"
+    },
+    {
+      "question": "The Pacific covers 165 million km². Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "Answer:5,900",
+      "pred_answer": "5,900"
+    },
+    {
+      "question": "The human body has 206 bones. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "Answer:97",
+      "pred_answer": "97"
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "Answer:0.1",
+      "pred_answer": "0.1"
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "A plant has 46 chromosomes. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "Answer:27",
+      "pred_answer": "27"
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "Answer:7",
+      "pred_answer": "7"
+    },
+    {
+      "question": "Bitcoin was created in 2009. Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "Answer:201",
+      "pred_answer": "201"
+    }
+  ]
+}

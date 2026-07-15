@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1258,
+  "question": "There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+  "ground_truth": "60.0",
+  "baseline_correct": true,
+  "baseline_answer": 60.0,
+  "best_rewrite": "The Pacific covers 165 million km². There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+  "best_fact": "The Pacific covers 165 million km².",
+  "best_pred_answer": 180.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 14,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{$60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "April has 30 days. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of each additional phone is $20 * 2 = $40.\n\nThere are 4 additional phones, so the total cost of the additional phones is $40 * 4 = $160.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $20 + $160 = $180.\n\nThe answer is $180.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the main phone and the additional phones.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the additional phones cost 2 * $20 = $40.\n\nThe total cost of the phone plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{The whole phone plan costs $60.",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "Today is the 3rd of the month. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole plan, we need to calculate the cost of the additional phones and add it to the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the additional phones cost 2 * $20 = $40.\n\nThe total cost of the whole plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{The whole phone plan costs $60.",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{The whole phone plan costs $60.",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "A year has 12 months. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole plan is the cost of the main phone plus the cost of the additional phones: $20 + $40 = $60.\n\nThe answer is $60.\nSo the answer is \\boxed{$60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "A week has 7 days. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole plan is the cost of the main phone plus the cost of the additional phones: $20 + $40 = $60.\n\nThe answer is $60.\nSo the answer is \\boxed{$60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "An hour has 60 minutes. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of each additional phone is $20 * 2 = $40.\n\nThere are 4 additional phones, so the total cost of the additional phones is $40 * 4 = $160.\n\nThe total cost of the whole plan is the cost of the main phone plus the cost of the additional phones: $20 + $160 = $180.\n\nThe answer is $180.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "A minute has 60 seconds. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of each additional phone is $20 * 2 = $40.\n\nThere are 4 additional phones, so the total cost of the additional phones is $40 * 4 = $160.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $20 + $160 = $180.\n\nThe answer is $180.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "A year has 365 days. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{$60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{$60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{$60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{$60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of each additional phone is $20 * 2 = $40.\n\nThere are 4 additional phones, so the total cost of the additional phones is $40 * 4 = $160.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $20 + $160 = $180.\n\nThe answer is $180.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "The human heart has 4 chambers. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the main phone and the additional phones.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of each additional phone is $20 * 2 = $40.\n\nThere are 4 additional phones, so the total cost of the additional phones is $40 * 4 = $160.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $20 + $160 = $180.\n\nThe answer is $180.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "An adult has 32 teeth. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of each additional phone is $20 * 2 = $40.\n\nThere are 4 additional phones (32 total phones - 1 main phone = 31 additional phones). The cost of the additional phones is 31 * $40 = $1240.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $20 + $1240 = $1260.\n\nThe answer is $1260.\nSo the answer is \\boxed{$1260",
+      "pred_answer": 1260.0
+    },
+    {
+      "question": "China has 1.4 billion people. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phone costs twice as much as the main phone, the additional phone costs 2 * $20 = $40.\n\nThe total cost of the additional phones is $40. Since there are 4 additional phones, the total cost of the additional phones is 4 * $40 = $160.\n\nThe total cost of the whole plan is the cost of the main phone plus the cost of the additional phones: $20 + $160 = $180.\n\nThe answer is $180.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "Japan has 125 million people. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of each additional phone is $20 * 2 = $40.\n\nThere are 4 additional phones (since there are 5 phones in total), so the total cost of the additional phones is $40 * 4 = $160.\n\nThe total cost of the whole plan is the cost of the main phone plus the cost of the additional phones: $20 + $160 = $180.\n\nThe answer is $180.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "The US has 50 states. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole plan, we need to calculate the cost of the additional phones and add it to the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the additional phones cost 2 * $20 = $40.\n\nThe total cost of the whole plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{The whole phone plan costs $60.",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "The EU has 27 member states. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{$60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the additional phones is $40. To find the cost of the whole plan, we add this to the cost of the main phone:\n\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{The answer is $60.",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{$60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of each additional phone is $20 * 2 = $40.\n\nThere are 4 additional phones, so the total cost of the additional phones is $40 * 4 = $160.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $20 + $160 = $180.\n\nThe answer is $180.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "The human body has 206 bones. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{The final answer is $60.",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the main phone and the additional phones.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of each additional phone is $20 * 2 = $40.\n\nThere are 4 additional phones, so the total cost of the additional phones is $40 * 4 = $160.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $20 + $160 = $180.\n\nThe answer is $180.\nSo the answer is \\boxed{$180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since there are five phones, the cost of the additional phones is 5 * $20 = $100.\n\nThe cost of the additional phones is $100. Since the main phone costs twice as much as each additional phone, the cost of the main phone is 2 * $100 = $200.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $200 + $100 = $300.\n\nThe answer is $300.\nSo the answer is \\boxed{$300",
+      "pred_answer": 300.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the cost of the main phone.\n\nThe main phone costs $20. Since there are five phones, the cost of the additional phones is 5 * $20 = $100.\n\nThe cost of the additional phones is $100. Since the main phone costs twice as much as each additional phone, the cost of the main phone is 2 * $100 = $200.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $200 + $100 = $300.\n\nThe answer is $300.\nSo the answer is \\boxed{$300",
+      "pred_answer": 300.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the main phone and the additional phones.\n\nThe main phone costs $20. Since the main phone costs twice as much as each additional phone, the cost of an additional phone is $20 / 2 = $10.\n\nThere are 5 additional phones, so the total cost of the additional phones is 5 x $10 = $50.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $20 + $50 = $70.\n\nThe answer is $70.\nSo the answer is \\boxed{$70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the main phone and the additional phones.\n\nThe main phone costs $20. Since the additional phones cost twice as much as the main phone, the cost of the additional phones is 2 * $20 = $40.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones:\n$20 (main phone) + $40 (additional phones) = $60\n\nSo, the whole phone plan costs $60.\nSo the answer is \\boxed{$60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the cost of the whole phone plan, we need to calculate the cost of the additional phones and add it to the main phone.\n\nThe main phone costs $20. Since there are 5 phones on the plan, and the main phone costs twice as much as each additional phone, the cost of each additional phone is $20 / 5 = $4.\n\nThe cost of the additional phones is 5 * $4 = $20.\n\nThe total cost of the whole phone plan is the cost of the main phone plus the cost of the additional phones: $20 + $20 = $40.\n\nThe answer is $40.\nSo the answer is \\boxed{The answer is $40.",
+      "pred_answer": 40.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": " Mike made 14 dollars mowing lawns and 26 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+  "ground_truth": "8.0",
+  "prefix": " fixed480 Essex",
+  "prefix_token_ids": [
+    5969,
+    22148,
+    38307
+  ],
+  "baseline_token_id": 807,
+  "target_token_id": 838,
+  "baseline_logit_diff": -7.7265625,
+  "clean_logit_diff": -8.28125,
+  "adv_logit_diff": 12.625,
+  "best_logit_diff": 12.625,
+  "clean_text": "Mike made 14 dollars mowing lawns and 26 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him?\n### 8",
+  "clean_answer": 8.0,
+  "clean_correct": true,
+  "adv_text": "fixed480 EssexMike made 14 dollars mowing lawns and 26 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him?\n### 106",
+  "adv_answer": 106.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    12.625
+  ]
+}

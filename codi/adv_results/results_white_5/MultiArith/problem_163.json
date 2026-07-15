@@ -1,0 +1,30 @@
+{
+  "question": " Faye and her mom were picking carrots from their garden. Faye picked 23 and her mother picked 5. If only 12 of the carrots were good, how many bad carrots did they have? ",
+  "ground_truth": "16.0",
+  "prefix": "85371Exceptions except ris",
+  "prefix_token_ids": [
+    5313,
+    18650,
+    66680,
+    3734,
+    10025
+  ],
+  "baseline_token_id": 845,
+  "target_token_id": 972,
+  "baseline_logit_diff": -6.9375,
+  "clean_logit_diff": -8.125,
+  "adv_logit_diff": 1.6796875,
+  "best_logit_diff": 1.6796875,
+  "clean_text": "The answer is: 16",
+  "clean_answer": 16.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 82170",
+  "adv_answer": 82170.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -6.75,
+    -5.125,
+    1.6796875
+  ]
+}

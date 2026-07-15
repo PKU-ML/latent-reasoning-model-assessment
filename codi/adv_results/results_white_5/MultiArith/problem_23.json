@@ -1,0 +1,29 @@
+{
+  "question": " A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+  "ground_truth": "18.0",
+  "prefix": "151windows 项'](GR",
+  "prefix_token_ids": [
+    9690,
+    28176,
+    121462,
+    85433,
+    8796
+  ],
+  "baseline_token_id": 972,
+  "target_token_id": 1927,
+  "baseline_logit_diff": -8.25,
+  "clean_logit_diff": -8.25,
+  "adv_logit_diff": 7.125,
+  "best_logit_diff": 7.125,
+  "clean_text": "The answer is: 18",
+  "clean_answer": 18.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 36",
+  "adv_answer": 36.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.375,
+    7.125
+  ]
+}

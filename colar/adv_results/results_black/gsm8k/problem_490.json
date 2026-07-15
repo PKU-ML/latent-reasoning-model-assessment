@@ -1,0 +1,226 @@
+{
+  "question": "An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+  "ground_truth": "4.0",
+  "best_rewrite": "April has 30 days. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+  "best_fact": "April has 30 days.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "Answer:7",
+    "pred_answer": "7"
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "April has 30 days. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "Answer:7",
+      "pred_answer": "7"
+    },
+    {
+      "question": "A bicycle has 2 wheels. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "Today is the 3rd of the month. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "The current temperature is 20 degrees. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "A year has 12 months. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "Answer:10",
+      "pred_answer": "10"
+    },
+    {
+      "question": "A week has 7 days. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "An hour has 60 minutes. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "A minute has 60 seconds. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "Answer:2",
+      "pred_answer": "2"
+    },
+    {
+      "question": "A year has 365 days. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "Answer:245",
+      "pred_answer": "245"
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "Answer:507",
+      "pred_answer": "507"
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "Answer:22",
+      "pred_answer": "22"
+    },
+    {
+      "question": "Water freezes at 0 degrees. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "Answer:52",
+      "pred_answer": "52"
+    },
+    {
+      "question": "The human heart has 4 chambers. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "An adult has 32 teeth. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "China has 1.4 billion people. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "Answer:257",
+      "pred_answer": "257"
+    },
+    {
+      "question": "Japan has 125 million people. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "Answer:58",
+      "pred_answer": "58"
+    },
+    {
+      "question": "The US has 50 states. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "The EU has 27 member states. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "The Nile is about 6650 km long. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "Answer:22",
+      "pred_answer": "22"
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "Answer:19",
+      "pred_answer": "19"
+    },
+    {
+      "question": "The Pacific covers 165 million km². An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "Answer:24",
+      "pred_answer": "24"
+    },
+    {
+      "question": "The human body has 206 bones. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "Answer:80",
+      "pred_answer": "80"
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "Answer:30",
+      "pred_answer": "30"
+    },
+    {
+      "question": "A plant has 46 chromosomes. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "Answer:5",
+      "pred_answer": "5"
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "Answer:17",
+      "pred_answer": "17"
+    },
+    {
+      "question": "Bitcoin was created in 2009. An 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    }
+  ]
+}

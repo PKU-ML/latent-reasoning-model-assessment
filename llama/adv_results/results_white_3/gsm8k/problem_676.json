@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 676,
+  "question": "Three people invested $1200 in a joint savings account.  After Dylan's investment of 2/5 of the total amount, Frances invested 2/3 of the remaining amount.  Skyler's investment accounted for the rest. How much money was Skyler's investment?",
+  "ground_truth": "240",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " görül :\n\n reins",
+  "prefix_token_ids": [
+    108290,
+    14852,
+    90518
+  ],
+  "best_wrong_prob": 2.9792968676227005e-21,
+  "clean_text": "To find out how much Skyler's investment was, we need to first find out how much money was left after Dylan's investment.\n\nDylan invested 2/5 of the total amount, which is 2/5 * 1200 = 480 dollars.\n\nT",
+  "clean_pred": 240.0,
+  "clean_correct": true,
+  "adv_text": "Görül:\n\nGörül:\n\nGörül = 2/5 * 1200 = 480\n\nFrances = 3/5 * 1200 = 720\n\nSkyler = 1200 - 480 - 720 = 0\n\nSkyler = 0\n\nÖzet:\n\nSkyler, 0.\nSo the answer is \\boxed{Skyler'in investmente 0.",
+  "adv_pred": 0.0,
+  "adv_correct": false,
+  "attack_success": true
+}

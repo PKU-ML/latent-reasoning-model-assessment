@@ -1,0 +1,26 @@
+{
+  "question": " Rachel was playing a video game where she scores 9 points for each treasure she finds. If she found 5 treasures on the first level and 2 on the second, what would her score be? ",
+  "ground_truth": "63.0",
+  "prefix": "这里有37",
+  "prefix_token_ids": [
+    113138,
+    18,
+    22
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 20,
+  "baseline_logit_diff": -1.75,
+  "clean_logit_diff": -0.125,
+  "adv_logit_diff": 1.125,
+  "best_logit_diff": 1.125,
+  "clean_text": "assistant\n### 63 ",
+  "clean_answer": 63.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 108 ",
+  "adv_answer": 108.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.125
+  ]
+}

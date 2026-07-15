@@ -1,0 +1,26 @@
+{
+  "question": " Luke was selling his old games. He started out with 39 but sold 19 of them. He packed the rest up putting 4 games into each box. How many boxes did he have to use? ",
+  "ground_truth": "5.0",
+  "prefix": "230 world 550",
+  "prefix_token_ids": [
+    19214,
+    995,
+    25240
+  ],
+  "baseline_token_id": 642,
+  "target_token_id": 2026,
+  "baseline_logit_diff": -10.10546875,
+  "clean_logit_diff": -11.84375,
+  "adv_logit_diff": 6.921875,
+  "best_logit_diff": 6.921875,
+  "clean_text": "Luke was selling his old games. He started out with 39 but sold 19 of them. He packed the rest up putting 4 games into each box. How many boxes did he have to use?\n### 5",
+  "clean_answer": 5.0,
+  "clean_correct": true,
+  "adv_text": "230 world 550Luke was selling his old games. He started out with 39 but sold 19 of them. He packed the rest up putting 4 games into each box. How many boxes did he have to use?\n### 80",
+  "adv_answer": 80.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    6.921875
+  ]
+}

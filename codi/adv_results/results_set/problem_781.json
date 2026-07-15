@@ -1,0 +1,171 @@
+{
+  "question": "Four friends ordered four pizzas for a total of 64 dollars. If two of the pizzas cost 30 dollars, how much did each of the other two pizzas cost if they cost the same amount?",
+  "ground_truth": "17.0",
+  "best_prefix": " presenteralf.Cursors>\n\n\n243",
+  "best_prefix_token_ids": [
+    34756,
+    3181,
+    56776,
+    10586,
+    14052
+  ],
+  "baseline_token_id": 1114,
+  "target_token_id": 972,
+  "baseline_logit_diff": -1.0,
+  "clean_logit_diff": -7.4375,
+  "best_logit_diff": 2.75,
+  "best_cosine": 0.94921875,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 17",
+  "clean_answer": 17.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 11.5",
+  "adv_answer": 11.5,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " presenteralf.Cursors>\n\n\n243",
+      "prefix_ids": [
+        34756,
+        3181,
+        56776,
+        10586,
+        14052
+      ],
+      "logit_diff": 2.75,
+      "cosine_sim": 0.94921875,
+      "answer": 11.5,
+      "correct": false
+    },
+    {
+      "prefix": " Их muže Cup779 shoulders",
+      "prefix_ids": [
+        125309,
+        126932,
+        11098,
+        25659,
+        28004
+      ],
+      "logit_diff": 1.3125,
+      "cosine_sim": 0.95703125,
+      "answer": 22.5,
+      "correct": false
+    },
+    {
+      "prefix": "?',\n đu explore weekdays times",
+      "prefix_ids": [
+        43020,
+        119070,
+        13488,
+        73095,
+        3115
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.95703125,
+      "answer": 22.0,
+      "correct": false
+    },
+    {
+      "prefix": ")?\n\n muže jurisdiction779 Bearings",
+      "prefix_ids": [
+        74630,
+        126932,
+        29101,
+        25659,
+        65416
+      ],
+      "logit_diff": 0.3125,
+      "cosine_sim": 0.9453125,
+      "answer": 22.5,
+      "correct": false
+    },
+    {
+      "prefix": " ring mužekills779 riches",
+      "prefix_ids": [
+        10264,
+        126932,
+        62025,
+        25659,
+        70934
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.94140625,
+      "answer": 22.5,
+      "correct": false
+    },
+    {
+      "prefix": "?',\n đu Cup weekdays times",
+      "prefix_ids": [
+        43020,
+        119070,
+        11098,
+        73095,
+        3115
+      ],
+      "logit_diff": -0.375,
+      "cosine_sim": 0.953125,
+      "answer": 17.0,
+      "correct": true
+    },
+    {
+      "prefix": "enty188 toppings Appe products",
+      "prefix_ids": [
+        7313,
+        9367,
+        90771,
+        29154,
+        3956
+      ],
+      "logit_diff": -0.5,
+      "cosine_sim": 0.94140625,
+      "answer": 20.0,
+      "correct": false
+    },
+    {
+      "prefix": " Их mužemina779 shoulders",
+      "prefix_ids": [
+        125309,
+        126932,
+        76535,
+        25659,
+        28004
+      ],
+      "logit_diff": -0.625,
+      "cosine_sim": 0.953125,
+      "answer": 17.0,
+      "correct": true
+    },
+    {
+      "prefix": "?',\n đu Cup weekdays interchangeable",
+      "prefix_ids": [
+        43020,
+        119070,
+        11098,
+        73095,
+        91229
+      ],
+      "logit_diff": -1.0,
+      "cosine_sim": 0.9609375,
+      "answer": 17.0,
+      "correct": true
+    },
+    {
+      "prefix": "ellites'.\n\n ],\n\n everywhere-has",
+      "prefix_ids": [
+        42760,
+        30736,
+        40874,
+        17277,
+        46998
+      ],
+      "logit_diff": -1.0,
+      "cosine_sim": 0.94921875,
+      "answer": 17.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

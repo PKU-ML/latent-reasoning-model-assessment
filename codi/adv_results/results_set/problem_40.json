@@ -1,0 +1,171 @@
+{
+  "question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy’s iPhone is 1 year old, how old is Brandon’s iPhone?",
+  "ground_truth": "8.0",
+  "best_prefix": " Invent(theithর seeds",
+  "best_prefix_token_ids": [
+    93258,
+    31524,
+    411,
+    73358,
+    19595
+  ],
+  "baseline_token_id": 23,
+  "target_token_id": 19,
+  "baseline_logit_diff": -8.125,
+  "clean_logit_diff": -8.375,
+  "best_logit_diff": -8.0,
+  "best_cosine": 0.98828125,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 8",
+  "clean_answer": 8.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 8",
+  "adv_answer": 8.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " Invent(theithর seeds",
+      "prefix_ids": [
+        93258,
+        31524,
+        411,
+        73358,
+        19595
+      ],
+      "logit_diff": -8.0,
+      "cosine_sim": 0.98828125,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": " Invent.Thequestavi seeds",
+      "prefix_ids": [
+        93258,
+        11829,
+        724,
+        6321,
+        19595
+      ],
+      "logit_diff": -8.0,
+      "cosine_sim": 0.99609375,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": "(tSheelasticizada seeds",
+      "prefix_ids": [
+        1175,
+        8100,
+        63064,
+        52311,
+        19595
+      ],
+      "logit_diff": -8.0,
+      "cosine_sim": 0.98828125,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": " Invent.Theithstrument seeds",
+      "prefix_ids": [
+        93258,
+        11829,
+        411,
+        20039,
+        19595
+      ],
+      "logit_diff": -8.0,
+      "cosine_sim": 0.99609375,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": " Invent.Thequestiller seeds",
+      "prefix_ids": [
+        93258,
+        11829,
+        724,
+        15610,
+        19595
+      ],
+      "logit_diff": -8.0,
+      "cosine_sim": 0.9921875,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": "(t »elasticizada seeds",
+      "prefix_ids": [
+        1175,
+        8345,
+        63064,
+        52311,
+        19595
+      ],
+      "logit_diff": -8.125,
+      "cosine_sim": 0.98828125,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": " Invent.Theithর seeds",
+      "prefix_ids": [
+        93258,
+        11829,
+        411,
+        73358,
+        19595
+      ],
+      "logit_diff": -8.125,
+      "cosine_sim": 0.98828125,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": " Invent.The nhiệtiller seeds",
+      "prefix_ids": [
+        93258,
+        11829,
+        107421,
+        15610,
+        19595
+      ],
+      "logit_diff": -8.125,
+      "cosine_sim": 0.9921875,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": "(tSheungоны seeds",
+      "prefix_ids": [
+        1175,
+        8100,
+        2234,
+        105832,
+        19595
+      ],
+      "logit_diff": -8.125,
+      "cosine_sim": 0.98828125,
+      "answer": 8.0,
+      "correct": true
+    },
+    {
+      "prefix": "�('')\numdball velocity",
+      "prefix_ids": [
+        101268,
+        38465,
+        61345,
+        4047,
+        15798
+      ],
+      "logit_diff": -8.125,
+      "cosine_sim": 0.98828125,
+      "answer": 8.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

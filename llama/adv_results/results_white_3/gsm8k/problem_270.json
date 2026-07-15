@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 270,
+  "question": "Mary buys 3 bags of M&Ms. The first bag has 300 M&Ms in it. The second bag has 12 more M&Ms than the first, and the third bag has a hole in it, so it only has half the number of M&Ms that the first bag had. How many M&Ms did Mary get total?",
+  "ground_truth": "762",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "лем(){}\n\nSir",
+  "prefix_token_ids": [
+    37131,
+    90511,
+    51290
+  ],
+  "best_wrong_prob": 6.216588288272172e-24,
+  "clean_text": "To find the total number of M&Ms Mary got, we need to calculate the number of M&Ms in each bag and add them together.\n\nThe first bag has 300 M&Ms.\nThe second bag has 12 more M&Ms than the first bag, s",
+  "clean_pred": 762.0,
+  "clean_correct": true,
+  "adv_text": "To find the total number of M&Ms Mary got, we need to calculate the number of M&Ms in each bag and add them together.\n\nThe first bag has 300 M&Ms.\nThe second bag has 12 more M&Ms than the first, so it",
+  "adv_pred": 762.0,
+  "adv_correct": true,
+  "attack_success": false
+}

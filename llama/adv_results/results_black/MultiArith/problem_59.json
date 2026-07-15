@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 59,
+  "question": " At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+  "ground_truth": "72.0",
+  "baseline_correct": true,
+  "baseline_answer": 72.0,
+  "best_rewrite": "Mount Everest is about 8849 meters high.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+  "best_fact": "Mount Everest is about 8849 meters high.",
+  "best_pred_answer": 792.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 6,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "April has 30 days.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 11 - 2 = 9 adults\nCost per adult meal: $8\nCost for adults: 9 adults * $8 = $72\n\nSince the kids eat for free, there is no cost for them.\n\nTotal cost for the group: $72 (for adults) + $0 (for kids) = $72\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the total cost for the kids is $0.\n\nThe total cost for the group is the sum of the cost for the adults and the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, and 2 are kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A year has 12 months.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A week has 7 days.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the sum of the cost for the adults and the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "An hour has 60 minutes.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A minute has 60 seconds.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the cost, first calculate the number of adults and the number of kids. \n\nNumber of adults = Total number of people - Number of kids\n= 11 - 2\n= 9\n\nSince each adult meal costs $8, the total cost for adults = Number of adults * Cost per adult\n= 9 * $8\n= $72\n\nSince kids eat for free, the total cost for kids = 0\n\nThe total cost for the group to eat = Cost for adults + Cost for kids\n= $72 + 0\n= $72\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A year has 365 days.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the sum of the cost for the adults and the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThe cost for the adults is 11 adults * $8 per adult = $88.\n\nSince there are 9 adults, the cost for the adults is $88 * 9 = $792.\n\nThe cost for the kids is 2 kids * $0 (since they eat for free) = $0.\n\nThe total cost for the group is $792 (adults) + $0 (kids) = $792.\nSo the answer is \\boxed{$792",
+      "pred_answer": 792.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the kids separately and then add them together.\n\nNumber of adults: 11 - 2 = 9 adults\nCost per adult: $8\nTotal cost for adults: 9 * $8 = $72\n\nNumber of kids: 2\nCost per kid: $0 (since kids eat free)\nTotal cost for kids: 2 * $0 = $0\n\nTotal cost for the group: $72 (adults) + $0 (kids) = $72\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the sum of the cost for the adults and the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThe cost for the adults is 11 adults * $8 per adult = $88.\n\nSince there are 9 adults, the cost for the adults is $88 * 9 = $792.\n\nThe cost for the kids is 2 kids * $0 (since they eat for free) = $0.\n\nThe total cost for the group is $792 (for adults) + $0 (for kids) = $792.\nSo the answer is \\boxed{$792",
+      "pred_answer": 792.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the sum of the cost for the adults and the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "An adult has 32 teeth.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "China has 1.4 billion people.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Japan has 125 million people.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, and 2 are kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The US has 50 states.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The EU has 27 member states.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the sum of the cost for the adults and the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nNumber of adults: 11 - 2 = 9 adults\nCost per adult: $8\nCost for adults: 9 * $8 = $72\n\nSince the kids eat for free, the cost for the kids is $0.\n\nTotal cost for the group: $72 (for adults) + $0 (for kids) = $72\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThe cost for the adults is 11 adults * $8 per adult = $88.\n\nSince there are 9 adults, the cost for the adults is $88 * 9 = $792.\n\nThe cost for the kids is 2 kids * $0 (since they eat for free) = $0.\n\nThe total cost for the group is $792 (for adults) + $0 (for kids) = $792.\nSo the answer is \\boxed{$792",
+      "pred_answer": 792.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThe total area of the Pacific Ocean is 165 million km². Since the kids eat for free, we only need to consider the cost for the adults.\n\nThere are 11 people in the group, and 2 are kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8. Therefore, the cost for the adults is 9 * $8 = $72.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\n\nSo, the group would cost $72 to eat.\nSo the answer is \\boxed{The answer is $72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The human body has 206 bones.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nThe cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the total cost for the group is $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the total cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThe cost for the adults is 11 adults * $8 per adult = $88.\n\nSince there are 9 adults and 2 kids, the cost for the kids is 2 * $8 = $16.\n\nThe total cost for the group is $88 (adults) + $16 (kids) = $104.\n\nSo, the total cost for the group to eat would be $104.\nSo the answer is \\boxed{$104",
+      "pred_answer": 104.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the kids separately and then add them together.\n\nThe cost for the adults is 11 adults * $8 per adult = $88.\n\nSince there are 9 adults, the cost for the adults is $88 * 9 = $792.\n\nThe cost for the kids is 2 kids * $0 (since they eat for free) = $0.\n\nThe total cost for the group is $792 (adults) + $0 (kids) = $792.\nSo the answer is \\boxed{$792",
+      "pred_answer": 792.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the number of adults and subtract the number of kids.\n\nNumber of adults: 11 - 2 = 9\nEach adult meal costs $8, so the total cost for adults is 9 * $8 = $72\n\nSince kids eat for free, the total cost for the group is $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the cost for the group, we need to calculate the cost for the adults and the cost for the kids.\n\nThere are 11 people in the group, with 2 being kids. So, the number of adults is 11 - 2 = 9.\n\nEach adult meal costs $8, so the cost for the adults is 9 * $8 = $72.\n\nSince the kids eat for free, the cost for the kids is $0.\n\nThe total cost for the group is the cost for the adults plus the cost for the kids, which is $72 + $0 = $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the total cost, we need to calculate the cost for the adults and the cost for the kids.\n\nThe cost for the adults is 11 adults * $8 per adult = $88.\n\nThe cost for the kids is 2 kids * $0 (since they eat for free) = $0.\n\nThe total cost for the group is $88 (adults) + $0 (kids) = $88.\nSo the answer is \\boxed{$88",
+      "pred_answer": 88.0
+    }
+  ]
+}

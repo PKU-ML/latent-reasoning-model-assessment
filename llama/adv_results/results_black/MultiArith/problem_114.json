@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 114,
+  "question": " In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+  "ground_truth": "37.0",
+  "baseline_correct": true,
+  "baseline_answer": 37.0,
+  "best_rewrite": "The Earth is about 12742 km in diameter.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+  "best_fact": "The Earth is about 12742 km in diameter.",
+  "best_pred_answer": 11.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 9,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nTotal number of students who left and joined: 5 + 11 = 16\n\nNow, subtract the number of students who left and joined from the initial number of students:\n24 - 16 = 8\n\nSo, there were 8 students in fourth grade at the end of the year.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "April has 30 days.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nInitial number of students: 30\nNumber of students who left: 5\nNumber of students who joined: 11\n\nTotal number of students at the end of the year: 30 - 5 + 11 = 36\n\nSo, there were 36 students in fourth grade at the end of the year.\nSo the answer is \\boxed{36",
+      "pred_answer": 36.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left from the initial number of students and add the number of new students who joined.\n\nInitial number of students = 31\nNumber of students who left = 5\nNumber of new students = 11\n\nNumber of students at the end of the year = Initial number of students - Number of students who left + Number of new students\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nFirst, subtract the number of students who left: 31 - 5 = 26\nThen, add the number of new students who joined: 26 + 11 = 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left from the initial number of students and add the number of new students who joined.\n\nInitial number of students = 31\nNumber of students who left = 5\nNumber of new students = 11\n\nNumber of students at the end of the year = Initial number of students - Number of students who left + Number of new students\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "A year has 12 months.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left from the initial number of students and add the number of new students who joined.\n\nInitial number of students = 31\nNumber of students who left = 5\nNumber of new students = 11\n\nNumber of students at the end of the year = Initial number of students - Number of students who left + Number of new students\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "A week has 7 days.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nInitial number of students: 31\nNumber of students who left: 5\nNumber of students who joined: 11\n\nTo find the total number of students at the end of the year, we subtract the number of students who left and add the number of students who joined:\n31 - 5 + 11 = 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "An hour has 60 minutes.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left from the initial number of students and add the number of new students who joined.\n\nInitial number of students = 31\nNumber of students who left = 5\nNumber of new students = 11\n\nNumber of students at the end of the year = Initial number of students - Number of students who left + Number of new students\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "A minute has 60 seconds.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left from the initial number of students and add the number of new students who joined.\n\nInitial number of students = 31\nNumber of students who left = 5\nNumber of new students = 11\n\nNumber of students at the end of the year = Initial number of students - Number of students who left + Number of new students\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "A year has 365 days.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left from the initial number of students and add the number of new students who joined.\n\nInitial number of students = 31\nNumber of students who left = 5\nNumber of new students = 11\n\nNumber of students at the end of the year = Initial number of students - Number of students who left + Number of new students\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nFirst, subtract the number of students who left: 5\n5 - 5 = 0\n\nThen, add the number of new students who joined: 0 + 11 = 11\n\nSo, there are 11 students in fourth grade at the end of the year.\nSo the answer is \\boxed{11",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of students who came to school.\n\nNumber of students who left: 5\nNumber of students who came to school: 11\n\nNumber of students at the end of the year: 31 - 5 + 11\n= 31 - 5\n= 26\n\nSo, there were 26 students in fourth grade at the end of the year.\nSo the answer is \\boxed{26",
+      "pred_answer": 26.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nInitial number of students: 31\nNumber of students who left: 5\nNumber of students who joined: 11\n\nTo find the total number of students at the end of the year, we add the number of students who left and the number of students who joined:\n31 + 5 + 11 = 47\n\nSo, there were 47 students in fourth grade at the end of the year.\nSo the answer is \\boxed{47",
+      "pred_answer": 47.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left from the initial number of students and add the number of new students who joined.\n\nInitial number of students = 31\nNumber of students who left = 5\nNumber of new students = 11\n\nNumber of students at the end of the year = Initial number of students - Number of students who left + Number of new students\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nInitial number of students = 31\nStudents who left = 5\nStudents who joined = 11\n\nNumber of students at the end of the year = Initial number of students - Students who left + Students who joined\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "An adult has 32 teeth.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nInitial number of students: 31\nNumber of students who left: 5\nNumber of students who joined: 11\n\nTotal number of students at the end of the year: 31 - 5 + 11 = 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "China has 1.4 billion people.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nInitial number of students = 31\nNumber of students who left = 5\nNumber of new students = 11\n\nNumber of students at the end of the year = Initial number of students - Number of students who left + Number of new students\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "Japan has 125 million people.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nInitial number of students: 31\nNumber of students who left: 5\nNumber of students who joined: 11\n\nNumber of students at the end of the year: 31 - 5 + 11 = 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "The US has 50 states.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left from the number of students who started and then add the number of new students who joined.\n\nNumber of students who started: 31\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nFirst, subtract the number of students who left: 31 - 5 = 26\nThen, add the number of new students who joined: 26 + 11 = 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "The EU has 27 member states.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nFirst, subtract the number of students who left: 31 - 5 = 26\nThen, add the number of new students who joined: 26 + 11 = 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nInitial number of students: 31\nNumber of students who left: 5\nNumber of students who joined: 11\n\nTo find the total number of students at the end of the year, we add the number of students who left and the number of students who joined:\n31 + 5 + 11 = 47\n\nSo, there were 47 students in fourth grade at the end of the year.\nSo the answer is \\boxed{47",
+      "pred_answer": 47.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nInitial number of students: 31\nNumber of students who left: 5\nNumber of students who joined: 11\n\nTo find the total number of students at the end of the year, we add the number of students who left and the number of students who joined:\n31 + 5 + 11 = 47\n\nSo, there were 47 students in fourth grade at the end of the year.\nSo the answer is \\boxed{47",
+      "pred_answer": 47.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nInitial number of students: 31\nNumber of students who left: 5\nNumber of students who joined: 11\n\nTo find the total number of students at the end of the year, we add the number of students who left and the number of students who joined:\n31 + 5 + 11 = 47\n\nSo, there were 47 students in fourth grade at the end of the year.\nSo the answer is \\boxed{47",
+      "pred_answer": 47.0
+    },
+    {
+      "question": "The human body has 206 bones.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of students who came to school.\n\nNumber of students who left: 5\nNumber of students who came to school: 11\n\nFirst, subtract the number of students who left: 5 - 5 = 0\nThen, add the number of students who came to school: 0 + 11 = 11\n\nSo, there were 11 students in fourth grade at the end of the year.\nSo the answer is \\boxed{11",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nInitial number of students = 31\nStudents who left = 5\nStudents who joined = 11\n\nNumber of students at the end of the year = Initial number of students - Students who left + Students who joined\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nNumber of students who left: 5\nNumber of new students who joined: 11\n\nFirst, subtract the number of students who left: 31 - 5 = 26\nThen, add the number of new students who joined: 26 + 11 = 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{The answer is 37.",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left from the initial number of students and add the number of new students who joined.\n\nInitial number of students = 31\nNumber of students who left = 5\nNumber of new students = 11\n\nNumber of students at the end of the year = Initial number of students - Number of students who left + Number of new students\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of new students who joined.\n\nInitial number of students = 31\nStudents who left = 5\nStudents who joined = 11\n\nNumber of students at the end of the year = Initial number of students - Students who left + Students who joined\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left and add the number of students who came to school.\n\nNumber of students who left: 5\nNumber of students who came to school: 11\n\nFirst, subtract the number of students who left: 31 - 5 = 26\nThen, add the number of students who came to school: 26 + 11 = 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the number of students at the end of the year, we need to subtract the number of students who left from the initial number of students and add the number of new students.\n\nInitial number of students = 31\nStudents who left = 5\nStudents who came in = 11\n\nNumber of students at the end of the year = Initial number of students - Students who left + Students who came in\n= 31 - 5 + 11\n= 37\n\nSo, there were 37 students in fourth grade at the end of the year.\nSo the answer is \\boxed{37",
+      "pred_answer": 37.0
+    }
+  ]
+}

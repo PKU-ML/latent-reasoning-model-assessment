@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 181,
+  "question": "Sandra, the florist around the corner, is very unhappy with Fred's incomplete order delivery. Sandra had ordered four times as many red roses as white carnations. She also ordered 200 pink calla lilies, which were five times the number of white carnations. Sandra has threatened to switch suppliers if the missing red roses are not delivered by 5 pm. To keep Sandra's business, how many red roses must Fred deliver by 5 pm?",
+  "ground_truth": "160",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Seite parameters PCR",
+  "prefix_token_ids": [
+    48504,
+    5137,
+    67791
+  ],
+  "best_wrong_prob": 1.382308442303763e-25,
+  "clean_text": "Let's break down the information:\n\n- Sandra ordered 4 times as many red roses as white carnations. Let's call the number of white carnations 'x'. \n- Since she ordered 200 pink calla lilies, which are ",
+  "clean_pred": 160.0,
+  "clean_correct": true,
+  "adv_text": "To solve this problem, let's break it down step by step.\n\nLet's say Sandra ordered x white carnations. Since she ordered four times as many red roses as white carnations, she ordered 4x red roses.\n\nWe",
+  "adv_pred": 0.0,
+  "adv_correct": false,
+  "attack_success": true
+}

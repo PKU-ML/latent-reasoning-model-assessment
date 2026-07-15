@@ -1,0 +1,28 @@
+{
+  "question": " Wendy was playing a video game and had 43 lives. In a hard part of the game she lost 8 lives. If she got 39 more lives in the next level, how many lives would she have? ",
+  "ground_truth": "74.0",
+  "prefix": "63746",
+  "prefix_token_ids": [
+    21,
+    18,
+    22,
+    19,
+    21
+  ],
+  "baseline_token_id": 22,
+  "target_token_id": 21,
+  "baseline_logit_diff": -3.375,
+  "clean_logit_diff": -3.125,
+  "adv_logit_diff": 1.125,
+  "best_logit_diff": 1.125,
+  "clean_text": "assistant\n### 74 ",
+  "clean_answer": 74.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 460 ",
+  "adv_answer": 460.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.125
+  ]
+}

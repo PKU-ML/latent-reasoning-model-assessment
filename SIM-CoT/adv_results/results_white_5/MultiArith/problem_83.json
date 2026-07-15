@@ -1,0 +1,29 @@
+{
+  "question": " Katie had 7 pages of math homework and 3 pages of reading homework. If each page had 9 problems on it, how many problems did she have to complete total? ",
+  "ground_truth": "90.0",
+  "prefix": "oria randomlyosponsors surpass fluoride",
+  "prefix_token_ids": [
+    7661,
+    15456,
+    39500,
+    17341,
+    40311
+  ],
+  "baseline_token_id": 4101,
+  "target_token_id": 7388,
+  "baseline_logit_diff": 3.3125,
+  "clean_logit_diff": -9.7421875,
+  "adv_logit_diff": 3.53125,
+  "best_logit_diff": 3.53125,
+  "clean_text": "Katie had 7 pages of math homework and 3 pages of reading homework. If each page had 9 problems on it, how many problems did she have to complete total?\n### 90",
+  "clean_answer": 90.0,
+  "clean_correct": true,
+  "adv_text": "oria randomlyosponsors surpass fluorideKatie had 7 pages of math homework and 3 pages of reading homework. If each page had 9 problems on it, how many problems did she have to complete total?\n### 100",
+  "adv_answer": 100.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.625,
+    3.53125
+  ]
+}

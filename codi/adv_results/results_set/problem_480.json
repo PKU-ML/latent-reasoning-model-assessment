@@ -1,0 +1,171 @@
+{
+  "question": "Ben has 4 tubes of blue paint and 3 tubes of yellow paint. Jasper has half as many tubes of blue paint as Ben, and three times as many tubes of yellow paint as Ben. How many tubes of paint does Jasper have?",
+  "ground_truth": "11.0",
+  "best_prefix": "400 Україна}};\n monitoring evet",
+  "best_prefix_token_ids": [
+    3443,
+    115221,
+    53581,
+    16967,
+    122932
+  ],
+  "baseline_token_id": 806,
+  "target_token_id": 605,
+  "baseline_logit_diff": -2.375,
+  "clean_logit_diff": -7.125,
+  "best_logit_diff": -1.375,
+  "best_cosine": 0.93359375,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 11",
+  "clean_answer": 11.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 110",
+  "adv_answer": 110.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "400 Україна}};\n monitoring evet",
+      "prefix_ids": [
+        3443,
+        115221,
+        53581,
+        16967,
+        122932
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.93359375,
+      "answer": 110.0,
+      "correct": false
+    },
+    {
+      "prefix": "400AndGet��ast.down",
+      "prefix_ids": [
+        3443,
+        98826,
+        109147,
+        561,
+        18644
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.9375,
+      "answer": 11.0,
+      "correct": true
+    },
+    {
+      "prefix": "400 callee.modelsother odd",
+      "prefix_ids": [
+        3443,
+        95900,
+        8399,
+        1605,
+        10535
+      ],
+      "logit_diff": -1.5625,
+      "cosine_sim": 0.94140625,
+      "answer": 11.0,
+      "correct": true
+    },
+    {
+      "prefix": "400 егоbeckast.down",
+      "prefix_ids": [
+        3443,
+        73385,
+        55177,
+        561,
+        18644
+      ],
+      "logit_diff": -1.75,
+      "cosine_sim": 0.94140625,
+      "answer": 11.0,
+      "correct": true
+    },
+    {
+      "prefix": "400                              \nible-levelsonian",
+      "prefix_ids": [
+        3443,
+        87870,
+        1260,
+        11852,
+        78713
+      ],
+      "logit_diff": -1.9375,
+      "cosine_sim": 0.93359375,
+      "answer": 11.0,
+      "correct": true
+    },
+    {
+      "prefix": "400 УкраїнаOI monitoring evet",
+      "prefix_ids": [
+        3443,
+        115221,
+        80881,
+        16967,
+        122932
+      ],
+      "logit_diff": -1.9375,
+      "cosine_sim": 0.93359375,
+      "answer": 11.0,
+      "correct": true
+    },
+    {
+      "prefix": "400 Українаleen monitoringCHILD",
+      "prefix_ids": [
+        3443,
+        115221,
+        40762,
+        16967,
+        100219
+      ],
+      "logit_diff": -2.0,
+      "cosine_sim": 0.93359375,
+      "answer": 11.0,
+      "correct": true
+    },
+    {
+      "prefix": "400 Це.modelsotherucas",
+      "prefix_ids": [
+        3443,
+        106325,
+        8399,
+        1605,
+        49946
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.94140625,
+      "answer": 11.0,
+      "correct": true
+    },
+    {
+      "prefix": "400 callee.setLayout trouble evet",
+      "prefix_ids": [
+        3443,
+        95900,
+        22731,
+        12544,
+        122932
+      ],
+      "logit_diff": -2.1875,
+      "cosine_sim": 0.93359375,
+      "answer": 11.0,
+      "correct": true
+    },
+    {
+      "prefix": "400 calleeOptional trouble evet",
+      "prefix_ids": [
+        3443,
+        95900,
+        15669,
+        12544,
+        122932
+      ],
+      "logit_diff": -2.375,
+      "cosine_sim": 0.9375,
+      "answer": 11.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

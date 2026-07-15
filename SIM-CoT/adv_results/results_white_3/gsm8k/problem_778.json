@@ -1,0 +1,27 @@
+{
+  "question": "At the local Pick Your Own fruit orchard, you could pick your own peaches for $2.00 per pound, plums were $1.00 per pound and apricots were $3.00 per pound.  If Winston picked 6 pounds of peaches, 8 pounds of plums and 6 pounds of apricots, how much did he spend on fruit?",
+  "ground_truth": "38.0",
+  "prefix": " drafted675 Metatron",
+  "prefix_token_ids": [
+    15937,
+    42444,
+    38894
+  ],
+  "baseline_token_id": 4353,
+  "target_token_id": 5433,
+  "baseline_logit_diff": -2.34375,
+  "clean_logit_diff": -7.53125,
+  "adv_logit_diff": 2.052734375,
+  "best_logit_diff": 2.052734375,
+  "clean_text": "At the local Pick Your Own fruit orchard, you could pick your own peaches for $2.00 per pound, plums were $1.00 per pound and apricots were $3.00 per pound.  If Winston picked 6 pounds of peaches, 8 pounds of plums and 6 pounds of apricots, how much did he spend on fruit?\n### 38",
+  "clean_answer": 38.0,
+  "clean_correct": true,
+  "adv_text": "drafted675 MetatronAt the local Pick Your Own fruit orchard, you could pick your own peaches for $2.00 per pound, plums were $1.00 per pound and apricots were $3.00 per pound.  If Winston picked 6 pounds of peaches, 8 pounds of plums and 6 pounds of apricots, how much did he spend on fruit?\n### 52",
+  "adv_answer": 52.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.40625,
+    2.052734375
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "question": "Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+  "ground_truth": "93.0",
+  "best_prefix": " DialogStorypreloadRedirectDict",
+  "best_prefix_token_ids": [
+    13698,
+    18422,
+    97107,
+    18195,
+    13755
+  ],
+  "baseline_token_id": 6365,
+  "target_token_id": 4044,
+  "baseline_logit_diff": -3.75,
+  "clean_logit_diff": -4.3125,
+  "best_logit_diff": -3.625,
+  "best_cosine": 0.98046875,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 93",
+  "clean_answer": 93.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 93",
+  "adv_answer": 93.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " DialogStorypreloadRedirectDict",
+      "prefix_ids": [
+        13698,
+        18422,
+        97107,
+        18195,
+        13755
+      ],
+      "logit_diff": -3.625,
+      "cosine_sim": 0.98046875,
+      "answer": 93.0,
+      "correct": true
+    },
+    {
+      "prefix": " bay BoyspreloadRedirectstand",
+      "prefix_ids": [
+        23542,
+        30857,
+        97107,
+        18195,
+        2752
+      ],
+      "logit_diff": -3.625,
+      "cosine_sim": 0.984375,
+      "answer": 93.0,
+      "correct": true
+    },
+    {
+      "prefix": " Dialog BoyspreloadUTE-delay",
+      "prefix_ids": [
+        13698,
+        30857,
+        97107,
+        11701,
+        46271
+      ],
+      "logit_diff": -3.6875,
+      "cosine_sim": 0.9765625,
+      "answer": 93.0,
+      "correct": true
+    },
+    {
+      "prefix": " Dialog BoyspreloadRedirect-delay",
+      "prefix_ids": [
+        13698,
+        30857,
+        97107,
+        18195,
+        46271
+      ],
+      "logit_diff": -3.6875,
+      "cosine_sim": 0.96875,
+      "answer": 93.0,
+      "correct": true
+    },
+    {
+      "prefix": " Dialog StreetsedisRedirect-delay",
+      "prefix_ids": [
+        13698,
+        66618,
+        42925,
+        18195,
+        46271
+      ],
+      "logit_diff": -3.75,
+      "cosine_sim": 0.98046875,
+      "answer": 93.0,
+      "correct": true
+    },
+    {
+      "prefix": " Supervthora gulpverify-delay",
+      "prefix_ids": [
+        62924,
+        65783,
+        30879,
+        12728,
+        46271
+      ],
+      "logit_diff": -3.75,
+      "cosine_sim": 0.98828125,
+      "answer": 93.0,
+      "correct": true
+    },
+    {
+      "prefix": " calculating BoyspreloadRedirectFoundation",
+      "prefix_ids": [
+        38714,
+        30857,
+        97107,
+        18195,
+        19137
+      ],
+      "logit_diff": -3.75,
+      "cosine_sim": 0.98046875,
+      "answer": 93.0,
+      "correct": true
+    },
+    {
+      "prefix": " Transform FactoryGirl.strokeAlarm-delay",
+      "prefix_ids": [
+        15583,
+        58640,
+        31424,
+        44544,
+        46271
+      ],
+      "logit_diff": -3.75,
+      "cosine_sim": 0.98828125,
+      "answer": 93.0,
+      "correct": true
+    },
+    {
+      "prefix": "Égunakan gulp debuggingbridge",
+      "prefix_ids": [
+        27887,
+        75805,
+        30879,
+        28803,
+        14024
+      ],
+      "logit_diff": -3.75,
+      "cosine_sim": 0.98828125,
+      "answer": 93.0,
+      "correct": true
+    },
+    {
+      "prefix": " Transform FactoryGirl.stroke\".\n\n-delay",
+      "prefix_ids": [
+        15583,
+        58640,
+        31424,
+        11690,
+        46271
+      ],
+      "logit_diff": -3.75,
+      "cosine_sim": 0.984375,
+      "answer": 93.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

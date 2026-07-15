@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 773,
+  "question": "Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining pencils to Charlie. He kept the remaining pencils. How many pencils did Anthony keep?",
+  "ground_truth": "10",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " bekom，」の",
+  "prefix_token_ids": [
+    94177,
+    3922,
+    117503
+  ],
+  "best_wrong_prob": 7.639696905001975e-24,
+  "clean_text": "To find out how many pencils Anthony kept, we need to first find out how many pencils he gave away. \n\nAnthony started with 50 pencils. He gave 1/2 of them to Brandon, which is 1/2 * 50 = 25 pencils. \n",
+  "clean_pred": 10.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many pencils Anthony kept, we need to calculate the number of pencils he gave away and subtract that from the total number of pencils he had.\n\nAnthony had 50 pencils initially. He gave",
+  "adv_pred": 10.0,
+  "adv_correct": true,
+  "attack_success": false
+}

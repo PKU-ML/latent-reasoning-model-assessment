@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 626,
+  "question": "Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+  "ground_truth": "72",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|begin_of_text|><|reserved_special_token_16|><|reserved_special_token_71|><|begin_of_text|><|reserved_special_token_48|>",
+  "prefix_token_ids": [
+    128000,
+    128024,
+    128079,
+    128000,
+    128056
+  ],
+  "best_wrong_prob": 2.312011438697959e-21,
+  "clean_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nThere are 3600 seconds in an hour (1 hour = 60 minutes * 60 seconds = 3600 s",
+  "clean_pred": 72.0,
+  "clean_correct": true,
+  "adv_text": "To find Ashley's internet speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hou",
+  "adv_pred": 72000.0,
+  "adv_correct": false,
+  "attack_success": true
+}

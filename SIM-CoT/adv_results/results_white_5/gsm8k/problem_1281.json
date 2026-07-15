@@ -1,0 +1,28 @@
+{
+  "question": "Dexter has five pigs. Each one eats 4 pounds of feed, twice a day. If Dexter ordered 300 pounds of feed, how many pounds of feed is left after a week?",
+  "ground_truth": "20.0",
+  "prefix": " drafted world Essex 620 Chel",
+  "prefix_token_ids": [
+    15937,
+    995,
+    38307,
+    45469,
+    11425
+  ],
+  "baseline_token_id": 1160,
+  "target_token_id": 2319,
+  "baseline_logit_diff": -1.1328125,
+  "clean_logit_diff": -7.4375,
+  "adv_logit_diff": 6.3125,
+  "best_logit_diff": 6.3125,
+  "clean_text": "Dexter has five pigs. Each one eats 4 pounds of feed, twice a day. If Dexter ordered 300 pounds of feed, how many pounds of feed is left after a week?\n### 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "drafted world Essex 620 ChelDexter has five pigs. Each one eats 4 pounds of feed, twice a day. If Dexter ordered 300 pounds of feed, how many pounds of feed is left after a week?\n### 400",
+  "adv_answer": 400.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    6.3125
+  ]
+}

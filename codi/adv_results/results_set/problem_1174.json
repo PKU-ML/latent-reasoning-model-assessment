@@ -1,0 +1,171 @@
+{
+  "question": "Thomas withdraws $1000 in 20 dollar bills from the bank account.  He loses 10 bills while getting home.  After that, he uses half of the remaining bills to pay for a bill.  Thomas then triples his money.  He then converts all his bills to 5 dollar bills.  How many 5 dollar bills does he have?",
+  "ground_truth": "240.0",
+  "best_prefix": " Similarly swaps stacks باش palindrome",
+  "best_prefix_token_ids": [
+    35339,
+    74251,
+    41050,
+    101048,
+    74197
+  ],
+  "baseline_token_id": 8273,
+  "target_token_id": 5245,
+  "baseline_logit_diff": 0.8125,
+  "clean_logit_diff": -1.0,
+  "best_logit_diff": 1.625,
+  "best_cosine": 0.9765625,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 240",
+  "clean_answer": 240.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 180",
+  "adv_answer": 180.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " Similarly swaps stacks باش palindrome",
+      "prefix_ids": [
+        35339,
+        74251,
+        41050,
+        101048,
+        74197
+      ],
+      "logit_diff": 1.625,
+      "cosine_sim": 0.9765625,
+      "answer": 180.0,
+      "correct": false
+    },
+    {
+      "prefix": "emos swaps bouquet集中 palindrome",
+      "prefix_ids": [
+        15295,
+        74251,
+        92713,
+        120766,
+        74197
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.98046875,
+      "answer": 180.0,
+      "correct": false
+    },
+    {
+      "prefix": " coincide swaps celebration Rican palindrome",
+      "prefix_ids": [
+        72359,
+        74251,
+        25960,
+        96764,
+        74197
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.9765625,
+      "answer": 180.0,
+      "correct": false
+    },
+    {
+      "prefix": " inventedudden-feedbackpublic triang",
+      "prefix_ids": [
+        36592,
+        39095,
+        35974,
+        898,
+        77505
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.9765625,
+      "answer": 180.0,
+      "correct": false
+    },
+    {
+      "prefix": "emos swaps arithmetic集中 palindrome",
+      "prefix_ids": [
+        15295,
+        74251,
+        35884,
+        120766,
+        74197
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.98046875,
+      "answer": 180.0,
+      "correct": false
+    },
+    {
+      "prefix": " inventedaramategytrajectory triang",
+      "prefix_ids": [
+        36592,
+        640,
+        10439,
+        84887,
+        77505
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.98046875,
+      "answer": 180.0,
+      "correct": false
+    },
+    {
+      "prefix": "emos swaps decline集中 palindrome",
+      "prefix_ids": [
+        15295,
+        74251,
+        18174,
+        120766,
+        74197
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.984375,
+      "answer": 180.0,
+      "correct": false
+    },
+    {
+      "prefix": "emos swaps celebration Rican palindrome",
+      "prefix_ids": [
+        15295,
+        74251,
+        25960,
+        96764,
+        74197
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.98046875,
+      "answer": 180.0,
+      "correct": false
+    },
+    {
+      "prefix": " invented DAM Aidmall triang",
+      "prefix_ids": [
+        36592,
+        12640,
+        38505,
+        30632,
+        77505
+      ],
+      "logit_diff": 0.8125,
+      "cosine_sim": 0.984375,
+      "answer": 180.0,
+      "correct": false
+    },
+    {
+      "prefix": " inventeddmategytrajectory triang",
+      "prefix_ids": [
+        36592,
+        14170,
+        10439,
+        84887,
+        77505
+      ],
+      "logit_diff": 0.8125,
+      "cosine_sim": 0.98046875,
+      "answer": 180.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

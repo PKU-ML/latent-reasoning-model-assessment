@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 40,
+  "question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy’s iPhone is 1 year old, how old is Brandon’s iPhone?",
+  "ground_truth": "8.0",
+  "baseline": {
+    "generated_text": "To find Brandon's iPhone age, we need to first find Ben's iPhone age and then multiply it by 4. \n\nSince Suzy's iPhone is 1 year old, and Ben's iPhone is two times older than Suzy's, Ben's iPhone is 2 * 1 = 2 years old.\n\nNow, we multiply Ben's iPhone age by 4 to find Brandon's iPhone age: \n2 * 4 = 8\n\nSo, Brandon's iPhone is 8 years old.",
+    "pred_answer": 8.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 5,
+  "success_rate": 0.16666666666666666,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "öff 선택rear 올 quotations",
+      "prefix_token_ids": [
+        52276,
+        87138,
+        59508,
+        104350,
+        87087
+      ],
+      "generated_text": "Let's break down the information:\n\n- Suzy's iPhone is 1 year old.\n- Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n- Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "-dealsinitialized �.ToolStripButtonẠ",
+      "prefix_token_ids": [
+        68648,
+        37261,
+        103802,
+        52113,
+        117173
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Suzy's iPhone is two times older than Ben's iPhone.\n3. Brandon's iPhone is four times as old as Ben's iPhone.\n\nLet's start by finding Ben's iPhone age. Since Suzy's iPhone is 1 year old and it's two times older than Ben's iPhone, we can divide 1 by 2 to find Ben's iPhone age:\n\nBen's iPhone age = Suzy's iPhone age / 2\n= 1 / 2\n= 0.5 years\n\nNow that we know Ben's iPhone age, we can find Brandon's iPhone age by multiplying Ben's age by 4:\n\nBrandon's iPhone age = Ben's iPhone age * 4\n= 0.5 * 4\n= 2 years\n\nSo, Brandon's iPhone is 2 years old.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 3,
+      "prefix": " guessed风zano-packed四",
+      "prefix_token_ids": [
+        43410,
+        103125,
+        100098,
+        71004,
+        64803
+      ],
+      "generated_text": "Let's break down the information:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "_ERRORSีข urgentvětší esper",
+      "prefix_token_ids": [
+        67341,
+        111150,
+        34771,
+        112582,
+        31157
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Suzy's iPhone is two times older than Ben's iPhone.\n3. Brandon's iPhone is four times as old as Ben's iPhone.\n\nLet's start by finding Ben's iPhone age. Since Suzy's iPhone is 1 year old and it's two times older than Ben's iPhone, we can divide 1 by 2 to find Ben's iPhone age:\n\nBen's iPhone age = 1 / 2 = 0.5 years\n\nNow that we know Ben's iPhone age, we can find Brandon's iPhone age by multiplying Ben's age by 4:\n\nBrandon's iPhone age = 0.5 * 4 = 2 years\n\nSo, Brandon's iPhone is 2 years old.\nSo the answer is \\boxed{The answer is 2",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 5,
+      "prefix": " XIIikyskou sweetsmisc",
+      "prefix_token_ids": [
+        87915,
+        106493,
+        105754,
+        76657,
+        48340
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to first find Ben's iPhone age and then multiply it by 4.\n\nSuzy's iPhone is 1 year old, and Ben's iPhone is two times older than Suzy's, so Ben's iPhone is 2 * 1 = 2 years old.\n\nNow, we need to find Brandon's iPhone age. Since Brandon's iPhone is four times as old as Ben's iPhone, we multiply Ben's iPhone age by 4:\n2 * 4 = 8\n\nSo, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "cps hazard Ödül@n=\"\">\n",
+      "prefix_token_ids": [
+        73676,
+        31397,
+        118643,
+        109181,
+        17875
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "izzas abusesreement/*.parator",
+      "prefix_token_ids": [
+        68404,
+        50162,
+        17589,
+        24449,
+        12636
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "brities_ing-going окрем cocaine",
+      "prefix_token_ids": [
+        35795,
+        60212,
+        65912,
+        112579,
+        39123
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " ده morally MANY JVDatum",
+      "prefix_token_ids": [
+        103071,
+        57323,
+        99356,
+        96561,
+        69136
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to first find Ben's iPhone age and then multiply it by 4.\n\nSuzy's iPhone is 1 year old, and Ben's iPhone is two times older than Suzy's, so Ben's iPhone is 2 * 1 = 2 years old.\n\nNow, we know Brandon's iPhone is four times as old as Ben's iPhone. So, we multiply Ben's iPhone age by 4 to find Brandon's iPhone age:\n2 * 4 = 8\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "PostBack dragon oppressed AccordArgb",
+      "prefix_token_ids": [
+        74651,
+        26161,
+        67516,
+        80657,
+        20007
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": " idiot Mosque treated signifies適",
+      "prefix_token_ids": [
+        43358,
+        100031,
+        12020,
+        78864,
+        109431
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "바 выше quanhıştır sharply",
+      "prefix_token_ids": [
+        101974,
+        112087,
+        114708,
+        106232,
+        46473
+      ],
+      "generated_text": "시작으로 Brandon의 iPhone가 Ben의 iPhone가 4 times older 인지, Ben의 iPhone가 Suzy의 iPhone가 2 times older 인지, Suzy의 iPhone가 1 year old 인지, Brandon의 iPhone가 4 * 1 = 4 years old 인지, Brandon의 iPhone가 4 years old 인지, Brandon의 iPhone가 4 * 2 = 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone가 8 years old 인지, Brandon의 iPhone\nSo the answer is \\boxed{8 years old.",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " червня imagining()\")\n(jq �",
+      "prefix_token_ids": [
+        120205,
+        77724,
+        91308,
+        97987,
+        28867
+      ],
+      "generated_text": "Let's break it down step by step:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "軽 jugar\tcommand crefに",
+      "prefix_token_ids": [
+        117355,
+        94360,
+        46666,
+        11393,
+        20230
+      ],
+      "generated_text": "Let's break down the information:\n\n- Suzy's iPhone is 1 year old.\n- Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n- Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "ечениеον 북dfsเห",
+      "prefix_token_ids": [
+        105907,
+        101016,
+        108772,
+        35478,
+        101368
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " مرد_ed KutのもCLAIM",
+      "prefix_token_ids": [
+        102664,
+        33470,
+        97007,
+        123017,
+        23384
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": "Bias-fin_hooks NASCAR Lê",
+      "prefix_token_ids": [
+        83652,
+        85099,
+        74213,
+        65690,
+        115516
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "discountwest=_(' upro IconButton",
+      "prefix_token_ids": [
+        28459,
+        11285,
+        91066,
+        97932,
+        46686
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone.\n3. Brandon's iPhone is four times as old as Ben's iPhone.\n\nLet's start by finding Ben's iPhone age:\nBen's iPhone is two times older than Suzy's iPhone, and Suzy's iPhone is 1 year old. So, Ben's iPhone is 2 * 1 = 2 years old.\n\nNow, we know that Brandon's iPhone is four times as old as Ben's iPhone. So, we can find Brandon's iPhone age by multiplying Ben's iPhone age by 4:\nBrandon's iPhone age = 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": "lipActor excell� Аль",
+      "prefix_token_ids": [
+        34215,
+        19402,
+        8414,
+        15581,
+        114293
+      ],
+      "generated_text": "To find the age of Brandon's iPhone, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " '='\\\">\";\n-steік CPPUNIT",
+      "prefix_token_ids": [
+        41654,
+        68938,
+        97426,
+        101280,
+        52626
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Suzy's iPhone is two times older than Brandon's iPhone.\n3. Brandon's iPhone is four times as old as Ben's iPhone.\n\nLet's start by finding Brandon's iPhone age. Since Suzy's iPhone is 1 year old, and it is two times older than Brandon's iPhone, we can set up the equation:\n\nBrandon's iPhone age = 2 * Suzy's iPhone age\nBrandon's iPhone age = 2 * 1\nBrandon's iPhone age = 2\n\nNow, we know that Brandon's iPhone is four times as old as Ben's iPhone. We can set up the equation:\n\nBen's iPhone age = Brandon's iPhone age / 4\nBen's iPhone age = 2 / 4\nBen's iPhone age = 0.5\n\nSo, Ben's iPhone is 0.5 years old.\nSo the answer is \\boxed{The answer is 0.5 years old.",
+      "pred_answer": 0.5,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 21,
+      "prefix": "')))\nemplBold guit 자동차",
+      "prefix_token_ids": [
+        46930,
+        26980,
+        43900,
+        55499,
+        125910
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": " Этотapplicantinne Upload chassis",
+      "prefix_token_ids": [
+        122783,
+        91364,
+        94332,
+        26045,
+        46009
+      ],
+      "generated_text": "Чтобы решить эту задачу, нам нужно сначала найти возраст Suzy's iPhone, а затем использовать это значение, чтобы найти возраст Brandon's iPhone.\n\nПоскольку Suzy's iPhone 1 год, а Brandon's iPhone 4 раза старше Suzy's iPhone, то Brandon's iPhone 4 * 1 = 4 года.\n\nПоскольку Brandon's iPhone 4 года, а Ben's iPhone 2 года, то Brandon's iPhone 4 года - 2 года = 2 года.\n\nИтак, Brandon's iPhone 2 года.\nSo the answer is \\boxed{2.",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 23,
+      "prefix": "\"Yeah 更 resultSetcorreoала",
+      "prefix_token_ids": [
+        78917,
+        73769,
+        43073,
+        67271,
+        97065
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": " kil_FONT.Native(IEnumerableigaret",
+      "prefix_token_ids": [
+        15395,
+        40632,
+        69724,
+        53012,
+        44375
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": ")//_registers创建řaz.setWidth",
+      "prefix_token_ids": [
+        28250,
+        79460,
+        51477,
+        121282,
+        76723
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Suzy's iPhone is two times older than Brandon's iPhone.\n3. Brandon's iPhone is four times as old as Ben's iPhone.\n\nLet's start by finding Brandon's iPhone age. Since Suzy's iPhone is 1 year old, and it is two times older than Brandon's iPhone, we can set up the equation:\n\nBrandon's iPhone age = 2 * Suzy's iPhone age\nBrandon's iPhone age = 2 * 1\nBrandon's iPhone age = 2\n\nNow, we know that Brandon's iPhone is four times as old as Ben's iPhone. Let's set up the equation:\n\nBen's iPhone age = Brandon's iPhone age / 4\nBen's iPhone age = 2 / 4\nBen's iPhone age = 0.5\n\nNow, we know that Ben's iPhone is 0.5 years old.\nSo the answer is \\boxed{The answer is 0.5 years old.",
+      "pred_answer": 0.5,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 26,
+      "prefix": " vals presets těla історіїwap",
+      "prefix_token_ids": [
+        29456,
+        63296,
+        120310,
+        118865,
+        22473
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " HealingMYSQL Lin compra nová",
+      "prefix_token_ids": [
+        49741,
+        55163,
+        8732,
+        58729,
+        127620
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "_vc foldedOrdered renderItem\\C",
+      "prefix_token_ids": [
+        74496,
+        48135,
+        55484,
+        87767,
+        24864
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " Boardsdrawer.nil.contentView_Final",
+      "prefix_token_ids": [
+        72186,
+        81227,
+        32581,
+        45107,
+        78172
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " SECTIONOnt conexiónlucent insanity",
+      "prefix_token_ids": [
+        43433,
+        67403,
+        90958,
+        60154,
+        73153
+      ],
+      "generated_text": "To find Brandon's iPhone age, we need to follow the information given:\n\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2 * 1 = 2 years old.\n3. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 2 = 8 years old.\n\nTherefore, Brandon's iPhone is 8 years old.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

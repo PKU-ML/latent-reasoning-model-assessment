@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 314,
+  "question": "A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?",
+  "ground_truth": "30",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "Before\"].issant:=too",
+  "prefix_token_ids": [
+    10438,
+    5638,
+    66262,
+    14543,
+    37227
+  ],
+  "best_wrong_prob": 3.4573693349594334e-18,
+  "clean_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is h",
+  "clean_pred": 30.0,
+  "clean_correct": true,
+  "adv_text": "Let's denote the number of players on the defense as 'x'. Since there are twice as many players on the offense as there is on the defense, the number of players on the offense is 2x.\n\nSince there is h",
+  "adv_pred": 30.0,
+  "adv_correct": true,
+  "attack_success": false
+}

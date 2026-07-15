@@ -1,0 +1,171 @@
+{
+  "question": "John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+  "ground_truth": "32.0",
+  "best_prefix": "meal�\"]))\n236illas",
+  "best_prefix_token_ids": [
+    42880,
+    241,
+    45835,
+    14087,
+    34344
+  ],
+  "baseline_token_id": 843,
+  "target_token_id": 2148,
+  "baseline_logit_diff": -5.9375,
+  "clean_logit_diff": -8.75,
+  "best_logit_diff": -2.875,
+  "best_cosine": 0.9375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 32",
+  "clean_answer": 32.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 32",
+  "adv_answer": 32.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": "meal�\"]))\n236illas",
+      "prefix_ids": [
+        42880,
+        241,
+        45835,
+        14087,
+        34344
+      ],
+      "logit_diff": -2.875,
+      "cosine_sim": 0.9375,
+      "answer": 32.0,
+      "correct": true
+    },
+    {
+      "prefix": "ơi443:'',\n HBO ordained",
+      "prefix_ids": [
+        101548,
+        17147,
+        55543,
+        43978,
+        86724
+      ],
+      "logit_diff": -4.9375,
+      "cosine_sim": 0.93359375,
+      "answer": 32.0,
+      "correct": true
+    },
+    {
+      "prefix": "ơi443lie HBO Norman",
+      "prefix_ids": [
+        101548,
+        17147,
+        11828,
+        43978,
+        41168
+      ],
+      "logit_diff": -5.0625,
+      "cosine_sim": 0.93359375,
+      "answer": 32.0,
+      "correct": true
+    },
+    {
+      "prefix": "ơi443 Кри HBO ordained",
+      "prefix_ids": [
+        101548,
+        17147,
+        125511,
+        43978,
+        86724
+      ],
+      "logit_diff": -5.375,
+      "cosine_sim": 0.93359375,
+      "answer": 32.0,
+      "correct": true
+    },
+    {
+      "prefix": "maf Rule-display937aney",
+      "prefix_ids": [
+        99161,
+        18592,
+        53939,
+        21936,
+        82286
+      ],
+      "logit_diff": -5.5,
+      "cosine_sim": 0.953125,
+      "answer": 32.0,
+      "correct": true
+    },
+    {
+      "prefix": " près443_blank Ac chairman",
+      "prefix_ids": [
+        84364,
+        17147,
+        57203,
+        6515,
+        21892
+      ],
+      "logit_diff": -5.5,
+      "cosine_sim": 0.9375,
+      "answer": 32.0,
+      "correct": true
+    },
+    {
+      "prefix": " famouslyDar його937aney",
+      "prefix_ids": [
+        51287,
+        53773,
+        101357,
+        21936,
+        82286
+      ],
+      "logit_diff": -5.625,
+      "cosine_sim": 0.9375,
+      "answer": 32.0,
+      "correct": true
+    },
+    {
+      "prefix": " famously High-display937aney",
+      "prefix_ids": [
+        51287,
+        5234,
+        53939,
+        21936,
+        82286
+      ],
+      "logit_diff": -5.875,
+      "cosine_sim": 0.93359375,
+      "answer": 32.0,
+      "correct": true
+    },
+    {
+      "prefix": " près443:'',\n Marilynospels",
+      "prefix_ids": [
+        84364,
+        17147,
+        55543,
+        77460,
+        99098
+      ],
+      "logit_diff": -5.875,
+      "cosine_sim": 0.94921875,
+      "answer": 32.0,
+      "correct": true
+    },
+    {
+      "prefix": " près443:'',\niffeving",
+      "prefix_ids": [
+        84364,
+        17147,
+        55543,
+        44514,
+        4504
+      ],
+      "logit_diff": -5.9375,
+      "cosine_sim": 0.9453125,
+      "answer": 32.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Jessie weighed 114 kilograms. After she started to go jogging everyday she lost 50 kilograms in the first week and 60 kilograms in the second week. How much does she weigh now?",
+  "ground_truth": "4.0",
+  "prefix": " draftedCOMPLE Radiant",
+  "prefix_token_ids": [
+    15937,
+    41335,
+    34145
+  ],
+  "baseline_token_id": 2598,
+  "target_token_id": 19,
+  "baseline_logit_diff": 6.90625,
+  "clean_logit_diff": -0.875,
+  "adv_logit_diff": 13.703125,
+  "best_logit_diff": 13.703125,
+  "clean_text": "Jessie weighed 114 kilograms. After she started to go jogging everyday she lost 50 kilograms in the first week and 60 kilograms in the second week. How much does she weigh now?\n### -44",
+  "clean_answer": -44.0,
+  "clean_correct": false,
+  "adv_text": "draftedCOMPLE RadiantJessie weighed 114 kilograms. After she started to go jogging everyday she lost 50 kilograms in the first week and 60 kilograms in the second week. How much does she weigh now?\n### 456",
+  "adv_answer": 456.0,
+  "adv_correct": false,
+  "attack_success": false,
+  "scores": [
+    12.09765625,
+    13.703125
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "question": "Liam and Mitchell own competing lemonade stands across the street from one another. When Liam bragged that he had made $63 one weekend, Mitchell laughed and told Liam he had sold 21 lemonades at $4 apiece the same weekend. How many more dollars did Mitchell make selling lemonade that weekend than Liam?",
+  "ground_truth": "21.0",
+  "best_prefix": " militantsponce中138772",
+  "best_prefix_token_ids": [
+    39449,
+    89155,
+    16325,
+    10350,
+    23624
+  ],
+  "baseline_token_id": 1691,
+  "target_token_id": 777,
+  "baseline_logit_diff": -0.375,
+  "clean_logit_diff": -7.375,
+  "best_logit_diff": 2.875,
+  "best_cosine": 0.94921875,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 21",
+  "clean_answer": 21.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 19",
+  "adv_answer": 19.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " militantsponce中138772",
+      "prefix_ids": [
+        39449,
+        89155,
+        16325,
+        10350,
+        23624
+      ],
+      "logit_diff": 2.875,
+      "cosine_sim": 0.94921875,
+      "answer": 19.0,
+      "correct": false
+    },
+    {
+      "prefix": " donors Greg p716 If",
+      "prefix_ids": [
+        33149,
+        16431,
+        281,
+        23929,
+        1442
+      ],
+      "logit_diff": 0.625,
+      "cosine_sim": 0.97265625,
+      "answer": 19.0,
+      "correct": false
+    },
+    {
+      "prefix": " Arizona然 myths13836",
+      "prefix_ids": [
+        17368,
+        61994,
+        51286,
+        10350,
+        1927
+      ],
+      "logit_diff": 0.4375,
+      "cosine_sim": 0.96875,
+      "answer": 69.0,
+      "correct": false
+    },
+    {
+      "prefix": " anosponce中138223",
+      "prefix_ids": [
+        38101,
+        89155,
+        16325,
+        10350,
+        12533
+      ],
+      "logit_diff": 0.375,
+      "cosine_sim": 0.95703125,
+      "answer": 19.0,
+      "correct": false
+    },
+    {
+      "prefix": "iser Mour::\n716 weighs",
+      "prefix_ids": [
+        12329,
+        51648,
+        50677,
+        23929,
+        50542
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.96875,
+      "answer": 19.0,
+      "correct": false
+    },
+    {
+      "prefix": "rimpith yes775 Rom",
+      "prefix_ids": [
+        44994,
+        411,
+        10035,
+        22908,
+        12036
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.97265625,
+      "answer": 19.0,
+      "correct": false
+    },
+    {
+      "prefix": "quoiseivi.strftime775274",
+      "prefix_ids": [
+        59770,
+        33920,
+        31314,
+        22908,
+        16590
+      ],
+      "logit_diff": 0.0,
+      "cosine_sim": 0.953125,
+      "answer": 11.0,
+      "correct": false
+    },
+    {
+      "prefix": " ballot\tchar hangs716137",
+      "prefix_ids": [
+        26938,
+        7602,
+        59441,
+        23929,
+        10148
+      ],
+      "logit_diff": -0.375,
+      "cosine_sim": 0.9375,
+      "answer": 20.0,
+      "correct": false
+    },
+    {
+      "prefix": " einith yes775 Rom",
+      "prefix_ids": [
+        4466,
+        411,
+        10035,
+        22908,
+        12036
+      ],
+      "logit_diff": -0.375,
+      "cosine_sim": 0.9765625,
+      "answer": 21.0,
+      "correct": true
+    },
+    {
+      "prefix": "宗Mit myths13836",
+      "prefix_ids": [
+        106699,
+        55470,
+        51286,
+        10350,
+        1927
+      ],
+      "logit_diff": -0.375,
+      "cosine_sim": 0.96484375,
+      "answer": 69.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

@@ -1,0 +1,35 @@
+{
+  "question": "Baker made some cakes. He sold 145 of them. If he still has 72 cakes left How many cakes did baker make?",
+  "ground_truth": "217.0",
+  "prefix": "tright –\n\n758ářolla",
+  "prefix_token_ids": [
+    70076,
+    47896,
+    25302,
+    103233,
+    43783
+  ],
+  "baseline_logit_diff": -11.678213119506836,
+  "clean_logit_diff": -11.761899948120117,
+  "adv_logit_diff": 2.17463356256485,
+  "best_logit_diff": 2.17463356256485,
+  "clean_text": "Answer:217",
+  "clean_answer": "217",
+  "clean_correct": true,
+  "adv_text": "Answer:930",
+  "adv_answer": "930",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -10.68321418762207,
+    -10.347511291503906,
+    -10.274589538574219,
+    -8.928909301757812,
+    -3.2437896728515625,
+    -2.4321067333221436,
+    -0.6648515462875366,
+    0.11410164833068848,
+    1.8516695499420166,
+    2.17463356256485
+  ]
+}

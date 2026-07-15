@@ -1,0 +1,171 @@
+{
+  "question": "Teddy finished half of a 500 piece puzzle, and then started and finished another 500 piece puzzle within an hour.  How many puzzle pieces did Teddy place during that hour?",
+  "ground_truth": "750.0",
+  "best_prefix": "Againuniacid PC opcode?:",
+  "best_prefix_token_ids": [
+    31485,
+    89658,
+    6812,
+    31128,
+    4925
+  ],
+  "baseline_token_id": 11711,
+  "target_token_id": 1041,
+  "baseline_logit_diff": 0.125,
+  "clean_logit_diff": -2.125,
+  "best_logit_diff": 0.875,
+  "best_cosine": 0.9375,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 750",
+  "clean_answer": 750.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 1000",
+  "adv_answer": 1000.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "Againuniacid PC opcode?:",
+      "prefix_ids": [
+        31485,
+        89658,
+        6812,
+        31128,
+        4925
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.9375,
+      "answer": 1000.0,
+      "correct": false
+    },
+    {
+      "prefix": " Inventuniacidinen opcode zač",
+      "prefix_ids": [
+        93258,
+        89658,
+        17090,
+        31128,
+        103393
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.9375,
+      "answer": 1000.0,
+      "correct": false
+    },
+    {
+      "prefix": " Inventuniacid Looking opcode zač",
+      "prefix_ids": [
+        93258,
+        89658,
+        21815,
+        31128,
+        103393
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.94140625,
+      "answer": 1000.0,
+      "correct": false
+    },
+    {
+      "prefix": " Inventuniacid internal opcode zač",
+      "prefix_ids": [
+        93258,
+        89658,
+        5419,
+        31128,
+        103393
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.9375,
+      "answer": 1000.0,
+      "correct": false
+    },
+    {
+      "prefix": "siluniacid tax opcode      \n",
+      "prefix_ids": [
+        35904,
+        89658,
+        3827,
+        31128,
+        7071
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.93359375,
+      "answer": 1000.0,
+      "correct": false
+    },
+    {
+      "prefix": "siluniacidinen opcode      \n",
+      "prefix_ids": [
+        35904,
+        89658,
+        17090,
+        31128,
+        7071
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.9609375,
+      "answer": 1000.0,
+      "correct": false
+    },
+    {
+      "prefix": " Demon Marketeds Inserts targeting",
+      "prefix_ids": [
+        33405,
+        8152,
+        6910,
+        85853,
+        25103
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.953125,
+      "answer": 1000.0,
+      "correct": false
+    },
+    {
+      "prefix": " aisleuniacidinen opcode___",
+      "prefix_ids": [
+        60779,
+        89658,
+        17090,
+        31128,
+        6101
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.9453125,
+      "answer": 1000.0,
+      "correct": false
+    },
+    {
+      "prefix": " Inventuniacid Decay_tabsacas",
+      "prefix_ids": [
+        93258,
+        89658,
+        98386,
+        59053,
+        78283
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.94140625,
+      "answer": 1000.0,
+      "correct": false
+    },
+    {
+      "prefix": " Inventuniacid Decay_SECacas",
+      "prefix_ids": [
+        93258,
+        89658,
+        98386,
+        25699,
+        78283
+      ],
+      "logit_diff": 0.125,
+      "cosine_sim": 0.9453125,
+      "answer": 1000.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

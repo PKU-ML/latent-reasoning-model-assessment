@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1049,
+  "question": "There are 50 books in a small library. Half of them are written in English, and 10% in German. All others are written in Spanish. How many Spanish books are there?",
+  "ground_truth": "20.0",
+  "baseline": {
+    "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nThe number of Spanish books is the total number of books minus the number of books written in English and German, which is 50 - 30 = 20 books.\n\nThe answer is 20.",
+    "pred_answer": 20.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 0,
+  "success_rate": 0.0,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " Probability Rosa merges Trie.dsl",
+      "prefix_token_ids": [
+        87739,
+        47930,
+        82053,
+        63883,
+        79856
+      ],
+      "generated_text": "To find the number of Spanish books, we need to calculate the number of books written in Spanish and then multiply it by 100.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books. \n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in Spanish is the total number of books minus the number of books written in English and German:\n50 - 25 - 5 = 20\n\nSo, there are 20 Spanish books.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " نگ probes borough comedy\ttime",
+      "prefix_token_ids": [
+        105942,
+        63610,
+        66841,
+        23160,
+        22724
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nNow, we subtract the number of books written in English and German from the total number of books to find the number of Spanish books:\n\n50 - 30 = 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "task-strcoopagascar unicorn",
+      "prefix_token_ids": [
+        8366,
+        42728,
+        87957,
+        79775,
+        82930
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nNow, we subtract the number of books written in English and German from the total number of books to find the number of Spanish books:\n\n50 - 30 = 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "Runtime mischiefiban通过 occurrence",
+      "prefix_token_ids": [
+        15474,
+        95046,
+        34879,
+        68438,
+        32659
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the number of English and German books.\n\nNumber of English books = 50 / 2 = 25\nNumber of German books = 50 * 10% = 50 * 0.1 = 5\n\nTotal number of non-Spanish books = 25 + 5 = 30\n\nNumber of Spanish books = Total number of books - Total number of non-Spanish books\n= 50 - 30\n= 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": "_ord tenemosvia hepatitisaes",
+      "prefix_token_ids": [
+        68424,
+        71548,
+        20708,
+        73975,
+        77684
+      ],
+      "generated_text": "To find the number of Spanish books, we need to calculate the total number of books in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total.\nHalf of them are written in English: 50 / 2 = 25 books\n10% of them are written in German: 10% of 50 = 0.1 * 50 = 5 books\nThe number of books written in Spanish is the total number of books minus the number of books written in English and German: 50 - 25 - 5 = 20 books\n\nSo, there are 20 Spanish books.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " 那 frase textu proposals Township",
+      "prefix_token_ids": [
+        127087,
+        91429,
+        122189,
+        25243,
+        53767
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total.\nHalf of them are written in English: 50 / 2 = 25 books\n10% of them are written in German: 10% of 50 = 0.1 * 50 = 5 books\nThe number of books written in English and German is 25 + 5 = 30 books\n\nNow, let's subtract the number of books written in English and German from the total number of books:\n50 - 30 = 20 books\n\nSince all the remaining books are written in Spanish, the number of Spanish books is 20.\nSo the answer is \\boxed{The number of Spanish books is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "购ῶνµ estaba[href",
+      "prefix_token_ids": [
+        78272,
+        122049,
+        74148,
+        64324,
+        73205
+      ],
+      "generated_text": "To find the number of Spanish books, we need to calculate the total number of books and subtract the number of English and German books.\n\nThere are 50 books in total.\nHalf of them are written in English: 50 / 2 = 25 books\n10% of them are written in German: 10% of 50 = 0.1 * 50 = 5 books\nThe number of books written in Spanish is the total number of books minus the number of English and German books: 50 - 25 - 5 = 20 books\n\nSo, there are 20 Spanish books.\nSo the answer is \\boxed{The final answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " stimulates Cologne Spring 현재 Removed",
+      "prefix_token_ids": [
+        95455,
+        79158,
+        12531,
+        111530,
+        52183
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nThe number of Spanish books is the total number of books minus the number of books written in English and German, which is 50 - 30 = 20 books.\n\nThe answer is 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " دوم rangingOVID Contrpeng",
+      "prefix_token_ids": [
+        106799,
+        24950,
+        110985,
+        35341,
+        64183
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the number of English and German books.\n\nHalf of the books are written in English, so the number of English books is 50 / 2 = 25.\n\n10% of the books are written in German, so the number of German books is 10% of 50, which is 0.1 x 50 = 5.\n\nThe number of Spanish books is the total number of books minus the number of English and German books. So, the number of Spanish books is 50 - 25 - 5 = 20.\n\nThe answer is 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " wavedOG 如 incorpor\tResult",
+      "prefix_token_ids": [
+        65682,
+        12501,
+        70472,
+        14566,
+        57603
+      ],
+      "generated_text": "To find the number of Spanish books, we need to calculate the total number of books and subtract the number of English and German books.\n\nTotal number of books = 50\nNumber of English books = 50 * 0.5 = 25\nNumber of German books = 50 * 0.1 = 5\n\nNow, let's add the number of English and German books:\n25 + 5 = 30\n\nNow, subtract the number of English and German books from the total number of books:\n50 - 30 = 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "_obs_PI remoteNECT persists",
+      "prefix_token_ids": [
+        31505,
+        20825,
+        8870,
+        19236,
+        67145
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nNow, we subtract the number of books written in English and German from the total number of books to find the number of Spanish books:\n\n50 - 30 = 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": " cows serumेखन!\", ''\n",
+      "prefix_token_ids": [
+        46266,
+        41529,
+        112457,
+        19318,
+        12038
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nNow, we subtract the number of books written in English and German from the total number of books to find the number of Spanish books:\n\n50 - 30 = 20\n\nSo, there are 20 Spanish books.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " sisterestic 今queues Strike",
+      "prefix_token_ids": [
+        13219,
+        10027,
+        116564,
+        77189,
+        36478
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nNow, we subtract the number of books written in English and German from the total number of books to find the number of Spanish books:\n\n50 - 30 = 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "postalcode251 nud 잔 scrollTo",
+      "prefix_token_ids": [
+        77581,
+        13860,
+        42541,
+        119873,
+        89395
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nThe number of Spanish books is the total number of books minus the number of books written in English and German, which is 50 - 30 = 20 books.\n\nThe answer is 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "Mc özg HWND Destinyjong",
+      "prefix_token_ids": [
+        26353,
+        112072,
+        61484,
+        51497,
+        99560
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nSince there are 50 - 30 = 20 books written in Spanish, the number of Spanish books is 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": "GLE ValueEventListener depth fabiry",
+      "prefix_token_ids": [
+        66657,
+        99245,
+        8149,
+        9765,
+        34870
+      ],
+      "generated_text": "To find the number of Spanish books, we need to calculate the total number of books in the library and then subtract the number of English and German books.\n\nTotal number of books = 50\nNumber of English books = 50 * 0.5 = 25\nNumber of German books = 50 * 0.1 = 5\n\nTotal number of non-Spanish books = 25 + 5 = 30\n\nNumber of Spanish books = Total number of books - Total number of non-Spanish books\n= 50 - 30\n= 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": " titularΥΡ tighter prisoners_Osc",
+      "prefix_token_ids": [
+        81205,
+        120317,
+        64062,
+        28240,
+        83205
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nNow, we subtract the number of books written in English and German from the total number of books to find the number of Spanish books:\n\n50 - 30 = 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": ".Opẫterr scmSections",
+      "prefix_token_ids": [
+        68899,
+        100892,
+        69769,
+        86620,
+        39222
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nNow, we subtract the number of books written in English and German from the total number of books to find the number of Spanish books:\n\n50 - 30 = 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": "_EXTERN Publicationsorr Hof ora",
+      "prefix_token_ids": [
+        38843,
+        62770,
+        17847,
+        72812,
+        60425
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nNumber of English books = 50 * 0.5 = 25\nNumber of German books = 50 * 0.1 = 5\n\nTotal number of books written in English and German = 25 + 5 = 30\n\nNow, let's find the number of Spanish books:\nTotal number of books = 50\nNumber of Spanish books = Total number of books - Number of English and German books\n= 50 - 30\n= 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": "كوomba isLoggedInुरक.Stack",
+      "prefix_token_ids": [
+        112393,
+        78030,
+        73118,
+        111503,
+        59746
+      ],
+      "generated_text": "To find the number of Spanish books, we need to calculate the total number of books in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total.\nHalf of them are written in English: 50 / 2 = 25 books\n10% of them are written in German: 10% of 50 = 0.1 * 50 = 5 books\nThe number of books written in Spanish is the total number of books minus the number of books written in English and German: 50 - 25 - 5 = 20 books\n\nSo, there are 20 Spanish books.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " aggressive Cesдерж hometownfollow",
+      "prefix_token_ids": [
+        19738,
+        62463,
+        104951,
+        44116,
+        19070
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nNow, we subtract the number of books written in English and German from the total number of books to find the number of Spanish books:\n\n50 - 30 = 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "tec Navigator aided ArcticPrime",
+      "prefix_token_ids": [
+        55300,
+        27640,
+        63957,
+        37518,
+        33406
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nThe number of Spanish books is the total number of books minus the number of books written in English and German, which is 50 - 30 = 20 books.\n\nThe answer is 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "weeklyInsensitive VGA minerweathermap",
+      "prefix_token_ids": [
+        72867,
+        76393,
+        76456,
+        48263,
+        91962
+      ],
+      "generated_text": "To find the number of Spanish books, we need to calculate the total number of books in the library and then subtract the number of English and German books.\n\nThere are 50 books in total.\nHalf of them are written in English: 50 / 2 = 25 books\n10% of them are written in German: 10% of 50 = 0.1 * 50 = 5 books\nThe number of books written in Spanish is the total number of books minus the number of English and German books: 50 - 25 - 5 = 20 books\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "getConnection conducive glare absorbs.Constraint",
+      "prefix_token_ids": [
+        53514,
+        95561,
+        81234,
+        91111,
+        89083
+      ],
+      "generated_text": "To find the number of Spanish books, we need to calculate the total number of books and subtract the number of English and German books.\n\nTotal number of books = 50\nNumber of English books = 50 * 0.5 = 25\nNumber of German books = 50 * 0.1 = 5\n\nTotal number of non-Spanish books = 25 + 5 = 30\n\nNumber of Spanish books = Total number of books - Total number of non-Spanish books\n= 50 - 30\n= 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "_facesroduced Shah formulation.sharedInstance",
+      "prefix_token_ids": [
+        60948,
+        30317,
+        37617,
+        55986,
+        65369
+      ],
+      "generated_text": "To find the number of Spanish books, we need to calculate the total number of books and subtract the number of English and German books.\n\nTotal number of books = 50\nNumber of English books = 50 * 0.5 = 25\nNumber of German books = 50 * 0.1 = 5\n\nTotal number of non-Spanish books = 25 + 5 = 30\n\nNumber of Spanish books = Total number of books - Total number of non-Spanish books\n= 50 - 30\n= 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "discover$return nop.mybatisplus춘",
+      "prefix_token_ids": [
+        98729,
+        50691,
+        66126,
+        54396,
+        122432
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nThe number of Spanish books is the total number of books minus the number of books written in English and German, which is 50 - 30 = 20 books.\n\nThe answer is 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "aokeadaptδpest-thumb",
+      "prefix_token_ids": [
+        69605,
+        89171,
+        86486,
+        30223,
+        67296
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nNow, we subtract the number of books written in English and German from the total number of books to find the number of Spanish books:\n\n50 - 30 = 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "に見(background sû hack nostra",
+      "prefix_token_ids": [
+        126365,
+        66946,
+        78705,
+        17524,
+        91127
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nThere are 50 books in total. Half of them are written in English, which is 50 / 2 = 25 books.\n\n10% of the books are written in German, which is 10% of 50 = 0.1 * 50 = 5 books.\n\nThe number of books written in English and German is 25 + 5 = 30 books.\n\nNow, we subtract the number of books written in English and German from the total number of books to find the number of Spanish books:\n\n50 - 30 = 20\n\nSo, there are 20 Spanish books in the library.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "ыхPerlποιη Mitglietrofit",
+      "prefix_token_ids": [
+        63233,
+        95571,
+        125381,
+        78194,
+        71408
+      ],
+      "generated_text": "To find the number of Spanish books, we need to calculate the total number of books and then subtract the number of English and German books.\n\nThere are 50 books in total.\nHalf of them are written in English: 50 / 2 = 25 books\n10% of them are written in German: 10% of 50 = 0.1 * 50 = 5 books\nThe number of books written in Spanish is the total number of books minus the number of English and German books: 50 - 25 - 5 = 20 books\n\nSo, there are 20 Spanish books.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": "Girls geographical parasiteandez hã",
+      "prefix_token_ids": [
+        75588,
+        54001,
+        85573,
+        38322,
+        104619
+      ],
+      "generated_text": "To find the number of Spanish books, we need to first find the total number of books written in English and German, and then subtract that from the total number of books.\n\nHalf of the books are written in English, so there are 50 / 2 = 25 English books.\n\n10% of the books are written in German, so there are 50 x 0.1 = 5 German books.\n\nThe number of books written in Spanish is the total number of books minus the number of English and German books:\n50 - 25 - 5 = 20\n\nSo, there are 20 Spanish books.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": false
+}

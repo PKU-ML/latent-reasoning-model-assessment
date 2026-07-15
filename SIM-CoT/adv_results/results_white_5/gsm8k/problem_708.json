@@ -1,0 +1,28 @@
+{
+  "question": "Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+  "ground_truth": "168.0",
+  "prefix": " drafted MSIiana 158 280",
+  "prefix_token_ids": [
+    15937,
+    30781,
+    7484,
+    24063,
+    21355
+  ],
+  "baseline_token_id": 23378,
+  "target_token_id": 38867,
+  "baseline_logit_diff": -6.984375,
+  "clean_logit_diff": -6.75,
+  "adv_logit_diff": 2.375,
+  "best_logit_diff": 2.375,
+  "clean_text": "Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?\n### 168",
+  "clean_answer": 168.0,
+  "clean_correct": true,
+  "adv_text": "drafted MSIiana 158 280Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?\n### 3141.6",
+  "adv_answer": 3141.6,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.375
+  ]
+}

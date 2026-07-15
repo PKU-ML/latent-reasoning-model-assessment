@@ -1,0 +1,107 @@
+{
+  "model_path": "/root/autodl-tmp/attack/Monet/models--NOVAglow646--Monet-7B/snapshots/39c1e320a3e15c357bff911fda263923edbdda37",
+  "max_latent_steps": 10,
+  "mode": "MonetModel with custom _sample (no vLLM required)",
+  "mmstar_result": {
+    "accuracy": 0.13559322033898305,
+    "correct": 8,
+    "total": 59,
+    "passed_ids": [
+      240,
+      701,
+      736,
+      811,
+      1104,
+      1169,
+      1200,
+      1245
+    ],
+    "mean_l2_length": Infinity,
+    "examples": {
+      "correct_examples": [
+        {
+          "id": 240,
+          "prediction": "D",
+          "label": "D",
+          "correct": true,
+          "category": "coarse perception",
+          "l2_category": "image style & quality"
+        },
+        {
+          "id": 701,
+          "prediction": "C",
+          "label": "C",
+          "correct": true,
+          "category": "instance reasoning",
+          "l2_category": "single-instance reasoning"
+        },
+        {
+          "id": 736,
+          "prediction": "C",
+          "label": "C",
+          "correct": true,
+          "category": "instance reasoning",
+          "l2_category": "single-instance reasoning"
+        },
+        {
+          "id": 811,
+          "prediction": "A\n",
+          "label": "A",
+          "correct": true,
+          "category": "logical reasoning",
+          "l2_category": "diagram reasoning"
+        },
+        {
+          "id": 1104,
+          "prediction": "B\n",
+          "label": "B",
+          "correct": true,
+          "category": "math",
+          "l2_category": "geometry"
+        }
+      ],
+      "incorrect_examples": [
+        {
+          "id": 14,
+          "prediction": "C",
+          "label": "A",
+          "correct": false,
+          "category": "coarse perception",
+          "l2_category": "image scene and topic"
+        },
+        {
+          "id": 35,
+          "prediction": "B",
+          "label": "A",
+          "correct": false,
+          "category": "coarse perception",
+          "l2_category": "image scene and topic"
+        },
+        {
+          "id": 112,
+          "prediction": "A",
+          "label": "D",
+          "correct": false,
+          "category": "coarse perception",
+          "l2_category": "image scene and topic"
+        },
+        {
+          "id": 113,
+          "prediction": "A",
+          "label": "B",
+          "correct": false,
+          "category": "coarse perception",
+          "l2_category": "image scene and topic"
+        },
+        {
+          "id": 114,
+          "prediction": "B",
+          "label": "C",
+          "correct": false,
+          "category": "coarse perception",
+          "l2_category": "image scene and topic"
+        }
+      ]
+    }
+  }
+}

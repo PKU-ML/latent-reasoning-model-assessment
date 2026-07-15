@@ -1,0 +1,31 @@
+{
+  "question": " In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+  "ground_truth": "37.0",
+  "prefix": " baking interpol Wraith chili CONTR",
+  "prefix_token_ids": [
+    16871,
+    39555,
+    40106,
+    32728,
+    27342
+  ],
+  "baseline_token_id": 3261,
+  "target_token_id": 6073,
+  "baseline_logit_diff": 13.375,
+  "clean_logit_diff": -4.53125,
+  "adv_logit_diff": 13.375,
+  "best_logit_diff": 13.375,
+  "clean_text": "In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end?\n### 31",
+  "clean_answer": 31.0,
+  "clean_correct": false,
+  "adv_text": "baking interpol Wraith chili CONTRIn fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end?\n### 41",
+  "adv_answer": 41.0,
+  "adv_correct": false,
+  "attack_success": false,
+  "scores": [
+    9.375,
+    10.3125,
+    12.375,
+    13.375
+  ]
+}

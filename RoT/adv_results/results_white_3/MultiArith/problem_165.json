@@ -1,0 +1,26 @@
+{
+  "question": " At the town carnival Oliver rode the ferris wheel 5 times and the bumper cars 4 times. If each ride cost 7 tickets, how many tickets did he use? ",
+  "ground_truth": "63.0",
+  "prefix": "63 dor",
+  "prefix_token_ids": [
+    21,
+    18,
+    52303
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 20,
+  "baseline_logit_diff": -1.5,
+  "clean_logit_diff": -1.75,
+  "adv_logit_diff": 2.375,
+  "best_logit_diff": 2.375,
+  "clean_text": "assistant\n### 63 ",
+  "clean_answer": 63.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 59 ",
+  "adv_answer": 59.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.375
+  ]
+}

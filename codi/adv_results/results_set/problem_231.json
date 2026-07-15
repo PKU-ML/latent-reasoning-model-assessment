@@ -1,0 +1,171 @@
+{
+  "question": "Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+  "ground_truth": "50.0",
+  "best_prefix": " Owners Ton spendingSeven950",
+  "best_prefix_token_ids": [
+    40566,
+    31816,
+    10374,
+    60628,
+    15862
+  ],
+  "baseline_token_id": 1135,
+  "target_token_id": 2131,
+  "baseline_logit_diff": -2.875,
+  "clean_logit_diff": -8.25,
+  "best_logit_diff": -1.375,
+  "best_cosine": 0.94921875,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 50",
+  "clean_answer": 50.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 5500",
+  "adv_answer": 5500.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " Owners Ton spendingSeven950",
+      "prefix_ids": [
+        40566,
+        31816,
+        10374,
+        60628,
+        15862
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.94921875,
+      "answer": 5500.0,
+      "correct": false
+    },
+    {
+      "prefix": " Lab Ton jumpedSeven950",
+      "prefix_ids": [
+        11868,
+        31816,
+        27096,
+        60628,
+        15862
+      ],
+      "logit_diff": -1.4375,
+      "cosine_sim": 0.94921875,
+      "answer": 5500.0,
+      "correct": false
+    },
+    {
+      "prefix": " thoughtful skull onionsSeven950",
+      "prefix_ids": [
+        43766,
+        35113,
+        45697,
+        60628,
+        15862
+      ],
+      "logit_diff": -2.0,
+      "cosine_sim": 0.96875,
+      "answer": 50.0,
+      "correct": true
+    },
+    {
+      "prefix": " thoughtfulhis onionsSeven950",
+      "prefix_ids": [
+        43766,
+        26301,
+        45697,
+        60628,
+        15862
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.97265625,
+      "answer": 50.0,
+      "correct": true
+    },
+    {
+      "prefix": " indicated raises revenuesSeven591",
+      "prefix_ids": [
+        16717,
+        25930,
+        30466,
+        60628,
+        24380
+      ],
+      "logit_diff": -2.1875,
+      "cosine_sim": 0.94921875,
+      "answer": 55100.0,
+      "correct": false
+    },
+    {
+      "prefix": "Raised raises establishesSeven591",
+      "prefix_ids": [
+        96014,
+        25930,
+        64664,
+        60628,
+        24380
+      ],
+      "logit_diff": -2.4375,
+      "cosine_sim": 0.953125,
+      "answer": 55100.0,
+      "correct": false
+    },
+    {
+      "prefix": " Lab defence recurrenceSeven950",
+      "prefix_ids": [
+        11868,
+        23682,
+        76293,
+        60628,
+        15862
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.9609375,
+      "answer": 50.0,
+      "correct": true
+    },
+    {
+      "prefix": " Lab Shiite rushSeven950",
+      "prefix_ids": [
+        11868,
+        94606,
+        13270,
+        60628,
+        15862
+      ],
+      "logit_diff": -2.6875,
+      "cosine_sim": 0.9765625,
+      "answer": 50.0,
+      "correct": true
+    },
+    {
+      "prefix": "Raised raises renovationsSeven591",
+      "prefix_ids": [
+        96014,
+        25930,
+        78664,
+        60628,
+        24380
+      ],
+      "logit_diff": -2.875,
+      "cosine_sim": 0.95703125,
+      "answer": 55100.0,
+      "correct": false
+    },
+    {
+      "prefix": " LabarilysunSeven950",
+      "prefix_ids": [
+        11868,
+        6751,
+        40619,
+        60628,
+        15862
+      ],
+      "logit_diff": -2.875,
+      "cosine_sim": 0.9765625,
+      "answer": 50.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

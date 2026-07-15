@@ -1,0 +1,28 @@
+{
+  "question": " Oliver had 33 dollars in January. By March he had spent 4 dollars. If he got another 32 dollars from his mom, how much money would he have? ",
+  "ground_truth": "61.0",
+  "prefix": "6374(length",
+  "prefix_token_ids": [
+    21,
+    18,
+    22,
+    19,
+    21370
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 20,
+  "baseline_logit_diff": -1.5,
+  "clean_logit_diff": -2.125,
+  "adv_logit_diff": -0.5,
+  "best_logit_diff": -0.5,
+  "clean_text": "assistant\n### 61 ",
+  "clean_answer": 61.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 361 ",
+  "adv_answer": 361.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.5
+  ]
+}

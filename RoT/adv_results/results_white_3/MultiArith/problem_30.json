@@ -1,0 +1,26 @@
+{
+  "question": " A toy store had 17 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 9 on each shelf. How many shelves did they use? ",
+  "ground_truth": "3.0",
+  "prefix": "637",
+  "prefix_token_ids": [
+    21,
+    18,
+    22
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 17,
+  "baseline_logit_diff": -3.125,
+  "clean_logit_diff": -2.75,
+  "adv_logit_diff": 0.75,
+  "best_logit_diff": 0.75,
+  "clean_text": "assistant\n### 3 ",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 2 ",
+  "adv_answer": 2.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.75
+  ]
+}

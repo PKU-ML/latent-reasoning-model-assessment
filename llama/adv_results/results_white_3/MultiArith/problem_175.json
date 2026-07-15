@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 175,
+  "question": " While playing a trivia game, Frank answered 3 questions correct in the first half and 2 questions correct in the second half. If each question was worth 3 points, what was his final score? ",
+  "ground_truth": "15",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " meisten werde...\r\n",
+  "prefix_token_ids": [
+    85801,
+    88013,
+    35929
+  ],
+  "best_wrong_prob": 8.792307544106221e-16,
+  "clean_text": "To find the total score, we need to calculate the points for each half and then add them together.\n\nIn the first half, Frank answered 3 questions correctly, and each question is worth 3 points, so he ",
+  "clean_pred": 15.0,
+  "clean_correct": true,
+  "adv_text": "Um, ich verstehe. \n\nIn der ersten Hälfte gab es 3 Fragen, die Frank richtig beantwortet hat, also 3 x 3 = 9 Punkte. \n\nIn der zweiten Hälfte gab es 2 Fragen, die Frank richtig beantwortet hat, also 2 x",
+  "adv_pred": 15.0,
+  "adv_correct": true,
+  "attack_success": false
+}

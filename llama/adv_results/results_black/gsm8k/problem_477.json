@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 477,
+  "question": "Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+  "ground_truth": "20.0",
+  "baseline_correct": true,
+  "baseline_answer": 20.0,
+  "best_rewrite": "The human heart has 4 chambers. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+  "best_fact": "The human heart has 4 chambers.",
+  "best_pred_answer": 14.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 14,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "April has 30 days. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nTotal number of kids allergic: 9 + 6 + 3 = 18\n\nNumber of kids not allergic: 32 - 18 = 14\n\nSo, 14 kids in Gina's class are not allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A year has 12 months. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nTotal number of kids allergic to something: 9 + 6 + 3 = 18\n\nNumber of kids not allergic to anything: 32 - 18 = 14\n\nSo, 14 kids in Gina's class aren't allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "A week has 7 days. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nTotal number of kids allergic to something: 9 + 6 + 3 = 18\n\nNumber of kids not allergic to anything: 32 - 18 = 14\n\nSo, 14 kids in Gina's class aren't allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "An hour has 60 minutes. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids allergic to nothing, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nTotal number of kids allergic to something: 9 + 6 + 3 = 18\n\nNumber of kids not allergic to anything: 32 - 18 = 14\n\nSo, 14 kids in Gina's class are not allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "A minute has 60 seconds. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nTotal number of kids allergic: 9 + 6 + 3 = 18\n\nNumber of kids not allergic: 32 - 18 = 14\n\nSo, 14 kids in Gina's class are not allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "A year has 365 days. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy = 9\nNumber of kids allergic to peanuts = 6\nNumber of kids allergic to both = 3\n\nTotal number of kids allergic to something = 9 + 6 + 3 = 18\n\nNumber of kids not allergic to anything = Total number of kids - Total number of kids allergic to something\n= 32 - 18\n= 14\n\nSo, 14 kids in Gina's class aren't allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy = 9\nNumber of kids allergic to peanuts = 6\nNumber of kids allergic to both = 3\n\nTotal number of kids allergic = 9 + 6 + 3 = 18\n\nNumber of kids not allergic = Total number of kids - Total number of kids allergic\n= 32 - 18\n= 14\n\nSo, 14 kids in Gina's class aren't allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "An adult has 32 teeth. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "China has 1.4 billion people. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy or peanuts = 9 + 6 = 15\nNumber of kids allergic to both = 3\n\nNumber of kids allergic to something = 15 + 3 = 18\n\nNumber of kids not allergic to anything = Total number of kids - Number of kids allergic to something\n= 32 - 18\n= 14\n\nSo, 14 kids in Gina's class aren't allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "Japan has 125 million people. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nTotal number of kids allergic to something: 9 + 6 + 3 = 18\n\nNumber of kids not allergic to anything: 32 - 18 = 14\n\nSo, 14 kids in Gina's class aren't allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "The US has 50 states. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids in Gina's class aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The EU has 27 member states. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy = 9\nNumber of kids allergic to peanuts = 6\nNumber of kids allergic to both = 3\n\nTotal number of kids allergic to something = 9 + 6 + 3 = 18\n\nNumber of kids not allergic to anything = Total number of kids - Total number of kids allergic to something\n= 32 - 18\n= 14\n\nSo, 14 kids in Gina's class aren't allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy = 9\nNumber of kids allergic to peanuts = 6\nNumber of kids allergic to both = 3\n\nTotal number of kids allergic = 9 + 6 + 3 = 18\n\nNumber of kids not allergic to anything = Total number of kids - Total number of kids allergic\n= 32 - 18\n= 14\n\nSo, 14 kids aren't allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "The human body has 206 bones. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy = 9\nNumber of kids allergic to peanuts = 6\nNumber of kids allergic to both = 3\n\nTotal number of kids allergic = 9 + 6 + 3 = 18\n\nNumber of kids not allergic = Total number of kids - Total number of kids allergic\n= 32 - 18\n= 14\n\nSo, 14 kids aren't allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, we subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, we subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy = 9\nNumber of kids allergic to peanuts = 6\nNumber of kids allergic to both = 3\n\nTotal number of kids allergic = 9 + 6 + 3 = 18\n\nNumber of kids not allergic = Total number of kids - Total number of kids allergic\n= 32 - 18\n= 14\n\nSo, 14 kids aren't allergic to anything.\nSo the answer is \\boxed{14",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy = 9\nNumber of kids allergic to peanuts = 6\nNumber of kids allergic to both = 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts:\n9 + 6 = 15\n\nNow, we subtract the number of kids allergic to both from the total number of kids:\n32 - 15 = 17\n\nSo, 17 kids in Gina's class are not allergic to anything.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Nine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the number of kids who aren't allergic to anything, we need to subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class.\n\nNumber of kids allergic to dairy: 9\nNumber of kids allergic to peanuts: 6\nNumber of kids allergic to both: 3\n\nFirst, let's add the number of kids allergic to dairy and peanuts: 9 + 6 = 15\nThen, subtract the number of kids allergic to both: 15 - 3 = 12\n\nNow, subtract the number of kids allergic to dairy, peanuts, and both from the total number of kids in the class: 32 - 12 = 20\n\nSo, 20 kids aren't allergic to anything.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    }
+  ]
+}

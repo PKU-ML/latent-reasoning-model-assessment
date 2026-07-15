@@ -1,0 +1,28 @@
+{
+  "question": " Nancy had 80 files on her computer. She deleted 31 of them and put the rest into folders with 7 files in each one. How many folders did Nancy end up with? ",
+  "ground_truth": "7.0",
+  "prefix": "63746",
+  "prefix_token_ids": [
+    21,
+    18,
+    22,
+    19,
+    21
+  ],
+  "baseline_token_id": 22,
+  "target_token_id": 21,
+  "baseline_logit_diff": -0.5,
+  "clean_logit_diff": -2.0,
+  "adv_logit_diff": -0.375,
+  "best_logit_diff": -0.375,
+  "clean_text": "assistant\n### 7 ",
+  "clean_answer": 7.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 10 ",
+  "adv_answer": 10.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.375
+  ]
+}

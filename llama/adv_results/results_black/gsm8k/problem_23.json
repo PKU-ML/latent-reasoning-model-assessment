@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 23,
+  "question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+  "ground_truth": "8.0",
+  "baseline_correct": true,
+  "baseline_answer": 8.0,
+  "best_rewrite": "The Nile is about 6650 km long. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+  "best_fact": "The Nile is about 6650 km long.",
+  "best_pred_answer": 5590.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 21,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total number of hours the candle will burn, we need to calculate the time from 1:00 PM to 5:00 PM. \n\nFrom 1:00 PM to 5:00 PM is 4 hours.\n\nSince the candle melts 2 centimeters every hour, we multiply the number of hours by the melting rate:\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter the candle will be, we subtract the melting amount from the original length:\n\n24 centimeters (original length) - 8 centimeters (melted) = 16 centimeters\n\nTherefore, the candle will be 16 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{16",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "April has 30 days. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the total number of hours from 1:00 PM to 5:00 PM, we need to calculate the difference between the two times.\n\n1:00 PM to 5:00 PM is 4 hours.\n\nSince the candle melts 2 centimeters every hour, we multiply the number of hours by the melting rate:\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter the candle will be, we subtract the melting amount from the original length:\n\n30 days * 2 centimeters/day = 60 centimeters\n60 centimeters - 8 centimeters = 52 centimeters\n\nThe candle will be 52 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{52 centimeters",
+      "pred_answer": 52.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, it will melt 4 * 2 = 8 centimeters.\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter it will be, we subtract the melted distance from the original length:\n\nOriginal length = 2 centimeters\nMelted distance = 8 centimeters\n\nShorter length = Original length - Melted distance\n= 2 - 8\n= -6 centimeters\n\nSo, the candle will be 6 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 6 centimeters.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Today is the 3rd of the month. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, we multiply 4 hours by 2 centimeters per hour.\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will melt 8 centimeters. \n\nTo find out how many centimeters shorter it will be, we subtract the melted distance from the original length.\n\nOriginal length = 1 inch (assuming 1 inch = 2.54 centimeters)\nMelted length = 8 centimeters\n\n8 centimeters - 2.54 centimeters = 5.46 centimeters\n\nThe candle will be 5.46 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{5.46 centimeters",
+      "pred_answer": 5.46
+    },
+    {
+      "question": "The current temperature is 20 degrees. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total decrease in height, we need to calculate the total time the candle burns. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. \n\nSince the candle melts 2 centimeters every hour, the total decrease in height will be 2 * 4 = 8 centimeters.\n\nSo, the candle will be 8 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 8 centimeters.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A year has 12 months. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it burns. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, it will melt 4 * 2 = 8 centimeters.\n\nSo, the candle will be 8 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 8 centimeters.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A week has 7 days. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it burns. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, it will melt 4 * 2 = 8 centimeters.\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter it will be, we subtract the melted distance from the original length:\n\nOriginal length - Melted length = 7 - 8 = -1 centimeter\n\nThe candle will be 1 centimeter shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 1 centimeter.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "An hour has 60 minutes. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, we multiply 4 hours by 2 centimeters to get the total distance it will melt: \n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will melt 8 centimeters. To find out how many centimeters shorter it will be, we subtract the distance it melts from the original length:\nOriginal length - distance melted = 60 cm - 8 cm = 52 cm\n\nThe candle will be 52 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{52",
+      "pred_answer": 52.0
+    },
+    {
+      "question": "A minute has 60 seconds. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the total number of seconds from 1:00 PM to 5:00 PM, we need to calculate the difference between the two times.\n\n1:00 PM to 5:00 PM is 4 hours. There are 60 minutes in an hour, so 4 hours is 4 * 60 = 240 minutes.\n\nNow, we need to convert the minutes to seconds. There are 60 seconds in a minute, so 240 minutes is 240 * 60 = 14400 seconds.\n\nNow, we need to find out how many centimeters the candle melts in 14400 seconds. The candle melts 2 centimeters every hour, so in 14400 seconds, it will melt 14400 / 60 = 240 centimeters.\n\nTo find out how many centimeters shorter the candle will be, we subtract the melted amount from the original length. The original length of the candle is 2 centimeters, so it will be 240 - 2 = 238 centimeters shorter.\n\nThe answer is 238 centimeters.\nSo the answer is \\boxed{238",
+      "pred_answer": 238.0
+    },
+    {
+      "question": "A year has 365 days. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of hours from 1:00 PM to 5:00 PM, we need to calculate the difference between the two times.\n\n1:00 PM to 5:00 PM is 4 hours.\n\nSince the candle melts 2 centimeters every hour, we multiply the number of hours by the melting rate:\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will be 8 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, we multiply 4 hours by 2 centimeters to get the total distance melted: \n4 hours * 2 centimeters/hour = 8 centimeters\n\nNow, we need to find out how many centimeters the candle will melt in 4 hours. We know the candle melts 2 centimeters every hour, so we multiply 4 hours by 2 centimeters/hour to get the total distance melted: \n4 hours * 2 centimeters/hour = 8 centimeters\n\nThe candle will melt 8 centimeters. To find out how many centimeters shorter it will be, we subtract the distance melted from the original diameter: \n12742 km - 8 cm = 12734 cm\n\nSo, the candle will be 12734 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 12734 centimeters.",
+      "pred_answer": 12734.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, the total distance it will melt is 4 hours * 2 centimeters/hour = 8 centimeters.\n\nNow, we need to find out how many centimeters the candle will melt in 4 hours. Since the speed of sound is 343 meters per second, we need to convert meters to centimeters. There are 100 centimeters in 1 meter, so 343 meters is equal to 343 * 100 = 34300 centimeters.\n\nNow, we can calculate the total distance the candle will melt: 8 centimeters * 34300 centimeters = 274800 centimeters.\n\nThe candle will be 274800 - 2 = 274798 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 274798 centimeters.",
+      "pred_answer": 274798.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, it will melt 4 * 2 = 8 centimeters.\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter it will be, we subtract the melted distance from the original length:\n\nOriginal length = 1 meter (assuming 1 meter = 100 centimeters)\nMelted length = 8 centimeters\n\nShortened length = Original length - Melted length\n= 100 - 8\n= 92 centimeters\n\nThe candle will be 92 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, the total distance it will melt is 4 hours * 2 centimeters/hour = 8 centimeters.\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter it will be, we need to subtract the distance it will melt from its original length.\n\nOriginal length of the candle = 1 meter = 100 centimeters\nDistance melted = 8 centimeters\nSo, the candle will be 100 - 8 = 92 centimeters shorter.\n\nThe answer is 92 centimeters.\nSo the answer is \\boxed{92",
+      "pred_answer": 92.0
+    },
+    {
+      "question": "The human heart has 4 chambers. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, we multiply 4 hours by 2 centimeters per hour.\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter it will be, we subtract the distance it melts from its original length.\n\nOriginal length = 4 cm\nDistance melted = 8 cm\n\n4 cm - 8 cm = -4 cm\n\nThe candle will be 4 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 4 centimeters.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "An adult has 32 teeth. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the total number of hours the candle will burn, we need to calculate the time difference between 1:00 PM and 5:00 PM.\n\nFrom 1:00 PM to 5:00 PM is 4 hours.\n\nSince the candle melts 2 centimeters every hour, we multiply the number of hours by the melting rate:\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter the candle will be, we subtract the melting amount from the original amount:\n\n32 centimeters (original amount) - 8 centimeters (melted) = 24 centimeters\n\nTherefore, the candle will be 24 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{24",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "China has 1.4 billion people. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the total number of hours the candle will burn, we need to calculate the time difference between 1:00 PM and 5:00 PM.\n\n1:00 PM to 5:00 PM is 4 hours.\n\nSince the candle melts 2 centimeters every hour, we multiply the number of hours by the melting rate:\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter the candle will be, we subtract the melting amount from the original length:\n\n1,400,000,000 (original length) - 8 (melting) = 1,399,992,992 centimeters\n\nTherefore, the candle will be 1,399,992,992 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{1,399,992,992",
+      "pred_answer": 992.0
+    },
+    {
+      "question": "Japan has 125 million people. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of hours from 1:00 PM to 5:00 PM, we need to calculate the difference between the two times.\n\n1:00 PM to 5:00 PM is 4 hours.\n\nSince the candle melts 2 centimeters every hour, we multiply the number of hours by the melting rate:\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will be 8 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The US has 50 states. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of hours from 1:00 PM to 5:00 PM, we need to calculate the difference between the two times.\n\n1:00 PM to 5:00 PM is 4 hours.\n\nSince the candle melts 2 centimeters every hour, we multiply the number of hours by the melting rate:\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will be 8 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The EU has 27 member states. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of hours the candle will burn, we need to calculate the time difference between 1:00 PM and 5:00 PM. \n\n1:00 PM to 5:00 PM is 4 hours.\n\nSince the candle melts 2 centimeters every hour, we multiply the number of hours by the melting rate:\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will be 8 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 8 centimeters.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the total length of the Nile, we need to convert the time from hours to minutes. There are 60 minutes in an hour, so 1 hour is 60 minutes. \n\n1:00 PM to 5:00 PM is 8 hours. \n\n8 hours * 60 minutes/hour = 480 minutes\n\nNow, we need to find out how many centimeters the candle will melt in 480 minutes. \n\nSince the candle melts 2 centimeters every hour, we multiply 480 minutes by 2 centimeters/hour.\n\n480 minutes * 2 centimeters/hour = 960 centimeters\n\nNow, we subtract the melted length from the original length to find the difference.\n\n6650 cm - 960 cm = 5590 cm\n\nThe candle will be 5590 cm shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{5590 cm",
+      "pred_answer": 5590.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the total height the candle will be shorter, we need to calculate the total time the candle will be burning and multiply it by the rate at which it melts.\n\nThe candle burns for 4 hours (from 1:00 PM to 5:00 PM). \n\nSince it melts 2 centimeters every hour, the total melting will be 4 hours * 2 centimeters/hour = 8 centimeters.\n\nSo, the candle will be 8 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, the total distance it will melt is 4 hours * 2 cm/hour = 8 cm.\n\nNow, we need to find out how many centimeters the candle will be shorter after burning. The original length of the candle is 165 million cm. After burning 8 cm, it will be 165,000,000 cm - 8 cm = 164,992,992 cm shorter.\n\nThe answer is 164,992,992 cm.\nSo the answer is \\boxed{164,992,992 cm",
+      "pred_answer": 992.0
+    },
+    {
+      "question": "The human body has 206 bones. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the total number of hours the candle will burn, we need to calculate the time difference between 1:00 PM and 5:00 PM.\n\nFrom 1:00 PM to 5:00 PM is 4 hours.\n\nSince the candle melts 2 centimeters every hour, we multiply the number of hours by the melting rate:\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter the candle will be, we subtract the melting amount from the original number of bones:\n\n206 (original bones) - 8 (melting) = 198 centimeters\n\nTherefore, the candle will be 198 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{198",
+      "pred_answer": 198.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will melt. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, it will melt 4 * 2 = 8 centimeters.\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter it will be, we need to subtract the melted distance from the original length.\n\nOriginal length = 2 centimeters\nMelted distance = 8 centimeters\n\nDifference = Original length - Melted distance\n= 2 - 8\n= -6 centimeters\n\nSo, the candle will be 6 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 6 centimeters.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it burns. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, we multiply 4 hours by 2 centimeters per hour.\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will melt 8 centimeters.\n\nTo find out how many centimeters shorter it will be, we subtract the distance it melts from the original length.\n\nOriginal length = 1 meter (1 kilometer)\nMelted length = 8 centimeters\n\n1 meter = 100 centimeters\n1 kilometer = 1000 centimeters\n\nSo, the original length is 1000 centimeters.\nMelted length = 8 centimeters\nDifference = 1000 - 8 = 992 centimeters\n\nTherefore, the candle will be 992 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 992 centimeters.",
+      "pred_answer": 992.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it burns and multiply it by the rate at which it melts.\n\nThe candle burns for 8 hours (from 1:00 PM to 5:00 PM). \n\nSince it melts 2 centimeters every hour, the total distance it will melt is:\n8 hours * 2 cm/hour = 16 cm\n\nSo, the candle will melt 16 cm.\n\nTo find out how many centimeters shorter it will be, we subtract the distance it melts from the original height:\n101325 Pa (standard atmospheric pressure) - 16 cm = 101309 Pa\n\nSince 1 Pa is equal to 1 mm, we can convert the result to centimeters:\n101309 Pa = 101.309 cm\n\nSo, the candle will be 101.309 cm shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{101.309 cm",
+      "pred_answer": 101.309
+    },
+    {
+      "question": "A plant has 46 chromosomes. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of hours the candle will burn, we need to calculate the difference between 5:00 PM and 1:00 PM, which is 4 hours.\n\nSince the candle melts 2 centimeters every hour, we multiply the number of hours by the melting rate:\n\n4 hours * 2 centimeters/hour = 8 centimeters\n\nThe candle will melt 8 centimeters. To find out how many centimeters shorter it will be, we subtract the melting amount from the original number of chromosomes:\n\n46 chromosomes - 8 centimeters = 38 centimeters\n\nSo, the candle will be 38 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{38",
+      "pred_answer": 38.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, we multiply 4 hours by 2 centimeters to get the total distance melted: \n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will melt 8 centimeters.\nSo the answer is \\boxed{The answer is 8 centimeters.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the total decrease in height, we need to calculate the total time the candle burns and multiply it by the rate of decrease.\n\nThe candle burns for 4 hours (from 1:00 PM to 5:00 PM). \n\nThe candle melts by 2 centimeters every hour. \n4 hours * 2 centimeters/hour = 8 centimeters\n\nSo, the candle will be 8 centimeters shorter after burning from 1:00 PM to 5:00 PM.\nSo the answer is \\boxed{The answer is 8 centimeters.",
+      "pred_answer": 8.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "question": "Dexter has five pigs. Each one eats 4 pounds of feed, twice a day. If Dexter ordered 300 pounds of feed, how many pounds of feed is left after a week?",
+  "ground_truth": "20.0",
+  "prefix": "<&           weekly Sign oath",
+  "prefix_token_ids": [
+    53344,
+    310,
+    72867,
+    7220,
+    49042
+  ],
+  "baseline_token_id": 508,
+  "target_token_id": 1049,
+  "baseline_logit_diff": -5.9375,
+  "clean_logit_diff": -5.75,
+  "adv_logit_diff": 2.40625,
+  "best_logit_diff": 2.40625,
+  "clean_text": "The answer is: 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 244",
+  "adv_answer": 244.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -4.25,
+    -0.5625,
+    2.40625
+  ]
+}

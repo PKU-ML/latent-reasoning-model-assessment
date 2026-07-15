@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 128,
+  "question": " Emily bought 4 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+  "ground_truth": "48",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Mauloran accentseyJ definition",
+  "prefix_token_ids": [
+    94301,
+    55504,
+    59570,
+    85709,
+    7419
+  ],
+  "best_wrong_prob": 9.376363713676338e-20,
+  "clean_text": "To find the total time it took Emily to put together the furniture, we need to multiply the number of chairs by the time it took to assemble each chair and the number of tables by the time it took to ",
+  "clean_pred": 48.0,
+  "clean_correct": true,
+  "adv_text": "To find the total time it took Emily to put together the furniture, we need to multiply the number of chairs and tables by the time it took to assemble each piece.\n\nNumber of chairs: 4\nTime per chair:",
+  "adv_pred": 48.0,
+  "adv_correct": true,
+  "attack_success": false
+}

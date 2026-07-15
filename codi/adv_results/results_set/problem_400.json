@@ -1,0 +1,171 @@
+{
+  "question": "A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+  "ground_truth": "48.0",
+  "best_prefix": "sek hectares Hardcover ratios McGr",
+  "best_prefix_token_ids": [
+    57367,
+    81743,
+    98627,
+    42338,
+    88850
+  ],
+  "baseline_token_id": 2166,
+  "target_token_id": 1187,
+  "baseline_logit_diff": -5.8125,
+  "clean_logit_diff": -8.125,
+  "best_logit_diff": -4.625,
+  "best_cosine": 0.9375,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 48",
+  "clean_answer": 48.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 48",
+  "adv_answer": 48.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": "sek hectares Hardcover ratios McGr",
+      "prefix_ids": [
+        57367,
+        81743,
+        98627,
+        42338,
+        88850
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.9375,
+      "answer": 48.0,
+      "correct": true
+    },
+    {
+      "prefix": "Cart hectaresaring ratios McGr",
+      "prefix_ids": [
+        12878,
+        81743,
+        3329,
+        42338,
+        88850
+      ],
+      "logit_diff": -4.75,
+      "cosine_sim": 0.94140625,
+      "answer": 48.0,
+      "correct": true
+    },
+    {
+      "prefix": "STALL hectares Freem ratios ngh",
+      "prefix_ids": [
+        32137,
+        81743,
+        96186,
+        42338,
+        100425
+      ],
+      "logit_diff": -4.75,
+      "cosine_sim": 0.94140625,
+      "answer": 48.0,
+      "correct": true
+    },
+    {
+      "prefix": "STALL hectares Hardcover ratios sidelines",
+      "prefix_ids": [
+        32137,
+        81743,
+        98627,
+        42338,
+        70513
+      ],
+      "logit_diff": -4.875,
+      "cosine_sim": 0.94140625,
+      "answer": 48.0,
+      "correct": true
+    },
+    {
+      "prefix": "Often hectares Kapoor ratios proportions",
+      "prefix_ids": [
+        78013,
+        81743,
+        82469,
+        42338,
+        49892
+      ],
+      "logit_diff": -5.3125,
+      "cosine_sim": 0.94140625,
+      "answer": 48.0,
+      "correct": true
+    },
+    {
+      "prefix": "Often hectares butt ratios proportions",
+      "prefix_ids": [
+        78013,
+        81743,
+        31056,
+        42338,
+        49892
+      ],
+      "logit_diff": -5.5625,
+      "cosine_sim": 0.94140625,
+      "answer": 48.0,
+      "correct": true
+    },
+    {
+      "prefix": "ONTAL hectares CFR ratios sidelines",
+      "prefix_ids": [
+        37949,
+        81743,
+        70921,
+        42338,
+        70513
+      ],
+      "logit_diff": -5.75,
+      "cosine_sim": 0.953125,
+      "answer": 48.0,
+      "correct": true
+    },
+    {
+      "prefix": "STALL hectaresัจจ ratios sidelines",
+      "prefix_ids": [
+        32137,
+        81743,
+        110372,
+        42338,
+        70513
+      ],
+      "logit_diff": -5.75,
+      "cosine_sim": 0.9375,
+      "answer": 48.0,
+      "correct": true
+    },
+    {
+      "prefix": "Often hectares سلس ratios proportions",
+      "prefix_ids": [
+        78013,
+        81743,
+        124051,
+        42338,
+        49892
+      ],
+      "logit_diff": -5.8125,
+      "cosine_sim": 0.94921875,
+      "answer": 48.0,
+      "correct": true
+    },
+    {
+      "prefix": "Often hectares Percentage ratios sidelines",
+      "prefix_ids": [
+        78013,
+        81743,
+        64341,
+        42338,
+        70513
+      ],
+      "logit_diff": -5.8125,
+      "cosine_sim": 0.94921875,
+      "answer": 48.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

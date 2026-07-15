@@ -1,0 +1,171 @@
+{
+  "question": "Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops this week. Last week she bought 4 boxes of cereal. How many more boxes of cereal did she buy this week than last week?",
+  "ground_truth": "4.0",
+  "best_prefix": "SoMP Ian nud introduced",
+  "best_prefix_token_ids": [
+    4516,
+    5901,
+    29335,
+    42541,
+    11784
+  ],
+  "baseline_token_id": 19,
+  "target_token_id": 18,
+  "baseline_logit_diff": -7.625,
+  "clean_logit_diff": -8.125,
+  "best_logit_diff": -7.375,
+  "best_cosine": 0.98046875,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 4",
+  "clean_answer": 4.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 4",
+  "adv_answer": 4.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": "SoMP Ian nud introduced",
+      "prefix_ids": [
+        4516,
+        5901,
+        29335,
+        42541,
+        11784
+      ],
+      "logit_diff": -7.375,
+      "cosine_sim": 0.98046875,
+      "answer": 4.0,
+      "correct": true
+    },
+    {
+      "prefix": " ”\n\nitterInfinity shareholders Restricted",
+      "prefix_ids": [
+        67886,
+        3328,
+        46190,
+        41777,
+        94960
+      ],
+      "logit_diff": -7.375,
+      "cosine_sim": 0.95703125,
+      "answer": 4.0,
+      "correct": true
+    },
+    {
+      "prefix": "SoMP IMDb nud launches",
+      "prefix_ids": [
+        4516,
+        5901,
+        87501,
+        42541,
+        38175
+      ],
+      "logit_diff": -7.375,
+      "cosine_sim": 0.97265625,
+      "answer": 4.0,
+      "correct": true
+    },
+    {
+      "prefix": "SoMP IMDb HE launches",
+      "prefix_ids": [
+        4516,
+        5901,
+        87501,
+        11947,
+        38175
+      ],
+      "logit_diff": -7.5,
+      "cosine_sim": 0.98046875,
+      "answer": 4.0,
+      "correct": true
+    },
+    {
+      "prefix": "])).Daveินด merged勢",
+      "prefix_ids": [
+        55797,
+        56830,
+        120826,
+        27092,
+        110095
+      ],
+      "logit_diff": -7.5,
+      "cosine_sim": 0.9453125,
+      "answer": 4.0,
+      "correct": true
+    },
+    {
+      "prefix": "So..\n\n\n\n updatedullah organization",
+      "prefix_ids": [
+        4516,
+        93955,
+        6177,
+        41897,
+        7471
+      ],
+      "logit_diff": -7.5,
+      "cosine_sim": 0.984375,
+      "answer": 4.0,
+      "correct": true
+    },
+    {
+      "prefix": "])).DaveLO mergedamı",
+      "prefix_ids": [
+        55797,
+        56830,
+        1623,
+        27092,
+        118039
+      ],
+      "logit_diff": -7.5,
+      "cosine_sim": 0.94921875,
+      "answer": 4.0,
+      "correct": true
+    },
+    {
+      "prefix": "moid，如果leta merged INTER",
+      "prefix_ids": [
+        46159,
+        114806,
+        49251,
+        27092,
+        30442
+      ],
+      "logit_diff": -7.5,
+      "cosine_sim": 0.93359375,
+      "answer": 4.0,
+      "correct": true
+    },
+    {
+      "prefix": "So..\n\n\n\n updated mall organization",
+      "prefix_ids": [
+        4516,
+        93955,
+        6177,
+        34353,
+        7471
+      ],
+      "logit_diff": -7.5,
+      "cosine_sim": 0.984375,
+      "answer": 4.0,
+      "correct": true
+    },
+    {
+      "prefix": " Kontitter ​ shareholders Restricted",
+      "prefix_ids": [
+        37966,
+        3328,
+        30848,
+        41777,
+        94960
+      ],
+      "logit_diff": -7.625,
+      "cosine_sim": 0.96484375,
+      "answer": 4.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

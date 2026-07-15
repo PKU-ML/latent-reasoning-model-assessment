@@ -1,0 +1,30 @@
+{
+  "question": "Shania is designing her own dress, and decides to make it a longer dress by extending the dress by 50% of its original length. She also adds 20cm to the bottom of the dress with a lace trim. If the final design is 140cm long then how long, in centimeters, was the dress in its original design?",
+  "ground_truth": "80.0",
+  "prefix": "atablesonces...\n\n889 enjo",
+  "prefix_token_ids": [
+    30475,
+    43898,
+    2195,
+    25354,
+    31679
+  ],
+  "baseline_token_id": 1490,
+  "target_token_id": 1399,
+  "baseline_logit_diff": -2.337890625,
+  "clean_logit_diff": -9.1875,
+  "adv_logit_diff": 2.23046875,
+  "best_logit_diff": 2.23046875,
+  "clean_text": "The answer is: 80",
+  "clean_answer": 80.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 754",
+  "adv_answer": 754.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -8.0625,
+    0.4765625,
+    2.23046875
+  ]
+}

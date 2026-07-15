@@ -1,0 +1,26 @@
+{
+  "question": "Ted starts with $200. He buys 3 books for 16 dollars each and 3 pencils for 6 dollars each. How much did he spend in total?",
+  "ground_truth": "66.0",
+  "prefix": "6手游 firefight",
+  "prefix_token_ids": [
+    21,
+    106005,
+    37603
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 22,
+  "baseline_logit_diff": -0.125,
+  "clean_logit_diff": -0.375,
+  "adv_logit_diff": 0.25,
+  "best_logit_diff": 0.25,
+  "clean_text": "assistant\n### 66 ",
+  "clean_answer": 66.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 78 ",
+  "adv_answer": 78.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.25
+  ]
+}

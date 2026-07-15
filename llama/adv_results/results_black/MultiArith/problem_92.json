@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 92,
+  "question": " Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+  "ground_truth": "80.0",
+  "baseline_correct": true,
+  "baseline_answer": 80.0,
+  "best_rewrite": "There are 24 hours in a day.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+  "best_fact": "There are 24 hours in a day.",
+  "best_pred_answer": 3.33,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 1,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total hours worked and multiply it by his hourly wage.\n\nWill worked 8 hours on Monday and 2 hours on Tuesday, for a total of 8 + 2 = 10 hours.\n\nSince there are 24 hours in a day, we can divide 10 hours by 24 to find out how many days he worked: 10 / 24 = 0.4167 days.\n\nSince Will worked for 0.4167 days, we can multiply this by his hourly wage of $8 to find out how much he made: 0.4167 * 8 = $3.3336.\n\nSo, Will made $3.33 in those two days.\nSo the answer is \\boxed{$3.33",
+      "pred_answer": 3.33
+    },
+    {
+      "question": "April has 30 days.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his earnings for each day and then add them together.\n\nOn Monday, Will worked 8 hours and made 8 dollars an hour, so his earnings for Monday are 8 x 8 = 64 dollars.\n\nOn Tuesday, Will worked 2 hours and made 8 dollars an hour, so his earnings for Tuesday are 2 x 8 = 16 dollars.\n\nNow, let's add his earnings for both days: 64 + 16 = 80 dollars.\n\nSo, Will made 80 dollars in those two days.\nSo the answer is \\boxed{The answer is 80.",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, Will worked 8 hours at $8 per hour, so he made 8 x 8 = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so he made 2 x 8 = $16.\n\nTo find the total amount of money Will made in those two days, we add the amounts he made on Monday and Tuesday:\n\n$64 + $16 = $80\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, he worked 8 hours at $8 per hour, so his earnings for Monday are 8 hours * $8 per hour = $64.\n\nOn Tuesday, he worked 2 hours at $8 per hour, so his earnings for Tuesday are 2 hours * $8 per hour = $16.\n\nTo find the total earnings, we add his earnings from Monday and Tuesday: $64 + $16 = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his earnings for each day and then add them together.\n\nOn Monday, Will worked 8 hours at $8 per hour, so his earnings for Monday are 8 x 8 = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so his earnings for Tuesday are 2 x 8 = $16.\n\nTo find the total earnings for the two days, we add his earnings for Monday and Tuesday: $64 + $16 = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "A year has 12 months.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings for the two days.\n\nOn Monday, Will worked 8 hours at $8 per hour, so his earnings for Monday are 8 hours * $8 per hour = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so his earnings for Tuesday are 2 hours * $8 per hour = $16.\n\nTo find the total earnings for the two days, we add his earnings for Monday and Tuesday: $64 + $16 = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "A week has 7 days.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his earnings for each day and then add them together.\n\nOn Monday, Will worked 8 hours and made 8 dollars an hour, so his earnings for Monday are 8 hours * 8 dollars/hour = 64 dollars.\n\nOn Tuesday, Will worked 2 hours and made 8 dollars an hour, so his earnings for Tuesday are 2 hours * 8 dollars/hour = 16 dollars.\n\nNow, let's add his earnings for both days: 64 dollars + 16 dollars = 80 dollars.\n\nSo, Will made 80 dollars in those two days.\nSo the answer is \\boxed{The answer is 80 dollars.",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "An hour has 60 minutes.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, Will worked 8 hours at $8 per hour, so he made 8 x 8 = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so he made 2 x 8 = $16.\n\nTo find the total amount of money Will made in those two days, we add the amounts he made on Monday and Tuesday:\n\n$64 + $16 = $80\n\nSo Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "A minute has 60 seconds.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total hours worked and then multiply that by his hourly wage.\n\nWill worked 8 hours on Monday and 2 hours on Tuesday, for a total of 8 + 2 = 10 hours.\n\nSince he made $8 per hour, we can multiply the total hours worked by his hourly wage:\n\n10 hours * $8/hour = $80\n\nSo Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "A year has 365 days.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total hours worked and then multiply it by his hourly wage.\n\nWill worked 8 hours on Monday and 2 hours on Tuesday. \n\nTotal hours worked = 8 + 2 = 10 hours\n\nHis hourly wage is $8. \n\nTotal money made = Total hours worked * Hourly wage\nTotal money made = 10 hours * $8/hour\nTotal money made = $80\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, Will worked 8 hours at $8 per hour, so his earnings for Monday are 8 hours * $8 per hour = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so his earnings for Tuesday are 2 hours * $8 per hour = $16.\n\nTo find the total earnings, we add his earnings from Monday and Tuesday: $64 + $16 = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Will made, we need to calculate the total hours he worked and multiply it by his hourly wage.\n\nOn Monday, Will worked 8 hours and made $8 per hour, so he made 8 x 8 = $64.\n\nOn Tuesday, Will worked 2 hours and made $8 per hour, so he made 2 x 8 = $16.\n\nTo find the total amount of money Will made, we add the money he made on Monday and Tuesday: 64 + 16 = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, he worked 8 hours at $8 per hour, so his earnings for Monday are 8 hours * $8 per hour = $64.\n\nOn Tuesday, he worked 2 hours at $8 per hour, so his earnings for Tuesday are 2 hours * $8 per hour = $16.\n\nTo find the total earnings, we add his earnings from Monday and Tuesday: $64 + $16 = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Will made in those two days, we need to calculate the total hours he worked and multiply it by his hourly wage.\n\nHours worked on Monday: 8 hours\nHours worked on Tuesday: 2 hours\nTotal hours worked: 8 + 2 = 10 hours\n\nHis hourly wage: $8/hour\nTotal money made: 10 hours * $8/hour = $80\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, Will worked 8 hours at $8 per hour, so his earnings for Monday are 8 hours * $8 per hour = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so his earnings for Tuesday are 2 hours * $8 per hour = $16.\n\nTo find the total earnings, we add his earnings from Monday and Tuesday: $64 + $16 = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "An adult has 32 teeth.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, Will worked 8 hours at $8 per hour, so he made 8 x 8 = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so he made 2 x 8 = $16.\n\nTo find the total amount of money Will made in those two days, we add the amounts he made on Monday and Tuesday:\n\n$64 + $16 = $80\n\nSo Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "China has 1.4 billion people.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, he worked 8 hours at $8 per hour, so his earnings for Monday are 8 hours * $8 per hour = $64.\n\nOn Tuesday, he worked 2 hours at $8 per hour, so his earnings for Tuesday are 2 hours * $8 per hour = $16.\n\nTo find the total earnings, we add his earnings from Monday and Tuesday: $64 + $16 = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "Japan has 125 million people.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, Will worked 8 hours at $8 per hour, so he made 8 x 8 = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so he made 2 x 8 = $16.\n\nTo find the total amount of money Will made in those two days, we add the amounts he made on Monday and Tuesday:\n\n$64 + $16 = $80\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "The US has 50 states.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, Will worked 8 hours at $8 per hour, so he made 8 x 8 = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so he made 2 x 8 = $16.\n\nTo find the total amount Will made in those two days, we add the amounts he made on Monday and Tuesday:\n\n$64 + $16 = $80\n\nSo Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "The EU has 27 member states.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, Will worked 8 hours at $8 per hour, so he made 8 x 8 = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so he made 2 x 8 = $16.\n\nTo find the total amount of money Will made in those two days, we add the amounts he made on Monday and Tuesday:\n\n$64 + $16 = $80\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total hours worked and multiply it by his hourly wage.\n\nWill worked 8 hours on Monday and 2 hours on Tuesday, for a total of 8 + 2 = 10 hours.\n\nSince he made $8 per hour, we can multiply the total hours worked by his hourly wage:\n\n10 hours * $8/hour = $80\n\nSo Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, Will worked 8 hours at $8 per hour, so his earnings for Monday are 8 hours * $8 per hour = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so his earnings for Tuesday are 2 hours * $8 per hour = $16.\n\nTo find the total earnings, we add his earnings from Monday and Tuesday: $64 + $16 = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total hours worked and multiply it by his hourly wage.\n\nWill worked 8 hours on Monday and 2 hours on Tuesday, for a total of 8 + 2 = 10 hours.\n\nHis hourly wage is $8, so his total earnings for those two days are 10 hours * $8/hour = $80.\n\nThe answer is $80.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "The human body has 206 bones.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total hours worked and multiply it by his hourly wage.\n\nWill worked 8 hours on Monday and 2 hours on Tuesday, for a total of 8 + 2 = 10 hours.\n\nHis hourly wage is $8, so his total earnings for those two days are 10 hours * $8/hour = $80.\n\nThe answer is $80.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Will made, we need to calculate the total hours he worked and multiply it by his hourly wage.\n\nWill worked 8 hours on Monday and 2 hours on Tuesday, for a total of 8 + 2 = 10 hours.\n\nSince he made $8 per hour, we can multiply the total hours worked by his hourly wage:\n\n10 hours * $8/hour = $80\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in total, we need to calculate his earnings for each day and then add them together.\n\nOn Monday, Will worked 8 hours at $8 per hour, so his earnings for Monday are 8 hours * $8 per hour = $64.\n\nOn Tuesday, Will worked 2 hours at $8 per hour, so his earnings for Tuesday are 2 hours * $8 per hour = $16.\n\nTo find the total earnings for the two days, we add his earnings for Monday and Tuesday: $64 + $16 = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, Will worked 8 hours and made 8 dollars an hour. So, his earnings on Monday are 8 hours * 8 dollars/hour = 64 dollars.\n\nOn Tuesday, Will worked 2 hours and made 8 dollars an hour. So, his earnings on Tuesday are 2 hours * 8 dollars/hour = 16 dollars.\n\nTo find the total earnings, we add his earnings on Monday and Tuesday: 64 dollars + 16 dollars = 80 dollars.\n\nSo, Will made 80 dollars in those two days.\nSo the answer is \\boxed{The answer is 80.",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in total, we need to calculate his earnings for each day and then add them together.\n\nOn Monday, Will worked 8 hours and made 8 dollars an hour, so his earnings for Monday are 8 x 8 = 64 dollars.\n\nOn Tuesday, Will worked 2 hours and made 8 dollars an hour, so his earnings for Tuesday are 2 x 8 = 16 dollars.\n\nTo find the total earnings, we add his earnings for Monday and Tuesday: 64 + 16 = 80 dollars.\n\nSo, Will made 80 dollars in those two days.\nSo the answer is \\boxed{The answer is 80.",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Will made, we need to calculate the total hours he worked and multiply it by his hourly wage.\n\nOn Monday, Will worked 8 hours and on Tuesday, he worked 2 hours. So, the total hours worked is 8 + 2 = 10 hours.\n\nSince he makes $8 per hour, the total amount he made is 10 hours * $8/hour = $80.\n\nSo, Will made $80 in those two days.\nSo the answer is \\boxed{$80",
+      "pred_answer": 80.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how much Will made in those two days, we need to calculate his total earnings.\n\nOn Monday, he worked 8 hours and made 8 dollars an hour, so his earnings for Monday are 8 hours * 8 dollars/hour = 64 dollars.\n\nOn Tuesday, he worked 2 hours and made 8 dollars an hour, so his earnings for Tuesday are 2 hours * 8 dollars/hour = 16 dollars.\n\nTo find the total earnings, we add his earnings from Monday and Tuesday: 64 dollars + 16 dollars = 80 dollars.\n\nSo, Will made 80 dollars in those two days.\nSo the answer is \\boxed{The answer is: $80",
+      "pred_answer": 80.0
+    }
+  ]
+}

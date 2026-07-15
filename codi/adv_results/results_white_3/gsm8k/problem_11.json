@@ -1,0 +1,39 @@
+{
+  "question": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $68 per dozen, 2 dozen mini cupcakes which cost $80 per dozen, and 6 dozen mini cheesecakes for $55 per dozen. How much was the total cost?",
+  "ground_truth": "694.0",
+  "prefix": "523705675",
+  "prefix_token_ids": [
+    21123,
+    21469,
+    21129
+  ],
+  "baseline_token_id": 25392,
+  "target_token_id": 23952,
+  "baseline_logit_diff": -0.375,
+  "clean_logit_diff": -0.875,
+  "adv_logit_diff": 1.75,
+  "best_logit_diff": 1.75,
+  "clean_text": "The answer is: 694",
+  "clean_answer": 694.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 754857",
+  "adv_answer": 754857.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.75,
+    -0.75,
+    -0.75,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.125,
+    -0.125,
+    -0.125,
+    -0.125,
+    -0.125,
+    0.875,
+    1.5,
+    1.75
+  ]
+}

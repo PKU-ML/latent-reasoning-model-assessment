@@ -1,0 +1,30 @@
+{
+  "question": "Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+  "ground_truth": "1.0",
+  "prefix": "6仟7 TonightTexImage",
+  "prefix_token_ids": [
+    21,
+    119566,
+    22,
+    54214,
+    98602
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -5.75,
+  "clean_logit_diff": -6.625,
+  "adv_logit_diff": -1.875,
+  "best_logit_diff": -1.875,
+  "clean_text": "assistant\n### 1 ",
+  "clean_answer": 1.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 1.7 ",
+  "adv_answer": 1.7,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -2.25,
+    -2.25,
+    -1.875
+  ]
+}

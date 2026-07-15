@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 975,
+  "question": "Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+  "ground_truth": "20.0",
+  "baseline_correct": false,
+  "baseline_answer": 10.0,
+  "best_rewrite": "A plant has 46 chromosomes. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+  "best_fact": "A plant has 46 chromosomes.",
+  "best_pred_answer": 0.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 17,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nSince Robert has 10 more cherries than Richard, let's first find out how many cherries Richard has. We know that Robert has 30 cherries and he has 10 more than Richard. So, Richard has 30 - 10 = 20 cherries.\n\nNow, let's find out how many cherries Jerry has. Since there are 24 hours in a day and 60 cherries in total, we can divide 60 by 24 to find out how many cherries are in a day. 60 / 24 = 2.5. This means there are 2.5 cherries in a day. Since there are 24 hours in a day, there are 24 * 2.5 = 60 cherries in a day. \n\nNow, let's find out how many cherries Jerry has. Since there are 60 cherries in a day and Richard has 20 cherries, Jerry has 60 - 20 = 40 cherries.\n\nNow, let's find out how many more cherries Robert has than Jerry. Robert has 30 cherries and Jerry has 40 cherries. So, Robert has 30 - 40 = -10 cherries.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "April has 30 days. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nSince Robert has 30 cherries and 10 more than Richard, we can find Richard's cherries by subtracting 10 from 30. \n\n30 - 10 = 20\n\nNow, we know Robert has 30 cherries and Richard has 20 cherries. To find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries.\n\n30 - 20 = 10\n\nSo, Robert has 10 more cherries than Jerry.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nSince Robert has 10 more cherries than Richard, and Robert has 30 cherries, we can set up the equation:\n\nRobert's cherries = Richard's cherries + 10\n30 = 30 + 10\n30 = 40\n\nSo Robert has 40 cherries.\n\nNow, to find out how many more cherries Robert has than Jerry, we need to subtract the number of cherries Jerry has from the number of cherries Robert has:\n\nRobert's cherries - Jerry's cherries = 40 - 20\n40 - 20 = 20\n\nTherefore, Robert has 20 more cherries than Jerry.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nSince Robert has 30 cherries and 10 more than Richard, we can calculate the number of cherries Richard has as follows:\n\n30 (Robert's cherries) - 10 (more than Richard) = 20 cherries\n\nNow, we can find out how many cherries Robert has compared to Jerry by subtracting the number of cherries Jerry has from the total number of cherries:\n\n60 (total cherries) - 20 (Robert's cherries) = 40 cherries\n\nSo, Robert has 40 cherries, and Jerry has 20 cherries. The difference is 40 - 20 = 20 cherries.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, we can find Jerry's cherries by subtracting 10 from Richard's cherries. \n\nJerry's cherries = Richard's cherries - 10\nJerry's cherries = 30 - 10\nJerry's cherries = 20\n\nNow that we know Jerry has 20 cherries, we can find out how many more cherries Robert has than Jerry by subtracting Jerry's cherries from Robert's cherries.\n\nRobert's cherries - Jerry's cherries = 60 - 20\nRobert's cherries - Jerry's cherries = 40\n\nSo, Robert has 40 more cherries than Jerry.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A year has 12 months. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Robert has 30 cherries, we can find the number of cherries Jerry has by subtracting 10 from 30. \n\n30 - 10 = 20\n\nSo Jerry has 20 cherries.\n\nNow, we need to find out how many more cherries Robert has than Jerry. \n\nRobert has 30 cherries, and Jerry has 20 cherries. \n\n30 - 20 = 10\n\nSo Robert has 10 more cherries than Jerry.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "A week has 7 days. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, let's find out how many cherries Jerry has. Since there are 7 days in a week and 60 cherries in total, we can divide 60 by 7 to find the number of cherries per day. 60 / 7 = 8.57 (approximately). \n\nSince we can't have a fraction of a cherry, we can round down to 8 cherries per day. \n\nNow, let's find out how many cherries Jerry has. Since there are 7 days in a week, Jerry has 8 * 7 = 56 cherries.\n\nNow, let's find out how many more cherries Robert has than Jerry. Robert has 40 cherries and Jerry has 56 cherries. 40 - 56 = -16. \n\nSo, Robert has 16 fewer cherries than Jerry.\nSo the answer is \\boxed{The answer is 16.",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "An hour has 60 minutes. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, let's find out how many cherries Jerry has. Since there are 60 cherries in total, and Robert has 40 cherries, Jerry has 60 - 40 = 20 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: 40 - 20 = 20.\n\nSo, Robert has 20 more cherries than Jerry.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A minute has 60 seconds. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Robert has 30 cherries, we can subtract 10 from 30 to find out how many cherries Jerry has. \n\n30 - 10 = 20\n\nSo, Jerry has 20 cherries.\n\nNow, we need to find out how many more cherries Robert has than Jerry. \n\nRobert has 30 cherries, and Jerry has 20 cherries. \n\n30 - 20 = 10\n\nSo, Robert has 10 more cherries than Jerry.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "A year has 365 days. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nSince Robert has 10 more cherries than Richard, we can represent this as:\nRobert's cherries = Richard's cherries + 10\nLet's say Richard has x cherries. Then Robert has x + 10 cherries.\n\nWe know that the total number of cherries is 60. So, we can set up the equation:\nx + (x + 10) = 60\n\nCombine like terms:\n2x + 10 = 60\n\nSubtract 10 from both sides:\n2x = 50\n\nDivide both sides by 2:\nx = 25\n\nSo, Richard has 25 cherries. Since Robert has 10 more cherries than Richard, Robert has:\nRobert's cherries = 25 + 10 = 35\n\nNow, let's find out how many more cherries Robert has than Jerry:\nDifference = Robert's cherries - Jerry's cherries\n= 35 - 25\n= 10\n\nSo, Robert has 10 more cherries than Jerry.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, we need to find out how many cherries Jerry has. Since the total number of cherries is 60, and Robert has 40, Jerry must have 60 - 40 = 20 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: 40 - 20 = 20.\n\nSo, Robert has 20 more cherries than Jerry.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, we need to find out how many cherries Jerry has. Since the total number of cherries is 60, and Robert has 40 cherries, Jerry has 60 - 40 = 20 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: 40 - 20 = 20.\n\nSo, Robert has 20 more cherries than Jerry.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, we need to find out how many cherries Jerry has. Since there are 60 cherries in total, and Robert has 40 cherries, Jerry has 60 - 40 = 20 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: 40 - 20 = 20.\n\nSo, Robert has 20 more cherries than Jerry.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, we need to find out how many cherries Jerry has. Since the total number of cherries is 60, and Robert has 40 cherries, Jerry has 60 - 40 = 20 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: 40 - 20 = 20.\n\nSo, Robert has 20 more cherries than Jerry.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nRobert has 30 cherries and Richard has 10 less than Robert, so Richard has 30 - 10 = 20 cherries.\n\nNow, let's find out how many cherries Jerry has. Since the total number of cherries is 60, and Robert and Jerry have 30 + 20 = 50 cherries together, Jerry has 60 - 50 = 10 cherries.\n\nNow, let's find out how many more cherries Robert has than Jerry. Robert has 30 cherries and Jerry has 10 cherries, so Robert has 30 - 10 = 20 more cherries than Jerry.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "An adult has 32 teeth. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Robert has from the total number of cherries. \n\nRobert has 30 cherries, and he has 10 more than Richard. Let's call the number of cherries Richard has 'x'. \n\nSo, Robert has x + 10 cherries. \n\nSince the total number of cherries is 60, we can set up the equation: \nx + (x + 10) = 60\n\nCombine like terms: \n2x + 10 = 60\n\nSubtract 10 from both sides: \n2x = 50\n\nDivide both sides by 2: \nx = 25\n\nSo, Richard has 25 cherries. \n\nNow, let's find out how many cherries Robert has: \nRobert has 25 + 10 = 35 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: \n35 - 20 = 15\n\nSo, Robert has 15 more cherries than Jerry.\nSo the answer is \\boxed{The answer is 15.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "China has 1.4 billion people. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Robert has from the total number of cherries. \n\nRobert has 30 cherries, and he has 10 more than Richard. Let's call the number of cherries Richard has 'x'. \n\nSo, Robert has x + 10 cherries. \n\nSince the total number of cherries is 60, we can set up the equation: \nx + (x + 10) = 60\n\nCombine like terms: \n2x + 10 = 60\n\nSubtract 10 from both sides: \n2x = 50\n\nDivide both sides by 2: \nx = 25\n\nSo, Richard has 25 cherries. \n\nNow, let's find out how many cherries Robert has: \nRobert has 25 + 10 = 35 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: \n35 - 25 = 10\n\nSo, Robert has 10 more cherries than Jerry.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "Japan has 125 million people. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nFirst, let's find out how many cherries Richard has. Since Robert has 10 more cherries than Richard, and Robert has 30 cherries, we can subtract 10 from 30 to find out how many cherries Richard has: \n30 - 10 = 20\n\nNow, let's find out how many cherries Jerry has. Since there are 125 million people in Japan and 60 people are going to share the cherries, we can divide 125 million by 60 to find out how many cherries each person gets:\n125,000,000 / 60 = 2,083,333\n\nNow, let's find out how many cherries Robert has compared to Jerry:\n20 (Robert's cherries) - 2,083,333 (Jerry's cherries) = -2,082,013\n\nSince you can't have a negative number of cherries, this means that Robert has fewer cherries than Jerry.\nSo the answer is \\boxed{Robert has fewer cherries than Jerry.",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "The US has 50 states. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nFirst, let's find out how many cherries Richard has. Since Robert has 10 more cherries than Richard, and Robert has 30 cherries, we can subtract 10 from 30 to find out how many cherries Richard has: \n30 - 10 = 20\n\nNow that we know Robert has 30 cherries and Richard has 20 cherries, we can find out how many more cherries Robert has than Jerry by subtracting the number of cherries Jerry has from the number of cherries Robert has:\n30 - 20 = 10\n\nSo, Robert has 10 more cherries than Jerry.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The EU has 27 member states. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nFirst, let's find out how many cherries Richard has. Since Robert has 10 more cherries than Richard, and Robert has 30 cherries, we can set up the equation:\n\nRobert's cherries = Richard's cherries + 10\n30 = Richard's cherries + 10\nRichard's cherries = 30 - 10\nRichard's cherries = 20\n\nNow that we know Richard has 20 cherries, we can find out how many cherries Robert has:\n\nRobert's cherries = 30 (total cherries) - 20 (Richard's cherries)\nRobert's cherries = 10\n\nTo find out how many more cherries Robert has than Jerry, we need to subtract Jerry's cherries from Robert's cherries:\n\nRobert's cherries - Jerry's cherries = 10 - 0\nRobert's cherries - Jerry's cherries = 10\n\nSo, Robert has 10 more cherries than Jerry.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, we know that the total number of cherries is 60. To find out how many cherries Jerry has, we subtract the number of cherries Robert has from the total number of cherries: 60 - 40 = 20.\n\nSo, Robert has 40 cherries and Jerry has 20 cherries. To find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: 40 - 20 = 20.\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, we need to find out how many cherries Jerry has. Since they are sharing 60 cherries in total, and Robert has 40 cherries, Jerry has 60 - 40 = 20 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: 40 - 20 = 20.\n\nSo, Robert has 20 more cherries than Jerry.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nFirst, let's find out how many cherries Richard has. Since Robert has 10 more cherries than Richard, and Robert has 30 cherries, we can set up the equation:\n\nRobert's cherries = Richard's cherries + 10\n30 = Richard's cherries + 10\nRichard's cherries = 30 - 10\nRichard's cherries = 20\n\nNow that we know Richard has 20 cherries, we can find out how many cherries Robert has:\n\nRobert's cherries = Richard's cherries + 10\nRobert's cherries = 20 + 10\nRobert's cherries = 30\n\nNow, let's find out how many more cherries Robert has than Jerry:\n\nDifference = Robert's cherries - Jerry's cherries\nDifference = 30 - 20\nDifference = 10\n\nSo, Robert has 10 more cherries than Jerry.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The human body has 206 bones. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nRobert has 30 cherries and Richard has 10 more than Robert, so Richard has 30 + 10 = 40 cherries.\n\nNow, let's find out how many cherries Robert has compared to Jerry. \n\nSince there are 206 bones in the human body, and 60 cherries are being shared, we can divide 206 by 2 to find the number of cherries each person gets. 206 / 2 = 103 cherries per person.\n\nNow, let's find out how many cherries Robert has compared to Jerry. Robert has 30 cherries and Jerry has 103 - 30 = 73 cherries.\n\nSo, Robert has 30 - 73 = -43 cherries more than Jerry.\nSo the answer is \\boxed{The answer is 43.",
+      "pred_answer": 43.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, we know that the total number of cherries is 60. To find out how many cherries Jerry has, we subtract the number of cherries Robert has from the total number of cherries: 60 - 40 = 20.\n\nSo, Jerry has 20 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract the number of cherries Jerry has from the number of cherries Robert has: 40 - 20 = 20.\n\nTherefore, Robert has 20 more cherries than Jerry.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nFirst, let's find the total number of cherries. Since oxygen makes up 21% of air and there are 60 cherries, we can set up the equation:\n\n21% of 60 = 0.21 * 60\n= 12.6\n\nSo, there are 12.6 cherries in total.\n\nNow, let's find out how many cherries Robert has. We know that Robert has 10 more cherries than Richard. Let's call the number of cherries Richard has 'x'. Then, Robert has x + 10 cherries.\n\nWe know that the total number of cherries is 12.6, so we can set up the equation:\n\nx + (x + 10) = 12.6\n\nCombine like terms:\n2x + 10 = 12.6\n\nSubtract 10 from both sides:\n2x = 2.6\n\nDivide both sides by 2:\nx = 1.3\n\nSo, Richard has 1.3 cherries. Now, we can find out how many cherries Robert has:\nRobert has 1.3 + 10 = 11.3 cherries.\n\nNow, let's find out how many more cherries Robert has than Jerry:\nRobert has 11.3 - 1.3 = 10 cherries more than Jerry.\n\nThe answer is 10.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, we need to find out how many cherries Jerry has. Since the total number of cherries is 60, and Robert has 40 cherries, Jerry has 60 - 40 = 20 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: 40 - 20 = 20.\n\nSo, Robert has 20 more cherries than Jerry.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how many cherries Robert has, we need to subtract the number of cherries Richard has from the total number of cherries. \n\nFirst, let's find out how many cherries Richard has. Since Robert has 10 more cherries than Richard, and Robert has 30 cherries, we can subtract 10 from 30 to find the number of cherries Richard has: \n30 - 10 = 20\n\nNow, let's find out how many cherries Jerry has. We know that the total number of cherries is 60, and Robert has 30 cherries. So, we can subtract 30 from 60 to find the number of cherries Jerry has:\n60 - 30 = 30\n\nNow, let's find out how many more cherries Robert has than Jerry. We can subtract the number of cherries Jerry has from the number of cherries Robert has:\n30 - 30 = 0\n\nSo, Robert has 0 more cherries than Jerry.\nSo the answer is \\boxed{The answer is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, Robert has 30 + 10 = 40 cherries.\n\nNow, we need to find out how many cherries Jerry has. Since there are 60 cherries in total and Robert has 40 cherries, Jerry has 60 - 40 = 20 cherries.\n\nTo find out how many more cherries Robert has than Jerry, we subtract Jerry's cherries from Robert's cherries: 40 - 20 = 20.\n\nSo, Robert has 20 more cherries than Jerry.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find out how many more cherries Robert has than Jerry, we need to first find out how many cherries Jerry has. \n\nSince Robert has 10 more cherries than Richard, and Richard has 30 cherries, we can find the number of cherries Jerry has by subtracting 10 from 30. \n\n30 - 10 = 20\n\nSo, Jerry has 20 cherries.\n\nNow, we can find out how many more cherries Robert has than Jerry by subtracting the number of cherries Jerry has from the number of cherries Robert has.\n\nRobert has 60 cherries, and Jerry has 20 cherries. \n\n60 - 20 = 40\n\nTherefore, Robert has 40 more cherries than Jerry.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0
+    }
+  ]
+}

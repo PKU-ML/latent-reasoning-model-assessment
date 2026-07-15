@@ -1,0 +1,24 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 161,
+  "question": "Being his favorite, he saved checking on the grapevines for his last stop. He was told by 36 of the pickers that they fill 8 drums of grapes per day. How many days will it take to fill 240 drums of grapes?",
+  "ground_truth": "30",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " sürecirych<|begin_of_text|><|begin_of_text|> 더욱",
+  "prefix_token_ids": [
+    127970,
+    127951,
+    128000,
+    128000,
+    127992
+  ],
+  "best_wrong_prob": 1.1843558289876526e-22,
+  "clean_text": "To find the number of days it will take to fill 240 drums of grapes, we need to divide the total number of drums by the number of drums filled per day.\n\nNumber of drums filled per day = 8\nTotal number",
+  "clean_pred": 30.0,
+  "clean_correct": true,
+  "adv_text": "To find the number of days it will take to fill 240 drums of grapes, we need to divide the total number of drums by the number of drums picked per day.\n\nNumber of drums picked per day = 8\nTotal drums ",
+  "adv_pred": 30.0,
+  "adv_correct": true,
+  "attack_success": false
+}

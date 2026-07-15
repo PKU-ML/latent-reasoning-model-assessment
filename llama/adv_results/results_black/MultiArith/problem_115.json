@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 115,
+  "question": " While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+  "ground_truth": "22.0",
+  "baseline_correct": true,
+  "baseline_answer": 22.0,
+  "best_rewrite": "A plant has 46 chromosomes.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+  "best_fact": "A plant has 46 chromosomes.",
+  "best_pred_answer": 12.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 4,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "April has 30 days.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nMaria bought 35 green towels and 21 white towels, for a total of 35 + 21 = 56 towels.\n\nShe gave 34 towels to her mother, so we subtract 34 from 56:\n\n56 - 34 = 22\n\nMaria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A year has 12 months.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "A week has 7 days.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "An hour has 60 minutes.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "A minute has 60 seconds.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "A year has 365 days.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35 (green) + 21 (white) = 56 towels\n\nNumber of towels given to her mother = 34\n\nNumber of towels Maria ended up with = 56 - 34 = 22 towels\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35 (green) + 21 (white) = 56 towels\n\nNumber of towels given to her mother = 34\n\nNumber of towels Maria ended up with = 56 - 34 = 22 towels\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "An adult has 32 teeth.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35 (green) + 21 (white) = 56\n\nNumber of towels given to mother = 34\n\nNumber of towels left = 56 - 34 = 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "China has 1.4 billion people.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Japan has 125 million people.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35 (green) + 21 (white) = 56 towels\n\nNumber of towels given to her mother = 34\n\nNumber of towels Maria ended up with = 56 - 34 = 22 towels\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The US has 50 states.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35 (green) + 21 (white) = 56 towels\n\nNumber of towels given to her mother = 34\n\nNumber of towels Maria ended up with = 56 - 34 = 22 towels\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The EU has 27 member states.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial towels = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left with Maria = 56 - 34 = 22 towels\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels Maria ended up with = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The human body has 206 bones.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nFirst, let's find the total number of towels she bought:\n35 (green towels) + 21 (white towels) = 56 towels\n\nThen, let's subtract the number of towels she gave to her mother:\n56 (total towels) - 34 (towels given to mother) = 22 towels\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 46\nNumber of towels given to mother = 34\n\nNumber of towels left = 46 - 34 = 12\n\nSo, Maria ended up with 12 towels.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial towels = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left = Initial towels - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0
+    }
+  ]
+}

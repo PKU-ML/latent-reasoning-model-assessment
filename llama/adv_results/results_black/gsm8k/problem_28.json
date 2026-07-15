@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 28,
+  "question": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+  "ground_truth": "25.0",
+  "baseline_correct": false,
+  "baseline_answer": 20.0,
+  "best_rewrite": "The US has 50 states. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+  "best_fact": "The US has 50 states.",
+  "best_pred_answer": 5.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 17,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nTotal distance traveled = 60 miles\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\n\nDistance traveled between the first and second stops = Total distance traveled - (Distance traveled before the first stop + Distance traveled after the second stop)\n= 60 - (20 + 15)\n= 60 - 35\n= 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "April has 30 days. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nTotal distance traveled = 60 miles\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\n\nDistance traveled between the first and second stops = Total distance traveled - (Distance traveled before the first stop + Distance traveled after the second stop)\n= 60 - (20 + 15)\n= 60 - 35\n= 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 60 miles\nDistance traveled between the first and second stops = Total distance traveled - (Distance traveled before the first stop + Distance traveled after the second stop)\n= 60 - (20 + 15)\n= 60 - 35\n= 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop from the distance traveled after the first stop.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the first stop = 60 - 20 = 40 miles\n\nDistance traveled between the first and second stops = 40 - 15 = 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled to the second stop = 15 miles\n\nDistance traveled between the first and second stops = Distance traveled before the first stop - Distance traveled to the second stop\n= 20 - 15\n= 5 miles\n\nSo, Henry traveled 5 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 5 miles.",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "A year has 12 months. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A week has 7 days. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nTotal distance traveled = 60 miles\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\n\nDistance traveled between the first and second stops = Total distance traveled - (Distance traveled before the first stop + Distance traveled after the second stop)\n= 60 - (20 + 15)\n= 60 - 35\n= 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "An hour has 60 minutes. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A minute has 60 seconds. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A year has 365 days. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nTotal distance = 60 miles\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\n\nDistance traveled between the first and second stops = Total distance - (Distance traveled before the first stop + Distance traveled after the second stop)\n= 60 - (20 + 15)\n= 60 - 35\n= 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled during the first stop from the total distance traveled.\n\nDistance traveled during the first stop = 20 miles\nDistance traveled during the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled during the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the first stop = 60 - 20 = 40 miles\nDistance traveled between the first and second stops = 40 - 15 = 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled during the first stop from the total distance traveled.\n\nDistance traveled during the first stop = 20 miles\nDistance traveled during the second stop = 15 miles\n\nTotal distance traveled = 60 miles\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled during the first stop\n= 60 - 20\n= 40 miles\n\nSo, Henry traveled 40 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 40 miles.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled = 60 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop - Distance traveled after the second stop\n= 60 - 20 - 15\n= 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "An adult has 32 teeth. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "China has 1.4 billion people. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\n\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Japan has 125 million people. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The US has 50 states. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled to the second stop = 15 miles\nDistance traveled between the first and second stops = Distance traveled to the second stop - Distance traveled before the first stop\n= 15 - 20\n= -5 miles\n\nSince the distance traveled between the first and second stops is negative, it means that Henry traveled 5 miles before the second stop.\nSo the answer is \\boxed{The distance traveled between the first and second stops is 5 miles.",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "The EU has 27 member states. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the second stop from the total distance traveled.\n\nDistance traveled before the second stop = 20 miles\nDistance traveled between the first and second stops = Total distance - Distance traveled before the second stop\n= 60 miles - 20 miles\n= 40 miles\n\nSo, Henry traveled 40 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the distance between the first and second stops, we need to subtract the distance traveled before the first stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled to the second stop = 15 miles\nDistance traveled between the first and second stops = Distance traveled before the first stop - Distance traveled to the second stop\n= 20 - 15\n= 5 miles\n\nSo, Henry traveled 5 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 5.",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled = 165 million km²\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop - Distance traveled after the second stop\n= 165,000,000 km² - 20 km² - 15 km²\n= 165,000,000 - 35 km²\n= 165,000,065 km²\n\nSo, Henry traveled 165,000,065 km between his first and second stops.\nSo the answer is \\boxed{165,000,065",
+      "pred_answer": 65.0
+    },
+    {
+      "question": "The human body has 206 bones. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nTotal distance = 60 miles\nDistance before first stop = 20 miles\nDistance after second stop = 15 miles\n\nDistance traveled between first and second stops = Total distance - (Distance before first stop + Distance after second stop)\n= 60 - (20 + 15)\n= 60 - 35\n= 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled = 60 miles\n\nDistance traveled between the first and second stops = Total distance traveled - (Distance traveled before the first stop + Distance traveled after the second stop)\n= 60 - (20 + 15)\n= 60 - 35\n= 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nTotal distance = 60 miles\nDistance before first stop = 20 miles\nDistance after second stop = 15 miles\n\nDistance traveled between first and second stops = Total distance - (Distance before first stop + Distance after second stop)\n= 60 - (20 + 15)\n= 60 - 35\n= 25 miles\n\nSo, Standard atmospheric pressure is 101325 Pa.\nSo the answer is \\boxed{The answer is 25 miles.",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled = 60 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop - Distance traveled after the second stop\n= 60 - 20 - 15\n= 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the distance traveled between the first and second stops, we need to subtract the distance traveled before the first stop and the distance traveled after the second stop from the total distance traveled.\n\nDistance traveled before the first stop = 20 miles\nDistance traveled after the second stop = 15 miles\n\nTotal distance traveled before the first stop = 20 miles\nTotal distance traveled after the second stop = 15 miles\n\nTotal distance traveled = 20 + 15 = 35 miles\n\nDistance traveled between the first and second stops = Total distance traveled - Distance traveled before the first stop\n= 35 - 20\n= 15 miles\n\nSo, Henry traveled 15 miles between his first and second stops.\nSo the answer is \\boxed{The answer is 15 miles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the distance between the first and second stops, we need to subtract the distance traveled before the second stop from the distance traveled after the first stop.\n\nDistance traveled before the second stop = 20 miles\nDistance traveled after the first stop = 60 - 20 = 40 miles\n\nDistance between the first and second stops = 40 - 15 = 25 miles\n\nSo, Henry traveled 25 miles between his first and second stops.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    }
+  ]
+}

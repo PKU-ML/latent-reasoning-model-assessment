@@ -1,0 +1,27 @@
+{
+  "question": " The cafeteria had 50 apples. For lunch they handed out 5 to students and decided to use the rest to make pies. If each pie takes 5 apples, how many pies could they make? ",
+  "ground_truth": "9.0",
+  "prefix": "eight blat evenly",
+  "prefix_token_ids": [
+    26022,
+    21451,
+    21894
+  ],
+  "baseline_token_id": 860,
+  "target_token_id": 513,
+  "baseline_logit_diff": 1.23046875,
+  "clean_logit_diff": -8.625,
+  "adv_logit_diff": 4.3828125,
+  "best_logit_diff": 4.3828125,
+  "clean_text": "The cafeteria had 50 apples. For lunch they handed out 5 to students and decided to use the rest to make pies. If each pie takes 5 apples, how many pies could they make?\n### 9",
+  "clean_answer": 9.0,
+  "clean_correct": true,
+  "adv_text": "eight blat evenlyThe cafeteria had 50 apples. For lunch they handed out 5 to students and decided to use the rest to make pies. If each pie takes 5 apples, how many pies could they make?\n### 3",
+  "adv_answer": 3.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.7294921875,
+    4.3828125
+  ]
+}

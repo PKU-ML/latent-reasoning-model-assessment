@@ -1,0 +1,171 @@
+{
+  "question": "Brianne and Ashley make greek orange pie. Ashley brought five boxes with ten oranges in each box, while Brianne brought 20 more oranges than Ashley. If one greek orange pie needs three oranges, how many greek orange pies can they make?",
+  "ground_truth": "40.0",
+  "best_prefix": "/DD.Resource23585 cast",
+  "best_prefix_token_ids": [
+    83061,
+    21429,
+    12422,
+    5313,
+    6445
+  ],
+  "baseline_token_id": 1272,
+  "target_token_id": 2983,
+  "baseline_logit_diff": -3.25,
+  "clean_logit_diff": -7.875,
+  "best_logit_diff": -1.375,
+  "best_cosine": 0.9453125,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 40",
+  "clean_answer": 40.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 40",
+  "adv_answer": 40.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": "/DD.Resource23585 cast",
+      "prefix_ids": [
+        83061,
+        21429,
+        12422,
+        5313,
+        6445
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.9453125,
+      "answer": 40.0,
+      "correct": true
+    },
+    {
+      "prefix": "65PCI765 MaterialPageRouteacho",
+      "prefix_ids": [
+        2397,
+        54802,
+        22240,
+        56367,
+        64529
+      ],
+      "logit_diff": -1.5,
+      "cosine_sim": 0.94140625,
+      "answer": 40.0,
+      "correct": true
+    },
+    {
+      "prefix": "/DD95123585 cast",
+      "prefix_ids": [
+        83061,
+        24989,
+        12422,
+        5313,
+        6445
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.9375,
+      "answer": 40.0,
+      "correct": true
+    },
+    {
+      "prefix": " GPA874`.\n MaterialPageRoute exits",
+      "prefix_ids": [
+        71155,
+        25822,
+        19154,
+        56367,
+        43186
+      ],
+      "logit_diff": -2.875,
+      "cosine_sim": 0.93359375,
+      "answer": 40.0,
+      "correct": true
+    },
+    {
+      "prefix": "/DD95156385 cast",
+      "prefix_ids": [
+        83061,
+        24989,
+        21789,
+        5313,
+        6445
+      ],
+      "logit_diff": -2.875,
+      "cosine_sim": 0.93359375,
+      "answer": 40.0,
+      "correct": true
+    },
+    {
+      "prefix": "65 Chief765 MaterialPageRouteenaries",
+      "prefix_ids": [
+        2397,
+        14681,
+        22240,
+        56367,
+        85375
+      ],
+      "logit_diff": -3.0,
+      "cosine_sim": 0.93359375,
+      "answer": 40.0,
+      "correct": true
+    },
+    {
+      "prefix": "/DD951563475 cast",
+      "prefix_ids": [
+        83061,
+        24989,
+        21789,
+        19799,
+        6445
+      ],
+      "logit_diff": -3.0,
+      "cosine_sim": 0.93359375,
+      "answer": 40.0,
+      "correct": true
+    },
+    {
+      "prefix": "65Disclosurerequencies veterinarian_EXTENDED",
+      "prefix_ids": [
+        2397,
+        92165,
+        72831,
+        82340,
+        97052
+      ],
+      "logit_diff": -3.125,
+      "cosine_sim": 0.94921875,
+      "answer": 40.0,
+      "correct": true
+    },
+    {
+      "prefix": " GPA874.\"\n\n MaterialPageRoute exits",
+      "prefix_ids": [
+        71155,
+        25822,
+        2266,
+        56367,
+        43186
+      ],
+      "logit_diff": -3.25,
+      "cosine_sim": 0.93359375,
+      "answer": 40.0,
+      "correct": true
+    },
+    {
+      "prefix": "/DD951563947 cast",
+      "prefix_ids": [
+        83061,
+        24989,
+        21789,
+        26511,
+        6445
+      ],
+      "logit_diff": -3.25,
+      "cosine_sim": 0.9375,
+      "answer": 40.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

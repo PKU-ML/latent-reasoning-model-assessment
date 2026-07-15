@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 51,
+  "question": " At a company picnic 23 managers and 7 employees decided to start a game of volleyball. If they split into 6 teams how many people would be on each team? ",
+  "ground_truth": "5",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "!\"\n\n T wirklich",
+  "prefix_token_ids": [
+    17642,
+    350,
+    56913
+  ],
+  "best_wrong_prob": 1.88995443439825e-25,
+  "clean_text": "To find the number of people on each team, we need to divide the total number of managers and employees by the number of teams.\n\nTotal number of managers and employees = 23 + 7 = 30\nNumber of teams = ",
+  "clean_pred": 5.0,
+  "clean_correct": true,
+  "adv_text": "To find the number of people on each team, we need to divide the total number of managers and employees by the number of teams.\n\nTotal number of managers and employees: 23 + 7 = 30\nNumber of teams: 6\n",
+  "adv_pred": 5.0,
+  "adv_correct": true,
+  "attack_success": false
+}

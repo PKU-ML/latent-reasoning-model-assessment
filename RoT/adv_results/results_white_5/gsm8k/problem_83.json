@@ -1,0 +1,28 @@
+{
+  "question": "Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are there total?",
+  "ground_truth": "600.0",
+  "prefix": "637 {[6",
+  "prefix_token_ids": [
+    21,
+    18,
+    22,
+    45591,
+    21
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 18,
+  "baseline_logit_diff": -1.625,
+  "clean_logit_diff": -5.625,
+  "adv_logit_diff": 0.625,
+  "best_logit_diff": 0.625,
+  "clean_text": "assistant\n### 600 ",
+  "clean_answer": 600.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 4500 ",
+  "adv_answer": 4500.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.625
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1172,
+  "question": "Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+  "ground_truth": "93.0",
+  "baseline_correct": true,
+  "baseline_answer": 93.0,
+  "best_rewrite": "A plant has 46 chromosomes. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+  "best_fact": "A plant has 46 chromosomes.",
+  "best_pred_answer": 93.0,
+  "best_is_correct": true,
+  "attack_success": false,
+  "num_facts": 30,
+  "num_failed": 0,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds from each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "April has 30 days. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds she counted each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 puffs of clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 puffs.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 puffs.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 puffs.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 puffs.\n\nNow, let's add up the number of clouds for each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 puffs of clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds for each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "A year has 12 months. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 3 * 2 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 6 * 2 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 12 * 2 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "A week has 7 days. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds for each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "An hour has 60 minutes. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "A minute has 60 seconds. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the clouds from each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "A year has 365 days. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 3 * 2 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 6 * 2 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 12 * 2 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will count a total of 93 clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nDay 1: 3 clouds\nDay 2: 3 * 2 = 6 clouds\nDay 3: 6 * 2 = 12 clouds\nDay 4: 12 * 2 = 24 clouds\nDay 5: 24 * 2 = 48 clouds\n\nTotal clouds = 3 + 6 + 12 + 24 + 48 = 93 clouds\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nDay 1: 3 clouds\nDay 2: 3 * 2 = 6 clouds\nDay 3: 6 * 2 = 12 clouds\nDay 4: 12 * 2 = 24 clouds\nDay 5: 24 * 2 = 48 clouds\n\nTotal clouds = 3 + 6 + 12 + 24 + 48 = 93 clouds\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 puffs of clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 puffs of clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 puffs of clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 puffs of clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 puffs of clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 puffs of clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 3 * 2 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 6 * 2 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 12 * 2 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds from each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "An adult has 32 teeth. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds she counts each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "China has 1.4 billion people. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nDay 1: 3 puffs\nDay 2: 3 * 2 = 6 puffs\nDay 3: 6 * 2 = 12 puffs\nDay 4: 12 * 2 = 24 puffs\nDay 5: 24 * 2 = 48 puffs\n\nTotal clouds = 3 + 6 + 12 + 24 + 48 = 93 puffs\n\nSo, Alice will have counted 93 puffs of clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "Japan has 125 million people. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds she counts each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "The US has 50 states. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "The EU has 27 member states. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, Alice counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds for each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nDay 1: 3 puffs of clouds\nDay 2: 3 * 2 = 6 puffs of clouds\nDay 3: 6 * 2 = 12 puffs of clouds\nDay 4: 12 * 2 = 24 puffs of clouds\nDay 5: 24 * 2 = 48 puffs of clouds\n\nNow, let's add up the total number of clouds:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will count a total of 93 puffs of clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds from each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "The human body has 206 bones. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds she counts each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nDay 1: 3 puffs\nDay 2: 3 * 2 = 6 puffs\nDay 3: 6 * 2 = 12 puffs\nDay 4: 12 * 2 = 24 puffs\nDay 5: 24 * 2 = 48 puffs\n\nTotal clouds = 3 + 6 + 12 + 24 + 48 = 93 puffs\n\nSo, Alice will count a total of 93 puffs of clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds she counted each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted a total of 93 clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nDay 1: 3 puffs\nDay 2: 3 * 2 = 6 puffs\nDay 3: 6 * 2 = 12 puffs\nDay 4: 12 * 2 = 24 puffs\nDay 5: 24 * 2 = 48 puffs\n\nTotal clouds = 3 + 6 + 12 + 24 + 48 = 93 puffs\n\nSo, Alice will have counted 93 puffs of clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "A landscaping company is delivering flagstones to a customer’s yard. Each flagstone weighs 75 pounds. If the delivery trucks can carry a total weight of 2000 pounds, how many trucks will be needed to transport 80 flagstones in one trip?",
+  "ground_truth": "3.0",
+  "prefix": " drafted= Later",
+  "prefix_token_ids": [
+    15937,
+    28,
+    11450
+  ],
+  "baseline_token_id": 513,
+  "target_token_id": 362,
+  "baseline_logit_diff": -0.1484375,
+  "clean_logit_diff": -1.0,
+  "adv_logit_diff": 2.140625,
+  "best_logit_diff": 2.140625,
+  "clean_text": "A landscaping company is delivering flagstones to a customer’s yard. Each flagstone weighs 75 pounds. If the delivery trucks can carry a total weight of 2000 pounds, how many trucks will be needed to transport 80 flagstones in one trip?\n### 3",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "drafted= LaterA landscaping company is delivering flagstones to a customer’s yard. Each flagstone weighs 75 pounds. If the delivery trucks can carry a total weight of 2000 pounds, how many trucks will be needed to transport 80 flagstones in one trip?\n### 4",
+  "adv_answer": 4.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.140625
+  ]
+}

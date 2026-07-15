@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 163,
+  "question": "3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+  "ground_truth": "13.0",
+  "baseline_correct": true,
+  "baseline_answer": 13.0,
+  "best_rewrite": "There are 24 hours in a day. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+  "best_fact": "There are 24 hours in a day.",
+  "best_pred_answer": 17.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 20,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "April has 30 days. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "Initially, there were 3 birds and 4 storks on the fence. 6 more storks joined them. \n\nTo find the total number of birds and storks, we need to add the initial number of birds and storks and the number of storks that joined.\n\n3 (initial birds) + 4 (initial storks) + 6 (new storks) = 3 + 4 + 6 = 13\n\nSo, there are 13 birds and storks sitting on the fence.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds: 3\nInitial number of storks: 4\nNumber of storks that joined: 6\n\nTotal number of birds: 3 + 4 = 7\nTotal number of storks: 4 + 6 = 10\n\nSo, the total number of birds and storks sitting on the fence is 7 + 10 = 17.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Today is the 3rd of the month. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds: 3\nInitial number of storks: 4\nNumber of storks that joined: 6\n\nTotal number of birds and storks: 3 + 4 + 6 = 13\n\nSo, there are 13 birds and storks sitting on the fence.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds: 3\nInitial number of storks: 4\nNumber of storks that joined: 6\n\nTotal number of birds and storks: 3 + 4 + 6 = 13\n\nSo, there are 13 birds and storks sitting on the fence.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "A year has 12 months. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "Initially, there were 3 birds and 4 storks. 6 more storks joined them. To find the total number of birds and storks, we need to add the initial number of birds and storks and then add the number of storks that joined.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A week has 7 days. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "Initially, there were 3 birds and 4 storks. 6 more storks joined them. \n\nTo find the total number of birds and storks, we need to add the initial number of birds and storks and the number of storks that joined.\n\n3 (initial birds) + 4 (initial storks) + 6 (new storks) = 13\n\nSo, there are 13 birds and storks sitting on the fence.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "An hour has 60 minutes. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds: 3\nInitial number of storks: 4\nNumber of storks that joined: 6\n\nTotal number of birds: 3 + 4 = 7\nTotal number of storks: 4 + 6 = 10\n\nTotal number of birds and storks: 7 + 10 = 17\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A minute has 60 seconds. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds: 3\nInitial number of storks: 4\nNumber of storks that joined: 6\n\nTotal number of birds: 3 + 4 = 7\nTotal number of storks: 4 + 6 = 10\n\nTotal number of birds and storks: 7 + 10 = 17\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A year has 365 days. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "Initially, there were 3 birds and 4 storks. 6 more storks joined them. \n\nTo find the total number of birds and storks, we need to add the initial number of birds and storks and the number of storks that joined.\n\n3 (initial birds) + 4 (initial storks) + 6 (new storks) = 13\n\nSo, there are 13 birds and storks sitting on the fence.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "Initially, there were 3 birds and 4 storks. 6 more storks joined them. \n\nTo find the total number of birds and storks, we need to add the initial number of birds and storks and then add the number of storks that joined.\n\n3 (initial birds) + 4 (initial storks) + 6 (new storks) = 3 + 4 + 6 = 13\n\nSo, there are 13 birds and storks sitting on the fence.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The human heart has 4 chambers. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "An adult has 32 teeth. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "China has 1.4 billion people. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds and storks = Initial number of birds + Initial number of storks + Number of storks that joined\n= 3 + 4 + 6\n= 13\n\nSo, there are 13 birds and storks sitting on the fence.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "Japan has 125 million people. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds and storks = Initial number of birds + Initial number of storks + Number of storks that joined\n= 3 + 4 + 6\n= 13\n\nSo, there are 13 birds and storks sitting on the fence.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "The US has 50 states. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Initially, there were 3 birds and 4 storks on the fence. 6 more storks joined them. \n\nTo find the total number of birds and storks, we need to add the initial number of birds and storks and then add the number of storks that joined.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The EU has 27 member states. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "Initially, there were 3 birds and 4 storks on the fence. 6 more storks joined them. \n\nTo find the total number of birds and storks, we need to add the initial number of birds and storks and then add the number of storks that joined.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds and storks = Initial number of birds + Initial number of storks + Number of storks that joined\n= 3 + 4 + 6\n= 13\n\nSo, there are 13 birds and storks sitting on the fence.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The human body has 206 bones. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "Initially, there were 3 birds and 4 storks. 6 more storks joined them. To find the total number of birds and storks, we need to add the initial number of birds and storks and then add the number of storks that joined.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds = 3\nInitial number of storks = 4\nNumber of storks that joined = 6\n\nTotal number of birds = 3 + 4 = 7\nTotal number of storks = 4 + 6 = 10\n\nTotal number of birds and storks = 7 + 10 = 17\n\nSo, there are 17 birds and storks sitting on the fence.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds: 3\nInitial number of storks: 4\nNumber of storks that joined: 6\n\nTotal number of birds: 3 + 4 = 7\nTotal number of storks: 4 + 6 = 10\n\nSo, the total number of birds and storks sitting on the fence is 7 + 10 = 17.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. 3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the total number of birds and storks, we need to add the initial number of birds and storks to the number of storks that joined them.\n\nInitial number of birds: 3\nInitial number of storks: 4\nNumber of storks that joined: 6\n\nTotal number of birds and storks: 3 + 4 + 6 = 13\n\nSo, there are 13 birds and storks sitting on the fence.\nSo the answer is \\boxed{13",
+      "pred_answer": 13.0
+    }
+  ]
+}

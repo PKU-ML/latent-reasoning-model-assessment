@@ -1,0 +1,32 @@
+{
+  "question": " A pet store had 13 puppies. In one day they sold 7 of them and put the rest into cages with 2 in each cage. How many cages did they use? ",
+  "ground_truth": "3.0",
+  "prefix": "—they13185",
+  "prefix_token_ids": [
+    71201,
+    9263,
+    5313
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 19,
+  "baseline_logit_diff": -5.875,
+  "clean_logit_diff": -5.625,
+  "adv_logit_diff": 1.75,
+  "best_logit_diff": 1.75,
+  "clean_text": "The answer is: 3",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 6170",
+  "adv_answer": 6170.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.5,
+    -5.375,
+    -5.375,
+    -5.375,
+    -5.375,
+    1.125,
+    1.75
+  ]
+}

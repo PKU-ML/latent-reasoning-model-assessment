@@ -1,0 +1,22 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 32,
+  "question": "Paul got a box of 253 crayons for his birthday. By the end of the school year he had either lost or given away 70 of them. How many crayons did he have left by the end of the school year?",
+  "ground_truth": "183",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "(npでしょう cui",
+  "prefix_token_ids": [
+    10101,
+    123253,
+    39044
+  ],
+  "best_wrong_prob": 7.765398660624393e-17,
+  "clean_text": "To find out how many crayons Paul had left by the end of the school year, we need to subtract the number of crayons he lost or gave away from the total number of crayons he started with.\n\nTotal crayon",
+  "clean_pred": 183.0,
+  "clean_correct": true,
+  "adv_text": "np = 253\nn = 70\n\n253 - 70 = 183\n\nnp = 183\nSo the answer is \\boxed{183",
+  "adv_pred": 183.0,
+  "adv_correct": true,
+  "attack_success": false
+}

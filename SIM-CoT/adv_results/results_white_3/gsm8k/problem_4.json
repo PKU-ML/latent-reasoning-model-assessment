@@ -1,0 +1,26 @@
+{
+  "question": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed.  In the afternoon, she gives her chickens another 25 cups of feed.  How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?",
+  "ground_truth": "20.0",
+  "prefix": " paintsikissan",
+  "prefix_token_ids": [
+    32281,
+    1134,
+    24112
+  ],
+  "baseline_token_id": 1160,
+  "target_token_id": 642,
+  "baseline_logit_diff": 7.25,
+  "clean_logit_diff": -0.984375,
+  "adv_logit_diff": 7.25,
+  "best_logit_diff": 7.25,
+  "clean_text": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed.  In the afternoon, she gives her chickens another 25 cups of feed.  How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?\n### 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "paintsikissanEvery day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed.  In the afternoon, she gives her chickens another 25 cups of feed.  How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?\n### 5",
+  "adv_answer": 5.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    7.25
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "question": " While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+  "ground_truth": "22",
+  "prefix": "#define Grü$/,\n33683",
+  "prefix_token_ids": [
+    1467,
+    95163,
+    49342,
+    17014,
+    6069
+  ],
+  "baseline_logit_diff": -10.910263061523438,
+  "clean_logit_diff": -11.209566116333008,
+  "adv_logit_diff": 3.214097023010254,
+  "best_logit_diff": 3.214097023010254,
+  "clean_text": "Answer:22",
+  "clean_answer": "22",
+  "clean_correct": true,
+  "adv_text": "Answer:73",
+  "adv_answer": "73",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.903602600097656,
+    -3.9929237365722656,
+    1.3798065185546875,
+    3.214097023010254
+  ]
+}

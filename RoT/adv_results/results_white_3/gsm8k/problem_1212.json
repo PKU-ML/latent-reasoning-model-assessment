@@ -1,0 +1,29 @@
+{
+  "question": "Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?",
+  "ground_truth": "150.0",
+  "prefix": "这两万台Data",
+  "prefix_token_ids": [
+    106143,
+    114633,
+    1043
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -0.875,
+  "clean_logit_diff": -1.0,
+  "adv_logit_diff": 0.125,
+  "best_logit_diff": 0.125,
+  "clean_text": "assistant\n### 150 ",
+  "clean_answer": 150.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 300 ",
+  "adv_answer": 300.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.75,
+    -0.375,
+    -0.25,
+    0.125
+  ]
+}

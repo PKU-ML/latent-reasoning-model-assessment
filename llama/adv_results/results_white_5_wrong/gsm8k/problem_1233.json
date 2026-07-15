@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1233,
+  "question": "Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+  "ground_truth": "81",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "K 노하우<|reserved_special_token_24|><|reserved_special_token_111|> látky",
+  "prefix_token_ids": [
+    42,
+    127983,
+    128032,
+    128119,
+    127968
+  ],
+  "best_wrong_prob": 1.3243452515209991e-19,
+  "clean_text": "To find out how much money Walter received, we need to follow these steps:\n\n1. Calculate the number of apples Walter ate: 2/5 of 60 apples = (2/5) * 60 = 24 apples\n2. Calculate the number of apples re",
+  "clean_pred": 81.0,
+  "clean_correct": true,
+  "adv_text": "Konec: 60 apples - 2/5 * 60 = 24 apples\n\nDruhý: 60 - 24 = 36 apples\n\nDruhý gave 25% of 36 apples to his sister, 25% of 36 apples is 9 apples.\n\nDruhý received 9 apples from his sister.\n\nDruhý then sold",
+  "adv_pred": 27.0,
+  "adv_correct": false,
+  "attack_success": true
+}

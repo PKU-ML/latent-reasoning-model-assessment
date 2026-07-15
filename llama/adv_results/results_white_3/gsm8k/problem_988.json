@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 988,
+  "question": "Jessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+  "ground_truth": "6",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Nak Hudson.\n\n\n\n\n\n\n\n\n\n",
+  "prefix_token_ids": [
+    44329,
+    39253,
+    40465
+  ],
+  "best_wrong_prob": 1.448457676926793e-31,
+  "clean_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she sets aside each month and then multiply that by 12.\n\nJessica sets aside 25% of her $2,000.00 monthly income, whi",
+  "clean_pred": 6.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many shoes Jessica can buy in a year, we need to calculate how much she saves each month and then multiply that by 12.\n\nJessica saves 25% of her $2,000 per month. 25% of $2,000 is 0.25",
+  "adv_pred": 1.5,
+  "adv_correct": false,
+  "attack_success": true
+}

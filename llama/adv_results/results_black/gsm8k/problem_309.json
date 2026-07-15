@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 309,
+  "question": "Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+  "ground_truth": "8.0",
+  "baseline_correct": true,
+  "baseline_answer": 8.0,
+  "best_rewrite": "The human heart has 4 chambers. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+  "best_fact": "The human heart has 4 chambers.",
+  "best_pred_answer": 10.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 16,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs they will grow over 15 days.\n\nFirst, let's calculate the number of extra limbs per day:\n- Every 3 days, the person will grow 1 extra limb.\n- Every 5 days, the person will grow 1 extra limb.\n\nSince 15 days is 5 sets of 3 days, the person will grow 5 extra limbs.\n\nSo, the total number of extra limbs will be 5 (extra limbs per 3 days) * 5 (sets of 3 days) = 25 extra limbs.\n\nTherefore, after 15 days, Helena's serum will cause a person to grow 25 new limbs.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "April has 30 days. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs they will grow in 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will grow 3 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will grow 3 extra legs.\n\nTo find the total number of extra limbs, we need to add the extra arms and extra legs together:\n\n3 extra arms + 3 extra legs = 6 extra limbs\n\nSo, after 15 days, Helena's serum will cause a person to grow 6 new limbs.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the person will grow, we need to calculate the total number of extra limbs they will grow over 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will grow 15 / 3 = 5 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will grow 15 / 5 = 3 extra legs.\n\nSo, in total, Helena's serum will cause the person to grow 5 + 3 = 8 new limbs.\n\nThe answer is 8.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of days the person will have been exposed to the serum.\n\nHelena's serum causes an extra arm every 3 days and an extra leg every 5 days. \n\n15 days is 3 * 5 = 15 / 3 = 5 sets of 3 days. \nSo, Helena's serum will cause 5 extra arms.\n\n15 days is 5 * 5 = 25 / 3 = 8.33 sets of 5 days. \nSo, Helena's serum will cause 8.33 extra legs.\n\nSince the question asks for the total number of new limbs, we need to round up to the nearest whole number. 8.33 becomes 9.\n\nTherefore, after 15 days, Helena's serum will cause a person to grow 9 new limbs.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of days the person will have been exposed to the serum.\n\nHelena's serum causes an extra arm every 3 days and an extra leg every 5 days. \n\n15 days is 3 * 5 = 15 days. \n\nSince the serum causes an extra arm every 3 days, the person will grow 15 / 3 = 5 extra arms.\n\n15 days is 5 * 3 = 15 days. Since the serum causes an extra leg every 5 days, the person will grow 15 / 5 = 3 extra legs.\n\nSo, after 15 days, Helena's serum will cause a person to grow 5 extra arms and 3 extra legs.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A year has 12 months. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs they will grow in 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will grow 15 / 3 = 5 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will grow 15 / 5 = 3 extra legs.\n\nSo, in total, Helena's serum will cause a person to grow 5 + 3 = 8 new limbs.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A week has 7 days. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs they will grow over 15 days.\n\nFirst, let's calculate the number of extra limbs per day:\n- Every 3 days, the person will grow 1 extra limb.\n- Every 5 days, the person will grow 1 extra limb.\n\nSince 15 days is 3 times 5 days, the person will grow 3 extra limbs every 5 days.\n\nSo, in 15 days, the person will grow 3 extra limbs every 5 days. To find the total number of extra limbs, we multiply the number of extra limbs per 5 days by the number of 5-day periods in 15 days:\n3 extra limbs/5 days * 3 periods = 9 extra limbs\n\nNow, we add the extra limbs to the original number of limbs:\nOriginal number of limbs = 1 (initial limb)\nExtra limbs = 9\nTotal limbs = 1 + 9 = 10\n\nSo, after 15 days, Helena's serum will cause a person to grow 10 new limbs.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "An hour has 60 minutes. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs they will grow over 15 days.\n\nFirst, let's calculate the number of extra limbs per day:\n- Every 3 days, the person will grow 1 extra limb.\n- Every 5 days, the person will grow 1 extra limb.\n\nSince 15 days is 5 sets of 3 days, the person will grow 5 extra limbs.\n\nNow, let's calculate the total number of extra limbs:\n5 extra limbs / 3 days = 1 extra limb per day\n1 extra limb per day * 15 days = 15 extra limbs\n\nSo, after 15 days, Helena's serum will cause a person to grow 15 extra limbs.\nSo the answer is \\boxed{The answer is 15.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A minute has 60 seconds. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs they will grow over 15 days.\n\nFirst, let's calculate the number of extra limbs per day:\n- Every 3 days, the person will grow 1 extra limb.\n- Every 5 days, the person will grow 1 extra limb.\n\nSince 15 days is 5 sets of 3 days, the person will grow 5 extra limbs.\n\nNow, let's calculate the total number of extra limbs:\n5 extra limbs / 3 days = 1 extra limb per day\n1 extra limb per day * 15 days = 15 extra limbs\n\nSo, after 15 days, Helena's serum will cause a person to grow 15 extra limbs.\nSo the answer is \\boxed{The answer is 15.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A year has 365 days. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the person will grow, we need to calculate the total number of extra limbs they will grow in 15 days.\n\nFirst, let's calculate the number of extra limbs per day:\n- Every 3 days, the person will grow 1 extra limb.\n- Every 5 days, the person will grow 1 extra limb.\n\nSince 15 days is 5 sets of 3 days, the person will grow 5 extra limbs in 15 days.\n\nNow, let's calculate the total number of extra limbs:\n5 extra limbs / 3 days = 1 extra limb per day\n1 extra limb per day * 15 days = 15 extra limbs\n\nSo, after 15 days, Helena's serum will cause the person to grow 15 extra limbs.\nSo the answer is \\boxed{The answer is 15.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs that will be added over 15 days.\n\nSince the serum causes an extra limb every 3 days, we can divide 15 days by 3 to find the number of extra limbs:\n\n15 days / 3 days per extra limb = 5 extra limbs\n\nSince the serum causes an extra limb every 5 days, we can multiply the number of extra limbs by 5 to find the total number of new limbs:\n\n5 extra limbs * 5 days per extra limb = 25 new limbs\n\nSo, after 15 days, Helena's serum will cause a person to grow 25 new limbs.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs that will be added over 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will add 15 / 3 = 5 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will add 15 / 5 = 3 extra legs.\n\nSo, in total, Helena's serum will cause 5 + 3 = 8 new limbs to be added to the person's body.\n\nThe total number of new limbs will be 8.\nSo the answer is \\boxed{The final answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs they will grow over 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will grow 15 / 3 = 5 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will grow 15 / 5 = 3 extra legs.\n\nSo, in total, Helena's serum will cause a person to grow 5 extra arms and 3 extra legs, for a total of 5 + 3 = 8 new limbs.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs that will be added over 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will add 15 / 3 = 5 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will add 15 / 5 = 3 extra legs.\n\nSo, in total, Helena's serum will cause 5 + 3 = 8 new limbs to be added to the person's body.\n\nTherefore, after 15 days, Helena's serum will cause a person to grow 8 new limbs.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs that will be added over 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will add 15 / 3 = 5 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will add 15 / 5 = 3 extra legs.\n\nSo, in total, Helena's serum will cause 5 + 3 = 8 new limbs to be added to the person's body.\n\nThe original body has 2 limbs, so after 15 days, the person will have 2 + 8 = 10 limbs.\nSo the answer is \\boxed{The answer is 10.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "An adult has 32 teeth. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the person will grow, we need to calculate the total number of extra limbs they will grow over 15 days.\n\nThe serum causes an extra arm every 3 days, so in 15 days, the person will grow 15 / 3 = 5 extra arms.\n\nThe serum causes an extra leg every 5 days, so in 15 days, the person will grow 15 / 5 = 3 extra legs.\n\nSo, in total, the person will grow 5 + 3 = 8 extra limbs.\n\nTherefore, after 15 days, the person will grow 8 new limbs.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "China has 1.4 billion people. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs a person will grow, we need to calculate the total number of limbs they will have after 15 days.\n\nInitially, the person has 1.4 billion people. \n\nThe serum causes an extra arm every 3 days, so after 3 days, they will have 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 =\nSo the answer is \\boxed{The answer is 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion + 1 = 1.4 billion",
+      "pred_answer": 1.4
+    },
+    {
+      "question": "Japan has 125 million people. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs a person will grow, we need to calculate the total number of limbs they will have after 15 days.\n\nInitially, the person has 2 limbs (2 arms and 2 legs).\n\nAfter 3 days, they will have 2 + 2 = 4 limbs.\n\nAfter 5 days, they will have 4 + 2 = 6 limbs.\n\nAfter 8 days (15 - 7 days), they will have 6 + 2 = 8 limbs.\n\nAfter 11 days (15 - 4 days), they will have 8 + 2 = 10 limbs.\n\nAfter 14 days (15 - 1 day), they will have 10 + 2 = 12 limbs.\n\nAfter 15 days (15 - 0 days), they will have 12 + 2 = 14 limbs.\n\nSo, after 15 days, Helena's serum will cause a person to grow 14 new limbs.\nSo the answer is \\boxed{The answer is 14.",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "The US has 50 states. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of limbs that will be added over 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will add 15 / 3 = 5 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will add 15 / 5 = 3 extra legs.\n\nSo, in total, Helena's serum will cause 5 + 3 = 8 new limbs to be added to the person's body.\n\nThe original number of limbs is 1 (the person's original body). Adding 8 new limbs, the total number of limbs will be 1 + 8 = 9.\n\nTherefore, after 15 days, Helena's serum will cause a person to grow 9 new limbs.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The EU has 27 member states. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of days the person will have been exposed to the serum.\n\nHelena's serum causes an extra limb every 3 days, and the person will have been exposed to the serum for 15 days. \n\n15 days / 3 days per limb = 5 limbs\n\nSince the serum causes an extra limb every 3 days, the person will grow 5 extra limbs.\n\nThe person will have been exposed to the serum for 15 days, so they will grow 5 extra limbs.\n\nThe total number of new limbs will be 5 (extra limbs) + 5 (extra limbs) = 10 new limbs.\n\nSo, after 15 days, Helena's serum will cause a person to grow 10 new limbs.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of extra limbs that will be added over 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will add 15 / 3 = 5 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will add 15 / 5 = 3 extra legs.\n\nSo, in total, Helena's serum will cause 5 + 3 = 8 new limbs to be added to the person's body.\n\nTherefore, after 15 days, Helena's serum will cause a person to grow 8 new limbs.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs a person will grow, we need to calculate the total number of extra limbs they will grow over 15 days.\n\nSince Helena's serum causes an extra limb every 3 days, we can divide 15 days by 3 to find the number of extra limbs:\n\n15 days / 3 days per extra limb = 5 extra limbs\n\nSince the serum also causes an extra limb every 5 days, we can multiply the number of extra limbs by 5 to find the total number of extra limbs:\n\n5 extra limbs * 5 days per extra limb = 25 extra limbs\n\nSo, after 15 days, Helena's serum will cause a person to grow 25 new limbs.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of new limbs, we need to calculate the number of extra limbs per day and multiply it by the number of days.\n\nHelena's serum causes an extra arm every 3 days and an extra leg every 5 days. \n\nFirst, let's find the number of extra limbs per day:\nExtra arm per day = 1 (extra arm) / 3 days = 1/3\nExtra leg per day = 1 (extra leg) / 5 days = 1/5\n\nNow, let's calculate the total number of extra limbs per day:\nExtra limbs per day = 1/3 + 1/5\nTo add these fractions, we need a common denominator, which is 15. \n1/3 = 5/15\n1/5 = 3/15\nExtra limbs per day = 5/15 + 3/15 = 8/15\n\nNow, let's calculate the total number of extra limbs after 15 days:\nExtra limbs per day = 8/15\nTotal extra limbs = 8/15 * 15 = 8\n\nSo, after 15 days, Helena's serum will cause a person to grow 8 new limbs.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The human body has 206 bones. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of limbs that will be added over 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will add 15 / 3 = 5 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will add 15 / 5 = 3 extra legs.\n\nSo, in total, Helena's serum will cause a person to grow 5 + 3 = 8 new limbs.\n\nThe total number of limbs will be 206 (original limbs) + 8 (new limbs) = 214.\nSo the answer is \\boxed{214",
+      "pred_answer": 214.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of days the person will have been exposed to the serum.\n\nHelena's serum causes an extra arm every 3 days and an extra leg every 5 days. To find the total number of new limbs, we need to add the number of extra limbs caused by each serum.\n\n15 days / 3 days per arm = 5 extra arms\n15 days / 5 days per leg = 3 extra legs\n\nSo, in total, Helena's serum will cause 5 extra arms and 3 extra legs.\n\nThe total number of new limbs will be 5 + 3 = 8.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of limbs that will be added over 15 days.\n\nHelena's serum causes an extra arm every 3 days, so in 15 days, she will add 15 / 3 = 5 extra arms.\n\nHelena's serum causes an extra leg every 5 days, so in 15 days, she will add 15 / 5 = 3 extra legs.\n\nSo, in total, Helena's serum will cause 5 + 3 = 8 new limbs to be added to the person's body.\n\nTherefore, after 15 days, Helena's serum will cause a person to grow 8 new limbs.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the total number of new limbs, we need to calculate the number of extra limbs per day and multiply it by the number of days.\n\nHelena's serum causes an extra arm every 3 days and an extra leg every 5 days. \n\nFirst, let's find the number of extra limbs per day:\nExtra arm per day = 1 (extra arm) / 3 days = 1/3\nExtra leg per day = 1 (extra leg) / 5 days = 1/5\n\nNow, let's calculate the total number of extra limbs per day:\nExtra limbs per day = 1/3 + 1/5\nTo add these fractions, we need a common denominator, which is 15. So we convert 1/3 to 5/15 and 1/5 to 3/15.\nExtra limbs per day = 5/15 + 3/15 = 8/15\n\nNow, let's calculate the total number of extra limbs after 15 days:\nExtra limbs = 8/15 * 15 = 8\n\nSo, after 15 days, Helena's serum will cause a person to grow 8 new limbs.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how many new limbs the person will grow, we need to calculate the total number of extra limbs they will get and then add it to the original number of limbs.\n\nHelena's serum causes the drinker to grow an extra arm every 3 days, and an extra leg every 5 days. \n\nFirst, let's calculate the number of extra limbs per day:\nExtra arm per day = 1 (original limb) / 3 days = 1/3\nExtra leg per day = 1 (original limb) / 5 days = 1/5\n\nNow, let's calculate the total number of extra limbs per day:\nExtra limbs per day = 1/3 + 1/5 = 8/15\n\nNow, let's calculate the total number of extra limbs after 15 days:\nExtra limbs after 15 days = 8/15 * 15 = 8\n\nSo, after 15 days, the person will grow 8 extra limbs.\n\nThe original number of limbs is 46. Adding the extra limbs, the total number of limbs will be:\n46 + 8 = 54\n\nTherefore, after 15 days, Helena's serum will cause a person to grow 54 new limbs.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many new limbs the serum will cause a person to grow, we need to calculate the total number of days the person will have been exposed to the serum.\n\nHelena's serum causes an extra arm every 3 days and an extra leg every 5 days. \n\n15 days is 3 * 5 = 15 days. \n\nSince the serum causes an extra arm every 3 days, the person will grow 15 / 3 = 5 extra arms.\n\n15 days is 5 * 3 = 15 days. \n\nSince the serum causes an extra leg every 5 days, the person will grow 15 / 5 = 3 extra legs.\n\nSo, after 15 days, Helena's serum will cause a person to grow 5 extra arms and 3 extra legs.\nSo the answer is \\boxed{The answer is 8.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Helena is a mad scientist testing her latest creation, the Lots-of-Limbs Serum. The serum will make the drinker grow an extra arm every three days and an extra leg every five days. After fifteen days, how many new limbs will Helena’s serum cause a person to grow if they drink it?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To determine how many new limbs a person will grow after 15 days, we need to calculate the total number of extra limbs they will grow.\n\nHelena's serum causes an extra limb every 3 days. Since there are 15 days in 3 days, the number of extra limbs will be 15 / 3 = 5.\n\nThe serum also causes an extra limb every 5 days. Since there are 15 days in 5 days, the number of extra limbs will be 15 / 5 = 3.\n\nSo, in total, Helena's serum will cause 5 + 3 = 8 new limbs to grow after 15 days.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    }
+  ]
+}

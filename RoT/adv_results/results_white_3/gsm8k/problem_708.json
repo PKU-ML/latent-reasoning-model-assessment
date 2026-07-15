@@ -1,0 +1,37 @@
+{
+  "question": "Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+  "ground_truth": "168.0",
+  "prefix": "’\n\n配偶<img_begin>",
+  "prefix_token_ids": [
+    29084,
+    115140,
+    151669
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -2.875,
+  "clean_logit_diff": -4.375,
+  "adv_logit_diff": 4.375,
+  "best_logit_diff": 4.375,
+  "clean_text": "assistant\n### 168 ",
+  "clean_answer": 168.0,
+  "clean_correct": true,
+  "adv_text": " 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 ",
+  "adv_answer": 12.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -3.125,
+    -2.375,
+    -2.375,
+    -2.375,
+    -2.375,
+    -2.125,
+    -2.125,
+    -2.125,
+    -2.125,
+    -2.125,
+    -2.125,
+    4.375
+  ]
+}

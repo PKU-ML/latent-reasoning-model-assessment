@@ -1,0 +1,28 @@
+{
+  "question": "James has 6 more candies than Robert. John has twice as many candies as Robert. If John has 54 candies, how many more candies does John have than James?",
+  "ground_truth": "21.0",
+  "prefix": "BBC world Essex Truly Chel",
+  "prefix_token_ids": [
+    33833,
+    995,
+    38307,
+    49446,
+    11425
+  ],
+  "baseline_token_id": 2310,
+  "target_token_id": 2681,
+  "baseline_logit_diff": 4.5625,
+  "clean_logit_diff": -6.5,
+  "adv_logit_diff": 4.5625,
+  "best_logit_diff": 4.5625,
+  "clean_text": "James has 6 more candies than Robert. John has twice as many candies as Robert. If John has 54 candies, how many more candies does John have than James?\n### 21",
+  "clean_answer": 21.0,
+  "clean_correct": true,
+  "adv_text": "BBC world Essex Truly ChelJames has 6 more candies than Robert. John has twice as many candies as Robert. If John has 54 candies, how many more candies does John have than James?\n### 47",
+  "adv_answer": 47.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    4.5625
+  ]
+}

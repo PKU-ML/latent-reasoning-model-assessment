@@ -1,0 +1,27 @@
+{
+  "question": "Two sisters, Elizabeth and Margareth, bought beads. Elizabeth bought 1 pack of red and 2 packs of clear beads, while Margareth bought 3 packs of blue and 4 packs of red beads. How many more beads do one sister have than the other, if each pack of beads contains 20 pieces of beads?",
+  "ground_truth": "80.0",
+  "prefix": " plate/\n547",
+  "prefix_token_ids": [
+    12235,
+    6018,
+    23215
+  ],
+  "baseline_token_id": 1490,
+  "target_token_id": 2031,
+  "baseline_logit_diff": -3.625,
+  "clean_logit_diff": -4.0,
+  "adv_logit_diff": 2.375,
+  "best_logit_diff": 2.375,
+  "clean_text": "The answer is: 80",
+  "clean_answer": 80.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 70",
+  "adv_answer": 70.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.375,
+    2.375
+  ]
+}

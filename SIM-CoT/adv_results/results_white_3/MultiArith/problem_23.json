@@ -1,0 +1,26 @@
+{
+  "question": " A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+  "ground_truth": "18.0",
+  "prefix": " drafted world49",
+  "prefix_token_ids": [
+    15937,
+    995,
+    2920
+  ],
+  "baseline_token_id": 1248,
+  "target_token_id": 513,
+  "baseline_logit_diff": -7.640625,
+  "clean_logit_diff": -9.234375,
+  "adv_logit_diff": 8.5625,
+  "best_logit_diff": 8.5625,
+  "clean_text": "A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest?\n### 18",
+  "clean_answer": 18.0,
+  "clean_correct": true,
+  "adv_text": "drafted world49A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest?\n### 6.2",
+  "adv_answer": 6.2,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    8.5625
+  ]
+}

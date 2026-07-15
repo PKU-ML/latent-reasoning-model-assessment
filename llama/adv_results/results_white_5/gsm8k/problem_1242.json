@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1242,
+  "question": "Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+  "ground_truth": "20",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "och-To Venezuelan.addEventListener709",
+  "prefix_token_ids": [
+    5059,
+    59408,
+    83749,
+    10859,
+    22874
+  ],
+  "best_wrong_prob": 1.664989691528996e-11,
+  "clean_text": "To find the number of white hats, we need to first find the number of hats that are not red. Since half of the hats are red, that means 50 hats are red. \n\nThe remaining hats are 100 - 50 = 50. \n\n3/5 o",
+  "clean_pred": 20.0,
+  "clean_correct": true,
+  "adv_text": "To find the number of white hats, we need to first find the total number of hats Skyler has. Since half of the hats are red, he has 100 / 2 = 50 red hats.\n\nThe remaining hats are blue, so we subtract ",
+  "adv_pred": 20.0,
+  "adv_correct": true,
+  "attack_success": false
+}

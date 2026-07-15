@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 100,
+  "question": " George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+  "ground_truth": "8",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|reserved_special_token_140|><|reserved_special_token_30|>งเศสF锦",
+  "prefix_token_ids": [
+    128148,
+    128038,
+    127941,
+    37,
+    127999
+  ],
+  "best_wrong_prob": 8.898324353705304e-19,
+  "clean_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\n\nSubtr",
+  "clean_pred": 8.0,
+  "clean_correct": true,
+  "adv_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount",
+  "adv_pred": 8.0,
+  "adv_correct": true,
+  "attack_success": false
+}

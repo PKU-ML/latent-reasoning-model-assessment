@@ -1,0 +1,26 @@
+{
+  "question": " At the town carnival Oliver rode the ferris wheel 5 times and the bumper cars 4 times. If each ride cost 7 tickets, how many tickets did he use? ",
+  "ground_truth": "63.0",
+  "prefix": " Eightwaters Essex",
+  "prefix_token_ids": [
+    18087,
+    41555,
+    38307
+  ],
+  "baseline_token_id": 8093,
+  "target_token_id": 8275,
+  "baseline_logit_diff": 1.21875,
+  "clean_logit_diff": -6.8984375,
+  "adv_logit_diff": 5.8125,
+  "best_logit_diff": 5.8125,
+  "clean_text": "At the town carnival Oliver rode the ferris wheel 5 times and the bumper cars 4 times. If each ride cost 7 tickets, how many tickets did he use?\n### 63",
+  "clean_answer": 63.0,
+  "clean_correct": true,
+  "adv_text": "Eightwaters EssexAt the town carnival Oliver rode the ferris wheel 5 times and the bumper cars 4 times. If each ride cost 7 tickets, how many tickets did he use?\n### 67",
+  "adv_answer": 67.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    5.8125
+  ]
+}

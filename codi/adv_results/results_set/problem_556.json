@@ -1,0 +1,171 @@
+{
+  "question": "How much does it cost you for lunch today at Subway if you pay $40 for a foot-long fish sub and thrice as much for a six-inch cold-cut combo sub?",
+  "ground_truth": "160.0",
+  "best_prefix": " البل smaller oursstarted285",
+  "best_prefix_token_ids": [
+    108411,
+    9333,
+    11604,
+    47823,
+    15935
+  ],
+  "baseline_token_id": 6330,
+  "target_token_id": 1049,
+  "baseline_logit_diff": -1.875,
+  "clean_logit_diff": -6.125,
+  "best_logit_diff": -0.125,
+  "best_cosine": 0.93359375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 160",
+  "clean_answer": 160.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 160",
+  "adv_answer": 160.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " البل smaller oursstarted285",
+      "prefix_ids": [
+        108411,
+        9333,
+        11604,
+        47823,
+        15935
+      ],
+      "logit_diff": -0.125,
+      "cosine_sim": 0.93359375,
+      "answer": 160.0,
+      "correct": true
+    },
+    {
+      "prefix": " thems Bugs firing136 chained",
+      "prefix_ids": [
+        5685,
+        87601,
+        23677,
+        9795,
+        68069
+      ],
+      "logit_diff": -1.25,
+      "cosine_sim": 0.94140625,
+      "answer": 160.0,
+      "correct": true
+    },
+    {
+      "prefix": " البل smaller Easternstarted285",
+      "prefix_ids": [
+        108411,
+        9333,
+        18516,
+        47823,
+        15935
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.9375,
+      "answer": 160.0,
+      "correct": true
+    },
+    {
+      "prefix": "-IslBuilder__':\nstarted285",
+      "prefix_ids": [
+        81078,
+        3377,
+        16575,
+        47823,
+        15935
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.94140625,
+      "answer": 160.0,
+      "correct": true
+    },
+    {
+      "prefix": " البل smaller Easternstarted285",
+      "prefix_ids": [
+        108411,
+        9333,
+        18516,
+        47823,
+        15935
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.9375,
+      "answer": 160.0,
+      "correct": true
+    },
+    {
+      "prefix": " thems Je firing136 chained",
+      "prefix_ids": [
+        5685,
+        14465,
+        23677,
+        9795,
+        68069
+      ],
+      "logit_diff": -1.625,
+      "cosine_sim": 0.94140625,
+      "answer": 160.0,
+      "correct": true
+    },
+    {
+      "prefix": " themsijn firing136 chained",
+      "prefix_ids": [
+        5685,
+        14485,
+        23677,
+        9795,
+        68069
+      ],
+      "logit_diff": -1.625,
+      "cosine_sim": 0.9453125,
+      "answer": 160.0,
+      "correct": true
+    },
+    {
+      "prefix": "GRESwedingtonstarted285",
+      "prefix_ids": [
+        92991,
+        68467,
+        4910,
+        47823,
+        15935
+      ],
+      "logit_diff": -1.75,
+      "cosine_sim": 0.93359375,
+      "answer": 160.0,
+      "correct": true
+    },
+    {
+      "prefix": " البل smaller Westonstarted285",
+      "prefix_ids": [
+        108411,
+        9333,
+        91119,
+        47823,
+        15935
+      ],
+      "logit_diff": -1.75,
+      "cosine_sim": 0.9375,
+      "answer": 160.0,
+      "correct": true
+    },
+    {
+      "prefix": " Distrib smallerسهstarted285",
+      "prefix_ids": [
+        54691,
+        9333,
+        103007,
+        47823,
+        15935
+      ],
+      "logit_diff": -1.875,
+      "cosine_sim": 0.9375,
+      "answer": 160.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

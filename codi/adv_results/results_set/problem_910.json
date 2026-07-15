@@ -1,0 +1,171 @@
+{
+  "question": "Farmer Brown's farm is 200 acres, and Farmer Smith's farm is 100 acres more than twice that. How many acres do the two farms have, together?",
+  "ground_truth": "700.0",
+  "best_prefix": "ncygd McCarthy.bus double",
+  "best_prefix_token_ids": [
+    21397,
+    29684,
+    45040,
+    49167,
+    2033
+  ],
+  "baseline_token_id": 7007,
+  "target_token_id": 4728,
+  "baseline_logit_diff": -2.5,
+  "clean_logit_diff": -7.0,
+  "best_logit_diff": 0.0,
+  "best_cosine": 0.9375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 700",
+  "clean_answer": 700.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 900",
+  "adv_answer": 900.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "ncygd McCarthy.bus double",
+      "prefix_ids": [
+        21397,
+        29684,
+        45040,
+        49167,
+        2033
+      ],
+      "logit_diff": 0.0,
+      "cosine_sim": 0.9375,
+      "answer": 900.0,
+      "correct": false
+    },
+    {
+      "prefix": "Instruction Madeler Journey double",
+      "prefix_ids": [
+        17077,
+        9671,
+        8023,
+        43680,
+        2033
+      ],
+      "logit_diff": -1.625,
+      "cosine_sim": 0.94140625,
+      "answer": 700.0,
+      "correct": true
+    },
+    {
+      "prefix": "acic Mad Sawumi double",
+      "prefix_ids": [
+        94257,
+        9671,
+        38107,
+        25330,
+        2033
+      ],
+      "logit_diff": -1.75,
+      "cosine_sim": 0.9375,
+      "answer": 700.0,
+      "correct": true
+    },
+    {
+      "prefix": "uryRobert Çin r double",
+      "prefix_ids": [
+        3431,
+        35632,
+        114928,
+        436,
+        2033
+      ],
+      "logit_diff": -1.75,
+      "cosine_sim": 0.9375,
+      "answer": 700.0,
+      "correct": true
+    },
+    {
+      "prefix": "ncy Madweets Journey double",
+      "prefix_ids": [
+        21397,
+        9671,
+        26488,
+        43680,
+        2033
+      ],
+      "logit_diff": -1.875,
+      "cosine_sim": 0.9375,
+      "answer": 700.0,
+      "correct": true
+    },
+    {
+      "prefix": "ncy Mad Sandy Journey double",
+      "prefix_ids": [
+        21397,
+        9671,
+        39485,
+        43680,
+        2033
+      ],
+      "logit_diff": -2.0,
+      "cosine_sim": 0.93359375,
+      "answer": 700.0,
+      "correct": true
+    },
+    {
+      "prefix": "ncy Madorious Journey double",
+      "prefix_ids": [
+        21397,
+        9671,
+        22766,
+        43680,
+        2033
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.9375,
+      "answer": 700.0,
+      "correct": true
+    },
+    {
+      "prefix": "Instruction Mad Baum Journey double",
+      "prefix_ids": [
+        17077,
+        9671,
+        83320,
+        43680,
+        2033
+      ],
+      "logit_diff": -2.25,
+      "cosine_sim": 0.9453125,
+      "answer": 700.0,
+      "correct": true
+    },
+    {
+      "prefix": "ühbur Sandy Journey double",
+      "prefix_ids": [
+        22284,
+        11490,
+        39485,
+        43680,
+        2033
+      ],
+      "logit_diff": -2.375,
+      "cosine_sim": 0.94140625,
+      "answer": 700.0,
+      "correct": true
+    },
+    {
+      "prefix": "ncy Boyd Zuckerberg Journey double",
+      "prefix_ids": [
+        21397,
+        63721,
+        67034,
+        43680,
+        2033
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.9375,
+      "answer": 700.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

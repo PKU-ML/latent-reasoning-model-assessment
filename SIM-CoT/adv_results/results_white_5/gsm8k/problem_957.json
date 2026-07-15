@@ -1,0 +1,28 @@
+{
+  "question": "Shawna's father is five times as old as Shawna. Shawna is currently three times as old as Aliya. If Aliya is 3 years old, how old is Shawna's father?",
+  "ground_truth": "45.0",
+  "prefix": " subordFMLnes 165225",
+  "prefix_token_ids": [
+    21267,
+    34708,
+    2516,
+    21409,
+    18182
+  ],
+  "baseline_token_id": 4153,
+  "target_token_id": 2026,
+  "baseline_logit_diff": -10.96875,
+  "clean_logit_diff": -11.6875,
+  "adv_logit_diff": 6.5625,
+  "best_logit_diff": 6.5625,
+  "clean_text": "Shawna's father is five times as old as Shawna. Shawna is currently three times as old as Aliya. If Aliya is 3 years old, how old is Shawna's father?\n### 45",
+  "clean_answer": 45.0,
+  "clean_correct": true,
+  "adv_text": "subordFMLnes 165225Shawna's father is five times as old as Shawna. Shawna is currently three times as old as Aliya. If Aliya is 3 years old, how old is Shawna's father?\n### 7493",
+  "adv_answer": 7493.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    6.5625
+  ]
+}

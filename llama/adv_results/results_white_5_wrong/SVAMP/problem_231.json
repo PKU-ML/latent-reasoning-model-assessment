@@ -1,0 +1,24 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 231,
+  "question": "Next on his checklist is wax to stick the feathers together and colors to paint them. He needs a total of 49 g of colors to paint them. If the feathers require 288 g of wax and right now he just needs 260 g How many grams of wax does he already have?",
+  "ground_truth": "28",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " parametEmissive<|begin_of_text|> distra",
+  "prefix_token_ids": [
+    127988,
+    36,
+    58028,
+    128000,
+    58571
+  ],
+  "best_wrong_prob": 1.703260664971989e-23,
+  "clean_text": "To find out how much wax he already has, we need to subtract the amount of wax he needs from the total amount of wax required.\n\nTotal wax required: 288 g\nWax already available: 260 g\n\nSubtracting the ",
+  "clean_pred": 28.0,
+  "clean_correct": true,
+  "adv_text": "To find out how much wax parameteEmissive has, we need to subtract the amount of wax he needs from the total amount of wax he needs.\n\nTotal wax needed = 288 g\nWax already has = 260 g\n\nWax already has ",
+  "adv_pred": 28.0,
+  "adv_correct": true,
+  "attack_success": false
+}

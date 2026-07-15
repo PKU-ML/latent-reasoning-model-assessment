@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 33,
+  "question": " The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? ",
+  "ground_truth": "5",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": ")\"\n\nEmbed overturn",
+  "prefix_token_ids": [
+    53394,
+    26566,
+    67687
+  ],
+  "best_wrong_prob": 3.0585997481818433e-24,
+  "clean_text": "To find the number of groups, we need to divide the total number of students by the number of students per group.\n\nTotal students = 5 boys + 40 girls = 45 students\nNumber of groups = 45 students / 9 s",
+  "clean_pred": 5.0,
+  "clean_correct": true,
+  "adv_text": "To find the number of groups, we need to divide the total number of students by the number of students per group.\n\nTotal students = 5 boys + 40 girls = 45 students\nNumber of groups = 45 students / 9 s",
+  "adv_pred": 5.0,
+  "adv_correct": true,
+  "attack_success": false
+}

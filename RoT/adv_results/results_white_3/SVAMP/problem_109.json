@@ -1,0 +1,28 @@
+{
+  "question": "There were 174 parents in the program and 521 pupils too. How many more pupils were present compared to parents in the program?",
+  "ground_truth": "347.0",
+  "prefix": "6双 spanning",
+  "prefix_token_ids": [
+    21,
+    99493,
+    55786
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 17,
+  "baseline_logit_diff": -2.75,
+  "clean_logit_diff": -3.875,
+  "adv_logit_diff": -0.75,
+  "best_logit_diff": -0.75,
+  "clean_text": "assistant\n### 347 ",
+  "clean_answer": 347.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 349 ",
+  "adv_answer": 349.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -2.125,
+    -1.125,
+    -0.75
+  ]
+}

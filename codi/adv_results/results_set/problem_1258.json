@@ -1,0 +1,171 @@
+{
+  "question": "There are five phones on a phone plan. The main phone costs twice as much as each additional phone. If the main phone plan costs $20, how much does the whole phone plan cost?",
+  "ground_truth": "60.0",
+  "best_prefix": " Four Teens je pandemic desktop",
+  "best_prefix_token_ids": [
+    13625,
+    70153,
+    4864,
+    28522,
+    17963
+  ],
+  "baseline_token_id": 1399,
+  "target_token_id": 1490,
+  "baseline_logit_diff": -2.625,
+  "clean_logit_diff": -6.375,
+  "best_logit_diff": -1.875,
+  "best_cosine": 0.93359375,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 60",
+  "clean_answer": 60.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 50",
+  "adv_answer": 50.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " Four Teens je pandemic desktop",
+      "prefix_ids": [
+        13625,
+        70153,
+        4864,
+        28522,
+        17963
+      ],
+      "logit_diff": -1.875,
+      "cosine_sim": 0.93359375,
+      "answer": 50.0,
+      "correct": false
+    },
+    {
+      "prefix": " THEREorang substrateav fourth",
+      "prefix_ids": [
+        62207,
+        85268,
+        54057,
+        402,
+        11999
+      ],
+      "logit_diff": -1.875,
+      "cosine_sim": 0.94921875,
+      "answer": 60.0,
+      "correct": true
+    },
+    {
+      "prefix": " Four desc trồnguring stav",
+      "prefix_ids": [
+        13625,
+        6697,
+        116330,
+        1711,
+        75335
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.953125,
+      "answer": 50.0,
+      "correct": false
+    },
+    {
+      "prefix": " Fourlocked watchers Older per",
+      "prefix_ids": [
+        13625,
+        25656,
+        87672,
+        55025,
+        824
+      ],
+      "logit_diff": -2.25,
+      "cosine_sim": 0.95703125,
+      "answer": 50.0,
+      "correct": false
+    },
+    {
+      "prefix": " THEREcargo ciratory fourth",
+      "prefix_ids": [
+        62207,
+        67815,
+        30570,
+        5382,
+        11999
+      ],
+      "logit_diff": -2.25,
+      "cosine_sim": 0.9453125,
+      "answer": 60.0,
+      "correct": true
+    },
+    {
+      "prefix": " Four-sponsored watchers consistencygere",
+      "prefix_ids": [
+        13625,
+        64650,
+        87672,
+        29237,
+        88127
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.9375,
+      "answer": 60.0,
+      "correct": true
+    },
+    {
+      "prefix": " THEREorang substrateliner fourth",
+      "prefix_ids": [
+        62207,
+        85268,
+        54057,
+        62898,
+        11999
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.9375,
+      "answer": 60.0,
+      "correct": true
+    },
+    {
+      "prefix": " Four desc trồng pandemic casually",
+      "prefix_ids": [
+        13625,
+        6697,
+        116330,
+        28522,
+        65714
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.953125,
+      "answer": 50.0,
+      "correct": false
+    },
+    {
+      "prefix": " Four-sponsored watchers consistencyedy",
+      "prefix_ids": [
+        13625,
+        64650,
+        87672,
+        29237,
+        9497
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.94140625,
+      "answer": 60.0,
+      "correct": true
+    },
+    {
+      "prefix": " Feet Scha euthliner fourth",
+      "prefix_ids": [
+        62289,
+        92818,
+        81680,
+        62898,
+        11999
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.94140625,
+      "answer": 60.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

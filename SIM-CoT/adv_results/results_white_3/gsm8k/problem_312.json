@@ -1,0 +1,28 @@
+{
+  "question": "Trent is 5 years older than Jane, and Jane is 3 years younger than Quinn. If Quinn is 30, how old is Trent?",
+  "ground_truth": "32.0",
+  "prefix": " Compar Multiplayer 180",
+  "prefix_token_ids": [
+    22565,
+    39759,
+    11546
+  ],
+  "baseline_token_id": 3933,
+  "target_token_id": 2534,
+  "baseline_logit_diff": -4.7421875,
+  "clean_logit_diff": -5.96875,
+  "adv_logit_diff": 3.03125,
+  "best_logit_diff": 3.03125,
+  "clean_text": "Trent is 5 years older than Jane, and Jane is 3 years younger than Quinn. If Quinn is 30, how old is Trent?\n### 32",
+  "clean_answer": 32.0,
+  "clean_correct": true,
+  "adv_text": "Compar Multiplayer 180Trent is 5 years older than Jane, and Jane is 3 years younger than Quinn. If Quinn is 30, how old is Trent?\n### 22",
+  "adv_answer": 22.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.1875,
+    1.25,
+    3.03125
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "question": "Jeff owns a catering company.  During a recent event, he sent 8 dozen glasses and 4 dozen plates for the party.  When they were returned, 10 glasses were broken as well as 6 plates.  How many glasses and plates does Jeff have now?",
+  "ground_truth": "128.0",
+  "best_prefix": "；\n_noiseishi!“\n\n533",
+  "best_prefix_token_ids": [
+    60317,
+    41413,
+    39476,
+    119029,
+    21876
+  ],
+  "baseline_token_id": 4386,
+  "target_token_id": 8899,
+  "baseline_logit_diff": -2.625,
+  "clean_logit_diff": -4.625,
+  "best_logit_diff": 4.125,
+  "best_cosine": 0.9375,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 128",
+  "clean_answer": 128.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 116",
+  "adv_answer": 116.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "；\n_noiseishi!“\n\n533",
+      "prefix_ids": [
+        60317,
+        41413,
+        39476,
+        119029,
+        21876
+      ],
+      "logit_diff": 4.125,
+      "cosine_sim": 0.9375,
+      "answer": 116.0,
+      "correct": false
+    },
+    {
+      "prefix": "osaurs linking �737 Newspaper",
+      "prefix_ids": [
+        53356,
+        31799,
+        104974,
+        22039,
+        87839
+      ],
+      "logit_diff": 2.9375,
+      "cosine_sim": 0.95703125,
+      "answer": 118.0,
+      "correct": false
+    },
+    {
+      "prefix": " compete erfolgreichkf840 PRO",
+      "prefix_ids": [
+        20874,
+        94194,
+        82969,
+        19899,
+        5421
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.97265625,
+      "answer": 118.0,
+      "correct": false
+    },
+    {
+      "prefix": "ForResultٌ JJ684 Pro",
+      "prefix_ids": [
+        60066,
+        106543,
+        71140,
+        24313,
+        1322
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.97265625,
+      "answer": 118.0,
+      "correct": false
+    },
+    {
+      "prefix": " thumb exhausted scraped381 Newspaper",
+      "prefix_ids": [
+        25015,
+        39019,
+        88937,
+        19162,
+        87839
+      ],
+      "logit_diff": -1.125,
+      "cosine_sim": 0.97265625,
+      "answer": 128.0,
+      "correct": true
+    },
+    {
+      "prefix": "？\nitude� \"\n\n336",
+      "prefix_ids": [
+        95532,
+        3993,
+        21688,
+        23584,
+        17014
+      ],
+      "logit_diff": -1.875,
+      "cosine_sim": 0.94921875,
+      "answer": 128.0,
+      "correct": true
+    },
+    {
+      "prefix": " thumb exhausted<![381 Newspaper",
+      "prefix_ids": [
+        25015,
+        39019,
+        77163,
+        19162,
+        87839
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.97265625,
+      "answer": 128.0,
+      "correct": true
+    },
+    {
+      "prefix": "';\n Lamar معرف628732",
+      "prefix_ids": [
+        1025,
+        62284,
+        110813,
+        23574,
+        24289
+      ],
+      "logit_diff": -2.25,
+      "cosine_sim": 0.94921875,
+      "answer": 128.0,
+      "correct": true
+    },
+    {
+      "prefix": "';\noq معرف.Resume432",
+      "prefix_ids": [
+        1025,
+        108268,
+        110813,
+        15706,
+        16739
+      ],
+      "logit_diff": -2.25,
+      "cosine_sim": 0.9609375,
+      "answer": 128.0,
+      "correct": true
+    },
+    {
+      "prefix": "osaursylon معرف628ucu",
+      "prefix_ids": [
+        53356,
+        27095,
+        110813,
+        23574,
+        106538
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.98046875,
+      "answer": 128.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

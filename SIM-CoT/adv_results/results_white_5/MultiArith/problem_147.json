@@ -1,0 +1,28 @@
+{
+  "question": " A pet store had 88 puppies. In one day they sold 34 of them and put the rest into cages with 6 in each cage. How many cages did they use? ",
+  "ground_truth": "9.0",
+  "prefix": " drafted yielded Essexinstein after",
+  "prefix_token_ids": [
+    15937,
+    26403,
+    38307,
+    11962,
+    706
+  ],
+  "baseline_token_id": 860,
+  "target_token_id": 838,
+  "baseline_logit_diff": -4.765625,
+  "clean_logit_diff": -5.9140625,
+  "adv_logit_diff": 3.15625,
+  "best_logit_diff": 3.15625,
+  "clean_text": "A pet store had 88 puppies. In one day they sold 34 of them and put the rest into cages with 6 in each cage. How many cages did they use?\n### 9",
+  "clean_answer": 9.0,
+  "clean_correct": true,
+  "adv_text": "drafted yielded Essexinstein afterA pet store had 88 puppies. In one day they sold 34 of them and put the rest into cages with 6 in each cage. How many cages did they use?\n### 19",
+  "adv_answer": 19.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    3.15625
+  ]
+}

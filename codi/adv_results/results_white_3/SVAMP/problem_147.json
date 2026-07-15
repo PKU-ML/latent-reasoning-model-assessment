@@ -1,0 +1,28 @@
+{
+  "question": "Ed had 10 more marbles than Doug. Doug lost 11 of his marbles at the playground. If Ed had 45 marbles How many more marbles did Ed have than Doug then?",
+  "ground_truth": "21.0",
+  "prefix": "imas CustomsBC",
+  "prefix_token_ids": [
+    50463,
+    46771,
+    5002
+  ],
+  "baseline_token_id": 1691,
+  "target_token_id": 777,
+  "baseline_logit_diff": -2.0,
+  "clean_logit_diff": -1.125,
+  "adv_logit_diff": 3.8125,
+  "best_logit_diff": 3.8125,
+  "clean_text": "The answer is: 21",
+  "clean_answer": 21.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 11",
+  "adv_answer": 11.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.75,
+    1.0,
+    3.8125
+  ]
+}

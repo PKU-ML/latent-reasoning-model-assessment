@@ -1,0 +1,171 @@
+{
+  "question": "There are 90 rooms at the KozyInn Motel. It takes housekeeping 20 minutes to clean each room. How many hours would it take to clean one-half of the rooms?",
+  "ground_truth": "15.0",
+  "best_prefix": " doubles)}>\n68 Seah Rom",
+  "best_prefix_token_ids": [
+    40396,
+    39136,
+    2614,
+    43269,
+    12036
+  ],
+  "baseline_token_id": 868,
+  "target_token_id": 975,
+  "baseline_logit_diff": -6.0,
+  "clean_logit_diff": -8.3125,
+  "best_logit_diff": -3.5,
+  "best_cosine": 0.93359375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 15",
+  "clean_answer": 15.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 15",
+  "adv_answer": 15.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " doubles)}>\n68 Seah Rom",
+      "prefix_ids": [
+        40396,
+        39136,
+        2614,
+        43269,
+        12036
+      ],
+      "logit_diff": -3.5,
+      "cosine_sim": 0.93359375,
+      "answer": 15.0,
+      "correct": true
+    },
+    {
+      "prefix": " notably)}>\n68 Seahipes",
+      "prefix_ids": [
+        35146,
+        39136,
+        2614,
+        43269,
+        9100
+      ],
+      "logit_diff": -4.3125,
+      "cosine_sim": 0.93359375,
+      "answer": 15.0,
+      "correct": true
+    },
+    {
+      "prefix": "�779652 пляivel",
+      "prefix_ids": [
+        23043,
+        25659,
+        23181,
+        125233,
+        21169
+      ],
+      "logit_diff": -4.6875,
+      "cosine_sim": 0.93359375,
+      "answer": 15.0,
+      "correct": true
+    },
+    {
+      "prefix": "anner)}>\n68 Seah451",
+      "prefix_ids": [
+        4992,
+        39136,
+        2614,
+        43269,
+        20360
+      ],
+      "logit_diff": -4.875,
+      "cosine_sim": 0.93359375,
+      "answer": 15.0,
+      "correct": true
+    },
+    {
+      "prefix": "boards|$ traffic649мос",
+      "prefix_ids": [
+        19826,
+        81150,
+        9629,
+        24734,
+        116651
+      ],
+      "logit_diff": -5.0,
+      "cosine_sim": 0.94140625,
+      "answer": 15.0,
+      "correct": true
+    },
+    {
+      "prefix": "�779 explo Eleeeper",
+      "prefix_ids": [
+        23043,
+        25659,
+        7684,
+        27039,
+        44131
+      ],
+      "logit_diff": -5.0625,
+      "cosine_sim": 0.9375,
+      "answer": 15.0,
+      "correct": true
+    },
+    {
+      "prefix": "boards Spiele traffic649мос",
+      "prefix_ids": [
+        19826,
+        70562,
+        9629,
+        24734,
+        116651
+      ],
+      "logit_diff": -5.25,
+      "cosine_sim": 0.93359375,
+      "answer": 15.0,
+      "correct": true
+    },
+    {
+      "prefix": "�779 exploiheeper",
+      "prefix_ids": [
+        23043,
+        25659,
+        7684,
+        7141,
+        44131
+      ],
+      "logit_diff": -5.3125,
+      "cosine_sim": 0.94140625,
+      "answer": 15.0,
+      "correct": true
+    },
+    {
+      "prefix": "�779 explo пляeeper",
+      "prefix_ids": [
+        23043,
+        25659,
+        7684,
+        125233,
+        44131
+      ],
+      "logit_diff": -5.375,
+      "cosine_sim": 0.9453125,
+      "answer": 15.0,
+      "correct": true
+    },
+    {
+      "prefix": " prefer779536184urgeon",
+      "prefix_ids": [
+        10932,
+        25659,
+        21600,
+        10336,
+        81562
+      ],
+      "logit_diff": -6.0,
+      "cosine_sim": 0.93359375,
+      "answer": 15.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

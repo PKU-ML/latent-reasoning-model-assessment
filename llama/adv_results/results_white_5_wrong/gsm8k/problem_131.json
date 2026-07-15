@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 131,
+  "question": "The expenditure of Joseph in May was $500. In June, his expenditure was $60 less. How much was his total expenditure for those two months?",
+  "ground_truth": "940",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|reserved_special_token_116|><|begin_of_text|>งเศส<|begin_of_text|>`",
+  "prefix_token_ids": [
+    128124,
+    128000,
+    127941,
+    128000,
+    63
+  ],
+  "best_wrong_prob": 4.6018491032006406e-23,
+  "clean_text": "To find the total expenditure, we need to add the May and June expenditures.\n\nMay expenditure: $500\nJune expenditure: $500 - $60 = $440\n\nTotal expenditure: $500 + $440 = $940\n\nThe total expenditure fo",
+  "clean_pred": 940.0,
+  "clean_correct": true,
+  "adv_text": "To find the total expenditure, we need to add the expenditure in May and June.\n\nExpenditure in May = $500\nExpenditure in June = $500 - $60\nTotal expenditure = $500 + $500 - $60\nTotal expenditure = $86",
+  "adv_pred": 860.0,
+  "adv_correct": false,
+  "attack_success": true
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+  "ground_truth": "42.0",
+  "prefix": "ите� triple",
+  "prefix_token_ids": [
+    27055,
+    100992,
+    24657
+  ],
+  "baseline_token_id": 2983,
+  "target_token_id": 3391,
+  "baseline_logit_diff": -7.9375,
+  "clean_logit_diff": -8.0625,
+  "adv_logit_diff": 2.1875,
+  "best_logit_diff": 2.1875,
+  "clean_text": "The answer is: 42",
+  "clean_answer": 42.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 39",
+  "adv_answer": 39.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.9375,
+    2.1875
+  ]
+}

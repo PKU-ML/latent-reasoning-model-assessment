@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 336,
+  "question": "Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+  "ground_truth": "72",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "واعeq Rodrigo",
+  "prefix_token_ids": [
+    105692,
+    11251,
+    78868
+  ],
+  "best_wrong_prob": 1.73729517044694e-27,
+  "clean_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share ",
+  "clean_pred": 72.0,
+  "clean_correct": true,
+  "adv_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares\nInitial price p",
+  "adv_pred": 81.0,
+  "adv_correct": false,
+  "attack_success": true
+}

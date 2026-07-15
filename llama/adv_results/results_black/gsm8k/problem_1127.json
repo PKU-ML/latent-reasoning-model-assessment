@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1127,
+  "question": "Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+  "ground_truth": "750.0",
+  "baseline_correct": true,
+  "baseline_answer": 750.0,
+  "best_rewrite": "An adult has 32 teeth. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+  "best_fact": "An adult has 32 teeth.",
+  "best_pred_answer": 375.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 13,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the fastest car, we need to first find the average car's speed. \n\nThe average car can go 120 miles per hour. \n\nTo find the average car's speed, we need to divide the average speed by the number of cars. There are 3 cars mentioned in the problem. \n\nAverage car's speed = 120 miles per hour / 3 cars = 40 miles per hour.\n\nNow, we know that the 2nd fastest car is 5 times faster than the average car. So, the 2nd fastest car's speed is 5 * 40 miles per hour = 200 miles per hour.\n\nNow, we know that the faster car is 1.25 times faster than the 2nd fastest car. So, the faster car's speed is 1.25 * 200 miles per hour = 250 miles per hour.\n\nTherefore, the faster car goes 250 miles per hour.\nSo the answer is \\boxed{250",
+      "pred_answer": 250.0
+    },
+    {
+      "question": "April has 30 days. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the fastest car, we need to first find the average speed of the cars. \n\nThe average car can go 120 miles per hour. Since there are 30 days in a month, we can assume that the average speed is the average of the speeds of the cars. \n\nLet's assume the speed of the 2nd fastest car is x miles per hour. Since the 2nd fastest car is 5 times faster than the average car, its speed is 5x miles per hour.\n\nThe average car is 1.25 times faster than the 2nd fastest car, so its speed is 1.25 * 5x = 6.25x miles per hour.\n\nSince the average car can go 120 miles per hour, we can set up the equation:\n\n120 = 6.25x\n\nTo solve for x, we can divide both sides by 6.25:\n\nx = 120 / 6.25\nx = 19.2\n\nSo the speed of the 2nd fastest car is 19.2 miles per hour.\n\nNow that we know the speed of the 2nd fastest car, we can find the speed of the fastest car:\n\nFastest car speed = 5x\n= 5 * 19.2\n= 95.2 miles per hour\n\nTherefore, the fastest car can go 95.2 miles per hour.\nSo the answer is \\boxed{95.2",
+      "pred_answer": 95.2
+    },
+    {
+      "question": "A bicycle has 2 wheels. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the second fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the second fastest car by 5 to find the speed of the second fastest car.\n4. Multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the second fastest car.\nThe average car can go 120 Miles per hour. Since the average car is the middle value in a list of speeds, we can assume that the second fastest car is 5 times the average car. \n\nSpeed of the second fastest car = 5 * 120 = 600 Miles per hour.\n\nStep 2: Find the speed of the faster car.\nThe faster car is 1.25 times faster than the second fastest car. \n\nSpeed of the faster car = 1.25 * 600 = 750 Miles per hour.\n\nTherefore, the faster car goes 750 Miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the fastest car, we need to first find the average speed of the 2nd fastest car. Since the average car can go 120 miles per hour, we can find the speed of the 2nd fastest car by dividing 120 by 2.\n\n120 / 2 = 60 miles per hour\n\nNow, we know that the 2nd fastest car is 5 times faster than the average car. So, we can multiply the speed of the average car by 5 to find the speed of the 2nd fastest car.\n\n60 * 5 = 300 miles per hour\n\nNow, we know that the faster car is 1.25 times faster than the 2nd fastest car. We can multiply the speed of the 2nd fastest car by 1.25 to find the speed of the faster car.\n\n300 * 1.25 = 375 miles per hour\n\nTherefore, the faster car goes 375 miles per hour.\nSo the answer is \\boxed{375",
+      "pred_answer": 375.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the second fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the second fastest car by 5 to find the speed of the second fastest car.\n4. Multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the second fastest car.\nThe average car can go 120 miles per hour. Since the average car is the middle value in a list of speeds, we can assume that the second fastest car is 5 times the average car. \n\nSpeed of the second fastest car = 5 * 120 = 600 miles per hour.\n\nStep 2: Find the speed of the faster car.\nThe faster car is 1.25 times faster than the second fastest car. \n\nSpeed of the faster car = 1.25 * 600 = 750 miles per hour.\n\nTherefore, the faster car goes 750 miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "A year has 12 months. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the fastest car, we need to first find the average car's speed. \n\nThe average car can go 120 miles per hour. \n\nTo find the average car's speed, we need to divide the average speed by the number of cars. There are 12 cars, so we divide 120 miles per hour by 12.\n\nAverage car's speed = 120 miles per hour / 12 = 10 miles per hour.\n\nNow, we know that the 2nd fastest car is 5 times faster than the average car. So, the 2nd fastest car's speed is 5 * 10 miles per hour = 50 miles per hour.\n\nNow, we know that the faster car is 1.25 times faster than the 2nd fastest car. So, the faster car's speed is 1.25 * 50 miles per hour = 62.5 miles per hour.\n\nTherefore, the faster car goes 62.5 miles per hour.\nSo the answer is \\boxed{62.5",
+      "pred_answer": 62.5
+    },
+    {
+      "question": "A week has 7 days. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the second fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the second fastest car by 5 to find the speed of the second fastest car.\n4. Multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the second fastest car.\nThe average car can go 120 Miles per hour. To find the speed of the second fastest car, we need to divide the average car's speed by 5 (since it's 5 times faster than the average car).\nSpeed of the second fastest car = 120 / 5 = 24 Miles per hour.\n\nStep 2: Find the speed of the faster car.\nTo find the speed of the faster car, we need to multiply the speed of the second fastest car by 1.25.\nSpeed of the faster car = 24 * 1.25 = 30 Miles per hour.\n\nTherefore, the faster car goes 30 Miles per hour.\nSo the answer is \\boxed{The faster car goes 30 Miles per hour.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "An hour has 60 minutes. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the average car and the 2nd fastest car.\n\nThe average car can go 120 miles per hour. \n\nSince the average car is 5 times faster than the 2nd fastest car, the 2nd fastest car's speed is 120 / 5 = 24 miles per hour.\n\nNow, we know that the faster car is 1.25 times faster than the 2nd fastest car. So, the faster car's speed is 1.25 * 24 = 30 miles per hour.\n\nTherefore, the faster car goes 30 miles per hour.\nSo the answer is \\boxed{The faster car goes 30 miles per hour.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A minute has 60 seconds. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the second fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the second fastest car by 5 to find the speed of the second fastest car.\n4. Multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the second fastest car.\nThe average car can go 120 Miles per hour. To find the speed of the second fastest car, we need to divide the speed of the average car by 5 (since it was 5 times faster than the average car).\nSpeed of the second fastest car = 120 / 5 = 24 Miles per hour.\n\nStep 2: Find the speed of the faster car.\nTo find the speed of the faster car, we need to multiply the speed of the second fastest car by 1.25.\nSpeed of the faster car = 24 * 1.25 = 30 Miles per hour.\n\nTherefore, the faster car goes 30 Miles per hour.\nSo the answer is \\boxed{The faster car goes 30 Miles per hour.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A year has 365 days. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the fastest car, we need to first find the average speed of the second fastest car. Since the second fastest car is 5 times faster than the average car, we can multiply the average car's speed by 5 to find the second fastest car's speed.\n\nAverage car's speed = 120 Miles per hour\nSecond fastest car's speed = 5 * Average car's speed\nSecond fastest car's speed = 5 * 120 = 600 Miles per hour\n\nNow, we know the second fastest car is 5 times faster than the average car. To find the fastest car's speed, we can divide the second fastest car's speed by 5.\n\nFastest car's speed = Second fastest car's speed / 5\nFastest car's speed = 600 / 5\nFastest car's speed = 120 Miles per hour\n\nThe faster car is 1.25 times faster than the fastest car. To find the fastest car's speed, we can multiply the fastest car's speed by 1.25.\n\nFastest car's speed = 1.25 * Fastest car's speed\nFastest car's speed = 1.25 * 120\nFastest car's speed = 150 Miles per hour\n\nSo, the faster car goes 150 Miles per hour.\nSo the answer is \\boxed{150",
+      "pred_answer": 150.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the second fastest car. Since the second fastest car is 5 times faster than the average car, we can multiply the average car's speed by 5.\n\nAverage car's speed = 120 mph\nSecond fastest car's speed = 5 * 120 mph = 600 mph\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. We can multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nFaster car's speed = 600 mph * 1.25 = 750 mph\n\nSo, the faster car goes 750 mph.\nSo the answer is \\boxed{750 mph",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the second fastest car. Since the second fastest car is 5 times faster than the average car, we can multiply the average car's speed by 5.\n\nAverage car's speed = 120 miles per hour\nSecond fastest car's speed = 5 * 120 = 600 miles per hour\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. We can multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nFaster car's speed = 600 * 1.25 = 750 miles per hour\n\nSo, the faster car goes 750 miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the second fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the second fastest car by 5 to find the speed of the second fastest car.\n4. Multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the second fastest car.\nThe average car can go 120 Miles per hour. Since the average car is the middle value in a list of speeds, we can assume that the second fastest car is 5 times faster than the average car. \n\nLet's call the speed of the second fastest car 'x'. Then, we can set up the equation:\nx + 120 = 5 * 120\nx + 120 = 600\nx = 480\n\nSo, the second fastest car is 480 Miles per hour.\n\nStep 2: Find the speed of the faster car.\nThe faster car is 1.25 times faster than the second fastest car. We already know the speed of the second fastest car is 480 Miles per hour. \n\nLet's call the speed of the faster car 'y'. Then, we can set up the equation:\ny = 1.25 * 480\ny = 600\n\nSo, the faster car is 600 Miles per hour.\n\nThe final answer is 600.\nSo the answer is \\boxed{600",
+      "pred_answer": 600.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the second fastest car. Since the second fastest car is 5 times faster than the average car, we can multiply the average car's speed by 5.\n\nAverage car's speed = 120 miles per hour\nSecond fastest car's speed = 5 * 120 = 600 miles per hour\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. We can multiply the second fastest car's speed by 1.25 to find the speed of the faster car.\n\nFaster car's speed = 600 * 1.25 = 750 miles per hour\n\nSo, the faster car goes 750 miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the second fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the second fastest car by 5 to find the speed of the second fastest car.\n4. Multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the second fastest car.\nThe average car can go 120 Miles per hour. Since the average car is the middle value in the list, we can assume it is the second fastest car. \n\nStep 2: Find the speed of the second fastest car.\nSince the second fastest car is 5 times faster than the average car, we multiply the average car's speed by 5:\n120 * 5 = 600\n\nStep 3: Find the speed of the faster car.\nWe multiply the speed of the second fastest car by 1.25 to find the speed of the faster car:\n600 * 1.25 = 750\n\nTherefore, the faster car goes 750 Miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "An adult has 32 teeth. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the fastest car, we need to first find the average speed of the second fastest car. Since the average car can go 120 miles per hour, we can find the speed of the second fastest car by dividing 120 by 2 (the number of cars).\n\n120 / 2 = 60 miles per hour\n\nNow, we know that the second fastest car is 5 times faster than the average car. So, we can multiply the speed of the average car by 5 to find the speed of the second fastest car.\n\n60 * 5 = 300 miles per hour\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. We can multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\n300 * 1.25 = 375 miles per hour\n\nTherefore, the faster car goes 375 miles per hour.\nSo the answer is \\boxed{375",
+      "pred_answer": 375.0
+    },
+    {
+      "question": "China has 1.4 billion people. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the second fastest car. Since the second fastest car is 5 times faster than the average car, and the average car can go 120 miles per hour, the second fastest car can go 5 * 120 = 600 miles per hour.\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. So, the speed of the faster car is 1.25 * 600 = 750 miles per hour.\n\nTherefore, the faster car goes 750 miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "Japan has 125 million people. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the second fastest car. Since the second fastest car is 5 times faster than the average car, we can multiply the average car's speed by 5.\n\nAverage car's speed = 120 miles per hour\nSecond fastest car's speed = 5 * 120 = 600 miles per hour\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. We can multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nFaster car's speed = 600 * 1.25 = 750 miles per hour\n\nSo, the faster car goes 750 miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "The US has 50 states. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the fastest car, we need to first find the average speed of the second fastest car. Since the average car can go 120 miles per hour, we can find the speed of the second fastest car by dividing 120 by 2 (the number of cars).\n\n120 / 2 = 60 miles per hour\n\nNow, we know that the second fastest car is 5 times faster than the average car. So, we multiply the speed of the average car by 5 to find the speed of the second fastest car.\n\n60 * 5 = 300 miles per hour\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. We can multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\n300 * 1.25 = 375 miles per hour\n\nTherefore, the faster car goes 375 miles per hour.\nSo the answer is \\boxed{375",
+      "pred_answer": 375.0
+    },
+    {
+      "question": "The EU has 27 member states. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the average car and the 2nd fastest car.\n\nThe average car can go 120 miles per hour. Since there are 27 member states in the EU, we can assume that the average car is the average speed of all the cars. \n\nLet's assume the speed of the 2nd fastest car is x miles per hour. Since the 2nd fastest car is 5 times faster than the average car, we can set up the equation:\n\nx = 5 * 120\n\nx = 600\n\nNow that we know the speed of the 2nd fastest car, we can find the speed of the faster car. Since the faster car is 1.25 times faster than the 2nd fastest car, we can set up the equation:\n\nFaster car speed = 1.25 * 600\n\nFaster car speed = 750\n\nTherefore, the faster car goes 750 miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the second fastest car. Since the second fastest car is 5 times faster than the average car, and the average car is 120 miles per hour, the second fastest car is 5 * 120 = 600 miles per hour.\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. So, the speed of the faster car is 1.25 * 600 = 750 miles per hour.\n\nTherefore, the faster car goes 750 miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the second fastest car. Since the second fastest car is 5 times faster than the average car, and the average car can go 120 miles per hour, the second fastest car can go 5 * 120 = 600 miles per hour.\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. So, the speed of the faster car is 1.25 * 600 = 750 miles per hour.\n\nTherefore, the faster car goes 750 miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the second fastest car. Since the second fastest car is 5 times faster than the average car, we can multiply the average car's speed by 5.\n\nAverage car's speed = 120 mph\nSecond fastest car's speed = 5 * 120 mph = 600 mph\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. We can multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nFaster car's speed = 600 mph * 1.25 = 750 mph\n\nSo, the faster car goes 750 mph.\nSo the answer is \\boxed{750 mph",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "The human body has 206 bones. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the 2nd fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the 2nd fastest car by 5 to find the speed of the 2nd fastest car.\n4. Multiply the speed of the 2nd fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the 2nd fastest car.\nThe average car can go 120 Miles per hour. Since there are 206 bones in the human body, we can assume that the average car has 206 bones. The 2nd fastest car is 5 times faster than the average car. So, the speed of the 2nd fastest car is 5 * 120 = 600 Miles per hour.\n\nStep 2: Find the speed of the faster car.\nThe faster car is 1.25 times faster than the 2nd fastest car. So, the speed of the faster car is 1.25 * 600 = 750 Miles per hour.\n\nThe final answer is 750.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the second fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the second fastest car by 5 to find the speed of the second fastest car.\n4. Multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the second fastest car.\nThe average car can go 120 Miles per hour. Since the second fastest car is 5 times faster than the average car, we multiply the average car's speed by 5:\n120 * 5 = 600 Miles per hour\n\nStep 2: Find the speed of the faster car.\nThe faster car is 1.25 times faster than the second fastest car. We multiply the speed of the second fastest car by 1.25:\n600 * 1.25 = 750 Miles per hour\n\nThe faster car goes 750 Miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the second fastest car. Since the second fastest car is 5 times faster than the average car, we can multiply the average car's speed by 5.\n\nAverage car's speed = 120 Miles per hour\nSecond fastest car's speed = 5 * Average car's speed\nSecond fastest car's speed = 5 * 120 = 600 Miles per hour\n\nNow, we know that the faster car is 1.25 times faster than the second fastest car. We can multiply the second fastest car's speed by 1.25 to find the speed of the faster car.\n\nFaster car's speed = Second fastest car's speed * 1.25\nFaster car's speed = 600 * 1.25\nFaster car's speed = 750 Miles per hour\n\nSo, the faster car goes 750 Miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to first find the speed of the average car and the 2nd fastest car. \n\nThe average car can go 120 miles per hour. \n\nThe 2nd fastest car is 5 times faster than the average car, so it can go 5 * 120 = 600 miles per hour.\n\nThe faster car is 1.25 times faster than the 2nd fastest car, so it can go 1.25 * 600 = 750 miles per hour.\n\nTherefore, the faster car goes 750 miles per hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the second fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the second fastest car by 5 to find the speed of the second fastest car.\n4. Multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the second fastest car.\nThe average car can go 120 Miles per hour. Since the average car is the middle value in a set of cars, we can assume that the second fastest car is 5 times faster than the average car. \n\nLet's call the speed of the second fastest car 'x'. Then, we can set up the equation:\n120 = 5x\n\nTo find the speed of the second fastest car, we can divide both sides by 5:\nx = 120 / 5\nx = 24\n\nStep 2: Find the speed of the faster car.\nNow that we know the speed of the second fastest car is 24 Miles per hour, we can multiply it by 1.25 to find the speed of the faster car:\nSpeed of the faster car = 24 * 1.25\nSpeed of the faster car = 30\n\nTherefore, the faster car goes 30 Miles per hour.\nSo the answer is \\boxed{The faster car goes 30 Miles per hour.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the second fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the second fastest car by 5 to find the speed of the second fastest car.\n4. Multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the second fastest car.\nThe average car can go 120 Miles per hour. Since there are two cars, we can divide the average speed by 2 to find the speed of the second fastest car:\n120 / 2 = 60 Miles per hour\n\nStep 2: Find the speed of the second fastest car.\nThe second fastest car is 5 times faster than the average car. So, we multiply the speed of the average car by 5:\n60 * 5 = 300 Miles per hour\n\nStep 3: Find the speed of the faster car.\nThe faster car is 1.25 times faster than the second fastest car. We multiply the speed of the second fastest car by 1.25:\n300 * 1.25 = 375 Miles per hour\n\nTherefore, the faster car goes 375 Miles per hour.\nSo the answer is \\boxed{375",
+      "pred_answer": 375.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Rani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the speed of the faster car, we need to follow these steps:\n\n1. Find the speed of the second fastest car.\n2. Find the speed of the average car.\n3. Multiply the speed of the second fastest car by 5 to find the speed of the second fastest car.\n4. Multiply the speed of the second fastest car by 1.25 to find the speed of the faster car.\n\nStep 1: Find the speed of the second fastest car.\nThe average car can go 120 Miles per hour. Since the second fastest car is 5 times faster than the average car, we can multiply the average car's speed by 5 to find the speed of the second fastest car:\n120 Miles/hour * 5 = 600 Miles/hour\n\nStep 2: Find the speed of the faster car.\nNow that we know the speed of the second fastest car is 600 Miles/hour, we can multiply it by 1.25 to find the speed of the faster car:\n600 Miles/hour * 1.25 = 750 Miles/hour\n\nTherefore, the faster car goes 750 Miles/hour.\nSo the answer is \\boxed{750",
+      "pred_answer": 750.0
+    }
+  ]
+}

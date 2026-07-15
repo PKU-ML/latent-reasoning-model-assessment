@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 176,
+  "question": "Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+  "ground_truth": "111.0",
+  "baseline_correct": true,
+  "baseline_answer": 111.0,
+  "best_rewrite": "China has 1.4 billion people. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+  "best_fact": "China has 1.4 billion people.",
+  "best_pred_answer": 186.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 2,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's add the number of cakes he made: 110 + 76 = 186\n\nNow, let's subtract the number of cakes he sold: 186 - 75 = 111\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "April has 30 days. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially.\nHe sold 75 cakes.\nHe made 76 more cakes.\n\n110 - 75 = 35\n35 + 76 = 111\n\nBaker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially and sold 75, so he had 110 - 75 = 35 cakes left.\n\nThen, he made 76 more cakes. To find out how many cakes he has now, we add the cakes he made to the cakes he already had:\n\n35 (cakes left) + 76 (cakes made) = 111 cakes.\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially.\nHe sold 75 cakes.\nHe made 76 more cakes.\n\n110 - 75 = 35\n35 + 76 = 111\n\nBaker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially.\nHe sold 75 cakes.\nHe made 76 more cakes.\n\n110 - 75 = 35\n35 + 76 = 111\n\nBaker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "A year has 12 months. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially.\nHe sold 75 cakes.\nHe made 76 more cakes.\n\n110 - 75 = 35\n35 + 76 = 111\n\nBaker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "A week has 7 days. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially.\nHe sold 75 cakes.\nHe made 76 more cakes.\n\n110 - 75 = 35\n35 + 76 = 111\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "An hour has 60 minutes. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially and sold 75 of them. So, he has 110 - 75 = 35 cakes left.\n\nThen, he made 76 more cakes. To find out how many cakes he has now, we add the cakes he made to the cakes he already had:\n\n35 (cakes left) + 76 (cakes made) = 111 cakes.\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "A minute has 60 seconds. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's find the total number of cakes he made: 110 + 76 = 186 cakes.\n\nNow, let's subtract the number of cakes he sold: 186 - 75 = 111 cakes.\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "A year has 365 days. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially.\nHe sold 75 cakes.\nHe made 76 more cakes.\n\n110 - 75 = 35\n35 + 76 = 111\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would still have, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's find the total number of cakes Baker made: 110 + 76 = 186 cakes.\n\nNow, let's subtract the number of cakes he sold: 186 - 75 = 111 cakes.\n\nSo, Baker would still have 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's find the total number of cakes Baker made: 110 + 76 = 186 cakes.\n\nNow, let's subtract the number of cakes he sold: 186 - 75 = 111 cakes.\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would still have, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially and sold 75, so he had 110 - 75 = 35 cakes left.\n\nThen, he made 76 more cakes. To find out how many cakes he would have now, we need to add the cakes he made to the cakes he already had:\n\n35 (cakes left) + 76 (cakes made) = 111 cakes.\n\nSo, Baker would still have 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's add the number of cakes he made: 110 + 76 = 186 cakes.\n\nThen, let's subtract the number of cakes he sold: 186 - 75 = 111 cakes.\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's add the number of cakes he made: 110 + 76 = 186\n\nThen, let's subtract the number of cakes he sold: 186 - 75 = 111\n\nBaker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "An adult has 32 teeth. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's find the total number of cakes he made: 110 (initial cakes) + 76 (additional cakes) = 186 cakes.\n\nNow, let's subtract the number of cakes he sold: 186 (total cakes) - 75 (cakes sold) = 111 cakes.\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "China has 1.4 billion people. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially.\nHe sold 75 cakes.\nHe made 76 more cakes.\n\nSo, the total number of cakes he made is 110 + 75 + 76 = 261 cakes.\n\nTo find out how many cakes he still has, we subtract 75 from 261:\n261 - 75 = 186\n\nBaker still has 186 cakes.\nSo the answer is \\boxed{186",
+      "pred_answer": 186.0
+    },
+    {
+      "question": "Japan has 125 million people. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's find the total number of cakes Baker made: 110 (initial cakes) + 76 (additional cakes) = 186 cakes.\n\nNow, let's subtract the number of cakes sold: 186 (total cakes) - 75 (cakes sold) = 111 cakes.\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "The US has 50 states. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would still have, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially and sold 75, so he had 110 - 75 = 35 cakes left.\n\nThen, he made 76 more cakes. To find out how many cakes he would have now, we add the 76 cakes he made to the 35 cakes he already had:\n\n35 + 76 = 111\n\nSo, Baker would have 111 cakes now.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "The EU has 27 member states. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would have left, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially.\nHe sold 75 cakes.\nHe made 76 more cakes.\n\n110 - 75 = 35\n35 + 76 = 111\n\nBaker would have 111 cakes left.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's add the number of cakes he made: 110 + 76 = 186 cakes.\n\nNow, let's subtract the number of cakes he sold: 186 - 75 = 111 cakes.\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially and sold 75 of them. So, he had 110 - 75 = 35 cakes left.\n\nThen, he made 76 more cakes. To find out how many cakes he has now, we add the cakes he made to the cakes he already had:\n\n35 (cakes left) + 76 (cakes made) = 111 cakes\n\nSo, Baker still has 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would still have, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's find the total number of cakes Baker made: 110 + 76 = 186 cakes.\n\nNow, let's subtract the number of cakes he sold: 186 - 75 = 111 cakes.\n\nSo, Baker would still have 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "The human body has 206 bones. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would still have, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's find the total number of cakes Baker made: 110 (initial cakes) + 76 (additional cakes) = 186 cakes.\n\nNow, let's subtract the number of cakes he sold: 186 (total cakes) - 75 (cakes sold) = 111 cakes.\n\nSo, Baker would still have 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would still have, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's find the total number of cakes Baker made: 110 (initial cakes) + 76 (additional cakes) = 186 cakes.\n\nNow, let's subtract the number of cakes he sold: 186 (total cakes) - 75 (cakes sold) = 111 cakes.\n\nSo, Baker would still have 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would still have, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's find the total number of cakes Baker made: 110 (initial cakes) + 76 (additional cakes) = 186 cakes.\n\nNow, let's subtract the number of cakes sold: 186 (total cakes) - 75 (cakes sold) = 111 cakes.\n\nSo, Baker would still have 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would still have, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's find the total number of cakes Baker made: \n110 cakes (initial) + 76 cakes (additional) = 186 cakes\n\nNow, let's subtract the number of cakes sold: \n186 cakes - 75 cakes = 111 cakes\n\nSo, Baker would still have 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would still have, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nFirst, let's add the number of cakes he made: 110 (initial cakes) + 76 (additional cakes) = 186 cakes.\n\nThen, let's subtract the number of cakes he sold: 186 (total cakes) - 75 (cakes sold) = 111 cakes.\n\nSo, Baker would still have 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many cakes Baker would still have, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially. He sold 75 cakes, so he had 110 - 75 = 35 cakes left.\n\nThen, he made 76 more cakes. To find out how many cakes he has now, we add the cakes he made to the cakes he had left:\n\n35 (cakes left) + 76 (cakes made) = 111 cakes\n\nSo, Baker would still have 111 cakes.\nSo the answer is \\boxed{111",
+      "pred_answer": 111.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find out how many cakes Baker still has, we need to subtract the number of cakes he sold from the total number of cakes he made.\n\nBaker made 110 cakes initially.\nHe sold 75 cakes.\nHe made 76 more cakes.\n\n110 - 75 = 35\n35 - 76 = -41\n\nBaker still has -41 cakes.\nSo the answer is \\boxed{Baker still has 41 cakes.",
+      "pred_answer": 41.0
+    }
+  ]
+}

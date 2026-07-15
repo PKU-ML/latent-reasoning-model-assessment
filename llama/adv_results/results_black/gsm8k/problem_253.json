@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 253,
+  "question": "Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+  "ground_truth": "18.0",
+  "baseline_correct": true,
+  "baseline_answer": 18.0,
+  "best_rewrite": "Mount Everest is about 8849 meters high. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+  "best_fact": "Mount Everest is about 8849 meters high.",
+  "best_pred_answer": 21.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 14,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rode up. \n\nThe starting floor is 3. The floor he rode up is 4 times the starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill rode up 18 floors. \n\nTo find the new floor, we need to add 18 to the starting floor. \n\n3 + 18 = 21\n\nBill is now on the 21st floor.\nSo the answer is \\boxed{21",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "April has 30 days. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has climbed.\n\nStarting floor: 3\nClimbed 4 times the starting floor: 3 * 4 = 12\nAdding 6 to the result: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up in the elevator. \n\nThe starting floor is 3. The elevator takes him to a floor that's 4 times his starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill rides the elevator 18 floors up. \n\nSince he started on the 3rd floor, we need to add 18 to 3 to find the current floor. \n\n3 + 18 = 21\n\nBill is now on the 21st floor.\nSo the answer is \\boxed{The answer is 21.",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6. \n\nBill's starting floor is 3. \n4 times 3 is 12\n12 + 6 is 18\n\nSo Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the current floor, we need to calculate the number of floors Bill rides up. \n\nBill starts on the 3rd floor. The elevator takes him to a floor that's 4 times his starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill rides the elevator up to the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A year has 12 months. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nThe starting floor is 3. The floor that's equal to 4 times the starting floor plus 6 is 4 * 3 + 6 = 18. \n\nSo, Bill rides up 18 floors. \n\nStarting from the 3rd floor, we add 18 floors to get to the 21st floor. \n\nTherefore, Bill is on the 21st floor.\nSo the answer is \\boxed{The answer is 21.",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "A week has 7 days. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up to the 4 times his starting floor plus 6.\n\nStarting floor: 3\nRiding up 4 times his starting floor: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "An hour has 60 minutes. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rode up. \n\nThe starting floor is 3. The floor he rode up is 4 times the starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill rode up 18 floors. \n\nSince an hour has 60 minutes, we need to convert the number of floors to minutes. \n\n18 floors * 60 minutes per floor = 1080 minutes\n\nNow, we need to find the floor Bill is on after 1080 minutes. \n\nTo do this, we divide 1080 by 60 (since there are 60 minutes in an hour). \n\n1080 / 60 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A minute has 60 seconds. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has traveled. \n\nThe starting floor is 3. The floor he rides up to is 4 times his starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A year has 365 days. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of days it takes for him to reach the floor that's equal to 4 times his starting floor plus 6.\n\nLet's break it down:\n\n- Starting floor: 3\n- The floor that's equal to 4 times the starting floor plus 6: 4 * 3 + 6 = 12 + 6 = 18\n\nSince Bill starts on the 3rd floor, we need to add 18 to 3 to find the new floor:\n\n3 + 18 = 21\n\nSo, Bill is on the 21st floor.\nSo the answer is \\boxed{The answer is 21.",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nThe starting floor is 3. The floor that's equal to 4 times the starting floor plus 6 is 4 * 3 + 6 = 18. \n\nSo, Bill rides up 18 floors. \n\nStarting from the 3rd floor, we add 18 floors to get to the 21st floor. \n\nTherefore, Bill is on the 21st floor.\nSo the answer is \\boxed{The answer is 21.",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the distance he traveled in meters and then divide it by the speed of sound.\n\nThe distance traveled is the difference between the starting floor and the floor he is on now. \nStarting floor: 3\nCurrent floor: 4 * 3 + 6 = 18\n\nDistance traveled: 18 - 3 = 15 meters\n\nNow, we divide the distance traveled by the speed of sound:\n15 meters / 343 meters/second ≈ 0.0436 seconds\n\nSince there are 1000 meters in a kilometer, we can convert the time to seconds:\n0.0436 seconds ≈ 0.0436 * 1000 = 43.6 seconds\n\nNow, we can find the floor Bill is on by dividing the time by the speed of sound:\n43.6 seconds / 343 meters/second ≈ 0.128 floors\n\nSince Bill started on the 3rd floor, we add 0.128 floors to 3:\n3 + 0.128 ≈ 3.128 floors\n\nSo, Bill is approximately on the 3rd floor + 0.128 floors = 3.128 floors.\nSo the answer is \\boxed{The answer is 3.128.",
+      "pred_answer": 3.128
+    },
+    {
+      "question": "Water freezes at 0 degrees. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nBill starts on the 3rd floor. The elevator takes him to a floor that's equal to 4 times his starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill rides the elevator up to the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the distance he traveled in the elevator. \n\nThe distance traveled is 4 times the starting floor plus 6. Let's call the starting floor 'x'. \n\nSo, the distance traveled is 4x + 6.\n\nWe know that the speed of light is 300,000 km/s. We can use the formula distance = speed * time to find the time it took for the elevator to travel the distance. Since the time is not given, we can use the formula distance = speed * time. \n\nWe know the distance traveled is 4x + 6 and the speed is 300,000 km/s. So, we can write the equation as:\n\n4x + 6 = 300,000 * time\n\nWe don't know the time, but we can express it in terms of x. We can rewrite the equation as:\n\n4x + 6 = 300,000x / time\n\nSince time is not given, we can assume it's a constant time. Let's call the time 't'. Then, we can rewrite the equation as:\n\n4x + 6 = 300,000x / t\n\nNow, we can solve for x:\n\n4x + 6 = 300,000x / t\n4x + 6t = 300,000x\n6t = 300,000x - 4x\n6t = 296,996x\nt = 296,996x / 6\nt = 496,996x / 6\nt = 82,999.67x\n\nNow, we can substitute the value of t in the equation 4x + 6 = 300,000x / t\n\n4x + 6 = 300,000x / (496,996x / 6)\n4x + 6 = 300,000x / 82,999.67\n4x + 6 = 3.65x\n\nNow, we can solve for x:\n\n4x - 3.65x = -6\n0.35x = -6\nx = -6 / 0.35\nx = -17.14\n\nSince x is the starting floor, we can round it to the nearest whole number. The starting floor is 3, so Bill is on the 3rd floor.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has climbed.\n\nBill starts on the 3rd floor.\nHe rides the elevator up to the floor that's equal to 4 times his starting floor plus 6.\n\n4 times 3 is 12.\nAdding 6 to 12 gives 18.\n\nSo, Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "An adult has 32 teeth. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has climbed.\n\nStarting floor: 3\nClimbed 4 times: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "China has 1.4 billion people. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nBill starts on the 3rd floor. The elevator takes him to a floor equal to 4 times his starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill rides the elevator 18 floors up. \n\nTo find the new floor, we add 18 to his starting floor:\n\n3 + 18 = 21\n\nBill is now on the 21st floor.\nSo the answer is \\boxed{21",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "Japan has 125 million people. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nThe starting floor is 3. The floor that's equal to 4 times the starting floor plus 6 is 4 * 3 + 6 = 18. \n\nSo, Bill rides up 18 floors. \n\nStarting from the 3rd floor, we add 18 floors to get to the 21st floor. \n\nTherefore, Bill is now on the 21st floor.\nSo the answer is \\boxed{21",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "The US has 50 states. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to follow the steps:\n\n1. Bill starts on the 3rd floor.\n2. The elevator goes up 4 times his starting floor plus 6. \n   - 3rd floor + 4 * 3 + 6 = 3 + 12 + 6 = 21\n\nSo, Bill is now on the 21st floor.\nSo the answer is \\boxed{The answer is 21.",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "The EU has 27 member states. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to follow the steps:\n\n1. Bill starts on the 3rd floor.\n2. The elevator goes up 4 times his starting floor plus 6. \n   - 3rd floor + 4 * 3 = 3rd floor + 12 = 15th floor\n3. So, Bill is now on the 15th floor.\n\nThe answer is 15.\nSo the answer is \\boxed{The answer is 15.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has climbed.\n\nThe starting floor is 3.\nThe floor he rides up to is 4 times his starting floor plus 6, which is 4 * 3 + 6 = 18.\n\nSo, Bill is now on the 18th floor.\nSo the answer is \\boxed{The 18th floor.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nThe starting floor is 3. The floor that's equal to 4 times the starting floor plus 6 is 4 * 3 + 6 = 18. \n\nSo, Bill rides up 18 floors. Since the elevator starts from the 3rd floor, we need to add 18 to 3 to find the new floor. \n\n3 + 18 = 21\n\nTherefore, Bill is now on the 21st floor.\nSo the answer is \\boxed{The answer is 21.",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nLet's break it down:\n\n- Starting floor: 3\n- The floor that's equal to 4 times the starting floor plus 6: 4 * 3 + 6 = 18\n- So, Bill rides up 18 floors.\n\nSince the Pacific covers 165 million km², we need to convert this to kilometers to make it easier to calculate. There are 1000 meters in a kilometer, and 1000 meters in a kilometer is 1000 * 1000 = 1,000,000 meters.\n\n165,000,000 km² = 165,000,000,000,000 meters\n\nNow, let's divide the total distance by the number of floors he rides up:\n165,000,000,000,000 / 18 = 9,166,666,667 meters\n\nSince there are 1000 meters in a kilometer, we can convert this to kilometers:\n9,166,666,667 meters / 1000 = 9,166.667 kilometers\n\nSo, Bill is on the 9th floor.\nSo the answer is \\boxed{The answer is 9.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The human body has 206 bones. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nBill starts on the 3rd floor. The elevator goes up 4 times his starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill rides the elevator up 18 floors. \n\nTo find the new floor, we add 18 to his starting floor:\n\n3 + 18 = 21\n\nBill is now on the 21st floor.\nSo the answer is \\boxed{21",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has traveled. \n\nThe starting floor is 3. The elevator takes him to a floor that is 4 times his starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has traveled. \n\nLet's break it down:\n\n- Starting floor: 3\n- Elevator goes up 4 times his starting floor, so he goes up 4 * 3 = 12 floors.\n- Then, it goes up 6 more floors, so he now is on 12 + 6 = 18 floors.\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the height of the elevator ride. \n\nThe starting floor is 3, and the floor he rides to is 4 times his starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has climbed.\n\nStarting floor: 3\nElevator floor: 4 * 3 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nBill starts on the 3rd floor. The elevator takes him to a floor equal to 4 times his starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo, Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nBill's starting floor is 3. \n4 times 3 is 12\nAdding 6 to 12 gives 18\n\nSo Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    }
+  ]
+}

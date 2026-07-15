@@ -1,0 +1,471 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 42,
+  "question": "There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?",
+  "ground_truth": "10.0",
+  "baseline": {
+    "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches = 7\nNumber of green peaches = 3\n\nTotal number of peaches = 7 + 3 = 10\n\nSo, there are 10 peaches in each basket.",
+    "pred_answer": 10.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 26,
+  "success_rate": 0.8666666666666667,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " snack Wen-disabled decadeinciple",
+      "prefix_token_ids": [
+        40459,
+        62323,
+        69167,
+        13515,
+        16379
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 7\nNumber of green peaches: 3\nTotal number of peaches: 7 + 3 = 10\n\nThere are 10 peaches in each basket.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "zemlanmış[unit益safe",
+      "prefix_token_ids": [
+        95233,
+        111189,
+        97454,
+        105576,
+        19193
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65 * 7 = 455\nNumber of green peaches: 65 * 3 = 195\n\nTotal number of peaches: 455 + 195 = 650\n\nThere are 650 peaches in each basket.\nSo the answer is \\boxed{650",
+      "pred_answer": 650.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 3,
+      "prefix": " COMMENTS بسیاری。那@ResponseBody Razor",
+      "prefix_token_ids": [
+        95842,
+        114357,
+        126763,
+        68812,
+        74968
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket:\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 4,
+      "prefix": "reatment restrict benöt DPIgetType",
+      "prefix_token_ids": [
+        35320,
+        9067,
+        92404,
+        98125,
+        29649
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets = 65\nNumber of red peaches per basket = 7\nNumber of green peaches per basket = 3\n\nTotal peaches per basket = 7 * 65 + 3\nTotal peaches per basket = 455 + 3\nTotal peaches per basket = 458\n\nSo, there are 458 peaches in each basket.\nSo the answer is \\boxed{458",
+      "pred_answer": 458.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 5,
+      "prefix": "_RDpluginsTanggal příprav[row",
+      "prefix_token_ids": [
+        29794,
+        19237,
+        96799,
+        111429,
+        17396
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to multiply the number of baskets by the number of red peaches per basket and the number of green peaches per basket.\n\nNumber of baskets: 65\nNumber of red peaches per basket: 7\nNumber of green peaches per basket: 3\n\nTotal peaches per basket = (Number of baskets * Number of red peaches per basket) + (Number of baskets * Number of green peaches per basket)\n= (65 * 7) + (65 * 3)\n= 455 + 195\n= 650\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{650",
+      "pred_answer": 650.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 6,
+      "prefix": "DEC-delay memorandum وف wik",
+      "prefix_token_ids": [
+        31826,
+        46271,
+        82758,
+        111028,
+        98275
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches = 65 * 7 = 455\nNumber of green peaches = 65 * 3 = 195\n\nTotal number of peaches = 455 + 195 = 650\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{650",
+      "pred_answer": 650.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 7,
+      "prefix": ":s Τζ Emerson\tKey garlic",
+      "prefix_token_ids": [
+        14835,
+        111546,
+        80554,
+        56342,
+        31735
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket:\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 8,
+      "prefix": "createFromเลย vriend.construct Precision",
+      "prefix_token_ids": [
+        91195,
+        109232,
+        80882,
+        85354,
+        52459
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket.\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{There are approximately 9 peaches in each basket.",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 9,
+      "prefix": "bor joins sehenSTRUCTIONENTRY",
+      "prefix_token_ids": [
+        9552,
+        29782,
+        54935,
+        58555,
+        47256
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket.\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 10,
+      "prefix": " cripp поч luxe deputy Advisors",
+      "prefix_token_ids": [
+        71108,
+        101466,
+        97200,
+        27158,
+        91785
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket:\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 11,
+      "prefix": " /[NoiseIFI(Double speaks",
+      "prefix_token_ids": [
+        96429,
+        62919,
+        35088,
+        36430,
+        21881
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 7\nNumber of green peaches: 3\n\nTotal number of peaches: 7 + 3 = 10\n\nSince there are 65 baskets, we can divide the total number of peaches by the number of baskets to find the number of peaches per basket:\n\n10 peaches / 65 baskets = 0.1538 peaches per basket\n\nSo, there are approximately 0.1538 peaches in each basket.\nSo the answer is \\boxed{0.1538",
+      "pred_answer": 0.1538,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 12,
+      "prefix": "nk iso CSP чоловік_ATTRIB",
+      "prefix_token_ids": [
+        50536,
+        34556,
+        91610,
+        115399,
+        100143
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 baskets, we can divide the total number of peaches by the number of baskets to find the number of peaches in each basket:\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 13,
+      "prefix": " discourage specialize Timber Bay-functional",
+      "prefix_token_ids": [
+        66087,
+        48444,
+        45248,
+        9332,
+        99616
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket:\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 14,
+      "prefix": "antiago ------------------------------------------------------------------------\n promo PNG buggy",
+      "prefix_token_ids": [
+        44074,
+        97681,
+        27969,
+        42739,
+        80411
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket:\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 15,
+      "prefix": "优秀 інш=float РеAdding",
+      "prefix_token_ids": [
+        126047,
+        112001,
+        34915,
+        127313,
+        33408
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches = 65 * 7 = 455\nNumber of green peaches = 65 * 3 = 195\n\nTotal number of peaches = 455 + 195 = 650\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{650",
+      "pred_answer": 650.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 16,
+      "prefix": ".startDate격 biết Ban Gut",
+      "prefix_token_ids": [
+        63357,
+        102079,
+        102613,
+        23565,
+        52683
+      ],
+      "generated_text": "Để tìm số lượng peaches trong mỗi bó, ta thực hiện phép nhân số lượng peaches trong mỗi loại (red và green) và cộng lại.\n\nSố lượng peaches trong mỗi loại là 7 và số lượng bó là 65.\n\nVậy số lượng peaches trong mỗi bó là 7 + 3 = 10.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": " dives cp especialmenteneed ds",
+      "prefix_token_ids": [
+        94521,
+        12773,
+        95102,
+        17483,
+        11729
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket:\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{There are approximately 9 peaches in each basket.",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 18,
+      "prefix": "zeug Channels cucumber_interface Egyptian",
+      "prefix_token_ids": [
+        38500,
+        64000,
+        66032,
+        21188,
+        33589
+      ],
+      "generated_text": "To find the number of peaches in each basket, we need to divide the total number of peaches by the number of baskets.\n\nTotal peaches = 65\nNumber of baskets = 7\n\nNumber of peaches per basket = Total peaches / Number of baskets\n= 65 / 7\n= 9.29 (approximately)\n\nSince we can't have a fraction of a peach, we can round down to 9 peaches per basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 19,
+      "prefix": " Coleman Muse PATCH KS’te",
+      "prefix_token_ids": [
+        50532,
+        51108,
+        60445,
+        47474,
+        116904
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket.\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 20,
+      "prefix": ",en SARjecенности будь",
+      "prefix_token_ids": [
+        88531,
+        69878,
+        74301,
+        107899,
+        108218
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket:\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 21,
+      "prefix": "-login LAB_RELEASEaginiीएम",
+      "prefix_token_ids": [
+        36148,
+        32074,
+        41749,
+        91169,
+        111729
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches = 7\nNumber of green peaches = 3\n\nTotal number of peaches = 7 + 3 = 10\n\nSo, there are 10 peaches in each basket.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "аловでしょう介 perc مناطق",
+      "prefix_token_ids": [
+        120154,
+        123253,
+        75910,
+        44563,
+        119698
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nThere are 68 peaches in each basket.\nSo the answer is \\boxed{68",
+      "pred_answer": 68.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 23,
+      "prefix": " chef_IT मर-high прот",
+      "prefix_token_ids": [
+        30806,
+        42781,
+        111610,
+        28661,
+        101405
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches = 7\nNumber of green peaches = 3\n\nTotal number of peaches = 7 + 3 = 10\n\nNow, we divide the total number of peaches by the number of baskets to find the number of peaches in each basket.\n\nNumber of peaches in each basket = Total number of peaches / Number of baskets\n= 10 / 65\n= 0.1538461538461538\n\nSo, approximately 0.16 peaches are in each basket.\nSo the answer is \\boxed{0.16",
+      "pred_answer": 0.16,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 24,
+      "prefix": "děl startPosSEM Staysuspend",
+      "prefix_token_ids": [
+        101759,
+        69891,
+        84839,
+        29837,
+        99711
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches = 65 * 7 = 455\nNumber of green peaches = 65 * 3 = 195\n\nTotal number of peaches = 455 + 195 = 650\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{650",
+      "pred_answer": 650.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 25,
+      "prefix": " selections annotation┬ verilm indifferent",
+      "prefix_token_ids": [
+        38499,
+        21917,
+        118424,
+        122495,
+        80008
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket:\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 26,
+      "prefix": "Routing Fres'].\"</Baby+m",
+      "prefix_token_ids": [
+        25730,
+        60750,
+        46585,
+        60860,
+        60958
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches = 7\nNumber of green peaches = 3\n\nTotal peaches = 7 + 3 = 10\n\nSo, there are 10 peaches in each basket.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " 免евич زنانgraf lg",
+      "prefix_token_ids": [
+        116299,
+        118549,
+        114759,
+        77139,
+        27180
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket.\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 28,
+      "prefix": " får subsidi indicatesnihslu",
+      "prefix_token_ids": [
+        49616,
+        32619,
+        15151,
+        87165,
+        108040
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nNow, we divide the total number of peaches by the number of baskets to find the number of peaches in each basket:\n\n68 ÷ 65 = 1.05\n\nSo, there are approximately 1.05 peaches in each basket.\nSo the answer is \\boxed{1.05",
+      "pred_answer": 1.05,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 29,
+      "prefix": " Tony CT roller Ballard.one",
+      "prefix_token_ids": [
+        19036,
+        19084,
+        29551,
+        98816,
+        32073
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65\nNumber of green peaches: 3\n\nTotal number of peaches: 65 + 3 = 68\n\nSince there are 7 peaches in each basket, we can divide the total number of peaches by 7 to find the number of peaches in each basket:\n\n68 ÷ 7 = 9.71 (round down to 9, since you can't have a fraction of a peach)\n\nSo, there are approximately 9 peaches in each basket.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 30,
+      "prefix": " Confidential drž proximity migrationBuilder menstr",
+      "prefix_token_ids": [
+        74465,
+        127596,
+        37843,
+        17385,
+        54630
+      ],
+      "generated_text": "To find the total number of peaches in each basket, we need to add the number of red peaches and green peaches.\n\nNumber of red peaches: 65 baskets * 7 peaches per basket = 455 peaches\nNumber of green peaches: 65 baskets * 3 peaches per basket = 195 peaches\n\nTotal number of peaches: 455 + 195 = 650 peaches\n\nSo, there are 650 peaches in each basket.\nSo the answer is \\boxed{650",
+      "pred_answer": 650.0,
+      "correct": false,
+      "attack_success": true
+    }
+  ],
+  "attack_success": true
+}

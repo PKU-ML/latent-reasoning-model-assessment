@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 799,
+  "question": "A loaf of bread at the bakery costs $2. Bagels cost $1 each. How much more do 3 loaves of bread cost than 2 bagels?",
+  "ground_truth": "4",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "\")\n\n\"\n\n italiani",
+  "prefix_token_ids": [
+    5240,
+    1875,
+    80549
+  ],
+  "best_wrong_prob": 1.3063101997520938e-19,
+  "clean_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\nThe cost of 3 loaves of bread is 3 x $2 = $6.\nThe cost of 2 bagels is 2 x $1 = $2.\n\nTo find the difference, we sub",
+  "clean_pred": 4.0,
+  "clean_correct": true,
+  "adv_text": "To find the answer, we need to calculate the cost of 3 loaves of bread and 2 bagels.\n\n3 loaves of bread cost 3 x $2 = $6\n2 bagels cost 2 x $1 = $2\n\nNow, let's subtract the cost of the bagels from the ",
+  "adv_pred": 4.0,
+  "adv_correct": true,
+  "attack_success": false
+}

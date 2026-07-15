@@ -1,0 +1,27 @@
+{
+  "question": "A builder works for 4 weeks every month and for 6 days every week. If he gets paid $50 every day, how much does he earn if he works for a year?",
+  "ground_truth": "14400.0",
+  "prefix": " grim__()\n532",
+  "prefix_token_ids": [
+    44517,
+    33716,
+    20711
+  ],
+  "baseline_token_id": 8929,
+  "target_token_id": 10465,
+  "baseline_logit_diff": -8.0,
+  "clean_logit_diff": -7.9375,
+  "adv_logit_diff": 3.0625,
+  "best_logit_diff": 3.0625,
+  "clean_text": "The answer is: 14400",
+  "clean_answer": 14400.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 14640",
+  "adv_answer": 14640.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.6875,
+    3.0625
+  ]
+}

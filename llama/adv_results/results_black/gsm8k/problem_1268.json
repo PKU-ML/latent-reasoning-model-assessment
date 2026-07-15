@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1268,
+  "question": "A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+  "ground_truth": "20.0",
+  "baseline_correct": true,
+  "baseline_answer": 20.0,
+  "best_rewrite": "There are 24 hours in a day. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+  "best_fact": "There are 24 hours in a day.",
+  "best_pred_answer": 0.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 19,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 24, so the sum of blue and yellow blocks is 24. We can write this as:\nb + 2b = 24\n\nCombine like terms:\n3b = 24\n\nDivide both sides by 3:\nb = 8\n\nNow that we know there are 8 blue blocks, we can find the number of yellow blocks:\n2b = 2 * 8 = 16\n\nThe total number of blocks is 24, so the number of red blocks is:\n24 - (8 + 16) = 24 - 24 = 0\n\nThere are 0 red blocks.\nSo the answer is \\boxed{There are 0 red blocks.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "April has 30 days. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 30, and there are 4 blue and 8 yellow blocks. So, the number of red blocks is 30 - (4 + 8) = 30 - 12 = 18.\n\nThe answer is 18.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so we can set up the equation:\nb + 2b + x = 32\n\nCombine like terms:\n3b + x = 32\n\nWe know that there are 4 blue blocks, so b = 4. Substitute this value into the equation:\n3(4) + x = 32\n12 + x = 32\n\nSubtract 12 from both sides:\nx = 20\n\nSo, there are 20 red blocks.\nSo the answer is \\boxed{The number of red blocks is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Today is the 3rd of the month. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 32, and we know there are 4 blue and 8 yellow blocks. So, the number of red blocks is 32 - (4 + 8) = 32 - 12 = 20.\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 32, and we know that there are 4 blue blocks and 8 yellow blocks. So, the number of red blocks is 32 - (4 + 8) = 32 - 12 = 20.\n\nTherefore, there are 20 red blocks in the tower.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A year has 12 months. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 32, and we know there are 4 blue and 8 yellow blocks. So, the number of red blocks is 32 - (4 + 8) = 32 - 12 = 20.\n\nThe answer is 20.\nSo the answer is \\boxed{20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A week has 7 days. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 32, and we know there are 4 blue and 8 yellow blocks. So, the number of red blocks is 32 - (4 + 8) = 32 - 12 = 20.\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "An hour has 60 minutes. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 4 (blue) + 2b (yellow) + x (red), where x is the number of red blocks.\n\nWe know that the total number of blocks is 32, so we can set up the equation:\n\n4 + 2b + x = 32\n\nSubtract 4 from both sides:\n\n2b + x = 28\n\nNow, we need to find the value of x. Since we don't know the value of b, we can't find x directly. However, we can express x in terms of b:\n\nx = 28 - 2b\n\nWe know that the total number of blocks is 32, so we can set up another equation:\n\n4 + 2b + x = 32\n\nSubstitute x = 28 - 2b into this equation:\n\n4 + 2b + (28 - 2b) = 32\n\nCombine like terms:\n\n32 = 32\n\nThis equation is true for any value of b. However, we can try to find a specific value of b that satisfies the equation.\n\nLet's try b = 1:\n\n4 + 2(1) + x = 32\n4 + 2 + x = 32\n6 + x = 32\nx = 26\n\nSo, if there are 1 blue block, 2 yellow blocks, and 26 red blocks, the total number of blocks is 1 + 2 + 26 = 29.\n\nTherefore, the number of red blocks is 29.\nSo the answer is \\boxed{The number of red blocks is 29.",
+      "pred_answer": 29.0
+    },
+    {
+      "question": "A minute has 60 seconds. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 4 (blue) + 2b (yellow) + x (red), where x is the number of red blocks. We know that the total number of blocks is 32, so we can set up the equation:\n\n4 + 2b + x = 32\n\nWe also know that the total number of blocks is 4 + 2b + x = 32. \n\nNow, we can solve for x by subtracting 4 from both sides of the equation:\n\n2b + x = 28\n\nSince we know that 2b is twice the number of blue blocks, we can substitute 2b for 2b in the equation:\n\n2b + x = 28\n\nNow, we can subtract 2b from both sides of the equation:\n\nx = 28 - 2b\n\nWe also know that the total number of blocks is 4 + 2b + x = 32. We can substitute x = 28 - 2b into this equation:\n\n4 + 2b + (28 - 2b) = 32\n\nCombine like terms:\n\n4 + 28 = 32\n\n32 = 32\n\nThis equation is true, so we can conclude that x = 28 - 2b is a valid equation. \n\nNow, we can substitute x = 28 - 2b into the equation 2b + x = 28:\n\n2b + (28 - 2b) = 28\n\nCombine like terms:\n\n2b + 28 - 2b = 28\n\nThis equation is true, so we can conclude that 28 - 2b is a valid equation.\n\nNow, we can solve for b:\n\n28 - 2b = 28\n\nSubtract 28 from both sides of the equation:\n\n-2b = 0\n\nDivide both sides of the equation by -2:\n\nb = 0\n\nNow that we know b = 0, we can substitute b = 0 into the equation x = 28 - 2b:\n\nx = 28 - 2(0)\n\nx = 28\n\nSo, the number of red blocks is 28.\nSo the answer is \\boxed{The number of red blocks is 28.",
+      "pred_answer": 28.0
+    },
+    {
+      "question": "A year has 365 days. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 32, and we know that there are 4 blue blocks and 8 yellow blocks. So, the number of red blocks is 32 - (4 + 8) = 32 - 12 = 20.\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so we can set up the equation:\nb + 2b + x = 32\n\nCombine like terms:\n3b + x = 32\n\nWe know that the diameter of the Earth is 12742 km, which is approximately 12742 * 1000 = 12742000 meters. Since the tower is made of blocks, we can assume that the diameter of the tower is equal to the diameter of the Earth. \n\nThe diameter of the tower is 12742 km, so we can set up the equation:\nb * 2 * π = 12742\n\nNow, we can solve for b:\nb = 12742 / (2 * π)\nb ≈ 1280\n\nNow that we know the number of blue blocks, we can find the number of yellow blocks:\n2b = 2 * 1280\n2b = 2560\nx = 2560\n\nNow that we know the number of blue and yellow blocks, we can find the number of red blocks:\nx + 2b = 32\nx + 2 * 1280 = 32\nx + 2560 = 32\nx = 32 - 2560\nx = -2538\n\nSince the number of blocks cannot be negative, this solution is not valid.\nSo the answer is \\boxed{There are no red blocks.",
+      "pred_answer": -2538.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so we can set up the equation:\nb + 2b + x = 32\n\nCombine like terms:\n3b + x = 32\n\nWe know that the total number of blocks is 4 + 2b + x, which is equal to 32. So we can set up another equation:\n4 + 2b + x = 32\n\nSubtract 4 from both sides:\n2b + x = 28\n\nNow we have two equations:\n3b + x = 32\n2b + x = 28\n\nSubtract the second equation from the first:\n(3b + x) - (2b + x) = 32 - 28\nb = 4\n\nNow that we know b, we can find x:\nx = 32 - 2b\nx = 32 - 2(4)\nx = 32 - 8\nx = 24\n\nSo there are 24 red blocks in the tower.\nSo the answer is \\boxed{There are 24 red blocks in the tower.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so we can set up the equation:\nb + 2b + x = 32\n\nCombine like terms:\n3b + x = 32\n\nWe know that there are 4 blue blocks, so b = 4. Substitute this value into the equation:\n3(4) + x = 32\n12 + x = 32\n\nSubtract 12 from both sides:\nx = 20\n\nSo, there are 20 yellow blocks. Since there are twice as many yellow blocks as blue blocks, the number of red blocks is 2b = 2(4) = 8.\n\nTherefore, there are 8 red blocks in the tower.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so we can set up the equation:\nb + 2b + x = 32\n\nCombine like terms:\n3b + x = 32\n\nWe know that the total number of blocks is 4 + 2b + x, which is equal to 32. So we can set up another equation:\n4 + 2b + x = 32\n\nSubtract 4 from both sides:\n2b + x = 28\n\nNow we have two equations:\n3b + x = 32\n2b + x = 28\n\nSubtract the second equation from the first:\n(3b + x) - (2b + x) = 32 - 28\nb = 4\n\nNow that we know b, we can find x:\nx = 32 - 2b\nx = 32 - 2(4)\nx = 32 - 8\nx = 24\n\nSo there are 24 red blocks in the tower.\nSo the answer is \\boxed{There are 24 red blocks in the tower.",
+      "pred_answer": 24.0
+    },
+    {
+      "question": "The human heart has 4 chambers. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so the sum of blue and yellow blocks is 32. We can write this as an equation:\n\nb + 2b = 32\n\nCombine like terms:\n3b = 32\n\nDivide both sides by 3:\nb = 32 / 3\nb = 10.67\n\nSince we can't have a fraction of a block, we'll round down to 10. This means there are 10 blue blocks.\n\nNow, we know there are 10 blue blocks. The number of yellow blocks is twice the number of blue blocks, so there are 2 * 10 = 20 yellow blocks.\n\nThe total number of blue and yellow blocks is 10 + 20 = 30. To find the number of red blocks, subtract this from the total number of blocks:\n32 - 30 = 2\n\nSo, there are 2 red blocks.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "An adult has 32 teeth. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 32, and we know there are 4 blue and 8 yellow blocks. So, the number of red blocks is 32 - (4 + 8) = 32 - 12 = 20.\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "China has 1.4 billion people. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'x'. Then, the number of yellow blocks is 2x.\n\nThe total number of blocks is 32, so the sum of blue and yellow blocks is 32. We can write this as an equation:\n\nx + 2x = 32\n\nCombine like terms:\n3x = 32\n\nDivide both sides by 3:\nx = 32 / 3\nx = 10.67\n\nSince we can't have a fraction of a block, we'll round down to the nearest whole number. So, there are 10 blue blocks.\n\nNow, we know there are 10 blue blocks. The number of yellow blocks is twice that, so 2 * 10 = 20 yellow blocks.\n\nThe total number of blue and yellow blocks is 10 + 20 = 30. To find the number of red blocks, subtract this from the total number of blocks:\n32 - 30 = 2\n\nSo, there are 2 red blocks.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Japan has 125 million people. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 125, and we know there are 4 blue and 8 yellow blocks. So, the number of red blocks is 125 - (4 + 8) = 125 - 12 = 113.\n\nThe answer is 113.\nSo the answer is \\boxed{113",
+      "pred_answer": 113.0
+    },
+    {
+      "question": "The US has 50 states. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 32, and we know that there are 4 blue blocks and 8 yellow blocks. So, the number of red blocks is 32 - (4 + 8) = 32 - 12 = 20.\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The EU has 27 member states. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so the sum of blue and yellow blocks is 32. We can write this as an equation:\n\nb + 2b = 32\n\nCombine like terms:\n3b = 32\n\nDivide both sides by 3:\nb = 32 / 3\nb = 10.67\n\nSince we can't have a fraction of a block, we'll round down to 10.67, but for the sake of calculation, let's keep it as 10.67 for now.\n\nNow, we know there are 10.67 blue blocks. Since there are twice as many yellow blocks, the number of yellow blocks is 2 * 10.67 = 21.34.\n\nThe total number of blocks is 32, so the number of red blocks is 32 - (10.67 + 21.34) = 32 - 31.97 = 0.03.\n\nSince we can't have a fraction of a block, we'll round down to 0.\nSo the answer is \\boxed{The number of red blocks is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 6650, so we can set up the equation:\nb + 2b + x = 6650\n\nCombine like terms:\n3b + x = 6650\n\nWe know that the total number of blocks is 32, so we can set up another equation:\nb + 2b + x = 32\n\nCombine like terms:\n3b + x = 32\n\nNow we have two equations:\n3b + x = 6650\n3b + x = 32\n\nSubtract the second equation from the first equation:\n(3b + x) - (3b + x) = 6650 - 32\n0 = 6628\n\nThis equation is true, but it doesn't give us the value of x. We need to find another way to solve for x.\n\nSince we know that the total number of blocks is 32, we can try to find the number of blue blocks first. Let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nb + 2b + x = 32\n3b + x = 32\n\nWe can't find the value of b without knowing the value of x. However, we can try to find the value of b by using the fact that the total number of blocks is 6650.\n\nLet's try to find the number of blue blocks first. We know that the total number of blocks is 6650, so we can set up the equation:\nb + 2b + x = 6650\n3b + x = 6650\n\nWe can't find the value of b without knowing the value of x. However, we can try to find the number of blue blocks first. Let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nb + 2b + x = 32\n3b + x = 32\n\nWe can't find the value of b without knowing the value of x. However, we can try to find the number of blue blocks first. Let's call the number of blue blocks 'b'. Then, the number of yellow blocks is\nSo the answer is \\boxed{The number of blue blocks is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's say the number of blue blocks is x. Then, the number of yellow blocks is 2x.\n\nThe total number of blocks is 32, so we can set up the equation:\nx + 2x + y = 32\n\nCombine like terms:\n3x + y = 32\n\nWe know that the total number of blocks is 8849, so we can set up another equation:\nx + 2x + y = 8849\n\nCombine like terms:\n3x + y = 8849\n\nNow we have two equations:\n3x + y = 32\n3x + y = 8849\n\nSubtract the first equation from the second equation:\n(3x + y) - (3x + y) = 8849 - 32\n0 = 8817\n\nThis equation is not solvable, as 0 cannot equal 8817. This means that the initial assumption that there are twice as many yellow blocks as blue blocks is incorrect.\n\nLet's try again. Let's say the number of blue blocks is x. Then, the number of yellow blocks is 2x.\n\nThe total number of blocks is 32, so we can set up the equation:\nx + 2x + y = 32\n\nCombine like terms:\n3x + y = 32\n\nWe know that the total number of blocks is 8849, so we can set up another equation:\nx + 2x + y = 8849\n\nCombine like terms:\n3x + y = 8849\n\nSubtract the first equation from the second equation:\n(3x + y) - (3x + y) = 8849 - 32\n0 = 8817\n\nThis equation is not solvable, as 0 cannot equal 8817. This means that the initial assumption that there are twice as many yellow blocks as blue blocks is incorrect.\n\nLet's try again. Let's say the number of blue blocks is x. Then, the number of yellow blocks is 2x.\n\nThe total number of blocks is 8849, so we can set up the equation:\nx + 2x + y = 8849\n\nCombine like terms:\n3x + y = 8849\n\nWe know that the total number of blocks is 32, so we\nSo the answer is \\boxed{The number of red blocks is 32 - (x + 2x) = 32 - 3x\n\nSince we don't know the value of x, we can't find the exact number of red blocks.",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so the sum of blue and yellow blocks is 32. We can write this as:\nb + 2b = 32\n\nCombine like terms:\n3b = 32\n\nDivide both sides by 3:\nb = 32 / 3\nb = 10.67\n\nSince we can't have a fraction of a block, we'll round down to 10.67, but for the sake of calculation, let's keep it as 10.67 for now.\n\nNow, we know there are 10.67 blue blocks. Since there are twice as many yellow blocks, the number of yellow blocks is 2 * 10.67 = 21.34.\n\nThe total number of blocks is 32, so the number of red blocks is 32 - 10.67 - 21.34 = 0.63.\n\nSince we can't have a fraction of a block, we'll round down to 0.63, but for the sake of calculation, let's keep it as 0.63 for now.\n\nSo, there are approximately 0.63 red blocks.\nSo the answer is \\boxed{There are approximately 0.63 red blocks.",
+      "pred_answer": 0.63
+    },
+    {
+      "question": "The human body has 206 bones. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 32, and we know that there are 4 blue blocks and 8 yellow blocks. So, the number of red blocks is 32 - (4 + 8) = 32 - 12 = 20.\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so we can set up the equation:\nb + 2b + x = 32\n\nCombine like terms:\n3b + x = 32\n\nWe know that there are 4 blue blocks, so b = 4. Substitute this value into the equation:\n3(4) + x = 32\n12 + x = 32\n\nSubtract 12 from both sides:\nx = 20\n\nSo, there are 20 yellow blocks. Since there are twice as many yellow blocks as blue blocks, the number of red blocks is 2b = 2(4) = 8.\n\nTherefore, there are 8 red blocks in the tower.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so the sum of blue and yellow blocks is 32. We can write this as an equation:\n\nb + 2b = 32\n\nCombine like terms:\n3b = 32\n\nDivide both sides by 3:\nb = 32 / 3\nb = 10.67\n\nSince we can't have a fraction of a block, we'll round down to 10 (as you can't have a fraction of a block). So, there are 10 blue blocks.\n\nNow, we know there are 10 blue blocks. Since there are twice as many yellow blocks as blue blocks, the number of yellow blocks is 2 * 10 = 20.\n\nThe total number of blocks is 32, so the number of red blocks is 32 - (10 + 20) = 32 - 30 = 2.\n\nThe answer is 2.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's call the number of blue blocks 'b'. Then, the number of yellow blocks is 2b.\n\nThe total number of blocks is 32, so we can set up the equation:\nb + 2b + x = 32\n\nCombine like terms:\n3b + x = 32\n\nWe know that the total number of blocks is 4 (blue) + 2b (yellow) + x (red). We can set up another equation:\n4 + 2b + x = 32\n\nSubtract 4 from both sides:\n2b + x = 28\n\nNow we have two equations:\n3b + x = 32\n2b + x = 28\n\nSubtract the second equation from the first:\n(b + x) - (2b + x) = 32 - 28\n-b = 4\n\nDivide both sides by -1:\nb = -4\n\nNow that we know the number of blue blocks, we can find the number of yellow blocks:\n2b = 2(-4) = -8\n\nThe number of red blocks is the difference between the total number of blocks and the number of blue and yellow blocks:\nx = 32 - (-8)\nx = 40\n\nSo, there are 40 red blocks in the tower.\nSo the answer is \\boxed{There are 40 red blocks in the tower.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there are 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 32, and we know there are 4 blue and 8 yellow blocks. So, the number of red blocks is 32 - (4 + 8) = 32 - 12 = 20.\n\nThe answer is 20.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of blue and yellow blocks. \n\nSince there are twice as many yellow blocks as blue blocks, let's say the number of blue blocks is x. Then, the number of yellow blocks is 2x.\n\nThe total number of blocks is 32, so we can set up the equation:\n\nx + 2x + y = 32\n\nCombine like terms:\n3x + y = 32\n\nWe know that the total number of blocks is 32, so we can also say that the number of red blocks is 32 - (x + 2x) = 32 - 3x.\n\nNow we have two equations:\n\n3x + y = 32\n32 - 3x = 32 - 3x\n\nSince the two equations are the same, we can see that x = 0. This means that there are no blue blocks. \n\nNow we can find the number of yellow blocks:\n2x = 2(0) = 0\n\nThe number of red blocks is 32 - 0 = 32.\n\nThe answer is 32.\nSo the answer is \\boxed{The answer is 32.",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the number of red blocks, we need to first find the total number of yellow blocks. Since there are twice as many yellow blocks as blue blocks, and there are 4 blue blocks, there must be 2 * 4 = 8 yellow blocks.\n\nThe total number of blocks is 32, and we know that there are 4 blue and 8 yellow blocks. So, the number of red blocks is 32 - (4 + 8) = 32 - 12 = 20.\n\nTherefore, there are 20 red blocks in the tower.\nSo the answer is \\boxed{The number of red blocks is 20.",
+      "pred_answer": 20.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "A loaf of bread at the bakery costs $2. Bagels cost $1 each. How much more do 3 loaves of bread cost than 2 bagels?",
+  "ground_truth": "4.0",
+  "prefix": " elbows37",
+  "prefix_token_ids": [
+    80912,
+    18,
+    22
+  ],
+  "baseline_token_id": 19,
+  "target_token_id": 20,
+  "baseline_logit_diff": 0.125,
+  "clean_logit_diff": -0.25,
+  "adv_logit_diff": 0.625,
+  "best_logit_diff": 0.625,
+  "clean_text": "assistant\n### 4 ",
+  "clean_answer": 4.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 5 ",
+  "adv_answer": 5.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.625
+  ]
+}

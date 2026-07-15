@@ -1,0 +1,27 @@
+{
+  "question": " Adam had 33 books. If he sold 11 of them and used the money he earned to buy 23 new books, how many books would Adam have? ",
+  "ground_truth": "45.0",
+  "prefix": " zip centimeters popularity",
+  "prefix_token_ids": [
+    19974,
+    48829,
+    11533
+  ],
+  "baseline_token_id": 4153,
+  "target_token_id": 1679,
+  "baseline_logit_diff": -2.65625,
+  "clean_logit_diff": -7.84375,
+  "adv_logit_diff": 6.9921875,
+  "best_logit_diff": 6.9921875,
+  "clean_text": "Adam had 33 books. If he sold 11 of them and used the money he earned to buy 23 new books, how many books would Adam have?\n### 45",
+  "clean_answer": 45.0,
+  "clean_correct": true,
+  "adv_text": "zip centimeters popularityAdam had 33 books. If he sold 11 of them and used the money he earned to buy 23 new books, how many books would Adam have?\n### 35",
+  "adv_answer": 35.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.75,
+    6.9921875
+  ]
+}

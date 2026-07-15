@@ -1,0 +1,28 @@
+{
+  "question": "Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?",
+  "ground_truth": "150.0",
+  "prefix": " drafted Verge Essex HW Shards",
+  "prefix_token_ids": [
+    15937,
+    44499,
+    38307,
+    44884,
+    46464
+  ],
+  "baseline_token_id": 6640,
+  "target_token_id": 1542,
+  "baseline_logit_diff": 2.375,
+  "clean_logit_diff": -2.046875,
+  "adv_logit_diff": 4.875,
+  "best_logit_diff": 4.875,
+  "clean_text": "Ali is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?\n### 150",
+  "clean_answer": 150.0,
+  "clean_correct": true,
+  "adv_text": "drafted Verge Essex HW ShardsAli is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali’s class which has the capacity of 120 students. What is the combined capacity of both schools?\n### 780",
+  "adv_answer": 780.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    4.875
+  ]
+}

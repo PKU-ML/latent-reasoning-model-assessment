@@ -1,0 +1,26 @@
+{
+  "question": "Bruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?",
+  "ground_truth": "23.0",
+  "prefix": "Four harmonic files",
+  "prefix_token_ids": [
+    15137,
+    49239,
+    3696
+  ],
+  "baseline_token_id": 2242,
+  "target_token_id": 4747,
+  "baseline_logit_diff": -6.84375,
+  "clean_logit_diff": -7.546875,
+  "adv_logit_diff": 1.5732421875,
+  "best_logit_diff": 1.5732421875,
+  "clean_text": "Bruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?\n### 23",
+  "clean_answer": 23.0,
+  "clean_correct": true,
+  "adv_text": "Four harmonic filesBruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?\n### 33",
+  "adv_answer": 33.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.5732421875
+  ]
+}

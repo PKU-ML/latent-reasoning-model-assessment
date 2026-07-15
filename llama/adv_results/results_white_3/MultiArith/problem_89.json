@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 89,
+  "question": " Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, how many 5 dollar toys could he buy? ",
+  "ground_truth": "2",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Pouronto \"$",
+  "prefix_token_ids": [
+    27058,
+    10138,
+    5312
+  ],
+  "best_wrong_prob": 1.8840259123102296e-17,
+  "clean_text": "To find out how many 5-dollar toys Paul can buy, we need to divide the total amount of money he has by the cost of each toy.\n\nPaul has 3 dollars and received 7 dollars for his allowance. To find the t",
+  "clean_pred": 2.0,
+  "clean_correct": true,
+  "adv_text": "Pouronto had 3 dollars. He received 7 dollars for his allowance. To find out how many 5 dollar toys he could buy, we need to divide the total amount of money he has by the price of each toy.\n\n3 dollar",
+  "adv_pred": 0.0,
+  "adv_correct": false,
+  "attack_success": true
+}

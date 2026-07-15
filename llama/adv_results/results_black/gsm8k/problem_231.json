@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 231,
+  "question": "Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+  "ground_truth": "50.0",
+  "baseline_correct": true,
+  "baseline_answer": 50.0,
+  "best_rewrite": "The speed of sound in air is about 343 meters per second. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+  "best_fact": "The speed of sound in air is about 343 meters per second.",
+  "best_pred_answer": 25.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 3,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, Kylie collects 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 shells by 2 to find out how many shells Kylie collects on Tuesday: 25 * 2 = 50.\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "April has 30 days. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Tuesday. \n\nSince Robert collects 20 shells on Monday, and Kylie collects 2 times more shells on Tuesday than Robert, we can calculate Robert's shells on Tuesday as 20 + 2 * 20 = 60.\n\nNow, we know Kylie collects 5 more shells than Robert on Monday, so we can calculate Kylie's shells on Tuesday as 20 + 5 = 25.\n\nTherefore, Kylie collects 25 shells on Tuesday.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, Kylie collects 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (the number of shells Kylie collected on Monday) by 2 to find out how many shells she collects on Tuesday. \n\n25 * 2 = 50\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, we can calculate Robert's total as 20 + 5 = 25 shells.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (Robert's total) by 2 to find out how many shells Kylie collects on Tuesday. 25 * 2 = 50.\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, we can calculate Robert's total as 20 + 5 = 25 shells.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (Robert's total) by 2 to find out how many shells Kylie collects on Tuesday: 25 * 2 = 50.\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "A year has 12 months. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, Kylie collects 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (the number of shells Kylie collected on Monday) by 2 to find out how many shells she collected on Tuesday. 25 * 2 = 50.\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "A week has 7 days. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, Kylie collects 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (the number of shells Kylie collected on Monday) by 2 to find out how many shells she collects on Tuesday. \n\n25 * 2 = 50\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "An hour has 60 minutes. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, Kylie collects 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (the number of shells Kylie collected on Monday) by 2 to find out how many shells she collects on Tuesday. \n\n25 * 2 = 50\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "A minute has 60 seconds. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, Kylie collects 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (the number of shells Kylie collected on Monday) by 2 to find out how many shells she collected on Tuesday. \n\n25 * 2 = 50\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "A year has 365 days. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. \n\nSince Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, Kylie collects 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, 2 * 25 = 50 shells.\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells she collected on Monday. \n\nOn Monday, Robert collected 20 shells. Since Kylie collected 5 more shells than Robert, Kylie collected 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collected 2 times more shells than she did on Monday. So, 2 * 25 = 50 shells.\n\nTherefore, Kylie collected 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Tuesday. \n\nSince Robert collects 20 shells on Monday, and Kylie collects 2 times more shells on Tuesday than she did on Monday, we can calculate the number of shells Robert collects on Tuesday as follows:\n\nRobert's shells on Monday = 20\nKylie's shells on Tuesday = 2 * 20 = 40\n\nNow, we know that Kylie collects 5 more shells than Robert on Monday, so we can find out how many shells Kylie collects on Tuesday:\n\nKylie's shells on Tuesday = 20 + 5 = 25\n\nTherefore, Kylie collects 25 shells on Tuesday.\nSo the answer is \\boxed{25",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells she collected on Monday. \n\nOn Monday, Robert collected 20 shells. Since Kylie collected 5 more shells than Robert, Kylie collected 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collected 2 times more shells than she did on Monday. So, 2 * 25 = 50 shells.\n\nTherefore, Kylie collected 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells she collected on Monday. \n\nOn Monday, Robert collected 20 shells. Since Kylie collected 5 more shells than Robert, Kylie collected 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collected 2 times more shells than she did on Monday. So, 2 * 25 = 50 shells.\n\nTherefore, Kylie collected 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, Kylie collects 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (the number of shells Kylie collected on Monday) by 2 to find out how many shells she collects on Tuesday. \n\n25 * 2 = 50\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "An adult has 32 teeth. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells she collected on Monday. \n\nOn Monday, Robert collected 20 shells. Since Kylie collected 5 more shells than Robert, Kylie collected 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collected 2 times more shells than she did on Monday. So, 2 * 25 = 50 shells.\n\nTherefore, Kylie collected 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "China has 1.4 billion people. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, we can calculate Robert's total as 20 + 5 = 25 shells.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (Robert's shells) by 2 to find out how many shells Kylie collects on Tuesday: 25 * 2 = 50.\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Japan has 125 million people. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, we can calculate Robert's total as follows:\n\n20 (Robert's shells) + 5 (Kylie's extra shells) = 25 shells\n\nNow, we know that Kylie collects 2 times more shells on Tuesday than she did on Monday. To find out how many shells Kylie collects on Tuesday, we can multiply the number of shells Robert collects on Monday by 2:\n\n25 (Robert's shells) * 2 = 50 shells\n\nSo, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The US has 50 states. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, we can calculate Robert's total as 20 + 5 = 25 shells.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (Robert's total) by 2 to find out how many shells Kylie collects on Tuesday: 25 * 2 = 50.\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The EU has 27 member states. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, we can calculate Robert's total as 20 + 5 = 25 shells.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (Robert's total) by 2 to find out how many shells Kylie collects on Tuesday: 25 * 2 = 50.\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, we can calculate Robert's total as 20 + 5 = 25 shells.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (Robert's total) by 2 to find out how many shells Kylie collects on Tuesday: 25 * 2 = 50.\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells she collected on Monday. \n\nSince Robert collected 20 shells on Monday, and Kylie collected 5 more shells than Robert, Kylie collected 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collected 2 times more shells than she did on Monday. So, 2 * 25 = 50 shells.\n\nTherefore, Kylie collected 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, we can calculate Robert's total as 20 + 5 = 25 shells.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (Robert's shells) by 2 to find out how many shells Kylie collects on Tuesday: 25 * 2 = 50 shells.\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "The human body has 206 bones. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells she collected on Monday. \n\nOn Monday, Robert collected 20 shells. Since Kylie collected 5 more shells than Robert, Kylie collected 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collected 2 times more shells than she did on Monday. So, 2 * 25 = 50 shells.\n\nTherefore, Kylie collected 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells she collected on Monday. \n\nOn Monday, Robert collected 20 shells. Since Kylie collected 5 more shells than Robert, Kylie collected 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collected 2 times more shells than she did on Monday. So, 2 * 25 = 50 shells.\n\nTherefore, Kylie collected 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Tuesday. \n\nSince Robert collects 20 shells on Monday, and Kylie collects 2 times more shells on Tuesday than she did on Monday, we can calculate Robert's shells on Tuesday as follows:\n\nRobert's shells on Tuesday = 20 + 2 * 20\nRobert's shells on Tuesday = 20 + 40\nRobert's shells on Tuesday = 60\n\nNow that we know Robert collects 60 shells on Tuesday, we can find out how many shells Kylie collects on Tuesday by adding 5 to Robert's total:\n\nKylie's shells on Tuesday = 60 + 5\nKylie's shells on Tuesday = 65\n\nSo, Kylie collects 65 shells on Tuesday.\nSo the answer is \\boxed{65",
+      "pred_answer": 65.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, we can find the number of shells Robert collects on Monday by adding 5 to 20.\n\n20 + 5 = 25\n\nNow that we know Robert collects 25 shells on Monday, we can find out how many shells Kylie collects on Tuesday by multiplying 25 by 2.\n\n25 * 2 = 50\n\nSo, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells Robert collects on Monday. Since Robert collects 20 shells on Monday, and Kylie collects 5 more shells than Robert, Kylie collects 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. So, we multiply 25 (the number of shells Kylie collected on Monday) by 2 to find out how many shells she collects on Tuesday. \n\n25 * 2 = 50\n\nTherefore, Kylie collects 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells she collected on Monday. \n\nOn Monday, Robert collected 20 shells. Since Kylie collected 5 more shells than Robert, Kylie collected 20 + 5 = 25 shells.\n\nOn Tuesday, Kylie collected 2 times more shells than she did on Monday. So, 2 * 25 = 50 shells.\n\nTherefore, Kylie collected 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many shells Kylie collects on Tuesday, we need to first find out how many shells she collected on Monday. \n\nOn Monday, Robert collected 20 shells. Since Kylie collected 5 more shells than Robert, Kylie collected 20 + 5 = 25 shells on Monday.\n\nOn Tuesday, Kylie collected 2 times more shells than she did on Monday. So, 2 * 25 = 50 shells.\n\nTherefore, Kylie collected 50 shells on Tuesday.\nSo the answer is \\boxed{The answer is 50.",
+      "pred_answer": 50.0
+    }
+  ]
+}

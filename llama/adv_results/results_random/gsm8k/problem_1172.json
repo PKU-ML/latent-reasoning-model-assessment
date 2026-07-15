@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1172,
+  "question": "Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+  "ground_truth": "93.0",
+  "baseline": {
+    "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds from each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted a total of 93 clouds at lunch across all five days.",
+    "pred_answer": 93.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 0,
+  "success_rate": 0.0,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " villain CMS895 pis۰۰۰",
+      "prefix_token_ids": [
+        40148,
+        37341,
+        25238,
+        63414,
+        116307
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "iş ThumbКА AUTHORS Arbeit",
+      "prefix_token_ids": [
+        98902,
+        93356,
+        111053,
+        27786,
+        58903
+      ],
+      "generated_text": "To find the total number of clouds Thumbeka counts, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 x 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 x 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 x 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 x 2 = 48 clouds.\n\nNow, let's add up the number of clouds for each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Thumbeka will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": " bilg � CarrieAsStream'>{",
+      "prefix_token_ids": [
+        102408,
+        91576,
+        65551,
+        72481,
+        64320
+      ],
+      "generated_text": "To find the total number of clouds Carrie will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, Carrie counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds from each day:\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Carrie will count a total of 93 clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "公告msgid summit日期 혼",
+      "prefix_token_ids": [
+        114969,
+        87609,
+        30048,
+        46885,
+        113832
+      ],
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " Neh\trun-storyvidence RequestMethod",
+      "prefix_token_ids": [
+        73536,
+        57842,
+        46199,
+        28580,
+        30657
+      ],
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "\tdelay اص bapt.Xtra Dış",
+      "prefix_token_ids": [
+        56274,
+        101972,
+        43724,
+        10908,
+        107883
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": " rats parseFloat odstran(Routekeyboard",
+      "prefix_token_ids": [
+        32510,
+        26847,
+        125015,
+        96045,
+        42813
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 puffs of clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 puffs of clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 puffs of clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 puffs of clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 puffs of clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 puffs of clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " Serious Fav otom Xu}`,",
+      "prefix_token_ids": [
+        74596,
+        82041,
+        114943,
+        57514,
+        29450
+      ],
+      "generated_text": "To find the total number of clouds counted by Alice, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": "ılığ neglig něj отримання whereby",
+      "prefix_token_ids": [
+        121989,
+        36156,
+        103317,
+        127207,
+        49001
+      ],
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, Alice counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "isms bleach fovцион semp",
+      "prefix_token_ids": [
+        13978,
+        83451,
+        94573,
+        102605,
+        75697
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds she sees each day and add them up.\n\nOn Monday, she sees 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "_LAST_CHUNK.borderWidth lö آلمان",
+      "prefix_token_ids": [
+        37894,
+        71608,
+        66478,
+        77233,
+        116161
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "overflow่อนوني.Quitrosis",
+      "prefix_token_ids": [
+        21490,
+        103789,
+        108705,
+        96932,
+        63412
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, Alice counts 3 puffs of clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 puffs.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 puffs.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 puffs.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 puffs.\n\nNow, let's add up the number of clouds for each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will count a total of 93 puffs of clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": ".ResponsePoss방송+.,b",
+      "prefix_token_ids": [
+        12859,
+        83729,
+        122676,
+        50020,
+        8568
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "POP_bus assort� Bowl",
+      "prefix_token_ids": [
+        48362,
+        26492,
+        51034,
+        84150,
+        20904
+      ],
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, Alice counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " ler hearings negot成人\tcontrol",
+      "prefix_token_ids": [
+        76120,
+        45348,
+        11903,
+        118104,
+        83886
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " phạt wanting manaTOTcalcul",
+      "prefix_token_ids": [
+        114924,
+        19762,
+        31231,
+        66720,
+        81730
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": " alınan jButton пи\"]),ário",
+      "prefix_token_ids": [
+        119913,
+        25663,
+        103277,
+        64724,
+        20358
+      ],
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": " Paid SMART dök Momsliner",
+      "prefix_token_ids": [
+        55182,
+        80708,
+        126282,
+        84395,
+        62898
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": "_cyclesSUPER\\FrameworkBundleость砂",
+      "prefix_token_ids": [
+        70070,
+        91986,
+        77499,
+        97747,
+        120843
+      ],
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " _{}.SpringBootApplication_notice(typeof Sonuç",
+      "prefix_token_ids": [
+        112069,
+        63023,
+        52907,
+        12043,
+        122716
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " btwLas Nichols Changed(filter",
+      "prefix_token_ids": [
+        90957,
+        44903,
+        81250,
+        47394,
+        20283
+      ],
+      "generated_text": "To find the total number of clouds counted by Alice, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, Alice counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "ısından دوره comparisons LENGTH karıştır",
+      "prefix_token_ids": [
+        109909,
+        107074,
+        36595,
+        72938,
+        126161
+      ],
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, Alice counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds for each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted a total of 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "_mar 자신 य)}>\nWHERE",
+      "prefix_token_ids": [
+        39163,
+        106915,
+        100393,
+        39136,
+        27611
+      ],
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the number of clouds from Monday, which is 3 * 2 = 6 clouds.\n\nOn Wednesday, she counts double the number of clouds from Tuesday, which is 6 * 2 = 12 clouds.\n\nOn Thursday, she counts double the number of clouds from Wednesday, which is 12 * 2 = 24 clouds.\n\nOn Friday, she counts double the number of clouds from Thursday, which is 24 * 2 = 48 clouds.\n\nNow, let's add up the number of clouds for each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted a total of 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "ดkind\\DependencyInjectionCHEMY Phillips",
+      "prefix_token_ids": [
+        38133,
+        15674,
+        85336,
+        84752,
+        37514
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "(questionanswer<ElementीकरणPOL",
+      "prefix_token_ids": [
+        41157,
+        9399,
+        73465,
+        117804,
+        50403
+      ],
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will have counted 93 clouds at lunch across all five days.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "\"indices {}\r\n_member個人 php",
+      "prefix_token_ids": [
+        88031,
+        35241,
+        19951,
+        121568,
+        25361
+      ],
+      "generated_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "ısını flown Raphaelvä Rewards",
+      "prefix_token_ids": [
+        114608,
+        53850,
+        90986,
+        73150,
+        50868
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "LINE يم Parses factory elek",
+      "prefix_token_ids": [
+        8429,
+        105325,
+        74530,
+        8803,
+        63888
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, Alice counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, Alice will count a total of 93 clouds across all five days.\nSo the answer is \\boxed{The answer is 93.",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "洲 breaking PE onErrorолю",
+      "prefix_token_ids": [
+        102776,
+        15061,
+        22557,
+        33530,
+        105267
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": "敬826 Luck.KeyEvent_AMOUNT",
+      "prefix_token_ids": [
+        114330,
+        23038,
+        29872,
+        59908,
+        61093
+      ],
+      "generated_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of clouds as Monday, so she sees 2 * 3 = 6 clouds.\n\nOn Wednesday, she sees double the number of clouds as Tuesday, so she sees 2 * 6 = 12 clouds.\n\nOn Thursday, she sees double the number of clouds as Wednesday, so she sees 2 * 12 = 24 clouds.\n\nOn Friday, she sees double the number of clouds as Thursday, so she sees 2 * 24 = 48 clouds.\n\nNow, let's add up the number of clouds she sees each day:\n\n3 + 6 + 12 + 24 + 48 = 93\n\nSo, at the end of the week, Alice will have counted 93 clouds in the sky at lunch.\nSo the answer is \\boxed{93",
+      "pred_answer": 93.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": false
+}

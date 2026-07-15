@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1262,
+  "question": "John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+  "ground_truth": "12.0",
+  "baseline": {
+    "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages at his new speed of 375 WPM.",
+    "pred_answer": 12.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 10,
+  "success_rate": 0.3333333333333333,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " 삼성об kissing Fiesta大人",
+      "prefix_token_ids": [
+        122851,
+        14082,
+        52146,
+        94903,
+        119436
+      ],
+      "generated_text": "To find the new speed, we need to multiply the original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nSo, it would take 12 hours to speak 10 pages at the new speed of 375 WPM.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "reshape_dn_UClass.getMinutes atau",
+      "prefix_token_ids": [
+        16529,
+        70899,
+        68189,
+        61902,
+        39472
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages with the new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, we can convert the time from words to minutes:\nTime (minutes) = 4500 words / 60 (minutes/word)\nTime (minutes) = 75 minutes\n\nTherefore, it would take John 75 minutes to speak 10 pages at his new speed of 375 WPM.\nSo the answer is \\boxed{75",
+      "pred_answer": 75.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 3,
+      "prefix": " attendeeء_Customer oscill Aw",
+      "prefix_token_ids": [
+        94665,
+        102972,
+        95696,
+        43524,
+        18371
+      ],
+      "generated_text": "To find the new speed, we need to multiply the original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages with the new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, we can convert the time from words to minutes:\nTime (minutes) = 4500 words / 60 (minutes/word)\nTime (minutes) = 75 minutes\n\nTherefore, it would take AwJohn 75 minutes to speak 10 pages with his new speed.\nSo the answer is \\boxed{75",
+      "pred_answer": 75.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 4,
+      "prefix": "_quality�� mai aç sending",
+      "prefix_token_ids": [
+        56174,
+        34643,
+        17154,
+        64010,
+        11889
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " Hiring envelope humorous\tTimeUrls",
+      "prefix_token_ids": [
+        89297,
+        35498,
+        70946,
+        68667,
+        16012
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, let's calculate the time it would take John to speak 10 pages with his new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, let's convert the time from words to minutes:\nTime = 4500 words / 60 (minutes per word)\nTime = 75 minutes\n\nTherefore, it would take John 75 minutes to speak 10 pages with his new speed.\nSo the answer is \\boxed{75",
+      "pred_answer": 75.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 6,
+      "prefix": " 산 ______ OnTriggerEnter 지원_other",
+      "prefix_token_ids": [
+        105178,
+        33771,
+        65204,
+        109682,
+        31556
+      ],
+      "generated_text": "To find the new speed, we need to multiply the original speed by 2.5.\n\nNew speed = 150 WPM * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\n\nTime = 4500 words / 375 WPM = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "EPS samo-ch.ReplaceStatic",
+      "prefix_token_ids": [
+        46277,
+        83478,
+        11843,
+        21527,
+        11952
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages at his new speed.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " Hay.Require départtalk(vertical",
+      "prefix_token_ids": [
+        18276,
+        82388,
+        76235,
+        36341,
+        81271
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages at his new speed of 375 WPM.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": ".linkstructured ratings setBackgroundColorζε",
+      "prefix_token_ids": [
+        18567,
+        52243,
+        18594,
+        80974,
+        114337
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages with the new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, we can convert the time from words to minutes:\nTime = 4500 words / 60 minutes/word\nTime = 75 minutes\n\nTherefore, it would take John 75 minutes to speak 10 pages at his new speed of 375 WPM.\nSo the answer is \\boxed{75",
+      "pred_answer": 75.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 10,
+      "prefix": "lingenülenImageUrl verdiği598",
+      "prefix_token_ids": [
+        77407,
+        111027,
+        80541,
+        116638,
+        21856
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "ازل_intersect(dateTime captivity-opening",
+      "prefix_token_ids": [
+        123212,
+        73847,
+        90559,
+        84019,
+        86308
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "/pages-append seç Comparativeencryption",
+      "prefix_token_ids": [
+        30178,
+        89329,
+        102369,
+        97280,
+        81037
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": "='_ ними.activity NSInteger_notification",
+      "prefix_token_ids": [
+        53905,
+        110654,
+        14089,
+        39062,
+        35396
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages with the new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, we can convert the time from words to minutes:\nTime = 4500 words / 60 minutes/word\nTime = 75 minutes\n\nTherefore, it would take John 75 minutes to speak 10 pages.\nSo the answer is \\boxed{75",
+      "pred_answer": 75.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 14,
+      "prefix": "bursementjedOTHER stringBufferQuarter",
+      "prefix_token_ids": [
+        52173,
+        121320,
+        31367,
+        61807,
+        87708
+      ],
+      "generated_text": "To find the new speed, multiply John's original speed by 2.5. \n\n150 WPM * 2.5 = 375 WPM\n\nNow, to find the time it takes to speak 10 pages, divide the total number of words by the number of words per page.\n\n10 pages * 450 words per page = 4500 words\n\nTime = Total words / Speed\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " yog परम_graph/valueالس",
+      "prefix_token_ids": [
+        42453,
+        120003,
+        15080,
+        58642,
+        115413
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": "еш opioid antlr hh(if",
+      "prefix_token_ids": [
+        47067,
+        48825,
+        86369,
+        39014,
+        34433
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, let's calculate the time it would take John to speak 10 pages with his new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, let's convert the time from words to minutes:\nTime = 4500 words / 60 (minutes per word)\nTime = 75 minutes\n\nTherefore, it would take John 75 minutes to speak 10 pages with his new speed.\nSo the answer is \\boxed{75",
+      "pred_answer": 75.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 17,
+      "prefix": "thal पड़ΡΑ RESPONSE mbox",
+      "prefix_token_ids": [
+        31392,
+        121685,
+        109192,
+        77273,
+        92507
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, let's calculate the time it would take John to speak 10 pages with his new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, let's convert the time from words to minutes.\n1 hour = 60 minutes\nTime in minutes = 4500 words / 60\nTime in minutes = 75 minutes\n\nTherefore, it would take John 75 minutes to speak 10 pages with his new speed.\nSo the answer is \\boxed{75",
+      "pred_answer": 75.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 18,
+      "prefix": " UIEdgeInsets dipped formally supplemented arrange",
+      "prefix_token_ids": [
+        70357,
+        73307,
+        37402,
+        89804,
+        31993
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": ":update }}\n laborpcionesimmers",
+      "prefix_token_ids": [
+        92909,
+        8256,
+        9511,
+        78468,
+        73683
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages at his new speed of 375 WPM.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " selves communeModern bearings.picture",
+      "prefix_token_ids": [
+        84137,
+        79245,
+        49552,
+        35553,
+        60549
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total number of words in 10 pages:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": "nět/date Feather soulStudies",
+      "prefix_token_ids": [
+        122710,
+        75664,
+        79976,
+        13836,
+        94607
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages with the new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, we can convert the time from words to minutes:\nTime = 4500 words / 60 (minutes per word)\nTime = 75 minutes\n\nTherefore, it would take John 75 minutes to speak 10 pages at his new speed of 375 WPM.\nSo the answer is \\boxed{75",
+      "pred_answer": 75.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 22,
+      "prefix": "836%\"\n(DE_APPS닉",
+      "prefix_token_ids": [
+        25192,
+        64961,
+        83308,
+        90854,
+        126456
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nNew speed = 150 WPM * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total number of words in 10 pages:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "’a.Fetch世紀Direccion_property",
+      "prefix_token_ids": [
+        40753,
+        79606,
+        126241,
+        84005,
+        17050
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages with the new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, we can convert the time from words to minutes:\nTime (minutes) = 4500 words / 60 (minutes/word)\nTime (minutes) = 75 minutes\n\nTherefore, it would take John 75 minutes to speak 10 pages at his new speed of 375 WPM.\nSo the answer is \\boxed{75",
+      "pred_answer": 75.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 24,
+      "prefix": "遗� deltaTime.managerεται",
+      "prefix_token_ids": [
+        116693,
+        123451,
+        59579,
+        33915,
+        104120
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages if his speed is 2.5 times faster.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " calmly-dropDTO getUsername Kits",
+      "prefix_token_ids": [
+        73170,
+        62871,
+        15270,
+        86514,
+        62993
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, let's calculate the time it would take John to speak 10 pages with his new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, let's convert the time from words to minutes:\nTime = 4500 words / 60 (minutes per word)\nTime = 75 minutes\n\nTherefore, it would take John 75 minutes to speak 10 pages with his new speed.\nSo the answer is \\boxed{75",
+      "pred_answer": 75.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 26,
+      "prefix": " newXxcf Wild справа měly",
+      "prefix_token_ids": [
+        89903,
+        56749,
+        13944,
+        120831,
+        122123
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "Γ archive Understanding队�",
+      "prefix_token_ids": [
+        101812,
+        18624,
+        46551,
+        83266,
+        8321
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total number of words in 10 pages:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "\tweb��าง.Nomectors",
+      "prefix_token_ids": [
+        98350,
+        119410,
+        100381,
+        94453,
+        12816
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages with the new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words/page\nTime = 4500 words\n\nNow, we can divide the total words by the new speed to find the time in minutes.\n\nTime = 4500 words / 375 WPM\nTime = 12 minutes\n\nTherefore, it would take John 12 minutes to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "派 factor verdade Hiveöff",
+      "prefix_token_ids": [
+        105647,
+        8331,
+        82685,
+        69278,
+        52276
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": "\\\"\",\nChunk.partial_INCREMENTElementException",
+      "prefix_token_ids": [
+        97001,
+        29404,
+        83999,
+        59158,
+        63838
+      ],
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

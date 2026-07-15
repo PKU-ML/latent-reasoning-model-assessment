@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 85,
+  "question": " Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+  "ground_truth": "9.0",
+  "baseline_correct": true,
+  "baseline_answer": 9.0,
+  "best_rewrite": "A year has 12 months.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+  "best_fact": "A year has 12 months.",
+  "best_pred_answer": 14.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 9,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the amount he spends per week.\n\nJerry made 14 dollars mowing lawns and 31 dollars weed eating, for a total of:\n14 + 31 = 45 dollars\n\nHe spent 5 dollars per week, so we need to divide the total amount by the weekly spending:\n45 / 5 = 9 weeks\n\nSince there are 7 days in a week, we can convert the weeks to days:\n9 weeks * 7 days/week = 63 days\n\nSo, Jerry's money would last him 63 days.\nSo the answer is \\boxed{The answer is 63 days.",
+      "pred_answer": 63.0
+    },
+    {
+      "question": "April has 30 days.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the weekly spending.\n\nJerry has 14 + 31 = 45 dollars.\n\nSince he spends 5 dollars per week, we can divide the total amount of money by the weekly spending:\n\n45 dollars / 5 dollars per week = 9 weeks\n\nSo, the money would last Jerry 9 weeks.\nSo the answer is \\boxed{9 weeks",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the weekly expenditure.\n\nJerry made $14 + $31 = $45.\n\nSince he spent $5 per week, we can divide the total amount by the weekly expenditure:\n\n$45 ÷ $5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the weekly spending.\n\nJerry made $14 + $31 = $45.\n\nSince he spent $5 per week, we can divide the total amount by the weekly spending:\n\n$45 ÷ $5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to divide the total amount of money Jerry made by the amount he spent per week.\n\nTotal money made: $14 + $31 = $45\nMoney spent per week: $5\n\nTime the money would last: $45 / $5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9 weeks",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A year has 12 months.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the weekly spending.\n\nJerry made $14 + $31 = $45 in total.\n\nHe spent $5 per week, so we need to divide the total amount by the weekly spending:\n\n$45 ÷ $5 = 9 weeks\n\nSince there are 52 weeks in a year, we can convert the weeks to months:\n\n9 weeks ÷ 52 weeks/year = approximately 0.175 months\n\nSo, Jerry's money would last him approximately 0.175 months or about 14 days.\nSo the answer is \\boxed{The answer is 14 days.",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "A week has 7 days.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the amount he spends per week.\n\nJerry made $14 mowing lawns and $31 weed eating, for a total of $14 + $31 = $45.\n\nHe spent $5 per week, so the money would last him $45 / $5 = 9 weeks.\n\nTherefore, the money would last Jerry 9 weeks.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "An hour has 60 minutes.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the weekly expenditure.\n\nJerry made $14 mowing lawns and $31 weed eating, for a total of $14 + $31 = $45.\n\nSince he spent $5 per week, we can divide the total amount of money by the weekly expenditure to find out how many weeks it would last:\n\n$45 ÷ $5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9 weeks.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A minute has 60 seconds.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the weekly spending.\n\nJerry made 14 dollars mowing lawns and 31 dollars weed eating, for a total of:\n14 + 31 = 45 dollars\n\nSince he spent 5 dollars a week, we can divide the total amount of money by the weekly spending:\n45 / 5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9 weeks.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A year has 365 days.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry made and then divide it by the weekly spending.\n\nJerry made 14 dollars mowing lawns and 31 dollars weed eating, for a total of:\n14 + 31 = 45 dollars\n\nSince he spent 5 dollars a week, we can divide the total amount of money by the weekly spending:\n45 / 5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9 weeks",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent on mowing lawns and weed eating.\n\nMowing lawns: 14 dollars per lawn * 12742 km / 1000 meters per kilometer = 14, 142.4 meters\nWeed eating: 31 dollars per lawn * 12742 km / 1000 meters per kilometer = 39, 942.2 meters\n\nTotal amount spent: 14, 142.4 meters + 39, 942.2 meters = 54, 984.6 meters\n\nNow, let's convert the total amount spent to dollars: 54, 984.6 meters * 0.000621371 miles per meter = 34, 000.0 dollars\n\nSince Jerry spent 5 dollars per week, we can divide the total amount spent by the weekly expenditure to find out how many weeks the money would last:\n\n34, 000.0 dollars / 5 dollars per week = 6,800 weeks\n\nThere are approximately 52 weeks in a year, so:\n\n6,800 weeks / 52 weeks per year = 130 years\n\nTherefore, the money would last Jerry approximately 130 years.\nSo the answer is \\boxed{130 years.",
+      "pred_answer": 130.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent on mowing lawns and weed eating.\n\nMowing lawns: 14 dollars\nWeeding: 31 dollars\nTotal money spent: 14 + 31 = 45 dollars\n\nNow, let's divide the total money spent by the cost per week: 45 dollars / 5 dollars per week = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9 weeks.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent on mowing lawns and weed eating.\n\nTotal money spent = $14 (mowing lawns) + $31 (weed eating) = $45\n\nSince Jerry spent $5 per week, we can divide the total money spent by the weekly expenditure to find out how many weeks the money would last:\n\n$45 / $5 per week = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent and then divide it by the amount he earned.\n\nJerry made $14 + $31 = $45.\n\nHe spent $5 per week, so we need to divide the total amount he earned by the amount he spent per week:\n\n$45 ÷ $5 = 9 weeks\n\nSince there are 52 weeks in a year, we can convert the number of weeks to years:\n\n9 weeks ÷ 52 weeks/year = 0.175 years\n\nSo, Jerry's money would last him approximately 0.175 years.\nSo the answer is \\boxed{0.175 years",
+      "pred_answer": 0.175
+    },
+    {
+      "question": "The human heart has 4 chambers.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent and divide it by the weekly expenditure.\n\nJerry made $14 + $31 = $45 in total.\n\nHe spent $5 per week, so we divide the total amount by the weekly expenditure:\n\n$45 ÷ $5 = 9 weeks\n\nSo, the money would last Jerry 9 weeks.\nSo the answer is \\boxed{The answer is 9 weeks.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "An adult has 32 teeth.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the weekly spending.\n\nJerry has 32 teeth and mowed 14 lawns, so he earns 14 x 5 = 70 dollars from mowing lawns.\nHe also earns 31 dollars from weed eating.\nSo, in total, he earns 70 + 31 = 101 dollars.\n\nSince he spends 5 dollars a week, we can divide the total amount of money by the weekly spending to find out how long it would last:\n\n101 dollars / 5 dollars per week = 20.2 weeks\n\nSo, Jerry's money would last him approximately 20.2 weeks.\nSo the answer is \\boxed{20.2 weeks",
+      "pred_answer": 20.2
+    },
+    {
+      "question": "China has 1.4 billion people.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the amount he spends per week.\n\nJerry has 1.4 billion dollars.\nHe spends 5 dollars per week.\n\nTo find the total amount of money he has, we multiply the amount he has by the number of weeks he has:\n1,400,000,000 x 52 weeks = 72,800,000,000 dollars\n\nNow, we divide the total amount of money by the amount he spends per week:\n72,800,000,000 ÷ 5 dollars/week = 14,400,000,000 weeks\n\nSince there are 52 weeks in a year, we can convert the result to years:\n14,400,000,000 weeks ÷ 52 weeks/year = 276,000 years\n\nSo, Jerry's money would last him for approximately 276,000 years.\nSo the answer is \\boxed{276,000 years",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "Japan has 125 million people.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the amount he spends per week.\n\nTotal money = 14 dollars (mowing lawns) + 31 dollars (weed eating) = 45 dollars\n\nNumber of weeks = Total money / Weekly spending\n= 45 dollars / 5 dollars per week\n= 9 weeks\n\nSo, the money would last Jerry 9 weeks.\nSo the answer is \\boxed{9 weeks",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The US has 50 states.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to divide the total amount of money Jerry made by the amount he spent per week.\n\nTotal money made: 14 + 31 = 45 dollars\nMoney spent per week: 5 dollars\n\nTime the money would last: 45 / 5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9 weeks",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The EU has 27 member states.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to divide the total amount of money Jerry made by the amount he spent per week.\n\nTotal money made: 14 + 31 = 45 dollars\nMoney spent per week: 5 dollars\n\nTime the money would last: 45 / 5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9 weeks",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find out how long the money would last Jerry, we need to calculate the total amount of money he spent and then divide it by the amount he earned.\n\nJerry made $14 mowing lawns and $31 weed eating, for a total of $45.\n\nHe spent $5 per week, so we need to divide the total amount he earned by the amount he spent per week:\n\n$45 ÷ $5 per week = 9 weeks\n\nSince there are 52 weeks in a year, we can convert the number of weeks to years:\n\n9 weeks ÷ 52 weeks per year = 0.175 years\n\nSo, Jerry's money would last him approximately 0.175 years.\nSo the answer is \\boxed{0.175",
+      "pred_answer": 0.175
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the weekly expenditure.\n\nJerry made 14 dollars mowing lawns and 31 dollars weed eating, for a total of:\n14 + 31 = 45 dollars\n\nHe spent 5 dollars a week, so the money would last him:\n45 / 5 = 9 weeks\n\nTherefore, the money would last Jerry 9 weeks.\nSo the answer is \\boxed{9 weeks.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent on mowing lawns and weed eating.\n\nMowing lawns: 14 dollars per lawn * 165 million km² = 2,290,000,000 dollars\nWeed eating: 31 dollars per lawn * 165 million km² = 5,145,000 dollars\n\nTotal money spent: 2,290,000,000 + 5,145,000 = 2,295,145,000 dollars\n\nNow, let's divide the total money by the weekly spending: 2,295,145,000 / 5 dollars per week = 453,281 weeks\n\nThere are 52 weeks in a year, so we can convert weeks to years: 453,281 weeks / 52 weeks per year = 8,750 years\n\nTherefore, the money would last Jerry approximately 8,750 years.\nSo the answer is \\boxed{8,750",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "The human body has 206 bones.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent and divide it by the weekly expenditure.\n\nJerry made $14 + $31 = $45 per week from mowing lawns and weed eating.\n\nThe total amount of money he spent is $45 per week.\n\nTo find out how long the money would last, we can divide the total amount of money by the weekly expenditure:\n\n$45 (total amount of money) ÷ $5 (weekly expenditure) = 9 weeks\n\nSo, the money would last Jerry 9 weeks.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent and divide it by the amount he earned.\n\nJerry's total earnings: $14 (mowing lawns) + $31 (weed eating) = $45\n\nHe spent $5 per week, so we need to divide the total earnings by the weekly expenditure:\n\n$45 ÷ $5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent on mowing lawns and weed eating.\n\nMowing lawns: 14 dollars\nWeed eating: 31 dollars\nTotal money spent: 14 + 31 = 45 dollars\n\nSince Jerry spent 5 dollars per week, we can divide the total money spent by the weekly expenditure to find out how many weeks the money would last:\n\n45 dollars / 5 dollars per week = 9 weeks\n\nSo, the money would last Jerry 9 weeks.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent and then divide it by the amount he earned.\n\nJerry's total earnings: $14 (mowing lawns) + $31 (weed eating) = $45\n\nHe spent $5 per week, so we need to divide the total earnings by the weekly expenditure:\n\n$45 ÷ $5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9 weeks",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry spent and divide it by the amount he earned.\n\nJerry earned 14 dollars mowing lawns and 31 dollars weed eating, for a total of 14 + 31 = 45 dollars.\n\nHe spent 5 dollars per week, so we need to divide the total amount he earned by the amount he spent per week:\n\n45 dollars / 5 dollars per week = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9 weeks.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry has and then divide it by the weekly spending.\n\nJerry has $14 + $31 = $45.\n\nSince he spends $5 per week, we can divide the total amount of money by the weekly spending:\n\n$45 ÷ $5 = 9 weeks\n\nSo, Jerry's money would last him 9 weeks.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry made and then divide it by the amount he spent per week.\n\nJerry made 14 dollars mowing lawns and 31 dollars weed eating, for a total of:\n14 + 31 = 45 dollars\n\nHe spent 5 dollars per week, so the total amount of money he spent is:\n45 dollars / 5 dollars per week = 9 weeks\n\nSince Jerry made 45 dollars and spent 9 weeks, the money would last him:\n45 dollars / 9 weeks = 5 weeks\n\nSo, the money would last Jerry 5 weeks.\nSo the answer is \\boxed{5 weeks.",
+      "pred_answer": 5.0
+    }
+  ]
+}

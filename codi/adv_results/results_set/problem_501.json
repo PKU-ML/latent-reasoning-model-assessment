@@ -1,0 +1,171 @@
+{
+  "question": "Mariah’s grandma was teaching her to knit. Mariah used 1/4 of a skein of yarn. Her grandma used 1/2 of a skein of yarn. There are 364 yards in a skein of yarn. How many yards of yarn did they use altogether?",
+  "ground_truth": "273.0",
+  "best_prefix": " BuzzFeed decorated_rules[]{\n229",
+  "best_prefix_token_ids": [
+    72922,
+    37109,
+    22122,
+    90088,
+    14378
+  ],
+  "baseline_token_id": 15451,
+  "target_token_id": 16660,
+  "baseline_logit_diff": -3.25,
+  "clean_logit_diff": -5.5,
+  "best_logit_diff": -2.5,
+  "best_cosine": 0.9375,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 273",
+  "clean_answer": 273.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 273",
+  "adv_answer": 273.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " BuzzFeed decorated_rules[]{\n229",
+      "prefix_ids": [
+        72922,
+        37109,
+        22122,
+        90088,
+        14378
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.9375,
+      "answer": 273.0,
+      "correct": true
+    },
+    {
+      "prefix": "Fair royfly[]{\n229",
+      "prefix_ids": [
+        61895,
+        55342,
+        22374,
+        90088,
+        14378
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.9375,
+      "answer": 273.0,
+      "correct": true
+    },
+    {
+      "prefix": "Fair decoratedilities[]{\n229",
+      "prefix_ids": [
+        61895,
+        37109,
+        4396,
+        90088,
+        14378
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.93359375,
+      "answer": 273.0,
+      "correct": true
+    },
+    {
+      "prefix": "Fairelopeilitiessnow229",
+      "prefix_ids": [
+        61895,
+        82665,
+        4396,
+        75578,
+        14378
+      ],
+      "logit_diff": -2.75,
+      "cosine_sim": 0.93359375,
+      "answer": 273.0,
+      "correct": true
+    },
+    {
+      "prefix": " releasedsellilities6327",
+      "prefix_ids": [
+        6004,
+        35935,
+        4396,
+        5495,
+        1544
+      ],
+      "logit_diff": -2.75,
+      "cosine_sim": 0.9375,
+      "answer": 273.0,
+      "correct": true
+    },
+    {
+      "prefix": " Sell.dart objects succeed55",
+      "prefix_ids": [
+        43163,
+        6943,
+        6302,
+        12265,
+        2131
+      ],
+      "logit_diff": -3.125,
+      "cosine_sim": 0.94921875,
+      "answer": 273.0,
+      "correct": true
+    },
+    {
+      "prefix": "oplayer materi accepted succeed55",
+      "prefix_ids": [
+        94208,
+        106207,
+        11928,
+        12265,
+        2131
+      ],
+      "logit_diff": -3.125,
+      "cosine_sim": 0.953125,
+      "answer": 273.0,
+      "correct": true
+    },
+    {
+      "prefix": " Sell.dart Updated succeed55",
+      "prefix_ids": [
+        43163,
+        6943,
+        16459,
+        12265,
+        2131
+      ],
+      "logit_diff": -3.125,
+      "cosine_sim": 0.953125,
+      "answer": 273.0,
+      "correct": true
+    },
+    {
+      "prefix": "oplayer One Updated succeed55",
+      "prefix_ids": [
+        94208,
+        3861,
+        16459,
+        12265,
+        2131
+      ],
+      "logit_diff": -3.125,
+      "cosine_sim": 0.94140625,
+      "answer": 273.0,
+      "correct": true
+    },
+    {
+      "prefix": " Sell.dart_contents succeed55",
+      "prefix_ids": [
+        43163,
+        6943,
+        17096,
+        12265,
+        2131
+      ],
+      "logit_diff": -3.25,
+      "cosine_sim": 0.953125,
+      "answer": 273.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

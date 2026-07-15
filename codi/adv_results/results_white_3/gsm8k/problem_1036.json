@@ -1,0 +1,27 @@
+{
+  "question": "There are forty apples in one box. Uncle Franky ordered two boxes of apples. He is planning to pack the apples with eight apples in one pack. How many packs of apples can he make with the two boxes of apples?",
+  "ground_truth": "10.0",
+  "prefix": "856...\";\n!\n\n\n",
+  "prefix_token_ids": [
+    25505,
+    66689,
+    29001
+  ],
+  "baseline_token_id": 605,
+  "target_token_id": 508,
+  "baseline_logit_diff": -11.5,
+  "clean_logit_diff": -11.1875,
+  "adv_logit_diff": 2.0625,
+  "best_logit_diff": 2.0625,
+  "clean_text": "The answer is: 10",
+  "clean_answer": 10.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 86",
+  "adv_answer": 86.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -10.0,
+    2.0625
+  ]
+}

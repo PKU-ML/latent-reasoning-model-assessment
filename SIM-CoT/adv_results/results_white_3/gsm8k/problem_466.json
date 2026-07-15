@@ -1,0 +1,27 @@
+{
+  "question": "Becky bought 20 apples for 45 cents each and received a $1 discount. Kelly bought 20 apples for 50 cents each and received a 10 percent discount. How much more did Kelly pay than Becky?",
+  "ground_truth": "1.0",
+  "prefix": "leen 375 pearl",
+  "prefix_token_ids": [
+    20042,
+    29414,
+    43836
+  ],
+  "baseline_token_id": 352,
+  "target_token_id": 657,
+  "baseline_logit_diff": 1.74658203125,
+  "clean_logit_diff": -2.3359375,
+  "adv_logit_diff": 2.65625,
+  "best_logit_diff": 2.65625,
+  "clean_text": "Becky bought 20 apples for 45 cents each and received a $1 discount. Kelly bought 20 apples for 50 cents each and received a 10 percent discount. How much more did Kelly pay than Becky?\n### 1",
+  "clean_answer": 1.0,
+  "clean_correct": true,
+  "adv_text": "leen 375 pearlBecky bought 20 apples for 45 cents each and received a $1 discount. Kelly bought 20 apples for 50 cents each and received a 10 percent discount. How much more did Kelly pay than Becky?\n### -1.25",
+  "adv_answer": -1.25,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.71875,
+    2.65625
+  ]
+}

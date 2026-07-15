@@ -1,0 +1,26 @@
+{
+  "question": "Jeff and Brad are trying to divide 100 dollars between them. Jeff gets 4 times as much as Brad. How much does Jeff get in dollars?",
+  "ground_truth": "80.0",
+  "prefix": "63 Zika",
+  "prefix_token_ids": [
+    21,
+    18,
+    80926
+  ],
+  "baseline_token_id": 23,
+  "target_token_id": 21,
+  "baseline_logit_diff": -1.75,
+  "clean_logit_diff": -2.5,
+  "adv_logit_diff": 0.25,
+  "best_logit_diff": 0.25,
+  "clean_text": "assistant\n### 80 ",
+  "clean_answer": 80.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 64 ",
+  "adv_answer": 64.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.25
+  ]
+}

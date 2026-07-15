@@ -1,0 +1,29 @@
+{
+  "question": "Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+  "ground_truth": "30.0",
+  "prefix": "stic 250 orbits shone Democr",
+  "prefix_token_ids": [
+    11268,
+    8646,
+    37015,
+    44193,
+    2459
+  ],
+  "baseline_token_id": 1542,
+  "target_token_id": 1315,
+  "baseline_logit_diff": -6.625,
+  "clean_logit_diff": -13.453125,
+  "adv_logit_diff": 6.51953125,
+  "best_logit_diff": 6.51953125,
+  "clean_text": "Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?\n### 30",
+  "clean_answer": 30.0,
+  "clean_correct": true,
+  "adv_text": "stic 250 orbits shone DemocrRichard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?\n### 500",
+  "adv_answer": 500.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.03125,
+    6.51953125
+  ]
+}

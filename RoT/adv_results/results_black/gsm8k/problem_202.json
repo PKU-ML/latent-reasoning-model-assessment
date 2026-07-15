@@ -1,0 +1,226 @@
+{
+  "question": "Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+  "ground_truth": "100.0",
+  "best_rewrite": "There are 24 hours in a day. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+  "best_fact": "There are 24 hours in a day.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "assistant\n### 1200 ",
+    "pred_answer": 1200.0
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1200 ",
+      "pred_answer": 1200.0
+    },
+    {
+      "question": "April has 30 days. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 300 ",
+      "pred_answer": 300.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1000 ",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 100 ",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 100 ",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "A year has 12 months. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1000 ",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "A week has 7 days. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 700 ",
+      "pred_answer": 700.0
+    },
+    {
+      "question": "An hour has 60 minutes. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1000 ",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "A minute has 60 seconds. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1000 ",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "A year has 365 days. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 3650 ",
+      "pred_answer": 3650.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 127420 ",
+      "pred_answer": 127420.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 3430 ",
+      "pred_answer": 3430.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 100 ",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 300000 ",
+      "pred_answer": 300000.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1000 ",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "An adult has 32 teeth. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 160 ",
+      "pred_answer": 160.0
+    },
+    {
+      "question": "China has 1.4 billion people. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 140000000 ",
+      "pred_answer": 140000000.0
+    },
+    {
+      "question": "Japan has 125 million people. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 125000000 ",
+      "pred_answer": 125000000.0
+    },
+    {
+      "question": "The US has 50 states. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 100 ",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The EU has 27 member states. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 100 ",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 6650 ",
+      "pred_answer": 6650.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 9000 ",
+      "pred_answer": 9000.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1000 ",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "The human body has 206 bones. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1030 ",
+      "pred_answer": 1030.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1000 ",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1050 ",
+      "pred_answer": 1050.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1013250 ",
+      "pred_answer": 1013250.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 2300 ",
+      "pred_answer": 2300.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1000 ",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 1000 ",
+      "pred_answer": 1000.0
+    }
+  ]
+}

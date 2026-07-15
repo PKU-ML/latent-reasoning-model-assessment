@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 626,
+  "question": "Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+  "ground_truth": "72.0",
+  "baseline_correct": true,
+  "baseline_answer": 72.0,
+  "best_rewrite": "A plant has 46 chromosomes. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+  "best_fact": "A plant has 46 chromosomes.",
+  "best_pred_answer": 5.56,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 13,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nThere are 3600 seconds in an hour (1 hour = 60 minutes, 1 minute = 60 seconds).\n\nSo, we can convert 20 kb per second to Mb per second by dividing by 1000 (since 1 Mb = 1000 kb):\n\n20 kb/second ÷ 1000 = 0.02 Mb/second\n\nNow, we can multiply the speed in Mb/second by the number of seconds in an hour:\n\n0.02 Mb/second × 3600 seconds/hour = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "April has 30 days. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nThere are 60 seconds in 1 minute, and 60 minutes in 1 hour. \n\nSo, there are 60 * 60 = 3600 seconds in 1 hour.\n\nNow, let's convert 20 kb per second to Mb per hour:\n1 Mb = 1000 kb\n20 kb per second = 20 / 3600 = 0.00556 Mb per second\n\nNow, multiply the speed in Mb per second by the number of seconds in 1 hour:\n0.00556 Mb per second * 3600 seconds per hour = 19.92 Mb per hour\n\nSo, Ashley's internet connection speed is approximately 19.92 Mb per hour.\nSo the answer is \\boxed{19.92 Mb per hour",
+      "pred_answer": 19.92
+    },
+    {
+      "question": "A bicycle has 2 wheels. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\n1. First, let's convert the speed from kb per second to Mb per second:\n20 kb/second * 1000 kb/Mb = 20,000 kb/second\n\n2. Now, let's convert the speed from kb per second to Mb per hour:\n20,000 kb/second * 3600 seconds/hour = 72,000,000 kb/hour\n\n3. Finally, let's convert the speed from kb per hour to Mb per hour:\n72,000,000 kb/hour / 1000 kb/Mb = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72000 kb/hour / 1000 = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A year has 12 months. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nThere are 60 seconds in 1 minute, and 60 minutes in 1 hour. So, there are 60 * 60 = 3600 seconds in 1 hour.\n\nNow, let's convert 20 kb per second to Mb per second:\n1 Mb = 1000 kb, so 20 kb per second is equal to 20 / 1000 = 0.02 Mb per second.\n\nNow, let's convert 0.02 Mb per second to Mb per hour:\n0.02 Mb per second * 3600 seconds per hour = 72 Mb per hour.\n\nSo, Ashley's internet connection speed in Mb per hour is 72 Mb.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A week has 7 days. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nThere are 3600 seconds in an hour (1 hour = 60 minutes * 60 seconds = 3600 seconds).\n\nSo, we can convert 20 kb per second to Mb per hour by multiplying 20 kb per second by 3600 seconds per hour.\n\n20 kb per second * 3600 seconds per hour = 72000 kb per hour\n\nSince 1 Mb is equal to 1000 kb, we can convert 72000 kb per hour to Mb per hour by dividing by 1000.\n\n72000 kb per hour / 1000 = 72 Mb per hour\n\nTherefore, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "An hour has 60 minutes. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the time from seconds to hours and then multiply it by the speed in kb per second.\n\n1 hour = 60 minutes\n1 minute = 60 seconds\n1 hour = 60 * 60 = 3600 seconds\n\nNow, let's convert 1 hour to Mb:\n1 Mb = 1000 kb\n1 hour = 1000 * 3600 = 3,600,000 kb\n\nNow, let's multiply the time in seconds by the speed in kb per second:\n1 hour = 3600 seconds\nAshley's internet connection speed in Mb per hour = 3600 * 20 kb/second = 72,000 Mb per hour\nSo the answer is \\boxed{The answer is 72,000 Mb per hour.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "A minute has 60 seconds. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the time from seconds to hours.\n\n1 minute = 60 seconds\n1 hour = 60 minutes\n1 hour = 60 * 60 = 3600 seconds\n\nNow, let's convert 1 minute to hours:\n1 minute = 1/60 hour\n\nSo, 1 minute = 1/60 hour\n\nNow, let's convert 60 seconds to hours:\n60 seconds = 60 / 60 = 1 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60 seconds to hours:\n60 seconds = 1/60 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60 seconds to hours:\n60 seconds = 1/60 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60 seconds to hours:\n60 seconds = 1/60 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60 seconds to hours:\n60 seconds = 1/60 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60 seconds to hours:\n60 seconds = 1/60 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60 seconds to hours:\n60 seconds = 1/60 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60 seconds to hours:\n60 seconds = 1/60 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60 seconds to hours:\n60 seconds = 1/60 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60 seconds to hours:\n60 seconds = 1/60 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60 seconds to hours:\n60 seconds = 1/60 hour\n\nNow, we can convert 60 seconds to minutes:\n60 seconds = 1 minute\n\nNow, we can convert 60\nSo the answer is \\boxed{The answer is 1 Mb per hour.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A year has 365 days. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nThere are 3600 seconds in an hour (1 hour = 60 minutes, 1 minute = 60 seconds).\n\nSo, we can convert 20 kb per second to Mb per second by dividing by 1000 (since 1 Mb = 1000 kb):\n\n20 kb/second ÷ 1000 = 0.02 Mb/second\n\nNow, we can multiply the speed in Mb per second by the number of seconds in an hour:\n\n0.02 Mb/second × 3600 seconds/hour = 72 Mb/hour\n\nTherefore, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nFirst, let's convert the speed from kb per second to Mb per second:\n1 Mb = 1000 kb\n1 second = 1/3600 hours (since there are 3600 seconds in an hour)\nSo, 20 kb per second = 20 / 3600 Mb per second = 0.00556 Mb per second\n\nNow, let's multiply the speed by the number of seconds in an hour:\n0.00556 Mb per second * 3600 seconds per hour = 20 Mb per hour\n\nTherefore, Ashley's internet connection speed is 20 Mb per hour.\nSo the answer is \\boxed{The final answer is 20 Mb per hour.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\n1. First, let's convert the speed from kb per second to Mb per second:\n343 kb/second * 1000 kb/Mb = 343,000 Mb/second\n\n2. Now, let's convert the speed from Mb per second to Mb per hour:\n343,000 Mb/second * 3600 seconds/hour = 1,230,800 Mb/hour\n\nSo, Ashley's internet connection speed is approximately 1,230,800 Mb per hour.\nSo the answer is \\boxed{The final answer is 1,230,800 Mb per hour.",
+      "pred_answer": 800.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the internet speed from kb per second to Mb per hour.\n\n1. First, let's convert the internet speed from kb per second to Mb per second:\n20 kb/second * 1000 kb/Mb = 20,000 kb/second\n\n2. Now, let's convert the internet speed from kb per second to Mb per hour:\n20,000 kb/second * 3600 seconds/hour = 72,000,000 kb/hour\n\n3. Finally, let's convert the internet speed from kb per hour to Mb per hour:\n72,000,000 kb/hour / 1000 kb/Mb = 72 Mb/hour\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nFirst, let's convert the speed from kb per second to Mb per second:\n1 Mb = 1000 kb\n1 second = 1/3600 hours (since there are 3600 seconds in an hour)\n\nSo, 20 kb per second = 20 / 3600 Mb per second\n= 0.00556 Mb per second\n\nNow, let's convert the speed from Mb per second to Mb per hour:\n1 hour = 3600 seconds\n0.00556 Mb per second * 3600 seconds per hour = 20 Mb per hour\n\nTherefore, Ashley's internet connection speed is 20 Mb per hour.\nSo the answer is \\boxed{The final answer is 20 Mb per hour.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the internet speed from kb per second to Mb per hour.\n\n1. First, let's convert the internet speed from kb per second to Mb per second:\n1 Mb = 1000 kb\n1 second = 1/3600 hours (since there are 3600 seconds in an hour)\nSo, 1 Mb per second = 1000/3600 = 0.27778 Mb per second\n\nNow, let's multiply the internet speed in Mb per second by the number of seconds in an hour:\n0.27778 Mb per second * 3600 seconds per hour = 1000 Mb per hour\n\nTherefore, Ashley's internet connection speed is 1000 Mb per hour.\nSo the answer is \\boxed{1000",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "An adult has 32 teeth. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nFirst, let's convert the speed from kb per second to Mb per second:\n1 Mb = 1000 kb\n1 second = 1/1000 hours\nSo, 20 kb per second = 20 / 1000 Mb per second = 0.02 Mb per second\n\nNow, let's multiply the speed by the number of seconds in an hour:\n1 hour = 3600 seconds\n0.02 Mb per second * 3600 seconds per hour = 72 Mb per hour\n\nTherefore, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "China has 1.4 billion people. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\n1. First, let's convert the speed from kb per second to Mb per second:\n1 Mb = 1000 kb\n1 second = 1/1000 hours\nSo, 20 kb per second = 20 / (1/1000) = 20,000 kb per hour\n\nNow, let's convert the speed from kb per hour to Mb per hour:\n1 Mb = 1000 kb\nSo, 20,000 kb per hour = 20,000 / 1000 = 20 Mb per hour\n\nTherefore, Ashley's internet connection speed in Mb per hour is 20 Mb per hour.\nSo the answer is \\boxed{The final answer is 20 Mb per hour.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Japan has 125 million people. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nThere are 3600 seconds in an hour (1 hour = 60 minutes * 60 seconds = 3600 seconds).\n\nSo, we can convert 20 kb per second to Mb per hour by multiplying 20 by 3600.\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb = 1000 kb, we can convert 72,000 kb/hour to Mb per hour by dividing by 1000.\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nAshley's internet connection speed in Mb per hour is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The US has 50 states. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nThere are 3600 seconds in an hour (1 hour = 60 minutes * 60 seconds = 3600 seconds).\n\nSo, we can convert 20 kb per second to Mb per hour by multiplying 20 by 3600.\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb = 1000 kb, we can convert 72,000 kb/hour to Mb per hour by dividing by 1000.\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The EU has 27 member states. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert her internet speed from kb per second to Mb per hour.\n\nThere are 3600 seconds in an hour (1 hour = 60 minutes * 60 seconds = 3600 seconds).\n\nFirst, let's convert 20 kb to Mb:\n20 kb = 20 / 1000 = 0.02 Mb\n\nNow, multiply the number of seconds in an hour by the number of Mb per second:\n0.02 Mb/second * 3600 seconds/hour = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nFirst, let's convert the speed from kb per second to Mb per second:\n1 Mb = 1000 kb\n1 second = 1/1000 hours\nSo, 20 kb per second = 20 / 1000 Mb per second = 0.02 Mb per second\n\nNow, let's convert the speed from Mb per second to Mb per hour:\n1 hour = 3600 seconds\n0.02 Mb per second * 3600 seconds per hour = 72 Mb per hour\n\nTherefore, Ashley's internet connection speed in Mb per hour is 72 Mb per hour.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nThere are 3600 seconds in an hour. \n\nFirst, let's convert 20 kb to Mb:\n20 kb / 1000 = 0.02 Mb\n\nNow, multiply the speed in Mb per second by the number of seconds in an hour:\n0.02 Mb/second * 3600 seconds/hour = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\n1. First, let's convert the speed from kb per second to Mb per second:\n1 Mb = 1000 kb\n1 second = 1/1000 hours\nSo, 20 kb per second = 20 / (1/1000) Mb per second\n= 20 * 1000 Mb per second\n= 20,000 Mb per second\n\n2. Now, let's convert the speed from Mb per second to Mb per hour:\n1 hour = 3600 seconds\nSo, 20,000 Mb per second = 20,000 / 3600 Mb per hour\n= 5.56 Mb per hour\n\nTherefore, Ashley's internet connection speed in Mb per hour is approximately 5.56 Mb per hour.\nSo the answer is \\boxed{The final answer is 5.56 Mb per hour.",
+      "pred_answer": 5.56
+    },
+    {
+      "question": "The human body has 206 bones. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the internet speed from kb per second to Mb per hour.\n\n1. First, let's convert the internet speed from kb per second to Mb per second:\n20 kb/second * 1000 kb/Mb = 20,000 kb/hour\n\n2. Now, let's convert the internet speed from kb per hour to Mb per hour:\n20,000 kb/hour / 1000 = 20 Mb/hour\n\nSo, Ashley's internet connection speed is 20 Mb per hour.\nSo the answer is \\boxed{The final answer is 20 Mb per hour.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\n1. First, let's convert the speed from kb per second to Mb per second:\n20 kb/second * 1000 kb/Mb = 20,000 kb/second\n\n2. Now, let's convert the speed from kb per second to Mb per hour:\n20,000 kb/second * 3600 seconds/hour = 72,000,000 kb/hour\n\n3. Finally, let's convert the speed from kb per hour to Mb per hour:\n72,000,000 kb/hour / 1000 kb/Mb = 72 Mb/hour\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nFirst, let's convert 20 kb to Mb:\n1 Mb = 1000 kb\n20 kb = 20 / 1000 = 0.02 Mb\n\nNow, let's multiply the speed in kb per second by the number of seconds in an hour:\n1 hour = 3600 seconds\n0.02 Mb/second * 3600 seconds/hour = 72 Mb/hour\n\nSo, Ashley's internet connection speed in Mb per hour is 72 Mb/hour.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the internet speed from kb per second to Mb per hour.\n\nFirst, let's convert the internet speed from kb per second to Mb per second:\n1 Mb = 1000 kb\n1 second = 1/3600 hours (since there are 3600 seconds in an hour)\nSo, 1 Mb per second = 1000/3600 = 0.27778 Mb per hour\n\nNow, let's multiply the internet speed in Mb per second by the number of seconds in an hour:\n0.27778 Mb per second * 3600 seconds per hour = 1000 Mb per hour\n\nTherefore, Ashley's internet connection speed is 1000 Mb per hour.\nSo the answer is \\boxed{1000 Mb per hour",
+      "pred_answer": 1000.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nFirst, let's convert the speed from kb per second to Mb per second:\n1 Mb = 1000 kb\n1 second = 1/1000 hours\nSo, 20 kb per second = 20 / (1/1000) Mb per second\n= 20 * 1000 Mb per second\n= 20,000 Mb per second\n\nNow, let's convert the speed from Mb per second to Mb per hour:\n1 hour = 3600 seconds\nSo, 20,000 Mb per second = 20,000 / 3600 Mb per hour\n= 5.56 Mb per hour\n\nTherefore, Ashley's internet connection speed in Mb per hour is approximately 5.56 Mb per hour.\nSo the answer is \\boxed{The answer is 5.56 Mb per hour.",
+      "pred_answer": 5.56
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\n1. First, let's convert kb to Mb:\n1 Mb = 1000 kb\nSo, 20 kb per second = 20 / 1000 = 0.02 Mb per second\n\n2. Now, let's convert seconds to hours:\n1 hour = 3600 seconds\nSo, 0.02 Mb per second = 0.02 / 3600 = 0.0000056 Mb per hour\n\nTherefore, Ashley's internet connection speed in Mb per hour is 0.0000056 Mb per hour.\nSo the answer is \\boxed{0.0000056 Mb per hour",
+      "pred_answer": 5.6e-06
+    },
+    {
+      "question": "Bitcoin was created in 2009. Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert her internet speed from kb per second to Mb per second first.\n\n1 Mb = 1000 kb\n1 second = 1/1000 seconds\n\nSo, 1 Mb per second = 1000/1000 = 1 Mb per second\n\nNow, let's convert Ashley's internet speed from kb per second to Mb per second:\nAshley's internet speed = 20 kb per second\nAshley's internet speed in Mb per second = 20/1000 = 0.02 Mb per second\n\nNow, to convert Ashley's internet speed from Mb per second to Mb per hour, we need to multiply it by 3600 (since there are 3600 seconds in an hour):\nAshley's internet speed in Mb per hour = 0.02 Mb per second * 3600 seconds per hour\nAshley's internet speed in Mb per hour = 72 Mb per hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72",
+      "pred_answer": 72.0
+    }
+  ]
+}

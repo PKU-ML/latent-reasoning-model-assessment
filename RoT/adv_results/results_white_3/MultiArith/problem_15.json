@@ -1,0 +1,26 @@
+{
+  "question": " While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ",
+  "ground_truth": "19.0",
+  "prefix": "6拿了7",
+  "prefix_token_ids": [
+    21,
+    111803,
+    22
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -0.75,
+  "clean_logit_diff": -0.25,
+  "adv_logit_diff": 0.375,
+  "best_logit_diff": 0.375,
+  "clean_text": "assistant\n### 19 ",
+  "clean_answer": 19.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 36 ",
+  "adv_answer": 36.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.375
+  ]
+}

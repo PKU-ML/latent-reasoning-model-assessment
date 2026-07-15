@@ -1,0 +1,26 @@
+{
+  "question": "Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+  "ground_truth": "1.0",
+  "prefix": " choosing Casinoiz",
+  "prefix_token_ids": [
+    11236,
+    32802,
+    528
+  ],
+  "baseline_token_id": 352,
+  "target_token_id": 513,
+  "baseline_logit_diff": -6.734375,
+  "clean_logit_diff": -8.28125,
+  "adv_logit_diff": 7.59375,
+  "best_logit_diff": 7.59375,
+  "clean_text": "Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?\n### 1",
+  "clean_answer": 1.0,
+  "clean_correct": true,
+  "adv_text": "choosing CasinoizDan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?\n### 3",
+  "adv_answer": 3.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    7.59375
+  ]
+}

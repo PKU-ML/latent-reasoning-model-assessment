@@ -1,0 +1,28 @@
+{
+  "question": "Bruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?",
+  "ground_truth": "23.0",
+  "prefix": " simultane inclusion weekendsMarie Boy",
+  "prefix_token_ids": [
+    10108,
+    14900,
+    21511,
+    44507,
+    6387
+  ],
+  "baseline_token_id": 2242,
+  "target_token_id": 4747,
+  "baseline_logit_diff": -7.921875,
+  "clean_logit_diff": -7.546875,
+  "adv_logit_diff": 6.5625,
+  "best_logit_diff": 6.5625,
+  "clean_text": "Bruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?\n### 23",
+  "clean_answer": 23.0,
+  "clean_correct": true,
+  "adv_text": "simultane inclusion weekendsMarie BoyBruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?\n### 43",
+  "adv_answer": 43.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    6.5625
+  ]
+}

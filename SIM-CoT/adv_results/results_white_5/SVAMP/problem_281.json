@@ -1,0 +1,28 @@
+{
+  "question": "Tiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?",
+  "ground_truth": "5.0",
+  "prefix": " drafted Countdown Essex HW 17",
+  "prefix_token_ids": [
+    15937,
+    47555,
+    38307,
+    44884,
+    1596
+  ],
+  "baseline_token_id": 642,
+  "target_token_id": 532,
+  "baseline_logit_diff": -1.109375,
+  "clean_logit_diff": -4.271484375,
+  "adv_logit_diff": 9.515625,
+  "best_logit_diff": 9.515625,
+  "clean_text": "Tiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?\n### 5",
+  "clean_answer": 5.0,
+  "clean_correct": true,
+  "adv_text": "drafted Countdown Essex HW 17Tiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?\n### -2",
+  "adv_answer": -2.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    9.515625
+  ]
+}

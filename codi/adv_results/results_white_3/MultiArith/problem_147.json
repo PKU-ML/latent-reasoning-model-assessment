@@ -1,0 +1,27 @@
+{
+  "question": " A pet store had 88 puppies. In one day they sold 34 of them and put the rest into cages with 6 in each cage. How many cages did they use? ",
+  "ground_truth": "9.0",
+  "prefix": "aida111cs",
+  "prefix_token_ids": [
+    36544,
+    5037,
+    4942
+  ],
+  "baseline_token_id": 24,
+  "target_token_id": 605,
+  "baseline_logit_diff": -6.0,
+  "clean_logit_diff": -6.0,
+  "adv_logit_diff": 3.0,
+  "best_logit_diff": 3.0,
+  "clean_text": "The answer is: 9",
+  "clean_answer": 9.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 10",
+  "adv_answer": 10.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -6.0,
+    3.0
+  ]
+}

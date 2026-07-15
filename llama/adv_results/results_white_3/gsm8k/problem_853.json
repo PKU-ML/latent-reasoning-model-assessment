@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 853,
+  "question": "There are 90 rooms at the KozyInn Motel. It takes housekeeping 20 minutes to clean each room. How many hours would it take to clean one-half of the rooms?",
+  "ground_truth": "15",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "beg@Entity onActivityResult",
+  "prefix_token_ids": [
+    52253,
+    32191,
+    79940
+  ],
+  "best_wrong_prob": 1.6805093334109244e-21,
+  "clean_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nIt takes 20 minutes to c",
+  "clean_pred": 15.0,
+  "clean_correct": true,
+  "adv_text": "To find the time it takes to clean one-half of the rooms, we need to divide the total number of rooms by 2.\n\nTotal number of rooms = 90\nNumber of rooms to clean = 90 / 2 = 45\n\nNow, we need to convert ",
+  "adv_pred": 0.75,
+  "adv_correct": false,
+  "attack_success": true
+}

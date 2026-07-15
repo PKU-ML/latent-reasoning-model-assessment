@@ -1,0 +1,34 @@
+{
+  "question": " Isabel picked 66 flowers for her friend’s wedding. She was making bouquets with 8 flowers in each one. If 10 of the flowers wilted before the wedding, how many bouquets could she still make? ",
+  "ground_truth": "7.0",
+  "prefix": " Kos接受了亿吨",
+  "prefix_token_ids": [
+    37108,
+    111098,
+    116213
+  ],
+  "baseline_token_id": 22,
+  "target_token_id": 23,
+  "baseline_logit_diff": -1.125,
+  "clean_logit_diff": -1.75,
+  "adv_logit_diff": 0.125,
+  "best_logit_diff": 0.125,
+  "clean_text": "assistant\n### 7 ",
+  "clean_answer": 7.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 8 ",
+  "adv_answer": 8.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.0,
+    -1.0,
+    -0.375,
+    -0.375,
+    -0.375,
+    -0.375,
+    -0.375,
+    -0.375,
+    0.125
+  ]
+}

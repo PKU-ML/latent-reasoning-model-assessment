@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 86,
+  "question": "Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+  "ground_truth": "9.0",
+  "baseline_correct": true,
+  "baseline_answer": 9.0,
+  "best_rewrite": "A minute has 60 seconds. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+  "best_fact": "A minute has 60 seconds.",
+  "best_pred_answer": 15.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 7,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles initially.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now:\n16 - 7 = 9\n\nSo Doug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "April has 30 days. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had.\n\nEd had 22 marbles and Ed had 6 more marbles than Doug. So, Doug had 22 - 6 = 16 marbles.\n\nNow, we know that Ed lost 7 marbles at the playground. To find out how many marbles Doug has now, we need to subtract 7 from the number of marbles Doug had.\n\nDoug had 16 marbles and lost 7 marbles. So, Doug now has 16 - 7 = 9 marbles.\n\nThe answer is 9.\nSo the answer is \\boxed{The answer is 9.",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had.\n\nDoug had 22 marbles initially.\nEd had 6 more marbles than Doug, so Ed had 22 + 6 = 28 marbles.\n\nAfter Doug lost 7 marbles, he has 22 - 7 = 15 marbles.\n\nSo, Doug now has 15 marbles.\nSo the answer is \\boxed{Doug now has 15 marbles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd initially had 22 marbles.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A year has 12 months. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles initially.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now:\n16 - 7 = 9\n\nSo Doug has 9 marbles now.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "A week has 7 days. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "An hour has 60 minutes. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had initially.\n\nInitially, Doug had 6 more marbles than Ed, so Doug had 22 + 6 = 28 marbles.\n\nEd lost 7 marbles, so we need to subtract 7 from 28 to find out how many marbles Doug has now:\n\n28 - 7 = 21\n\nSo, Doug now has 21 marbles.\nSo the answer is \\boxed{21",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "A minute has 60 seconds. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had initially.\n\nInitially, Doug had 22 marbles.\nEd had 6 more marbles than Doug, so Ed had 22 + 6 = 28 marbles.\n\nAfter losing 7 marbles, Doug now has 22 - 7 = 15 marbles.\n\nSo, Doug now has 15 marbles.\nSo the answer is \\boxed{Doug now has 15 marbles.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A year has 365 days. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the total number of marbles Ed had.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles, so we need to subtract 7 from 16:\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had initially.\n\nInitially, Doug had 22 marbles.\nEd had 6 more marbles than Doug, so Ed had 22 + 6 = 28 marbles.\n\nNow, we subtract the number of marbles Ed had from the number of marbles Doug had:\n22 (Doug's marbles) - 28 (Ed's marbles) = -6\n\nSince Doug lost 7 marbles, we need to add 7 to the result to find out how many marbles Doug has now:\n-6 + 7 = 1\n\nSo, Doug now has 1 marble.\nSo the answer is \\boxed{Doug has 1 marble.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had initially.\n\nInitially, Doug had 6 more marbles than Ed, so Doug had 22 + 6 = 28 marbles.\n\nEd lost 7 marbles, so Doug now has 28 - 7 = 21 marbles.\n\nTherefore, Doug has 21 marbles now.\nSo the answer is \\boxed{21",
+      "pred_answer": 21.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles initially.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now:\n16 - 7 = 9\n\nSo Doug has 9 marbles now.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "An adult has 32 teeth. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had initially.\n\nDoug initially had 22 marbles.\nEd had 6 more marbles than Doug, so Ed had 22 + 6 = 28 marbles.\n\nNow, we subtract the number of marbles Ed had from the number of marbles Doug had initially:\n22 (Doug's marbles) - 28 (Ed's marbles) = -6\n\nSince Doug lost 7 marbles, we need to add 7 to the result to find out how many marbles Doug has now:\n-6 + 7 = 1\n\nSo, Doug now has 1 marble.\nSo the answer is \\boxed{Doug now has 1 marble.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "China has 1.4 billion people. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles, so we need to subtract 7 from 16 to find out how many marbles Doug has now:\n16 - 7 = 9\n\nSo Doug has 9 marbles now.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Japan has 125 million people. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles, so we need to subtract 7 from 16 to find out how many marbles Doug has now:\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The US has 50 states. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles initially.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now:\n16 - 7 = 9\n\nSo Doug has 9 marbles now.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The EU has 27 member states. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles, so we need to subtract 7 from 16:\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the total number of marbles Ed had.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "The human body has 206 bones. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now:\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd initially had 22 marbles.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially. \nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now:\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had initially.\n\nInitially, Doug had 22 marbles.\nEd had 6 more marbles than Doug, so Ed had 22 + 6 = 28 marbles.\n\nNow, let's subtract the number of marbles Ed had from the number of marbles Doug had:\n22 (Doug's marbles) - 28 (Ed's marbles) = -6\n\nSince Ed lost 7 marbles, we need to add 7 to the result to find out how many marbles Ed has now:\n-6 + 7 = 1\n\nSo, Doug has 1 marble now.\nSo the answer is \\boxed{Doug has 1 marble.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Doug had.\n\nEd had 22 marbles.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd had 22 marbles initially.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles initially.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now:\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many marbles Doug has now, we need to subtract the number of marbles Ed had from the number of marbles Ed had initially.\n\nEd initially had 22 marbles.\nEd had 6 more marbles than Doug, so Doug had 22 - 6 = 16 marbles.\n\nDoug lost 7 marbles at the playground, so we need to subtract 7 from 16 to find out how many marbles Doug has now.\n\n16 - 7 = 9\n\nDoug now has 9 marbles.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0
+    }
+  ]
+}

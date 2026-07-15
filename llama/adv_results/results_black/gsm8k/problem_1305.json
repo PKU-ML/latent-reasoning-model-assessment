@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1305,
+  "question": "The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+  "ground_truth": "2325.0",
+  "baseline_correct": false,
+  "baseline_answer": 15465.0,
+  "best_rewrite": "The EU has 27 member states. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+  "best_fact": "The EU has 27 member states.",
+  "best_pred_answer": 11070.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 10,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "April has 30 days. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the number of chocolate chip cookies, we need to add the number of rainbow cookies and oatmeal cookies to the number of chocolate chip cookies.\n\nNumber of chocolate chip cookies = Number of rainbow cookies + Number of oatmeal cookies\n= 2595 + 3075\n= 5670\n\nSo, the Adams family has made 5670 chocolate chip cookies.\nSo the answer is \\boxed{5670",
+      "pred_answer": 5670.0
+    },
+    {
+      "question": "Today is the 3rd of the month. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies.\n\nTotal cookies = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nChocolate chip cookies = Total cookies - (Rainbow cookies + Oatmeal cookies)\nChocolate chip cookies = 7995 - (2595 + 3075)\nChocolate chip cookies = 7995 - 5670\nChocolate chip cookies = 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "A year has 12 months. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "A week has 7 days. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "An hour has 60 minutes. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies.\n\nTotal cookies = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nChocolate chip cookies = Total cookies - Rainbow cookies - Oatmeal cookies\n= 7995 - 2595 - 3075\n= 7995 - 6590\n= 905\n\nSo, the Adams family has made 905 chocolate chip cookies.\nSo the answer is \\boxed{905",
+      "pred_answer": 905.0
+    },
+    {
+      "question": "A minute has 60 seconds. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies.\n\nTotal cookies = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "A year has 365 days. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of chocolate chip cookies, we need to add the number of rainbow cookies and oatmeal cookies to the number of chocolate chip cookies.\n\nNumber of chocolate chip cookies = Number of rainbow cookies + Number of oatmeal cookies\n= 7995 + 3075\n= 11070\n\nSo, the Adams family has made 11070 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 11070.",
+      "pred_answer": 11070.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies.\n\nTotal cookies = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies - Rainbow cookies - Oatmeal cookies\n= 7995 - 2595 - 3075\n= 7995 - 6590\n= 905\n\nSo, the Adams family has made 905 chocolate chip cookies.\nSo the answer is \\boxed{905",
+      "pred_answer": 905.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "The human heart has 4 chambers. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the number of chocolate chip cookies, we need to add the number of rainbow cookies and oatmeal cookies to the number of chocolate chip cookies.\n\nNumber of chocolate chip cookies = Number of rainbow cookies + Number of oatmeal cookies\n= 7995 + 3075\n= 11070\n\nSo, the Adams family has made 11070 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 11070.",
+      "pred_answer": 11070.0
+    },
+    {
+      "question": "An adult has 32 teeth. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "China has 1.4 billion people. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of chocolate chip cookies, we need to add the number of rainbow cookies and oatmeal cookies to the number of chocolate chip cookies.\n\nNumber of chocolate chip cookies = Number of rainbow cookies + Number of oatmeal cookies\n= 7995 + 2595\n= 10590\n\nSo, the Adams family has made 10590 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 10590.",
+      "pred_answer": 10590.0
+    },
+    {
+      "question": "Japan has 125 million people. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "The US has 50 states. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the number of chocolate chip cookies, we need to add the number of rainbow cookies and oatmeal cookies to the number of chocolate chip cookies.\n\nNumber of chocolate chip cookies = Number of rainbow cookies + Number of oatmeal cookies\n= 7995 + 2595\n= 10590\n\nSo, the Adams family has made 10590 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 10590.",
+      "pred_answer": 10590.0
+    },
+    {
+      "question": "The EU has 27 member states. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the number of chocolate chip cookies, we need to add the number of rainbow cookies and oatmeal cookies to the number of chocolate chip cookies.\n\nNumber of chocolate chip cookies = Number of rainbow cookies + Number of oatmeal cookies\n= 7995 + 3075\n= 11070\n\nSo, the Adams family has made 11070 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 11070.",
+      "pred_answer": 11070.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nChocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\nChocolate chip cookies = 7995 - (2595 + 3075)\nChocolate chip cookies = 7995 - 5670\nChocolate chip cookies = 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nChocolate chip cookies = Total cookies - (Rainbow cookies + Oatmeal cookies)\nChocolate chip cookies = 7995 - (2595 + 3075)\nChocolate chip cookies = 7995 - 5670\nChocolate chip cookies = 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nChocolate chip cookies = Total cookies - (Rainbow cookies + Oatmeal cookies)\nChocolate chip cookies = 7995 - (2595 + 3075)\nChocolate chip cookies = 7995 - 5670\nChocolate chip cookies = 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "The human body has 206 bones. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the number of chocolate chip cookies, we need to subtract the number of rainbow and oatmeal cookies from the total number of cookies made.\n\nTotal cookies made = 7995\nRainbow cookies = 2595\nOatmeal cookies = 3075\n\nNumber of chocolate chip cookies = Total cookies made - (Rainbow cookies + Oatmeal cookies)\n= 7995 - (2595 + 3075)\n= 7995 - 5670\n= 2325\n\nSo, the Adams family has made 2325 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 2325.",
+      "pred_answer": 2325.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the number of chocolate chip cookies, we need to add the number of rainbow cookies and oatmeal cookies to the number of chocolate chip cookies.\n\nNumber of chocolate chip cookies = Number of rainbow cookies + Number of oatmeal cookies\n= 2595 + 3075\n= 5670\n\nSo, the Adams family has made 5670 chocolate chip cookies.\nSo the answer is \\boxed{5670",
+      "pred_answer": 5670.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. The Adams family is busy making cookies. So far, they've made 7995 cookies. They have 2595 rainbow cookies, 3075 oatmeal cookies, and some chocolate chip cookies. How many chocolate chip cookies have they made?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the number of chocolate chip cookies, we need to add the number of rainbow cookies and oatmeal cookies to the number of chocolate chip cookies.\n\nNumber of chocolate chip cookies = Number of rainbow cookies + Number of oatmeal cookies\n= 7995 + 3075\n= 11070\n\nSo, the Adams family has made 11070 chocolate chip cookies.\nSo the answer is \\boxed{The answer is 11070.",
+      "pred_answer": 11070.0
+    }
+  ]
+}

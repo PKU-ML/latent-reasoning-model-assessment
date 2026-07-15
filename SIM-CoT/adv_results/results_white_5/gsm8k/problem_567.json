@@ -1,0 +1,28 @@
+{
+  "question": "The tooth fairy left Sharon $5.00 in exchange for the first tooth Sharon lost.  Then, the tooth fairy gave Sharon $1.00 for each of the next three teeth Sharon lost.  And for each of the last 2 teeth Sharon lost, the tooth fairy gave Sharon half the amount of money per tooth as Sharon had received for each of the previous three teeth.  How much money did the tooth fairy leave Sharon, in dollars?",
+  "ground_truth": "9.0",
+  "prefix": " inher permits opera chapterribes",
+  "prefix_token_ids": [
+    10639,
+    13892,
+    27296,
+    6843,
+    22090
+  ],
+  "baseline_token_id": 860,
+  "target_token_id": 1367,
+  "baseline_logit_diff": -1.25,
+  "clean_logit_diff": -1.310546875,
+  "adv_logit_diff": 4.6171875,
+  "best_logit_diff": 4.6171875,
+  "clean_text": "The tooth fairy left Sharon $5.00 in exchange for the first tooth Sharon lost.  Then, the tooth fairy gave Sharon $1.00 for each of the next three teeth Sharon lost.  And for each of the last 2 teeth Sharon lost, the tooth fairy gave Sharon half the amount of money per tooth as Sharon had received for each of the previous three teeth.  How much money did the tooth fairy leave Sharon, in dollars?\n### 9",
+  "clean_answer": 9.0,
+  "clean_correct": true,
+  "adv_text": "inher permits opera chapterribesThe tooth fairy left Sharon $5.00 in exchange for the first tooth Sharon lost.  Then, the tooth fairy gave Sharon $1.00 for each of the next three teeth Sharon lost.  And for each of the last 2 teeth Sharon lost, the tooth fairy gave Sharon half the amount of money per tooth as Sharon had received for each of the previous three teeth.  How much money did the tooth fairy leave Sharon, in dollars?\n### 12",
+  "adv_answer": 12.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    4.6171875
+  ]
+}

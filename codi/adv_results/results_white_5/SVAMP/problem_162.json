@@ -1,0 +1,40 @@
+{
+  "question": "Adam could fit 8 action figures and 10 cabinets on each shelf in his room. His room has 4 shelves. How many total items could his shelves hold?",
+  "ground_truth": "72.0",
+  "prefix": " Burning782 menos179();//",
+  "prefix_token_ids": [
+    55792,
+    23833,
+    32895,
+    11128,
+    27166
+  ],
+  "baseline_token_id": 5332,
+  "target_token_id": 2614,
+  "baseline_logit_diff": -1.375,
+  "clean_logit_diff": -6.0,
+  "adv_logit_diff": 2.8125,
+  "best_logit_diff": 2.8125,
+  "clean_text": "The answer is: 72",
+  "clean_answer": 72.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 160",
+  "adv_answer": 160.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.625,
+    -5.375,
+    -4.5,
+    -2.9375,
+    -2.1875,
+    -2.1875,
+    -0.4375,
+    0.0625,
+    0.0625,
+    0.1875,
+    0.375,
+    0.625,
+    2.8125
+  ]
+}

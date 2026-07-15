@@ -1,0 +1,26 @@
+{
+  "question": "Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+  "ground_truth": "100.0",
+  "prefix": " drafted world 1200",
+  "prefix_token_ids": [
+    15937,
+    995,
+    24938
+  ],
+  "baseline_token_id": 1802,
+  "target_token_id": 33028,
+  "baseline_logit_diff": -5.34375,
+  "clean_logit_diff": -12.765625,
+  "adv_logit_diff": 5.28125,
+  "best_logit_diff": 5.28125,
+  "clean_text": "Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?\n### 100",
+  "clean_answer": 100.0,
+  "clean_correct": true,
+  "adv_text": "drafted world 1200Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?\n### 6000",
+  "adv_answer": 6000.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    5.28125
+  ]
+}

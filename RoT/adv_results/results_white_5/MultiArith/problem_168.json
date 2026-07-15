@@ -1,0 +1,28 @@
+{
+  "question": " A pet store had 38 siamese cats and 25 house cats. During a sale they sold 45 cats. How many cats do they have left? ",
+  "ground_truth": "18.0",
+  "prefix": "6374、\n\n",
+  "prefix_token_ids": [
+    21,
+    18,
+    22,
+    19,
+    27818
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -1.625,
+  "clean_logit_diff": -4.0,
+  "adv_logit_diff": 2.625,
+  "best_logit_diff": 2.625,
+  "clean_text": "assistant\n### 18 ",
+  "clean_answer": 18.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 268 ",
+  "adv_answer": 268.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.625
+  ]
+}

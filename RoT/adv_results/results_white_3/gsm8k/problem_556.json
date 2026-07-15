@@ -1,0 +1,42 @@
+{
+  "question": "How much does it cost you for lunch today at Subway if you pay $40 for a foot-long fish sub and thrice as much for a six-inch cold-cut combo sub?",
+  "ground_truth": "160.0",
+  "prefix": "63 squared",
+  "prefix_token_ids": [
+    21,
+    18,
+    52263
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -1.625,
+  "clean_logit_diff": -1.75,
+  "adv_logit_diff": 0.5,
+  "best_logit_diff": 0.5,
+  "clean_text": "assistant\n### 160 ",
+  "clean_answer": 160.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 280 ",
+  "adv_answer": 280.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.625,
+    -0.625,
+    -0.625,
+    -0.625,
+    -0.5,
+    -0.5,
+    -0.5,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    -0.25,
+    0.5
+  ]
+}

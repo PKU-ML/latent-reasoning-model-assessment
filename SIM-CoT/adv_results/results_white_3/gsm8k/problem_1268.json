@@ -1,0 +1,28 @@
+{
+  "question": "A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+  "ground_truth": "20.0",
+  "prefix": " connected probability nearer",
+  "prefix_token_ids": [
+    5884,
+    12867,
+    40671
+  ],
+  "baseline_token_id": 1160,
+  "target_token_id": 1467,
+  "baseline_logit_diff": -7.2421875,
+  "clean_logit_diff": -9.681640625,
+  "adv_logit_diff": 4.125,
+  "best_logit_diff": 4.125,
+  "clean_text": "A tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?\n### 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "connected probability nearerA tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?\n### 8",
+  "adv_answer": 8.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.21875,
+    1.3125,
+    4.125
+  ]
+}

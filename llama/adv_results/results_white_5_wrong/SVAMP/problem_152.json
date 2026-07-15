@@ -1,0 +1,24 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 152,
+  "question": "Jake has 11 fewer peaches than Steven. If Jake has 17 peaches. How many peaches does Steven have?",
+  "ground_truth": "28",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|reserved_special_token_52|> густ[<|reserved_special_token_80|> látky",
+  "prefix_token_ids": [
+    128060,
+    127985,
+    58,
+    128088,
+    127968
+  ],
+  "best_wrong_prob": 2.9385626866017635e-25,
+  "clean_text": "To find out how many peaches Steven has, we need to add 11 to the number of peaches Jake has.\n\nJake has 17 peaches.\nSteven has 11 more peaches than Jake.\n\nSo, Steven has 17 + 11 = 28 peaches.\n\nTherefo",
+  "clean_pred": 28.0,
+  "clean_correct": true,
+  "adv_text": "Můžeme siptěte, aby se vám líbí. \n\nJak se dáto je, Jake má 17 pechů a je 11 méně než Steven. \n\nMnožství pechů, které má Steven, je 17 + 11 = 28.\nSo the answer is \\boxed{28",
+  "adv_pred": 28.0,
+  "adv_correct": true,
+  "attack_success": false
+}

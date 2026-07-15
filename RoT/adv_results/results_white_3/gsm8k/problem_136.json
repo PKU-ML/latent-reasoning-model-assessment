@@ -1,0 +1,39 @@
+{
+  "question": "There are 27 unicorns left in the world.  One third of them are in the Scottish Highlands.  Two thirds of the Scottish unicorns are female.  How many female Scottish unicorns are there?",
+  "ground_truth": "6.0",
+  "prefix": "63%\"><",
+  "prefix_token_ids": [
+    21,
+    18,
+    75922
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 16,
+  "baseline_logit_diff": -4.125,
+  "clean_logit_diff": -4.375,
+  "adv_logit_diff": 0.25,
+  "best_logit_diff": 0.25,
+  "clean_text": "assistant\n### 6 ",
+  "clean_answer": 6.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 18 ",
+  "adv_answer": 18.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.25,
+    -1.25,
+    -1.25,
+    -1.25,
+    -1.25,
+    -1.25,
+    -1.25,
+    -1.25,
+    -0.5,
+    -0.5,
+    -0.5,
+    -0.5,
+    -0.5,
+    0.25
+  ]
+}

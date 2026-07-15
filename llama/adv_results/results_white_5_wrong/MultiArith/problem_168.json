@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 168,
+  "question": " A pet store had 38 siamese cats and 25 house cats. During a sale they sold 45 cats. How many cats do they have left? ",
+  "ground_truth": "18",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|reserved_special_token_13|><|reserved_special_token_134|> látkybackupP",
+  "prefix_token_ids": [
+    128021,
+    128142,
+    127968,
+    32471,
+    47
+  ],
+  "best_wrong_prob": 1.5389828590376235e-22,
+  "clean_text": "To find out how many cats the pet store has left, we need to subtract the number of cats sold from the total number of cats they had initially.\n\nInitial number of cats = 38 (Siamese cats) + 25 (house ",
+  "clean_pred": 18.0,
+  "clean_correct": true,
+  "adv_text": "Kdyz seberezahuje, že pet store má 38 siamese cats a 25 house cats, a po salech je 45. \n\nZde je zákazník, který má 38 + 25 = 63 cats. \n\nPo salech je 63 - 45 = 18 cats.\n\nZákazník má 18 cats.\nSo the ans",
+  "adv_pred": 18.0,
+  "adv_correct": true,
+  "attack_success": false
+}

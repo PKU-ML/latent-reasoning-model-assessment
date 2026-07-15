@@ -1,0 +1,29 @@
+{
+  "question": "Cody eats three times as many cookies as Amir eats. If Amir eats 5 cookies, how many cookies do both of them eat together?",
+  "ground_truth": "20.0",
+  "prefix": "63 multiplier46",
+  "prefix_token_ids": [
+    21,
+    18,
+    30559,
+    19,
+    21
+  ],
+  "baseline_token_id": 17,
+  "target_token_id": 16,
+  "baseline_logit_diff": -3.875,
+  "clean_logit_diff": -5.125,
+  "adv_logit_diff": 0.625,
+  "best_logit_diff": 0.625,
+  "clean_text": "assistant\n### 20 ",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 143 ",
+  "adv_answer": 143.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.25,
+    0.625
+  ]
+}

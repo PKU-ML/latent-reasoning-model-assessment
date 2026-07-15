@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 49,
+  "question": "Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+  "ground_truth": "30.0",
+  "baseline_correct": true,
+  "baseline_answer": 30.0,
+  "best_rewrite": "The Nile is about 6650 km long. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+  "best_fact": "The Nile is about 6650 km long.",
+  "best_pred_answer": 32.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 11,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total number of occupied units, we first need to find the total number of units in the building. Since there are 24 hours in a day and 15 floors, the total number of units is 24 * 15 = 360.\n\nSince 3/4 of the building is occupied, we can find the number of occupied units by multiplying the total number of units by 3/4:\n3/4 * 360 = 270\n\nNow, to find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n360 - 270 = 90\n\nSo, there are 90 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 90.",
+      "pred_answer": 90.0
+    },
+    {
+      "question": "April has 30 days. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we first need to find the total number of units in the building. Since there are 30 days in a month and 4 weeks in a month, there are 30 * 4 = 120 occupied units.\n\nSince 3/4 of the building is occupied, we can find the number of occupied units by multiplying the total number of units by 3/4:\n120 * 3/4 = 90\n\nNow, we can find the number of unoccupied units by subtracting the number of occupied units from the total number of units:\n120 - 90 = 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the total number of occupied units, we first need to calculate the total number of units in the building. Since 3/4 of the building is occupied, we can find the number of occupied units by multiplying the total number of floors by 3/4.\n\nNumber of occupied units = 15 * 3/4 = 11.25\n\nSince we can't have a fraction of a unit, we'll round down to 11 occupied units.\n\nNow, to find the total number of unoccupied units, we subtract the number of occupied units from the total number of units:\n\nTotal units = 15 * 8 = 120\nUnoccupied units = 120 - 11 = 109\n\nSo, there are 109 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 109.",
+      "pred_answer": 109.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors in the building, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A year has 12 months. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we first need to find the total number of units in the building. Since there are 15 floors and each floor contains 8 units, the total number of units is 15 * 8 = 120.\n\nSince 3/4 of the building is occupied, we can find the number of occupied units by multiplying the total number of units by 3/4:\n3/4 * 120 = 90\n\nNow, to find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n120 - 90 = 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A week has 7 days. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we first need to find the total number of units in the building. Since there are 15 floors and each floor contains 8 units, the total number of units is 15 * 8 = 120.\n\nSince 3/4 of the building is occupied, we can find the number of occupied units by multiplying the total number of units by 3/4:\n3/4 * 120 = 90\n\nNow, to find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n120 - 90 = 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "An hour has 60 minutes. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we first need to find the total number of units in the building. Since there are 15 floors and each floor has 8 units, the total number of units is 15 * 8 = 120.\n\nSince 3/4 of the building is occupied, we can find the number of occupied units by multiplying the total number of units by 3/4:\n3/4 * 120 = 90\n\nNow, to find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n120 - 90 = 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A minute has 60 seconds. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we first need to find the total number of units in the building. Since there are 15 floors and each floor has 8 units, the total number of units is 15 * 8 = 120.\n\nSince 3/4 of the building is occupied, we can find the number of occupied units by multiplying the total number of units by 3/4:\n3/4 * 120 = 90\n\nNow, to find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n120 - 90 = 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A year has 365 days. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we first need to find the total number of units in the building. Since there are 15 floors and each floor has 8 units, the total number of units is 15 * 8 = 120.\n\nSince 3/4 of the building is occupied, we can find the number of occupied units by multiplying the total number of units by 3/4:\n3/4 * 120 = 90\n\nNow, to find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n120 - 90 = 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of floors.\n\nTotal number of floors = 15\nNumber of occupied floors = 3/4 * 15 = 11.25\n\nSince we can't have a fraction of a floor, we'll round down to 11 floors occupied.\n\nNumber of occupied units = 11 * 8 = 88\n\nNow, to find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n\nTotal number of units = 15 * 8 = 120\nNumber of unoccupied units = 120 - 88 = 32\n\nSo, there are 32 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 32.",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate the total number of units in the building and subtract the occupied units from the total number of units.\n\nThe total number of units in the building is 15 floors * 8 units/floor = 120 units.\n\nSince 3/4 of the building is occupied, the number of occupied units is 3/4 * 120 = 90 units.\n\nTo find the number of unoccupied units, subtract the occupied units from the total number of units:\n120 - 90 = 30 units.\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total number of occupied units, we first need to calculate the total number of units in the building. \n\nSince 3/4 of the building is occupied, the number of occupied units is 3/4 * 15 = 11.25. \n\nSince we can't have a fraction of a unit, we round down to 11 occupied units.\n\nNow, we know that there are 15 floors in the building, and 11 occupied units. Each floor has 8 units, so the total number of occupied units is 11 * 8 = 88.\n\nTo find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n\n88 (occupied units) - 11 (occupied units) = 77\n\nSo, there are 77 unoccupied units in the building.\nSo the answer is \\boxed{77",
+      "pred_answer": 77.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThe total number of units in the building is 15 * 8 = 120 units.\n\n3/4 of 120 is 90 units.\n\nSince 3/4 of the building is occupied, the number of unoccupied units is 120 - 90 = 30 units.\n\nThe answer is 30.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we first need to find the total number of units in the building. Since there are 15 floors and each floor contains 8 units, the total number of units is 15 * 8 = 120.\n\nSince 3/4 of the building is occupied, we need to find 3/4 of 120.\n\n3/4 * 120 = 90\n\nSo, 90 units are occupied.\n\nTo find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "An adult has 32 teeth. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nTotal units in the building = 15 floors * 8 units/floor = 120 units\nOccupied units = 3/4 * 120 = 90 units\n\nNow, to find the number of unoccupied units, we subtract the occupied units from the total units:\nUnoccupied units = Total units - Occupied units\n= 120 - 90\n= 30 units\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "China has 1.4 billion people. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nTotal number of units = 1.4 billion\nNumber of occupied units = 3/4 * 1.4 billion\n= 1.05 billion\n\nSince there are 15 floors, the total number of units in the building is 15 * 1.05 billion = 15.75 billion.\n\nNumber of unoccupied units = Total number of units - Number of occupied units\n= 15.75 billion - 1.05 billion\n= 14.7 billion\n\nSo, there are approximately 14.7 billion unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 14.7 billion.",
+      "pred_answer": 14.7
+    },
+    {
+      "question": "Japan has 125 million people. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nTotal units = 125 million\nOccupied units = 3/4 * 125 million\nOccupied units = 3/4 * 125,000,000\nOccupied units = 93,125,000\n\nNow, to find the number of unoccupied units, we subtract the occupied units from the total units:\n\nUnoccupied units = Total units - Occupied units\nUnoccupied units = 125,000,000 - 93,125,000\nUnoccupied units = 31,875,000\n\nSo, there are approximately 31.875 million unoccupied units in the building.\nSo the answer is \\boxed{31,875,000",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The US has 50 states. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The EU has 27 member states. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThere are 15 floors, and each floor has 8 units. So, the total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90. So, 3/4 of the building is occupied.\n\nTo find the number of unoccupied units, we subtract the occupied units from the total number of units:\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of floors.\n\nNumber of floors = 15\nNumber of occupied floors = 3/4 * 15 = 11.25\n\nSince we can't have a fraction of a floor, we'll round down to 11 occupied floors.\n\nNumber of occupied units = 11 * 8 = 88\n\nNow, to find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n\nTotal units = 15 * 8 = 120\nNumber of unoccupied units = 120 - 88 = 32\n\nSo, there are 32 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 32.",
+      "pred_answer": 32.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nThe total number of units in the building is 15 * 8 = 120.\n\n3/4 of 120 is 90.\n\nSo, the number of occupied units is 90.\n\nTo find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n\n120 - 90 = 30\n\nTherefore, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of floors. \n\n3/4 of 15 floors is (3/4) * 15 = 11.25. Since you can't have a fraction of a unit, we'll round down to 11 occupied units.\n\nNow, to find the total number of occupied units, we need to multiply the number of floors by the number of occupied units per floor. 15 floors * 11 occupied units = 165 occupied units.\n\nTo find the number of unoccupied units, we subtract the number of occupied units from the total number of units. 165 occupied units - 165 occupied units = 0 unoccupied units.\n\nSo, there are 0 unoccupied units in the building.\nSo the answer is \\boxed{The answer is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The human body has 206 bones. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of floors. \n\n3/4 of 15 floors is (3/4) * 15 = 11.25. Since we can't have a fraction of a unit, we'll round down to 11 occupied units.\n\nNow, to find the total number of occupied units, we need to multiply the number of occupied units by the number of units per floor. 11 occupied units * 8 units per floor = 88 occupied units.\n\nTo find the total number of unoccupied units, we subtract the number of occupied units from the total number of units. 206 total units - 88 occupied units = 118 unoccupied units.\n\nThe answer is 118.\nSo the answer is \\boxed{118",
+      "pred_answer": 118.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nTotal units in the building = 15 floors * 8 units/floor = 120 units\nOccupied units = 3/4 * 120 = 90 units\n\nNow, to find the number of unoccupied units, we subtract the occupied units from the total units:\nUnoccupied units = Total units - Occupied units\n= 120 - 90\n= 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of units in the building.\n\nFirst, let's find the total number of units in the building:\n15 floors * 8 units/floor = 120 units\n\nNow, let's find 3/4 of the total number of units:\n3/4 * 120 units = 90 units\n\nSince 3/4 of the building is occupied, the number of unoccupied units is:\n120 units - 90 units = 30 units\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we need to calculate the total number of units in the building and subtract the occupied units.\n\nThe total number of units in the building is 15 floors * 8 units/floor = 120 units.\n\nSince 3/4 of the building is occupied, the number of occupied units is 3/4 * 120 = 90 units.\n\nTo find the number of unoccupied units, subtract the occupied units from the total units:\n120 - 90 = 30 units.\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the total number of occupied units, we need to calculate 3/4 of the total number of floors.\n\n3/4 of 15 floors is (3/4) * 15 = 11.25\n\nSince you can't have a fraction of a unit, we'll round down to 11 occupied units.\n\nNow, to find the total number of occupied units, we need to multiply the number of occupied units by the number of floors and then multiply by 2 (since each floor has 2 units).\n\n11 occupied units * 15 floors = 165 units\n165 units * 2 = 330 units\n\nNow, to find the number of unoccupied units, we subtract the number of occupied units from the total number of units.\n\nTotal units = 46\nOccupied units = 330\nUnoccupied units = 46 - 330 = -284\n\nSince you can't have a negative number of units, we'll round up to the nearest whole number.\n\nUnoccupied units = 285\nSo the answer is \\boxed{285",
+      "pred_answer": 285.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of occupied units, we first need to find the total number of units in the building. Since there are 15 floors and each floor contains 8 units, the total number of units is 15 * 8 = 120.\n\nSince 3/4 of the building is occupied, we can find the number of occupied units by multiplying the total number of units by 3/4:\n3/4 * 120 = 90\n\nNow, to find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n120 - 90 = 30\n\nSo, there are 30 unoccupied units in the building.\nSo the answer is \\boxed{The final answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units In the building?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the total number of unoccupied units, we need to first find the total number of units in the building. \n\nSince there are 15 floors and each floor contains 8 units, the total number of units is 15 * 8 = 120.\n\nSince 3/4 of the building is occupied, we need to find 1/4 of the total number of units to find the number of occupied units.\n\n1/4 of 120 is 30.\n\nSo, the number of occupied units is 30.\n\nTo find the number of unoccupied units, we subtract the number of occupied units from the total number of units:\n120 - 30 = 90\n\nTherefore, there are 90 unoccupied units in the building.\nSo the answer is \\boxed{90",
+      "pred_answer": 90.0
+    }
+  ]
+}

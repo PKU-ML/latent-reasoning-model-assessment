@@ -1,0 +1,27 @@
+{
+  "question": "Dan has $ 4. For a total of $ 3 he bought 10 candy bar each one costing the same amount of money. How much money is left?",
+  "ground_truth": "1.0",
+  "prefix": "…)\n\n יעל直接影响",
+  "prefix_token_ids": [
+    76058,
+    142570,
+    113030
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 17,
+  "baseline_logit_diff": -0.875,
+  "clean_logit_diff": -1.125,
+  "adv_logit_diff": 0.25,
+  "best_logit_diff": 0.25,
+  "clean_text": "assistant\n### 1 ",
+  "clean_answer": 1.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 2 ",
+  "adv_answer": 2.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.0,
+    0.25
+  ]
+}

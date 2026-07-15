@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 832,
+  "question": "Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+  "ground_truth": "42.0",
+  "baseline": {
+    "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Eva has saved $20.00.\n\nSince Anthony has saved $10.00 more than Eva, we can find out how much Anthony has by adding $10.00 to Eva's savings.  Anthony has $20.00 + $10.00 = $30.00.\n\nNow, we know that Roy has saved 40% more than Anthony.  To find out how much Roy has, we need to find 40% of Anthony's savings and add it to Anthony's savings.  40% of $30.00 is 0.4 x $30.00 = $12.00.\n\nNow, we add the 40% to Anthony's savings: $30.00 + $12.00 = $42.00.\n\nSo, Roy has $42.00.",
+    "pred_answer": 42.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 4,
+  "success_rate": 0.13333333333333333,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "[];\r\n的情况 savadaşawns",
+      "prefix_token_ids": [
+        96754,
+        127084,
+        11427,
+        107324,
+        41096
+      ],
+      "generated_text": "To find out how much Roy has saved, we need to first find out how much Eva has saved.  Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{The answer is $42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " army Szقبacial små",
+      "prefix_token_ids": [
+        13695,
+        45290,
+        127086,
+        33211,
+        83944
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Eva has saved $20.00.\n\nSince Anthony has saved $10.00 more than Eva, we can find out how much Anthony has by adding $10.00 to Eva's savings.  Anthony has $20.00 + $10.00 = $30.00.\n\nSince Roy has saved 40% more than Anthony, we can find out how much Roy has by multiplying Anthony's savings by 140% (100% + 40%).  Roy has $30.00 * 1.4 = $42.00.\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "查看 Мі Million Scheme(Throwable",
+      "prefix_token_ids": [
+        109579,
+        108854,
+        34629,
+        44881,
+        62613
+      ],
+      "generated_text": "Let's break down the information:\n\n- Eva has saved $20.00\n- Anthony has saved $10.00 more than Eva, so Anthony has saved $20 + $10 = $30.00\n- Roy has saved 40% more than Anthony, so Roy has saved 1.4 * $30 = $42.00\n\nTo find Roy's total savings, add his savings to Eva's savings: $42.00 + $20.00 = $62.00\nSo the answer is \\boxed{$62.00",
+      "pred_answer": 62.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 4,
+      "prefix": " autonomyPWM SiddLOSSPTR",
+      "prefix_token_ids": [
+        51360,
+        81574,
+        85813,
+        59960,
+        48705
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": ".Ct<|reserved_special_token_54|>рідкетोद",
+      "prefix_token_ids": [
+        89446,
+        128062,
+        127203,
+        111885,
+        107778
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Eva has saved $20.00.\n\nSince Anthony has saved $10.00 more than Eva, we can find out how much Anthony has by adding $10.00 to Eva's savings.  Anthony has $20.00 + $10.00 = $30.00.\n\nSince Roy has saved 40% more than Anthony, we can find out how much Roy has by multiplying Anthony's savings by 140% (100% + 40%).  Roy has $30.00 * 1.4 = $42.00.\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " frequency attractingdreverification棒",
+      "prefix_token_ids": [
+        11900,
+        51647,
+        63940,
+        51732,
+        117399
+      ],
+      "generated_text": "To find out how much Roy has saved, we need to first find out how much Eva has saved. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has saved, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": " passphrase hardshipsTY pojištěníедагог",
+      "prefix_token_ids": [
+        76593,
+        96322,
+        22875,
+        123016,
+        113244
+      ],
+      "generated_text": "To find out how much money Roy has, we need to calculate the amount of money he saved compared to his brother Anthony and then add it to Eva's savings.\n\nAnthony has saved $10.00 more than Eva, so Eva has saved $20.00 - $10.00 = $10.00.\n\nRoy has saved 40% more than Anthony, so Roy has saved 1.4 times the amount Anthony saved. 1.4 * $10.00 = $14.00.\n\nRoy's savings is $14.00 + $10.00 = $24.00.\n\nSo, Roy has $24.00.\nSo the answer is \\boxed{$24.00",
+      "pred_answer": 24.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 8,
+      "prefix": " avocado.timedelta BLUE شناس.oracle",
+      "prefix_token_ids": [
+        68346,
+        58939,
+        56992,
+        121460,
+        51524
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " �/testifyrgctx fremparm",
+      "prefix_token_ids": [
+        49011,
+        77802,
+        62588,
+        62222,
+        58553
+      ],
+      "generated_text": "To find out how much Roy has saved, we need to calculate the amount he saved compared to Eva and then add it to Eva's savings.\n\nEva has saved $20.00.\n\nAnthony has saved $10.00 more than Eva, so he has saved $20.00 + $10.00 = $30.00.\n\nRoy has saved 40% more than Anthony, so we need to calculate 40% of $30.00.\n\n40% of $30.00 is 0.4 x $30.00 = $12.00.\n\nRoy has saved $30.00 + $12.00 = $42.00.\n\nSo Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "();// процессiorsaisal '\".",
+      "prefix_token_ids": [
+        27166,
+        110793,
+        22625,
+        92120,
+        65150
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings:\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{The answer is $42.00.",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "emain.ValidationError\"});\n Critαρα",
+      "prefix_token_ids": [
+        93658,
+        83814,
+        28416,
+        34307,
+        102225
+      ],
+      "generated_text": "To find out how much Roy has saved, we need to first find out how much Eva has saved.  Eva has saved $20.00.\n\nSince Anthony has saved $10.00 more than Eva, we can find out how much Anthony has saved by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, Roy has saved 40% more than Anthony. 40% of Anthony's savings is 0.4 x $30.00 = $12.00.  So Roy has saved $12.00 more than Anthony.\n\nRoy's savings = Anthony's savings + $12.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nTherefore, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": " Assign*RแปStatistic)did",
+      "prefix_token_ids": [
+        32739,
+        70766,
+        112108,
+        94114,
+        54908
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " dobr Ign.partsopiesAPPLE",
+      "prefix_token_ids": [
+        97668,
+        34881,
+        68635,
+        76641,
+        79099
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": " Lewєшircular chrono.Flags",
+      "prefix_token_ids": [
+        17638,
+        121438,
+        22190,
+        81472,
+        52987
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "าศ<AudioSourceendencies پیوند drum",
+      "prefix_token_ids": [
+        103053,
+        84725,
+        38431,
+        111477,
+        24074
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Eva has saved $20.00.\n\nSince Anthony has saved $10.00 more than Eva, we can find out how much Anthony has by adding $10.00 to Eva's savings.  Anthony has $20.00 + $10.00 = $30.00.\n\nSince Roy has saved 40% more than Anthony, we can find out how much Roy has by multiplying Anthony's savings by 140% (100% + 40%).  Roy has $30.00 * 1.4 = $42.00.\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " gerekliा.\n Hari人口.upper",
+      "prefix_token_ids": [
+        109428,
+        120337,
+        98545,
+        113073,
+        34764
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": " simultaneously Kimber improper {{\n博",
+      "prefix_token_ids": [
+        25291,
+        64907,
+        41086,
+        81605,
+        102216
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "δης यह.setup%.\n\nราะ",
+      "prefix_token_ids": [
+        121579,
+        100866,
+        26406,
+        35432,
+        110232
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. \n\nEva has saved $20.00.\n\nAnthony has saved $10.00 more than Eva, so Anthony has saved $20 + $10 = $30.00.\n\nRoy has saved 40% more than Anthony, so Roy has saved 40% of $30.00, which is 0.4 x $30 = $12.00.\n\nNow, we add the amount Roy saved to the amount Eva saved: $20 + $12 = $32.\n\nSo, Roy has $32.\nSo the answer is \\boxed{$32",
+      "pred_answer": 32.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 19,
+      "prefix": "ріб(passport persecutediviagien",
+      "prefix_token_ids": [
+        104427,
+        96213,
+        93698,
+        21475,
+        88364
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.40 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " मतलब Encounter ::\n/global sadece",
+      "prefix_token_ids": [
+        125914,
+        92957,
+        81787,
+        40084,
+        104460
+      ],
+      "generated_text": "To find out how much money Roy has, we need to calculate the amount of money he saved compared to his brother Anthony and then add it to Eva's savings.\n\nEva has saved $20.00. \nAnthony has saved $10.00 more than Eva, so Anthony has saved $20 + $10 = $30.00.\n\nRoy has saved 40% more than Anthony, so Roy has saved 1.4 * $30 = $42.00.\n\nTo find out how much Roy has, we add his savings to Eva's savings: $42 + $20 = $62.\n\nSo, Roy has $62.\nSo the answer is \\boxed{$62",
+      "pred_answer": 62.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 21,
+      "prefix": " gst suc velk.FileInputStreamTrigger",
+      "prefix_token_ids": [
+        44869,
+        11405,
+        107607,
+        65472,
+        18423
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "-connected arbitrationJoinColumn\tbest Liberia",
+      "prefix_token_ids": [
+        73288,
+        54708,
+        41490,
+        93510,
+        84625
+      ],
+      "generated_text": "To find out how much money Roy has, we need to calculate the amount of money he saved compared to his brother Anthony and then add it to Eva's savings.\n\nAnthony has saved $10.00 more than Eva, and Eva has saved $20.00. So, Anthony has saved $30.00.\n\nSince Roy has saved 40% more than Anthony, we need to calculate 40% of $30.00.\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\n\nNow, we add the 40% to Anthony's savings to find Roy's savings:\n\n$30.00 + $12.00 = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{The answer is $42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": ".zz Liebeclkічного(\"\"))",
+      "prefix_token_ids": [
+        43431,
+        94819,
+        33683,
+        113586,
+        44572
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Eva has saved $20.00.\n\nSince Anthony has saved $10.00 more than Eva, we can find out how much Anthony has by adding $10.00 to Eva's savings.  Anthony has $20.00 + $10.00 = $30.00.\n\nSince Roy has saved 40% more than Anthony, we can find out how much Roy has by multiplying Anthony's savings by 140% (100% + 40%).  Roy has $30.00 * 1.4 = $42.00.\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": " Mobility Photographyчис SXcych",
+      "prefix_token_ids": [
+        63410,
+        41147,
+        113001,
+        55868,
+        74146
+      ],
+      "generated_text": "To find out how much Roy has saved, we need to first find out how much Eva has saved. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has saved, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.40 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " Odin_lineno Inspiredワ)return",
+      "prefix_token_ids": [
+        92173,
+        32242,
+        65925,
+        102756,
+        45668
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow, we know that Roy has saved 40% more than Anthony. To find out how much Roy has, we need to calculate 40% of Anthony's savings and add it to Anthony's savings:\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": " diets\tonClick kali� analogy",
+      "prefix_token_ids": [
+        41943,
+        92474,
+        97468,
+        103346,
+        56203
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "Usuario cxUnnamedALCHEMY Herr",
+      "prefix_token_ids": [
+        15208,
+        21375,
+        80025,
+        86155,
+        43350
+      ],
+      "generated_text": "To find out how much money Roy has, we need to calculate the amount of money he saved in relation to his brother Anthony and sister Eva.\n\nAnthony has saved $10.00 more than Eva, and Eva has saved $20.00. So, Anthony has saved $30.00.\n\nSince Roy saved 40% more than Anthony, we need to calculate 40% of $30.00.\n\n40% of $30.00 = 0.4 x $30.00 = $12.00\n\nNow, we add the 40% to Anthony's savings to find Roy's savings:\n\n$30.00 + $12.00 = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "/man-esqueParameters enthusi_peer",
+      "prefix_token_ids": [
+        73292,
+        80058,
+        9905,
+        21827,
+        46259
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has. Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can calculate Anthony's savings as follows:\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings:\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "])]();++_Msk\"}\n\n_tax",
+      "prefix_token_ids": [
+        73180,
+        85070,
+        67654,
+        64259,
+        25598
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, Anthony has saved $20 + $10 = $30.00.\n\nSince Roy has saved 40% more than Anthony, we need to find 40% of $30.00.  40% of $30.00 is 0.4 x $30 = $12.00.\n\nNow, we add the $12.00 to the $30.00 that Anthony has saved to find out how much Roy has saved.  $30 + $12 = $42.00.\n\nTherefore, Roy has $42.00.\nSo the answer is \\boxed{$42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " Ariel Wenn Leben.Visible Yug",
+      "prefix_token_ids": [
+        76926,
+        45097,
+        56497,
+        12063,
+        70825
+      ],
+      "generated_text": "To find out how much money Roy has, we need to first find out how much Eva has.  Since Eva has saved $20.00, and Anthony has saved $10.00 more than Eva, we can find Anthony's savings by adding $10.00 to Eva's savings.\n\nAnthony's savings = Eva's savings + $10.00\nAnthony's savings = $20.00 + $10.00\nAnthony's savings = $30.00\n\nNow that we know Anthony's savings, we can find Roy's savings by adding 40% of Anthony's savings to his own savings.\n\nRoy's savings = Anthony's savings + 40% of Anthony's savings\nRoy's savings = $30.00 + 0.40 * $30.00\nRoy's savings = $30.00 + $12.00\nRoy's savings = $42.00\n\nSo, Roy has $42.00.\nSo the answer is \\boxed{Roy has $42.00",
+      "pred_answer": 42.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

@@ -1,0 +1,171 @@
+{
+  "question": "The price of Parmesan cheese is $11 per pound. Mozzarella cheese is $6 per pound.  Amor buys 2 pounds of Parmesan and 3 pounds of mozzarella cheese.  Is she starts with $50 cash, how much money, in dollars, will she have left to buy meat?",
+  "ground_truth": "10.0",
+  "best_prefix": "FewLower$ fores742",
+  "best_prefix_token_ids": [
+    72204,
+    9230,
+    3,
+    70856,
+    25560
+  ],
+  "baseline_token_id": 605,
+  "target_token_id": 717,
+  "baseline_logit_diff": -5.625,
+  "clean_logit_diff": -6.9375,
+  "best_logit_diff": -4.5625,
+  "best_cosine": 0.93359375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 10",
+  "clean_answer": 10.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 10",
+  "adv_answer": 10.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": "FewLower$ fores742",
+      "prefix_ids": [
+        72204,
+        9230,
+        3,
+        70856,
+        25560
+      ],
+      "logit_diff": -4.5625,
+      "cosine_sim": 0.93359375,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": "Few attempting wouldn database742",
+      "prefix_ids": [
+        72204,
+        19969,
+        8434,
+        4729,
+        25560
+      ],
+      "logit_diff": -5.125,
+      "cosine_sim": 0.9765625,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": "結ami506 Tre indices",
+      "prefix_ids": [
+        102971,
+        10830,
+        19673,
+        12758,
+        15285
+      ],
+      "logit_diff": -5.25,
+      "cosine_sim": 0.953125,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": " tank.isPlaying507Cycle decay",
+      "prefix_ids": [
+        13192,
+        78479,
+        20068,
+        45920,
+        31815
+      ],
+      "logit_diff": -5.375,
+      "cosine_sim": 0.9375,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": "FewCash507 Diss742",
+      "prefix_ids": [
+        72204,
+        48541,
+        20068,
+        52132,
+        25560
+      ],
+      "logit_diff": -5.375,
+      "cosine_sim": 0.9453125,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": " benefici SCALE disproportionately publicityiffs",
+      "prefix_ids": [
+        38045,
+        79223,
+        73152,
+        43763,
+        19383
+      ],
+      "logit_diff": -5.5,
+      "cosine_sim": 0.95703125,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": "FewCash507 database742",
+      "prefix_ids": [
+        72204,
+        48541,
+        20068,
+        4729,
+        25560
+      ],
+      "logit_diff": -5.5,
+      "cosine_sim": 0.9375,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": "FewCash507 video742",
+      "prefix_ids": [
+        72204,
+        48541,
+        20068,
+        2835,
+        25560
+      ],
+      "logit_diff": -5.5625,
+      "cosine_sim": 0.9375,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": "ensoorre506 TRI plur",
+      "prefix_ids": [
+        72789,
+        93533,
+        19673,
+        55663,
+        60217
+      ],
+      "logit_diff": -5.625,
+      "cosine_sim": 0.96875,
+      "answer": 10.0,
+      "correct": true
+    },
+    {
+      "prefix": " substrim506 TRIissued",
+      "prefix_ids": [
+        38415,
+        6417,
+        19673,
+        55663,
+        59326
+      ],
+      "logit_diff": -5.625,
+      "cosine_sim": 0.96484375,
+      "answer": 10.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

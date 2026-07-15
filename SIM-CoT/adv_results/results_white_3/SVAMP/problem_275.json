@@ -1,0 +1,26 @@
+{
+  "question": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially How many crackers and cakes did each person eat?",
+  "ground_truth": "1.0",
+  "prefix": "'. dippedimes",
+  "prefix_token_ids": [
+    4458,
+    35300,
+    999
+  ],
+  "baseline_token_id": 352,
+  "target_token_id": 362,
+  "baseline_logit_diff": -0.71875,
+  "clean_logit_diff": -5.25,
+  "adv_logit_diff": 2.734375,
+  "best_logit_diff": 2.734375,
+  "clean_text": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially How many crackers and cakes did each person eat?\n### 1",
+  "clean_answer": 1.0,
+  "clean_correct": true,
+  "adv_text": "'. dippedimesMatthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially How many crackers and cakes did each person eat?\n### 4",
+  "adv_answer": 4.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.734375
+  ]
+}

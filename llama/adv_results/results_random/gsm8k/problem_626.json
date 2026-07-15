@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 626,
+  "question": "Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+  "ground_truth": "72.0",
+  "baseline": {
+    "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 3600 seconds in an hour (60 seconds per minute * 60 minutes per hour).\n\nSo, we multiply 20 kb per second by 3600 seconds per hour:\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nAshley's internet connection speed in Mb per hour is 72 Mb.",
+    "pred_answer": 72.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 6,
+  "success_rate": 0.2,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " Schw 귀.steps ViewChild degrees",
+      "prefix_token_ids": [
+        30605,
+        110946,
+        59846,
+        69607,
+        12628
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "ैस_TRNS.level vaporTyler",
+      "prefix_token_ids": [
+        101671,
+        93805,
+        20702,
+        38752,
+        100224
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo, TylerAshley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "();\r\n\r\n\r\n_Menu-tm simplistic zi",
+      "prefix_token_ids": [
+        74016,
+        55198,
+        71635,
+        78630,
+        64573
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": ";q Adam MUCH\ttotalvat",
+      "prefix_token_ids": [
+        61999,
+        15387,
+        79433,
+        35593,
+        50813
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour ÷ 1000 = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " reservoirærebrit evaluationsnight",
+      "prefix_token_ids": [
+        45512,
+        92116,
+        32414,
+        56181,
+        9471
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 3600 seconds in an hour (60 minutes * 60 seconds per minute).\n\nSo, we multiply 20 kb per second by 3600 seconds per hour:\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nTherefore, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " atol DichDDevice लगभगvents",
+      "prefix_token_ids": [
+        89755,
+        98803,
+        90107,
+        114944,
+        48764
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour ÷ 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": " спеці\tMy виконання kotlin obviously",
+      "prefix_token_ids": [
+        108758,
+        79569,
+        113943,
+        22251,
+        14224
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " Chern enamel quake-quنگی",
+      "prefix_token_ids": [
+        91759,
+        92848,
+        88470,
+        74801,
+        124155
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " DBNullГО Triggerceasedιο",
+      "prefix_token_ids": [
+        55850,
+        116948,
+        31391,
+        95304,
+        101117
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " Northwesternیا Nine Serieaffe",
+      "prefix_token_ids": [
+        67363,
+        111174,
+        38166,
+        57840,
+        38880
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour ÷ 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": " commercial byste_TWO úda sitesi",
+      "prefix_token_ids": [
+        8518,
+        119200,
+        74992,
+        106176,
+        117579
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "pixels lk expectancy utilizing заходів",
+      "prefix_token_ids": [
+        54419,
+        80116,
+        66995,
+        35988,
+        123392
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\n1. First, let's convert 20 kb to Mb:\n20 kb = 0.02 Mb (since 1 Mb = 1000 kb)\n\n2. Now, let's convert 0.02 Mb to Mb per hour:\n0.02 Mb / 3600 seconds (1 hour) = 0.00000556 Mb per second\n\nSo, Ashley's internet connection speed is 0.00056 Mb per second.\n\n3. To convert 0.00056 Mb per second to Mb per hour, we multiply by 3600 (1 hour):\n0.00056 Mb per second * 3600 seconds per hour = 2.016 Mb per hour\n\nTherefore, Ashley's internet connection speed is approximately 2.016 Mb per hour.\nSo the answer is \\boxed{2.016 Mb per hour",
+      "pred_answer": 2.016,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 13,
+      "prefix": "PICographicallicated=\"<?=bsub",
+      "prefix_token_ids": [
+        82167,
+        32277,
+        14040,
+        16028,
+        70783
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "備 organizationspreferredisempty�",
+      "prefix_token_ids": [
+        104874,
+        11351,
+        74586,
+        47164,
+        17925
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the internet speed from kb per second to Mb per hour.\n\n1. First, let's convert the internet speed from kb per second to Mb per second:\n20 kb/second * 1000 kb/Mb = 20,000 kb/hour\n\n2. Now, let's convert the internet speed from Mb per hour to Mb per second:\n20,000 kb/hour / 3600 seconds/hour = 5,556 kb/second\n\nSo Ashley's internet connection speed is 5,556 kb/second.\nSo the answer is \\boxed{5,556 Mb per hour",
+      "pred_answer": 5556.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 15,
+      "prefix": "—if!\".Gregfastcall دوست",
+      "prefix_token_ids": [
+        90863,
+        94093,
+        44612,
+        43503,
+        113621
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": "ependWeeklyROUND önceki>.\n\n",
+      "prefix_token_ids": [
+        13059,
+        81616,
+        23769,
+        118172,
+        95467
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the speed from kb per second to Mb per hour.\n\nThere are 3600 seconds in an hour (1 hour = 60 minutes, 1 minute = 60 seconds).\n\nSo, we can convert 20 kb per second to Mb per hour as follows:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb = 1000 kb, we can convert 72,000 kb to Mb as follows:\n\n72,000 kb / 1000 = 72 Mb\n\nTherefore, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": "朱ických�，因 Slots",
+      "prefix_token_ids": [
+        111412,
+        103606,
+        8067,
+        122589,
+        53448
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "GoodSnippetião परम отверсти",
+      "prefix_token_ids": [
+        15571,
+        88952,
+        78428,
+        120003,
+        124262
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " Passport UAλιαSuper sinful",
+      "prefix_token_ids": [
+        67900,
+        46670,
+        117443,
+        19841,
+        97727
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo, Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " (_) Café Толькоocusedลงท",
+      "prefix_token_ids": [
+        57244,
+        66771,
+        127599,
+        21012,
+        126464
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert the internet speed from kb per second to Mb per hour.\n\n1. First, let's convert the internet speed from kb per second to Mb per second:\n20 kb/second * 1000 kb/Mb = 20,000 kb/hour\n\n2. Now, let's convert the internet speed from Mb per hour to Mb per second:\n20,000 kb/hour / 3600 seconds/hour = 5,556 kb/second\n\nSo, Ashley's internet connection speed is 5,556 kb/second.\nSo the answer is \\boxed{5,556 Mb per hour",
+      "pred_answer": 5556.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 21,
+      "prefix": "Chooseボ Seems/settingsdialog&,",
+      "prefix_token_ids": [
+        25017,
+        103672,
+        65057,
+        69679,
+        32763
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour ÷ 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "veriş Nexus beaches-St دریا",
+      "prefix_token_ids": [
+        121373,
+        41122,
+        35909,
+        40720,
+        123692
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour ÷ 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "aired succession@\\UTC pessim",
+      "prefix_token_ids": [
+        25260,
+        50787,
+        67439,
+        21872,
+        73623
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert her internet speed from kb per second to Mb per hour.\n\n1. First, let's convert 20 kb to Mb:\n20 kb = 0.02 Mb (since 1 Mb = 1000 kb)\n\n2. Now, let's convert 0.02 Mb to Mb per hour:\n0.02 Mb / 3600 seconds (1 hour) = 0.0000056 Mb per second\n\nSo, Ashley's internet connection speed in Mb per hour is 0.0000056 Mb per second.\nSo the answer is \\boxed{0.0000056 Mb per second",
+      "pred_answer": 5.6e-06,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 24,
+      "prefix": "Previewexplo isa HUGE.trans",
+      "prefix_token_ids": [
+        25648,
+        69331,
+        52435,
+        73756,
+        8179
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "μισallocationivos_productsSchema",
+      "prefix_token_ids": [
+        125367,
+        94339,
+        25204,
+        30722,
+        8802
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert her internet speed from kb per second to Mb per hour.\n\n1. First, let's convert 20 kb to Mb:\n20 kb = 0.02 Mb (since 1 Mb = 1000 kb)\n\n2. Now, let's convert 0.02 Mb to Mb per hour:\n0.02 Mb / 3600 seconds (1 hour) = 0.0000056 Mb per second\n\nSo, Ashley's internet connection speed in Mb per hour is 0.0000056 Mb per second.\nSo the answer is \\boxed{0.0000056 Mb per second",
+      "pred_answer": 5.6e-06,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 26,
+      "prefix": "geometry prolong Grid قیمت Certainly",
+      "prefix_token_ids": [
+        15640,
+        33482,
+        10810,
+        105837,
+        53466
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " إذا PANELlevision хоч.easy",
+      "prefix_token_ids": [
+        111287,
+        81124,
+        11101,
+        104234,
+        84947
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": " administration!\"Way compareAuthToken",
+      "prefix_token_ids": [
+        8735,
+        9135,
+        36154,
+        9616,
+        85808
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "伏.getLocation formally.ViewModel_handling",
+      "prefix_token_ids": [
+        117656,
+        52328,
+        37402,
+        40482,
+        76742
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to multiply her internet speed in kb per second by the number of seconds in an hour.\n\nThere are 60 seconds in a minute, and 60 minutes in an hour, so there are 60 * 60 = 3600 seconds in an hour.\n\nNow, let's multiply Ashley's internet speed in kb per second by the number of seconds in an hour:\n\n20 kb/second * 3600 seconds/hour = 72,000 kb/hour\n\nSince 1 Mb is equal to 1000 kb, we can convert the result to Mb by dividing by 1000:\n\n72,000 kb/hour / 1000 = 72 Mb/hour\n\nSo Ashley's internet connection speed is 72 Mb per hour.\nSo the answer is \\boxed{72 Mb per hour",
+      "pred_answer": 72.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " pk_payloadencodeURIComponentTimeZone集中",
+      "prefix_token_ids": [
+        23266,
+        33913,
+        98783,
+        78886,
+        120766
+      ],
+      "generated_text": "To find Ashley's internet connection speed in Mb per hour, we need to convert her internet speed from kb per second to Mb per hour.\n\n1. First, let's convert 20 kb to Mb:\n20 kb = 0.02 Mb (since 1 Mb = 1000 kb)\n\n2. Now, let's convert 0.02 Mb to Mb per hour:\n0.02 Mb / 3600 seconds = 0.00000556 Mb per second\n0.00000556 Mb per second * 3600 seconds per hour = 0.02016 Mb per hour\n\nSo, Ashley's internet connection speed is approximately 0.02016 Mb per hour.\nSo the answer is \\boxed{0.020 Mb per hour",
+      "pred_answer": 0.02,
+      "correct": false,
+      "attack_success": true
+    }
+  ],
+  "attack_success": true
+}

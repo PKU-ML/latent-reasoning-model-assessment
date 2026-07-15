@@ -1,0 +1,37 @@
+{
+  "question": "John decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+  "ground_truth": "32.0",
+  "prefix": "ewise calculate947",
+  "prefix_token_ids": [
+    25346,
+    11294,
+    26511
+  ],
+  "baseline_token_id": 843,
+  "target_token_id": 2148,
+  "baseline_logit_diff": -8.5,
+  "clean_logit_diff": -8.75,
+  "adv_logit_diff": 2.0625,
+  "best_logit_diff": 2.0625,
+  "clean_text": "The answer is: 32",
+  "clean_answer": 32.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 314",
+  "adv_answer": 314.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.0625,
+    0.6875,
+    0.9375,
+    1.4375,
+    1.4375,
+    1.4375,
+    1.4375,
+    1.4375,
+    1.4375,
+    1.4375,
+    1.4375,
+    2.0625
+  ]
+}

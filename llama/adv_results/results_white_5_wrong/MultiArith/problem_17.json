@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 17,
+  "question": " A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin? ",
+  "ground_truth": "36",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|reserved_special_token_94|><|reserved_special_token_51|><|begin_of_text|><|reserved_special_token_131|>I",
+  "prefix_token_ids": [
+    128102,
+    128059,
+    128000,
+    128139,
+    40
+  ],
+  "best_wrong_prob": 1.5195662392795664e-26,
+  "clean_text": "To find the number of oranges in the bin after the changes, we need to subtract the number of oranges thrown away and add the number of new ones.\n\nInitial number of oranges = 40\nNumber of oranges thro",
+  "clean_pred": 36.0,
+  "clean_correct": true,
+  "adv_text": "To find the number of oranges left in the bin, we need to subtract the number of oranges thrown away from the original number of oranges.\n\nOriginal number of oranges = 40\nNumber of oranges thrown away",
+  "adv_pred": 15.0,
+  "adv_correct": false,
+  "attack_success": true
+}

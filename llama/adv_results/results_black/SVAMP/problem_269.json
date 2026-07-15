@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 269,
+  "question": "Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+  "ground_truth": "6.0",
+  "baseline_correct": true,
+  "baseline_answer": 6.0,
+  "best_rewrite": "Standard atmospheric pressure is 101325 Pa. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+  "best_fact": "Standard atmospheric pressure is 101325 Pa.",
+  "best_pred_answer": 12.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 2,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "April has 30 days. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract the number of apples Adam has from the total number of apples April has.\n\nApril has 30 days, and Adam has 9 apples. \n\n9 (Adam's apples) - 30 (April's apples) = -21\n\nSince you can't have a negative number of apples, we need to re-evaluate the problem.\n\nLet's try again:\n\nIf Adam has 9 apples and Jackie has 3 more apples than Adam, then Jackie has 9 + 3 = 12 apples.\n\nSo, Jackie has 12 apples.\nSo the answer is \\boxed{Jackie has 12 apples.",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has. \n\nAdam has 9 apples, and he has 3 more than Jackie. So, Jackie has 9 - 3 = 6 apples.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has. \n\nAdam has 9 apples. \n9 - 3 = 6\n\nSo Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A year has 12 months. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A week has 7 days. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has. \n\nAdam has 9 apples, and he has 3 more than Jackie. So, Jackie has 9 - 3 = 6 apples.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "An hour has 60 minutes. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A minute has 60 seconds. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A year has 365 days. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has. \n\nAdam has 9 apples, and he has 3 more than Jackie. So, Jackie has 9 - 3 = 6 apples.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has. \n\nAdam has 9 apples. \n9 - 3 = 6\n\nSo Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has. \n\nAdam has 9 apples, and he has 3 more than Jackie. So, Jackie has 9 - 3 = 6 apples.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "An adult has 32 teeth. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract the number of apples Adam has from the total number of apples Adam has.\n\nAdam has 9 apples.\nJackie has 3 fewer apples than Adam, so Jackie has 9 - 3 = 6 apples.\n\nTherefore, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "China has 1.4 billion people. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Japan has 125 million people. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The US has 50 states. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The EU has 27 member states. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples.\n\nAdam has 9 apples.\nAdam has 3 more apples than Jackie, so Jackie has 9 - 3 = 6 apples.\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples. \n\nAdam has 9 apples, and he has 3 more than Jackie. So, Jackie has 9 - 3 = 6 apples.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total apples. \n\nAdam has 9 apples. \nJackie has 3 less apples than Adam, so Jackie has 9 - 3 = 6 apples.\nSo the answer is \\boxed{Jackie has 6 apples.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "The human body has 206 bones. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples. \n\nAdam has 9 apples. \nJackie has 3 less apples than Adam, so Jackie has 9 - 3 = 6 apples.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples. \n\nAdam has 9 apples. \nJackie has 3 less apples than Adam, so Jackie has 9 - 3 = 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples.\n\nAdam has 9 apples.\nJackie has 3 more apples than Adam, so Jackie has 9 + 3 = 12 apples.\n\nTherefore, Jackie has 12 apples.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from the number of apples Adam has.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples. \n\nAdam has 9 apples. \nJackie has 3 less apples than Adam, so Jackie has 9 - 3 = 6 apples.\nSo the answer is \\boxed{The answer is 6.",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many apples Jackie has, we need to subtract 3 from Adam's total number of apples.\n\nAdam has 9 apples.\nJackie has 3 less apples than Adam.\n\n9 - 3 = 6\n\nSo, Jackie has 6 apples.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    }
+  ]
+}

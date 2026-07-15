@@ -1,0 +1,33 @@
+{
+  "question": "Richard, Jerry, and Robert are going to share 60 cherries. If Robert has 30 cherries, and has 10 more than Richard, how many more cherries does Robert have than Jerry?",
+  "ground_truth": "20.0",
+  "prefix": " Pierre spare percentile",
+  "prefix_token_ids": [
+    38077,
+    24804,
+    66257
+  ],
+  "baseline_token_id": 508,
+  "target_token_id": 605,
+  "baseline_logit_diff": 0.0,
+  "clean_logit_diff": -1.875,
+  "adv_logit_diff": 2.125,
+  "best_logit_diff": 2.125,
+  "clean_text": "The answer is: 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 10",
+  "adv_answer": 10.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.0,
+    -0.75,
+    0.875,
+    1.0,
+    1.25,
+    1.25,
+    1.5,
+    2.125
+  ]
+}

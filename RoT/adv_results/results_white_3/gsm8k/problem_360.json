@@ -1,0 +1,34 @@
+{
+  "question": "Carver just turned 45 years old, which makes him 5 years less than twice the age of his son.  How old is his son, in years?",
+  "ground_truth": "25.0",
+  "prefix": "6游客uments",
+  "prefix_token_ids": [
+    21,
+    104090,
+    2831
+  ],
+  "baseline_token_id": 17,
+  "target_token_id": 20,
+  "baseline_logit_diff": -2.625,
+  "clean_logit_diff": -1.375,
+  "adv_logit_diff": -0.625,
+  "best_logit_diff": -0.625,
+  "clean_text": "assistant\n### 25 ",
+  "clean_answer": 25.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 20 ",
+  "adv_answer": 20.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.125,
+    -1.125,
+    -1.0,
+    -0.875,
+    -0.875,
+    -0.625,
+    -0.625,
+    -0.625,
+    -0.625
+  ]
+}

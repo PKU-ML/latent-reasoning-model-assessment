@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1280,
+  "question": "Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+  "ground_truth": "7.0",
+  "baseline_correct": true,
+  "baseline_answer": 7.0,
+  "best_rewrite": "Oxygen makes up about 21% of air. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+  "best_fact": "Oxygen makes up about 21% of air.",
+  "best_pred_answer": 33.33,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 13,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how long it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and it took him 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Anna took 5 hours more than 5 hours, which is 5 + 2 = 7 hours to complete the puzzle. \n\nTherefore, it took Anna 7 hours to finish the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "April has 30 days. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how long it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, we can divide this by 2 to find the time it took him to complete the puzzle. \n\n10 hours / 2 = 5 hours\n\nNow, we know that Anna took 2 hours more than half of Steve's time. Half of Steve's time is 5 hours / 2 = 2.5 hours. \n\nSo, Anna took 2 hours more than 2.5 hours, which is 2.5 + 2 = 4.5 hours.\n\nTherefore, it took Anna 4.5 hours to complete the puzzle.\nSo the answer is \\boxed{The answer is 4.5 hours.",
+      "pred_answer": 4.5
+    },
+    {
+      "question": "A bicycle has 2 wheels. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours, and Anna took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Anna took 5 + 2 = 7 hours to complete the puzzle. \n\nTherefore, it took Anna 7 hours to finish the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he worked for 3 days (the 3rd of the month), we can calculate the number of hours he worked per day as follows:\n\n10 hours / 3 days = 3.33 hours per day\n\nNow, we know that Anna worked 2 hours more than half of Steve's time. Half of Steve's time is 10 / 2 = 5 hours. So, Anna worked 5 + 2 = 7 hours more than half of Steve's time.\n\nSince Steve worked 3.33 hours per day, Anna worked 7 hours more than 3.33 hours per day. \n\n7 hours = 3.33 hours * 2 = 6.66 days\n\nNow, we can calculate the total time it took Anna to complete the puzzle:\n\n6.66 days * 24 hours per day = 161.44 hours\n\nSo, it took Anna approximately 161.44 hours to complete the puzzle.\nSo the answer is \\boxed{161.44",
+      "pred_answer": 161.44
+    },
+    {
+      "question": "The current temperature is 20 degrees. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he put it together in 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours.\n\nSo, Steve took 5 hours to complete the puzzle.\n\nNow, we know that Anna took 2 hours more than half of Steve's time, which is 5 + 2 = 7 hours.\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{The answer is 7 hours.",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A year has 12 months. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how long it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he worked for half of that time, we can calculate the time he worked as follows:\n\n10 hours / 2 = 5 hours\n\nNow, Anna took 2 hours more than half of Steve's time. So, Anna took 5 + 2 = 7 hours to complete the puzzle.\n\nTherefore, it took Anna 7 hours to finish the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A week has 7 days. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and it took him 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, it took Steve 5 hours to complete the puzzle.\n\nNow, we add 2 hours to this time to find the time it took Anna to complete the puzzle. \n5 hours + 2 hours = 7 hours.\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "An hour has 60 minutes. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, we can divide 10 hours by 60 minutes to get the number of minutes. 10 hours / 60 minutes per hour = 1.67 minutes per hour.\n\nSince Anna took 2 hours more than half of Steve's time, we need to find half of Steve's time first. Half of 10 hours is 5 hours. Then, we add 2 hours to this half to get the total time Anna took. 5 hours + 2 hours = 7 hours.\n\nNow, we can multiply the time it took Steve to complete the puzzle (1.67 minutes per hour) by the number of hours it took Anna (7 hours) to get the total time it took Anna to complete the puzzle. 1.67 minutes/hour * 7 hours = 11.69 minutes.\n\nSo, it took Anna approximately 11.69 minutes to complete the puzzle.\nSo the answer is \\boxed{11.69",
+      "pred_answer": 11.69
+    },
+    {
+      "question": "A minute has 60 seconds. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince a minute has 60 seconds, 10 hours is equal to 10 * 60 = 600 seconds. \n\nSteve took 600 / 60 = 10 hours to complete the puzzle.\n\nAnna took 10 hours + 2 hours = 12 hours to complete the puzzle.\n\nTo find the time it took Anna to complete the puzzle, we need to divide the total time by 2 (since she took 2 hours more than half of Steve's time).\n\nTime taken by Anna = 12 hours / 2 = 6 hours.\n\nTherefore, it took Anna 6 hours to complete the puzzle.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "A year has 365 days. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, we can say that the puzzle took 10 hours.\n\nAnna took 2 hours more than half of Steve's time. Half of Steve's time is 10 / 2 = 5 hours. So, Anna took 5 + 2 = 7 hours to complete the puzzle.\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours, and Anna took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Anna took 5 + 2 = 7 hours to complete the puzzle.\n\nNow, we can find the time it took Anna to complete the puzzle by dividing the total time by 7. \n\nTime taken by Anna = 10 hours / 7 = 1.43 hours.\n\nTherefore, it took Anna 1.43 hours to complete the puzzle.\nSo the answer is \\boxed{1.43 hours",
+      "pred_answer": 1.43
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and it took him 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Steve took 5 + 2 = 7 hours to complete the puzzle.\n\nNow, we know that the speed of sound in air is 343 meters per second. To find the time it took Anna to complete the puzzle, we can use the formula: time = distance / speed.\n\nThe distance is the same as the time it took Steve to complete the puzzle, which is 7 hours. So, the time it took Anna to complete the puzzle is 7 hours / 343 meters/second = 0.02 hours.\n\nTo convert hours to minutes, we multiply by 60: 0.02 hours * 60 minutes/hour = 1.2 minutes.\n\nTherefore, it took Anna 1.2 minutes to complete the puzzle.\nSo the answer is \\boxed{1.2 minutes",
+      "pred_answer": 1.2
+    },
+    {
+      "question": "Water freezes at 0 degrees. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Anna took 5 hours + 2 hours = 7 hours to complete the puzzle.\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours, and he worked for half of that time, we can calculate the time he worked as follows:\n\n10 hours / 2 = 5 hours\n\nNow, we know that Anna took 2 hours more than half of Steve's time. So, Anna worked for 5 + 2 = 7 hours.\n\nTo find the time it took Anna to complete the puzzle, we can divide the total time she worked by the number of hours she worked:\n\n7 hours / 7 = 1 hour\n\nTherefore, it took Anna 1 hour to complete the puzzle.\nSo the answer is \\boxed{The answer is 1 hour.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how long it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he put together the puzzle in 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours.\n\nSo, Steve took 5 hours to complete the puzzle.\n\nNow, we know that Anna took 2 hours more than half of Steve's time, which is 5 + 2 = 7 hours.\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "An adult has 32 teeth. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, we can divide this by 2 to find the time it took him to complete half the puzzle. \n\n10 hours / 2 = 5 hours\n\nSince Anna took 2 hours more than half the time Steve took, we add 2 hours to 5 hours to find the time it took Anna to complete the puzzle.\n\n5 hours + 2 hours = 7 hours\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "China has 1.4 billion people. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and Anna took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours.\n\nSo, Anna took 5 + 2 = 7 hours to complete the puzzle.\n\nNow, we can find the time it took Anna to complete the puzzle by dividing the total time by 7. \n\nTime taken by Anna = 10 hours / 7 = 1.4286 hours.\n\nSo, it took Anna approximately 1.43 hours to complete the puzzle.\nSo the answer is \\boxed{1.43 hours",
+      "pred_answer": 1.43
+    },
+    {
+      "question": "Japan has 125 million people. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how long it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and Anna took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Anna took 5 + 2 = 7 hours to complete the puzzle. \n\nTherefore, it took Anna 7 hours to finish the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The US has 50 states. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours, and Anna took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Anna took 5 + 2 = 7 hours to complete the puzzle.\n\nNow, to find the total time it took Anna to complete the puzzle, we add the time it took her to complete the puzzle to the time it took Steve to complete the puzzle. \n\n7 hours (Anna) + 10 hours (Steve) = 17 hours.\n\nTherefore, it took Anna 17 hours to complete the puzzle.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "The EU has 27 member states. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Steve took 5 hours to complete the puzzle.\n\nNow, we add 2 hours to this time to find out how long it took Anna to complete the puzzle. \n\n5 hours + 2 hours = 7 hours\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{The answer is 7 hours.",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and it is about 6650 km long, we can find the time it took Steve to complete the puzzle by dividing the length of the puzzle by the time it took Steve to complete it.\n\nTime taken by Steve = 6650 km / 10 hours = 665 km/h\n\nNow, Anna took 2 hours more than half of Steve's time. Half of Steve's time is 10 / 2 = 5 hours. So, Anna took 5 + 2 = 7 hours to complete the puzzle.\n\nTherefore, the time taken by Anna to complete the puzzle is 7 hours.\nSo the answer is \\boxed{The answer is 7 hours.",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and Anna took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours.\n\nSo, Anna took 5 + 2 = 7 hours to complete the puzzle.\n\nNow, we can find the time it took Anna to complete the puzzle by dividing the total time by 7. \n\nTime taken by Anna = 7 hours / 7 = 1 hour.\n\nTherefore, it took Anna 1 hour to complete the puzzle.\nSo the answer is \\boxed{The answer is 1 hour.",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours, and Anna took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Anna took 5 + 2 = 7 hours to complete the puzzle.\n\nNow, we can find the time it took Anna to complete the puzzle by dividing the total time by the number of hours it took her to complete the puzzle. \n\nTime taken by Anna = 7 hours / 10 hours = 0.7 hours.\n\nTo convert hours into days, we divide by 24 (since there are 24 hours in a day). \n\nTime taken by Anna = 0.7 hours / 24 hours per day = 0.02917 days.\n\nSo, it took Anna approximately 0.02917 days to complete the puzzle.\nSo the answer is \\boxed{0.02917 days",
+      "pred_answer": 0.02917
+    },
+    {
+      "question": "The human body has 206 bones. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how long it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he put together the puzzle in 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours.\n\nSo, Steve took 5 hours to complete the puzzle.\n\nNow, we know that Anna took 2 hours more than half of Steve's time, which is 5 + 2 = 7 hours.\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he put together the puzzle in 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours.\n\nSo, Steve took 5 hours to complete the puzzle.\n\nNow, Anna took 2 hours more than half of Steve's time, which is 5 + 2 = 7 hours.\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how long it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Anna took 5 hours + 2 hours = 7 hours to complete the puzzle.\n\nNow, we know that oxygen makes up 21% of air, which is equivalent to 0.21. We can set up a proportion to find the time it took Anna to complete the puzzle:\n\n0.21 = 7 / x\n\nTo solve for x, we can multiply both sides by x:\n\n0.21x = 7\n\nNow, divide both sides by 0.21:\n\nx = 7 / 0.21\nx = 33.33 hours\n\nSo, it took Anna approximately 33.33 hours to complete the puzzle.\nSo the answer is \\boxed{The answer is 33.33 hours.",
+      "pred_answer": 33.33
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find the time it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and Anna took 2 hours more than half of Steve's time, we can calculate the time it took Anna as follows:\n\nSteve's time = 10 hours\nAnna's time = 10 + 2 = 12 hours\n\nNow, we need to find half of Steve's time:\nHalf of Steve's time = 10 / 2 = 5 hours\n\nSince Anna took 2 hours more than half of Steve's time, we add 2 hours to half of Steve's time:\nAnna's time = 5 + 2 = 7 hours\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how long it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he put together the puzzle in 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours.\n\nSo, Steve took 5 hours to complete the puzzle.\n\nNow, we know that Anna took 2 hours more than half of Steve's time, which is 5 + 2 = 7 hours.\n\nTherefore, it took Anna 7 hours to complete the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and Anna took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours.\n\nSo, Anna took 5 + 2 = 7 hours to complete the puzzle.\n\nTherefore, it took Anna 7 hours to finish the puzzle.\nSo the answer is \\boxed{7",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the time it took Anna to complete the puzzle, we need to first find out how long it took Steve to complete the puzzle. \n\nSince Steve took 10 hours to complete the puzzle, and he took 2 hours more than half of Steve's time, we can calculate half of Steve's time as 10 / 2 = 5 hours. \n\nSo, Steve took 5 + 2 = 7 hours to complete the puzzle.\n\nNow, we know that Anna took 2 hours more than half of Steve's time, which is 7 + 2 = 9 hours.\n\nTherefore, it took Anna 9 hours to complete the puzzle.\nSo the answer is \\boxed{9 hours",
+      "pred_answer": 9.0
+    }
+  ]
+}

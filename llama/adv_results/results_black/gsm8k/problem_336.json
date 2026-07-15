@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 336,
+  "question": "Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+  "ground_truth": "72.0",
+  "baseline_correct": true,
+  "baseline_answer": 72.0,
+  "best_rewrite": "Oxygen makes up about 21% of air. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+  "best_fact": "Oxygen makes up about 21% of air.",
+  "best_pred_answer": 576.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 20,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of the shares after the first year is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of the shares after the second year is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is:\n$96 + $72 = $168\nSo the answer is \\boxed{The final value of all Maria's shares is $168.",
+      "pred_answer": 168.0
+    },
+    {
+      "question": "April has 30 days. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nNow, we multiply the number of shares by the new price:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is $72.\nSo the answer is \\boxed{The final value of all Maria's shares is $72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the stock price increases and decreases.\n\nInitial investment: 8 shares * $8 per share = $64\n\nIncrease in stock price: 50% of $8 = 0.5 * $8 = $4\nNew stock price: $8 + $4 = $12\n\nDecrease in stock price: 25% of $12 = 0.25 * $12 = $3\nNew stock price: $12 - $3 = $9\n\nValue of 8 shares after 1 year: 8 shares * $9 per share = $72\n\nValue of 8 shares after 2 years: 8 shares * $72 per share = $576\n\nSo, the final value of all Maria's shares is $576.\nSo the answer is \\boxed{The final value of all Maria's shares is $576.",
+      "pred_answer": 576.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nAfter the first year, Maria has 8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nAfter the second year, Maria has 8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is $72.\nSo the answer is \\boxed{The final value of all Maria's shares is $72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of each share after the first year is $12. Since Maria buys 8 shares, the total value is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of each share after the second year is $9. Since Maria buys 8 shares, the total value is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is $72.\nSo the answer is \\boxed{The final value of all Maria's shares is $72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A year has 12 months. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of each share after the first year is $12. Since Maria bought 8 shares, the total value of the shares after the first year is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of each share after the second year is $9. Since Maria bought 8 shares, the total value of the shares after the second year is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is the total value of the shares after the first year multiplied by the number of shares:\n$96 * 8 = $768\nSo the answer is \\boxed{The final value of all Maria's shares is $768.",
+      "pred_answer": 768.0
+    },
+    {
+      "question": "A week has 7 days. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nAfter the first year, Maria holds 8 shares for 1 year, so the value of the shares is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nAfter the second year, Maria holds 8 shares for 1 year, so the value of the shares is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is the sum of the values after the first and second year:\n$96 + $72 = $168\nSo the answer is \\boxed{The final value of all Maria's shares is $168.",
+      "pred_answer": 168.0
+    },
+    {
+      "question": "An hour has 60 minutes. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of each share after the first year is $12. Since Maria buys 8 shares, the total value is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of each share after the second year is $9. Since Maria buys 8 shares, the total value is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is $72.\nSo the answer is \\boxed{The final value of all Maria's shares is $72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A minute has 60 seconds. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of each share after the first year is $12. Since Maria bought 8 shares, the total value is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of each share after the second year is $9. Since Maria bought 8 shares, the total value is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is $72.\nSo the answer is \\boxed{The final value of all Maria's shares is $72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A year has 365 days. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of each share after the first year is $12. Since Maria bought 8 shares, the total value is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of each share after the second year is $9. Since Maria bought 8 shares, the total value is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is $72.\nSo the answer is \\boxed{The final value of all Maria's shares is $72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of each share after the first year is $12. Since Maria buys 8 shares, the total value is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of each share after the second year is $9. Since Maria buys 8 shares, the total value is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is $72.\nSo the answer is \\boxed{The final value of all Maria's shares is $72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the price increase and decrease.\n\nInitial investment: 8 shares * $8 per share = $64\n\nPrice increase: 50% of $64 = 0.5 * $64 = $32\nNew price per share = $64 + $32 = $96\n\nPrice decrease: 25% of $96 = 0.25 * $96 = $24\nNew price per share = $96 - $24 = $72\n\nNow, we need to calculate the total value of the shares after two years:\n8 shares * $72 per share = $576\n\nSo, the final value of all Maria's shares is $576.\nSo the answer is \\boxed{The final value of all Maria's shares is $576.",
+      "pred_answer": 576.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of the shares after the first year is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of the shares after the second year is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is:\n$96 + $72 = $168\nSo the answer is \\boxed{The final value of all Maria's shares is $168.",
+      "pred_answer": 168.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the price increase and decrease.\n\nInitial investment: 8 shares * $8 per share = $64\n\nPrice increase: 50% of $64 = 0.5 * $64 = $32\nNew price per share = $64 + $32 = $96\n\nPrice decrease: 25% of $96 = 0.25 * $96 = $24\nNew price per share = $96 - $24 = $72\n\nNumber of shares Maria holds: 8 shares\n\nFinal value of shares = 8 shares * $72 per share = $576\n\nThe final value of Maria's shares is $576.\nSo the answer is \\boxed{The final value of Maria's shares is $576.",
+      "pred_answer": 576.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of each share after the first year is $12. Since Maria bought 8 shares, the total value of the shares after the first year is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of each share after the second year is $9. Since Maria bought 8 shares, the total value of the shares after the second year is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is the total value of the shares after the first year multiplied by the number of shares:\n$96 * 8 = $768\nSo the answer is \\boxed{The final value of all Maria's shares is $768.",
+      "pred_answer": 768.0
+    },
+    {
+      "question": "An adult has 32 teeth. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of each share after the first year is $12. Since Maria holds 8 shares, the total value is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of each share after the second year is $9. Since Maria holds 8 shares, the total value is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is $72.\nSo the answer is \\boxed{$72",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "China has 1.4 billion people. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares she bought.\n\nInitial number of shares = 1,400,000\nInitial price per share = $8\nValue of initial shares = 1,400,000 * $8 = $11,200,000\n\nAfter the first year, the stock price increases by 50%, so the new price per share is:\nNew price per share = $8 + ($8 * 0.5) = $8 + $4 = $12\n\nValue of shares after the first year = 1,400,000 * $12 = $16,800,000\n\nAfter the second year, the stock price decreases by 25%, so the new price per share is:\nNew price per share = $12 - ($12 * 0.25) = $12 - $3 = $9\n\nValue of shares after the second year = 1,400,000 * $9 = $12,600,000\n\nThe final value of all Maria's shares is the product of the value of shares after the first year and the number of shares:\nFinal value = $16,800,000 * 1,400,000 = $23,440,000,000\nSo the answer is \\boxed{The final value of all Maria's shares is $23,440,000,000.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "Japan has 125 million people. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares she bought.\n\nInitial number of shares = 125 million\nPrice per share = $8\nValue of initial shares = 125,000,000 * $8 = $1,000,000,000\n\nFirst year increase: \nIncrease in price = 50% of $8 = 0.5 * $8 = $4\nValue of shares after first year = $1,000,000,000 + $4 = $1,000,004,000\n\nSecond year decrease:\nDecrease in price = 25% of $1,000,004,000 = 0.25 * $1,000,004,000 = $250,001,000\nValue of shares after second year = $1,000,004,000 - $250,001,000 = $749,003,000\n\nFinal value of all shares = $749,003,000 * 125,000,000 = $93,150,250,000\nSo the answer is \\boxed{The final value of all Maria's shares is $93,150,250,000.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The US has 50 states. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares she bought.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nAfter the first year, Maria has 8 shares * $12 = $96.\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nAfter the second year, Maria has 8 shares * $9 = $72.\n\nThe final value of all Maria's shares is $72.\nSo the answer is \\boxed{The final value of all Maria's shares is $72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "The EU has 27 member states. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares she holds.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nAfter the first year, Maria holds 8 shares, so the value of each share is:\n$12 / 8 = $1.50\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$1.50 - (25% of $1.50) = $1.50 - $0.375 = $1.125\n\nAfter the second year, Maria holds 8 shares, so the value of each share is:\n$1.125 / 8 = $0.140625\n\nNow, we multiply the value of each share by the number of shares:\n$0.140625 * 8 = $1.125\nSo the answer is \\boxed{The final value of all Maria's shares is $1.125.",
+      "pred_answer": 1.125
+    },
+    {
+      "question": "The Nile is about 6650 km long. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of each share after the first year is $12. Since Maria buys 8 shares, the total value is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of each share after the second year is $9. Since Maria buys 8 shares, the total value is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is $72.\nSo the answer is \\boxed{The final value of all Maria's shares is $72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares she bought.\n\nInitial investment: 8 shares * $8 = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe number of shares she holds after the first year is 8 shares * 2 = 16 shares\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe number of shares she holds after the second year is 16 shares * 2 = 32 shares\n\nThe final value of all Maria's shares is:\n$64 * 32 = $2,048\nSo the answer is \\boxed{The final value of all Maria's shares is $2,048.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares she bought.\n\nInitial investment: 8 shares * $8 per share = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe number of shares she holds after the first year is 8 shares * 2 = 16 shares\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe number of shares she holds after the second year is 16 shares * 2 = 32 shares\n\nThe final value of all Maria's shares is:\n$64 * 32 = $2,048\nSo the answer is \\boxed{The final value of all Maria's shares is $2,048.",
+      "pred_answer": 48.0
+    },
+    {
+      "question": "The human body has 206 bones. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the stock price increases and decreases.\n\nInitial number of shares: 8\nInitial price per share: $8\nInitial value: 8 * 8 = $64\n\nIncrease in the first year: 50% of $64 = 0.5 * 64 = $32\nNew value after the first year: 64 + 32 = $96\n\nDecrease in the second year: 25% of $96 = 0.25 * 96 = $24\nNew value after the second year: 96 - 24 = $72\n\nFinal value of all Maria's shares: 8 * 72 = $576\nSo the answer is \\boxed{The final value of all Maria's shares is $576.",
+      "pred_answer": 576.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the stock price increases and decreases.\n\nInitial investment: 8 shares * $8 per share = $64\n\nIncrease in stock price: 50% of $8 = 0.5 * $8 = $4\nNew stock price: $8 + $4 = $12\n\nValue of 8 shares after the first year: 8 shares * $12 per share = $96\n\nDecrease in stock price: 25% of $96 = 0.25 * $96 = $24\nValue of 8 shares after the second year: 8 shares * $12 per share - $24 = $96 - $24 = $72\n\nFinal value of all Maria's shares: 8 shares * $72 per share = $576\nSo the answer is \\boxed{$576",
+      "pred_answer": 576.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the price increase and decrease.\n\nInitial investment: 8 shares * $8 per share = $64\n\nPrice increase: 50% of $64 = 0.5 * $64 = $32\nNew price per share = $64 + $32 = $96\n\nPrice decrease: 25% of $96 = 0.25 * $96 = $24\nNew price per share = $96 - $24 = $72\n\nNow, we need to calculate the total value of the shares after two years:\n8 shares * $72 per share = $576\n\nSo, the final value of all Maria's shares is $576.\nSo the answer is \\boxed{The final value of all Maria's shares is $576.",
+      "pred_answer": 576.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the price increase and decrease.\n\nInitial investment: 8 shares * $8 per share = $64\n\nPrice increase: 50% of $64 = 0.5 * $64 = $32\nNew price per share = $64 + $32 = $96\n\nPrice decrease: 25% of $96 = 0.25 * $96 = $24\nNew price per share = $96 - $24 = $72\n\nNow, we need to calculate the total value of the shares after two years.\n\nInitial investment: 8 shares * $8 per share = $64\nPrice increase: 8 shares * $96 per share = $768\nPrice decrease: 8 shares * $72 per share = $576\n\nTotal value after two years = $64 + $768 + $576 = $1638\n\nSo, the final value of all Maria's shares is $1638.\nSo the answer is \\boxed{The final value of all Maria's shares is $1638.",
+      "pred_answer": 1638.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the stock price increase and decrease.\n\nInitial number of shares: 8\nInitial price per share: $8\nInitial value: 8 * 8 = $64\n\nIncrease in stock price: 50% of $8 = 0.5 * 8 = $4\nNew price per share: $8 + $4 = $12\n\nValue of shares after the first year: 8 * $12 = $96\n\nDecrease in stock price: 25% of $12 = 0.25 * 12 = $3\nValue of shares after the second year: 8 * $12 - $3 = $99\n\nFinal value of all Maria's shares: $96 + $99 = $195\nSo the answer is \\boxed{The final value of all Maria's shares is $195.",
+      "pred_answer": 195.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares she bought.\n\nThe initial value of each share is $8. \n\nThe stock price increases by 50% in the first year, so the new value of each share is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nShe buys 8 shares, so the total value of the shares after the first year is:\n8 shares * $12 per share = $96\n\nThe stock price decreases by 25% in the second year, so the new value of each share is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nShe buys 8 shares, so the total value of the shares after the second year is:\n8 shares * $9 per share = $72\n\nThe final value of all Maria's shares is the total value of the shares after the first year multiplied by the number of shares:\n$96 * 8 = $768\nSo the answer is \\boxed{The final value of all Maria's shares is $768.",
+      "pred_answer": 768.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds it, then decreases 25% in the second year. What is the final value of all Maria's shares?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the final value of Maria's shares, we need to calculate the value of each share after the first year and then multiply it by the number of shares.\n\nInitial investment: 8 shares * $8 = $64\n\nThe stock price increases by 50% in the first year, so the new price is:\n$8 + (50% of $8) = $8 + $4 = $12\n\nThe value of the shares after the first year is:\n8 shares * $12 = $96\n\nThe stock price decreases by 25% in the second year, so the new price is:\n$12 - (25% of $12) = $12 - $3 = $9\n\nThe value of the shares after the second year is:\n8 shares * $9 = $72\n\nThe final value of all Maria's shares is:\n$96 + $72 = $168\nSo the answer is \\boxed{The final value of all Maria's shares is $168.",
+      "pred_answer": 168.0
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "question": "Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel?",
+  "ground_truth": "21.0",
+  "best_prefix": ".New computer ninety governorsлів",
+  "best_prefix_token_ids": [
+    7267,
+    6500,
+    78976,
+    68140,
+    112658
+  ],
+  "baseline_token_id": 1691,
+  "target_token_id": 777,
+  "baseline_logit_diff": -5.0,
+  "clean_logit_diff": -6.625,
+  "best_logit_diff": -4.625,
+  "best_cosine": 0.94140625,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 21",
+  "clean_answer": 21.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 21",
+  "adv_answer": 21.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": ".New computer ninety governorsлів",
+      "prefix_ids": [
+        7267,
+        6500,
+        78976,
+        68140,
+        112658
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.94140625,
+      "answer": 21.0,
+      "correct": true
+    },
+    {
+      "prefix": ".New78 Committees chemical représ",
+      "prefix_ids": [
+        7267,
+        2495,
+        69017,
+        11742,
+        71925
+      ],
+      "logit_diff": -4.75,
+      "cosine_sim": 0.95703125,
+      "answer": 21.0,
+      "correct": true
+    },
+    {
+      "prefix": ".New\")),\n ninety governorsлів",
+      "prefix_ids": [
+        7267,
+        31254,
+        78976,
+        68140,
+        112658
+      ],
+      "logit_diff": -4.75,
+      "cosine_sim": 0.94140625,
+      "answer": 21.0,
+      "correct": true
+    },
+    {
+      "prefix": "-gun ONLY Conflict contention sufficiently",
+      "prefix_ids": [
+        76335,
+        27785,
+        59685,
+        52240,
+        40044
+      ],
+      "logit_diff": -4.75,
+      "cosine_sim": 0.9375,
+      "answer": 21.0,
+      "correct": true
+    },
+    {
+      "prefix": "'o Marian Conflict dispute requirements",
+      "prefix_ids": [
+        94572,
+        96519,
+        59685,
+        26086,
+        8670
+      ],
+      "logit_diff": -4.875,
+      "cosine_sim": 0.94140625,
+      "answer": 21.0,
+      "correct": true
+    },
+    {
+      "prefix": "-gun-period Conflict contention hole",
+      "prefix_ids": [
+        76335,
+        99181,
+        59685,
+        52240,
+        14512
+      ],
+      "logit_diff": -5.0,
+      "cosine_sim": 0.9375,
+      "answer": 21.0,
+      "correct": true
+    },
+    {
+      "prefix": ".New78 HTTPS chemical représ",
+      "prefix_ids": [
+        7267,
+        2495,
+        62144,
+        11742,
+        71925
+      ],
+      "logit_diff": -5.0,
+      "cosine_sim": 0.9453125,
+      "answer": 21.0,
+      "correct": true
+    },
+    {
+      "prefix": " Ya)))));\nIOC dispute offshore",
+      "prefix_ids": [
+        40484,
+        27677,
+        70051,
+        26086,
+        39500
+      ],
+      "logit_diff": -5.0,
+      "cosine_sim": 0.9453125,
+      "answer": 21.0,
+      "correct": true
+    },
+    {
+      "prefix": " Ya Marian Conflict dispute requirements",
+      "prefix_ids": [
+        40484,
+        96519,
+        59685,
+        26086,
+        8670
+      ],
+      "logit_diff": -5.0,
+      "cosine_sim": 0.9375,
+      "answer": 21.0,
+      "correct": true
+    },
+    {
+      "prefix": " LorenzoCanadian Conflict disputeessages",
+      "prefix_ids": [
+        74500,
+        60674,
+        59685,
+        26086,
+        3822
+      ],
+      "logit_diff": -5.0,
+      "cosine_sim": 0.94921875,
+      "answer": 21.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

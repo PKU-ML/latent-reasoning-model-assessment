@@ -1,0 +1,29 @@
+{
+  "question": "Paige was helping her mom plant flowers and together they planted 45 seeds in 9 flowerbeds. If they put same number of seeds in each flower bed How many seeds did they plant in each flowerbed?",
+  "ground_truth": "5.0",
+  "prefix": " biod maneu280 Katie Courage",
+  "prefix_token_ids": [
+    32449,
+    16136,
+    21033,
+    24721,
+    37106
+  ],
+  "baseline_token_id": 642,
+  "target_token_id": 718,
+  "baseline_logit_diff": -13.53125,
+  "clean_logit_diff": -12.015625,
+  "adv_logit_diff": 3.640625,
+  "best_logit_diff": 3.640625,
+  "clean_text": "Paige was helping her mom plant flowers and together they planted 45 seeds in 9 flowerbeds. If they put same number of seeds in each flower bed How many seeds did they plant in each flowerbed?\n### 5",
+  "clean_answer": 5.0,
+  "clean_correct": true,
+  "adv_text": "biod maneu280 Katie CouragePaige was helping her mom plant flowers and together they planted 45 seeds in 9 flowerbeds. If they put same number of seeds in each flower bed How many seeds did they plant in each flowerbed?\n### 40",
+  "adv_answer": 40.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.5625,
+    3.640625
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "question": " While on vacation, Haley took 50 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ",
+  "ground_truth": "20",
+  "prefix": ".\"\n\n \"}\ntier )\n\n397",
+  "prefix_token_ids": [
+    2266,
+    44370,
+    50435,
+    5235,
+    20698
+  ],
+  "baseline_logit_diff": -9.465217590332031,
+  "clean_logit_diff": -8.536460876464844,
+  "adv_logit_diff": 3.779326915740967,
+  "best_logit_diff": 3.779326915740967,
+  "clean_text": "Answer:20",
+  "clean_answer": "20",
+  "clean_correct": true,
+  "adv_text": "Answer:380",
+  "adv_answer": "380",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.673927307128906,
+    -7.395917892456055,
+    -6.943443298339844,
+    -6.71009635925293,
+    1.724557876586914,
+    3.779326915740967
+  ]
+}

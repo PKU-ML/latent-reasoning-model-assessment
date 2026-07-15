@@ -1,0 +1,29 @@
+{
+  "question": "3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+  "ground_truth": "13.0",
+  "prefix": "/classesLondon fried!', contractors",
+  "prefix_token_ids": [
+    48158,
+    40672,
+    41951,
+    39792,
+    33840
+  ],
+  "baseline_token_id": 1032,
+  "target_token_id": 975,
+  "baseline_logit_diff": -5.5,
+  "clean_logit_diff": -6.1875,
+  "adv_logit_diff": 3.6875,
+  "best_logit_diff": 3.6875,
+  "clean_text": "The answer is: 13",
+  "clean_answer": 13.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 16",
+  "adv_answer": 16.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.625,
+    3.6875
+  ]
+}

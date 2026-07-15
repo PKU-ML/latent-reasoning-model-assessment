@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 7,
+  "question": " Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+  "ground_truth": "1",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|reserved_special_token_66|><|begin_of_text|><|reserved_special_token_176|><|reserved_special_token_207|>]",
+  "prefix_token_ids": [
+    128074,
+    128000,
+    128184,
+    128215,
+    60
+  ],
+  "best_wrong_prob": 1.1438478060058703e-27,
+  "clean_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shir",
+  "clean_pred": 1.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shir",
+  "adv_pred": 1.0,
+  "adv_correct": true,
+  "attack_success": false
+}

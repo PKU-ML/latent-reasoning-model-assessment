@@ -1,0 +1,171 @@
+{
+  "question": "The Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?",
+  "ground_truth": "500.0",
+  "best_prefix": " haul breaks436 cost roasted",
+  "best_prefix_token_ids": [
+    38968,
+    18808,
+    21299,
+    2853,
+    54662
+  ],
+  "baseline_token_id": 2636,
+  "target_token_id": 1135,
+  "baseline_logit_diff": -3.0625,
+  "clean_logit_diff": -5.1875,
+  "best_logit_diff": -2.3125,
+  "best_cosine": 0.94140625,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 500",
+  "clean_answer": 500.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 500",
+  "adv_answer": 500.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " haul breaks436 cost roasted",
+      "prefix_ids": [
+        38968,
+        18808,
+        21299,
+        2853,
+        54662
+      ],
+      "logit_diff": -2.3125,
+      "cosine_sim": 0.94140625,
+      "answer": 500.0,
+      "correct": true
+    },
+    {
+      "prefix": " notoriouslyiards attract645marsh",
+      "prefix_ids": [
+        73835,
+        81560,
+        9504,
+        22926,
+        37339
+      ],
+      "logit_diff": -2.75,
+      "cosine_sim": 0.93359375,
+      "answer": 500.0,
+      "correct": true
+    },
+    {
+      "prefix": "omes plates**\n336ДК",
+      "prefix_ids": [
+        20969,
+        25485,
+        1035,
+        17014,
+        127436
+      ],
+      "logit_diff": -2.75,
+      "cosine_sim": 0.9375,
+      "answer": 501.0,
+      "correct": false
+    },
+    {
+      "prefix": "�､\n535Sell reminded",
+      "prefix_ids": [
+        24326,
+        117449,
+        20618,
+        69633,
+        31256
+      ],
+      "logit_diff": -2.75,
+      "cosine_sim": 0.9453125,
+      "answer": 500.0,
+      "correct": true
+    },
+    {
+      "prefix": "omes Ru**\n336ДК",
+      "prefix_ids": [
+        20969,
+        29014,
+        1035,
+        17014,
+        127436
+      ],
+      "logit_diff": -2.8125,
+      "cosine_sim": 0.9375,
+      "answer": 510.0,
+      "correct": false
+    },
+    {
+      "prefix": "�...\n535Sell Today",
+      "prefix_ids": [
+        24326,
+        12515,
+        20618,
+        69633,
+        11450
+      ],
+      "logit_diff": -2.9375,
+      "cosine_sim": 0.9453125,
+      "answer": 500.0,
+      "correct": true
+    },
+    {
+      "prefix": "picked mods436 cost roasted",
+      "prefix_ids": [
+        94599,
+        29354,
+        21299,
+        2853,
+        54662
+      ],
+      "logit_diff": -3.0,
+      "cosine_sim": 0.953125,
+      "answer": 500.0,
+      "correct": true
+    },
+    {
+      "prefix": " haul command436 cost roasted",
+      "prefix_ids": [
+        38968,
+        3290,
+        21299,
+        2853,
+        54662
+      ],
+      "logit_diff": -3.0,
+      "cosine_sim": 0.94921875,
+      "answer": 500.0,
+      "correct": true
+    },
+    {
+      "prefix": "omes command436 cost roasted",
+      "prefix_ids": [
+        20969,
+        3290,
+        21299,
+        2853,
+        54662
+      ],
+      "logit_diff": -3.0,
+      "cosine_sim": 0.94140625,
+      "answer": 500.0,
+      "correct": true
+    },
+    {
+      "prefix": "�.\n\n\n\n\n\n\n\n\n\n\n\n535 Leon Today",
+      "prefix_ids": [
+        24326,
+        86645,
+        20618,
+        21605,
+        11450
+      ],
+      "logit_diff": -3.0625,
+      "cosine_sim": 0.9453125,
+      "answer": 500.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

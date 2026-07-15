@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 950,
+  "question": "Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+  "ground_truth": "5.0",
+  "baseline_correct": false,
+  "baseline_answer": 12.5,
+  "best_rewrite": "A year has 365 days. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+  "best_fact": "A year has 365 days.",
+  "best_pred_answer": 20.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 28,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45. Then, we can simplify it to A + D = 25.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = A + 20 to get B = A + 20. This means that B = A + 20.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = A + 20 to get B = A + 20. This means that B = A + 20.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "April has 30 days. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45. Then we can simplify to A + D = 25.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We can then solve for A:\nA + D = 25\nA = 25 - D\n\nNow we can substitute A = 25 - D into the second equation:\n(25 - D) + D = 25\n25 = 25\n\nThis is true, so we can conclude that Azibo scored 25 points.\nSo the answer is \\boxed{Azibo scored 25 points.",
+      "pred_answer": 25.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince the total points of the team is 45, we can write the equation as: \nA + B + D = 45\n\nSubstituting B = A + 20 and B = D + 10 into the equation, we get:\nA + (A + 20) + D = 45\nCombine like terms:\n2A + D + 20 = 45\n\nNow, let's solve for A:\n2A + D = 45 - 20\n2A + D = 25\n\nSince we don't know the value of D, we can express D in terms of A:\nD = 25 - 2A\n\nNow, substitute D = 25 - 2A into the equation A + B + D = 45:\nA + B + (25 - 2A) = 45\n\nCombine like terms:\nA + B = 20\n\nWe know that B = A + 20, so we can substitute this into the equation:\nA + (A + 20) = 20\nCombine like terms:\n2A + 20 = 20\n\nNow, let's solve for A:\n2A = 0\nA = 0\n\nSince A = 0, we can find B:\nB = A + 20\nB = 0 + 20\nB = 20\n\nSo, Azibo scored 20 points.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince the total points for the team is 45, we can write the equation as: \nA + B + D = 45\n\nSubstituting B = A + 20 and B = D + 10 into the equation, we get:\nA + (A + 20) + D = 45\nCombine like terms:\n2A + D + 20 = 45\n\nNow, let's solve for A:\n2A + D = 45 - 20\n2A + D = 25\n\nSince we don't know the value of D, we can express A in terms of D:\nA = (25 - D) / 2\n\nWe also know that B = A + 20, so we can substitute A in terms of D into this equation:\nB = (25 - D) / 2 + 20\nB = (25 - D + 40) / 2\nB = (65 - D) / 2\n\nNow we have two equations:\nA = (25 - D) / 2\nB = (65 - D) / 2\n\nSince B = A + 20, we can substitute A in terms of D into this equation:\n(65 - D) / 2 = (25 - D) / 2 + 20\nMultiply both sides by 2 to eliminate the fraction:\n65 - D = 25 - D + 40\nCombine like terms:\n65 - D = 65\n\nNow, let's solve for D:\nD = 0\n\nNow that we know D = 0, we can find A:\nA = (25 - 0) / 2\nA = 25 / 2\nA = 12.5\n\nSo, Azibo scored 12.5 points.\nSo the answer is \\boxed{12.5",
+      "pred_answer": 12.5
+    },
+    {
+      "question": "The current temperature is 20 degrees. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince B = A + 20 and B = D + 10, we can set these two equations equal to each other:\n\nA + 20 = D + 10\n\nSubtract 10 from both sides:\n\nA = D + 10\n\nWe also know that the total points is 45, so A + B + D = 45.\n\nSubstitute B = A + 20 into the equation:\n\nA + (A + 20) + D = 45\n\nCombine like terms:\n\n2A + D + 20 = 45\n\nSubtract 20 from both sides:\n\n2A + D = 25\n\nNow we have two equations:\n\nA = D + 10\n2A + D = 25\n\nSubstitute A = D + 10 into the second equation:\n\n2(D + 10) + D = 25\n\nExpand the equation:\n\n2D + 20 + D = 25\n\nCombine like terms:\n\n3D + 20 = 25\n\nSubtract 20 from both sides:\n\n3D = 5\n\nDivide both sides by 3:\n\nD = 5/3\n\nNow that we know D, we can find A:\n\nA = D + 10\nA = 5/3 + 10\nA = 5/3 + 30/3\nA = 35/3\n\nSo Azibo scored 35/3 points.\nSo the answer is \\boxed{35/3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "A year has 12 months. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince the total points for the team is 45, we can write the equation as: \nA + B + D = 45\n\nSubstituting B = A + 20 and B = D + 10 into the equation, we get:\nA + (A + 20) + D = 45\nCombine like terms:\n2A + D + 20 = 45\n\nNow, let's solve for A:\n2A + D = 45 - 20\n2A + D = 25\n\nSince we don't know the value of D, we can express D in terms of A:\nD = 25 - 2A\n\nNow, substitute D = 25 - 2A into the equation A + B + D = 45:\nA + B + (25 - 2A) = 45\n\nCombine like terms:\nA + B = 20\n\nWe know that B = A + 20, so we can substitute this into the equation:\nA + (A + 20) = 20\nCombine like terms:\n2A + 20 = 20\n\nNow, let's solve for A:\n2A = 0\nA = 0\n\nSince A = 0, we can find B:\nB = A + 20\nB = 0 + 20\nB = 20\n\nSo, Azibo scored 20 points.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A week has 7 days. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince the total points are 45, we can write the equation as: \nA + B + D = 45\n\nSubstituting B = A + 20 and B = D + 10 into the equation, we get:\nA + (A + 20) + D = 45\nCombine like terms:\n2A + D + 20 = 45\n\nNow, let's solve for A:\n2A + D = 45 - 20\n2A + D = 25\n\nSince we don't know the value of D, we can express D in terms of A:\nD = 25 - 2A\n\nNow, substitute D = 25 - 2A into the equation A + B + D = 45:\nA + B + (25 - 2A) = 45\n\nCombine like terms:\nA + B = 20\n\nWe know that B = A + 20, so we can substitute this into the equation:\nA + (A + 20) = 20\nCombine like terms:\n2A + 20 = 20\n\nNow, let's solve for A:\n2A = 0\nA = 0\n\nSince A = 0, we can find B:\nB = A + 20\nB = 0 + 20\nB = 20\n\nSo, Azibo scored 20 points.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "An hour has 60 minutes. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10.\n\nWe also know that the total points is 45. So, A + B + D = 45.\n\nWe can substitute B = A + 20 and B = D + 10 into the equation A + B + D = 45.\n\nA + (A + 20) + D = 45\nA + A + 20 + D = 45\n2A + D + 20 = 45\n\nNow, let's simplify the equation:\n2A + D = 45 - 20\n2A + D = 25\n\nNow, we can express D in terms of A:\nD = 25 - 2A\n\nWe know that B = D + 10, so we can substitute D = 25 - 2A into this equation:\nB = (25 - 2A) + 10\nB = 35 - 2A\n\nNow, we can substitute B = A + 20 into the equation A + B + D = 45:\nA + (A + 20) + (35 - 2A) = 45\n\nCombine like terms:\nA + A + 20 + 35 - 2A = 45\n3A + 55 = 45\n\nNow, let's simplify the equation:\n3A + 55 = 45\n3A = 45 - 55\n3A = -10\n\nNow, let's divide both sides by 3:\nA = -10/3\nA = -3.33\n\nSince the points cannot be negative, we can round down to the nearest whole number. Azibo scored 3 points.\nSo the answer is \\boxed{Azibo scored 3 points.",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "A minute has 60 seconds. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10.\n\nWe also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get (A + 20) + A + D = 45.\n\nCombine like terms: 2A + D + 20 = 45.\n\nSubtract 20 from both sides: 2A + D = 25.\n\nNow we have two equations: \n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation: A + D = 25\nA + D = 25\n\nNow we have two equations with two variables. We can solve for A and D. Subtracting the second equation from the first equation, we get:\nA - D = 0\nA = D\n\nNow we can substitute A = D into the second equation: D + D = 25\n2D = 25\nD = 25/2\nD = 12.5\n\nNow that we have D, we can find A:\nA = D\nA = 12.5\n\nSo Azibo scored 12.5 points.\nSo the answer is \\boxed{12.5",
+      "pred_answer": 12.5
+    },
+    {
+      "question": "A year has 365 days. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince the total points for the team is 45, we can write the equation as: \nA + B + D = 45\n\nSubstituting B = A + 20 and B = D + 10 into the equation, we get:\nA + (A + 20) + D = 45\nCombine like terms:\n2A + D + 20 = 45\n\nNow, let's solve for A:\n2A + D = 45 - 20\n2A + D = 25\n\nSince we don't know the value of D, we can express D in terms of A:\nD = 25 - 2A\n\nNow, substitute D = 25 - 2A into the equation A + B + D = 45:\nA + B + (25 - 2A) = 45\n\nCombine like terms:\nA + B = 20\n\nWe know that B = A + 20, so we can substitute this into the equation:\nA + (A + 20) = 20\nCombine like terms:\n2A + 20 = 20\n\nNow, let's solve for A:\n2A = 0\nA = 0\n\nSince A = 0, we can find B:\nB = A + 20\nB = 0 + 20\nB = 20\n\nSo, Azibo scored 20 points.\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45. Then we can simplify to A + D = 25.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = A + 20 to get B = A + 20. This means that B = A + 20.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = A + 20 to get B = A + 20. This means that B = A + 20.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A =\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45. Then, we can simplify to A + D = 25.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = A + 20 to get B = A + 20. This means that B = A + 20.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = A + 20 to get B = A + 20. This means that B = A + 20.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince B = A + 20 and B = D + 10, we can set these two equations equal to each other:\n\nA + 20 = D + 10\n\nSubtract 10 from both sides:\n\nA = D + 10\n\nWe also know that the total points of the team is 45. So, A + B + D = 45.\n\nSubstitute B = A + 20 into the equation:\n\nA + (A + 20) + D = 45\n\nCombine like terms:\n\n2A + D + 20 = 45\n\nSubtract 20 from both sides:\n\n2A + D = 25\n\nNow we have two equations:\n\nA = D + 10\n2A + D = 25\n\nSubstitute A = D + 10 into the second equation:\n\n2(D + 10) + D = 25\n\nExpand the equation:\n\n2D + 20 + D = 25\n\nCombine like terms:\n\n3D + 20 = 25\n\nSubtract 20 from both sides:\n\n3D = 5\n\nDivide both sides by 3:\n\nD = 5/3\n\nNow that we know D, we can find A:\n\nA = D + 10\nA = 5/3 + 10\nA = 5/3 + 30/3\nA = 35/3\n\nSo Azibo scored 35/3 points.\nSo the answer is \\boxed{35/3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10.\n\nWe also know that B + A + D = 45.\n\nSubstituting B = A + 20 into the second equation, we get:\nA + 20 + D + D = 45\nA + 2D = 25\n\nNow, we have two equations:\n1) A + 2D = 25\n2) B = A + 20\n\nWe can substitute B from the second equation into the first equation:\nA + 2D = 25\nA + 2(A + 20) = 25\nA + 2A + 40 = 25\n3A = -15\nA = -15/3\nA = -5\n\nNow that we know A, we can find D:\nB = A + 20\nB = -5 + 20\nB = 15\n\nSo, Azibo scored 15 points.\nSo the answer is \\boxed{The answer is 15.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of points scored by Azibo as 'x'. \n\nSince Bahati scored 20 more points than Azibo, the number of points scored by Bahati is x + 20.\n\nSince Bahati scored 10 more points than Dinar, the number of points scored by Dinar is x - 10.\n\nThe total points scored by the team is 45, so we can set up the equation:\n\nx + (x + 20) + (x - 10) = 45\n\nCombine like terms:\n\n3x + 10 = 45\n\nSubtract 10 from both sides:\n\n3x = 35\n\nDivide both sides by 3:\n\nx = 35/3\nx = 11.67\n\nSo Azibo scored 11.67 points.\nSo the answer is \\boxed{11.67",
+      "pred_answer": 11.67
+    },
+    {
+      "question": "An adult has 32 teeth. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45. Then, we can simplify to A + D = 25.\n\nNow, we can substitute B = D + 10 into the first equation to get A + 20 + D + 10 = 45. This simplifies to A + D + 30 = 45.\n\nNow, we can subtract 30 from both sides to get A + D = 15.\n\nNow we have two equations: A + D = 15 and A + D = 25. Since both equations are equal to A + D, we can set them equal to each other: 15 = 25.\n\nThis equation is not true, so we need to re-examine the problem. Let's go back to the original equations.\n\nWe know that B = A + 20 and B = D + 10. We can set these two equations equal to each other to get A + 20 = D + 10.\n\nNow, we can subtract 10 from both sides to get A = D + 10.\n\nNow we have two equations: A = D + 10 and A + D = 15. We can substitute A = D + 10 into the second equation to get (D + 10) + D = 15.\n\nThis simplifies to 2D + 10 = 15.\n\nNow, we can subtract 10 from both sides to get 2D = 5.\n\nNow, we can divide both sides by 2 to get D = 2.5.\n\nNow that we know D, we can find A by substituting D into the equation A = D + 10 to get A = 2.5 + 10 = 12.5.\n\nSo, Azibo scored 12.5 points.\nSo the answer is \\boxed{12.5",
+      "pred_answer": 12.5
+    },
+    {
+      "question": "China has 1.4 billion people. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince the total points for the team is 45, we can write the equation as: \nA + B + D = 45\n\nSubstituting B = A + 20 and B = D + 10 into the equation, we get:\nA + (A + 20) + D = 45\nCombine like terms:\n2A + D + 20 = 45\n\nNow, let's solve for A:\n2A + D = 45 - 20\n2A + D = 25\n\nSince we don't know the value of D, we can express D in terms of A:\nD = 25 - 2A\n\nNow, substitute D = 25 - 2A into the equation A + B + D = 45:\nA + B + (25 - 2A) = 45\n\nCombine like terms:\nA + B = 20\n\nWe know that B = A + 20, so we can substitute this into the equation:\nA + (A + 20) = 20\nCombine like terms:\n2A + 20 = 20\n\nNow, let's solve for A:\n2A = 0\nA = 0\n\nSo, Azibo scored 0 points.\nSo the answer is \\boxed{Azibo scored 0 points.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "Japan has 125 million people. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45.\n\nNow we can rewrite the equation as A + D = 25.\n\nWe can substitute A + D = 25 into the first equation to get B = 25 + 10, which is B = 35.\n\nSo Azibo scored 35 points.\nSo the answer is \\boxed{Azibo scored 35 points.",
+      "pred_answer": 35.0
+    },
+    {
+      "question": "The US has 50 states. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince B = A + 20 and B = D + 10, we can set these two equations equal to each other:\n\nA + 20 = D + 10\n\nSubtract 10 from both sides:\n\nA = D + 10\n\nNow we know that B = A + 20 and B = D + 10. We can substitute A = D + 10 into B = A + 20:\n\nB = (D + 10) + 20\nB = D + 30\n\nNow we have two equations:\n\nA = D + 10\nB = D + 30\n\nSince B = A + 20, we can substitute A = D + 10 into B = A + 20:\n\nD + 30 = (D + 10) + 20\nD + 30 = D + 30\n\nSubtract D from both sides:\n\n30 = 30\n\nThis is true, so we can conclude that D = 0. \n\nNow that we know D = 0, we can find A:\n\nA = D + 10\nA = 0 + 10\nA = 10\n\nSo Azibo scored 10 points.\nSo the answer is \\boxed{10",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The EU has 27 member states. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince B = A + 20 and B = D + 10, we can set these two equations equal to each other:\n\nA + 20 = D + 10\n\nSubtract 10 from both sides:\n\nA = D + 10\n\nNow, we know that the total points of the team is 45. We can write the equation:\n\nA + B + D = 45\n\nSubstitute B = A + 20 and D = A + 10 into the equation:\n\nA + (A + 20) + (A + 10) = 45\n\nCombine like terms:\n\n3A + 30 = 45\n\nSubtract 30 from both sides:\n\n3A = 15\n\nDivide both sides by 3:\n\nA = 5\n\nSo Azibo scored 5 points.\nSo the answer is \\boxed{Azibo scored 5 points.",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10. We also know that B + A + D = 6650.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 6650. Then, we can substitute B = D + 10 into the first equation to get A + 20 + D + 10 = 6650.\n\nNow we have two equations:\nA + D + 30 = 6650\nA + D = 6630\n\nWe can subtract the second equation from the first to get:\n30 = 6630 - 6630\n30 = 0\n\nThis means that A + D = 6630 is an identity, which is true for all values of A and D. However, we know that A + D = 6630 and B = A + 20. Since B = D + 10, we can substitute B = D + 10 into the equation A + D = 6630 to get A + D = 6630 and D + 10 = 6630.\n\nNow we can solve for D:\nD = 6630 - 10\nD = 6620\n\nNow that we know D, we can find A:\nA = A + 20\nA = 6620 + 20\nA = 6640\n\nSo, Azibo scored 6640 points.\nSo the answer is \\boxed{The answer is 6640.",
+      "pred_answer": 6640.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45.\n\nNow we can simplify the equation to A + D = 25.\n\nWe also know that B = D + 10. We can substitute B = A + 20 into this equation to get A + 20 + D = 45.\n\nNow we can simplify the equation to A + D = 25.\n\nNow we have two equations:\nA + D = 25\nA + 20 + D = 45\n\nSubtracting the first equation from the second equation, we get:\nA + 20 + D - (A + D) = 45 - 25\n20 = 20\n\nThis is true, so we can conclude that A = 0.\n\nNow that we know A = 0, we can substitute this value into the first equation to get 0 + D = 25.\nD = 25\n\nSo Azibo scored 0 points.\nSo the answer is \\boxed{Azibo scored 0 points.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. We also know that B + A + D = 165.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 165.\n\nNow we have A + D = 145.\n\nWe can substitute B = D + 10 into the first equation to get A + 20 + D + 10 = 165.\n\nNow we have A + D + 30 = 165.\n\nNow we can subtract 30 from both sides to get A + D = 135.\n\nNow we have two equations: A + D = 135 and A + D = 145.\n\nSince both equations are equal to A + D, we can set them equal to each other to get 135 = 145.\n\nThis equation is not true, so we need to re-examine the problem.\n\nLet's go back to the original equations:\n\nB = A + 20 and B = D + 10.\n\nWe can set these two equations equal to each other to get A + 20 = D + 10.\n\nNow we can subtract 10 from both sides to get A = D - 10.\n\nNow we have A = D - 10 and A + D = 135.\n\nWe can substitute A = D - 10 into the second equation to get D - 10 + D = 135.\n\nNow we have 2D = 145.\n\nNow we can divide both sides by 2 to get D = 72.5.\n\nNow we can substitute D = 72.5 into A = D - 10 to get A = 72.5 - 10 = 62.5.\n\nSo Azibo scored 62.5 points.\nSo the answer is \\boxed{62.5",
+      "pred_answer": 62.5
+    },
+    {
+      "question": "The human body has 206 bones. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45. Then we can simplify to A + D = 25.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = D + 10. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = D + 10 to get B = A + 10.\n\nNow we have two equations:\n1) A = D\n2) B = A + 20\n3) B = A + 10\n\nSince A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = A + 10 to get B = A + 10.\n\nNow we have two equations:\n1) B = A + 20\n2) B = A + 10\n\nSince B = A + 20 and B = A + 10, we can set the two equations equal to each other to get A + 20 = A + 10. This equation is true for all values of A, so we can conclude that A = 10.\n\nNow that we know A = 10, we can substitute A = 10 into the equation B = A + 20 to get B = 10 + 20 = 30.\n\nSo Azibo scored 30 points.\nSo the answer is \\boxed{30",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45. Then, we can simplify to A + D = 25.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = A + 20 to get B = A + 20. This means that B = A + 20.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = A + 20 to get B = A + 20. This means that B = A + 20.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A\nSo the answer is \\boxed{The answer is 20.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45. Then, we can simplify to A + D = 25.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = A + 20. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = A + 20 to get B = A + 20.\nSo the answer is \\boxed{B = A + 20",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. We know that B = A + 20 and B = D + 10. We also know that B + A + D = 45.\n\nWe can substitute B = A + 20 into the second equation to get A + 20 + D = 45. Then, we can simplify to A + D = 25.\n\nNow we have two equations:\n1) A + D = 25\n2) B = A + 20\n\nWe can substitute B = A + 20 into the first equation to get A + D = 25. We already know that A + D = 25, so we can conclude that A = D.\n\nNow we know that A = D, and B = A + 20. We also know that B = D + 10. Since A = D, we can substitute A for D in the equation B = A + 20 to get B = A + 20. Since A = D, we can also substitute A for D in the equation B = D + 10 to get B = A + 10.\n\nNow we have two equations:\n1) A = D\n2) B = A + 20\n3) B = A + 10\n\nWe can substitute A = D into the second equation to get B = D + 20. We also know that B = A + 10. Since A = D, we can substitute A for D in the equation B = A + 10 to get B = A + 10. Since A = D, we can also substitute A for D in the equation B = D + 20 to get B = A + 20.\n\nNow we have two equations:\n1) B = A + 10\n2) B = A + 20\n\nSince B = A + 10 and B = A + 20, we can set the two equations equal to each other to get A + 10 = A + 20. This equation is true for all values of A, so we can conclude that A = 10.\n\nNow that we know A = 10, we can substitute A = 10 into the equation A = D to get D = 10.\n\nNow that we know A = 10 and D = 10, we can substitute A = 10 into the equation B = A + 20 to get B = 10 + \nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince the total points of the team is 45, we can write the equation as: \nA + B + D = 45\n\nSubstituting B = A + 20 and B = D + 10 into the equation, we get:\nA + (A + 20) + D = 45\nCombine like terms:\n2A + D + 20 = 45\n\nNow, let's solve for A:\n2A + D = 45 - 20\n2A + D = 25\n\nSince we know that A + B = D + 10, we can substitute D = A + 10 into the equation:\n2A + (A + 10) = 25\nCombine like terms:\n3A + 10 = 25\n\nNow, let's solve for A:\n3A = 25 - 10\n3A = 15\nA = 15/3\nA = 5\n\nSo, Azibo scored 5 points.\nSo the answer is \\boxed{Azibo scored 5 points.",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "Let's denote the number of points scored by Azibo as 'x'. \n\nSince Bahati scored 20 more points than Azibo, Bahati scored x + 20 points.\n\nSince Bahati scored 10 more points than Dinar, Dinar scored x - 10 points.\n\nThe total points scored by the team is 45. So, we can set up the equation:\n\nx + (x + 20) + (x - 10) = 45\n\nCombine like terms:\n\n3x + 10 = 45\n\nSubtract 10 from both sides:\n\n3x = 35\n\nDivide by 3:\n\nx = 35/3\nx = 11.67\n\nSo, Azibo scored 11.67 points.\nSo the answer is \\boxed{11.67",
+      "pred_answer": 11.67
+    },
+    {
+      "question": "Bitcoin was created in 2009. Bahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "Let's denote Azibo's points as A, Bahati's points as B, and Dinar's points as D. \n\nWe know that B = A + 20 and B = D + 10. \n\nSince B = A + 20 and B = D + 10, we can set these two equations equal to each other:\n\nA + 20 = D + 10\n\nSubtract 10 from both sides:\n\nA = D + 10\n\nWe also know that B = A + 20. We can substitute A = D + 10 into this equation:\n\nB = (D + 10) + 20\nB = D + 30\n\nNow we have two equations:\n\nA = D + 10\nB = D + 30\n\nSince B = A + 20, we can substitute A = D + 10 into this equation:\n\nD + 10 = D + 30\n\nSubtract D from both sides:\n\n10 = 30\n\nThis is a contradiction, which means that the initial assumption that A = D + 10 is incorrect. \n\nLet's go back to the original equations:\n\nA = D + 10\nB = D + 30\n\nWe know that B = A + 20. We can substitute A = D + 10 into this equation:\n\nB = (D + 10) + 20\nB = D + 30\n\nNow we have two equations:\n\nA = D + 10\nB = D + 30\n\nSince B = A + 20, we can substitute A = D + 10 into this equation:\n\nD + 10 = D + 30\n\nSubtract D from both sides:\n\n10 = 30\n\nThis is a contradiction, which means that the initial assumption that A = D + 10 is incorrect. \n\nLet's go back to the original equations:\n\nA = D + 10\nB = D + 30\n\nWe know that B = A + 20. We can substitute A = D + 10 into this equation:\n\nD + 10 = D + 30\n\nSubtract D from both sides:\n\n10 = 30\n\nThis is a contradiction, which means that the initial assumption that A = D + 10 is incorrect. \n\nLet's go back to the original equations:\n\nA = D + 10\nB = D + 30\n\nWe know that B = A + 20. We can substitute A = D + 10 into this equation:\n\nD + \nSo the answer is \\boxed{It seems like there was a misunderstanding in the explanation. The correct solution is:\n\nA = D + 10\nB = D + 30\n\nSince B = A + 20, we can substitute A = D + 10 into this equation:\n\nD + 10 = D + 30\n\nSubtract D from both sides:\n\n10 = 30\n\nThis is a contradiction, which means that the initial assumption that A = D + 10 is incorrect.\n\nLet's go back to the original equations:\n\nA = D + 10\nB = D + 30\n\nWe know that B = A + 20. We can substitute A = D + 10 into this equation:\n\nD + 10 = D + 30\n\nSubtract D from both sides:\n\n10 = 30\n\nThis is a contradiction, which means that the initial assumption that A = D + 10 is incorrect.\n\nLet's go back to the original equations:\n\nA = D + 10\nB = D + 30\n\nWe know that B = A + 20. We can substitute A = D + 10 into this equation:\n\nD + 10 = D + 30\n\nSubtract D from both sides:\n\n10 = 30\n\nThis is a contradiction, which means that the initial assumption that A = D + 10 is incorrect.\n\nLet's go back to the original equations:\n\nA = D + 10\nB = D + 30\n\nWe know that B = A + 20. We can substitute A = D + 10 into this equation:\n\nD + 10 = D + 30\n\nSubtract D from both sides:\n\n10 = 30\n\nThis is a contradiction, which means that the initial assumption that A = D + 10 is incorrect.\n\nLet's go back to the original equations:\n\nA = D + 10\nB = D + 30\n\nWe know that B = A + 20. We can substitute A = D + 10 into this equation:\n\nD + 10 = D + 30\n\nSubtract D from both sides:\n\n10 = 30\n\nThis is a contradiction, which means that the initial assumption that A = D + 10 is incorrect.\n\nLet's go back to the original equations:\n\nA = D + 10\nB = D + 30\n\nWe know that B = A + 20. We can substitute A = D + 10 into this equation:\n\nD + 10 = D + 30\n\nSubtract D from both sides",
+      "pred_answer": 30.0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question": "Debby drinks 6 bottles a day. If she bought a total of 12 water bottles How many days would they last her?",
+  "ground_truth": "2.0",
+  "prefix": " drafted proportion Essexos 147",
+  "prefix_token_ids": [
+    15937,
+    9823,
+    38307,
+    418,
+    22909
+  ],
+  "baseline_token_id": 362,
+  "target_token_id": 513,
+  "baseline_logit_diff": -12.0,
+  "clean_logit_diff": -11.953125,
+  "adv_logit_diff": 3.359375,
+  "best_logit_diff": 3.359375,
+  "clean_text": "Debby drinks 6 bottles a day. If she bought a total of 12 water bottles How many days would they last her?\n### 2",
+  "clean_answer": 2.0,
+  "clean_correct": true,
+  "adv_text": "drafted proportion Essexos 147Debby drinks 6 bottles a day. If she bought a total of 12 water bottles How many days would they last her?\n### 14",
+  "adv_answer": 14.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    3.359375
+  ]
+}

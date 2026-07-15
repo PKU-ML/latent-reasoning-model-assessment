@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 85,
+  "question": " Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+  "ground_truth": "9",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " verifies ==\n?\n\n\n Ontario much",
+  "prefix_token_ids": [
+    88956,
+    48861,
+    31931,
+    21193,
+    1790
+  ],
+  "best_wrong_prob": 5.693205950078549e-17,
+  "clean_text": "To find out how long the money would last, we need to divide the total amount of money Jerry made by the amount he spent per week.\n\nTotal money made: $14 + $31 = $45\nMoney spent per week: $5\n\nTime the",
+  "clean_pred": 9.0,
+  "clean_correct": true,
+  "adv_text": "To find out how long the money would last, we need to calculate the total amount of money Jerry made and then divide it by the amount he spent per week.\n\nTotal amount made: 14 dollars (mowing lawns) +",
+  "adv_pred": 9.0,
+  "adv_correct": true,
+  "attack_success": false
+}

@@ -1,0 +1,171 @@
+{
+  "question": "Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?",
+  "ground_truth": "12.0",
+  "best_prefix": "aseline65397ometeso",
+  "best_prefix_token_ids": [
+    50414,
+    2397,
+    20698,
+    4512,
+    29930
+  ],
+  "baseline_token_id": 717,
+  "target_token_id": 17,
+  "baseline_logit_diff": -3.0,
+  "clean_logit_diff": -3.375,
+  "best_logit_diff": 2.5625,
+  "best_cosine": 0.9609375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 12",
+  "clean_answer": 12.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 2",
+  "adv_answer": 2.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "aseline65397ometeso",
+      "prefix_ids": [
+        50414,
+        2397,
+        20698,
+        4512,
+        29930
+      ],
+      "logit_diff": 2.5625,
+      "cosine_sim": 0.9609375,
+      "answer": 2.0,
+      "correct": false
+    },
+    {
+      "prefix": " Momentstemplertility chút823",
+      "prefix_ids": [
+        83121,
+        75960,
+        62587,
+        118157,
+        23848
+      ],
+      "logit_diff": 0.0,
+      "cosine_sim": 0.98828125,
+      "answer": 2.0,
+      "correct": false
+    },
+    {
+      "prefix": " invertediest Buch tipped tighter",
+      "prefix_ids": [
+        47801,
+        13744,
+        34378,
+        66472,
+        64062
+      ],
+      "logit_diff": -0.5,
+      "cosine_sim": 0.9921875,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": "aseline65 ETAnovation cent",
+      "prefix_ids": [
+        50414,
+        2397,
+        90114,
+        99848,
+        2960
+      ],
+      "logit_diff": -0.75,
+      "cosine_sim": 0.98046875,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": "aseline +( thirteen erroresplugins",
+      "prefix_ids": [
+        50414,
+        62183,
+        61759,
+        91800,
+        19237
+      ],
+      "logit_diff": -1.25,
+      "cosine_sim": 0.96484375,
+      "answer": 22.0,
+      "correct": false
+    },
+    {
+      "prefix": "slash_STR207 logarithapollo",
+      "prefix_ids": [
+        51356,
+        7306,
+        12060,
+        91036,
+        54710
+      ],
+      "logit_diff": -1.625,
+      "cosine_sim": 0.984375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": "aseline65 ETA erroresplugins",
+      "prefix_ids": [
+        50414,
+        2397,
+        90114,
+        91800,
+        19237
+      ],
+      "logit_diff": -2.75,
+      "cosine_sim": 0.97265625,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": " Upsadamenteотоsections lateinit",
+      "prefix_ids": [
+        72416,
+        77155,
+        108006,
+        25686,
+        27222
+      ],
+      "logit_diff": -2.875,
+      "cosine_sim": 0.99609375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": " performans[B Heatfel accustomed",
+      "prefix_ids": [
+        123676,
+        33722,
+        27162,
+        59367,
+        53184
+      ],
+      "logit_diff": -2.875,
+      "cosine_sim": 0.99609375,
+      "answer": 12.0,
+      "correct": true
+    },
+    {
+      "prefix": " fundraiser特char528amı",
+      "prefix_ids": [
+        59759,
+        66378,
+        1799,
+        21458,
+        118039
+      ],
+      "logit_diff": -3.0,
+      "cosine_sim": 0.98828125,
+      "answer": 12.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

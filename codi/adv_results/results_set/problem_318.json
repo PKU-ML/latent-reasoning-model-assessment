@@ -1,0 +1,171 @@
+{
+  "question": "If a classroom has 3 times as many girls as they do boys, and 1/10 as many nongendered children as they do boys, and the classroom has 30 boys.  How many total children does it have?",
+  "ground_truth": "123.0",
+  "best_prefix": " adore,v ##\n775azzo",
+  "best_prefix_token_ids": [
+    61735,
+    14605,
+    48826,
+    22908,
+    40773
+  ],
+  "baseline_token_id": 4513,
+  "target_token_id": 8190,
+  "baseline_logit_diff": -2.6875,
+  "clean_logit_diff": -4.9375,
+  "best_logit_diff": 3.0625,
+  "best_cosine": 0.9453125,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 123",
+  "clean_answer": 123.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 1134",
+  "adv_answer": 1134.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " adore,v ##\n775azzo",
+      "prefix_ids": [
+        61735,
+        14605,
+        48826,
+        22908,
+        40773
+      ],
+      "logit_diff": 3.0625,
+      "cosine_sim": 0.9453125,
+      "answer": 1134.0,
+      "correct": false
+    },
+    {
+      "prefix": " óYG--){\n572ader",
+      "prefix_ids": [
+        41967,
+        54854,
+        50508,
+        22468,
+        1013
+      ],
+      "logit_diff": 0.8125,
+      "cosine_sim": 0.9375,
+      "answer": 673.0,
+      "correct": false
+    },
+    {
+      "prefix": " brightlywives]\n\n\n666 scoreboard",
+      "prefix_ids": [
+        76389,
+        59488,
+        22414,
+        10943,
+        83429
+      ],
+      "logit_diff": 0.25,
+      "cosine_sim": 0.94140625,
+      "answer": 723.0,
+      "correct": false
+    },
+    {
+      "prefix": " trafficking912131 BIG Academy",
+      "prefix_ids": [
+        34563,
+        22750,
+        9263,
+        37954,
+        16192
+      ],
+      "logit_diff": -1.125,
+      "cosine_sim": 0.9453125,
+      "answer": 1233.0,
+      "correct": false
+    },
+    {
+      "prefix": " mouths312ermen Reader betrayed",
+      "prefix_ids": [
+        65609,
+        13384,
+        60258,
+        26226,
+        65397
+      ],
+      "logit_diff": -2.125,
+      "cosine_sim": 0.94140625,
+      "answer": 363.0,
+      "correct": false
+    },
+    {
+      "prefix": " stalls312 Sandbox イ Santiago",
+      "prefix_ids": [
+        74673,
+        13384,
+        97960,
+        105729,
+        55678
+      ],
+      "logit_diff": -2.375,
+      "cosine_sim": 0.953125,
+      "answer": 363.0,
+      "correct": false
+    },
+    {
+      "prefix": " Quar973XLiena Greenwood",
+      "prefix_ids": [
+        93845,
+        24471,
+        37630,
+        87751,
+        91074
+      ],
+      "logit_diff": -2.375,
+      "cosine_sim": 0.95703125,
+      "answer": 1232.0,
+      "correct": false
+    },
+    {
+      "prefix": " unders')\n\nermen571 grocery",
+      "prefix_ids": [
+        26445,
+        4713,
+        60258,
+        22005,
+        30687
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.94921875,
+      "answer": 123.0,
+      "correct": true
+    },
+    {
+      "prefix": "ưới312ermen イ betrayed",
+      "prefix_ids": [
+        110303,
+        13384,
+        60258,
+        105729,
+        65397
+      ],
+      "logit_diff": -2.625,
+      "cosine_sim": 0.9453125,
+      "answer": 363.0,
+      "correct": false
+    },
+    {
+      "prefix": "ưới312ermen イ�",
+      "prefix_ids": [
+        110303,
+        13384,
+        60258,
+        105729,
+        108
+      ],
+      "logit_diff": -2.6875,
+      "cosine_sim": 0.94921875,
+      "answer": 363.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

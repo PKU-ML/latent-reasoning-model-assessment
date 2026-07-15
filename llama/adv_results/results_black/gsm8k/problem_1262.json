@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1262,
+  "question": "John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+  "ground_truth": "12.0",
+  "baseline_correct": true,
+  "baseline_answer": 12.0,
+  "best_rewrite": "The speed of sound in air is about 343 meters per second. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+  "best_fact": "The speed of sound in air is about 343 meters per second.",
+  "best_pred_answer": 0.00111,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 2,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages if his speed is 2.5 times faster.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "April has 30 days. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how long it would take John to speak 10 pages, we need to first find out how many words he can speak per minute. \n\nSince John's speed is 2.5 times faster than his starting speed, we multiply his starting speed by 2.5 to get his new speed: 150 * 2.5 = 375 words per minute.\n\nNow, we need to find out how many words he can speak in 10 minutes. We can do this by multiplying his speed by 10: 375 * 10 = 3750 words per minute.\n\nSince each page has 450 words, we can divide the total number of words by the number of words per page to find out how many pages he can speak in 10 minutes: 3750 / 450 = 8.33 pages.\n\nSince John can speak 8.33 pages in 10 minutes, we can find out how many minutes it would take him to speak 10 pages by dividing 10 by 8.33: 10 / 8.33 = 1.19 minutes.\n\nTherefore, it would take John approximately 1 minute and 11 seconds to speak 10 pages.\nSo the answer is \\boxed{1 minute and 11 seconds.",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Today is the 3rd of the month. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages at his new speed of 375 WPM.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages at his new speed.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A year has 12 months. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages at his new speed.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A week has 7 days. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "An hour has 60 minutes. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We know that each page has 450 words, so we can divide the total number of words by the number of words per page to find the total number of pages.\n\nTotal words: 10 pages * 450 words/page = 4500 words\nTime = Total words / New speed\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A minute has 60 seconds. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, let's calculate the time it would take John to speak 10 pages with his new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words per page\nTime = 4500 words\nTime = 4500 / 375\nTime = 12 seconds\n\nSo, it would take John 12 seconds to speak 10 pages with his new speed.\nSo the answer is \\boxed{12",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A year has 365 days. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nNew speed = 150 WPM * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Distance / Speed\n\nFirst, let's convert the distance to words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the new speed of John after training, we need to multiply his original speed by 2.5.\n\nNew speed = 150 WPM * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We know that the distance is 10 pages and the speed is 375 WPM.\n\nTime = Distance / Speed\nTime = 10 pages / 375 WPM\nTime = 0.02667 seconds per page\n\nNow, we need to convert this time to minutes. There are 60 seconds in a minute, so:\n\nTime (minutes) = 0.02667 seconds / 60\nTime (minutes) = 0.000446 minutes\n\nTo convert this to hours, we can multiply by 60:\n\nTime (hours) = 0.000446 minutes * 60\nTime (hours) = 0.0267 hours\n\nTo convert this to days, we can divide by 24:\n\nTime (days) = 0.0267 hours / 24\nTime (days) = 0.00111 days\n\nSo, it would take John approximately 0.00111 days to speak 10 pages.\nSo the answer is \\boxed{0.00111 days",
+      "pred_answer": 0.00111
+    },
+    {
+      "question": "Water freezes at 0 degrees. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages at his new speed.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nNew speed = 150 WPM * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Distance / Speed\n\nFirst, let's find the total distance in words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The human heart has 4 chambers. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, let's calculate the time it would take John to speak 10 pages with his new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words per page\nTime = 4500 words\nTime = 4500 / 375\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages with his new speed.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "An adult has 32 teeth. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages at his new speed.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "China has 1.4 billion people. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nNew speed = 150 WPM * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total number of words in 10 pages:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Japan has 125 million people. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nNew speed = 150 WPM * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total number of words in 10 pages:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The US has 50 states. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The EU has 27 member states. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Distance / Speed\n\nDistance = 10 pages * 450 words per page = 4500 words\nTime = 4500 / 375 WPM\n\nTime = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages at his new speed.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Distance / Speed\n\nDistance = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM\n\nTime = 4500 / 375 = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "The human body has 206 bones. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total number of words in 10 pages:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nNew speed = 150 WPM * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total number of words in 10 pages:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nNew speed = 150 WPM * 2.5 = 375 WPM\n\nNow, we need to find the time it takes for John to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nFirst, let's find the total words in 10 pages:\n10 pages * 450 words per page = 4500 words\n\nNow, we can plug in the values:\nTime = 4500 words / 375 WPM\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nTherefore, it would take John 12 hours to speak 10 pages.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, let's calculate the time it would take John to speak 10 pages with his new speed.\n\nTime = Total words / New speed\nTime = 10 pages * 450 words per page\nTime = 4500 words\nTime = 4500 / 375\nTime = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages with his new speed.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the new speed, we need to multiply John's original speed by 2.5.\n\nOriginal speed: 150 WPM\nNew speed: 150 * 2.5 = 375 WPM\n\nNow, we need to find the time it takes to speak 10 pages. We can use the formula:\n\nTime = Total words / Speed\n\nTotal words = 10 pages * 450 words per page = 4500 words\nTime = 4500 words / 375 WPM = 12 hours\n\nSo, it would take John 12 hours to speak 10 pages at his new speed of 375 WPM.\nSo the answer is \\boxed{12 hours",
+      "pred_answer": 12.0
+    }
+  ]
+}

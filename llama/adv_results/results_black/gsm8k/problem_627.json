@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 627,
+  "question": "On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+  "ground_truth": "54.0",
+  "baseline_correct": true,
+  "baseline_answer": 54.0,
+  "best_rewrite": "Bitcoin was created in 2009. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+  "best_fact": "Bitcoin was created in 2009.",
+  "best_pred_answer": 40.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 7,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nFor the first three days, the tow truck pulled 10 cars per day. \n10 cars/day * 3 days = 30 cars\n\nFor the remaining 5 days, the tow truck pulled 6 cars per day (4 fewer cars than the first 3 days).\n6 cars/day * 5 days = 30 cars\n\nNow, let's add the number of cars for each day:\n30 cars + 30 cars = 60 cars\n\nThe total number of cars towed that week is 60.\nSo the answer is \\boxed{The total number of cars towed that week is 60.",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "April has 30 days. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nFor the first three days, April has 10 cars per day, so the total number of cars for these days is:\n10 cars/day * 3 days = 30 cars\n\nFor the remaining 4 days, April has 6 cars per day (10 - 4 = 6), so the total number of cars for these days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars towed each day and then add them up.\n\nOn the first three days, the tow truck towed 10 cars per day. So, the total number of cars towed on the first three days is 10 * 3 = 30.\n\nOn the remaining 4 days, the tow truck towed 4 fewer cars per day, which is 10 - 4 = 6 cars per day. So, the total number of cars towed on the remaining 4 days is 6 * 4 = 24.\n\nThe total number of cars towed in the week is the sum of the cars towed on the first three days and the remaining 4 days, which is 30 + 24 = 54.\n\nTherefore, the total number of cars towed that week is 54.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "Today is the 3rd of the month. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nFor the first three days, the tow truck pulled 10 cars per day. \n10 cars/day * 3 days = 30 cars\n\nFor the remaining 4 days, the tow truck pulled 6 cars per day (10 - 4 = 6). \n6 cars/day * 4 days = 24 cars\n\nNow, let's add the number of cars for each day:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck pulled 6 cars per day (4 fewer than 10). So, the total number of cars for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "A year has 12 months. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nFor the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nFor the remaining 7 days, the tow truck pulled 4 fewer cars per day, so the number of cars per day is 10 - 4 = 6 cars. The total number of cars for the remaining 7 days is:\n6 cars/day * 7 days = 42 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 7 days:\n30 cars + 42 cars = 72 cars\n\nTherefore, the total number of cars towed that week is 72.\nSo the answer is \\boxed{The answer is 72.",
+      "pred_answer": 72.0
+    },
+    {
+      "question": "A week has 7 days. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck pulled 4 fewer cars per day, so it pulled 6 cars per day. The total number of cars for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "An hour has 60 minutes. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars towed for each day and then add them up.\n\nFor the first three days, the tow truck pulled 10 cars per day. So, the total number of cars towed for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nFor the remaining 4 days, the tow truck pulled 6 cars per day (10 - 4 = 6). So, the total number of cars towed for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars towed for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nTherefore, the total number of cars towed that week is 54.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "A minute has 60 seconds. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars towed each day and then add them up.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars towed on the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck pulled 6 cars per day (4 fewer cars than the first 3 days). So, the total number of cars towed on the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the number of cars towed on the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "A year has 365 days. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nFor the first three days, the tow truck pulled 10 cars per day, so the total number of cars for these days is:\n10 cars/day * 3 days = 30 cars\n\nFor the remaining 4 days, the tow truck pulled 4 fewer cars per day, so the number of cars for these days is:\n10 cars/day - 4 cars/day = 6 cars/day\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining days:\n30 cars + 24 cars = 54 cars\n\nTherefore, the total number of cars towed that week is 54.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nDay 1: 10 cars\nDay 2: 10 - 4 = 6 cars\nDay 3: 10 - 4 = 6 cars\n\nTotal cars for the first three days: 10 + 6 + 6 = 22 cars\n\nThe remaining days are 4, 5, and 6. We need to calculate the number of cars for each of these days.\n\nDay 4: 10 - 4 = 6 cars\nDay 5: 10 - 4 = 6 cars\nDay 6: 10 - 4 = 6 cars\n\nTotal cars for the remaining days: 6 + 6 + 6 = 18 cars\n\nNow, let's add the total cars for the first three days and the remaining days:\n22 + 18 = 40 cars\n\nThe total number of cars towed that week is 40.\nSo the answer is \\boxed{The total number of cars towed that week is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars towed each day and then add them up.\n\nOn the first three days, the tow truck towed 10 cars per day. So, the total number of cars towed on the first three days is 10 * 3 = 30.\n\nOn the remaining 4 days, the tow truck towed 6 cars per day (10 - 4 = 6). So, the total number of cars towed on the remaining 4 days is 6 * 4 = 24.\n\nThe total number of cars towed in the week is the sum of the cars towed on the first three days and the remaining 4 days. So, the total number of cars towed is 30 + 24 = 54.\n\nTherefore, the total number of cars towed that week is 54.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nDay 1: 10 cars\nDay 2: 10 - 4 = 6 cars\nDay 3: 10 - 4 = 6 cars\nTotal cars for Day 1, 2, and 3: 10 + 6 + 6 = 22 cars\n\nThe remaining days are 4, 5, and 6. \nDay 4: 10 - 4 = 6 cars\nDay 5: 10 - 4 = 6 cars\nDay 6: 10 - 4 = 6 cars\nTotal cars for Day 4, 5, and 6: 6 + 6 + 6 = 18 cars\n\nNow, let's add the total cars for all days:\n22 + 18 = 40 cars\n\nThe total number of cars towed that week is 40.\nSo the answer is \\boxed{The total number of cars towed that week is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars towed each day and then add them up.\n\nOn the first three days, the tow truck towed 10 cars per day. So, the total number of cars towed on the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck towed 6 cars per day (4 fewer cars than the first 3 days). So, the total number of cars towed on the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the number of cars towed on the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "The human heart has 4 chambers. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck pulled 4 fewer cars per day, so it pulled 6 cars per day. The total number of cars for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "An adult has 32 teeth. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them together.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is 10 * 3 = 30.\n\nOn the remaining 4 days, the tow truck pulled 4 fewer cars per day, so it pulled 10 - 4 = 6 cars per day. There are 4 days remaining, so the total number of cars for the remaining days is 6 * 4 = 24.\n\nThe total number of cars towed is the sum of the cars for the first three days and the remaining days: 30 + 24 = 54.\n\nTherefore, the total number of cars towed that week is 54.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "China has 1.4 billion people. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck pulled 6 cars per day (4 fewer than 10). So, the total number of cars for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "Japan has 125 million people. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck pulled 6 cars per day (4 fewer than 10). So, the total number of cars for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "The US has 50 states. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck pulled 6 cars per day (4 fewer than 10). So, the total number of cars for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "The EU has 27 member states. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck pulled 6 cars per day. So, the total number of cars for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nOn the first three days, the tow truck towed 10 cars per day, so the total number of cars for these days is 10 * 3 = 30.\n\nOn the remaining 4 days, the tow truck towed 6 cars per day (4 fewer than 10), so the total number of cars for these days is 6 * 4 = 24.\n\nThe total number of cars towed is the sum of the cars for the first three days and the remaining days: 30 + 24 = 54.\n\nTherefore, the total number of cars towed that week is 54.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nDay 1: 10 cars\nDay 2: 10 - 4 = 6 cars\nDay 3: 10 - 4 = 6 cars\n\nTotal cars for the first three days: 10 + 6 + 6 = 22 cars\n\nThe remaining days are 4, 5, and 6. So, the number of cars for these days is:\nDay 4: 10 - 4 = 6 cars\nDay 5: 10 - 4 = 6 cars\nDay 6: 10 - 4 = 6 cars\n\nTotal cars for the remaining days: 6 + 6 + 6 = 18 cars\n\nNow, let's add the total cars for the first three days and the remaining days:\n22 + 18 = 40 cars\n\nThe total number of cars towed that week is 40.\nSo the answer is \\boxed{The total number of cars towed that week is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck pulled 6 cars per day (4 fewer than 10). So, the total number of cars for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "The human body has 206 bones. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nOn the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck pulled 6 cars per day (4 fewer than 10). So, the total number of cars for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nFor the first three days, the tow truck pulled 10 cars per day. So, the total number of cars for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nFor the remaining 4 days, the tow truck pulled 6 cars per day (10 - 4 = 6). So, the total number of cars for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars towed on each day and then add them up.\n\nOn the first three days, the tow truck towed 10 cars per day. So, the total number of cars towed on the first three days is:\n10 cars/day * 3 days = 30 cars\n\nOn the remaining 4 days, the tow truck towed 6 cars per day (4 fewer cars than the first 3 days). So, the total number of cars towed on the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the number of cars towed on each day:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars towed for each day and then sum them up.\n\nFor the first three days, the tow truck towed 10 cars per day. So, the total number of cars towed for the first three days is:\n10 cars/day * 3 days = 30 cars\n\nFor the remaining 4 days, the tow truck towed 6 cars per day (10 - 4 = 6). So, the total number of cars towed for the remaining 4 days is:\n6 cars/day * 4 days = 24 cars\n\nNow, let's add the total number of cars towed for the first three days and the remaining 4 days:\n30 cars + 24 cars = 54 cars\n\nTherefore, the total number of cars towed that week is 54.\nSo the answer is \\boxed{The answer is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them together.\n\nFor the first three days, the plant towed 10 cars per day, so the total number of cars for these days is:\n10 cars/day * 3 days = 30 cars\n\nFor the remaining 4 days, the plant towed 4 fewer cars per day, so the number of cars per day is 10 - 4 = 6 cars. The total number of cars for these days is:\n6 cars/day * 4 days = 24 cars\n\nNow, we add the total number of cars for the first three days and the remaining days:\n30 cars + 24 cars = 54 cars\n\nThe total number of cars towed that week is 54.\nSo the answer is \\boxed{The total number of cars towed that week is 54.",
+      "pred_answer": 54.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find the total number of cars towed, we need to calculate the number of cars for each day and then add them up.\n\nDay 1: 10 cars\nDay 2: 10 - 4 = 6 cars\nDay 3: 10 - 4 = 6 cars\nTotal cars for the first three days: 10 + 6 + 6 = 22 cars\n\nThe remaining days are 4, 5, and 6. We need to calculate the number of cars for each of these days.\n\nDay 4: 10 - 4 = 6 cars\nDay 5: 10 - 4 = 6 cars\nDay 6: 10 - 4 = 6 cars\n\nTotal cars for the remaining days: 6 + 6 + 6 = 18 cars\n\nNow, let's add the total number of cars for the first three days and the remaining days:\n22 + 18 = 40 cars\n\nThe total number of cars towed that week is 40.\nSo the answer is \\boxed{The total number of cars towed that week is 40.",
+      "pred_answer": 40.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. On a particular week, a tow truck pulled ten cars for each of the first three days and then four fewer cars on each of the remaining days of the week. Calculate the total number of cars it towed that week.",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To calculate the total number of cars towed, we need to calculate the number of cars towed each day and then add them up.\n\nDay 1: 10 cars\nDay 2: 10 - 4 = 6 cars\nDay 3: 10 - 4 = 6 cars\nTotal cars for the first three days: 10 + 6 + 6 = 22 cars\n\nThe remaining days of the week are 4, 5, and 6. We need to calculate the number of cars towed for each of these days.\n\nDay 4: 10 - 4 = 6 cars\nDay 5: 10 - 4 = 6 cars\nDay 6: 10 - 4 = 6 cars\n\nTotal cars for the remaining days: 6 + 6 + 6 = 18 cars\n\nNow, let's add the total number of cars towed for the first three days and the remaining days:\n22 + 18 = 40 cars\n\nThe total number of cars towed that week is 40.\nSo the answer is \\boxed{The total number of cars towed that week is 40.",
+      "pred_answer": 40.0
+    }
+  ]
+}

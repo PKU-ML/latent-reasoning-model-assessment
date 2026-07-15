@@ -1,0 +1,26 @@
+{
+  "question": "Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?",
+  "ground_truth": "50.0",
+  "prefix": " draftedrecomm Paris",
+  "prefix_token_ids": [
+    15937,
+    47335,
+    6342
+  ],
+  "baseline_token_id": 2026,
+  "target_token_id": 4317,
+  "baseline_logit_diff": -4.3125,
+  "clean_logit_diff": -5.90625,
+  "adv_logit_diff": 2.3359375,
+  "best_logit_diff": 2.3359375,
+  "clean_text": "Chris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?\n### 50",
+  "clean_answer": 50.0,
+  "clean_correct": true,
+  "adv_text": "draftedrecomm ParisChris has a two-speed lawn mower. He can mow his entire lawn in \"turtle\" mode in 1 hour, or 40 minutes in \"rabbit\" mode. Today, he experimented by mowing half in turtle mode and half in rabbit mode. How many minutes did it take him to mow the lawn?\n### 150",
+  "adv_answer": 150.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.3359375
+  ]
+}

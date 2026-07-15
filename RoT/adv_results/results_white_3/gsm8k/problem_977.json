@@ -1,0 +1,26 @@
+{
+  "question": "Pamela reapplies an ounce of sunscreen every hour she's outside.  Her sunscreen comes in 8-ounce bottles.  While on vacation, if she will be outside 4 hours a day over 8 days, how many bottles of sunscreen will she need to pack?",
+  "ground_truth": "4.0",
+  "prefix": "6铯7",
+  "prefix_token_ids": [
+    21,
+    120703,
+    22
+  ],
+  "baseline_token_id": 19,
+  "target_token_id": 17,
+  "baseline_logit_diff": 0.125,
+  "clean_logit_diff": -0.75,
+  "adv_logit_diff": 1.875,
+  "best_logit_diff": 1.875,
+  "clean_text": "assistant\n### 4 ",
+  "clean_answer": 4.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 2 ",
+  "adv_answer": 2.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.875
+  ]
+}

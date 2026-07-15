@@ -1,0 +1,22 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 33,
+  "question": "Mary is baking a cake. The recipe calls for 5 cups of sugar and 13 cups of flour. She already put in some cups of flour. If she still needs 12 more cups of flour How many cups of flour did she put in?",
+  "ground_truth": "1",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Selbst tox:\"-\"`\n",
+  "prefix_token_ids": [
+    92552,
+    41569,
+    99999
+  ],
+  "best_wrong_prob": 5.127505994258598e-10,
+  "clean_text": "To find out how many cups of flour Mary put in, we need to subtract the amount she still needs from the total amount required.\n\nTotal amount required: 13 cups\nAmount still needed: 12 cups\n\nAmount put ",
+  "clean_pred": 1.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many cups of flour Mary put in, we need to subtract the amount she still needs from the total amount required.\n\nTotal amount required: 13 cups\nAmount still needed: 12 cups\n\nAmount put ",
+  "adv_pred": 1.0,
+  "adv_correct": true,
+  "attack_success": false
+}

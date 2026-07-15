@@ -1,0 +1,226 @@
+{
+  "question": "An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+  "ground_truth": "2.0",
+  "best_rewrite": "There are 24 hours in a day. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+  "best_fact": "There are 24 hours in a day.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "assistant\n### 12 ",
+    "pred_answer": 12.0
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "April has 30 days. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 7 ",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 2 ",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Today is the 3rd of the month. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 2 ",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 2 ",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A year has 12 months. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 2.5 ",
+      "pred_answer": 2.5
+    },
+    {
+      "question": "A week has 7 days. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 2.5 ",
+      "pred_answer": 2.5
+    },
+    {
+      "question": "An hour has 60 minutes. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "A minute has 60 seconds. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A year has 365 days. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 7.5 ",
+      "pred_answer": 7.5
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 22 ",
+      "pred_answer": 22.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 7 ",
+      "pred_answer": 7.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 2 ",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "The human heart has 4 chambers. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 2 ",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "An adult has 32 teeth. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 6 ",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "China has 1.4 billion people. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 100 ",
+      "pred_answer": 100.0
+    },
+    {
+      "question": "Japan has 125 million people. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 125 ",
+      "pred_answer": 125.0
+    },
+    {
+      "question": "The US has 50 states. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The EU has 27 member states. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 2.5 ",
+      "pred_answer": 2.5
+    },
+    {
+      "question": "The Nile is about 6650 km long. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 108 ",
+      "pred_answer": 108.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 16 ",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The human body has 206 bones. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 2 ",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 8 ",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 2 ",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 2 ",
+      "pred_answer": 2.0
+    }
+  ]
+}

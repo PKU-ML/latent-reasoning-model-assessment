@@ -1,0 +1,28 @@
+{
+  "question": "There are 50 deer in a field.  50 percent of them are bucks.  20 percent of the bucks are 8 points.  How many 8 point bucks are there?",
+  "ground_truth": "5.0",
+  "prefix": " twice convinc finish cartridges chips",
+  "prefix_token_ids": [
+    5403,
+    15609,
+    5461,
+    37852,
+    12014
+  ],
+  "baseline_token_id": 642,
+  "target_token_id": 838,
+  "baseline_logit_diff": 3.4765625,
+  "clean_logit_diff": -6.09375,
+  "adv_logit_diff": 6.59375,
+  "best_logit_diff": 6.59375,
+  "clean_text": "There are 50 deer in a field.  50 percent of them are bucks.  20 percent of the bucks are 8 points.  How many 8 point bucks are there?\n### 5",
+  "clean_answer": 5.0,
+  "clean_correct": true,
+  "adv_text": "twice convinc finish cartridges chipsThere are 50 deer in a field.  50 percent of them are bucks.  20 percent of the bucks are 8 points.  How many 8 point bucks are there?\n### 8",
+  "adv_answer": 8.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    6.59375
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": " Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+  "ground_truth": "31.0",
+  "prefix": " Bennnih 440",
+  "prefix_token_ids": [
+    14025,
+    37373,
+    33879
+  ],
+  "baseline_token_id": 3261,
+  "target_token_id": 6073,
+  "baseline_logit_diff": 1.03125,
+  "clean_logit_diff": -10.78125,
+  "adv_logit_diff": 8.28125,
+  "best_logit_diff": 8.28125,
+  "clean_text": "Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total?\n### 31",
+  "clean_answer": 31.0,
+  "clean_correct": true,
+  "adv_text": "Bennnih 440Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total?\n### 425",
+  "adv_answer": 425.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    8.28125
+  ]
+}

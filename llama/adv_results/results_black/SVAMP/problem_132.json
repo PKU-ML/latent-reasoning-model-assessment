@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 132,
+  "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+  "ground_truth": "8.0",
+  "baseline_correct": false,
+  "baseline_answer": 20.0,
+  "best_rewrite": "A week has 7 days. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+  "best_fact": "A week has 7 days.",
+  "best_pred_answer": 20.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 11,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped  x + 19 inches. \n\nThe mouse jumped 12 inches lesser than the frog, so the mouse jumped x - 12 inches.\n\nThe total distance is the sum of the distances jumped by the grasshopper, frog, and mouse. We know the grasshopper jumped 39 inches, so we can set up the equation:\n\nx + (x + 19) + (x - 12) = 39\n\nCombine like terms:\n3x + 7 = 39\n\nSubtract 7 from both sides:\n3x = 32\n\nDivide both sides by 3:\nx = 32/3\nx = 10.67\n\nNow that we know the frog jumped 10.67 inches, we can find the distance the mouse jumped:\nx - 12 = 10.67 - 12\nx - 12 = -1.33\nx = 1.67\n\nThe mouse jumped 1.67 inches.\nSo the answer is \\boxed{The mouse jumped 1.67 inches.",
+      "pred_answer": 1.67
+    },
+    {
+      "question": "April has 30 days. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how far the mouse jumped, we need to first find out how far the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can subtract 19 from the grasshopper's jump to find the frog's jump.\n\nThe grasshopper jumped 39 inches, so the frog jumped 39 - 19 = 20 inches.\n\nNow, we know the frog jumped 20 inches. Since the mouse jumped 12 inches less than the frog, we can subtract 12 from the frog's jump to find the mouse's jump.\n\nThe mouse jumped 20 - 12 = 8 inches.\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can set up an equation:\n\nFrog's jump = Grasshopper's jump - 19\nFrog's jump = 39 - 19\nFrog's jump = 20 inches\n\nNow that we know the frog jumped 20 inches, we can find the mouse's jump by subtracting 12 inches from the frog's jump:\n\nMouse's jump = Frog's jump - 12\nMouse's jump = 20 - 12\nMouse's jump = 8 inches\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Today is the 3rd of the month. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can subtract 19 from the grasshopper's distance to find the frog's distance.\n\nThe grasshopper jumped 39 inches, so the frog jumped 39 - 19 = 20 inches.\n\nNow, we know the frog jumped 20 inches. Since the mouse jumped 12 inches less than the frog, we can subtract 12 from the frog's distance to find the mouse's distance.\n\nThe mouse jumped 20 - 12 = 8 inches.\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can subtract 19 from the grasshopper's jump distance to find the frog's jump distance.\n\nThe grasshopper jumped 39 inches, so the frog jumped 39 - 19 = 20 inches.\n\nNow, we know the frog jumped 20 inches. Since the mouse jumped 12 inches less than the frog, we can subtract 12 from the frog's jump distance to find the mouse's jump distance.\n\nThe mouse jumped 20 - 12 = 8 inches.\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A year has 12 months. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can subtract 19 from the grasshopper's distance to find the frog's distance.\n\nGrasshopper's distance = 39 inches\nFrog's distance = Grasshopper's distance - 19\nFrog's distance = 39 - 19\nFrog's distance = 20 inches\n\nNow that we know the frog jumped 20 inches, we can find the mouse's distance by subtracting 12 inches from the frog's distance.\n\nMouse's distance = Frog's distance - 12\nMouse's distance = 20 - 12\nMouse's distance = 8 inches\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A week has 7 days. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped  x + 19 inches. \n\nThe mouse jumped 12 inches lesser than the frog, so the mouse jumped x - 12 inches.\n\nWe know the grasshopper jumped 39 inches, so we can set up the equation:\n\nx + 19 = 39\n\nTo find x, we need to subtract 19 from both sides of the equation:\n\nx = 39 - 19\nx = 20\n\nNow that we know the frog jumped 20 inches, we can find the distance the mouse jumped:\n\nx - 12 = 20 - 12\nx - 12 = 8\n\nx = 8 + 12\nx = 20\n\nSo the mouse jumped 20 inches.\nSo the answer is \\boxed{The mouse jumped 20 inches.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "An hour has 60 minutes. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped  x + 19 inches. \n\nThe mouse jumped 12 inches lesser than the frog, so the mouse jumped x - 12 inches.\n\nThe grasshopper jumped 39 inches, so we can set up the equation:\n\nx + 19 = 39\n\nSubtracting 19 from both sides:\n\nx = 20\n\nNow that we know the frog jumped 20 inches, we can find the distance the mouse jumped:\n\nx - 12 = 20 - 12\nx - 12 = 8\n\nAdding 12 to both sides:\n\nx = 20\n\nSo the frog jumped 20 inches.\n\nThe mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A minute has 60 seconds. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped 19 + x inches. \n\nThe mouse jumped 12 inches lesser than the frog, so the mouse jumped  x - 12 inches.\n\nThe grasshopper jumped 39 inches, so we can set up the equation:\n\n19 + x = 39\n\nNow, let's solve for x:\n\nx = 39 - 19\nx = 20\n\nSo the frog jumped 20 inches.\n\nNow that we know the frog jumped 20 inches, we can find the distance the mouse jumped:\n\nMouse jumped 20 - 12 = 8 inches.\n\nThe answer is 8 inches.\nSo the answer is \\boxed{The answer is 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A year has 365 days. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped  x + 19 inches. \n\nThe mouse jumped 12 inches lesser than the frog, so the mouse jumped x - 12 inches.\n\nWe know the grasshopper jumped 39 inches, so we can set up the equation:\n\nx + 19 = 39\n\nTo find x, we need to subtract 19 from both sides of the equation:\n\nx = 39 - 19\nx = 20\n\nNow that we know the frog jumped 20 inches, we can find the distance the mouse jumped:\n\nx - 12 = 20 - 12\nx - 12 = 8\n\nx = 8 + 12\nx = 20\n\nSo the mouse jumped 20 inches.\nSo the answer is \\boxed{The mouse jumped 20 inches.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped 19 + x inches. \n\nThe mouse jumped 12 inches less than the frog, so the mouse jumped  x - 12 inches.\n\nThe total distance is the sum of the distances jumped by the grasshopper and the mouse. We know the grasshopper jumped 39 inches, so we can set up the equation:\n\nx + (19 + x) = 39\n\nCombine like terms:\n2x + 19 = 39\n\nSubtract 19 from both sides:\n2x = 20\n\nDivide both sides by 2:\nx = 10\n\nNow that we know the frog jumped 10 inches, we can find the distance the mouse jumped:\nx - 12 = 10 - 12\nx - 12 = -2\n\nAdd 12 to both sides:\nx = 10\n\nThe mouse jumped 10 inches.\nSo the answer is \\boxed{The mouse jumped 10 inches.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped 19 + x inches. \n\nThe mouse jumped 12 inches less than the frog, so the mouse jumped  x - 12 inches.\n\nThe total distance the three jumped is the sum of their individual distances. We know the grasshopper jumped 39 inches, so we can set up the equation:\n\nx + (19 + x) + (x - 12) = 39\n\nCombine like terms:\n\n3x + 7 = 39\n\nSubtract 7 from both sides:\n\n3x = 32\n\nDivide by 3:\n\nx = 32/3\nx = 10.67\n\nNow that we know the frog jumped 10.67 inches, we can find the distance the mouse jumped:\n\nDistance the mouse jumped = x - 12\n= 10.67 - 12\n= -1.33\n\nThe mouse jumped 1.33 inches.\nSo the answer is \\boxed{The mouse jumped 1.33 inches.",
+      "pred_answer": 1.33
+    },
+    {
+      "question": "Water freezes at 0 degrees. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped  x + 19 inches. \n\nThe mouse jumped 12 inches lesser than the frog, so the mouse jumped x - 12 inches.\n\nWe know that the grasshopper jumped 39 inches, so we can set up the equation:\n\nx + 19 = 39\n\nTo solve for x, we subtract 19 from both sides:\n\nx = 39 - 19\nx = 20\n\nNow that we know the frog jumped 20 inches, we can find the distance the mouse jumped:\n\nx - 12 = 20 - 12\nx - 12 = 8\n\nx = 8 + 12\nx = 20\n\nSo the mouse jumped 20 inches.\nSo the answer is \\boxed{The mouse jumped 20 inches.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped 19 + x inches. \n\nThe mouse jumped 12 inches less than the frog, so the mouse jumped  x - 12 inches.\n\nThe total distance is the sum of the distances jumped by the grasshopper and the mouse. We know the grasshopper jumped 39 inches, so we can set up the equation:\n\nx + (19 + x) = 39\n\nCombine like terms:\n2x + 19 = 39\n\nSubtract 19 from both sides:\n2x = 20\n\nDivide both sides by 2:\nx = 10\n\nSo the frog jumped 10 inches.\n\nNow that we know the frog jumped 10 inches, we can find the distance the mouse jumped:\nx - 12 = 10 - 12\nx - 12 = -2\nx = 2\n\nThe mouse jumped 2 inches.\nSo the answer is \\boxed{The mouse jumped 2 inches.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The human heart has 4 chambers. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can set up an equation:\n\nGrasshopper's jump = Frog's jump + 19\n39 = Frog's jump + 19\n\nNow, we can solve for the frog's jump:\nFrog's jump = 39 - 19\nFrog's jump = 20 inches\n\nNow that we know the frog jumped 20 inches, we can find the mouse's jump by subtracting 12 inches from the frog's jump:\nMouse's jump = Frog's jump - 12\nMouse's jump = 20 - 12\nMouse's jump = 8 inches\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "An adult has 32 teeth. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how far the mouse jumped, we need to first find out how far the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can subtract 19 from the grasshopper's jump to find the frog's jump.\n\nThe grasshopper jumped 39 inches, so the frog jumped 39 - 19 = 20 inches.\n\nNow, we know the frog jumped 20 inches. Since the mouse jumped 12 inches less than the frog, we can subtract 12 from the frog's jump to find the mouse's jump.\n\nThe mouse jumped 20 - 12 = 8 inches.\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "China has 1.4 billion people. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, the frog jumped 39 - 19 = 20 inches.\n\nThe mouse jumped 12 inches less than the frog, so the mouse jumped 20 - 12 = 8 inches.\n\nTherefore, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Japan has 125 million people. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, the frog jumped 39 - 19 = 20 inches.\n\nThe mouse jumped 12 inches less than the frog, so the mouse jumped 20 - 12 = 8 inches.\n\nThe total distance the mouse jumped is 8 + 20 = 28 inches.\nSo the answer is \\boxed{The mouse jumped 28 inches.",
+      "pred_answer": 28.0
+    },
+    {
+      "question": "The US has 50 states. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can subtract 19 from the grasshopper's distance to find the frog's distance.\n\nGrasshopper's distance = 39 inches\nFrog's distance = Grasshopper's distance - 19\nFrog's distance = 39 - 19\nFrog's distance = 20 inches\n\nNow that we know the frog jumped 20 inches, we can find the mouse's distance by subtracting 12 inches from the frog's distance.\n\nMouse's distance = Frog's distance - 12\nMouse's distance = 20 - 12\nMouse's distance = 8 inches\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The EU has 27 member states. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can set up an equation:\n\nGrasshopper's jump = Frog's jump + 19\n39 = Frog's jump + 19\n\nNow, we can solve for the frog's jump:\n\nFrog's jump = 39 - 19\nFrog's jump = 20 inches\n\nNow that we know the frog jumped 20 inches, we can find the mouse's jump by subtracting 12 inches from the frog's jump:\n\nMouse's jump = Frog's jump - 12\nMouse's jump = 20 - 12\nMouse's jump = 8 inches\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped 19 + x inches. \n\nThe mouse jumped 12 inches less than the frog, so the mouse jumped  x - 12 inches.\n\nThe total distance is the sum of the distances jumped by the grasshopper and the mouse. We know the grasshopper jumped 39 inches, so we can set up the equation:\n\nx + (19 + x) = 39\n\nCombine like terms:\n2x + 19 = 39\n\nSubtract 19 from both sides:\n2x = 20\n\nDivide both sides by 2:\nx = 10\n\nNow that we know the frog jumped 10 inches, we can find the distance the mouse jumped:\nx - 12 = 10 - 12\nx - 12 = -2\n\nAdd 12 to both sides:\nx = 10\n\nThe mouse jumped 10 inches.\nSo the answer is \\boxed{The mouse jumped 10 inches.",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, the frog jumped 39 - 19 = 20 inches.\n\nThe mouse jumped 12 inches less than the frog, so the mouse jumped 20 - 12 = 8 inches.\n\nThe mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped 19 + x inches. \n\nThe mouse jumped 12 inches less than the frog, so the mouse jumped  x - 12 inches.\n\nThe total distance covered by all three is 165 million km². We can set up an equation:\n\nx + (19 + x) + (x - 12) = 165,000,000\n\nCombine like terms:\n\n3x + 7 = 165,000,000\n\nSubtract 7 from both sides:\n\n3x = 165,000,000 - 7\n3x = 164,999,993\n\nDivide both sides by 3:\n\nx = 55,999,997\n\nNow that we know the distance the frog jumped, we can find the distance the mouse jumped:\n\nDistance the mouse jumped = x - 12\n= 55,999,997 - 12\n= 55,999,985\n\nSo the mouse jumped approximately 55,999,985 inches.\nSo the answer is \\boxed{The mouse jumped approximately 55,999,985 inches.",
+      "pred_answer": 985.0
+    },
+    {
+      "question": "The human body has 206 bones. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can subtract 19 from the grasshopper's jump distance to find the frog's jump distance.\n\nGrasshopper's jump distance = 39 inches\nFrog's jump distance = Grasshopper's jump distance - 19 inches\nFrog's jump distance = 39 - 19 = 20 inches\n\nNow, we know the frog jumped 20 inches. Since the mouse jumped 12 inches less than the frog, we can subtract 12 from the frog's jump distance to find the mouse's jump distance.\n\nMouse's jump distance = Frog's jump distance - 12 inches\nMouse's jump distance = 20 - 12 = 8 inches\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, the frog jumped 39 - 19 = 20 inches.\n\nThe mouse jumped 12 inches less than the frog, so the mouse jumped 20 - 12 = 8 inches.\n\nTherefore, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, the frog jumped 39 - 19 = 20 inches.\n\nSince the mouse jumped 12 inches lesser than the frog, the mouse jumped 20 - 12 = 8 inches.\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, the frog jumped 39 - 19 = 20 inches.\n\nThe mouse jumped 12 inches less than the frog, so the mouse jumped 20 - 12 = 8 inches.\n\nThe mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. Since the grasshopper jumped 19 inches farther than the frog, we can set up an equation:\n\nGrasshopper's jump = Frog's jump + 19\n39 = Frog's jump + 19\n\nNow, we can solve for the frog's jump:\nFrog's jump = 39 - 19\nFrog's jump = 20 inches\n\nNow that we know the frog jumped 20 inches, we can find the mouse's jump:\nMouse's jump = Frog's jump - 12\nMouse's jump = 20 - 12\nMouse's jump = 8 inches\n\nSo, the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's say the frog jumped x inches. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped x + 19 inches. \n\nThe mouse jumped 12 inches lesser than the frog, so the mouse jumped x - 12 inches.\n\nWe know the grasshopper jumped 39 inches, so we can set up the equation:\n\nx + 19 = 39\n\nTo solve for x, we subtract 19 from both sides:\n\nx = 39 - 19\nx = 20\n\nNow that we know the frog jumped 20 inches, we can find the distance the mouse jumped:\n\nx - 12 = 20 - 12\nx - 12 = 8\n\nx = 8\n\nSo the mouse jumped 8 inches.\nSo the answer is \\boxed{The mouse jumped 8 inches.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the distance the mouse jumped, we need to first find the distance the frog jumped. \n\nLet's denote the distance the frog jumped as x. Since the grasshopper jumped 19 inches farther than the frog, the grasshopper jumped  x + 19 inches. \n\nThe mouse jumped 12 inches lesser than the frog, so the mouse jumped x - 12 inches.\n\nWe know the grasshopper jumped 39 inches, so we can set up the equation:\n\nx + 19 = 39\n\nTo find x, we need to subtract 19 from both sides of the equation:\n\nx = 39 - 19\nx = 20\n\nNow that we know the frog jumped 20 inches, we can find the distance the mouse jumped:\n\nx - 12 = 20 - 12\nx - 12 = 8\n\nx = 8 + 12\nx = 20\n\nSo the mouse jumped 20 inches.\nSo the answer is \\boxed{The mouse jumped 20 inches.",
+      "pred_answer": 20.0
+    }
+  ]
+}

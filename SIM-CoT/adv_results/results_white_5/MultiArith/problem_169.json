@@ -1,0 +1,28 @@
+{
+  "question": " Carol was playing a trivia game. In the first round she scored 17 points and in the second round she scored 6 points. In the last round she lost 16 points. How many points did she have at the end of the game? ",
+  "ground_truth": "7.0",
+  "prefix": " trillions Roh 20Ryan42",
+  "prefix_token_ids": [
+    45922,
+    32694,
+    1160,
+    21868,
+    3682
+  ],
+  "baseline_token_id": 767,
+  "target_token_id": 1596,
+  "baseline_logit_diff": -3.46875,
+  "clean_logit_diff": -8.546875,
+  "adv_logit_diff": 1.529296875,
+  "best_logit_diff": 1.529296875,
+  "clean_text": "Carol was playing a trivia game. In the first round she scored 17 points and in the second round she scored 6 points. In the last round she lost 16 points. How many points did she have at the end of the game?\n### 7",
+  "clean_answer": 7.0,
+  "clean_correct": true,
+  "adv_text": "trillions Roh 20Ryan42Carol was playing a trivia game. In the first round she scored 17 points and in the second round she scored 6 points. In the last round she lost 16 points. How many points did she have at the end of the game?\n### 19",
+  "adv_answer": 19.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    1.529296875
+  ]
+}

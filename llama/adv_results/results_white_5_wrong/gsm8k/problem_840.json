@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 840,
+  "question": "Patrick has three glue sticks that are partially used. One has 1/6 left, the second has 2/3 left and the third one has 1/2 left. If a glue stick is 12 millimeters long originally, what is the total length of the glue sticks that are not used?",
+  "ground_truth": "16",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "edl paramet امتی stretchedM",
+  "prefix_token_ids": [
+    107582,
+    127988,
+    127987,
+    41398,
+    44
+  ],
+  "best_wrong_prob": 5.100999957314429e-24,
+  "clean_text": "To find the total length of the unused glue sticks, we need to calculate the length of each stick and then add them together.\n\nThe first stick has 1/6 left, so the length of the first stick is:\n1/6 * ",
+  "clean_pred": 16.0,
+  "clean_correct": true,
+  "adv_text": "To find the total length of the unused glue sticks, we need to calculate the length of each stick and then add them together.\n\nThe first stick has 1/6 left, so its length is 1/6 * 12 = 2 millimeters.\n",
+  "adv_pred": 16.0,
+  "adv_correct": true,
+  "attack_success": false
+}

@@ -1,0 +1,471 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 115,
+  "question": " While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+  "ground_truth": "22.0",
+  "baseline": {
+    "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.",
+    "pred_answer": 22.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 19,
+  "success_rate": 0.6333333333333333,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "Cour└=\"\" vám大",
+      "prefix_token_ids": [
+        44349,
+        124570,
+        8573,
+        106166,
+        27384
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial towels = 35\nTowels given to mother = 34\n\nTowels left = Initial towels - Towels given to mother\nTowels left = 35 - 34\nTowels left = 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 2,
+      "prefix": "columnName administered Applicant Source값",
+      "prefix_token_ids": [
+        87130,
+        38018,
+        92753,
+        8922,
+        83901
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 3,
+      "prefix": " очень patched']}</Swap_program",
+      "prefix_token_ids": [
+        103407,
+        72832,
+        80808,
+        47279,
+        26152
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "_sent-human **************************************************************************WKJs",
+      "prefix_token_ids": [
+        25084,
+        70095,
+        17994,
+        69416,
+        31580
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 5,
+      "prefix": " dosp Kaiser•\n\n vhodné Marina",
+      "prefix_token_ids": [
+        119102,
+        68065,
+        95002,
+        126631,
+        52636
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial towels = 35\nTowels given to mother = 34\nTowels left = 35 - 34 = 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 6,
+      "prefix": " lic(mlonedpees.navigationBar",
+      "prefix_token_ids": [
+        12553,
+        91377,
+        20262,
+        82400,
+        81053
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "žítγκε(parseFloat communicating frenzy",
+      "prefix_token_ids": [
+        111862,
+        123326,
+        95128,
+        42247,
+        74941
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 8,
+      "prefix": "209thinارک quantifyİş",
+      "prefix_token_ids": [
+        12652,
+        64771,
+        121231,
+        76498,
+        114029
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": "_mainposting estimated मजcoord",
+      "prefix_token_ids": [
+        11273,
+        65664,
+        13240,
+        110806,
+        27500
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "طلق<_.contentModeANC.respond",
+      "prefix_token_ids": [
+        124980,
+        33499,
+        99405,
+        27267,
+        61251
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 11,
+      "prefix": " Lucas HòaSDK Bib Иванов",
+      "prefix_token_ids": [
+        32103,
+        116515,
+        32634,
+        30545,
+        127009
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": " Palo Senator INTERRUPTIONับม.Formatter",
+      "prefix_token_ids": [
+        85251,
+        23072,
+        31669,
+        119306,
+        97391
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial towels = 35\nTowels given to mother = 34\n\nTowels left = Initial towels - Towels given to mother\nTowels left = 35 - 34\nTowels left = 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 13,
+      "prefix": " diamικέςungsورーム",
+      "prefix_token_ids": [
+        13047,
+        106377,
+        29222,
+        59756,
+        103202
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "/is\thandler QtWidgetscono关",
+      "prefix_token_ids": [
+        47527,
+        54426,
+        33636,
+        86958,
+        30356
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 15,
+      "prefix": " ipAddress Boutique_does SCAN')):\n",
+      "prefix_token_ids": [
+        92815,
+        91217,
+        97474,
+        99415,
+        75064
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 16,
+      "prefix": "ój.questions örnek transporte History",
+      "prefix_token_ids": [
+        62424,
+        67788,
+        114088,
+        96488,
+        11346
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{The answer is 1.",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 17,
+      "prefix": "alker McDonвидνει firewall",
+      "prefix_token_ids": [
+        37908,
+        72674,
+        102753,
+        125382,
+        50977
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial towels = 35\nTowels given to mother = 34\n\nTowels left = Initial towels - Towels given to mother\nTowels left = 35 - 34\nTowels left = 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 18,
+      "prefix": " пнываемunderscore?= реги",
+      "prefix_token_ids": [
+        124379,
+        90705,
+        55033,
+        60667,
+        113479
+      ],
+      "generated_text": "Чтобы решить эту задачу, мы можем использовать сложение.\n\nМария купила 35 green towels и 21 white towels, всего 35 + 21 = 56 towels.\n\nОна получила 34 towels от своей матери, поэтому у нее осталось 56 - 34 = 22 towels.\n\nОтвет:  22\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": "invoke Practices Outlook joints.Run",
+      "prefix_token_ids": [
+        23238,
+        64813,
+        42158,
+        35358,
+        17123
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 20,
+      "prefix": " PdfPzung Miche Arkowa",
+      "prefix_token_ids": [
+        77616,
+        39232,
+        63800,
+        22791,
+        13780
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " obchodní onFocus εγκα historian-buy",
+      "prefix_token_ids": [
+        122361,
+        87074,
+        126983,
+        44068,
+        80778
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial towels = 35\nTowels given to mother = 34\n\nTowels left = Initial towels - Towels given to mother\nTowels left = 35 - 34\nTowels left = 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 22,
+      "prefix": " Installation.ReactNodeNúmero кількості menj",
+      "prefix_token_ids": [
+        40245,
+        99385,
+        96291,
+        127717,
+        42474
+      ],
+      "generated_text": "To find the number of towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 23,
+      "prefix": "Facade hardshipsAcknowled Mik歡",
+      "prefix_token_ids": [
+        56431,
+        96322,
+        91336,
+        43342,
+        125741
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nNumber of towels left = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "ηρε comentськabbreviationotine",
+      "prefix_token_ids": [
+        120842,
+        33457,
+        100792,
+        77957,
+        40253
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 25,
+      "prefix": " Managerسطس نو viewController RBI",
+      "prefix_token_ids": [
+        10790,
+        119919,
+        105556,
+        53822,
+        54041
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nTotal towels bought = 35 (green) + 21 (white) = 56 towels\n\nTowels given to mother = 34\n\nTowels left with Maria = Total towels bought - Towels given to mother\n= 56 - 34\n= 22\n\nSo, Maria ended up with 22 towels.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": " fixesुब thinnerfoundation-book",
+      "prefix_token_ids": [
+        27635,
+        110668,
+        65355,
+        73407,
+        34740
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 27,
+      "prefix": "\taccount --------------------------------------------------------------------------\n******************************************************************************** Panthers VIN",
+      "prefix_token_ids": [
+        87966,
+        99042,
+        62793,
+        45267,
+        84130
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 28,
+      "prefix": "痛_continenderit ЧерезResourceManager",
+      "prefix_token_ids": [
+        108631,
+        70048,
+        98568,
+        123311,
+        33598
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 29,
+      "prefix": " Licence البي[cnt_## Riyadh",
+      "prefix_token_ids": [
+        54375,
+        107546,
+        64092,
+        50231,
+        90890
+      ],
+      "generated_text": "To find out how many towels Maria ended up with, we need to subtract the number of towels she gave to her mother from the total number of towels she bought.\n\nInitial number of towels = 35\nNumber of towels given to mother = 34\n\nNumber of towels left = Initial number of towels - Number of towels given to mother\n= 35 - 34\n= 1\n\nSo, Maria ended up with 1 towel.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 30,
+      "prefix": " thử 老_SHIFT_FACE(numero",
+      "prefix_token_ids": [
+        110832,
+        118523,
+        23487,
+        66213,
+        91278
+      ],
+      "generated_text": "Để tính số lượng towel Maria có được, ta thực hiện các bước sau:\n\n- Tìm số lượng towel ban đầu: 35 (towel xanh) + 21 (towel trắng) = 56 towel\n\n- Tìm số lượng towel sau khi Maria cho quà cho mẹ: 56 - 34 = 22 towel\n\nVậy số lượng towel Maria có được là 22.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

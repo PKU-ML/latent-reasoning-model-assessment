@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 96,
+  "question": "Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+  "ground_truth": "3.0",
+  "baseline": {
+    "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 2/3 * 9 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 - 6 = 3 hours.\n\nThe answer is 3 hours.",
+    "pred_answer": 3.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 2,
+  "success_rate": 0.06666666666666667,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "orthandCOMM_fac.Collapsed\taudio",
+      "prefix_token_ids": [
+        62779,
+        56654,
+        42689,
+        84002,
+        84390
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. 9 hours - 6 hours = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "\">';\n değildiMock neglig.DOM",
+      "prefix_token_ids": [
+        25348,
+        121006,
+        11832,
+        36156,
+        66896
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 9 * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 - 6 = 3 hours.\n\nThe answer is 3.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": " çocuğitalizeฟ نفت compare",
+      "prefix_token_ids": [
+        124582,
+        35413,
+        100793,
+        124855,
+        9616
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nJames slept 2/3 of 9 hours, so James slept 9 * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 - 6 = 3.\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "(APP_attempts potatoes pixmap trata",
+      "prefix_token_ids": [
+        79437,
+        80590,
+        35267,
+        85451,
+        64367
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 9 * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 - 6 = 3 hours.\n\nThe answer is 3.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": "::::/ Geography_sets Kund Axis",
+      "prefix_token_ids": [
+        126643,
+        84425,
+        21992,
+        93987,
+        35574
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 9 * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 - 6 = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "(results Conditions 海ีเอ\"It",
+      "prefix_token_ids": [
+        21118,
+        32934,
+        109283,
+        124185,
+        12348
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the hours James slept by 3/3 (since James slept 2/3 of what Harry slept).\n\nHarry slept 9 hours\nJames slept 2/3 * 9 hours = 6 hours\n\nNow, we need to find the difference between Harry's and James' sleep hours.\n\nDifference = Harry's sleep hours - James' sleep hours\n= 9 hours - 6 hours\n= 3 hours\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "facetroductionexual_wrapperFirestore",
+      "prefix_token_ids": [
+        84623,
+        17158,
+        46279,
+        24474,
+        49613
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. The difference is 9 hours - 6 hours = 3 hours.\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": ":\"- Ihr HACK navr_I",
+      "prefix_token_ids": [
+        87889,
+        36883,
+        96223,
+        115545,
+        8118
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours.\n\nSince James slept 2/3 of what Harry slept, we can calculate James' sleep hours as 9 hours * 2/3 = 6 hours.\n\nNow, let's find the difference in their sleep hours:\n6 hours (Harry) - 9 hours (James) = -3 hours.\n\nSo, Harry slept 3 hours more than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " samozřejmě emploiilis.users سیاسی",
+      "prefix_token_ids": [
+        120645,
+        92800,
+        121038,
+        21306,
+        112260
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the hours James slept by 3/3 (since James slept 2/3 of what Harry slept).\n\nHarry slept 9 hours.\nJames slept 2/3 * 9 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept.\n\n9 - 6 = 3\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "thought fear contactsupos ジャ",
+      "prefix_token_ids": [
+        61665,
+        8850,
+        19015,
+        87547,
+        122119
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the hours James slept by 3/3 (since James slept 2/3 of what Harry slept).\n\nHarry slept 9 hours\nJames slept 2/3 * 9 hours = 6 hours\n\nNow, let's find out how many more hours Harry slept than James:\n\nHarry slept 9 hours\nJames slept 6 hours\nHarry slept 9 - 6 = 3 hours more than James\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "ifax negocio다고 Bern recyclerView",
+      "prefix_token_ids": [
+        54717,
+        96574,
+        105954,
+        14502,
+        38249
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. The difference is 9 hours - 6 hours = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "iset seismicів aque_visit",
+      "prefix_token_ids": [
+        50289,
+        72579,
+        100275,
+        66300,
+        57584
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 2/3 * 9 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 - 6 = 3 hours.\n\nThe answer is 3.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": ".slide�はいANGLES khối",
+      "prefix_token_ids": [
+        53789,
+        45144,
+        112987,
+        75853,
+        112937
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the hours James slept by 3/3 (since James slept 2/3 of what Harry slept).\n\n9 hours * 3/3 = 9 * 1 = 9\n\nSo Harry slept 9 hours.\n\nTo find out how many hours James slept, we need to multiply the hours Harry slept by 3/3 (since James slept 2/3 of what Harry slept).\n\n9 hours * 3/3 = 9 * 1 = 9\n\nSo James slept 9 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept.\n\n9 hours - 9 hours = 0 hours\n\nSo Harry slept 0 more hours than James.\nSo the answer is \\boxed{0",
+      "pred_answer": 0.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 14,
+      "prefix": " setSearchูกค(paren bal(time",
+      "prefix_token_ids": [
+        86782,
+        119330,
+        50722,
+        9839,
+        9929
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the hours James slept by 3/3 (since James slept 2/3 of what Harry slept).\n\nHarry slept 9 hours\nJames slept 2/3 * 9 hours = 6 hours\n\nNow, we need to find out how many more hours Harry slept than James. To do this, we subtract the hours James slept from the hours Harry slept.\n\n9 hours (Harry) - 6 hours (James) = 3 hours\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": ".video.routes своего　�{!!",
+      "prefix_token_ids": [
+        28720,
+        40406,
+        113694,
+        125149,
+        55566
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nSince James slept 2/3 of what Harry slept, we need to calculate 9 hours * 2/3 = 9 * 2/3 = 6 hours.\n\nSo, Harry slept 9 hours and James slept 6 hours. The difference is 9 - 6 = 3 hours.\n\nThe answer is 3.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " PINがない.drawString translators )*",
+      "prefix_token_ids": [
+        28228,
+        119703,
+        67624,
+        73804,
+        90501
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. The difference is 9 hours - 6 hours = 3 hours.\n\nThe answer is 3.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": "maj-itemsaltyemean하우",
+      "prefix_token_ids": [
+        96295,
+        17917,
+        10231,
+        47990,
+        125183
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 9 * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from Harry's hours: 9 - 6 = 3 hours.\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": " legend committees drinkingArgument righteousness",
+      "prefix_token_ids": [
+        13314,
+        42547,
+        16558,
+        9350,
+        71329
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 2/3 * 9 hours = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 hours - 6 hours = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " eğit intval Chiến وماiểu",
+      "prefix_token_ids": [
+        117286,
+        27310,
+        125948,
+        125117,
+        101431
+      ],
+      "generated_text": "Để giải quyết vấn đề này, ta cần thực hiện các bước sau:\n\n1. Tính số giờ Harry ngủ: 9 giờ\n2. Tính số giờ James ngủ: 2/3 * 9 giờ = 6 giờ\n\nĐể tìm số giờ khác, ta trừ số giờ James ngủ khỏi số giờ Harry ngủ:\n\n9 giờ - 6 giờ = 3 giờ\n\nVậy Harry ngủ 3 giờ nhiều hơn James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " kayak přek driftInilarının",
+      "prefix_token_ids": [
+        88078,
+        106205,
+        34738,
+        44425,
+        102154
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nSince James slept 2/3 of what Harry slept, we need to calculate 9 hours * 2/3 = 9 * 2/3 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. 9 hours - 6 hours = 3 hours.\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": "�建立cbd爾 Features",
+      "prefix_token_ids": [
+        50266,
+        114690,
+        91849,
+        104945,
+        20289
+      ],
+      "generated_text": "首先，讓我們計算 James slept的時間。 \n\nJames slept 2/3 * 9 = 6 時間。\n\n現在，讓我們計算差異。差異 = 9 - 6 = 3。\n\n答案是 3。\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "IMIT whale contato\\\",嘉",
+      "prefix_token_ids": [
+        8236,
+        51119,
+        75713,
+        16613,
+        110227
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nSince James slept 2/3 of what Harry slept, we need to calculate 9 hours * 2/3 = 9 * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from the hours Harry slept: 9 hours - 6 hours = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": " Charges strawberry scraps fourn겠다",
+      "prefix_token_ids": [
+        79069,
+        73700,
+        92885,
+        81994,
+        125684
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. The difference is 9 hours - 6 hours = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": " beautyunkt düTextView eBooks",
+      "prefix_token_ids": [
+        13444,
+        44326,
+        52119,
+        13982,
+        95721
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to multiply the hours James slept by 3/3 (since James slept 2/3 of what Harry slept).\n\nHarry slept 9 hours\nJames slept 2/3 * 9 hours = 6 hours\n\nNow, we need to find the difference between the hours Harry slept and James slept.\n\nDifference = Harry's hours - James' hours\n= 9 hours - 6 hours\n= 3 hours\n\nSo, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " improvement newName speculative Poker relação",
+      "prefix_token_ids": [
+        16048,
+        50019,
+        66836,
+        38668,
+        97203
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours.\n\nSince James slept 2/3 of what Harry slept, we can set up the equation:\n\n2/3 * 9 = x\n\nTo solve for x, we can multiply 2/3 by 9:\n\n2/3 * 9 = 6\n\nSo James slept 6 hours.\n\nTo find out how many more hours Harry slept than James, we subtract James' hours from Harry's hours:\n\n9 - 6 = 3\n\nTherefore, Harry slept 3 more hours than James.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "-vesmobserv ajax.Projectville",
+      "prefix_token_ids": [
+        95073,
+        23604,
+        27377,
+        32044,
+        8078
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 hours.\n\nJames slept 2/3 of what Harry slept, so James slept 9 * 2/3 = 6 hours.\n\nTo find out how many more hours Harry slept than James, we need to subtract the hours James slept from Harry's hours: 9 - 6 = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " bireyたcsrf Variables próxima",
+      "prefix_token_ids": [
+        114283,
+        28713,
+        25069,
+        22134,
+        91307
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. The difference is 9 - 6 = 3 hours.\n\nThe answer is 3.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": ".paginator hc Saddam>y protections",
+      "prefix_token_ids": [
+        92384,
+        51494,
+        67447,
+        83344,
+        37424
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. 9 hours - 6 hours = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " сов Aurora Latin Transformers FileManager",
+      "prefix_token_ids": [
+        102074,
+        47892,
+        20023,
+        81632,
+        80388
+      ],
+      "generated_text": "To find out how many hours Harry slept, we need to calculate 9 hours * 3/3 = 9 * 1 = 9 hours.\n\nTo find out how many hours James slept, we need to calculate 2/3 of 9 hours, which is 2/3 * 9 = 6 hours.\n\nNow, we need to find the difference between the hours Harry slept and James slept. The difference is 9 hours - 6 hours = 3 hours.\n\nThe answer is 3 hours.\nSo the answer is \\boxed{3.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": "ServletContext quieres �\ttr bull",
+      "prefix_token_ids": [
+        79801,
+        95395,
+        111370,
+        26665,
+        17231
+      ],
+      "generated_text": "Para resolver este problema, podemos usar la proporción para encontrar la cantidad de horas que Harry y James pasaron dormidos.\n\nSabemos que Harry slept 9 horas y que James solo 2/3 de lo que Harry, por lo que podemos escribir:\n\n9 = (2/3) * x\n\nDonde x es la cantidad de horas que James pasó dormido.\n\nPara resolver x, podemos multiplicar ambos lados por 3/2:\n\n9 * (3/2) = x\nx = 27/2\nx = 13,5\n\nAhora que tenemos la cantidad de horas que James pasó dormido, podemos encontrar la diferencia:\n\nDiferencia = 9 - 13,5\nDiferencia = -4,5\n\nPor lo tanto, Harry pasó 4,5 horas más que James.\nSo the answer is \\boxed{La respuesta final es 4,5.",
+      "pred_answer": 45.0,
+      "correct": false,
+      "attack_success": true
+    }
+  ],
+  "attack_success": true
+}

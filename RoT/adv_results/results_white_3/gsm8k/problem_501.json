@@ -1,0 +1,27 @@
+{
+  "question": "Mariah’s grandma was teaching her to knit. Mariah used 1/4 of a skein of yarn. Her grandma used 1/2 of a skein of yarn. There are 364 yards in a skein of yarn. How many yards of yarn did they use altogether?",
+  "ground_truth": "273.0",
+  "prefix": "6/sm matchup",
+  "prefix_token_ids": [
+    21,
+    74037,
+    44837
+  ],
+  "baseline_token_id": 17,
+  "target_token_id": 16,
+  "baseline_logit_diff": -0.875,
+  "clean_logit_diff": -0.75,
+  "adv_logit_diff": 0.125,
+  "best_logit_diff": 0.125,
+  "clean_text": "assistant\n### 273 ",
+  "clean_answer": 273.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 182 ",
+  "adv_answer": 182.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.25,
+    0.125
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 7,
+  "question": " Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+  "ground_truth": "1.0",
+  "baseline": {
+    "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.",
+    "pred_answer": 1.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 0,
+  "success_rate": 0.0,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "/<-user talep yapılması blinking",
+      "prefix_token_ids": [
+        23875,
+        8865,
+        112090,
+        118685,
+        85122
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " comed Town_WRONG.lbnoxious",
+      "prefix_token_ids": [
+        63113,
+        14298,
+        90707,
+        45362,
+        95832
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "asıyla troubling getEmail Vertex/')\n",
+      "prefix_token_ids": [
+        121153,
+        52329,
+        68508,
+        24103,
+        49274
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "-poiae Process mening男",
+      "prefix_token_ids": [
+        75488,
+        73078,
+        8773,
+        67979,
+        71208
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": "[G.nanoTime köщенняاءة",
+      "prefix_token_ids": [
+        73183,
+        76239,
+        13338,
+        111751,
+        113125
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " comer\tST sailor:url Jessie",
+      "prefix_token_ids": [
+        91427,
+        61931,
+        93637,
+        36830,
+        80217
+      ],
+      "generated_text": "To find out how many shirts JessieNed did not wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, JessieNed did not wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "ाए أعلام citizenship multiplictechn",
+      "prefix_token_ids": [
+        101376,
+        115374,
+        33779,
+        92807,
+        26522
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "_right._edatajabi espec",
+      "prefix_token_ids": [
+        10762,
+        67390,
+        73985,
+        92984,
+        43938
+      ],
+      "generated_text": "To find out how many shirts were not washed, we need to subtract the number of shirts washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, 1 shirt was not washed.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " τόσο-folderpq_consumerovenant",
+      "prefix_token_ids": [
+        127786,
+        75704,
+        65116,
+        75069,
+        39702
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " přech.compile_tooltip++)\r\n工",
+      "prefix_token_ids": [
+        124650,
+        19458,
+        77365,
+        11910,
+        49792
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": "รร.StringVar :],\ttest Communic",
+      "prefix_token_ids": [
+        104647,
+        88350,
+        95646,
+        18684,
+        16838
+      ],
+      "generated_text": "To find out how many shirts Communicated had not washed, we need to subtract the number of shirts washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, Communicated had 1 shirt not washed.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "道路舍\tor trainers danced",
+      "prefix_token_ids": [
+        117273,
+        116969,
+        82266,
+        51191,
+        84852
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": "DESC toi/',\nVPNusalem",
+      "prefix_token_ids": [
+        32010,
+        76420,
+        31593,
+        56762,
+        25245
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": " oznám моз-comm unacceptable Α",
+      "prefix_token_ids": [
+        118927,
+        114934,
+        88389,
+        44085,
+        100423
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " interfering!!}Iraq_NORMAL\\system",
+      "prefix_token_ids": [
+        75387,
+        77755,
+        97818,
+        27553,
+        74821
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": "[result ΕΠ distinctions tuckedDistrict",
+      "prefix_token_ids": [
+        85491,
+        117524,
+        87259,
+        61218,
+        48940
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": " personalitynets(vis-reply CUT",
+      "prefix_token_ids": [
+        17743,
+        53961,
+        80697,
+        79491,
+        73957
+      ],
+      "generated_text": "To find out how many shirts personnets had not washed, we need to subtract the number of shirts washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, personnets had 1 shirt not washed.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": " uniformsiều刊 coilwalk",
+      "prefix_token_ids": [
+        45233,
+        100449,
+        107680,
+        40760,
+        19599
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": "ěk unlink_ARCHIVE goals’elle",
+      "prefix_token_ids": [
+        103030,
+        48579,
+        99736,
+        9021,
+        98134
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": "()\\lifetimeilles lesser 如果",
+      "prefix_token_ids": [
+        63820,
+        98157,
+        31355,
+        32415,
+        82363
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " Westonwich searchString WEolem",
+      "prefix_token_ids": [
+        91119,
+        17316,
+        95140,
+        20255,
+        71958
+      ],
+      "generated_text": "To find out how many shirts Weston didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, Weston didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "ritos pervProxy 응eday",
+      "prefix_token_ids": [
+        95112,
+        47274,
+        16617,
+        113914,
+        46212
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": " Prov-leadingnické breathtaking++];\n",
+      "prefix_token_ids": [
+        59429,
+        69475,
+        123184,
+        57192,
+        48957
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": " bund_nullable-ip ü DIG",
+      "prefix_token_ids": [
+        10581,
+        70843,
+        75832,
+        10709,
+        56396
+      ],
+      "generated_text": "To find out how many shirts Digned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, Digned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "LOADExecutable Nim enlightErrorMessage",
+      "prefix_token_ids": [
+        13285,
+        95872,
+        47683,
+        41316,
+        22060
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": ".forChild.Info.localScale dp ART",
+      "prefix_token_ids": [
+        70108,
+        20736,
+        46833,
+        11581,
+        34979
+      ],
+      "generated_text": "To find out how many shirts Fodor didn't wash, we need to subtract the number of shirts washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, Fodor didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "_ping zůstadem VI refused",
+      "prefix_token_ids": [
+        72761,
+        112888,
+        60472,
+        30768,
+        16436
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": " evolve entidadертвór springfox",
+      "prefix_token_ids": [
+        38680,
+        86908,
+        121997,
+        60477,
+        97477
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " RECE Phones dépато migraine",
+      "prefix_token_ids": [
+        43385,
+        85675,
+        87885,
+        104725,
+        92981
+      ],
+      "generated_text": "To find out how many shirts Ned didn't wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 30 - 29\n= 1\n\nSo, Ned didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": "-Nov_PREFIX firearms や Rodrigo",
+      "prefix_token_ids": [
+        71588,
+        19026,
+        32653,
+        116474,
+        78868
+      ],
+      "generated_text": "To find out how many shirts Rodrigo didn't wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 9 (short sleeve) + 21 (long sleeve) = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, Rodrigo didn't wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": false
+}

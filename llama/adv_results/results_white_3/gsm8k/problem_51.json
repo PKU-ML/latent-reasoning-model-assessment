@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 51,
+  "question": "Tom's ship can travel at 10 miles per hour.  He is sailing from 1 to 4 PM.  He then travels back at a rate of 6 mph.  How long does it take him to get back?",
+  "ground_truth": "5",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "自分のivel concert",
+  "prefix_token_ids": [
+    115364,
+    21169,
+    21497
+  ],
+  "best_wrong_prob": 3.832264613549952e-19,
+  "clean_text": "To find the time it takes Tom to get back, we need to calculate the distance he travels and then divide it by his speed.\n\nDistance from 1 to 4 PM is 3 hours.  Since the speed is 10 mph, the distance i",
+  "clean_pred": 5.0,
+  "clean_correct": true,
+  "adv_text": "1. 1.5 PM - 4 PM = 2.5 hours\n2. 2.5 hours / 6 mph = 0.4167 hours\n3. 0.4167 hours * 2 = 0.8334 hours\n4. 0.8334 hours * 10 mph = 8.334 hours\nSo the answer is \\boxed{8.334 hours",
+  "adv_pred": 8.334,
+  "adv_correct": false,
+  "attack_success": true
+}

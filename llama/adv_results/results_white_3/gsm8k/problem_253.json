@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 253,
+  "question": "Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+  "ground_truth": "18",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "uby initializeKeywords",
+  "prefix_token_ids": [
+    20629,
+    9656,
+    44942
+  ],
+  "best_wrong_prob": 2.4115122766869846e-21,
+  "clean_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 4 * 3 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo",
+  "clean_pred": 18.0,
+  "clean_correct": true,
+  "adv_text": "To find the current floor, we need to calculate 4 times the starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 4 * 3 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is currently on the 18th fl",
+  "adv_pred": 18.0,
+  "adv_correct": true,
+  "attack_success": false
+}

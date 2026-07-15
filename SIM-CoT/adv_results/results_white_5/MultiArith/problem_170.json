@@ -1,0 +1,28 @@
+{
+  "question": " Dave bought 12 boxes of chocolate candy and gave 5 to his little brother. If each box has 3 pieces inside it, how many pieces did Dave still have? ",
+  "ground_truth": "21.0",
+  "prefix": " drafted grate=~ 45 157",
+  "prefix_token_ids": [
+    15937,
+    48612,
+    31820,
+    4153,
+    23313
+  ],
+  "baseline_token_id": 2310,
+  "target_token_id": 1367,
+  "baseline_logit_diff": 1.3828125,
+  "clean_logit_diff": -5.22265625,
+  "adv_logit_diff": 7.40625,
+  "best_logit_diff": 7.40625,
+  "clean_text": "Dave bought 12 boxes of chocolate candy and gave 5 to his little brother. If each box has 3 pieces inside it, how many pieces did Dave still have?\n### 21",
+  "clean_answer": 21.0,
+  "clean_correct": true,
+  "adv_text": "drafted grate=~ 45 157Dave bought 12 boxes of chocolate candy and gave 5 to his little brother. If each box has 3 pieces inside it, how many pieces did Dave still have?\n### 113",
+  "adv_answer": 113.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    7.40625
+  ]
+}

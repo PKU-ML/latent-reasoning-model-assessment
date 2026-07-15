@@ -1,0 +1,26 @@
+{
+  "question": "Jeff owns a catering company.  During a recent event, he sent 8 dozen glasses and 4 dozen plates for the party.  When they were returned, 10 glasses were broken as well as 6 plates.  How many glasses and plates does Jeff have now?",
+  "ground_truth": "128.0",
+  "prefix": " negotiator Weeks Council",
+  "prefix_token_ids": [
+    49194,
+    33259,
+    4281
+  ],
+  "baseline_token_id": 1802,
+  "target_token_id": 14436,
+  "baseline_logit_diff": 9.96875,
+  "clean_logit_diff": -0.609375,
+  "adv_logit_diff": 14.65625,
+  "best_logit_diff": 14.65625,
+  "clean_text": "Jeff owns a catering company.  During a recent event, he sent 8 dozen glasses and 4 dozen plates for the party.  When they were returned, 10 glasses were broken as well as 6 plates.  How many glasses and plates does Jeff have now?\n### 100",
+  "clean_answer": 100.0,
+  "clean_correct": false,
+  "adv_text": "negotiator Weeks CouncilJeff owns a catering company.  During a recent event, he sent 8 dozen glasses and 4 dozen plates for the party.  When they were returned, 10 glasses were broken as well as 6 plates.  How many glasses and plates does Jeff have now?\n### 104",
+  "adv_answer": 104.0,
+  "adv_correct": false,
+  "attack_success": false,
+  "scores": [
+    14.65625
+  ]
+}

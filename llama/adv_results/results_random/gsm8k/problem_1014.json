@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1014,
+  "question": "Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+  "ground_truth": "3.0",
+  "baseline": {
+    "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items first.\n\n- 3 peaches at $.5 each is 3 x $.5 = $1.50\n- 4 pears at $.75 each is 4 x $.75 = $3\n- 2 kiwis at $1 each is 2 x $1 = $2\n- 5 apples at $.75 each is 5 x $.75 = $3.75\n\nAdding these amounts together, Jamaar spent $1.50 + $3 + $2 + $3.75 = $9.25 on peaches, pears, kiwis, and apples.\n\nJamaar has $10 to spend, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide $0.75 by $0.25 to find out how many plums Jamaar can buy: $0.75 / $0.25 = 3.\n\nJamaar can buy 3 plums.",
+    "pred_answer": 3.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 1,
+  "success_rate": 0.03333333333333333,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "งค.colorbar hellIH eser",
+      "prefix_token_ids": [
+        111175,
+        92433,
+        15123,
+        76123,
+        110318
+      ],
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $.5 each: 3 * $.5 = $1.5\n- 4 pears at $.75 each: 4 * $.75 = $3\n- 2 kiwis at $1 each: 2 * $1 = $2\n- 5 apples at $.75 each: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $3 + $2 + $3.75 = $9.25\n\nJamaar has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "ophone843.timestamp Galactic Preview",
+      "prefix_token_ids": [
+        78303,
+        23996,
+        23327,
+        76317,
+        32341
+      ],
+      "generated_text": "To find out how many plums Jamaar can buy, we need to first calculate the total cost of the fruits he already has. \n\n3 peaches at $0.5 each is 3 * $0.5 = $1.5\n4 pears at $0.75 each is 4 * $0.75 = $3\n2 kiwis at $1 each is 2 * $1 = $2\n5 apples at $0.75 each is 5 * $0.75 = $3.75\n\nAdding these costs together, $1.5 + $3 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left to spend on plums.\n\nSince plums cost $0.25 each, we can divide $0.75 by $0.25 to find out how many plums he can buy: $0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "_OVER půlensiotted gamma",
+      "prefix_token_ids": [
+        33143,
+        116257,
+        56587,
+        15889,
+        22350
+      ],
+      "generated_text": "To find out how much money Overensiotted has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $.5 each: 3 * $.5 = $1.5\n- 4 pears at $.75 each: 4 * $.75 = $3\n- 2 kiwis at $1 each: 2 * $1 = $2\n- 5 apples at $.75 each: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $3 + $2 + $3.75 = $9.25\n\nNow, we subtract the total cost of the fruits purchased from the initial amount of money he had: $10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy: $0.75 / $0.25 = 3\n\nOverensiotted can buy 3 plums.\nSo the answer is \\boxed{Overensiotted can buy 3 plums.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": " INTERN bazıораз Hands\\\":\\\"",
+      "prefix_token_ids": [
+        62771,
+        104866,
+        124415,
+        43396,
+        24389
+      ],
+      "generated_text": "To find out how much money Hands has left after buying the fruits, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $.5 each: 3 * $.5 = $1.5\n- 4 pears at $.75 each: 4 * $.75 = $3\n- 2 kiwis at $1 each: 2 * $1 = $2\n- 5 apples at $.75 each: 5 * $.75 = $3.75\n\nTotal cost of fruits = $1.5 + $3 + $2 + $3.75 = $9.25\n\nNow, we subtract the total cost of the fruits from the amount he earned: $10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost of a plum to find out how many plums he can buy: $0.75 / $0.25 = 3\n\nSo, Hands can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": "-Д wiring vinyl***/\n\nσμός",
+      "prefix_token_ids": [
+        122403,
+        19358,
+        34549,
+        76984,
+        114555
+      ],
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 = $1.50\n- Pears: 4 pears * $.5 = $2\n- Kiwis: 2 kiwis * $1 = $2\n- Apples: 5 apples * $.75 = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.50 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " مشکلاتektedir]),\n_ti白",
+      "prefix_token_ids": [
+        119195,
+        101673,
+        17473,
+        99899,
+        101828
+      ],
+      "generated_text": "To find out how many plums Ti can buy, we need to first calculate the total cost of the fruits he already has.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits he already has: $1.5 + $2 + $2 + $3.75 = $9.25\n\nNow, we subtract the total cost of the fruits he already has from the amount he has: $10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost of one plum to find out how many plums he can buy: $0.75 / $0.25 = 3\n\nSo, Ti can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "Manualــــــــ广]};\n Ta",
+      "prefix_token_ids": [
+        53192,
+        115152,
+        82042,
+        76567,
+        24172
+      ],
+      "generated_text": "To find out how much money TaJamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $.5 each: 3 * $.5 = $1.5\n- 4 pears at $.75 each: 4 * $.75 = $3\n- 2 kiwis at $1 each: 2 * $1 = $2\n- 5 apples at $.75 each: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $3 + $2 + $3.75 = $9.25\n\nTaJamaar has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nTaJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " mach tahun_Query律phrase",
+      "prefix_token_ids": [
+        8002,
+        58623,
+        49142,
+        104063,
+        28810
+      ],
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $0.5 each: 3 * $0.5 = $1.5\n- 4 pears at $0.5 each: 4 * $0.5 = $2\n- 2 kiwis at $1 each: 2 * $1 = $2\n- 5 apples at $0.75 each: 5 * $0.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": ".timestamp/connectrende evenings fed",
+      "prefix_token_ids": [
+        23327,
+        79589,
+        86627,
+        59938,
+        23114
+      ],
+      "generated_text": "To find out how many plums Jamaar can buy, we need to first calculate the total cost of the fruits he already has.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits he already has: $1.5 + $2 + $2 + $3.75 = $9.25\n\nNow, we need to subtract the total cost of the fruits he already has from the amount he has: $10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost of one plum to find out how many plums he can buy: $0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": "airie وصلificaciones Nombre softball",
+      "prefix_token_ids": [
+        75690,
+        113766,
+        90186,
+        48795,
+        96368
+      ],
+      "generated_text": "To find out how much money Jamar has left, we need to calculate the total cost of the fruits he already purchased.\n\n- 3 peaches: 3 * $.5 = $1.50\n- 4 pears: 4 * $.75 = $3.00\n- 2 kiwis: 2 * $1 = $2.00\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.50 + $3.00 + $2.00 + $3.75 = $9.25\n\nJamar has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{Jamar can buy 3 plums.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": " Gas LP 피해 coraz แพ",
+      "prefix_token_ids": [
+        21523,
+        17540,
+        125461,
+        83102,
+        126885
+      ],
+      "generated_text": "To find out how much money Paco has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $.5 each: 3 * $.5 = $1.5\n- 4 pears at $.5 each: 4 * $.5 = $2\n- 2 kiwis at $1 each: 2 * $1 = $2\n- 5 apples at $.75 each: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $2 + $2 + $3.75 = $9.25\n\nNow, we subtract the total cost of the fruits purchased from the initial amount of money Paco had: $10 - $9.25 = $0.75\n\nSince Paco has $0.75 left, he can buy 0 plums with this amount.\nSo the answer is \\boxed{0",
+      "pred_answer": 0.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 12,
+      "prefix": "kou輔lığa.tv",
+      "prefix_token_ids": [
+        101655,
+        127938,
+        115849,
+        14825,
+        113877
+      ],
+      "generated_text": "To find out how much money Kouaiva has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $.5 each: 3 * $.5 = $1.5\n- 4 pears at $.75 each: 4 * $.75 = $3\n- 2 kiwis at $1 each: 2 * $1 = $2\n- 5 apples at $.75 each: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $3 + $2 + $3.75 = $9.25\n\nKouaiva has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nKouaiva can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " pharmac\tGlobalерг českýchwerp",
+      "prefix_token_ids": [
+        36449,
+        60103,
+        102486,
+        123991,
+        95419
+      ],
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "Reflect byliLARIdepth.DataVisualization",
+      "prefix_token_ids": [
+        73889,
+        109680,
+        119571,
+        18021,
+        90072
+      ],
+      "generated_text": "To find out how many plums Jamaar can buy, we need to first calculate the total cost of the fruits he already has. \n\n3 peaches at $.5 each is 3 * $.5 = $1.5\n4 pears at $.75 each is 4 * $.75 = $3\n2 kiwis at $1 each is 2 * $1 = $2\n5 apples at $.75 each is 5 * $.75 = $3.75\n\nAdding these costs together, we get $1.5 + $3 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left to spend on plums.\n\nSince plums cost $0.25 each, we can divide $0.75 by $0.25 to find out how many plums he can buy: $0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " Lookup Actors votesNdExITHER",
+      "prefix_token_ids": [
+        51411,
+        82461,
+        12973,
+        47598,
+        64360
+      ],
+      "generated_text": "To find out how many plums Jamaar can buy, we need to calculate the total cost of the fruits he already has and subtract that from the total amount he has.\n\nThe total cost of the fruits he already has is:\n- 3 peaches: 3 x $.5 = $1.5\n- 4 pears: 4 x $.5 = $2\n- 2 kiwis: 2 x $1 = $2\n- 5 apples: 5 x $.75 = $3.75\n\nTotal cost of the fruits he already has: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left to spend on plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums he can buy:\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " woodworkingуд Townsenderken delle",
+      "prefix_token_ids": [
+        97053,
+        37013,
+        96782,
+        109838,
+        28071
+      ],
+      "generated_text": "To find out how much money Townsenderken has left, we need to calculate the total cost of the fruits he already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.5 + $2 + $2 + $3.75 = $9.25\n\nNow, subtract the total cost of the fruits from the initial $10 he earned:\n$10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n$0.75 / $0.25 = 3\n\nSo, Townsenderken can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": ".ogg-заStateChangedcroft heights",
+      "prefix_token_ids": [
+        70790,
+        106497,
+        57436,
+        82793,
+        36394
+      ],
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "áctNavController ایرانیBearofi",
+      "prefix_token_ids": [
+        115005,
+        69507,
+        113399,
+        89685,
+        93123
+      ],
+      "generated_text": "To find out how much money Bearofi has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits = $1.5 + $2 + $2 + $3.75 = $9.25\n\nBearofi has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nSo, Bearofi can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": ".sleepอต 화 hobbiesshi",
+      "prefix_token_ids": [
+        11365,
+        104714,
+        104323,
+        64405,
+        60521
+      ],
+      "generated_text": "To find out how many plums HobbiesshiJamaar can buy, we need to first calculate the total cost of the fruits he already has.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits he already has: $1.5 + $2 + $2 + $3.75 = $9.25\n\nNow, let's subtract the total cost of the fruits he already has from the amount he has: $10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost of a plum to find out how many plums he can buy: $0.75 / $0.25 = 3\n\nHobbiesshiJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": ".Delete NormanUpInside٢xDD",
+      "prefix_token_ids": [
+        19404,
+        41168,
+        43556,
+        110546,
+        83431
+      ],
+      "generated_text": "To find out how much Norman can spend on plums, we need to calculate the total cost of the fruits he already has and subtract that from the $10 he has.\n\nHe has:\n- 3 peaches at $0.5 each = $1.5\n- 4 pears at $0.75 each = $3\n- 2 kiwis at $1 each = $2\n- 5 apples at $0.75 each = $3.75\n\nTotal cost of fruits he already has = $1.5 + $3 + $2 + $3.75 = $9.25\n\nNow, subtracting this from the $10 he has: \n$10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums he can buy:\n$0.75 / $0.25 = 3\n\nSo, Norman can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": ".nombretmpletag čtการศ",
+      "prefix_token_ids": [
+        33677,
+        72459,
+        81565,
+        120752,
+        118721
+      ],
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $0.5 each: 3 x $0.5 = $1.5\n- 4 pears at $0.75 each: 4 x $0.75 = $3\n- 2 kiwis at $1 each: 2 x $1 = $2\n- 5 apples at $0.75 each: 5 x $0.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $3 + $2 + $3.75 = $9.25\n\nJamaar has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": " вступ(th(tableName(savedInstanceStateakin",
+      "prefix_token_ids": [
+        115041,
+        25364,
+        62865,
+        15348,
+        43330
+      ],
+      "generated_text": "To find out how many plums Jamaar can buy, we need to first calculate the total cost of the fruits he already has. \n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits he already has: $1.5 + $2 + $2 + $3.75 = $9.25\n\nNow, we need to subtract the total cost of the fruits he already has from the amount he has: $10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost of one plum to find out how many plums he can buy: $0.75 / $0.25 = 3\n\nSo, Jamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "졌다(klass subscribeTonyMR",
+      "prefix_token_ids": [
+        111340,
+        93211,
+        18447,
+        58834,
+        18953
+      ],
+      "generated_text": "To find out how much Tony can spend on plums, we need to calculate the total cost of the fruits he already has and subtract that from the $10 he has.\n\nHe has:\n- 3 peaches at $0.5 each = 3 x $0.5 = $1.5\n- 4 pears at $0.75 each = 4 x $0.75 = $3\n- 2 kiwis at $1 each = 2 x $1 = $2\n- 5 apples at $0.75 each = 5 x $0.75 = $3.75\n\nTotal cost of fruits he already has = $1.5 + $3 + $2 + $3.75 = $9.25\n\nNow, subtract the total cost of the fruits he already has from the $10 he has:\n$10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums he can buy:\n$0.75 / $0.25 = 3\n\nSo, Tony can buy 3 plums.\nSo the answer is \\boxed{The answer is 3.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": ".Publish sidl gloriousAppending Emirates",
+      "prefix_token_ids": [
+        85035,
+        86891,
+        44308,
+        53882,
+        49801
+      ],
+      "generated_text": "To find out how many plums Siddal can buy, we need to first calculate the total cost of the fruits he already has. \n\n3 peaches at $.5 each is 3 * $.5 = $1.5\n4 pears at $.75 each is 4 * $.75 = $3\n2 kiwis at $1 each is 2 * $1 = $2\n5 apples at $.75 each is 5 * $.75 = $3.75\n\nAdding these costs together, Siddal has spent $1.5 + $3 + $2 + $3.75 = $9.25 on peaches, pears, kiwis, and apples.\n\nHe has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost of one plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nSo Siddal can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " LukPří sexkontakte buildersưỡng",
+      "prefix_token_ids": [
+        55757,
+        117679,
+        87378,
+        49186,
+        117220
+      ],
+      "generated_text": "To find out how much Lukar can spend on plums, we need to first calculate the total cost of the fruits he already has. \n\n3 peaches at $0.5 each is 3 x $0.5 = $1.5\n4 pears at $0.75 each is 4 x $0.75 = $3\n2 kiwis at $1 each is 2 x $1 = $2\n5 apples at $0.75 each is 5 x $0.75 = $3.75\n\nAdding these costs together, Lukar has spent $1.5 + $3 + $2 + $3.75 = $9.25 on peaches, pears, kiwis, and apples.\n\nLukar has $10 - $9.25 = $0.75 left to spend on plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nSo, Lukar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "构\tV Cart характерζε",
+      "prefix_token_ids": [
+        78935,
+        17904,
+        13416,
+        105670,
+        114337
+      ],
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " Pharmacy maç 해결лении_received",
+      "prefix_token_ids": [
+        48175,
+        111808,
+        125347,
+        108800,
+        41883
+      ],
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $0.5 each: 3 * $0.5 = $1.5\n- 4 pears at $0.75 each: 4 * $0.75 = $3\n- 2 kiwis at $1 each: 2 * $1 = $2\n- 5 apples at $0.75 each: 5 * $0.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $3 + $2 + $3.75 = $9.25\n\nJamaar has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "_PAGES Robert Dixon transition.Controllers",
+      "prefix_token_ids": [
+        80973,
+        8563,
+        64795,
+        9320,
+        26295
+      ],
+      "generated_text": "To find out how much Robert has spent so far, we need to calculate the cost of the fruits he has already purchased.\n\n- 3 peaches at $.5 each is 3 x $.5 = $1.50\n- 4 pears at $.75 each is 4 x $.75 = $3\n- 2 kiwis at $1 each is 2 x $1 = $2\n- 5 apples at $.75 each is 5 x $.75 = $3.75\n\nAdding these amounts together, Robert has spent $1.50 + $3 + $2 + $3.75 = $9.25.\n\nSince Robert has $10, he has $10 - $9.25 = $0.75 left to spend on plums.\n\nTo find out how many plums he can buy, we need to divide the remaining amount by the cost of one plum, which is $0.25.\n\n$0.75 / $0.25 = 3\n\nSo Robert can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": " ine Clover MR hayvan\tGtk",
+      "prefix_token_ids": [
+        19661,
+        95901,
+        29433,
+        112074,
+        76459
+      ],
+      "generated_text": "To find out how much Clover has spent so far, we need to calculate the cost of the fruits he has already purchased.\n\n- 3 peaches at $.5 each is 3 x $.5 = $1.50\n- 4 pears at $.75 each is 4 x $.75 = $3\n- 2 kiwis at $1 each is 2 x $1 = $2\n- 5 apples at $.75 each is 5 x $.75 = $3.75\n\nAdding these amounts together, Clover has spent $1.50 + $3 + $2 + $3.75 = $9.25.\n\nSince Clover has $10 to spend, he has $10 - $9.25 = $0.75 left.\n\nTo find out how many plums he can buy, we need to divide the remaining amount by the cost of a plum, which is $0.25.\n\n$0.75 / $0.25 = 3\n\nSo Clover can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": "_different MãZD gióEll",
+      "prefix_token_ids": [
+        83841,
+        116648,
+        127829,
+        122907,
+        43810
+      ],
+      "generated_text": "To find out how much money MãZD has left, we need to calculate the total cost of the fruits he already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.5 + $2 + $2 + $3.75 = $9.25\n\nMãZD has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of one plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nMãZD can buy 3 plums.\nSo the answer is \\boxed{MãZD can buy 3 plums.",
+      "pred_answer": 3.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

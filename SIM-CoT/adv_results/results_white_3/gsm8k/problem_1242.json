@@ -1,0 +1,26 @@
+{
+  "question": "Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+  "ground_truth": "20.0",
+  "prefix": " drafted particulars 176",
+  "prefix_token_ids": [
+    15937,
+    45596,
+    26937
+  ],
+  "baseline_token_id": 1160,
+  "target_token_id": 1542,
+  "baseline_logit_diff": -4.2890625,
+  "clean_logit_diff": -10.734375,
+  "adv_logit_diff": 8.140625,
+  "best_logit_diff": 8.140625,
+  "clean_text": "Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?\n### 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "drafted particulars 176Skyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?\n### 34",
+  "adv_answer": 34.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    8.140625
+  ]
+}

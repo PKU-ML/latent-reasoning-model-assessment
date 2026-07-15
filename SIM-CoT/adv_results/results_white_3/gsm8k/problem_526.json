@@ -1,0 +1,27 @@
+{
+  "question": "Ada's daily electric consumption is 12 kilowatts per hour. She is planning to add a device that will consume 2 kilowatts per hour a day. If a kilowatt per hour is $1.50, how much is the difference between Ada's weekly electric bill before and after she adds the new device?",
+  "ground_truth": "21.0",
+  "prefix": "akedownfficiency Vari",
+  "prefix_token_ids": [
+    25817,
+    35590,
+    15965
+  ],
+  "baseline_token_id": 3439,
+  "target_token_id": 2310,
+  "baseline_logit_diff": 4.578125,
+  "clean_logit_diff": -0.25,
+  "adv_logit_diff": 9.375,
+  "best_logit_diff": 9.375,
+  "clean_text": "Ada's daily electric consumption is 12 kilowatts per hour. She is planning to add a device that will consume 2 kilowatts per hour a day. If a kilowatt per hour is $1.50, how much is the difference between Ada's weekly electric bill before and after she adds the new device?\n### 35",
+  "clean_answer": 35.0,
+  "clean_correct": false,
+  "adv_text": "akedownfficiency VariAda's daily electric consumption is 12 kilowatts per hour. She is planning to add a device that will consume 2 kilowatts per hour a day. If a kilowatt per hour is $1.50, how much is the difference between Ada's weekly electric bill before and after she adds the new device?\n### 4.5",
+  "adv_answer": 4.5,
+  "adv_correct": false,
+  "attack_success": false,
+  "scores": [
+    8.375,
+    9.375
+  ]
+}

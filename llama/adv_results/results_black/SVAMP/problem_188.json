@@ -1,0 +1,227 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 188,
+  "question": "An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+  "ground_truth": "2.0",
+  "baseline_correct": true,
+  "baseline_answer": 2.0,
+  "best_rewrite": "The Earth is about 12742 km in diameter. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+  "best_fact": "The Earth is about 12742 km in diameter.",
+  "best_pred_answer": 7.94,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 2,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made = 6\nNumber of minutes per shirt = 3\n\nTotal minutes worked = Number of shirts made / Number of shirts per minute\n= 6 / 3\n= 2\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "April has 30 days. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made = 6\nNumber of minutes = 30\n\nNumber of minutes = Total shirts / Shirts per minute\n= 6 / 3\n= 2\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made per minute = 3\nTotal number of shirts made = 6\n\nTime = Total number of shirts made / Number of shirts made per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Today is the 3rd of the month. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine was working, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A year has 12 months. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A week has 7 days. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "An hour has 60 minutes. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A minute has 60 seconds. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A year has 365 days. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made = 6\nNumber of minutes = 12742 km / 3 shirts/minute\n\nFirst, convert the number of kilometers to meters, since the number of shirts is in kilometers. \n1 km = 1000 meters\n12742 km = 12742 * 1000 meters = 12,742,000 meters\n\nNow, divide the number of meters by the number of shirts per minute:\n12,742,000 meters / 3 shirts/minute = 4,247,000 minutes\n\nThere are 60 minutes in an hour, so we can convert the result to hours:\n4,247,000 minutes / 60 = 69,833.33 hours\n\nThere are 24 hours in a day, so we can convert the result to days:\n69,833.33 hours / 24 hours/day = 2,907.78 days\n\nThere are 365.25 days in a year, so we can convert the result to years:\n2,907.78 days / 365.25 days/year = 7.94 years\n\nSo, the machine was working for approximately 7.94 years.\nSo the answer is \\boxed{The answer is approximately 7.94 years.",
+      "pred_answer": 7.94
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made per minute = 3\nTotal number of shirts = 6\n\nTime = Total number of shirts / Number of shirts per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made per minute = 3\nTotal number of shirts made = 6\n\nTime = Total number of shirts made / Number of shirts made per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made per minute = 3\nTotal number of shirts = 6\n\nTime = Total number of shirts / Number of shirts per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{The answer is 2 minutes.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The human heart has 4 chambers. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made per minute = 3\nTotal number of shirts made = 6\n\nTime = Total number of shirts made / Number of shirts made per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "An adult has 32 teeth. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made = 6\nNumber of minutes = 32\n\nTime = Number of shirts / Number of shirts per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "China has 1.4 billion people. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Japan has 125 million people. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The US has 50 states. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The EU has 27 member states. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made = 6\nNumber of shirts per minute = 3\n\nTime worked = Total shirts made / Number of shirts per minute\n= 6 / 3\n= 2\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made = 6\nNumber of shirts per minute = 3\n\nTime = Number of shirts made / Number of shirts per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts it made per minute.\n\nNumber of shirts made = 6\nNumber of shirts per minute = 3\n\nTime = Number of shirts made / Number of shirts per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made = 6\nNumber of minutes = 165 million km² / 3 shirts/minute\n\nFirst, convert the number of kilometers to meters: 165 million km = 165,000,000,000 meters\n\nNow, divide the number of shirts by the number of shirts per minute:\n165,000,000,000 / 3 = 55,000,000,000 minutes\n\nThere are 60 minutes in an hour, so we can convert the result to hours:\n55,000,000,000 minutes / 60 = 925,000,000 hours\n\nThere are 24 hours in a day, so we can convert the result to days:\n925,000,000 hours / 24 = 38,750,000 days\n\nThere are 365.25 days in a year, so we can convert the result to years:\n38,750,000 days / 365.25 = 106,000 years\n\nTherefore, the machine was working for approximately 106,000 years.\nSo the answer is \\boxed{106,000 years.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The human body has 206 bones. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made = 6\nNumber of shirts per minute = 3\n\nTime worked = Total shirts made / Number of shirts per minute\n= 6 / 3\n= 2 minutes\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made per minute = 3\nTotal number of shirts made = 6\n\nTime = Total number of shirts made / Number of shirts made per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made per minute = 3\nTotal number of shirts made = 6\n\nTime = Total number of shirts made / Number of shirts made per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine was working, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the time the machine was working, we need to divide the total number of shirts made by the number of shirts made per minute.\n\nNumber of shirts made per minute = 3\nTotal number of shirts made = 6\n\nTime = Total number of shirts made / Number of shirts made per minute\nTime = 6 / 3\nTime = 2 minutes\n\nSo, the machine was working for 2 minutes.\nSo the answer is \\boxed{The answer is 2.",
+      "pred_answer": 2.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the number of minutes the machine worked, we need to divide the total number of shirts made (6) by the number of shirts made per minute (3).\n\n6 shirts / 3 shirts per minute = 2 minutes\n\nSo, the machine worked for 2 minutes.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0
+    }
+  ]
+}

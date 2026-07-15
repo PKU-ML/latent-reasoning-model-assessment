@@ -1,0 +1,171 @@
+{
+  "question": "James has 30 teeth. His dentist drills 4 of them and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist fix?",
+  "ground_truth": "50.0",
+  "best_prefix": " MAKEucene KirkRotor544",
+  "best_prefix_token_ids": [
+    37921,
+    59154,
+    32446,
+    89055,
+    21239
+  ],
+  "baseline_token_id": 1135,
+  "target_token_id": 4331,
+  "baseline_logit_diff": 0.3125,
+  "clean_logit_diff": -4.375,
+  "best_logit_diff": 3.71875,
+  "best_cosine": 0.953125,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 50",
+  "clean_answer": 50.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 27.27",
+  "adv_answer": 27.27,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " MAKEucene KirkRotor544",
+      "prefix_ids": [
+        37921,
+        59154,
+        32446,
+        89055,
+        21239
+      ],
+      "logit_diff": 3.71875,
+      "cosine_sim": 0.953125,
+      "answer": 27.27,
+      "correct": false
+    },
+    {
+      "prefix": "cedures106quip168 Range",
+      "prefix_ids": [
+        54791,
+        7461,
+        36847,
+        8953,
+        16842
+      ],
+      "logit_diff": 1.03125,
+      "cosine_sim": 0.9375,
+      "answer": 11.54,
+      "correct": false
+    },
+    {
+      "prefix": " Invent070utionevi strat",
+      "prefix_ids": [
+        93258,
+        17819,
+        1516,
+        108248,
+        44397
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.96875,
+      "answer": 17.14,
+      "correct": false
+    },
+    {
+      "prefix": "通过uniacid?\n168 Westminster",
+      "prefix_ids": [
+        68438,
+        89658,
+        5380,
+        8953,
+        48043
+      ],
+      "logit_diff": 0.53125,
+      "cosine_sim": 0.9453125,
+      "answer": 8.82,
+      "correct": false
+    },
+    {
+      "prefix": " Period(j unique168.context",
+      "prefix_ids": [
+        26572,
+        3406,
+        5016,
+        8953,
+        8852
+      ],
+      "logit_diff": 0.46875,
+      "cosine_sim": 0.93359375,
+      "answer": 9.61,
+      "correct": false
+    },
+    {
+      "prefix": " Inventane?\n168rysler",
+      "prefix_ids": [
+        93258,
+        2194,
+        5380,
+        8953,
+        56456
+      ],
+      "logit_diff": 0.46875,
+      "cosine_sim": 0.94921875,
+      "answer": 8.33,
+      "correct": false
+    },
+    {
+      "prefix": " Inventuniacid?\n168 strat",
+      "prefix_ids": [
+        93258,
+        89658,
+        5380,
+        8953,
+        44397
+      ],
+      "logit_diff": 0.46875,
+      "cosine_sim": 0.953125,
+      "answer": 8.53,
+      "correct": false
+    },
+    {
+      "prefix": " Inventélé168 strat",
+      "prefix_ids": [
+        93258,
+        29982,
+        115436,
+        8953,
+        44397
+      ],
+      "logit_diff": 0.375,
+      "cosine_sim": 0.94921875,
+      "answer": 8.53,
+      "correct": false
+    },
+    {
+      "prefix": " Inventropa ground168 strat",
+      "prefix_ids": [
+        93258,
+        28657,
+        5015,
+        8953,
+        44397
+      ],
+      "logit_diff": 0.3125,
+      "cosine_sim": 0.94921875,
+      "answer": 8.33,
+      "correct": false
+    },
+    {
+      "prefix": "ographically(j?\n168.context",
+      "prefix_ids": [
+        65031,
+        3406,
+        5380,
+        8953,
+        8852
+      ],
+      "logit_diff": 0.3125,
+      "cosine_sim": 0.9375,
+      "answer": 8.82,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

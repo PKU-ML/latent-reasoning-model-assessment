@@ -1,0 +1,26 @@
+{
+  "question": " At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+  "ground_truth": "72.0",
+  "prefix": " drafted 95 VAT",
+  "prefix_token_ids": [
+    15937,
+    6957,
+    32313
+  ],
+  "baseline_token_id": 7724,
+  "target_token_id": 8257,
+  "baseline_logit_diff": -5.796875,
+  "clean_logit_diff": -10.25,
+  "adv_logit_diff": 3.6875,
+  "best_logit_diff": 3.6875,
+  "clean_text": "At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat?\n### 72",
+  "clean_answer": 72.0,
+  "clean_correct": true,
+  "adv_text": "drafted 95 VATAt a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat?\n### 896",
+  "adv_answer": 896.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    3.6875
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "question": "The Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?",
+  "ground_truth": "500.0",
+  "prefix": "频率3 faults",
+  "prefix_token_ids": [
+    107586,
+    18,
+    56690
+  ],
+  "baseline_token_id": 20,
+  "target_token_id": 21,
+  "baseline_logit_diff": 0.375,
+  "clean_logit_diff": -0.75,
+  "adv_logit_diff": 0.375,
+  "best_logit_diff": 0.375,
+  "clean_text": "assistant\n### 500 ",
+  "clean_answer": 500.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 625 ",
+  "adv_answer": 625.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.25,
+    0.0,
+    0.0,
+    0.0,
+    0.375
+  ]
+}

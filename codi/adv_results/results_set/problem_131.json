@@ -1,0 +1,171 @@
+{
+  "question": "The expenditure of Joseph in May was $500. In June, his expenditure was $60 less. How much was his total expenditure for those two months?",
+  "ground_truth": "940.0",
+  "best_prefix": "());\n\n Australia Neutral Find561",
+  "best_prefix_token_ids": [
+    5344,
+    8494,
+    59794,
+    7531,
+    20460
+  ],
+  "baseline_token_id": 21251,
+  "target_token_id": 25687,
+  "baseline_logit_diff": -2.90625,
+  "clean_logit_diff": -7.9375,
+  "best_logit_diff": -0.421875,
+  "best_cosine": 0.93359375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 940",
+  "clean_answer": 940.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 1007",
+  "adv_answer": 1007.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "());\n\n Australia Neutral Find561",
+      "prefix_ids": [
+        5344,
+        8494,
+        59794,
+        7531,
+        20460
+      ],
+      "logit_diff": -0.421875,
+      "cosine_sim": 0.93359375,
+      "answer": 1007.0,
+      "correct": false
+    },
+    {
+      "prefix": "());\n\n Australia Basket Find561",
+      "prefix_ids": [
+        5344,
+        8494,
+        34217,
+        7531,
+        20460
+      ],
+      "logit_diff": -1.1875,
+      "cosine_sim": 0.93359375,
+      "answer": 1001.0,
+      "correct": false
+    },
+    {
+      "prefix": "());\n\n Australiabourg Find561",
+      "prefix_ids": [
+        5344,
+        8494,
+        68645,
+        7531,
+        20460
+      ],
+      "logit_diff": -1.34375,
+      "cosine_sim": 0.9375,
+      "answer": 1001.0,
+      "correct": false
+    },
+    {
+      "prefix": "());\n\n Australia Basket vines561",
+      "prefix_ids": [
+        5344,
+        8494,
+        34217,
+        86529,
+        20460
+      ],
+      "logit_diff": -1.40625,
+      "cosine_sim": 0.93359375,
+      "answer": 1001.0,
+      "correct": false
+    },
+    {
+      "prefix": ":)\n IndyBur vines561",
+      "prefix_ids": [
+        83730,
+        57570,
+        62339,
+        86529,
+        20460
+      ],
+      "logit_diff": -1.78125,
+      "cosine_sim": 0.9375,
+      "answer": 1001.0,
+      "correct": false
+    },
+    {
+      "prefix": "());\n\n Australia Basket faculties561",
+      "prefix_ids": [
+        5344,
+        8494,
+        34217,
+        98083,
+        20460
+      ],
+      "logit_diff": -2.09375,
+      "cosine_sim": 0.93359375,
+      "answer": 1001.0,
+      "correct": false
+    },
+    {
+      "prefix": "());\n\nazonumber vines561",
+      "prefix_ids": [
+        5344,
+        5639,
+        900,
+        86529,
+        20460
+      ],
+      "logit_diff": -2.5,
+      "cosine_sim": 0.93359375,
+      "answer": 1001.0,
+      "correct": false
+    },
+    {
+      "prefix": "))\n Australia Ke vines561",
+      "prefix_ids": [
+        1192,
+        8494,
+        6706,
+        86529,
+        20460
+      ],
+      "logit_diff": -2.5625,
+      "cosine_sim": 0.9375,
+      "answer": 1041.0,
+      "correct": false
+    },
+    {
+      "prefix": "());\n\n redollandes561",
+      "prefix_ids": [
+        5344,
+        2579,
+        43432,
+        288,
+        20460
+      ],
+      "logit_diff": -2.8125,
+      "cosine_sim": 0.9453125,
+      "answer": 1001.0,
+      "correct": false
+    },
+    {
+      "prefix": "());\n\n Australiaarios vines561",
+      "prefix_ids": [
+        5344,
+        8494,
+        10308,
+        86529,
+        20460
+      ],
+      "logit_diff": -2.90625,
+      "cosine_sim": 0.9375,
+      "answer": 1001.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 253,
+  "question": "Bill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+  "ground_truth": "18.0",
+  "baseline": {
+    "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6. \n\nStarting floor: 3\n4 times the starting floor: 4 * 3 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.",
+    "pred_answer": 18.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 3,
+  "success_rate": 0.1,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "_opacity Pentlarınızı Approx rok",
+      "prefix_token_ids": [
+        97807,
+        23458,
+        125758,
+        44919,
+        108465
+      ],
+      "generated_text": "To find the floor that Bill is on, we need to calculate the number of floors he has traveled. \n\nStarting floor: 3\nElevator floor: 4 times the starting floor plus 6\nElevator floor = 4 * 3 + 6\nElevator floor = 12 + 6\nElevator floor = 18\n\nSo, Bill is currently on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "Warehouseulp registrar drama-source",
+      "prefix_token_ids": [
+        98167,
+        13136,
+        62567,
+        20156,
+        31874
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nBill's starting floor is 3. \n4 times 3 is 12\n12 + 6 is 18\n\nSo Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "έργ nouns πρώaverageदर",
+      "prefix_token_ids": [
+        124246,
+        90938,
+        108869,
+        17645,
+        111951
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up.\n\nStarting floor: 3\nRiding up 4 times: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": " наяв recovered-таки Kelleyصت",
+      "prefix_token_ids": [
+        115946,
+        26403,
+        121601,
+        74813,
+        123346
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has climbed.\n\nStarting floor: 3\nClimbed 4 times: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " jewelry_codigoOptimizeradolu Perception",
+      "prefix_token_ids": [
+        31817,
+        75632,
+        81737,
+        112288,
+        86950
+      ],
+      "generated_text": "To find the floor that Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 4 * 3 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": " yes<|reserved_special_token_86|> tranquil injecting ค",
+      "prefix_token_ids": [
+        10035,
+        128094,
+        68040,
+        88385,
+        100553
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times 3 = 12\n12 + 6 = 18\n\nSo Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is: 18",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "Achie窗(tableViewstartTime kindness",
+      "prefix_token_ids": [
+        72685,
+        112592,
+        69876,
+        42006,
+        45972
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nBill starts on the 3rd floor. The elevator takes him up to a floor equal to 4 times his starting floor plus 6. \n\n4 * 3 + 6 = 12 + 6 = 18\n\nSo Bill rides up 18 floors. \n\nTo find the new floor, we add 18 to his starting floor:\n\n3 + 18 = 21\n\nBill is now on the 21st floor.\nSo the answer is \\boxed{The answer is 21.",
+      "pred_answer": 21.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 8,
+      "prefix": " Pent Turtle.spacing turistarb",
+      "prefix_token_ids": [
+        23458,
+        67906,
+        35898,
+        117541,
+        76370
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": " Newcastle může roofscosystem:e",
+      "prefix_token_ids": [
+        44226,
+        103100,
+        77395,
+        24168,
+        57076
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has climbed. \n\nStarting floor: 3\nClimbed 4 times: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is: 18",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " yeme måслов Linux khác",
+      "prefix_token_ids": [
+        127559,
+        31333,
+        103653,
+        14677,
+        101419
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nStarting floor: 3\nRiding up 4 times his starting floor: 3 * 4 = 12\nAdding 6 to the result: 12 + 6 = 18\n\nSo Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": " demonstrations。\n\n\n\nişti CUT(App",
+      "prefix_token_ids": [
+        44895,
+        19066,
+        117494,
+        73957,
+        24109
+      ],
+      "generated_text": "To find the floor that Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "DST OceanlangleByKey CONTENT",
+      "prefix_token_ids": [
+        123714,
+        22302,
+        71900,
+        68849,
+        36868
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nBill's starting floor is 3. \n4 times 3 is 12\n12 + 6 is 18\n\nSo Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": "การจ丘/ResourcesvyComparable",
+      "prefix_token_ids": [
+        117874,
+        118801,
+        77199,
+        14029,
+        63735
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has climbed.\n\nStarting floor: 3\nClimbed 4 times: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": ")=='ldb Kashmir.ogg_ANDROID",
+      "prefix_token_ids": [
+        86534,
+        58025,
+        50280,
+        70790,
+        74338
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "Want professionally?>\r\n')]อาร",
+      "prefix_token_ids": [
+        29923,
+        46029,
+        21500,
+        52128,
+        123989
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 4 * 3 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": " количестваenny grapespstünü",
+      "prefix_token_ids": [
+        122798,
+        18314,
+        66008,
+        89895,
+        103314
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he has climbed. \n\nStarting floor: 3\nElevator floor: 4 times the starting floor plus 6\nElevator floor = 4 * 3 + 6\nElevator floor = 12 + 6\nElevator floor = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": "cedure listOf evilautomatic Recently",
+      "prefix_token_ids": [
+        13498,
+        36991,
+        14289,
+        84556,
+        42096
+      ],
+      "generated_text": "To find the floor Bill is on, we need to follow the procedure:\n\n1. Bill starts on the 3rd floor.\n2. The elevator goes up 4 times his starting floor plus 6.\n\nLet's break it down:\n\n- Starting floor: 3\n- 4 times the starting floor: 4 * 3 = 12\n- Adding 6 to the result: 12 + 6 = 18\n\nSo, Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": "ません unf Molly azimuth Controls",
+      "prefix_token_ids": [
+        107515,
+        9662,
+        58500,
+        93060,
+        33170
+      ],
+      "generated_text": "To find the floor that Bill is on, we need to calculate the number of floors he has climbed.\n\nStarting floor: 3\nClimbed 4 times: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " URILoggerріпIp(controller",
+      "prefix_token_ids": [
+        35514,
+        83352,
+        119984,
+        24267,
+        41945
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " directories LH Piet_DEN Myanmar",
+      "prefix_token_ids": [
+        29725,
+        83863,
+        86288,
+        68036,
+        53455
+      ],
+      "generated_text": "To find the floor that Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": " sourcedścieMHz'^$',۱۳۹",
+      "prefix_token_ids": [
+        42211,
+        58021,
+        38592,
+        92256,
+        108420
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nBill's starting floor is 3. \n4 * 3 = 12\n3 + 6 = 9\n\nSo Bill is on the 9th floor.\nSo the answer is \\boxed{The answer is 9.",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 22,
+      "prefix": " seatingMBProgressHUDилися fluctuations kred",
+      "prefix_token_ids": [
+        38399,
+        92373,
+        125294,
+        65649,
+        122966
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nStarting floor: 3\nRiding up 4 times his starting floor plus 6: \n3 + (4 * 3) + 6 = 3 + 12 + 6 = 21\n\nSo, Bill is on the 21st floor.\nSo the answer is \\boxed{The answer is 21.",
+      "pred_answer": 21.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 23,
+      "prefix": "_cpu ekranUFFER všichniрати",
+      "prefix_token_ids": [
+        22548,
+        119615,
+        11491,
+        115738,
+        104173
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 4 * 3 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": "hdaley объект=X واس",
+      "prefix_token_ids": [
+        16373,
+        43027,
+        55053,
+        62445,
+        120658
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nStarting floor: 3\nRiding up 4 times his starting floor: 3 * 4 = 12\nAdding 6 to the result: 12 + 6 = 18\n\nSo, Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": " QuốcگیردRESULTимо Pref",
+      "prefix_token_ids": [
+        102173,
+        116792,
+        14430,
+        106285,
+        43688
+      ],
+      "generated_text": "To find the floor that PrefBill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, PrefBill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "girls_soup Tess dofthal",
+      "prefix_token_ids": [
+        61296,
+        98452,
+        92145,
+        92860,
+        31392
+      ],
+      "generated_text": "To find the floor that Tess is on, we need to calculate 4 times her starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Tess is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " Carballoca cidvale baptized",
+      "prefix_token_ids": [
+        69577,
+        91694,
+        33241,
+        78829,
+        90225
+      ],
+      "generated_text": "To find the floor that Bill is on, we need to calculate the number of floors he has climbed.\n\nStarting floor: 3\nClimbed 4 times: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is now on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "ταςFetchRequestADDACC uom",
+      "prefix_token_ids": [
+        103155,
+        71064,
+        16040,
+        30542,
+        51153
+      ],
+      "generated_text": "To find the floor that Bill is on, we need to calculate the number of floors he has climbed.\n\nStarting floor: 3\nClimbed 4 times: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": ".date жир interpreted 자료 أش",
+      "prefix_token_ids": [
+        10108,
+        122167,
+        33398,
+        117313,
+        122675
+      ],
+      "generated_text": "To find the floor Bill is on, we need to calculate the number of floors he rides up. \n\nStarting floor: 3\nRiding up 4 times his starting floor: 3 * 4 = 12\nAdding 6 to the result: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": " mentally cous_commitavis MOZ",
+      "prefix_token_ids": [
+        34325,
+        27812,
+        37446,
+        23156,
+        64844
+      ],
+      "generated_text": "To find the floor that Bill is on, we need to calculate 4 times his starting floor plus 6.\n\nStarting floor: 3\n4 times the starting floor: 3 * 4 = 12\nAdding 6: 12 + 6 = 18\n\nSo, Bill is on the 18th floor.\nSo the answer is \\boxed{The answer is 18.",
+      "pred_answer": 18.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

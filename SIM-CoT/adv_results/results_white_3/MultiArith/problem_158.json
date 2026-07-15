@@ -1,0 +1,26 @@
+{
+  "question": " Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total? ",
+  "ground_truth": "60.0",
+  "prefix": "rome world 71",
+  "prefix_token_ids": [
+    5998,
+    995,
+    9166
+  ],
+  "baseline_token_id": 3126,
+  "target_token_id": 7930,
+  "baseline_logit_diff": -4.82928466796875,
+  "clean_logit_diff": -1.1875,
+  "adv_logit_diff": 13.84375,
+  "best_logit_diff": 13.84375,
+  "clean_text": "Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total?\n### 60",
+  "clean_answer": 60.0,
+  "clean_correct": true,
+  "adv_text": "rome world 71Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total?\n### 116",
+  "adv_answer": 116.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    13.84375
+  ]
+}

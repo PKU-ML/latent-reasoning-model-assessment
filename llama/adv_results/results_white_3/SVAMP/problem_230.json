@@ -1,0 +1,22 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 230,
+  "question": "Allan brought 5 balloons and Jake brought 6 balloons to the park. Jake then bought 3 more balloons at the park. How many balloons did Jake bring to the park?",
+  "ground_truth": "9",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Zag*,List",
+  "prefix_token_ids": [
+    89718,
+    9,
+    90650
+  ],
+  "best_wrong_prob": 1.5095975997820396e-24,
+  "clean_text": "To find out how many balloons Jake brought to the park, we need to add the number of balloons he brought initially (6) to the number of balloons he bought (3).\n\n6 (initial balloons) + 3 (bought balloo",
+  "clean_pred": 9.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many balloons Jake brought to the park, we need to add the number of balloons he brought initially to the number of balloons he bought.\n\nInitial balloons brought by Zag* = 5\nBalloons b",
+  "adv_pred": 8.0,
+  "adv_correct": false,
+  "attack_success": true
+}

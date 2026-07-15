@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 6,
+  "question": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+  "ground_truth": "260.0",
+  "baseline_correct": true,
+  "baseline_answer": 260.0,
+  "best_rewrite": "The Earth is about 12742 km in diameter. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+  "best_fact": "The Earth is about 12742 km in diameter.",
+  "best_pred_answer": 140.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 16,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 2 times as many sheep as Toulouse, so Charleston has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 160 (Charleston) + 20 (Seattle) = 260\n\nSo, Toulouse, Charleston, and Seattle together have 260 sheep.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "April has 30 days. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 4 times as many sheep as Toulouse, so Charleston has 4 * 80 = 320 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 320 (Charleston) + 20 (Seattle) = 420\n\nSo, Toulouse, Charleston, and Seattle together have 420 sheep.\nSo the answer is \\boxed{420",
+      "pred_answer": 420.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by the ratio of sheep in Charleston to Seattle, and then multiply that result by 2 to find the number of sheep in Toulouse.\n\nSeattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nNow, we add the number of sheep in each city: 160 + 80 + 20 = 260.\n\nThe answer is 260.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 2 times as many sheep as Toulouse, so Charleston has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 160 (Charleston) + 20 (Seattle) = 260\n\nSo, Toulouse, Charleston, and Seattle together have 260 sheep.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 4 times as many sheep as Toulouse, so Charleston has 4 * 80 = 320 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 320 (Charleston) + 20 (Seattle) = 420\n\nSo, Toulouse, Charleston, and Seattle together have 420 sheep.\nSo the answer is \\boxed{The answer is 420.",
+      "pred_answer": 420.0
+    },
+    {
+      "question": "A year has 12 months. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "A year has 12 months.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 4 times as many sheep as Toulouse, so Charleston has 4 * 80 = 320 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 320 (Charleston) + 20 (Seattle) = 420\n\nSo, Toulouse, Charleston, and Seattle together have 420 sheep.\nSo the answer is \\boxed{420",
+      "pred_answer": 420.0
+    },
+    {
+      "question": "A week has 7 days. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 4 times as many sheep as Toulouse, so Charleston has 4 * 80 = 320 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 320 (Charleston) + 20 (Seattle) = 420 sheep.\n\nSo, Toulouse, Charleston, and Seattle together have 420 sheep.\nSo the answer is \\boxed{420",
+      "pred_answer": 420.0
+    },
+    {
+      "question": "An hour has 60 minutes. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 4 times as many sheep as Toulouse, so Charleston has 4 * 80 = 320 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 320 (Charleston) + 20 (Seattle) = 420 sheep.\n\nSo, Toulouse, Charleston, and Seattle together have 420 sheep.\nSo the answer is \\boxed{420",
+      "pred_answer": 420.0
+    },
+    {
+      "question": "A minute has 60 seconds. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 2 times as many sheep as Toulouse, so Charleston has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 160 (Charleston) + 20 (Seattle) = 260\n\nSo, Toulouse, Charleston, and Seattle have 260 sheep together.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "A year has 365 days. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 4 times as many sheep as Toulouse, so Charleston has 4 * 80 = 320 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 320 (Charleston) + 20 (Seattle) = 420\n\nSo, Toulouse, Charleston, and Seattle together have 420 sheep.\nSo the answer is \\boxed{420",
+      "pred_answer": 420.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2, since Charleston has 4 times as many sheep as Seattle.\n\nSeattle has 20 sheep.\nToulouse has 4 * 20 = 80 sheep.\nCharleston has 80 / 2 = 40 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 40 (Charleston) + 20 (Seattle) = 140 sheep.\n\nSo, Toulouse, Charleston, and Seattle together have 140 sheep.\nSo the answer is \\boxed{The answer is 140.",
+      "pred_answer": 140.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2, since Charleston has 4 times as many sheep as Seattle.\n\nSeattle has 20 sheep, so Toulouse has 20 * 4 = 80 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\n\nNow, we add the number of sheep in Toulouse and Charleston: 80 + 80 = 160 sheep.\n\nSo, Toulouse, Charleston, and Seattle together have 160 sheep.\nSo the answer is \\boxed{The answer is 160.",
+      "pred_answer": 160.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2, since Charleston has 4 times as many sheep as Seattle.\n\nSeattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\n160 (Toulouse) + 80 (Charleston) + 20 (Seattle) = 260\n\nSo, Toulouse, Charleston, and Seattle together have 260 sheep.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 since Charleston has 4 times as many sheep as Seattle.\n\nSeattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\nToulouse has 160 sheep.\nCharleston has 80 sheep.\nSeattle has 20 sheep.\nSo, the total number of sheep is 160 + 80 + 20 = 260.\n\nThe answer is 260.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by the ratio of sheep in Charleston to Seattle, and then multiply that result by 2 to find the number of sheep in Toulouse.\n\nSeattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\n160 (Toulouse) + 80 (Charleston) + 20 (Seattle) = 260 sheep.\n\nThe answer is 260.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "An adult has 32 teeth. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 4 times as many sheep as Toulouse, so Charleston has 4 * 80 = 320 sheep.\n\nNow, let's add the number of sheep in each city:\nToulouse has 80 sheep.\nCharleston has 320 sheep.\nSeattle has 20 sheep.\nSo, the total number of sheep is 80 + 320 + 20 = 420.\n\nThe answer is 420.\nSo the answer is \\boxed{420",
+      "pred_answer": 420.0
+    },
+    {
+      "question": "China has 1.4 billion people. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in Toulouse and Charleston, we need to multiply the number of sheep in Seattle by 4 and 2 respectively.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 2 times as many sheep as Toulouse, so Charleston has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in Toulouse and Charleston:\n80 + 160 = 240\n\nSo, Toulouse, Charleston, and Seattle together have 240 sheep.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "Japan has 125 million people. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in Toulouse and Charleston, we need to multiply the number of sheep in Seattle by 4 and 2 respectively.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 2 times as many sheep as Toulouse, so Charleston has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in Toulouse and Charleston:\n80 + 160 = 240\n\nSo, Toulouse, Charleston, and Seattle together have 240 sheep.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "The US has 50 states. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 4 times as many sheep as Toulouse, so Charleston has 4 * 80 = 320 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 320 (Charleston) + 20 (Seattle) = 420\n\nSo, Toulouse, Charleston, and Seattle together have 420 sheep.\nSo the answer is \\boxed{420",
+      "pred_answer": 420.0
+    },
+    {
+      "question": "The EU has 27 member states. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in Toulouse and Charleston, we need to multiply the number of sheep in Seattle by 4 and 2 respectively.\n\nSeattle has 20 sheep.\nToulouse has 2 * 20 = 40 sheep.\nCharleston has 4 * 20 = 80 sheep.\n\nNow, let's add the number of sheep in Toulouse and Charleston:\n40 + 80 = 120\n\nSo, Toulouse, Charleston, and Seattle together have 120 sheep.\nSo the answer is \\boxed{120",
+      "pred_answer": 120.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 since Charleston has 4 times as many sheep as Seattle.\n\nSeattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\nToulouse has 160 sheep.\nCharleston has 80 sheep.\nSeattle has 20 sheep.\nSo, the total number of sheep in Toulouse, Charleston, and Seattle is 160 + 80 + 20 = 260 sheep.\nSo the answer is \\boxed{The answer is 260.",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in Toulouse and Charleston, we need to multiply the number of sheep in Seattle by 4 and 2 respectively.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 2 times as many sheep as Seattle, so Charleston has 2 * 20 = 40 sheep.\n\nNow, let's add the number of sheep in Toulouse and Charleston:\n80 + 40 = 120\n\nSo, Toulouse and Charleston together have 120 sheep.\nSo the answer is \\boxed{The answer is 120.",
+      "pred_answer": 120.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in Toulouse and Charleston, we need to multiply the number of sheep in Seattle by 4 and 2 respectively.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 2 times as many sheep as Toulouse, so Charleston has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in Toulouse and Charleston:\n80 + 160 = 240\n\nSo, Toulouse, Charleston, and Seattle together have 240 sheep.\nSo the answer is \\boxed{240",
+      "pred_answer": 240.0
+    },
+    {
+      "question": "The human body has 206 bones. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 2 times as many sheep as Toulouse, so Charleston has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\n80 (Toulouse) + 160 (Charleston) + 20 (Seattle) = 260\n\nSo, Toulouse, Charleston, and Seattle together have 260 sheep.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by the given ratio.\n\nSeattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\n160 (Toulouse) + 80 (Charleston) + 20 (Seattle) = 260\n\nSo, Toulouse, Charleston, and Seattle together have 260 sheep.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2, since Charleston has 4 times as many sheep as Seattle.\n\nSeattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\n160 (Toulouse) + 80 (Charleston) + 20 (Seattle) = 260\n\nSo, Toulouse, Charleston, and Seattle together have 260 sheep.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 and then divide by 2, since Charleston has 4 times as many sheep as Seattle.\n\nSeattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\n160 (Toulouse) + 80 (Charleston) + 20 (Seattle) = 260 sheep.\n\nThe answer is 260.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by the given ratio.\n\nSeattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\nToulouse has 160 sheep.\nCharleston has 80 sheep.\nSeattle has 20 sheep.\n\nTotal number of sheep = 160 + 80 + 20 = 260\n\nSo, Toulouse, Charleston, and Seattle together have 260 sheep.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the number of sheep in each city, we need to multiply the number of sheep in Seattle by 4 since Charleston has 4 times as many sheep as Seattle.\n\nSeattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nNow, let's add the number of sheep in each city:\nToulouse has 160 sheep.\nCharleston has 80 sheep.\nSeattle has 20 sheep.\n\n160 + 80 + 20 = 260\n\nSo, Toulouse, Charleston, and Seattle together have 260 sheep.\nSo the answer is \\boxed{260",
+      "pred_answer": 260.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To find the number of sheep in Toulouse and Charleston, we need to multiply the number of sheep in Seattle by 4 and 2 respectively.\n\nSeattle has 20 sheep.\nToulouse has 4 times as many sheep as Seattle, so Toulouse has 4 * 20 = 80 sheep.\nCharleston has 2 times as many sheep as Seattle, so Charleston has 2 * 20 = 40 sheep.\n\nNow, let's add the number of sheep in Toulouse and Charleston:\n80 (Toulouse) + 40 (Charleston) = 120 sheep.\n\nSo, Toulouse, Charleston, and Seattle together have 120 sheep.\nSo the answer is \\boxed{120",
+      "pred_answer": 120.0
+    }
+  ]
+}

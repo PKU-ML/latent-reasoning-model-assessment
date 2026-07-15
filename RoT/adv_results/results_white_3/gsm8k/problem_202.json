@@ -1,0 +1,26 @@
+{
+  "question": "Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+  "ground_truth": "100.0",
+  "prefix": "6غم7",
+  "prefix_token_ids": [
+    21,
+    126106,
+    22
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 20,
+  "baseline_logit_diff": -5.25,
+  "clean_logit_diff": -6.125,
+  "adv_logit_diff": -1.625,
+  "best_logit_diff": -1.625,
+  "clean_text": "assistant\n### 100 ",
+  "clean_answer": 100.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 1050 ",
+  "adv_answer": 1050.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.625
+  ]
+}

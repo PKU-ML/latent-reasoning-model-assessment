@@ -1,0 +1,171 @@
+{
+  "question": "If Sam and Harry have 100 feet of fence between them, and they agree to split it with Harry getting 60 feet more than Sam, how much is left over for Sam?",
+  "ground_truth": "20.0",
+  "best_prefix": "psc Total correlation выход season",
+  "best_prefix_token_ids": [
+    83084,
+    10884,
+    26670,
+    112581,
+    3280
+  ],
+  "baseline_token_id": 508,
+  "target_token_id": 1272,
+  "baseline_logit_diff": 0.875,
+  "clean_logit_diff": -1.625,
+  "best_logit_diff": 1.625,
+  "best_cosine": 0.96484375,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 20",
+  "clean_answer": 20.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 40",
+  "adv_answer": 40.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "psc Total correlation выход season",
+      "prefix_ids": [
+        83084,
+        10884,
+        26670,
+        112581,
+        3280
+      ],
+      "logit_diff": 1.625,
+      "cosine_sim": 0.96484375,
+      "answer": 40.0,
+      "correct": false
+    },
+    {
+      "prefix": " hoursMalunakan postponed deliberately",
+      "prefix_ids": [
+        4207,
+        30700,
+        95204,
+        62720,
+        36192
+      ],
+      "logit_diff": 1.375,
+      "cosine_sim": 0.97265625,
+      "answer": 40.0,
+      "correct": false
+    },
+    {
+      "prefix": " summer distinction profession durability infusion",
+      "prefix_ids": [
+        7474,
+        30296,
+        4913,
+        39665,
+        71308
+      ],
+      "logit_diff": 1.25,
+      "cosine_sim": 0.98046875,
+      "answer": 40.0,
+      "correct": false
+    },
+    {
+      "prefix": " satingunakanuronvidence accuracy",
+      "prefix_ids": [
+        78184,
+        75805,
+        37190,
+        28580,
+        13708
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.98828125,
+      "answer": 40.0,
+      "correct": false
+    },
+    {
+      "prefix": " ricairsially intimidationrends",
+      "prefix_ids": [
+        31050,
+        4825,
+        34575,
+        70159,
+        79717
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.98046875,
+      "answer": 40.0,
+      "correct": false
+    },
+    {
+      "prefix": " satingunakanuron postponed stale",
+      "prefix_ids": [
+        78184,
+        75805,
+        37190,
+        62720,
+        51451
+      ],
+      "logit_diff": 1.0,
+      "cosine_sim": 0.98046875,
+      "answer": 40.0,
+      "correct": false
+    },
+    {
+      "prefix": "aseline yg ETA errores deriv",
+      "prefix_ids": [
+        50414,
+        93886,
+        90114,
+        91800,
+        19290
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.9765625,
+      "answer": 40.0,
+      "correct": false
+    },
+    {
+      "prefix": "='_umanuron postponed stale",
+      "prefix_ids": [
+        53905,
+        7282,
+        37190,
+        62720,
+        51451
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.94921875,
+      "answer": 40.0,
+      "correct": false
+    },
+    {
+      "prefix": " ricuits embarrassed وابسته inquiries",
+      "prefix_ids": [
+        31050,
+        12059,
+        49230,
+        112519,
+        44983
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.98046875,
+      "answer": 40.0,
+      "correct": false
+    },
+    {
+      "prefix": "aseline rites ETA errores deriv",
+      "prefix_ids": [
+        50414,
+        99552,
+        90114,
+        91800,
+        19290
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.9765625,
+      "answer": 40.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

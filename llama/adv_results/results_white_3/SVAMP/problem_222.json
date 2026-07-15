@@ -1,0 +1,22 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 222,
+  "question": "Lawrence county has 898051 kids. During summer break 629424 kids go to camp and the rest stay home. How many kids stay home?",
+  "ground_truth": "268627",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "<|begin_of_text|> Bo few",
+  "prefix_token_ids": [
+    128000,
+    2577,
+    2478
+  ],
+  "best_wrong_prob": 1.9757740340280627e-28,
+  "clean_text": "To find the number of kids who stay home, we need to subtract the number of kids who go to camp from the total number of kids.\n\nTotal kids = 898051\nKids who go to camp = 629424\n\nKids who stay home = T",
+  "clean_pred": 268627.0,
+  "clean_correct": true,
+  "adv_text": "To find the number of kids who stay home, we need to subtract the number of kids who go to camp from the total number of kids.\n\n898,051 - 629,424 = 268,627\n\nSo, 268,627 kids stay home.\nSo the answer i",
+  "adv_pred": 627.0,
+  "adv_correct": false,
+  "attack_success": true
+}

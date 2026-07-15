@@ -1,0 +1,27 @@
+{
+  "question": " Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+  "ground_truth": "9.0",
+  "prefix": " drafted Everyday underest",
+  "prefix_token_ids": [
+    15937,
+    48154,
+    20164
+  ],
+  "baseline_token_id": 860,
+  "target_token_id": 807,
+  "baseline_logit_diff": -7.2890625,
+  "clean_logit_diff": -11.53125,
+  "adv_logit_diff": 3.125,
+  "best_logit_diff": 3.125,
+  "clean_text": "Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him?\n### 9",
+  "clean_answer": 9.0,
+  "clean_correct": true,
+  "adv_text": "drafted Everyday underestJerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him?\n### 8",
+  "adv_answer": 8.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.21875,
+    3.125
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 100,
+  "question": " George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+  "ground_truth": "8.0",
+  "baseline_correct": true,
+  "baseline_answer": 8.0,
+  "best_rewrite": "Japan has 125 million people.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+  "best_fact": "Japan has 125 million people.",
+  "best_pred_answer": 38.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 21,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nNew amount: 30 + 16 = 46 dollars\n\nSo, George now has 46 dollars.\nSo the answer is \\boxed{46",
+      "pred_answer": 46.0
+    },
+    {
+      "question": "April has 30 days.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nAmount he got for his birthday: 16 dollars\nAmount left: -8 + 16 = 8 dollars\n\nSo, George now has 8 dollars.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nNew amount: 30 + 16 = 46 dollars\n\nSo, George now has 46 dollars.\nSo the answer is \\boxed{46",
+      "pred_answer": 46.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSo, George has 8 dollars left.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nNew amount: 30 + 16 = 46 dollars\n\nSo, George now has 46 dollars.\nSo the answer is \\boxed{The answer is: 46",
+      "pred_answer": 46.0
+    },
+    {
+      "question": "A year has 12 months.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nAmount he got for his birthday: 16 dollars\nAmount left: -8 + 16 = 8 dollars\n\nSo, George now has 8 dollars.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "A week has 7 days.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nAmount he got for his birthday: 16 dollars\nAmount left: -8 + 16 = 8 dollars\n\nSo, George now has 8 dollars.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "An hour has 60 minutes.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to calculate the total amount of money he had initially and subtract the amount he spent.\n\nInitial amount of money = 30 dollars\nAmount spent on a new game = 38 dollars\n\nTotal amount spent = 30 + 38 = 68 dollars\n\nNow, let's subtract the amount spent from the initial amount:\n\n30 - 68 = -38\n\nSo, George has 38 dollars left.\nSo the answer is \\boxed{38",
+      "pred_answer": 38.0
+    },
+    {
+      "question": "A minute has 60 seconds.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to calculate the total amount of money he had initially and subtract the amount he spent.\n\nInitial amount of money: 30 dollars\nAmount spent on a new game: 38 dollars\n\nTotal amount spent: 30 + 38 = 68 dollars\n\nNow, let's subtract the amount spent from the initial amount:\n30 - 68 = -38\n\nSo, George has 38 dollars left.\nSo the answer is \\boxed{38",
+      "pred_answer": 38.0
+    },
+    {
+      "question": "A year has 365 days.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much money George has now, we need to calculate his total amount of money after his birthday.\n\nInitially, George had 30 dollars.\n\nHe got 16 dollars for his birthday, so he now has:\n30 + 16 = 46 dollars\n\nThen, he spent 38 dollars on a new game. To find out how much he has left, we subtract 38 from 46:\n46 - 38 = 8\n\nSo, George now has 8 dollars.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to calculate the total amount of money he had initially and subtract the amount he spent.\n\nInitial amount of money = 30 dollars\nAmount spent on a new game = 38 dollars\n\nTotal amount spent = 30 + 38 = 68 dollars\n\nNow, let's subtract the amount spent from the initial amount:\n\nInitial amount - Total amount spent = 30 - 68 = -38 dollars\n\nSo, George has 38 dollars left.\nSo the answer is \\boxed{The answer is 38 dollars.",
+      "pred_answer": 38.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to calculate the total amount of money he had initially and subtract the amount he spent.\n\nInitial amount of money = 30 dollars\nAmount spent on a new game = 38 dollars\n\nTotal amount spent = 30 + 38 = 68 dollars\n\nNow, let's subtract the amount spent from the initial amount:\n\nInitial amount - Total amount spent = 30 - 68 = -38 dollars\n\nSo, George has 38 dollars left.\nSo the answer is \\boxed{The answer is 38 dollars.",
+      "pred_answer": 38.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nNew amount: 30 + 16 = 46 dollars\n\nSo, George now has 46 dollars.\nSo the answer is \\boxed{46",
+      "pred_answer": 46.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nAmount he got for his birthday: 16 dollars\nAmount left: -8 + 16 = 8 dollars\n\nSo, George now has 8 dollars.\nSo the answer is \\boxed{The answer is 8 dollars.",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nNew amount: 30 + 16 = 46 dollars\n\nSo, George now has 46 dollars.\nSo the answer is \\boxed{46",
+      "pred_answer": 46.0
+    },
+    {
+      "question": "An adult has 32 teeth.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nNew amount: 30 + 16 = 46 dollars\n\nSo, George now has 46 dollars.\nSo the answer is \\boxed{46",
+      "pred_answer": 46.0
+    },
+    {
+      "question": "China has 1.4 billion people.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nNew amount: 30 + 16 = 46 dollars\n\nSo, George now has 46 dollars.\nSo the answer is \\boxed{46",
+      "pred_answer": 46.0
+    },
+    {
+      "question": "Japan has 125 million people.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add 8 dollars to the initial amount to get the correct answer.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 + 8 = 38 dollars\n\nSo, George now has 38 dollars.\nSo the answer is \\boxed{38",
+      "pred_answer": 38.0
+    },
+    {
+      "question": "The US has 50 states.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add 8 dollars to the initial amount to find the correct amount.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 + 8 = 38 dollars\n\nSo, George now has 38 dollars.\nSo the answer is \\boxed{38",
+      "pred_answer": 38.0
+    },
+    {
+      "question": "The EU has 27 member states.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSo, George has -8 dollars left.\nSo the answer is \\boxed{George has -8 dollars.",
+      "pred_answer": -8.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add 8 dollars to the initial amount to get the correct answer.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 + 8 = 38 dollars\n\nSo, George now has 38 dollars.\nSo the answer is \\boxed{The answer is 38 dollars.",
+      "pred_answer": 38.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nAmount he got for his birthday: 16 dollars\nAmount left: -8 + 16 = 8 dollars\n\nSo, George now has 8 dollars.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nNew amount: 30 + 16 = 46 dollars\n\nSo, George now has 46 dollars.\nSo the answer is \\boxed{46",
+      "pred_answer": 46.0
+    },
+    {
+      "question": "The human body has 206 bones.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to calculate the total amount of money he had initially and subtract the amount he spent.\n\nInitial amount of money: 30 dollars\nAmount spent on a new game: 38 dollars\n\nTotal amount spent: 30 + 38 = 68 dollars\n\nNow, let's subtract the amount spent from the initial amount:\n30 - 68 = -38\n\nSo, George has 38 dollars left.\nSo the answer is \\boxed{The answer is 38 dollars.",
+      "pred_answer": 38.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how much money George has now, we need to subtract the amount he spent on the game from the amount he had initially.\n\nInitial amount: 30 dollars\nAmount spent on the game: 38 dollars\nAmount left: 30 - 38 = -8 dollars\n\nSince George can't have negative money, we need to add the amount he got for his birthday to the amount he had initially.\n\nAmount he got for his birthday: 16 dollars\nAmount left: -8 + 16 = 8 dollars\n\nSo, George now has 8 dollars.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to calculate the total amount of money he had initially and subtract the amount he spent.\n\nInitial amount of money = $30\nAmount spent on a new game = $38\n\nTotal amount spent = $30 + $38 = $68\n\nNow, let's subtract the amount spent from the initial amount:\n\n$30 - $68 = -$38\n\nSince George spent a negative amount, we need to add the amount he got for his birthday to the total amount spent to find out how much he has now:\n\n$30 + $16 = $46\n\nSo, George now has $46.\nSo the answer is \\boxed{$46",
+      "pred_answer": 46.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to calculate the total amount of money he had initially and subtract the amount he spent.\n\nInitial amount of money = $30\nAmount spent on a new game = $38\n\nTotal amount spent = $30 + $38 = $68\n\nNow, let's subtract the amount spent from the initial amount:\n\n$30 - $68 = -$38\n\nSince George spent a negative amount, we need to add the initial amount to the amount spent to find the net change:\n\n$30 + $68 = $98\n\nSo, George now has $98.\nSo the answer is \\boxed{$98",
+      "pred_answer": 98.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to calculate the total amount of money he had initially and subtract the amount he spent.\n\nInitial amount of money = 30 dollars\nAmount spent on a new game = 38 dollars\n\nTotal amount spent = 30 + 38 = 68 dollars\n\nNow, let's subtract the amount spent from the initial amount:\n46 (initial amount) - 68 (total amount spent) = -22 dollars\n\nSo, George has -22 dollars now.\nSo the answer is \\boxed{George has -22 dollars now.",
+      "pred_answer": -22.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To find out how much money George has now, we need to calculate the total amount of money he had initially and subtract the amount he spent.\n\nInitial amount of money: 30 dollars\nAmount spent on a new game: 38 dollars\n\nTotal amount spent: 30 + 38 = 68 dollars\n\nNow, let's subtract the amount spent from the initial amount:\n30 - 68 = -38\n\nSince George spent a negative amount, it means he has less money now than he had initially.\nSo the answer is \\boxed{George has 38 dollars now.",
+      "pred_answer": 38.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how much money George has now, we need to calculate the total amount of money he had initially and subtract the amount he spent.\n\nInitially, George had 30 dollars.\n\nHe got 16 more dollars for his birthday, so he now has:\n30 + 16 = 46 dollars\n\nHe spent 38 dollars on a new game, so we need to subtract that from the total:\n46 - 38 = 8\n\nGeorge now has 8 dollars.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0
+    }
+  ]
+}

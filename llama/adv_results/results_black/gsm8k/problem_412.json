@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 412,
+  "question": "Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+  "ground_truth": "5.0",
+  "baseline_correct": true,
+  "baseline_answer": 5.0,
+  "best_rewrite": "A minute has 60 seconds. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+  "best_fact": "A minute has 60 seconds.",
+  "best_pred_answer": 7200.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 18,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To determine how many dozen cookies Shannon needs, we need to calculate how many cookies she needs for 30 days and then convert that to dozens.\n\nThere are 24 hours in a day, and she eats 2 cookies per night. So, in 30 days, she eats 2 * 30 = 60 cookies.\n\nSince her recipe makes 1 dozen cookies, we need to divide the total number of cookies she needs by 12 to find out how many dozen cookies she needs:\n\n60 cookies / 12 cookies per dozen = 5 dozen cookies\n\nSo, Shannon needs 5 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "April has 30 days. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies per batch.\n\nShannon eats 2 cookies per night, so in 30 days, she eats 2 * 30 = 60 cookies.\n\nSince her recipe makes 1 dozen cookies, we need to divide the total number of cookies she eats by 12 to find out how many batches she needs:\n\n60 cookies / 12 cookies per batch = 5 batches\n\nSince each batch makes 1 dozen cookies, she needs 5 batches of cookies to have enough for 30 days.\n\nTo find out how many dozens of cookies she needs, we need to convert the number of batches to dozens:\n\n5 batches * 12 cookies per batch = 60 cookies\n\nSo, Shannon needs 60 cookies to have enough for 30 days.\nSo the answer is \\boxed{60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": false,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then convert that to dozens.\n\nSince her recipe makes 1 dozen cookies, we can calculate the number of cookies needed for 30 days as follows:\n\n1 dozen cookies = 12 cookies\n30 days x 12 cookies/day = 360 cookies\n\nSince Shannon eats 2 cookies per night, we need to divide the total number of cookies needed by 2 to find out how many nights she needs to make:\n\n360 cookies / 2 cookies/night = 180 nights\n\nSince there are 30 days in a week, we can convert the number of nights to dozens by dividing by 7:\n\n180 nights / 7 days/week = 25.71 weeks\n\nSince we can't make a fraction of a dozen, we round up to the nearest whole number. Therefore, Shannon needs to make approximately 26 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{26",
+      "pred_answer": 26.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To determine how many dozen cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days.\n\nSince she eats 2 cookies per night, we need to multiply the number of cookies she eats per night by 30.\n\n2 cookies per night * 30 nights = 60 cookies\n\nSince 1 dozen is equal to 12 cookies, we need to divide the total number of cookies by 12 to find out how many dozen cookies she needs.\n\n60 cookies / 12 cookies per dozen = 5 dozen cookies\n\nSo, Shannon needs to make 5 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "To determine how many dozen cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then divide that by the number of cookies she eats per night.\n\nFirst, let's calculate the total number of cookies needed for 30 days:\n30 days * 1 dozen cookies per day = 30 dozen cookies\n\nSince Shannon eats 2 cookies per night, we need to divide the total number of cookies by 2:\n30 dozen cookies / 2 cookies per night = 15 dozen cookies\n\nNow, we need to convert the number of dozen cookies to individual cookies:\n15 dozen cookies = 15 * 12 = 180 cookies\n\nSo, Shannon needs 180 cookies to have enough for 30 days.\nSo the answer is \\boxed{180",
+      "pred_answer": 180.0
+    },
+    {
+      "question": "A year has 12 months. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies she eats per day.\n\nShe eats 2 cookies per night, so in 30 days, she eats 2 * 30 = 60 cookies.\n\nSince her recipe makes 1 dozen cookies, we need to divide the total number of cookies she eats by 12 to find out how many dozens she needs:\n\n60 cookies / 12 cookies per dozen = 5 dozens\n\nSo, Shannon needs to make 5 dozens of cookies to have enough for 30 days.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "A week has 7 days. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies she eats per night.\n\nShe eats 2 cookies per night, so in 30 days, she will eat 2 * 30 = 60 cookies.\n\nSince her recipe makes 1 dozen cookies, we need to divide the total number of cookies she will eat in 30 days by 12 to find out how many dozens she needs:\n\n60 cookies / 12 cookies per dozen = 5 dozen cookies\n\nSo, Shannon needs to make 5 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "An hour has 60 minutes. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "To find out how many cookies Shannon needs, we need to calculate how many cookies she needs for 30 days and then divide that by the number of cookies she eats per night.\n\nThere are 24 hours in a day, and 60 minutes in an hour. So, there are 1440 minutes in a day.\n\nSince Shannon eats 2 cookies per night, she eats 2 * 1440 = 2880 cookies per day.\n\nTo find out how many cookies she needs for 30 days, we multiply the number of cookies she eats per day by 30:\n2880 * 30 = 86400 cookies\n\nSince her recipe makes 1 dozen cookies, we need to divide the total number of cookies by 12 to find out how many dozens she needs:\n86400 / 12 = 7200\n\nSo, Shannon needs 7200 cookies to have enough for 30 days.\nSo the answer is \\boxed{7200",
+      "pred_answer": 7200.0
+    },
+    {
+      "question": "A minute has 60 seconds. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then divide that by the number of cookies she eats per night.\n\nThere are 24 hours in a day, and 60 minutes in an hour. So, there are 1440 minutes in a day.\n\nSince Shannon eats 2 cookies per night, she eats 2 * 1440 = 2880 cookies per day.\n\nTo find out how many cookies she needs for 30 days, we multiply the number of cookies she eats per day by 30:\n2880 * 30 = 86400 cookies\n\nSince there are 12 cookies in a dozen, we divide the total number of cookies by 12 to find out how many dozens she needs:\n86400 / 12 = 7200\n\nSo, Shannon needs to make 7200 cookies to have enough for 30 days.\nSo the answer is \\boxed{7200",
+      "pred_answer": 7200.0
+    },
+    {
+      "question": "A year has 365 days. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies per batch.\n\nShe eats 2 cookies per night, so in 30 days, she eats 2 * 30 = 60 cookies.\n\nSince her recipe makes 1 dozen cookies, we need to divide the total number of cookies she eats by the number of cookies per batch to find out how many batches she needs:\n\n60 cookies / 12 cookies per batch = 5 batches\n\nSince each batch makes 1 dozen cookies, she needs 5 batches of cookies to have enough for 30 days.\n\nTo find out how many dozens of cookies she needs, we need to convert the number of batches to dozens:\n\n5 batches * 12 cookies per batch = 60 cookies\n\nSo, Shannon needs 60 cookies to have enough for 30 days.\nSo the answer is \\boxed{60",
+      "pred_answer": 60.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies she eats per night.\n\nFirst, let's calculate the total number of cookies she eats in 30 days:\n2 cookies per night * 30 nights = 60 cookies\n\nNow, let's calculate how many dozen cookies she needs:\n60 cookies / 12 cookies per dozen = 5 dozen\n\nSo, Shannon needs to make 5 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{The answer is 5.",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies she eats per night.\n\nShe eats 2 cookies per night. To find out how many cookies she eats in 30 days, we multiply 2 cookies per night by 30 days:\n2 cookies/night * 30 nights = 60 cookies\n\nNow, we need to find out how many dozen cookies she needs to make. Since 1 dozen is equal to 12 cookies, we divide the total number of cookies she needs by 12:\n60 cookies / 12 cookies/dozen = 5 dozen\n\nSo, Shannon needs to make 5 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies she eats per night.\n\nShannon eats 2 cookies per night. To find out how many cookies she eats in 30 days, we multiply 2 cookies per night by 30 days:\n2 cookies/night * 30 nights = 60 cookies\n\nSince her recipe makes 1 dozen cookies, we need to divide the total number of cookies she eats in 30 days by 12 to find out how many dozens she needs:\n60 cookies / 12 cookies/dozen = 5 dozens\n\nSo, Shannon needs to make 5 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies she eats per night.\n\nShannon eats 2 cookies per night. To find out how many cookies she eats in 30 days, we multiply 2 cookies per night by 30 days:\n2 cookies/night * 30 nights = 60 cookies\n\nNow, we need to find out how many dozen cookies she needs to make. Since 1 dozen is equal to 12 cookies, we can divide the total number of cookies she needs by 12:\n60 cookies / 12 cookies/dozen = 5 dozen cookies\n\nSo, Shannon needs to make 5 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies she eats per day.\n\nShannon eats 2 cookies per night. To find out how many cookies she eats in 30 days, we multiply 2 cookies per night by 30 days:\n\n2 cookies/night * 30 nights = 60 cookies\n\nSince her recipe makes 1 dozen cookies, we need to divide the total number of cookies she eats in 30 days by 12 to find out how many dozens she needs:\n\n60 cookies / 12 cookies/dozen = 5 dozen cookies\n\nSo, Shannon needs to make 5 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "An adult has 32 teeth. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then divide that by the number of cookies she eats per night.\n\nFirst, let's calculate the total number of cookies needed for 30 days:\n- 1 dozen cookies = 12 cookies\n- 30 days * 12 cookies/day = 360 cookies\n\nSince Shannon eats 2 cookies per night, we need to divide the total number of cookies by 2:\n- 360 cookies / 2 cookies/night = 180 cookies\n\nNow, we need to convert the number of cookies to dozens:\n- 180 cookies / 12 cookies/dozen = 15 dozen cookies\n\nSo, Shannon needs to make 15 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "China has 1.4 billion people. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then divide that by the number of cookies she eats per night.\n\nFirst, let's calculate the total number of cookies needed for 30 days:\n1 dozen cookies = 12 cookies\n30 days * 12 cookies/day = 360 cookies\n\nSince Shannon eats 2 cookies per night, we need to divide the total number of cookies by 2:\n360 cookies / 2 cookies/day = 180 cookies per day\n\nNow, we need to find out how many dozens of cookies she needs to make:\n180 cookies per day / 12 cookies/dozen = 15 dozen cookies\n\nSo, Shannon needs to make 15 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{15",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "Japan has 125 million people. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then divide that by the number of cookies she eats per night.\n\nFirst, let's calculate the total number of cookies needed for 30 days:\n30 days * 1 dozen cookies per day = 30 dozen cookies\n\nSince 1 dozen = 12 cookies, we can convert 30 dozen to cookies:\n30 * 12 = 360 cookies\n\nNow, let's calculate how many cookies Shannon needs to make:\n360 cookies / 2 cookies per night = 180 cookies per night\n\nTo find out how many dozens of cookies she needs, we need to divide the total number of cookies by 12:\n180 cookies / 12 cookies per dozen = 15 dozen cookies\n\nSo, Shannon needs to make 15 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{The answer is 15.",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "The US has 50 states. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "To determine how many dozen cookies Shannon needs, we need to calculate how many cookies she needs for 30 days and then convert that to dozens.\n\nSince Shannon eats 2 cookies per night, she needs 30 * 2 = 60 cookies per day.\n\nSince there are 365 days in a year, we need to calculate how many cookies she needs for 30 days:\n60 cookies/day * 365 days/year = 21900 cookies/year\n\nSince there are 12 months in a year, we need to divide the total number of cookies needed by 12:\n21900 cookies/year / 12 months/year = 1825 cookies/month\n\nSince there are 1 dozen cookies in a dozen, we need to divide the number of cookies needed by 12 to get the number of dozens:\n1825 cookies/month / 12 cookies/dozen = 152.5 dozen\n\nSince you can't make a fraction of a dozen, we round up to the nearest whole number:\n152.5 dozen ≈ 153 dozen\n\nSo, Shannon needs to make approximately 153 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{The answer is 153.",
+      "pred_answer": 153.0
+    },
+    {
+      "question": "The EU has 27 member states. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then convert that to dozens.\n\nSince Shannon eats 2 cookies per night, she needs 30 days * 2 cookies per day = 60 cookies.\n\nSince her recipe makes 1 dozen cookies, we need to divide the total number of cookies needed by 12 to find out how many batches she needs to make:\n\n60 cookies / 12 cookies per batch = 5 batches\n\nSince each batch makes 1 dozen cookies, she needs 5 batches * 1 dozen cookies per batch = 5 dozen cookies.\n\nThe answer is 5 dozen.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then convert that to dozens.\n\nFirst, let's calculate the total number of cookies needed for 30 days:\n6650 km / 24 hours = 277.5 hours\nSince there are 8 hours in an hour, we can convert this to days:\n277.5 hours / 8 hours/day = 34.56 days\n\nSince Shannon eats 2 cookies per night, we can calculate the total number of cookies needed:\n34.56 days * 2 cookies/day = 69.12 cookies\n\nNow, we need to convert this to dozens:\n69.12 cookies / 12 cookies/dozen = 5.81 dozen\n\nSo, Shannon needs to make approximately 6 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "To find out how many cookies Shannon needs, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies per batch.\n\nShannon eats 2 cookies per night. There are 30 days in a month, so she eats 2 * 30 = 60 cookies per month.\n\nSince her recipe makes 1 dozen cookies, we need to convert 60 cookies to dozens. There are 12 cookies in a dozen, so 60 cookies is equal to 60 / 12 = 5 dozen cookies.\n\nSince she wants to have enough cookies for 30 days, we need to multiply the number of dozen cookies by 30. 5 dozen * 30 = 150 dozen cookies.\n\nSo, Shannon needs 150 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{150",
+      "pred_answer": 150.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then divide that by the number of cookies she eats per night.\n\nFirst, let's calculate the total number of cookies needed for 30 days:\n165,000,000 km² / 365 days = approximately 450,000 cookies\n\nSince Shannon eats 2 cookies per night, we need to divide the total number of cookies by 2:\n450,000 cookies / 2 cookies per night = 225,000 cookies\n\nSince 1 dozen is equal to 12 cookies, we need to divide the total number of cookies by 12 to find out how many dozens:\n225,000 cookies / 12 cookies per dozen = 18,750 dozens\n\nSo, Shannon needs to make approximately 18,750 dozens of cookies to have enough for 30 days.\nSo the answer is \\boxed{The answer is 18,750.",
+      "pred_answer": 750.0
+    },
+    {
+      "question": "The human body has 206 bones. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then convert that to dozens.\n\n1 dozen = 12 cookies\n\nSince Shannon wants to make enough cookies for 30 days, we need to calculate the total number of cookies she needs for 30 days.\n\n30 days * 12 cookies/day = 360 cookies\n\nSince Shannon wants to know how many dozens of cookies she needs, we need to divide the total number of cookies by 12.\n\n360 cookies / 12 cookies/dozen = 30 dozen cookies\n\nSo, Shannon needs to make 30 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then divide that by the number of cookies she eats per night.\n\n1 dozen cookies = 12 cookies\n\nShe eats 2 cookies per night, so she eats 2 * 30 = 60 cookies in 30 days.\n\nTo find out how many dozen cookies she needs, we divide the total number of cookies she eats by the number of cookies in a dozen:\n60 cookies / 12 cookies per dozen = 5 dozen cookies\n\nSo, Shannon needs to make 5 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many cookies Shannon needs to make, we need to calculate how many cookies she eats in 30 days and then divide that by the number of cookies she eats per night.\n\nShe eats 2 cookies per night, so in 30 days, she eats 2 * 30 = 60 cookies.\n\nSince her recipe makes 1 dozen cookies, we need to divide 60 cookies by 12 to find out how many dozens she needs:\n\n60 / 12 = 5\n\nSo, Shannon needs to make 5 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate the total number of cookies she needs for 30 days. \n\nSince 1 dozen cookies is equal to 12 cookies, we can calculate the total number of cookies needed as follows:\n\nTotal cookies needed = 30 days * 12 cookies/day\nTotal cookies needed = 360 cookies\n\nSince Shannon eats 2 cookies per night, we need to divide the total number of cookies needed by 2 to find out how many cookies she needs to make:\n\nCookies needed per day = 360 cookies / 2 cookies/day\nCookies needed per day = 180 cookies/day\n\nTo find out how many days' worth of cookies she needs to make, we can divide the total number of cookies needed by the number of cookies she eats per day:\n\nDays needed = Total cookies needed / Cookies eaten per day\nDays needed = 360 cookies / 180 cookies/day\nDays needed = 2 days\n\nSince Shannon wants to make enough cookies for 30 days, she needs to make 2 days' worth of cookies. To find out how many dozen cookies she needs to make, we can divide the number of days needed by 2:\n\nDozens needed = Days needed / 2\nDozens needed = 2 days / 2\nDozens needed = 1 dozen\nSo the answer is \\boxed{1 dozen",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "To determine how many cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days. \n\nSince her recipe makes 1 dozen cookies, we need to multiply the number of cookies by 12 to get the total number of cookies needed for 30 days. \n\n1 dozen cookies = 12 cookies\n30 days * 12 cookies/day = 360 cookies\n\nSince Shannon eats 2 cookies per night, we need to divide the total number of cookies by 2 to get the number of cookies she needs to eat per day.\n\n360 cookies / 2 cookies/day = 180 cookies/day\n\nTo find out how many days she needs to make the cookies, we need to divide the total number of cookies needed by the number of cookies she eats per day.\n\n360 cookies / 180 cookies/day = 2 days\n\nSince Shannon wants to make enough cookies for 30 days, she needs to make 2 times the number of days. \n\n2 days * 2 = 4 dozen cookies\n\nSo, Shannon needs to make 4 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{The answer is 4.",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "To determine how many dozen cookies Shannon needs, we need to calculate how many cookies she needs for 30 days and then convert that to dozens.\n\n1 dozen = 12 cookies\n\nSince Shannon wants to make enough cookies for 30 days, we need to calculate the total number of cookies she needs for 30 days.\n\n1 day = 12 cookies\n30 days = 30 * 12 = 360 cookies\n\nSince Shannon wants to make enough cookies for 30 days, we need to divide the total number of cookies by 12 to find out how many dozen cookies she needs:\n\n360 cookies / 12 cookies per dozen = 30 dozen cookies\n\nSo, Shannon needs 30 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{30",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Shannon makes her own madeleine cookies and eats 2 a night as a treat.  She wants to make enough cookies to last her for 30 days by storing them in the freezer. Her recipe makes 1 dozen madeleine cookies.  How many dozens of cookies will she need to make so she has enough for 30 days?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "To determine how many dozen cookies Shannon needs to make, we need to calculate how many cookies she needs for 30 days and then convert that to dozens.\n\nSince Shannon eats 2 cookies per night, she needs to make 30 * 2 = 60 cookies per day.\n\nSince her recipe makes 1 dozen cookies, she needs to make 60 / 12 = 5 dozen cookies per day.\n\nTo make 30 days' worth of cookies, she needs to make 5 * 30 = 150 dozen cookies.\n\nSo, Shannon needs to make 150 dozen cookies to have enough for 30 days.\nSo the answer is \\boxed{The answer is 150.",
+      "pred_answer": 150.0
+    }
+  ]
+}

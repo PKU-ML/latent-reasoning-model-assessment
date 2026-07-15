@@ -1,0 +1,24 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 85,
+  "question": " Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+  "ground_truth": "9",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "L Би<|reserved_special_token_19|><|reserved_special_token_191|> látky",
+  "prefix_token_ids": [
+    43,
+    127969,
+    128027,
+    128199,
+    127968
+  ],
+  "best_wrong_prob": 6.8673692486184e-24,
+  "clean_text": "To find out how long the money would last, we need to divide the total amount of money Jerry made by the amount he spent per week.\n\nTotal money made: $14 + $31 = $45\nMoney spent per week: $5\n\nTime the",
+  "clean_pred": 9.0,
+  "clean_correct": true,
+  "adv_text": "Můžeme si, že. \n\nJerry má 14 + 31 = 45 dolarů, a jede 5 dolarů na semana. \n\nJedna semana trvá 7 dní, a Jerry jede 7 dní v weeku. \n\nTento čas je 7 * 1 = 7 dní. \n\nJerry má 45 - 7 = 38 dolarů po weeku. \n",
+  "adv_pred": 38.0,
+  "adv_correct": false,
+  "attack_success": true
+}

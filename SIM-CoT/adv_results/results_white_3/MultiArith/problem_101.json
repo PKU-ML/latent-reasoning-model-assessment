@@ -1,0 +1,27 @@
+{
+  "question": " A pet store has 4 bird cages. If each cage has 8 parrots and 2 parakeets in it, how many birds does the pet store have total? ",
+  "ground_truth": "40.0",
+  "prefix": " Passenger mag Definitive",
+  "prefix_token_ids": [
+    47239,
+    2153,
+    46634
+  ],
+  "baseline_token_id": 2319,
+  "target_token_id": 5846,
+  "baseline_logit_diff": -10.86328125,
+  "clean_logit_diff": -11.35009765625,
+  "adv_logit_diff": 5.875,
+  "best_logit_diff": 5.875,
+  "clean_text": "A pet store has 4 bird cages. If each cage has 8 parrots and 2 parakeets in it, how many birds does the pet store have total?\n### 40",
+  "clean_answer": 40.0,
+  "clean_correct": true,
+  "adv_text": "Passenger mag DefinitiveA pet store has 4 bird cages. If each cage has 8 parrots and 2 parakeets in it, how many birds does the pet store have total?\n### 44",
+  "adv_answer": 44.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.1796875,
+    5.875
+  ]
+}

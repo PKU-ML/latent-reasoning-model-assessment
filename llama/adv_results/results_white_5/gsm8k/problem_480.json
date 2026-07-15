@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 480,
+  "question": "Ben has 4 tubes of blue paint and 3 tubes of yellow paint. Jasper has half as many tubes of blue paint as Ben, and three times as many tubes of yellow paint as Ben. How many tubes of paint does Jasper have?",
+  "ground_truth": "11",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " CokebadEFวรรKind",
+  "prefix_token_ids": [
+    74362,
+    14176,
+    15229,
+    113756,
+    10854
+  ],
+  "best_wrong_prob": 3.1365527400422152e-25,
+  "clean_text": "To find out how many tubes of paint Jasper has, we need to calculate the number of tubes of blue paint and yellow paint he has.\n\nBen has 4 tubes of blue paint and 3 tubes of yellow paint. \n\nJasper has",
+  "clean_pred": 11.0,
+  "clean_correct": true,
+  "adv_text": "To find out how many tubes of paint Jasper has, we need to calculate the number of tubes Ben has and then multiply it by 3 and add the number of tubes Ben has.\n\nBen has 4 tubes of blue paint and 3 tub",
+  "adv_pred": 16.0,
+  "adv_correct": false,
+  "attack_success": true
+}

@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1004,
+  "question": "Peter has 4 boxes with the same number of chocolate bars in each, while Martha has 7 boxes with the same number of chocolate bars in each. If Peter and Martha have totals of 64 and 56 chocolate bars respectively, how many more chocolate bars does Peter have in each box than Martha?",
+  "ground_truth": "8.0",
+  "baseline": {
+    "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 64 chocolate bars in total, and he has 4 boxes. So, the number of chocolate bars per box for Peter is 64 / 4 = 16.\n\nMartha has 56 chocolate bars in total, and she has 7 boxes. So, the number of chocolate bars per box for Martha is 56 / 7 = 8.\n\nTo find out how many more chocolate bars Peter has in each box than Martha, we need to subtract the number of chocolate bars per box for Martha from the number of chocolate bars per box for Peter.\n\n16 (Peter's chocolate bars per box) - 8 (Martha's chocolate bars per box) = 8\n\nSo, Peter has 8 more chocolate bars in each box than Martha.",
+    "pred_answer": 8.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 16,
+  "success_rate": 0.5333333333333333,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": " фактиینگ …\n_As범",
+      "prefix_token_ids": [
+        118780,
+        111787,
+        117054,
+        63841,
+        108860
+      ],
+      "generated_text": "Чтобы решить эту задачу, нам нужно найти количество chocolate bars в каждом из двух наборов.\n\nПусть x — количество chocolate bars в каждом наборе для Пьера и Martha.\n\nПоскольку у Пьера 4 набора, общее количество chocolate bars, которые он имеет, равно 4x.\n\nМартина имеет 7 наборов, поэтому общее количество chocolate bars, которые она имеет, равно 7x.\n\nНам дано, что общее количество chocolate bars, которые они имеют, составляет 64, поэтому мы можем составить уравнение:\n\n4x + 7x = 64\n\nОбъедините подобные члены:\n\n11x = 64\n\nРазделить на 11:\n\nх = 64/11\nх = 5,82 (приблизительно)\n\nПоскольку количество chocolate bars в каждом наборе должно быть целым числом, мы можем округлить значение x до ближайшего целого числа, которое равно 6.\n\nИтак, у Пьера в каждом наборе 6 chocolate bars.\n\nЧтобы найти разницу в количестве chocolate bars в каждом наборе, вычтите количество chocolate bars, которые Martha имеет, из количества, которые Пьера:\n\n6 (Пьера) - 5,82 (Мартина) = 0,82\n\n0,82.\nSo the answer is \\boxed{0,82.",
+      "pred_answer": 82.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 2,
+      "prefix": "unkt precedentkkeBalance جي",
+      "prefix_token_ids": [
+        44326,
+        47891,
+        91861,
+        21880,
+        121522
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 64 / 4 = 16 chocolate bars in each box.\nMartha has 56 / 7 = 8 chocolate bars in each box.\n\nNow, let's find the difference between the number of chocolate bars in each box:\n\n16 (Peter's chocolate bars) - 8 (Martha's chocolate bars) = 8\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": " Followers hostages vašeовать sections",
+      "prefix_token_ids": [
+        86650,
+        88703,
+        115818,
+        103291,
+        14491
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with 64 chocolate bars, so he has 64 / 4 = 16 chocolate bars per box.\nMartha has 7 boxes with 56 chocolate bars, so she has 56 / 7 = 8 chocolate bars per box.\n\nNow, we need to find the difference between the number of chocolate bars in each box. To do this, we subtract the number of chocolate bars in Martha's boxes from the number of chocolate bars in Peter's boxes.\n\n16 (Peter's chocolate bars per box) - 8 (Martha's chocolate bars per box) = 8\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": "_INSTANCE tweiscard Exhib SIZE",
+      "prefix_token_ids": [
+        43687,
+        14887,
+        48660,
+        40374,
+        26410
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 64 chocolate bars in total, and he has 4 boxes. So, the number of chocolate bars per box for Peter is 64 / 4 = 16.\n\nMartha has 56 chocolate bars in total, and she has 7 boxes. So, the number of chocolate bars per box for Martha is 56 / 7 = 8.\n\nNow, to find out how many more chocolate bars Peter has in each box than Martha, we subtract the number of chocolate bars per box for Martha from the number of chocolate bars per box for Peter.\n\n16 (Peter's chocolate bars per box) - 8 (Martha's chocolate bars per box) = 8\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": " уча xf royalty_proc PANEL",
+      "prefix_token_ids": [
+        102521,
+        60464,
+        53817,
+        25440,
+        81124
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 64 chocolate bars in total, and he has 4 boxes. So, the number of chocolate bars in each box is 64 / 4 = 16.\n\nMartha has 56 chocolate bars in total, and she has 7 boxes. So, the number of chocolate bars in each box is 56 / 7 = 8.\n\nNow, we need to find the difference between the number of chocolate bars in each box. \n\nThe difference is 16 - 8 = 8.\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "เช заставpeatClserus",
+      "prefix_token_ids": [
+        101840,
+        122992,
+        11221,
+        47443,
+        46109
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes.\n\nPeter has 64 / 4 = 16 chocolate bars in each box.\nMartha has 56 / 7 = 8 chocolate bars in each box.\n\nTo find out how many more chocolate bars Peter has in each box than Martha, we need to subtract the number of chocolate bars Martha has in each box from the number Peter has in each box.\n\n16 - 8 = 8\n\nSo Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": "ligne verse diagnoses-ab Xxx",
+      "prefix_token_ids": [
+        91130,
+        33487,
+        85488,
+        39130,
+        50128
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars in each, let's call this number 'x'. Martha has 7 boxes with the same number of chocolate bars in each, let's call this number 'y'.\n\nWe know that Peter has 64 chocolate bars and Martha has 56 chocolate bars. We can set up the following equations:\n\n4x = 64\n7y = 56\n\nTo find the value of x and y, we can divide both sides of each equation by 4 and 7 respectively:\n\nx = 64 / 4\nx = 16\n\ny = 56 / 7\ny = 8\n\nNow that we know the number of chocolate bars in each box, we can find the difference between the number of chocolate bars in each box:\n\nDifference = x - y\n= 16 - 8\n= 8\n\nSo Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " optic minionsaws 설명ERİ",
+      "prefix_token_ids": [
+        81209,
+        60905,
+        8805,
+        114942,
+        120625
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars, let's call this number x. So, Peter has 4x chocolate bars.\n\nMartha has 7 boxes with the same number of chocolate bars, let's call this number y. So, Martha has 7y chocolate bars.\n\nWe know that Peter and Martha have a total of 64 + 56 = 120 chocolate bars. We can set up the equation:\n\n4x + 7y = 120\n\nWe can simplify the equation by dividing both sides by 4:\n\nx + 7y = 30\n\nNow, we need to find the values of x and y. We can do this by trial and error, or by using the fact that x and y are integers (whole numbers).\n\nOne way to solve this equation is to try different values of x and y that add up to 30. Let's try x = 5 and y = 6:\n\n5 + 7(6) = 5 + 42 = 47 (too high)\n6 + 7(5) = 6 + 35 = 41 (too low)\n\nLet's try x = 4 and y = 8:\n\n4 + 7(8) = 4 + 56 = 60 (too high)\n8 + 7(4) = 8 + 28 = 36 (too low)\n\nLet's try x = 3 and y = 10:\n\n3 + 7(10) = 3 + 70 = 73 (too high)\n10 + 7(3) = 10 + 21 = 31 (too low)\n\nLet's try x = 2 and y = 12:\n\n2 + 7(12) = 2 + 84 = 86 (too high)\n12 + 7(2) = 12 + 14 = 26 (too low)\n\nLet's try x = 1 and y = 16:\n\n1 + 7(16) = 1 + 112 = 113 (too high)\n16 + 7(1) = 16 + 7 = 23 (too low)\n\nLet's try x = 0 and y = 20:\n\n0 + 7(20) = 0 + 140 = 140 (too high\nSo the answer is \\boxed{Peter has 3 chocolate bars in each box.",
+      "pred_answer": 3.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 9,
+      "prefix": "firesminerWD========= Lover",
+      "prefix_token_ids": [
+        56171,
+        93601,
+        18023,
+        44135,
+        90590
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars in each, so let's call the number of chocolate bars in each box 'x'. \n\nPeter's total chocolate bars = 4x\nMartha's total chocolate bars = 7x\n\nWe are given that Peter has 64 chocolate bars and Martha has 56 chocolate bars. We can set up the equation:\n\n4x = 64\n7x = 56\n\nTo solve for x, we can divide both sides by 4:\n\nx = 64 / 4\nx = 16\n\nSo Peter has 16 chocolate bars in each box.\n\nNow that we know Peter has 16 chocolate bars in each box, we can find out how many more chocolate bars Peter has in each box than Martha:\n\nDifference = Peter's chocolate bars - Martha's chocolate bars\n= 16 - 56\n= -40\n\nSo Peter has 40 fewer chocolate bars in each box than Martha.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 10,
+      "prefix": " HydroHSV\tshowEnded forty",
+      "prefix_token_ids": [
+        40602,
+        100030,
+        33827,
+        68548,
+        36498
+      ],
+      "generated_text": "To find out how many chocolate bars each box has, we need to divide the total number of chocolate bars by the number of boxes.\n\nPeter has 64 chocolate bars in total, and he has 4 boxes. So, the number of chocolate bars per box is 64 / 4 = 16.\n\nMartha has 56 chocolate bars in total, and she has 7 boxes. So, the number of chocolate bars per box is 56 / 7 = 8.\n\nNow, we need to find the difference between the number of chocolate bars per box in Peter and Martha. \n\nThe difference is 16 - 8 = 8.\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 11,
+      "prefix": " Banks )}\n unsupported쉬 Arnold",
+      "prefix_token_ids": [
+        38866,
+        18026,
+        41509,
+        119443,
+        44312
+      ],
+      "generated_text": "To find out how many chocolate bars each box has, we need to divide the total number of chocolate bars by the number of boxes.\n\nPeter has 64 chocolate bars in total, and he has 4 boxes. So, the number of chocolate bars per box is 64 / 4 = 16.\n\nMartha has 56 chocolate bars in total, and she has 7 boxes. So, the number of chocolate bars per box is 56 / 7 = 8.\n\nTo find out how many more chocolate bars Peter has in each box than Martha, we need to subtract the number of chocolate bars per box for Martha from the number of chocolate bars per box for Peter.\n\n16 - 8 = 8\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": " Brigham étaientrejectedJustin UL",
+      "prefix_token_ids": [
+        96285,
+        97958,
+        96453,
+        64464,
+        22931
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 64 / 4 = 16 chocolate bars in each box.\nMartha has 56 / 7 = 8 chocolate bars in each box.\n\nNow, let's find the difference between the number of chocolate bars in each box for Peter and Martha.\n\nDifference = Peter's chocolate bars - Martha's chocolate bars\n= 16 - 8\n= 8\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": "liked circa completing>`;\n.priority",
+      "prefix_token_ids": [
+        44336,
+        54607,
+        27666,
+        62663,
+        56713
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars, let's call this number 'x'. So, Peter has 4x chocolate bars.\n\nMartha has 7 boxes with the same number of chocolate bars, let's call this number 'y'. So, Martha has 7y chocolate bars.\n\nWe know that Peter and Martha have a total of 64 + 56 = 120 chocolate bars. We can set up the equation:\n\n4x + 7y = 120\n\nWe can simplify the equation by dividing both sides by 4:\n\nx + 7y = 30\n\nNow, we need to find the difference between the number of chocolate bars in each box. We can do this by subtracting the number of chocolate bars in Martha's boxes from the number of chocolate bars in Peter's boxes:\n\nx - y = 30 - 7y\n\nTo find the value of y, we can substitute x = 30 - 7y into the equation:\n\n(30 - 7y) - y = 30 - 7y - y\n= 30 - 8y\n\nNow, we can factor out y:\n\n30 - 8y = 30(1 - 0.25y)\n\nDivide both sides by 30:\n\n1 - 0.25y = 1 - 0.25y\n\nSubtract 1 from both sides:\n\n-0.25y = -0.25y\n\nThis equation is true for all values of y, so we can conclude that y = 1.\n\nNow that we know y = 1, we can find x:\n\nx = 30 - 7y\n= 30 - 7(1)\n= 30 - 7\n= 23\n\nSo, Peter has 23 chocolate bars in each box.\n\nTo find the difference between the number of chocolate bars in each box, we can subtract Martha's number of chocolate bars from Peter's number of chocolate bars:\n\n23 - 1 = 22\n\nTherefore, Peter has 22 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 14,
+      "prefix": " Cake� Transmit]])\n crate",
+      "prefix_token_ids": [
+        33860,
+        14806,
+        98757,
+        27829,
+        18187
+      ],
+      "generated_text": "To find out how many chocolate bars each box has, we need to divide the total number of chocolate bars by the number of boxes.\n\nPeter has 64 chocolate bars in total, and he has 4 boxes. So, the number of chocolate bars per box is 64 / 4 = 16.\n\nMartha has 56 chocolate bars in total, and she has 7 boxes. So, the number of chocolate bars per box is 56 / 7 = 8.\n\nNow, we need to find the difference between the number of chocolate bars per box in Peter and Martha. \n\nThe difference is 16 - 8 = 8.\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": " SEX>xpath peasant став\tu",
+      "prefix_token_ids": [
+        74587,
+        62322,
+        90038,
+        104805,
+        10905
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars, let's call this number 'x'. So, Peter has 4x chocolate bars.\n\nMartha has 7 boxes with the same number of chocolate bars, let's call this number 'y'. So, Martha has 7y chocolate bars.\n\nWe know that Peter and Martha have a total of 64 + 56 = 120 chocolate bars. We can set up the equation:\n\n4x + 7y = 120\n\nWe can simplify the equation by dividing both sides by 4:\n\nx + 7y = 30\n\nNow, we need to find the difference between the number of chocolate bars in each box. We can do this by subtracting the number of chocolate bars in Martha's boxes from the number of chocolate bars in Peter's boxes:\n\nx - y = 30 - 7y\n\nTo find the value of y, we can substitute x = 30 - 7y into the equation:\n\n(30 - 7y) - y = 30 - 7y - y\n= 30 - 8y\n\nNow, we can factor out y:\n\n30 - 8y = 30(1 - 0.25y)\n\nDivide both sides by 30:\n\n1 - 0.25y = 1 - 0.25y\n\nSubtract 1 from both sides:\n\n-0.25y = -0.25y\n\nThis equation is true for all values of y, so we can conclude that y = 1.\n\nNow that we know y = 1, we can find the value of x:\n\nx = 30 - 7y\n= 30 - 7(1)\n= 30 - 7\n= 23\n\nSo, Peter has 23 chocolate bars in each box.\n\nTo find the difference between the number of chocolate bars in each box, we can subtract the number of chocolate bars in Martha's boxes from the number of chocolate bars in Peter's boxes:\n\n23 - 1 = 22\n\nTherefore, Peter has 22 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 16,
+      "prefix": "ениеנ >\",LIKELY\tsound",
+      "prefix_token_ids": [
+        17618,
+        95526,
+        83976,
+        93524,
+        95487
+      ],
+      "generated_text": "Let's say Peter has x chocolate bars in each box. Since he has 4 boxes, the total number of chocolate bars he has is 4x.\n\nMartha has 7 boxes with the same number of chocolate bars in each, so the total number of chocolate bars she has is 7x.\n\nWe are given that Peter and Martha have a total of 64 chocolate bars, so we can set up the equation:\n\n4x + 7x = 64\n\nCombine like terms:\n\n11x = 64\n\nDivide both sides by 11:\n\nx = 64 / 11\nx = 5.8181818\n\nSince we can't have a fraction of a chocolate bar, we can round x to the nearest whole number. Let's round x to 6.\n\nSo Peter has 6 chocolate bars in each box.\n\nNow, let's find out how many more chocolate bars Peter has in each box than Martha:\n\n6 - 5 = 1\n\nPeter has 1 more chocolate bar in each box than Martha.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 17,
+      "prefix": "_Last thừa_DER consumption radioactive",
+      "prefix_token_ids": [
+        85772,
+        116481,
+        97162,
+        15652,
+        59862
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars in each, so let's call the number of chocolate bars in each box 'x'. \n\nPeter's total chocolate bars = 4x\nMartha's total chocolate bars = 7x\n\nWe are given that Peter has 64 chocolate bars and Martha has 56 chocolate bars. We can set up the equation:\n\n4x = 64\n7x = 56\n\nTo solve for x, we can divide both sides by 4:\n\nx = 64 / 4\nx = 16\n\nSo Peter has 16 chocolate bars in each box.\n\nNow that we know Peter has 16 chocolate bars in each box, we can find out how many more chocolate bars Peter has in each box than Martha:\n\nDifference = Peter's chocolate bars - Martha's chocolate bars\n= 16 - 56\n= -40\n\nSo Peter has 40 fewer chocolate bars in each box than Martha.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 18,
+      "prefix": "/actions-lined populated ',',Clicked",
+      "prefix_token_ids": [
+        40221,
+        90059,
+        35459,
+        64126,
+        22008
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars, let's call this number 'x'. Martha has 7 boxes with the same number of chocolate bars, let's call this number 'y'. \n\nWe know that Peter has 64 chocolate bars and Martha has 56 chocolate bars. We can set up the following equations:\n\n4x = 64\n7y = 56\n\nTo find the value of x and y, we can divide both sides of each equation by 4 and 7 respectively:\n\nx = 64 / 4\nx = 16\n\ny = 56 / 7\ny = 8\n\nNow that we know the number of chocolate bars in each box, we can find the difference between the number of chocolate bars in each box:\n\nDifference = x - y\n= 16 - 8\n= 8\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " losses exon جستseek unexpectedly",
+      "prefix_token_ids": [
+        18151,
+        99844,
+        110938,
+        26797,
+        51709
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to first find the total number of boxes each has. \n\nLet's say Peter has x boxes. Since he has 4 boxes with the same number of chocolate bars in each, the total number of chocolate bars he has is 4x.\n\nMartha has 7 boxes with the same number of chocolate bars in each, so the total number of chocolate bars she has is 7x.\n\nWe are given that Peter has 64 chocolate bars and Martha has 56 chocolate bars. We can set up the equation:\n\n4x = 64\n7x = 56\n\nTo solve for x, we can divide both sides by 4:\n\nx = 64 / 4\nx = 16\n\nSo Peter has 16 boxes.\n\nNow that we know Peter has 16 boxes, we can find out how many chocolate bars he has in each box:\n\n16 boxes * 4 chocolate bars/box = 64 chocolate bars\n\nTo find out how many chocolate bars Martha has in each box, we can divide the total number of chocolate bars she has by the number of boxes:\n\n56 chocolate bars / 7 boxes = 8 chocolate bars/box\n\nNow that we know Peter has 64 chocolate bars in each box and Martha has 8 chocolate bars in each box, we can find the difference:\n\n64 - 8 = 56\n\nSo Peter has 56 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{56",
+      "pred_answer": 56.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 20,
+      "prefix": "tiğini kteříionaESSAGES Hemisphere",
+      "prefix_token_ids": [
+        111998,
+        105381,
+        42790,
+        55113,
+        96878
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars, let's call this number x. So, Peter has 4x chocolate bars.\n\nMartha has 7 boxes with the same number of chocolate bars, let's call this number y. So, Martha has 7y chocolate bars.\n\nWe know that Peter and Martha have a total of 64 + 56 = 120 chocolate bars. We can set up the equation:\n\n4x + 7y = 120\n\nWe can simplify the equation by dividing both sides by 4:\n\nx + 7y = 30\n\nNow, we need to find the values of x and y that satisfy this equation. We can do this by trial and error, or by using the fact that x and y are integers (whole numbers).\n\nOne possible solution is x = 6 and y = 4, since 6 + 7(4) = 30.\n\nSo, Peter has 6 chocolate bars in each box, and Martha has 4 chocolate bars in each box.\n\nTo find out how many more chocolate bars Peter has in each box than Martha, we can subtract the number of chocolate bars Martha has from the number Peter has:\n\n6 - 4 = 2\n\nTherefore, Peter has 2 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{2",
+      "pred_answer": 2.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 21,
+      "prefix": " fightsCharCode handicqedώντας",
+      "prefix_token_ids": [
+        28533,
+        64963,
+        48270,
+        52333,
+        124220
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 64 / 4 = 16 chocolate bars in each box.\nMartha has 56 / 7 = 8 chocolate bars in each box.\n\nNow, we need to find the difference between the number of chocolate bars in each box for Peter and Martha.\n\nDifference = Peter's chocolate bars - Martha's chocolate bars\n= 16 - 8\n= 8\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": " psz آز gputextbox antibiotics",
+      "prefix_token_ids": [
+        46183,
+        108421,
+        39534,
+        78475,
+        46850
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars in each, so let's call the number of chocolate bars in each box 'x'. \n\nPeter's total number of chocolate bars is 4x.\n\nMartha has 7 boxes with the same number of chocolate bars in each, so let's call the number of chocolate bars in each box 'y'. \n\nMartha's total number of chocolate bars is 7y.\n\nWe are given that Peter and Martha have a total of 64 and 56 chocolate bars respectively. We can set up the following equation:\n\n4x + 7y = 64\n7x + 7y = 56\n\nWe can simplify the second equation by dividing both sides by 7:\n\nx + y = 8\n\nNow we have two equations:\n\n4x + 7y = 64\nx + y = 8\n\nWe can solve for x and y by multiplying the second equation by 4 and subtracting the first equation from it:\n\n4x + 4y = 32\n4x + 7y = 64\n-3y = 32\ny = 32/3\ny = 10.67\n\nNow that we have y, we can substitute it into the second equation to find x:\n\nx + 10.67 = 8\nx = 8 - 10.67\nx = -2.67\n\nSince x is the number of chocolate bars in each box, it must be a whole number. We can round x to the nearest whole number, which is -3.\n\nNow that we have x, we can find the difference in the number of chocolate bars in each box:\n\nPeter's chocolate bars per box: -3\nMartha's chocolate bars per box: 10.67\n\nThe difference is: 10.67 - (-3) = 13.67\nSo the answer is \\boxed{13.67",
+      "pred_answer": 13.67,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 23,
+      "prefix": "ाइसVICESColumnsMode \"::))\r\n\r\n",
+      "prefix_token_ids": [
+        126541,
+        20888,
+        96560,
+        71254,
+        32091
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars in each, so let's call the number of chocolate bars in each box 'x'. \n\nPeter's total chocolate bars = 4x\nMartha's total chocolate bars = 7x\n\nWe are given that Peter has 64 chocolate bars and Martha has 56 chocolate bars. We can set up the equation:\n\n4x = 64\n7x = 56\n\nTo solve for x, we can divide both sides by 4:\n\nx = 64 / 4\nx = 16\n\nSo Peter has 16 chocolate bars in each box.\n\nNow that we know Peter has 16 chocolate bars in each box, we can find out how many more chocolate bars Peter has in each box than Martha:\n\nPeter's chocolate bars per box - Martha's chocolate bars per box = 16 - 16\n= 0\n\nSo Peter has the same number of chocolate bars in each box as Martha.\nSo the answer is \\boxed{0",
+      "pred_answer": 0.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 24,
+      "prefix": " pity Jahre 时间 amojured",
+      "prefix_token_ids": [
+        58043,
+        49115,
+        92318,
+        87200,
+        80491
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars, let's call this number 'x'. So, Peter has 4x chocolate bars.\n\nMartha has 7 boxes with the same number of chocolate bars, let's call this number 'y'. So, Martha has 7y chocolate bars.\n\nWe know that Peter and Martha have a total of 64 + 56 = 120 chocolate bars. We can set up the equation:\n\n4x + 7y = 120\n\nWe can simplify the equation by dividing both sides by 4:\n\nx + 7y = 30\n\nNow, we need to find the difference between the number of chocolate bars in each box. We can do this by subtracting the number of chocolate bars in Martha's boxes from the number of chocolate bars in Peter's boxes:\n\nx - y = 30 - 7y\n\nTo find the value of y, we can substitute x = 30 - 7y into the equation:\n\n(30 - 7y) - y = 30 - 7y - y\n= 30 - 8y\n\nNow, we can factor out y:\n\n30 - 8y = 30(1 - 0.25y)\n\nDivide both sides by 30:\n\n1 - 0.25y = 1 - 0.25y\n\nSubtract 1 from both sides:\n\n-0.25y = -0.25y\n\nThis equation is true for all values of y, so we can conclude that y = 1.\n\nNow that we know y = 1, we can find the value of x:\n\nx + 7y = 30\nx + 7(1) = 30\nx + 7 = 30\nx = 23\n\nSo, Peter has 23 chocolate bars in each box.\n\nTo find the difference between the number of chocolate bars in each box, we can subtract the number of chocolate bars in Martha's boxes from the number of chocolate bars in Peter's boxes:\n\n23 - 1 = 22\n\nTherefore, Peter has 22 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{22",
+      "pred_answer": 22.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 25,
+      "prefix": "� лес,. Hass Timeout",
+      "prefix_token_ids": [
+        53987,
+        114707,
+        17974,
+        43122,
+        40480
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars, let's call this number 'x'. So, Peter has 4x chocolate bars.\n\nMartha has 7 boxes with the same number of chocolate bars, let's call this number 'y'. So, Martha has 7y chocolate bars.\n\nWe know that Peter and Martha have a total of 64 + 56 = 120 chocolate bars. We can set up the equation:\n\n4x + 7y = 120\n\nWe can simplify the equation by dividing both sides by 4:\n\nx + 7y = 30\n\nNow, we need to find the difference between the number of chocolate bars in each box. We can do this by subtracting the number of chocolate bars in Martha's boxes from the number of chocolate bars in Peter's boxes:\n\nx - y = 30 - 7y\n\nTo find the value of y, we can substitute x = 30 - 7y into the equation:\n\n(30 - 7y) - y = 30 - 7y - y\n= 30 - 8y\n\nNow, we can factor out the 8y:\n\n8y - 30 = 8y - 8y\n= 30\n\nThis means that the difference between the number of chocolate bars in each box is 30.\nSo the answer is \\boxed{30.",
+      "pred_answer": 30.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 26,
+      "prefix": " Herodidn,moduleScreens formerly",
+      "prefix_token_ids": [
+        16905,
+        97849,
+        82706,
+        93096,
+        34833
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars in each, let's call this number 'x'. So, Peter has 4x chocolate bars.\n\nMartha has 7 boxes with the same number of chocolate bars in each, let's call this number 'y'. So, Martha has 7y chocolate bars.\n\nWe know that Peter and Martha have a total of 64 + 56 = 120 chocolate bars. We can set up the equation:\n\n4x + 7y = 120\n\nWe also know that x = y, since they have the same number of chocolate bars in each box. So, we can substitute x for y in the equation:\n\n4x + 7x = 120\n\nCombine like terms:\n\n11x = 120\n\nDivide both sides by 11:\n\nx = 120 / 11\nx = 10.909 (round to 2 decimal places)\n\nNow that we know x = 10.909, we can find the number of chocolate bars in each box:\n\nPeter has 4x = 4 * 10.909 = 43.636\nMartha has 7x = 7 * 10.909 = 78.643\n\nTo find out how many more chocolate bars Peter has in each box than Martha, we subtract Martha's amount from Peter's amount:\n\n43.636 - 78.643 = -35.007\n\nSo, Peter has 35 fewer chocolate bars in each box than Martha.\nSo the answer is \\boxed{35",
+      "pred_answer": 35.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 27,
+      "prefix": "-number}->{ nghiệ Required*C",
+      "prefix_token_ids": [
+        26939,
+        64218,
+        100999,
+        12948,
+        78204
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars, let's call this number 'x'. So, Peter has 4x chocolate bars.\n\nMartha has 7 boxes with the same number of chocolate bars, let's call this number 'y'. So, Martha has 7y chocolate bars.\n\nWe know that Peter and Martha have a total of 64 + 56 = 120 chocolate bars. We can set up the equation:\n\n4x + 7y = 120\n\nWe can simplify the equation by dividing both sides by 4:\n\nx + 7y = 30\n\nNow, we need to find the difference between the number of chocolate bars in each box. We can do this by subtracting the number of chocolate bars in Martha's boxes from the number of chocolate bars in Peter's boxes:\n\nx - y = 30 - 7y\n\nTo find the value of y, we can substitute x = 30 - 7y into the equation:\n\n(30 - 7y) - y = 30 - 7y - y\n= 30 - 8y\n\nNow, we can factor out the 8y from the right-hand side:\n\n= 30 - 8y\n= 8(3 - y)\n\nSince we want to find the difference between the number of chocolate bars in each box, we can set y = 3 and see what the difference is:\n\nx - y = 30 - 7(3)\n= 30 - 21\n= 9\n\nSo, Peter has 9 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{9",
+      "pred_answer": 9.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 28,
+      "prefix": "shows(BuildContext/wwwerrno прес",
+      "prefix_token_ids": [
+        60556,
+        21614,
+        27648,
+        27477,
+        121745
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars, let's call this number 'x'. Martha has 7 boxes with the same number of chocolate bars, let's call this number 'y'.\n\nWe know that Peter has 64 chocolate bars and Martha has 56 chocolate bars. We can set up the following equations:\n\n4x = 64\n7y = 56\n\nTo find the value of x and y, we can divide both sides of each equation by 4 and 7 respectively:\n\nx = 64 / 4\nx = 16\n\ny = 56 / 7\ny = 8\n\nNow that we know the number of chocolate bars in each box, we can find the difference between the number of chocolate bars in each box:\n\nDifference = x - y\n= 16 - 8\n= 8\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": ".ma IIC�ीं Dawson",
+      "prefix_token_ids": [
+        63902,
+        109921,
+        31055,
+        100620,
+        67312
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes they have.\n\nPeter has 4 boxes with the same number of chocolate bars in each, so let's call the number of chocolate bars in each box 'x'. \n\nPeter's total chocolate bars = 4x\nMartha's total chocolate bars = 7x\n\nWe are given that Peter has 64 chocolate bars and Martha has 56 chocolate bars. We can set up the equation:\n\n4x = 64\n7x = 56\n\nTo solve for x, we can divide both sides by 4:\n\nx = 64 / 4\nx = 16\n\nSo, Peter has 16 chocolate bars in each box.\n\nNow, we can find out how many more chocolate bars Peter has in each box than Martha:\n\nDifference = Peter's chocolate bars - Martha's chocolate bars\n= 16 - 56\n= -40\n\nSo, Peter has 40 fewer chocolate bars in each box than Martha.\nSo the answer is \\boxed{40",
+      "pred_answer": 40.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 30,
+      "prefix": " bulletin Adresse_op ModificationSuppress",
+      "prefix_token_ids": [
+        75829,
+        90570,
+        10499,
+        74955,
+        18138
+      ],
+      "generated_text": "To find out how many chocolate bars Peter and Martha have in each box, we need to divide the total number of chocolate bars they have by the number of boxes.\n\nPeter has 64 / 4 = 16 chocolate bars in each box.\nMartha has 56 / 7 = 8 chocolate bars in each box.\n\nNow, let's find the difference between the number of chocolate bars in each box:\n\n16 - 8 = 8\n\nSo, Peter has 8 more chocolate bars in each box than Martha.\nSo the answer is \\boxed{8",
+      "pred_answer": 8.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

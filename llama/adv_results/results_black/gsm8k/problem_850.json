@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 850,
+  "question": "Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+  "ground_truth": "70.0",
+  "baseline_correct": true,
+  "baseline_answer": 70.0,
+  "best_rewrite": "The Nile is about 6650 km long. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+  "best_fact": "The Nile is about 6650 km long.",
+  "best_pred_answer": 45.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 7,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the number of goats left in each farm, we need to calculate the number of goats sold from each farm.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats from Farm X, so the number of goats left in Farm X is:\n55 - 10 = 45\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats from Farm Y as from Farm X, so he sold 2 * 10 = 20 goats from Farm Y. The number of goats left in Farm Y is:\n45 - 20 = 25\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm:\n45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "April has 30 days. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of goats left in each farm, we need to subtract the number of goats sold from the original number of goats.\n\nFarm X: \n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n- Number of goats sold = 2 * 10 = 20\n- Number of goats left = 45 - 20 = 25\n\nNow, we add the number of goats left in each farm to find the total number of goats left:\n- Total goats left = 45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in both farms, we need to calculate the number of goats sold from each farm and then add them together.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats from Farm X, so the number of goats left in Farm X is:\n55 - 10 = 45\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats from Farm Y as from Farm X, so he sold 2 * 10 = 20 goats from Farm Y. The number of goats left in Farm Y is:\n45 - 20 = 25\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm:\n45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in both farms, we need to calculate the number of goats sold from each farm and then add them together.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats from Farm X. So, the number of goats left in Farm X is 55 - 10 = 45.\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats from Farm Y as from Farm X, which is 2 * 10 = 20 goats. So, the number of goats left in Farm Y is 45 - 20 = 25.\n\nTo find the total number of goats left in both farms, we add the number of goats left in Farm X and Farm Y: 45 + 25 = 70.\n\nTherefore, there are 70 goats left in both farms.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the number of goats left in each farm, we need to subtract the number of goats sold from the original number of goats.\n\nFarm X: \n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n- Number of goats sold = 2 * 10 = 20\n- Number of goats left = 45 - 20 = 25\n\nNow, we add the number of goats left in each farm to find the total number of goats left:\n- Total goats left = 45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "A year has 12 months. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the number of goats left in each farm, we need to subtract the number of goats sold from the original number of goats.\n\nFarm X: \n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n- Number of goats sold = 2 * 10 = 20\n- Number of goats left = 45 - 20 = 25\n\nNow, we add the number of goats left in each farm to find the total number of goats left:\n- Total goats left = 45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "A week has 7 days. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of goats left in each farm, we need to subtract the number of goats sold from the original number of goats.\n\nFarm X: \n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n- Number of goats sold = 2 * 10 = 20\n- Number of goats left = 45 - 20 = 25\n\nNow, we add the number of goats left in each farm to find the total number of goats left:\n- Total goats left = 45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "An hour has 60 minutes. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the number of goats left in each farm, we need to calculate the number of goats sold from each farm.\n\nFarm X had 55 goats initially. \n- Mr. Smith sold 10 goats from Farm X, so the number of goats left in Farm X is 55 - 10 = 45 goats.\n\nFarm Y had 45 goats initially. \n- Mr. Smith sold twice as many goats from Farm Y as from Farm X, so he sold 2 * 10 = 20 goats from Farm Y. \n- The number of goats left in Farm Y is 45 - 20 = 25 goats.\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm: \n45 (Farm X) + 25 (Farm Y) = 70 goats.\n\nThe answer is 70 goats.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "A minute has 60 seconds. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the number of goats left in each farm, we need to calculate the number of goats sold from each farm.\n\nFarm X had 55 goats initially. \n- Mr. Smith sold 10 goats from Farm X, so the number of goats left in Farm X is 55 - 10 = 45 goats.\n\nFarm Y had 45 goats initially. \n- Mr. Smith sold twice as many goats from Farm Y as from Farm X, so he sold 2 * 10 = 20 goats from Farm Y. \n- The number of goats left in Farm Y is 45 - 20 = 25 goats.\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm: \n45 (Farm X) + 25 (Farm Y) = 70 goats.\n\nThe answer is 70 goats.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "A year has 365 days. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the number of goats left in each farm, we need to subtract the number of goats sold from the original number of goats.\n\nFarm X: \n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n- Number of goats sold = 2 * 10 = 20\n- Number of goats left = 45 - 20 = 25\n\nNow, we add the number of goats left in both farms to find the total number of goats left:\n- Total goats left = 45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "To find the number of goats left in each farm, we need to calculate the number of goats sold from each farm.\n\nFarm X had 55 goats initially. \n- Mr. Smith sold 10 goats from Farm X, so the number of goats left in Farm X is 55 - 10 = 45.\n- He sold twice as many goats from Farm Y, so he sold 2 * 45 = 90 goats from Farm Y.\n- The number of goats left in Farm Y is 45 - 90 = -45. Since you can't have a negative number of goats, this means that Farm Y is now empty.\n\nSo, the number of goats left in Farm X is 45.\n\nThe total number of goats left in both farms is 45 + 45 = 90.\nSo the answer is \\boxed{The number of goats left in both farms is 90.",
+      "pred_answer": 90.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the number of goats left in each farm, we need to calculate the number of goats sold from each farm.\n\nFarm X had 55 goats initially. \n- 10 goats were sold from Farm X, so the number of goats left in Farm X is 55 - 10 = 45.\n- Since Mr. Smith sold twice as many goats from Farm Y as from Farm X, he sold 2 * 10 = 20 goats from Farm Y.\n- The number of goats left in Farm Y is 45 - 20 = 25.\n\nNow, to find the total number of goats left in both farms, we add the number of goats left in each farm:\nTotal goats left = goats left in Farm X + goats left in Farm Y\n= 45 + 25\n= 70\n\nSo, Mr. Smith has 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "To find the number of goats left in each farm, we need to subtract the number of goats sold from the original number of goats.\n\nFarm X: \n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n- Number of goats sold = 2 * 45 = 90\n- Number of goats left = 45 - 90 = -45\n\nSince the number of goats left in Farm Y is negative, it means that Mr. Smith sold more goats than he had. This is not possible, as you can't sell more goats than you have. It seems like there might be an error in the problem statement.\n\nHowever, if we assume that the problem statement is correct, then we can proceed with the calculation.\n\nFarm X: \n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n- Number of goats sold = 2 * 45 = 90\n- Number of goats left = 45 - 90 = -45\n\nSince the number of goats left in Farm Y is negative, it means that Mr. Smith sold more goats than he had. This is not possible, so let's assume that the problem statement is incorrect.\n\nLet's rephrase the problem statement to make it clear that Mr. Smith sold more goats than he had.\n\nFarm X:\n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n- Number of goats sold = 2 * 45 = 90\n- Number of goats left = 45 - 90 = -45\n\nSince the number of goats left in Farm Y is negative, it means that Mr. Smith sold more goats than he had. This is not possible, so let's assume that the problem statement is incorrect.\n\nLet's rephrase the problem statement again to make it clear that Mr. Smith sold more goats than he had.\n\nFarm X:\n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n\nSo the answer is \\boxed{The number of goats left in both farms is 45.",
+      "pred_answer": 45.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "To find the number of goats left in each farm, we need to calculate the number of goats sold from each farm.\n\nFarm X: \n- Initial number of goats = 55\n- Number of goats sold = 10\n- Remaining goats in Farm X = 55 - 10 = 45\n\nFarm Y:\n- Initial number of goats = 45\n- Number of goats sold = 2 * 45 = 90\n- Remaining goats in Farm Y = 45 - 90 = -45\nSince the number of goats in Farm Y is negative, it means that Mr. Smith sold more goats than he had. This is not possible, so let's recheck the calculation.\n\nRechecking the calculation:\n- Number of goats sold from Farm X = 10\n- Number of goats sold from Farm Y = 2 * 45 = 90\n- Total number of goats sold = 10 + 90 = 100\n- Remaining goats in Farm X = 55 - 100 = -45\n- Remaining goats in Farm Y = 45 - 100 = -55\n\nSince the number of goats in Farm Y is negative, it means that Mr. Smith sold more goats than he had. This is not possible, so let's recheck the calculation again.\n\nRechecking the calculation:\n- Number of goats sold from Farm X = 10\n- Number of goats sold from Farm Y = 2 * 45 = 90\n- Total number of goats sold = 10 + 90 = 100\n- Number of goats left in Farm X = 55 - 100 = -45\n- Number of goats left in Farm Y = 45 - 100 = -55\n\nSince the number of goats in Farm Y is negative, it means that Mr. Smith sold more goats than he had. This is not possible, so let's recheck the calculation again.\n\nRechecking the calculation:\n- Number of goats sold from Farm X = 10\n- Number of goats sold from Farm Y = 2 * 45 = 90\n- Total number of goats sold = 10 + 90 = 100\n- Number of goats left in Farm X = 55 - 100 = -45\n- Number of goats left in Farm Y = 45 - 100 = -55\n\nSince the number of goats in Farm Y is negative, it means that Mr. Smith sold more goats than he had. This is not possible, so let's recheck the calculation again\nSo the answer is \\boxed{The number of goats left in Farm X is 0 and the number of goats left in Farm Y is 0.",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "To find the total number of goats left in both farms, we need to calculate the number of goats sold from each farm and then add them together.\n\nMr. Smith sold 10 goats from Farm X and twice as many goats from Farm Y, which is 2 * 45 = 90 goats. \n\nSo, the total number of goats sold is 10 + 90 = 100 goats.\n\nNow, let's calculate the number of goats left in each farm:\n\nFarm X: 55 goats - 10 goats sold = 45 goats\nFarm Y: 45 goats - 90 goats sold = -45 goats\n\nSince you can't have a negative number of goats, we need to recheck the calculation. Let's recalculate the number of goats sold from Farm Y:\n\nFarm Y sold 90 goats, but we know that Mr. Smith has 45 goats in Farm Y. So, the number of goats sold from Farm Y is 90 - 45 = 45 goats.\n\nNow, let's recalculate the number of goats left in Farm Y:\n\nFarm Y: 45 goats - 45 goats sold = 0 goats\n\nNow, let's calculate the total number of goats left in both farms:\n\nFarm X: 45 goats\nFarm Y: 0 goats\n\nTotal goats left: 45 + 0 = 45 goats\nSo the answer is \\boxed{The answer is 45 goats.",
+      "pred_answer": 45.0
+    },
+    {
+      "question": "An adult has 32 teeth. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find the number of goats left in each farm, we need to subtract the number of goats sold from the original number of goats.\n\nFarm X: \n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n- Number of goats sold = 2 * 45 = 90\n- Number of goats left = 45 - 90 = -45\n\nSince you can't have a negative number of goats, we need to recheck the calculation.\n\nLet's recheck the calculation for Farm Y:\n- Number of goats sold = 2 * 45 = 90\n- Number of goats left = 45 - 90 = -45\n- Number of goats left = 0\n\nSo, Farm Y is now empty.\n\nNow, let's find the total number of goats left in both farms:\n- Number of goats left in Farm X = 45\n- Number of goats left in Farm Y = 0\n- Total number of goats left = 45 + 0 = 45\n\nThe answer is 45.\nSo the answer is \\boxed{The answer is 45.",
+      "pred_answer": 45.0
+    },
+    {
+      "question": "China has 1.4 billion people. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in the two farms, we need to calculate the number of goats sold from each farm and then subtract that from the total number of goats.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats from Farm X, so the number of goats left in Farm X is:\n55 - 10 = 45 goats\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats from Farm Y as from Farm X, so he sold 2 * 10 = 20 goats from Farm Y. The number of goats left in Farm Y is:\n45 - 20 = 25 goats\n\nNow, to find the total number of goats left in both farms, we add the number of goats left in Farm X and Farm Y:\n45 + 25 = 70 goats\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Japan has 125 million people. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in the two farms, we need to calculate the number of goats sold from each farm and then subtract that from the total number of goats.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats from Farm X, so the number of goats left in Farm X is:\n55 - 10 = 45 goats\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats from Farm Y as from Farm X, so he sold 2 * 10 = 20 goats from Farm Y. The number of goats left in Farm Y is:\n45 - 20 = 25 goats\n\nNow, to find the total number of goats left in both farms, we add the number of goats left in Farm X and Farm Y:\n45 + 25 = 70 goats\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The US has 50 states. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in the two farms, we need to calculate the number of goats sold from each farm and then add them together.\n\nMr. Smith sold 10 goats from Farm X. He also sold twice as many goats from Farm Y, which is 2 * 10 = 20 goats.\n\nSo, the total number of goats sold is 10 + 20 = 30 goats.\n\nNow, let's calculate the number of goats left in each farm:\n\nFarm X: 55 - 10 = 45 goats\nFarm Y: 45 - 20 = 25 goats\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm: 45 + 25 = 70 goats.\n\nThe answer is 70.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The EU has 27 member states. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in the two farms, we need to calculate the number of goats sold from each farm and then add them together.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats from Farm X, so the number of goats left in Farm X is:\n55 - 10 = 45\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats from Farm Y as from Farm X, so he sold 2 * 10 = 20 goats from Farm Y. The number of goats left in Farm Y is:\n45 - 20 = 25\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm:\n45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "To find the number of goats left in each farm, we need to calculate the number of goats sold from each farm.\n\nFarm X had 55 goats initially. \n- Mr. Smith sold 10 goats from Farm X, so the number of goats left in Farm X is 55 - 10 = 45.\n- He sold twice as many goats from Farm Y, so he sold 2 * 45 = 90 goats from Farm Y.\n- The number of goats left in Farm Y is 45 - 90 = -45. Since you can't have a negative number of goats, this means that Farm Y actually had 0 goats after the sale.\n\nSo, the number of goats left in Farm X is 45, and the number of goats left in Farm Y is 0.\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm: 45 + 0 = 45.\nSo the answer is \\boxed{The number of goats left in both farms is 45.",
+      "pred_answer": 45.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the number of goats left in each farm, we need to subtract the number of goats sold from the original number of goats.\n\nFarm X: \n- Original number of goats = 55\n- Number of goats sold = 10\n- Number of goats left = 55 - 10 = 45\n\nFarm Y:\n- Original number of goats = 45\n- Number of goats sold = 2 * 10 = 20\n- Number of goats left = 45 - 20 = 25\n\nNow, to find the total number of goats left in both farms, we add the number of goats left in each farm:\nTotal goats left = 45 + 25 = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in the two farms, we need to calculate the number of goats left in each farm and then add them together.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats, so the number of goats left in Farm X is:\n55 - 10 = 45\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats as Farm X, so he sold 2 * 10 = 20 goats from Farm Y. The number of goats left in Farm Y is:\n45 - 20 = 25\n\nNow, we add the number of goats left in each farm:\n45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "The human body has 206 bones. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in both farms, we need to calculate the number of goats left in each farm and then add them together.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats, so the number of goats left in Farm X is:\n55 - 10 = 45\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats as Farm X, so he sold 2 * 10 = 20 goats. The number of goats left in Farm Y is:\n45 - 20 = 25\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm:\n45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in the two farms, we need to calculate the number of goats left in each farm and then add them together.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats from Farm X, so the number of goats left in Farm X is:\n55 - 10 = 45\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats from Farm Y as from Farm X, so he sold 2 * 10 = 20 goats from Farm Y. The number of goats left in Farm Y is:\n45 - 20 = 25\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm:\n45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{70",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in both farms, we need to calculate the number of goats left in each farm and then add them together.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats, so the number of goats left in Farm X is:\n55 - 10 = 45\n\nFarm Y had 45 goats initially. He sold twice as many goats as Farm X, so he sold 2 * 10 = 20 goats. The number of goats left in Farm Y is:\n45 - 20 = 25\n\nNow, we add the number of goats left in both farms:\n45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in both farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "To find the number of goats left in each farm, we need to calculate the number of goats sold from each farm.\n\nFarm X had 55 goats initially. \n- 10 goats were sold from Farm X, so the number of goats left in Farm X is 55 - 10 = 45.\n- Since he sold twice as many goats from Farm Y, he sold 2 * 45 = 90 goats from Farm Y.\n\nFarm Y had 45 goats initially. \n- 90 goats were sold from Farm Y, so the number of goats left in Farm Y is 45 - 90 = -45. Since you can't have a negative number of goats, this means that Farm Y is now empty.\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm:\n45 (Farm X) + (-45) (Farm Y) = 0 goats.\n\nSo, Mr. Smith has 0 goats left in both farms.\nSo the answer is \\boxed{0",
+      "pred_answer": 0.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in the two farms, we need to calculate the number of goats left in each farm and then add them together.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats, so the number of goats left in Farm X is:\n55 - 10 = 45\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats as Farm X, so he sold 2 * 10 = 20 goats. The number of goats left in Farm Y is:\n45 - 20 = 25\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm:\n45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in both farms, we need to calculate the number of goats left in each farm and then add them together.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats, so the number of goats left in Farm X is:\n55 - 10 = 45\n\nFarm Y had 45 goats initially. Mr. Smith sold twice as many goats as Farm X, so he sold 2 * 10 = 20 goats from Farm Y. The number of goats left in Farm Y is:\n45 - 20 = 25\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm:\n45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in the two farms altogether.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the total number of goats left in both farms, we need to calculate the number of goats left in each farm and then add them together.\n\nFarm X had 55 goats initially. Mr. Smith sold 10 goats, so the number of goats left in Farm X is:\n55 - 10 = 45\n\nFarm Y had 45 goats initially. He sold twice as many goats as Farm X, so he sold 2 * 10 = 20 goats. The number of goats left in Farm Y is:\n45 - 20 = 25\n\nTo find the total number of goats left in both farms, we add the number of goats left in each farm:\n45 (Farm X) + 25 (Farm Y) = 70\n\nSo, there are 70 goats left in both farms.\nSo the answer is \\boxed{The answer is 70.",
+      "pred_answer": 70.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?",
+  "ground_truth": "9.0",
+  "prefix": "\\\" repetitive file",
+  "prefix_token_ids": [
+    7879,
+    28585,
+    2393
+  ],
+  "baseline_token_id": 860,
+  "target_token_id": 1511,
+  "baseline_logit_diff": 3.578125,
+  "clean_logit_diff": -2.84375,
+  "adv_logit_diff": 3.578125,
+  "best_logit_diff": 3.578125,
+  "clean_text": "Carly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?\n### 9",
+  "clean_answer": 9.0,
+  "clean_correct": true,
+  "adv_text": "\\\" repetitive fileCarly had 80 cards, 2/5 of the cards had the letter A on them, 1/2 of the remaining had the letter B, 5/8 of the rest had the letter C on them, and the others had the letter D. How many of the cards had the letter D on them?\n### 31.5",
+  "adv_answer": 31.5,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    3.578125
+  ]
+}

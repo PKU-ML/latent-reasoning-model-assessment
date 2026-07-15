@@ -1,0 +1,26 @@
+{
+  "question": " Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, how many socks would he have? ",
+  "ground_truth": "43.0",
+  "prefix": " mediosня占",
+  "prefix_token_ids": [
+    95646,
+    39151,
+    99571
+  ],
+  "baseline_token_id": 19,
+  "target_token_id": 18,
+  "baseline_logit_diff": -0.625,
+  "clean_logit_diff": -0.25,
+  "adv_logit_diff": 0.125,
+  "best_logit_diff": 0.125,
+  "clean_text": "assistant\n### 43 ",
+  "clean_answer": 43.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 33 ",
+  "adv_answer": 33.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.125
+  ]
+}

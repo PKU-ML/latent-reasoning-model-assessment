@@ -1,0 +1,26 @@
+{
+  "question": "7 red peaches, 15 yellow peaches and 8 green peaches are in the basket. How many peaches are in the basket?",
+  "ground_truth": "30.0",
+  "prefix": "azaEEK Strategic",
+  "prefix_token_ids": [
+    7056,
+    33823,
+    24999
+  ],
+  "baseline_token_id": 1542,
+  "target_token_id": 2319,
+  "baseline_logit_diff": 11.609375,
+  "clean_logit_diff": -3.375,
+  "adv_logit_diff": 12.46875,
+  "best_logit_diff": 12.46875,
+  "clean_text": "7 red peaches, 15 yellow peaches and 8 green peaches are in the basket. How many peaches are in the basket?\n### 30",
+  "clean_answer": 30.0,
+  "clean_correct": true,
+  "adv_text": "azaEEK Strategic7 red peaches, 15 yellow peaches and 8 green peaches are in the basket. How many peaches are in the basket?\n### 37",
+  "adv_answer": 37.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    12.46875
+  ]
+}

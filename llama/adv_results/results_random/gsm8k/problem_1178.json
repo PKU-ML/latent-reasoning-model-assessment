@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1178,
+  "question": "Mike bought 5 face masks while Johnny bought 2 more than thrice as many as Mike. How many face masks did Johnny buy?",
+  "ground_truth": "17.0",
+  "baseline": {
+    "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. Since Mike bought 5 face masks, we can write this as 5.\n\nNext, we need to find out how many face masks Johnny bought. We are told that Johnny bought 2 more than thrice as many as Mike. \n\nLet's first find thrice the number of face masks Mike bought: 3 * 5 = 15\n\nThen, we add 2 to this number to find the number of face masks Johnny bought: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.",
+    "pred_answer": 17.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 2,
+  "success_rate": 0.06666666666666667,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "PROPsomecc laden uuid",
+      "prefix_token_ids": [
+        76694,
+        57839,
+        72425,
+        82787,
+        16425
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought:\n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought:\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": " Oliveroffee kararEqualityComparer (*.",
+      "prefix_token_ids": [
+        31346,
+        21869,
+        104333,
+        71252,
+        58118
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nOliver bought 5 face masks.\nJohnny bought 2 more than thrice as many as Mike.\nFirst, let's calculate thrice as many as Mike: 3 * 5 = 15\nThen, 2 more than that: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "_secthalm distributing borrowedpoly",
+      "prefix_token_ids": [
+        17687,
+        78743,
+        50812,
+        46664,
+        34535
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought. \n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought.\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": " داستان Lower 相 meanwhile只是",
+      "prefix_token_ids": [
+        119142,
+        28636,
+        110758,
+        37318,
+        111465
+      ],
+      "generated_text": "To find the number of face masks Johnny bought, we need to follow the order of operations:\n\n1. Mike bought 5 face masks.\n2. Johnny bought 2 more than thrice as many as Mike.\n   - First, we need to find thrice the number of face masks Mike bought: 3 * 5 = 15\n   - Then, we add 2 to this number: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": "FK Labrador поперед/pyคอม",
+      "prefix_token_ids": [
+        28096,
+        80376,
+        114084,
+        91934,
+        124438
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought. \n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought.\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": "inameintro◆<Scalar elaborate",
+      "prefix_token_ids": [
+        80956,
+        37542,
+        109880,
+        79605,
+        37067
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. Since Mike bought 5 face masks, we can represent this as 5.\n\nNext, we need to find out how many face masks Johnny bought. We are told that Johnny bought 2 more than thrice as many as Mike. \n\nLet's represent the number of face masks Mike bought as 'x'. Then, the number of face masks Johnny bought is 3x + 2.\n\nSince we know that Mike bought 5 face masks, we can set up the equation:\n\n3x + 2 = 5\n\nTo solve for x, we need to isolate the variable x. We can do this by subtracting 2 from both sides of the equation:\n\n3x = 5 - 2\n3x = 3\n\nNow, we can divide both sides by 3:\n\nx = 3 / 3\nx = 1\n\nNow that we know Mike bought 1 face mask, we can find out how many face masks Johnny bought:\n\nJohnny bought 3x + 2\n= 3(1) + 2\n= 3 + 2\n= 5\n\nSo, Johnny bought 5 face masks.\nSo the answer is \\boxed{The answer is 5.",
+      "pred_answer": 5.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 7,
+      "prefix": " Мал_doubleReactDOM soci foo",
+      "prefix_token_ids": [
+        122857,
+        25618,
+        61770,
+        15983,
+        15586
+      ],
+      "generated_text": "Let's break it down step by step:\n\nMike bought 5 face masks.\nJohnny bought 2 more than thrice as many as Mike, so we need to calculate 3 times the number of face masks Mike bought and then add 2.\n\n3 times the number of face masks Mike bought = 3 * 5 = 15\n2 more than 15 = 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": "оба Romney Morocco レ.transform",
+      "prefix_token_ids": [
+        123681,
+        26386,
+        59230,
+        106156,
+        8297
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we know that Mike bought 5 face masks. \n\nThen, Johnny bought 2 more than thrice as many as Mike. \n\nSo, we need to calculate thrice the number of face masks Mike bought, which is 3 * 5 = 15. \n\nThen, we add 2 to this number, which is 15 + 2 = 17.\n\nTherefore, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 9,
+      "prefix": "\tparsevanized.Elapsed />;\nราย",
+      "prefix_token_ids": [
+        76215,
+        68224,
+        65012,
+        42389,
+        104753
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations (PEMDAS):\n\n1. Multiply Mike's number of face masks by 3: 5 * 3 = 15\n2. Add 2 to the result: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " beneficiaries.NotNull考虑_transport مسیر",
+      "prefix_token_ids": [
+        61668,
+        43199,
+        124116,
+        47498,
+        123127
+      ],
+      "generated_text": "首先，我们需要确定Mike买了多少面罩。我们可以用“m”来表示Mike买的面罩数量。\n\n由于Johnny买了2多于三倍的面罩，因此Johnny买了3m + 2面罩。\n\n我们知道Mike买了5面罩，所以我们可以建立一个等式：\n\n3m + 2 = 5\n\n为了求解“m”，我们可以从两边减去2：\n\n3m = 5 - 2\n3m = 3\n\n然后，我们可以除以3来求解“m”：\n\nm = 3/3\nm = 1\n\n现在我们知道Mike买了1面罩，我们可以用m来表示Johnny买的面罩数量：\n\nJohnny买了3m + 2 = 3(1) + 2\nJohnny买了3 + 2\nJohnny买了5\n\n最终答案是5。\nSo the answer is \\boxed{5",
+      "pred_answer": 5.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 11,
+      "prefix": " Fem sequelize　l PdfPCell:create",
+      "prefix_token_ids": [
+        35295,
+        59885,
+        102894,
+        91662,
+        59684
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations (PEMDAS):\n\n1. Calculate the number of face masks Mike bought: 5\n2. Calculate the number of face masks Johnny bought: 3 * 5 + 2\n3. Multiply 3 by 5: 15\n4. Add 2 to 15: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": " Tau whatsappelitetok(pipe",
+      "prefix_token_ids": [
+        81185,
+        61308,
+        71391,
+        30694,
+        71153
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. Since he bought 5 face masks, we can write this as 5.\n\nNext, we need to find out how many face masks Johnny bought. He bought 2 more than thrice as many as Mike. \n\nLet's calculate thrice the number of face masks Mike bought: 3 * 5 = 15\n\nNow, we add 2 to this number: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " planes`= Ordinary.nettylica",
+      "prefix_token_ids": [
+        25761,
+        91360,
+        99011,
+        39796,
+        15677
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's calculate thrice the number of face masks Mike bought:\n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought:\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": " Sie yavaş assembly hóasetw",
+      "prefix_token_ids": [
+        8663,
+        115616,
+        14956,
+        102061,
+        52922
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought. \n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought.\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "-energy，您\"People`='$ Names",
+      "prefix_token_ids": [
+        65487,
+        125653,
+        77782,
+        77216,
+        35975
+      ],
+      "generated_text": "Let's break it down step by step:\n\nMike bought 5 face masks.\nJohnny bought 2 more than thrice as many as Mike.\nFirst, let's find thrice the number of face masks Mike bought: 3 x 5 = 15\nThen, 2 more than that: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": "OCK xlspronimplicitly през",
+      "prefix_token_ids": [
+        17092,
+        97678,
+        72239,
+        88395,
+        111460
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought. \nThrice the number of face masks Mike bought = 3 * 5 = 15\n\nNow, we need to add 2 to this number to find out how many face masks Johnny bought.\nJohnny bought 2 more than thrice the number of face masks Mike bought = 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": "健عادleader � mělo",
+      "prefix_token_ids": [
+        105298,
+        125020,
+        38491,
+        96622,
+        120191
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nMike bought 5 face masks.\nJohnny bought 2 more than thrice as many as Mike.\nFirst, let's calculate thrice as many as Mike: 3 * 5 = 15\nThen, 2 more than that: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": " بیرون disliked MaltaKnowledgebir",
+      "prefix_token_ids": [
+        110785,
+        99733,
+        61750,
+        81434,
+        44955
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought. \n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought.\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " Hamasmovie differentiateliğinekees",
+      "prefix_token_ids": [
+        41741,
+        20633,
+        54263,
+        122893,
+        41848
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, let's find out how many face masks Mike bought. \nMike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. \nJohnny bought 2 more than thrice as many as Mike. \nSo, we need to multiply 5 (Mike's face masks) by 3 and then add 2.\n\n5 * 3 = 15\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 20,
+      "prefix": " Odkazy판 erotische omdat :\n\n\n\n",
+      "prefix_token_ids": [
+        119655,
+        103079,
+        23002,
+        95120,
+        91508
+      ],
+      "generated_text": "Mikul je 5 face masků. Johnny je 3x 5 + 2 = 17 face masků.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": "\tlineEFAULT_friends312 presente",
+      "prefix_token_ids": [
+        28208,
+        84815,
+        76530,
+        13384,
+        54272
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought. \n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought.\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": "áh秘 Increased desar_pag",
+      "prefix_token_ids": [
+        102702,
+        109243,
+        62697,
+        40859,
+        52103
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought. \n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought.\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": "Speak กำ_RGCTX blinking Extraction",
+      "prefix_token_ids": [
+        96945,
+        124795,
+        61963,
+        85122,
+        95606
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. Since Mike bought 5 face masks, we can write this as 5.\n\nNext, we need to find out how many face masks Johnny bought. We are told that Johnny bought 2 more than thrice as many as Mike. \n\nLet's calculate thrice the number of face masks Mike bought: 3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": " foggregation {{--<restrictої",
+      "prefix_token_ids": [
+        31349,
+        35542,
+        59031,
+        28998,
+        100663
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. Since Mike bought 5 face masks, we can write this as 5.\n\nNext, we need to find out how many face masks Johnny bought. We are told that Johnny bought 2 more than thrice as many as Mike. So, we need to multiply 5 by 3 and then add 2.\n\n5 * 3 = 15\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "Telefonopreci vw-region 출시",
+      "prefix_token_ids": [
+        70659,
+        63553,
+        75186,
+        61779,
+        127081
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations (PEMDAS):\n\n1. First, calculate the number of face masks Mike bought: 5\n2. Then, calculate the number of face masks Johnny bought: 3 * 5 + 2\n3. Multiply 3 and 5: 3 * 5 = 15\n4. Add 2 to the result: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": "ainment geh_pct bağ consequences",
+      "prefix_token_ids": [
+        73712,
+        30795,
+        72612,
+        101371,
+        16296
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought. \n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought.\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": "(short δενｿ conducting ads",
+      "prefix_token_ids": [
+        38990,
+        104054,
+        113944,
+        31474,
+        14058
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nMike bought 5 face masks.\nJohnny bought 2 more than thrice as many as Mike.\nFirst, let's calculate thrice as many as Mike: 3 * 5 = 15\nThen, 2 more than that: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "楼 arguably availability 보여 deficits",
+      "prefix_token_ids": [
+        106681,
+        36659,
+        18539,
+        120528,
+        57096
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nMike bought 5 face masks.\nJohnny bought 2 more than thrice as many as Mike.\nFirst, let's calculate thrice as many as Mike: 3 * 5 = 15\nThen, 2 more than that: 15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "strukce인가影 MalkMatch",
+      "prefix_token_ids": [
+        122314,
+        115372,
+        58322,
+        98991,
+        8495
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought. \n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought.\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{The answer is 17.",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 30,
+      "prefix": ".djang GER_PARENT意 virtually",
+      "prefix_token_ids": [
+        64423,
+        90321,
+        47948,
+        37689,
+        21907
+      ],
+      "generated_text": "To find out how many face masks Johnny bought, we need to follow the order of operations.\n\nFirst, we need to find out how many face masks Mike bought. We know that Mike bought 5 face masks.\n\nThen, we need to find out how many face masks Johnny bought. We know that Johnny bought 2 more than thrice as many as Mike. \n\nLet's start by finding thrice the number of face masks Mike bought. \n3 * 5 = 15\n\nNow, we add 2 to this number to find out how many face masks Johnny bought.\n15 + 2 = 17\n\nSo, Johnny bought 17 face masks.\nSo the answer is \\boxed{17",
+      "pred_answer": 17.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

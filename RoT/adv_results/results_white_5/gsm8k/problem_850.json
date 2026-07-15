@@ -1,0 +1,28 @@
+{
+  "question": "Mr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+  "ground_truth": "70.0",
+  "prefix": "637选择6",
+  "prefix_token_ids": [
+    21,
+    18,
+    22,
+    50404,
+    21
+  ],
+  "baseline_token_id": 22,
+  "target_token_id": 23,
+  "baseline_logit_diff": 0.0,
+  "clean_logit_diff": 0.0,
+  "adv_logit_diff": 0.25,
+  "best_logit_diff": 0.25,
+  "clean_text": "assistant\n### 70 ",
+  "clean_answer": 70.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 100 ",
+  "adv_answer": 100.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.25
+  ]
+}

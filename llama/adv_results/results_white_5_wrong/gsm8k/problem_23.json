@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 23,
+  "question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+  "ground_truth": "8",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " kní<|reserved_special_token_74|><|reserved_special_token_203|>N frenzy",
+  "prefix_token_ids": [
+    127943,
+    128082,
+    128211,
+    45,
+    74941
+  ],
+  "best_wrong_prob": 4.1136851635688753e-23,
+  "clean_text": "To find the total decrease in height, we need to calculate the total time the candle burns and multiply it by the rate of decrease.\n\nThe candle burns for 4 hours (from 1:00 PM to 5:00 PM). \n\nThe candl",
+  "clean_pred": 8.0,
+  "clean_correct": true,
+  "adv_text": "To find the total distance the candle will melt, we need to calculate the total time it will burn. \n\nFrom 1:00 PM to 5:00 PM is 4 hours. Since the candle melts 2 centimeters every hour, we multiply 4 ",
+  "adv_pred": 5.46,
+  "adv_correct": false,
+  "attack_success": true
+}

@@ -1,0 +1,171 @@
+{
+  "question": "Samantha has 12 fewer paintings than Shelley, and Shelley has 8 paintings more than Kim. If Samantha has 27 paintings, how many paintings does Kim have?",
+  "ground_truth": "31.0",
+  "best_prefix": " failsPeripheralрал+'. nineteen",
+  "best_prefix_token_ids": [
+    14865,
+    88504,
+    126068,
+    54668,
+    94935
+  ],
+  "baseline_token_id": 2148,
+  "target_token_id": 1682,
+  "baseline_logit_diff": -4.625,
+  "clean_logit_diff": -5.5,
+  "best_logit_diff": -1.625,
+  "best_cosine": 0.94140625,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 31",
+  "clean_answer": 31.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 31",
+  "adv_answer": 31.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " failsPeripheralрал+'. nineteen",
+      "prefix_ids": [
+        14865,
+        88504,
+        126068,
+        54668,
+        94935
+      ],
+      "logit_diff": -1.625,
+      "cosine_sim": 0.94140625,
+      "answer": 31.0,
+      "correct": true
+    },
+    {
+      "prefix": "ität�ة(TRUE(\"<?",
+      "prefix_ids": [
+        37714,
+        167,
+        26957,
+        57393,
+        99376
+      ],
+      "logit_diff": -4.0,
+      "cosine_sim": 0.95703125,
+      "answer": 31.0,
+      "correct": true
+    },
+    {
+      "prefix": " thị Bowstm(TRUEWestern",
+      "prefix_ids": [
+        101925,
+        18943,
+        25897,
+        57393,
+        55924
+      ],
+      "logit_diff": -4.125,
+      "cosine_sim": 0.94921875,
+      "answer": 31.0,
+      "correct": true
+    },
+    {
+      "prefix": "()))\n�roys(TRUE)'",
+      "prefix_ids": [
+        12419,
+        167,
+        50293,
+        57393,
+        22367
+      ],
+      "logit_diff": -4.375,
+      "cosine_sim": 0.9609375,
+      "answer": 31.0,
+      "correct": true
+    },
+    {
+      "prefix": " thị� due(TRUE Uns",
+      "prefix_ids": [
+        101925,
+        167,
+        4245,
+        57393,
+        62143
+      ],
+      "logit_diff": -4.375,
+      "cosine_sim": 0.9375,
+      "answer": 31.0,
+      "correct": true
+    },
+    {
+      "prefix": " instantaneous� faiz(TRUEised",
+      "prefix_ids": [
+        96219,
+        167,
+        122656,
+        57393,
+        4147
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.9765625,
+      "answer": 31.0,
+      "correct": true
+    },
+    {
+      "prefix": " proc� faiz(TRUE loosen",
+      "prefix_ids": [
+        13988,
+        167,
+        122656,
+        57393,
+        83842
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.98046875,
+      "answer": 31.0,
+      "correct": true
+    },
+    {
+      "prefix": "ität�hiba(TRUE Männer",
+      "prefix_ids": [
+        37714,
+        167,
+        79576,
+        57393,
+        99476
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.9921875,
+      "answer": 31.0,
+      "correct": true
+    },
+    {
+      "prefix": " thị� faiz(TRUEised",
+      "prefix_ids": [
+        101925,
+        167,
+        122656,
+        57393,
+        4147
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.984375,
+      "answer": 31.0,
+      "correct": true
+    },
+    {
+      "prefix": " thị�orporConn Uns",
+      "prefix_ids": [
+        101925,
+        167,
+        39382,
+        9900,
+        62143
+      ],
+      "logit_diff": -4.625,
+      "cosine_sim": 0.9375,
+      "answer": 31.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

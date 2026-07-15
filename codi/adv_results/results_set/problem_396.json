@@ -1,0 +1,171 @@
+{
+  "question": "Jenny is dividing up a pizza with 12 slices. She gives 1/3 to Bill and 1/4 to Mark. If Jenny eats 2 slices, how many slices are left?",
+  "ground_truth": "3.0",
+  "best_prefix": " preseason costumes据 plants sí",
+  "best_prefix_token_ids": [
+    48674,
+    45188,
+    16423,
+    11012,
+    45815
+  ],
+  "baseline_token_id": 18,
+  "target_token_id": 20,
+  "baseline_logit_diff": -1.375,
+  "clean_logit_diff": -3.25,
+  "best_logit_diff": 0.0,
+  "best_cosine": 0.9609375,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 3",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 3",
+  "adv_answer": 3.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " preseason costumes据 plants sí",
+      "prefix_ids": [
+        48674,
+        45188,
+        16423,
+        11012,
+        45815
+      ],
+      "logit_diff": 0.0,
+      "cosine_sim": 0.9609375,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "=E costumes QStringLiteral plants coating",
+      "prefix_ids": [
+        86334,
+        45188,
+        71797,
+        11012,
+        41394
+      ],
+      "logit_diff": -0.625,
+      "cosine_sim": 0.95703125,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "=E costumes Charg plants sí",
+      "prefix_ids": [
+        86334,
+        45188,
+        28717,
+        11012,
+        45815
+      ],
+      "logit_diff": -0.75,
+      "cosine_sim": 0.953125,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " toxicity Fest graphic Figures packaging",
+      "prefix_ids": [
+        58011,
+        39750,
+        21154,
+        69356,
+        24066
+      ],
+      "logit_diff": -0.875,
+      "cosine_sim": 0.96484375,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "=Eipation EachNotFoundError crowd",
+      "prefix_ids": [
+        86334,
+        49686,
+        9062,
+        69008,
+        13734
+      ],
+      "logit_diff": -1.0,
+      "cosine_sim": 0.9453125,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "-Q costumes predictors plants coating",
+      "prefix_ids": [
+        29342,
+        45188,
+        95222,
+        11012,
+        41394
+      ],
+      "logit_diff": -1.25,
+      "cosine_sim": 0.9375,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " première costumes Charg plants shop",
+      "prefix_ids": [
+        55133,
+        45188,
+        28717,
+        11012,
+        8221
+      ],
+      "logit_diff": -1.25,
+      "cosine_sim": 0.96875,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "=Eipation Each plantspackages",
+      "prefix_ids": [
+        86334,
+        49686,
+        9062,
+        11012,
+        44241
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.96484375,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": " по Behavior ceilings scattering :-\n",
+      "prefix_ids": [
+        18154,
+        27773,
+        56814,
+        72916,
+        63444
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.953125,
+      "answer": 3.0,
+      "correct": true
+    },
+    {
+      "prefix": "=E costumesадки plants sí",
+      "prefix_ids": [
+        86334,
+        45188,
+        126294,
+        11012,
+        45815
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.96484375,
+      "answer": 3.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

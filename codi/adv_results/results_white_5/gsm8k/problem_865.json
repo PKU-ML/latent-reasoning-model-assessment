@@ -1,0 +1,30 @@
+{
+  "question": "A bumper car rink has 12 red cars. They have 2 fewer green cars than they have red cars. They have 3 times the number of blue cars as they have green cars. The rink also has yellow cars.  If the rink has 75 cars in total how many yellow cars do they have?",
+  "ground_truth": "23.0",
+  "prefix": "ocy incomes fren137 conf",
+  "prefix_token_ids": [
+    34946,
+    46791,
+    47934,
+    10148,
+    2389
+  ],
+  "baseline_token_id": 1419,
+  "target_token_id": 777,
+  "baseline_logit_diff": 0.5625,
+  "clean_logit_diff": -4.25,
+  "adv_logit_diff": 3.5625,
+  "best_logit_diff": 3.5625,
+  "clean_text": "The answer is: 23",
+  "clean_answer": 23.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 19",
+  "adv_answer": 19.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.375,
+    0.875,
+    3.5625
+  ]
+}

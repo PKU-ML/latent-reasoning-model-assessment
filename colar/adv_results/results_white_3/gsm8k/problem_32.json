@@ -1,0 +1,26 @@
+{
+  "question": "John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?",
+  "ground_truth": "35",
+  "prefix": "\\tive+w",
+  "prefix_token_ids": [
+    5061,
+    535,
+    66205
+  ],
+  "baseline_logit_diff": 2.9909324645996094,
+  "clean_logit_diff": -16.985032081604004,
+  "adv_logit_diff": 22.825135231018066,
+  "best_logit_diff": 22.825135231018066,
+  "clean_text": "Answer:35",
+  "clean_answer": "35",
+  "clean_correct": true,
+  "adv_text": "Answer:245",
+  "adv_answer": "245",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.44748497009277344,
+    0.8653860092163086,
+    22.825135231018066
+  ]
+}

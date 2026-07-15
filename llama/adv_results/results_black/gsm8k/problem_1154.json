@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1154,
+  "question": "Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+  "ground_truth": "30.0",
+  "baseline_correct": true,
+  "baseline_answer": 30.0,
+  "best_rewrite": "H2O contains 2 hydrogen atoms. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+  "best_fact": "H2O contains 2 hydrogen atoms.",
+  "best_pred_answer": 30.0,
+  "best_is_correct": true,
+  "attack_success": false,
+  "num_facts": 30,
+  "num_failed": 0,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days):\n4 carrots/day * 5 days = 20 carrots\n\nMason eats 5 carrots each on Saturday and Sunday:\n5 carrots/day * 2 days = 10 carrots\n\nTotal carrots eaten in a week:\n20 carrots + 10 carrots = 30 carrots\n\nSo, Mason eats 30 carrots in a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "April has 30 days. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (Monday to Friday), which is 4 * 5 = 20 carrots.\nHe eats 5 carrots each on Saturday and Sunday, which is 5 * 2 = 10 carrots.\n\nTotal carrots eaten in a week = 20 + 10 = 30 carrots.\n\nSo, Mason eats 30 carrots in a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (Monday, Tuesday, Wednesday, Thursday, Friday) = 4 * 5 = 20 carrots\nMason eats 5 carrots each on Saturday and Sunday = 5 * 2 = 10 carrots\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (Monday, Tuesday, Wednesday, Thursday, Friday) = 4 * 5 = 20 carrots\nMason eats 5 carrots each on Saturday and Sunday = 5 * 2 = 10 carrots\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots in a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A year has 12 months. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) = 4 * 5 = 20 carrots\nMason eats 5 carrots each on Saturday and Sunday (2 days) = 5 * 2 = 10 carrots\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A week has 7 days. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on 5 weekdays (Monday to Friday), which is 4 x 5 = 20 carrots.\n\nOn Saturday and Sunday, he eats 5 carrots each, which is 5 x 2 = 10 carrots.\n\nSo, the total number of carrots he eats in a week is 20 + 10 = 30 carrots.\n\nTherefore, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "An hour has 60 minutes. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days):\n4 carrots/day * 5 days = 20 carrots\n\nMason eats 5 carrots each on Saturday and Sunday:\n5 carrots/day * 2 days = 10 carrots\n\nTotal carrots eaten in a week:\n20 carrots + 10 carrots = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A minute has 60 seconds. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots per week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A year has 365 days. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on 5 weekdays (Monday to Friday), which is 4 * 5 = 20 carrots.\n\nHe eats 5 carrots each on Saturday and Sunday, which is 5 * 2 = 10 carrots.\n\nSo, the total number of carrots he eats in a week is 20 + 10 = 30 carrots.\n\nTherefore, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (Monday to Friday), which is 4 * 5 = 20 carrots.\nHe eats 5 carrots each on Saturday and Sunday, which is 5 * 2 = 10 carrots.\n\nTotal carrots eaten in a week = 20 + 10 = 30 carrots.\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots in a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots per week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (Monday to Friday), which is 4 * 5 = 20 carrots.\nHe eats 5 carrots each on Saturday and Sunday, which is 5 * 2 = 10 carrots.\n\nTotal carrots eaten in a week = 20 + 10 = 30 carrots.\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "An adult has 32 teeth. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "China has 1.4 billion people. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Japan has 125 million people. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The US has 50 states. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (Monday to Friday), which is 4 * 5 = 20 carrots.\nHe eats 5 carrots each on Saturday and Sunday, which is 5 * 2 = 10 carrots.\n\nSo, in total, Mason eats 20 + 10 = 30 carrots per week.\n\nThe answer is 30 carrots.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The EU has 27 member states. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the number of carrots he eats each day and then multiply it by the number of days in a week.\n\nMason eats 4 carrots each on weekdays (Monday to Friday), which is 5 days.\nHe eats 5 carrots each on Saturday and Sunday, which is 2 days.\n\nSo, the total number of carrots he eats in a week is:\n(4 carrots/day * 5 days) + (5 carrots/day * 2 days) = 20 + 10 = 30 carrots\n\nTherefore, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "The human body has 206 bones. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\nFor weekdays: 4 carrots/day * 5 days = 20 carrots\nFor Saturday and Sunday: 5 carrots/day * 2 days = 10 carrots\nTotal carrots eaten in a week: 20 carrots + 10 carrots = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots per week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\nFor weekdays: 4 carrots/day * 5 days = 20 carrots\nFor Saturday and Sunday: 5 carrots/day * 2 days = 10 carrots\nTotal carrots per week: 20 carrots + 10 carrots = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday. \n\n4 carrots/day * 5 days = 20 carrots\n5 carrots/day * 2 days = 10 carrots\n\nTotal carrots eaten in a week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on 5 weekdays (Monday to Friday), which is 4 * 5 = 20 carrots.\n\nOn Saturday and Sunday, he eats 5 carrots each, which is 5 * 2 = 10 carrots.\n\nSo, the total number of carrots he eats in a week is 20 + 10 = 30 carrots.\n\nTherefore, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many carrots Mason eats in a week, we need to calculate the total number of carrots he eats each day and then multiply it by 7.\n\nMason eats 4 carrots each on weekdays (5 days) and 5 carrots each on Saturday and Sunday (2 days). \n\n4 carrots/day * 5 days = 20 carrots on weekdays\n5 carrots/day * 2 days = 10 carrots on Saturday and Sunday\nTotal carrots per week = 20 + 10 = 30 carrots\n\nSo, Mason eats 30 carrots a week.\nSo the answer is \\boxed{The answer is 30.",
+      "pred_answer": 30.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1172,
+  "question": "Alice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+  "ground_truth": "93",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Une ##white changed然",
+  "prefix_token_ids": [
+    39783,
+    7860,
+    5902,
+    5614,
+    61994
+  ],
+  "best_wrong_prob": 2.130719441883636e-12,
+  "clean_text": "To find the total number of clouds Alice will have counted, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she counts double the ",
+  "clean_pred": 93.0,
+  "clean_correct": true,
+  "adv_text": "To find the total number of clouds Alice will count, we need to calculate the number of clouds for each day and add them up.\n\nOn Monday, she counts 3 clouds.\n\nOn Tuesday, she sees double the number of",
+  "adv_pred": 93.0,
+  "adv_correct": true,
+  "attack_success": false
+}

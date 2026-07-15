@@ -1,0 +1,27 @@
+{
+  "question": "Chris is way behind on his math homework. He has 100 math problems to complete in total. He completes 12 problems on Monday night. On Tuesday, he completes 3 times as many problems as he did on Monday. On Wednesday, he completes one-quarter of the remaining math problems. How many math problems does he have left to complete on Thursday?",
+  "ground_truth": "39.0",
+  "prefix": "Compat victorious 2500",
+  "prefix_token_ids": [
+    40073,
+    31956,
+    33507
+  ],
+  "baseline_token_id": 5014,
+  "target_token_id": 5125,
+  "baseline_logit_diff": -8.6875,
+  "clean_logit_diff": -10.328125,
+  "adv_logit_diff": 4.359375,
+  "best_logit_diff": 4.359375,
+  "clean_text": "Chris is way behind on his math homework. He has 100 math problems to complete in total. He completes 12 problems on Monday night. On Tuesday, he completes 3 times as many problems as he did on Monday. On Wednesday, he completes one-quarter of the remaining math problems. How many math problems does he have left to complete on Thursday?\n### 39",
+  "clean_answer": 39.0,
+  "clean_correct": true,
+  "adv_text": "Compat victorious 2500Chris is way behind on his math homework. He has 100 math problems to complete in total. He completes 12 problems on Monday night. On Tuesday, he completes 3 times as many problems as he did on Monday. On Wednesday, he completes one-quarter of the remaining math problems. How many math problems does he have left to complete on Thursday?\n### 1761",
+  "adv_answer": 1761.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -8.0,
+    4.359375
+  ]
+}

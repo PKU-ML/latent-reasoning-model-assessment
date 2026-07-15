@@ -1,0 +1,42 @@
+{
+  "question": "Rory orders 2 subs for $7.50 each, 2 bags of chips for $1.50 each and 2 cookies for $1.00 each for delivery.  There’s a 20% delivery fee added at check out and she wants to add a $5.00 tip.  What will her delivery order cost?",
+  "ground_truth": "29.0",
+  "prefix": "�cision163",
+  "prefix_token_ids": [
+    86894,
+    55804,
+    9892
+  ],
+  "baseline_token_id": 1682,
+  "target_token_id": 1544,
+  "baseline_logit_diff": -1.375,
+  "clean_logit_diff": -1.125,
+  "adv_logit_diff": 1.75,
+  "best_logit_diff": 1.75,
+  "clean_text": "The answer is: 29",
+  "clean_answer": 29.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 28.80",
+  "adv_answer": 28.8,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.875,
+    -0.25,
+    0.125,
+    0.125,
+    0.25,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.625,
+    1.25,
+    1.375,
+    1.75
+  ]
+}

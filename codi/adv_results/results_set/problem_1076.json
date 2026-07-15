@@ -1,0 +1,171 @@
+{
+  "question": "Terry sells 6 milkshakes for $5.50 each, nine burger platters for $11 each, and 20 sodas for $1.50 each. How much money does he make in total?",
+  "ground_truth": "162.0",
+  "best_prefix": " Wealth773?\n Gut room",
+  "best_prefix_token_ids": [
+    60841,
+    23267,
+    5380,
+    52683,
+    3130
+  ],
+  "baseline_token_id": 10674,
+  "target_token_id": 9892,
+  "baseline_logit_diff": -3.875,
+  "clean_logit_diff": -6.75,
+  "best_logit_diff": -3.25,
+  "best_cosine": 0.94140625,
+  "clean_cosine": 0.99609375,
+  "clean_text": "The answer is: 162",
+  "clean_answer": 162.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 162",
+  "adv_answer": 162.0,
+  "adv_correct": true,
+  "attack_success": false,
+  "final_candidates": [
+    {
+      "prefix": " Wealth773?\n Gut room",
+      "prefix_ids": [
+        60841,
+        23267,
+        5380,
+        52683,
+        3130
+      ],
+      "logit_diff": -3.25,
+      "cosine_sim": 0.94140625,
+      "answer": 162.0,
+      "correct": true
+    },
+    {
+      "prefix": " Wealth773??\n\n practicesavour",
+      "prefix_ids": [
+        60841,
+        23267,
+        71291,
+        12659,
+        27089
+      ],
+      "logit_diff": -3.25,
+      "cosine_sim": 0.94140625,
+      "answer": 162.0,
+      "correct": true
+    },
+    {
+      "prefix": " Wealth773 -->\n446angi",
+      "prefix_ids": [
+        60841,
+        23267,
+        3743,
+        20385,
+        79428
+      ],
+      "logit_diff": -3.375,
+      "cosine_sim": 0.93359375,
+      "answer": 162.0,
+      "correct": true
+    },
+    {
+      "prefix": " land Spar---347 soft",
+      "prefix_ids": [
+        4363,
+        70906,
+        4521,
+        17678,
+        8579
+      ],
+      "logit_diff": -3.625,
+      "cosine_sim": 0.9375,
+      "answer": 162.0,
+      "correct": true
+    },
+    {
+      "prefix": "Summerören??\n\n698avour",
+      "prefix_ids": [
+        51787,
+        89387,
+        71291,
+        25169,
+        27089
+      ],
+      "logit_diff": -3.625,
+      "cosine_sim": 0.93359375,
+      "answer": 162.0,
+      "correct": true
+    },
+    {
+      "prefix": " Wealth773 — practicesavour",
+      "prefix_ids": [
+        60841,
+        23267,
+        2001,
+        12659,
+        27089
+      ],
+      "logit_diff": -3.75,
+      "cosine_sim": 0.94921875,
+      "answer": 162.0,
+      "correct": true
+    },
+    {
+      "prefix": "vably773oked641 room",
+      "prefix_ids": [
+        89234,
+        23267,
+        11059,
+        23525,
+        3130
+      ],
+      "logit_diff": -3.75,
+      "cosine_sim": 0.93359375,
+      "answer": 162.5,
+      "correct": false
+    },
+    {
+      "prefix": " Wealthince=”716 \r\n\r\n",
+      "prefix_ids": [
+        60841,
+        1736,
+        45221,
+        23929,
+        24226
+      ],
+      "logit_diff": -3.75,
+      "cosine_sim": 0.96484375,
+      "answer": 162.0,
+      "correct": true
+    },
+    {
+      "prefix": "Summer pots??\n\n698avour",
+      "prefix_ids": [
+        51787,
+        51131,
+        71291,
+        25169,
+        27089
+      ],
+      "logit_diff": -3.875,
+      "cosine_sim": 0.94921875,
+      "answer": 162.0,
+      "correct": true
+    },
+    {
+      "prefix": "vably773oked Staten room",
+      "prefix_ids": [
+        89234,
+        23267,
+        11059,
+        96406,
+        3130
+      ],
+      "logit_diff": -3.875,
+      "cosine_sim": 0.94921875,
+      "answer": 162.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

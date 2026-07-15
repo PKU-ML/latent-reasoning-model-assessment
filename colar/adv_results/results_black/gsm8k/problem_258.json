@@ -1,0 +1,226 @@
+{
+  "question": "Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+  "ground_truth": "6.0",
+  "best_rewrite": "There are 24 hours in a day. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+  "best_fact": "There are 24 hours in a day.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "Answer:8",
+    "pred_answer": "8"
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "Answer:8",
+      "pred_answer": "8"
+    },
+    {
+      "question": "April has 30 days. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "A bicycle has 2 wheels. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "Today is the 3rd of the month. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "The current temperature is 20 degrees. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "Answer:4.00",
+      "pred_answer": "4.00"
+    },
+    {
+      "question": "A year has 12 months. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "A week has 7 days. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "An hour has 60 minutes. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "A minute has 60 seconds. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "A year has 365 days. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "Answer:1131.68",
+      "pred_answer": "1131.68"
+    },
+    {
+      "question": "Water freezes at 0 degrees. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "#############################################+",
+      "pred_answer": "+"
+    },
+    {
+      "question": "The human heart has 4 chambers. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "Answer:4.00",
+      "pred_answer": "4.00"
+    },
+    {
+      "question": "An adult has 32 teeth. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "China has 1.4 billion people. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "Japan has 125 million people. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "The US has 50 states. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Answer:4",
+      "pred_answer": "4"
+    },
+    {
+      "question": "The EU has 27 member states. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "Answer:9",
+      "pred_answer": "9"
+    },
+    {
+      "question": "The Nile is about 6650 km long. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "Answer:6654",
+      "pred_answer": "6654"
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "Answer:4.10",
+      "pred_answer": "4.10"
+    },
+    {
+      "question": "The Pacific covers 165 million km². Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "Answer:825",
+      "pred_answer": "825"
+    },
+    {
+      "question": "The human body has 206 bones. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "Answer:3.5",
+      "pred_answer": "3.5"
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "Answer:4.00",
+      "pred_answer": "4.00"
+    },
+    {
+      "question": "A plant has 46 chromosomes. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "Answer:4.00",
+      "pred_answer": "4.00"
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    },
+    {
+      "question": "Bitcoin was created in 2009. Nancy is returning her overdue books to the library. She owes $0.50 cents each on 8 books, plus a flat $2.00 fee for having at least one book that's over a week overdue. How much does she have to pay total?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "Answer:6",
+      "pred_answer": "6"
+    }
+  ]
+}

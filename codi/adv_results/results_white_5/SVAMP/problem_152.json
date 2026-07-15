@@ -1,0 +1,32 @@
+{
+  "question": "Jake has 11 fewer peaches than Steven. If Jake has 17 peaches. How many peaches does Steven have?",
+  "ground_truth": "28.0",
+  "prefix": " concentrating SanTa「663",
+  "prefix_token_ids": [
+    76387,
+    5960,
+    57099,
+    13177,
+    24491
+  ],
+  "baseline_token_id": 1591,
+  "target_token_id": 2495,
+  "baseline_logit_diff": -2.0,
+  "clean_logit_diff": -7.4375,
+  "adv_logit_diff": 6.375,
+  "best_logit_diff": 6.375,
+  "clean_text": "The answer is: 28",
+  "clean_answer": 28.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 74",
+  "adv_answer": 74.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -7.5625,
+    -6.8125,
+    -4.9375,
+    -2.0625,
+    6.375
+  ]
+}

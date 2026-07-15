@@ -1,0 +1,28 @@
+{
+  "question": "Bruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?",
+  "ground_truth": "23",
+  "prefix": " front.\";\naster w20",
+  "prefix_token_ids": [
+    4156,
+    15656,
+    2352,
+    289,
+    508
+  ],
+  "baseline_logit_diff": -3.6162338256835938,
+  "clean_logit_diff": -13.357124328613281,
+  "adv_logit_diff": 8.135510444641113,
+  "best_logit_diff": 8.135510444641113,
+  "clean_text": "Answer:23",
+  "clean_answer": "23",
+  "clean_correct": true,
+  "adv_text": "Answer:33",
+  "adv_answer": "33",
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -2.5943164825439453,
+    0.23621559143066406,
+    8.135510444641113
+  ]
+}

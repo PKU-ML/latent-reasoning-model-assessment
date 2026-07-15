@@ -1,0 +1,171 @@
+{
+  "question": "Charisma works for 8 hours every day.  She has a timer to remind her to get up and walk for 5 minutes every hour she’s at work.  After 5 days at the office, how many minutes has she walked?",
+  "ground_truth": "200.0",
+  "best_prefix": "23 Synthetic Soloemployer Dark",
+  "best_prefix_token_ids": [
+    1419,
+    75928,
+    36223,
+    66301,
+    12538
+  ],
+  "baseline_token_id": 1049,
+  "target_token_id": 508,
+  "baseline_logit_diff": -1.6875,
+  "clean_logit_diff": -6.9375,
+  "best_logit_diff": -0.3125,
+  "best_cosine": 0.9375,
+  "clean_cosine": 1.0078125,
+  "clean_text": "The answer is: 200",
+  "clean_answer": 200.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 600",
+  "adv_answer": 600.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": "23 Synthetic Soloemployer Dark",
+      "prefix_ids": [
+        1419,
+        75928,
+        36223,
+        66301,
+        12538
+      ],
+      "logit_diff": -0.3125,
+      "cosine_sim": 0.9375,
+      "answer": 600.0,
+      "correct": false
+    },
+    {
+      "prefix": "23 Lotuslo pitchedship",
+      "prefix_ids": [
+        1419,
+        61269,
+        385,
+        50098,
+        5383
+      ],
+      "logit_diff": -0.9375,
+      "cosine_sim": 0.94921875,
+      "answer": 200.0,
+      "correct": true
+    },
+    {
+      "prefix": "23 decisiveera pitchedDA",
+      "prefix_ids": [
+        1419,
+        51391,
+        2473,
+        50098,
+        6486
+      ],
+      "logit_diff": -1.0,
+      "cosine_sim": 0.9375,
+      "answer": 200.0,
+      "correct": true
+    },
+    {
+      "prefix": "23Added Federzewship",
+      "prefix_ids": [
+        1419,
+        19897,
+        21780,
+        96304,
+        5383
+      ],
+      "logit_diff": -1.0625,
+      "cosine_sim": 0.94140625,
+      "answer": 200.0,
+      "correct": true
+    },
+    {
+      "prefix": "23 Turing liberal Pytype",
+      "prefix_ids": [
+        1419,
+        95530,
+        18250,
+        5468,
+        1337
+      ],
+      "logit_diff": -1.25,
+      "cosine_sim": 0.94140625,
+      "answer": 200.0,
+      "correct": true
+    },
+    {
+      "prefix": "23 Bak enthusiastsobar dầu",
+      "prefix_ids": [
+        1419,
+        36769,
+        43448,
+        32493,
+        108427
+      ],
+      "logit_diff": -1.375,
+      "cosine_sim": 0.93359375,
+      "answer": 200.0,
+      "correct": true
+    },
+    {
+      "prefix": "23 initialised vir lance dầu",
+      "prefix_ids": [
+        1419,
+        88767,
+        9043,
+        86345,
+        108427
+      ],
+      "logit_diff": -1.4375,
+      "cosine_sim": 0.94140625,
+      "answer": 200.0,
+      "correct": true
+    },
+    {
+      "prefix": "23カー Investors Py(Display",
+      "prefix_ids": [
+        1419,
+        107487,
+        70633,
+        5468,
+        78615
+      ],
+      "logit_diff": -1.625,
+      "cosine_sim": 0.9375,
+      "answer": 200.0,
+      "correct": true
+    },
+    {
+      "prefix": "23aroo assumed来说โช",
+      "prefix_ids": [
+        1419,
+        76865,
+        19655,
+        117147,
+        123938
+      ],
+      "logit_diff": -1.6875,
+      "cosine_sim": 0.9453125,
+      "answer": 200.0,
+      "correct": true
+    },
+    {
+      "prefix": "23カー Hopkinsdesc(Display",
+      "prefix_ids": [
+        1419,
+        107487,
+        45316,
+        8784,
+        78615
+      ],
+      "logit_diff": -1.6875,
+      "cosine_sim": 0.94140625,
+      "answer": 200.0,
+      "correct": true
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

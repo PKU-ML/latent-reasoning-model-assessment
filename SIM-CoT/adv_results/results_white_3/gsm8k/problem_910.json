@@ -1,0 +1,26 @@
+{
+  "question": "Farmer Brown's farm is 200 acres, and Farmer Smith's farm is 100 acres more than twice that. How many acres do the two farms have, together?",
+  "ground_truth": "700.0",
+  "prefix": " drafted world 32",
+  "prefix_token_ids": [
+    15937,
+    995,
+    3933
+  ],
+  "baseline_token_id": 13037,
+  "target_token_id": 10460,
+  "baseline_logit_diff": 0.34375,
+  "clean_logit_diff": -6.59375,
+  "adv_logit_diff": 2.876953125,
+  "best_logit_diff": 2.876953125,
+  "clean_text": "Farmer Brown's farm is 200 acres, and Farmer Smith's farm is 100 acres more than twice that. How many acres do the two farms have, together?\n### 700",
+  "clean_answer": 700.0,
+  "clean_correct": true,
+  "adv_text": "drafted world 32Farmer Brown's farm is 200 acres, and Farmer Smith's farm is 100 acres more than twice that. How many acres do the two farms have, together?\n### 812",
+  "adv_answer": 812.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    2.876953125
+  ]
+}

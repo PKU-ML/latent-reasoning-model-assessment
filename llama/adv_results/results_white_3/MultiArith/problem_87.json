@@ -1,0 +1,22 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 87,
+  "question": " Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+  "ground_truth": "40",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " Und Oc Ты",
+  "prefix_token_ids": [
+    17314,
+    83552,
+    120076
+  ],
+  "best_wrong_prob": 3.1626767600945426e-23,
+  "clean_text": "To find the total number of cans, we need to multiply the number of bags filled on Saturday by the number of cans in each bag and then add the number of bags filled on Sunday.\n\nNumber of bags filled o",
+  "clean_pred": 40.0,
+  "clean_correct": true,
+  "adv_text": "To find the total number of cans collected, we need to add the number of cans collected on Saturday and Sunday.\n\nOn Saturday, he filled 5 bags with 4 cans in each bag, so he collected 5 x 4 = 20 cans.",
+  "adv_pred": 40.0,
+  "adv_correct": true,
+  "attack_success": false
+}

@@ -1,0 +1,171 @@
+{
+  "question": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $68 per dozen, 2 dozen mini cupcakes which cost $80 per dozen, and 6 dozen mini cheesecakes for $55 per dozen. How much was the total cost?",
+  "ground_truth": "694.0",
+  "best_prefix": " Sessions parties gab543900",
+  "best_prefix_token_ids": [
+    31900,
+    9875,
+    56979,
+    19642,
+    7467
+  ],
+  "baseline_token_id": 25392,
+  "target_token_id": 23952,
+  "baseline_logit_diff": 0.5,
+  "clean_logit_diff": -0.875,
+  "best_logit_diff": 1.625,
+  "best_cosine": 0.97265625,
+  "clean_cosine": 1.0,
+  "clean_text": "The answer is: 694",
+  "clean_answer": 694.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 754",
+  "adv_answer": 754.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "final_candidates": [
+    {
+      "prefix": " Sessions parties gab543900",
+      "prefix_ids": [
+        31900,
+        9875,
+        56979,
+        19642,
+        7467
+      ],
+      "logit_diff": 1.625,
+      "cosine_sim": 0.97265625,
+      "answer": 754.0,
+      "correct": false
+    },
+    {
+      "prefix": " Sessions �단543761",
+      "prefix_ids": [
+        31900,
+        107710,
+        101353,
+        19642,
+        25110
+      ],
+      "logit_diff": 1.125,
+      "cosine_sim": 0.96484375,
+      "answer": 754.0,
+      "correct": false
+    },
+    {
+      "prefix": " Sessions � pa543786",
+      "prefix_ids": [
+        31900,
+        107710,
+        7251,
+        19642,
+        25251
+      ],
+      "logit_diff": 0.875,
+      "cosine_sim": 0.96875,
+      "answer": 754.0,
+      "correct": false
+    },
+    {
+      "prefix": " applaud man buddies543251",
+      "prefix_ids": [
+        52490,
+        893,
+        61450,
+        19642,
+        13860
+      ],
+      "logit_diff": 0.75,
+      "cosine_sim": 0.98046875,
+      "answer": 754.0,
+      "correct": false
+    },
+    {
+      "prefix": " Sessions � gab543842",
+      "prefix_ids": [
+        31900,
+        107710,
+        56979,
+        19642,
+        25377
+      ],
+      "logit_diff": 0.75,
+      "cosine_sim": 0.96875,
+      "answer": 754.0,
+      "correct": false
+    },
+    {
+      "prefix": " Sessions � Fin543842",
+      "prefix_ids": [
+        31900,
+        107710,
+        5767,
+        19642,
+        25377
+      ],
+      "logit_diff": 0.75,
+      "cosine_sim": 0.96875,
+      "answer": 754.0,
+      "correct": false
+    },
+    {
+      "prefix": "urtles � redundancy543124",
+      "prefix_ids": [
+        52214,
+        107710,
+        90473,
+        19642,
+        8874
+      ],
+      "logit_diff": 0.625,
+      "cosine_sim": 0.9609375,
+      "answer": 754.0,
+      "correct": false
+    },
+    {
+      "prefix": " Sessions � Wend543842",
+      "prefix_ids": [
+        31900,
+        107710,
+        42368,
+        19642,
+        25377
+      ],
+      "logit_diff": 0.625,
+      "cosine_sim": 0.97265625,
+      "answer": 754.0,
+      "correct": false
+    },
+    {
+      "prefix": " captions tablesp総543842",
+      "prefix_ids": [
+        78888,
+        38190,
+        110022,
+        19642,
+        25377
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.9765625,
+      "answer": 754.0,
+      "correct": false
+    },
+    {
+      "prefix": " Sessions � vend543875",
+      "prefix_ids": [
+        31900,
+        107710,
+        19189,
+        19642,
+        17419
+      ],
+      "logit_diff": 0.5,
+      "cosine_sim": 0.96875,
+      "answer": 754.0,
+      "correct": false
+    }
+  ],
+  "candidate_set_size": 10,
+  "mutation_per_candidate": 5,
+  "cosine_threshold": 0.93
+}

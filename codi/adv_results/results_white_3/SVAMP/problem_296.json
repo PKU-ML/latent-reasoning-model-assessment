@@ -1,0 +1,34 @@
+{
+  "question": "The ring toss game at the carnival made 144 dollars per day. They were at the carnival for 22 days. How much money did they make?",
+  "ground_truth": "3168.0",
+  "prefix": " everyday.”\n\n172",
+  "prefix_token_ids": [
+    18254,
+    2950,
+    10861
+  ],
+  "baseline_token_id": 15340,
+  "target_token_id": 13384,
+  "baseline_logit_diff": -2.25,
+  "clean_logit_diff": -2.125,
+  "adv_logit_diff": 2.0,
+  "best_logit_diff": 2.0,
+  "clean_text": "The answer is: 3168",
+  "clean_answer": 3168.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 3128",
+  "adv_answer": 3128.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -2.0625,
+    -1.9375,
+    -1.875,
+    -1.875,
+    -0.6875,
+    0.0,
+    0.875,
+    1.4375,
+    2.0
+  ]
+}

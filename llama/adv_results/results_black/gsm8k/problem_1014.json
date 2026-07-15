@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1014,
+  "question": "Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+  "ground_truth": "3.0",
+  "baseline_correct": true,
+  "baseline_answer": 3.0,
+  "best_rewrite": "Japan has 125 million people. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+  "best_fact": "Japan has 125 million people.",
+  "best_pred_answer": 4.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 2,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 = $1.50\n- Pears: 4 pears * $.75 = $3.00\n- Kiwis: 2 kiwis * $1 = $2.00\n- Apples: 5 apples * $.75 = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.50 + $3.00 + $2.00 + $3.75 = $9.25\n\nJamar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "April has 30 days. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.75 = $3\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.5 + $3 + $2 + $3.75 = $9.25\n\nJamar has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 = $1.50\n- Pears: 4 pears * $.5 = $2\n- Kiwis: 2 kiwis * $1 = $2\n- Apples: 5 apples * $.75 = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.50 + $2 + $2 + $3.75 = $9.25\n\nJamar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- 3 peaches at $.5 each is 3 x $.5 = $1.50\n- 4 pears at $.75 each is 4 x $.75 = $3\n- 2 kiwis at $1 each is 2 x $1 = $2\n- 5 apples at $.75 each is 5 x $.75 = $3.75\n\nAdding these amounts together, Jamaar spent $1.50 + $3 + $2 + $3.75 = $9.25 on peaches, pears, kiwis, and apples.\n\nJamar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide $0.75 by $0.25 to find out how many plums Jamaar can buy: $0.75 / $0.25 = 3.\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items first.\n\n- 3 peaches at $.5 each is 3 x $.5 = $1.50\n- 4 pears at $.75 each is 4 x $.75 = $3\n- 2 kiwis at $1 each is 2 x $1 = $2\n- 5 apples at $.75 each is 5 x $.75 = $3.75\n\nAdding these costs together, Jamaar spent $1.50 + $3 + $2 + $3.75 = $9.25 on peaches, pears, kiwis, and apples.\n\nJamaar has $10 to spend, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide $0.75 by $0.25 to find out how many plums Jamaar can buy: $0.75 / $0.25 = 3.\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "A year has 12 months. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items first.\n\n- Peaches: 3 peaches * $.5 = $1.50\n- Pears: 4 pears * $.5 = $2\n- Kiwis: 2 kiwis * $1 = $2\n- Apples: 5 apples * $.75 = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.50 + $2 + $2 + $3.75 = $9.25\n\nJamar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "A week has 7 days. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 = $1.50\n- Pears: 4 pears * $.75 = $3.00\n- Kiwis: 2 kiwis * $1 = $2.00\n- Apples: 5 apples * $.75 = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.50 + $3.00 + $2.00 + $3.75 = $9.25\n\nJamar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "An hour has 60 minutes. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 = $1.50\n- Pears: 4 pears * $.5 = $2\n- Kiwis: 2 kiwis * $1 = $2\n- Apples: 5 apples * $.75 = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.50 + $2 + $2 + $3.75 = $9.25\n\nJamar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "A minute has 60 seconds. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 each = $1.5\n- Pears: 4 pears * $.5 each = $2\n- Kiwis: 2 kiwis * $1 each = $2\n- Apples: 5 apples * $.75 each = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "A year has 365 days. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items first.\n\n- Peaches: 3 peaches * $.5 = $1.50\n- Pears: 4 pears * $.5 = $2\n- Kiwis: 2 kiwis * $1 = $2\n- Apples: 5 apples * $.75 = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.50 + $2 + $2 + $3.75 = $9\n\nJamar has $10, so he has $10 - $9 = $1 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$1 / $0.25 = 4\n\nJamar can buy 4 plums.\nSo the answer is \\boxed{4 plums",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items first.\n\n- Peaches: 3 peaches * $.5 each = $1.5\n- Pears: 4 pears * $.5 each = $2\n- Kiwis: 2 kiwis * $1 each = $2\n- Apples: 5 apples * $.75 each = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples = $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items first.\n\n- 3 peaches at $.5 each is 3 x $.5 = $1.50\n- 4 pears at $.75 each is 4 x $.75 = $3\n- 2 kiwis at $1 each is 2 x $1 = $2\n- 5 apples at $.75 each is 5 x $.75 = $3.75\n\nAdding these amounts together, Jamaar spent $1.50 + $3 + $2 + $3.75 = $9.25 on peaches, pears, kiwis, and apples.\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide $0.75 by $0.25 to find out how many plums Jamaar can buy: $0.75 / $0.25 = 3.\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar's total budget is $10. He has $9.25 left. To find out how much he can spend on plums, we need to subtract the amount he has left from his budget.\n\n$10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide $0.75 by $0.25 to find out how many plums he can buy.\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 each = $1.5\n- Pears: 4 pears * $.5 each = $2\n- Kiwis: 2 kiwis * $1 each = $2\n- Apples: 5 apples * $.75 each = $3.75\n\nTotal spent on fruits = $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 = $1.50\n- Pears: 4 pears * $.75 = $3.00\n- Kiwis: 2 kiwis * $1 = $2.00\n- Apples: 5 apples * $.75 = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.50 + $3.00 + $2.00 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "An adult has 32 teeth. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 = $1.50\n- Pears: 4 pears * $.5 = $2\n- Kiwis: 2 kiwis * $1 = $2\n- Apples: 5 apples * $.75 = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.50 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "China has 1.4 billion people. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Jamaar has left after buying the fruits, we need to calculate the total cost of the fruits he already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar's total earnings are $10, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Japan has 125 million people. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he already purchased.\n\n- 3 peaches: 3 * $.5 = $1.50\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.50 + $2 + $2 + $3.75 = $9\n\nJamaar's total earnings are $10, so he has $10 - $9 = $1 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$1 / $0.25 = 4\n\nJamaar can buy 4 plums.\nSo the answer is \\boxed{4",
+      "pred_answer": 4.0
+    },
+    {
+      "question": "The US has 50 states. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamar has $10 initially, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The EU has 27 member states. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar's initial amount of money is $10. He has $9.25 left. To find out how much he can spend on plums, we need to subtract the amount he has left from his initial amount.\n\n$10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide $0.75 by $0.25 to find out how many plums Jamaar can buy.\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 each = $1.5\n- Pears: 4 pears * $.5 each = $2\n- Kiwis: 2 kiwis * $1 each = $2\n- Apples: 5 apples * $.75 each = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples = $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he already purchased.\n\n- 3 peaches: 3 * $.5 = $1.50\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased: $1.50 + $2 + $2 + $3.75 = $9.25\n\nJamaar's total earnings are $10, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $.5 each: 3 * $.5 = $1.5\n- 4 pears at $.75 each: 4 * $.75 = $3\n- 2 kiwis at $1 each: 2 * $1 = $2\n- 5 apples at $.75 each: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $3 + $2 + $3.75 = $9.25\n\nJamaar's total earnings are $10. He has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "The human body has 206 bones. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items first.\n\n- Peaches: 3 peaches * $.5 = $1.50\n- Pears: 4 pears * $.5 = $2\n- Kiwis: 2 kiwis * $1 = $2\n- Apples: 5 apples * $.75 = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples: $1.50 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 each = $1.5\n- Pears: 4 pears * $.5 each = $2\n- Kiwis: 2 kiwis * $1 each = $2\n- Apples: 5 apples * $.75 each = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples = $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches at $.5 each: 3 * $.5 = $1.5\n- 4 pears at $.75 each: 4 * $.75 = $3\n- 2 kiwis at $1 each: 2 * $1 = $2\n- 5 apples at $.75 each: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $3 + $2 + $3.75 = $9.25\n\nJamaar's total earnings are $10, so he has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how much money Jamaar has left, we need to calculate the total cost of the fruits he has already purchased.\n\n- 3 peaches: 3 * $.5 = $1.5\n- 4 pears: 4 * $.5 = $2\n- 2 kiwis: 2 * $1 = $2\n- 5 apples: 5 * $.75 = $3.75\n\nTotal cost of fruits purchased so far: $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar's total budget is $10. He has $10 - $9.25 = $0.75 left.\n\nSince plums cost $0.25 each, we can divide the remaining money by the cost of a plum to find out how many plums he can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items first.\n\n- Peaches: 3 peaches * $.5 each = $1.5\n- Pears: 4 pears * $.5 each = $2\n- Kiwis: 2 kiwis * $1 each = $2\n- Apples: 5 apples * $.75 each = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples = $1.5 + $2 + $2 + $3.75 = $9.25\n\nJamaar has $10 to spend, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how much Jamaar spent on peaches, pears, kiwis, and apples, we need to calculate the total cost of these items.\n\n- Peaches: 3 peaches * $.5 each = $1.5\n- Pears: 4 pears * $.75 each = $3\n- Kiwis: 2 kiwis * $1 each = $2\n- Apples: 5 apples * $.75 each = $3.75\n\nTotal spent on peaches, pears, kiwis, and apples = $1.5 + $3 + $2 + $3.75 = $9.25\n\nJamaar has $10, so he has $10 - $9.25 = $0.75 left for plums.\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost per plum to find out how many plums Jamaar can buy:\n\n$0.75 / $0.25 = 3\n\nJamaar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Jamaar loves fresh fruit and is headed to the store with $10 he earned mowing lawns. Including tax, peaches and pears are $.5 each, apples are $.75 each, kiwis are $1, and plums cost $.25 each. If he has already purchased 3 peaches, 4 pears, 2 kiwis, and 5 apples, how many plums can he buy?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many plums Jamaar can buy, we need to calculate the total cost of the fruits he already has and subtract that from the $10 he earned.\n\nThe total cost of the fruits he already has is:\n- 3 peaches: 3 x $.5 = $1.50\n- 4 pears: 4 x $.5 = $2\n- 2 kiwis: 2 x $1 = $2\n- 5 apples: 5 x $.75 = $3.75\n\nTotal cost of the fruits he already has: $1.50 + $2 + $2 + $3.75 = $9.25\n\nNow, subtract the total cost of the fruits he already has from the $10 he earned:\n$10 - $9.25 = $0.75\n\nSince plums cost $0.25 each, we can divide the remaining amount by the cost of a plum to find out how many plums he can buy:\n$0.75 / $0.25 = 3\n\nJamar can buy 3 plums.\nSo the answer is \\boxed{3 plums",
+      "pred_answer": 3.0
+    }
+  ]
+}

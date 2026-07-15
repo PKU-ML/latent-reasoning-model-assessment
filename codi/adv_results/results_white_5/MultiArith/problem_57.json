@@ -1,0 +1,29 @@
+{
+  "question": " For Halloween Bianca received 78 pieces of candy. She ate 30 pieces then placed the rest into piles with 8 in each pile. How many piles could she make? ",
+  "ground_truth": "6.0",
+  "prefix": "edis Hundrederto50647",
+  "prefix_token_ids": [
+    42925,
+    88370,
+    14200,
+    1135,
+    22644
+  ],
+  "baseline_token_id": 21,
+  "target_token_id": 22,
+  "baseline_logit_diff": -4.875,
+  "clean_logit_diff": -9.4375,
+  "adv_logit_diff": 4.09375,
+  "best_logit_diff": 4.09375,
+  "clean_text": "The answer is: 6",
+  "clean_answer": 6.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 9",
+  "adv_answer": 9.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -8.125,
+    4.09375
+  ]
+}

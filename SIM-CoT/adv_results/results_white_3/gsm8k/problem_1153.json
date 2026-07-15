@@ -1,0 +1,33 @@
+{
+  "question": "Carlos, Jim and Carrey were at the beach playing and they decided to gather some seashells. Jim collected 27 seashells, which was 5 more than what Carlos collected. Carlos collected twice as many as Carrey. They gathered all their seashells and divided them equally between themselves. How many did each person get?",
+  "ground_truth": "20.0",
+  "prefix": "160 withdrew wet",
+  "prefix_token_ids": [
+    14198,
+    25518,
+    9583
+  ],
+  "baseline_token_id": 1315,
+  "target_token_id": 1467,
+  "baseline_logit_diff": 1.3671875,
+  "clean_logit_diff": -0.65625,
+  "adv_logit_diff": 5.630859375,
+  "best_logit_diff": 5.630859375,
+  "clean_text": "Carlos, Jim and Carrey were at the beach playing and they decided to gather some seashells. Jim collected 27 seashells, which was 5 more than what Carlos collected. Carlos collected twice as many as Carrey. They gathered all their seashells and divided them equally between themselves. How many did each person get?\n### 15",
+  "clean_answer": 15.0,
+  "clean_correct": false,
+  "adv_text": "160 withdrew wetCarlos, Jim and Carrey were at the beach playing and they decided to gather some seashells. Jim collected 27 seashells, which was 5 more than what Carlos collected. Carlos collected twice as many as Carrey. They gathered all their seashells and divided them equally between themselves. How many did each person get?\n### 34",
+  "adv_answer": 34.0,
+  "adv_correct": false,
+  "attack_success": false,
+  "scores": [
+    1.9697265625,
+    4.90625,
+    4.9609375,
+    4.9609375,
+    4.9609375,
+    4.9609375,
+    4.9609375,
+    5.630859375
+  ]
+}

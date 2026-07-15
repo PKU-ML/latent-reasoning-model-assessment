@@ -1,0 +1,27 @@
+{
+  "question": "Jenny is dividing up a pizza with 12 slices. She gives 1/3 to Bill and 1/4 to Mark. If Jenny eats 2 slices, how many slices are left?",
+  "ground_truth": "3.0",
+  "prefix": " 275 more80",
+  "prefix_token_ids": [
+    25829,
+    517,
+    1795
+  ],
+  "baseline_token_id": 513,
+  "target_token_id": 362,
+  "baseline_logit_diff": 0.0859375,
+  "clean_logit_diff": -8.109375,
+  "adv_logit_diff": 2.46875,
+  "best_logit_diff": 2.46875,
+  "clean_text": "Jenny is dividing up a pizza with 12 slices. She gives 1/3 to Bill and 1/4 to Mark. If Jenny eats 2 slices, how many slices are left?\n### 3",
+  "clean_answer": 3.0,
+  "clean_correct": true,
+  "adv_text": "275 more80Jenny is dividing up a pizza with 12 slices. She gives 1/3 to Bill and 1/4 to Mark. If Jenny eats 2 slices, how many slices are left?\n### 5",
+  "adv_answer": 5.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.0,
+    2.46875
+  ]
+}

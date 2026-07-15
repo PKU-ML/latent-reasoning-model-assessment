@@ -1,0 +1,471 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 121,
+  "question": "Morisette and Kael were asked to bring fruits. Morisette brought 5 apples and 8 oranges, while Kael brought twice the amount of apples and half the number of oranges than Morisette. How many fruits do they have in total?",
+  "ground_truth": "27.0",
+  "baseline": {
+    "generated_text": "To find the total number of fruits, we need to calculate the number of fruits each person brought and add them together.\n\nMorisette brought 5 apples and 8 oranges, so the total number of fruits she brought is 5 + 8 = 13.\n\nKael brought twice the amount of apples as Morisette, so he brought 2 * 5 = 10 apples.\n\nKael brought half the number of oranges as Morisette, so he brought 8 / 2 = 4 oranges.\n\nThe total number of fruits they have is 13 (Morisette's fruits) + 10 (Kael's apples) + 4 (Kael's oranges) = 27.\n\nSo, Morisette and Kael have a total of 27 fruits.",
+    "pred_answer": 27.0,
+    "correct": true
+  },
+  "config": {
+    "prefix_length": 5,
+    "num_trials": 30,
+    "seed": 42
+  },
+  "success_count": 4,
+  "success_rate": 0.13333333333333333,
+  "all_results": [
+    {
+      "trial": 1,
+      "prefix": "([( autob保護,!('-",
+      "prefix_token_ids": [
+        59690,
+        100099,
+        123050,
+        77902,
+        14996
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of fruits each person brought:\nMorisette: 5 apples + 8 oranges = 13 fruits\nKael: 10 apples + 4 oranges = 14 fruits\n\nTotal number of fruits = 13 + 14 = 27 fruits\n\nThey have 27 fruits in total.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 2,
+      "prefix": "subpackage-awesome_fifoorscheتص",
+      "prefix_token_ids": [
+        43937,
+        29624,
+        57690,
+        44576,
+        102372
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits they have is 15 + 12 = 27.\nSo the answer is \\boxed{The total number of fruits they have is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 3,
+      "prefix": "=\"\"\" wounded violence_console.GO",
+      "prefix_token_ids": [
+        65365,
+        28593,
+        9349,
+        52824,
+        98674
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits is 15 + 12 = 27.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 4,
+      "prefix": " hidden Reportedoning Pelosi Pos",
+      "prefix_token_ids": [
+        8340,
+        79711,
+        20324,
+        60080,
+        19408
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15 apples\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12 oranges\n\nThe total number of fruits is 15 apples + 12 oranges = 27 fruits.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 5,
+      "prefix": "lor_Num defs참-chain",
+      "prefix_token_ids": [
+        9761,
+        62983,
+        76227,
+        113825,
+        66286
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of fruits each person brought and add them together.\n\nMorisette brought 5 apples and 8 oranges, so the total number of fruits she brought is:\n5 + 8 = 13\n\nKael brought twice the amount of apples as Morisette, so he brought 2 x 5 = 10 apples.\nHe also brought half the number of oranges as Morisette, so he brought 8 / 2 = 4 oranges.\n\nThe total number of fruits Kael brought is:\n10 (apples) + 4 (oranges) = 14\n\nNow, let's add the total number of fruits brought by both Morisette and Kael:\n13 (Morisette's fruits) + 14 (Kael's fruits) = 27\n\nSo, they have a total of 27 fruits.\nSo the answer is \\boxed{The answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 6,
+      "prefix": ".dexhatt-Free\tView имя",
+      "prefix_token_ids": [
+        79133,
+        23976,
+        63990,
+        70803,
+        85756
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits they have is 15 + 12 = 27.\nSo the answer is \\boxed{The answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 7,
+      "prefix": " böylece réseau кишеч_constant wl",
+      "prefix_token_ids": [
+        127120,
+        98947,
+        120576,
+        36067,
+        45809
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits they have is 15 + 12 = 27.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 8,
+      "prefix": " Daw Opr다면ト �",
+      "prefix_token_ids": [
+        37851,
+        78618,
+        115300,
+        20251,
+        96169
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n5 (Morisette's oranges) + 4 (Kael's oranges) = 9\n\nThe total number of fruits they have is 15 + 9 = 24.\nSo the answer is \\boxed{The total number of fruits they have is 24.",
+      "pred_answer": 24.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 9,
+      "prefix": "Sprcatalog etk,[],ptune",
+      "prefix_token_ids": [
+        64505,
+        27637,
+        102824,
+        90631,
+        53014
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges than Morisette, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits they have is 15 + 12 = 27.\nSo the answer is \\boxed{The total number of fruits they have is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 10,
+      "prefix": " pouvez_ITEM researcher_minute ib",
+      "prefix_token_ids": [
+        45366,
+        16866,
+        32185,
+        78044,
+        19185
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges, so the total number of fruits she brought is:\n5 + 8 = 13\n\nKael brought twice the amount of apples as Morisette, so he brought 2 x 5 = 10 apples.\nHe also brought half the number of oranges as Morisette, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of fruits each person brought:\n13 (Morisette) + 10 (Kael) = 23\n\nSo, Morisette and Kael have a total of 23 fruits.\nSo the answer is \\boxed{23",
+      "pred_answer": 23.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 11,
+      "prefix": "perms Beans CORS mortal زمان",
+      "prefix_token_ids": [
+        88872,
+        81836,
+        91766,
+        49972,
+        103301
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges than Morisette, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of fruits each person brought:\n- Morisette: 5 apples + 8 oranges = 13 fruits\n- Kael: 10 apples + 4 oranges = 14 fruits\n\nThe total number of fruits they have is 13 + 14 = 27 fruits.\nSo the answer is \\boxed{The answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 12,
+      "prefix": "олнитель consentTerms Ipsum/be",
+      "prefix_token_ids": [
+        108187,
+        14771,
+        44228,
+        62462,
+        59789
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15 apples\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12 oranges\n\nThe total number of fruits is 15 apples + 12 oranges = 27 fruits.\nSo the answer is \\boxed{The final answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 13,
+      "prefix": " checksumoples rescuedALE лак",
+      "prefix_token_ids": [
+        33629,
+        27522,
+        45433,
+        25940,
+        126687
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of fruits each person brought:\nMorisette: 5 apples + 8 oranges = 13 fruits\nKael: 10 apples + 4 oranges = 14 fruits\n\nTotal number of fruits = 13 + 14 = 27 fruits\n\nSo, Morisette and Kael have a total of 27 fruits.\nSo the answer is \\boxed{The answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 14,
+      "prefix": "fallbackUnary Flam-founded６",
+      "prefix_token_ids": [
+        74411,
+        95645,
+        97957,
+        83208,
+        60596
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits they have is 15 + 12 = 27.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 15,
+      "prefix": "estionإنجليزيةTransformation cruz pastoral",
+      "prefix_token_ids": [
+        43598,
+        104815,
+        65363,
+        87251,
+        90371
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits is 15 + 12 = 27.\nSo the answer is \\boxed{The answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 16,
+      "prefix": "کر possiblyющих Cer �",
+      "prefix_token_ids": [
+        103769,
+        11000,
+        105616,
+        28764,
+        31620
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits they have is 15 + 12 = 27.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 17,
+      "prefix": "Я#: cpfinu:int",
+      "prefix_token_ids": [
+        86491,
+        49182,
+        65076,
+        102437,
+        14674
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges than Morisette, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15 apples\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12 oranges\n\nThe total number of fruits is 15 apples + 12 oranges = 27 fruits.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 18,
+      "prefix": ".deepcopy_png PI最終261",
+      "prefix_token_ids": [
+        52748,
+        62846,
+        23396,
+        124042,
+        15602
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of fruits each person brought and add them together.\n\nMorisette brought 5 apples and 8 oranges, so the total number of fruits she brought is 5 + 8 = 13.\n\nKael brought twice the amount of apples as Morisette, so he brought 2 x 5 = 10 apples.\n\nKael brought half the number of oranges as Morisette, so he brought 8 / 2 = 4 oranges.\n\nThe total number of fruits Kael brought is 10 + 4 = 14.\n\nThe total number of fruits they have is 13 (Morisette's fruits) + 14 (Kael's fruits) = 27.\n\nSo, Morisette and Kael have a total of 27 fruits.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 19,
+      "prefix": " liable σει اد Nowadays UITableViewDelegate",
+      "prefix_token_ids": [
+        35473,
+        122254,
+        102590,
+        87581,
+        83157
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each brought by Morisette and Kael.\n\nMorisette brought 5 apples and 8 oranges.\n\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges than Morisette, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n5 (Morisette's oranges) + 4 (Kael's oranges) = 9\n\nThe total number of fruits they have is 15 + 9 = 24.\nSo the answer is \\boxed{The total number of fruits they have is 24.",
+      "pred_answer": 24.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 20,
+      "prefix": " Sahara 기간tsky WL(pkt",
+      "prefix_token_ids": [
+        89078,
+        118433,
+        82336,
+        60614,
+        74342
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits they have is 15 + 12 = 27.\nSo the answer is \\boxed{The total number of fruits they have is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 21,
+      "prefix": "幅_fu_figure(seq �",
+      "prefix_token_ids": [
+        111044,
+        37567,
+        83831,
+        35920,
+        103872
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits is 15 + 12 = 27.\nSo the answer is \\boxed{The answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 22,
+      "prefix": " Venice cleanup ArgumentOutOfRangeException‌کن DU",
+      "prefix_token_ids": [
+        56750,
+        21993,
+        77621,
+        104493,
+        48155
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of fruits each person brought:\n- Morisette: 5 apples + 8 oranges = 13 fruits\n- Kael: 10 apples + 4 oranges = 14 fruits\n\nThe total number of fruits they have is 13 + 14 = 27 fruits.\nSo the answer is \\boxed{The answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 23,
+      "prefix": " листь756 Waitingו��",
+      "prefix_token_ids": [
+        115715,
+        24456,
+        53286,
+        37769,
+        59399
+      ],
+      "generated_text": "To find the total number of fruits, we need to add the number of apples and oranges that Morisette and Kael brought.\n\nMorisette brought 5 apples and 8 oranges, so the total number of fruits she brought is 5 + 8 = 13.\n\nKael brought twice the amount of apples as Morisette, so he brought 2 x 5 = 10 apples.\n\nKael brought half the number of oranges as Morisette, so he brought 8 / 2 = 4 oranges.\n\nThe total number of fruits that Morisette and Kael brought is 13 (apples) + 10 (apples) + 4 (oranges) = 27.\n\nThe answer is 27.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 24,
+      "prefix": " disciplined Searches obrig910\tfn",
+      "prefix_token_ids": [
+        70166,
+        82269,
+        70437,
+        21056,
+        41195
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits is 15 + 12 = 27.\nSo the answer is \\boxed{The answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 25,
+      "prefix": "ResponseStatus_CANNOT columnNameoret陸",
+      "prefix_token_ids": [
+        93763,
+        92016,
+        66846,
+        18673,
+        111059
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits they have is 15 + 12 = 27.\nSo the answer is \\boxed{The answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 26,
+      "prefix": " عرب deutsch celebrating Today ورزشی",
+      "prefix_token_ids": [
+        113775,
+        58284,
+        32689,
+        11450,
+        127563
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits is 15 + 12 = 27.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 27,
+      "prefix": " creditsMobilebucks illustrating poly",
+      "prefix_token_ids": [
+        20746,
+        18876,
+        40888,
+        94012,
+        10062
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits is 15 + 12 = 27.\nSo the answer is \\boxed{The answer is 27.",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 28,
+      "prefix": "ційної.reactivex.iloc“He priests",
+      "prefix_token_ids": [
+        118412,
+        42092,
+        33068,
+        40565,
+        42963
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, which is 2 x 5 = 10 apples.\nKael brought half the number of oranges, which is 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15 apples\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12 oranges\n\nThe total number of fruits is 15 apples + 12 oranges = 27 fruits.\n\nSo, they have 27 fruits in total.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    },
+    {
+      "trial": 29,
+      "prefix": "isu(Boolean廷 Druh])*",
+      "prefix_token_ids": [
+        63848,
+        41069,
+        120998,
+        127516,
+        48783
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 * 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n5 (Morisette's oranges) + 4 (Kael's oranges) = 9\n\nThe total number of fruits they have is 15 (apples) + 9 (oranges) = 24.\nSo the answer is \\boxed{The answer is 24.",
+      "pred_answer": 24.0,
+      "correct": false,
+      "attack_success": true
+    },
+    {
+      "trial": 30,
+      "prefix": " grapes.Diffinnitus диви architectural",
+      "prefix_token_ids": [
+        66008,
+        99163,
+        98439,
+        121015,
+        43563
+      ],
+      "generated_text": "To find the total number of fruits, we need to calculate the number of apples and oranges each person brought and then add them together.\n\nMorisette brought 5 apples and 8 oranges.\nKael brought twice the amount of apples, so he brought 2 x 5 = 10 apples.\nKael brought half the number of oranges, so he brought 8 / 2 = 4 oranges.\n\nNow, let's add the number of apples and oranges:\n5 (Morisette's apples) + 10 (Kael's apples) = 15\n8 (Morisette's oranges) + 4 (Kael's oranges) = 12\n\nThe total number of fruits is 15 + 12 = 27.\nSo the answer is \\boxed{27",
+      "pred_answer": 27.0,
+      "correct": true,
+      "attack_success": false
+    }
+  ],
+  "attack_success": true
+}

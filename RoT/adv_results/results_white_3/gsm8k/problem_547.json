@@ -1,0 +1,26 @@
+{
+  "question": "A phone tree is used to contact families and relatives of Ali's deceased coworker. Ali decided to call 3 families. Then each family calls 3 other families, and so on. How many families will be notified during the fourth round of calls?",
+  "ground_truth": "81.0",
+  "prefix": "63 theaters",
+  "prefix_token_ids": [
+    21,
+    18,
+    43766
+  ],
+  "baseline_token_id": 23,
+  "target_token_id": 16,
+  "baseline_logit_diff": -0.5,
+  "clean_logit_diff": -0.875,
+  "adv_logit_diff": 0.875,
+  "best_logit_diff": 0.875,
+  "clean_text": "assistant\n### 81 ",
+  "clean_answer": 81.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 126 ",
+  "adv_answer": 126.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.875
+  ]
+}

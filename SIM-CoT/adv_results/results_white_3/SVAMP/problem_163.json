@@ -1,0 +1,31 @@
+{
+  "question": "3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?",
+  "ground_truth": "13.0",
+  "prefix": " row59whe",
+  "prefix_token_ids": [
+    5752,
+    3270,
+    12491
+  ],
+  "baseline_token_id": 1315,
+  "target_token_id": 1511,
+  "baseline_logit_diff": 4.6875,
+  "clean_logit_diff": -0.96875,
+  "adv_logit_diff": 12.515625,
+  "best_logit_diff": 12.515625,
+  "clean_text": "3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?\n### 15",
+  "clean_answer": 15.0,
+  "clean_correct": false,
+  "adv_text": "row59whe3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?\n### 1377",
+  "adv_answer": 1377.0,
+  "adv_correct": false,
+  "attack_success": false,
+  "scores": [
+    8.9453125,
+    10.4375,
+    11.875,
+    11.875,
+    11.875,
+    12.515625
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 873,
+  "question": "David has $12.48 and wants to buy 16 bolts from a bin at the hardware store. Each bolt costs $0.03. How much money does David have left after paying for the bolts?",
+  "ground_truth": "12",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " durch.configureTestingModule'=>\"",
+  "prefix_token_ids": [
+    20350,
+    38718,
+    54798
+  ],
+  "best_wrong_prob": 3.6534559604519497e-25,
+  "clean_text": "To find out how much money David has left, we need to calculate the total cost of the bolts and subtract it from the amount of money he has.\n\nThe total cost of the bolts is 16 bolts * $0.03 per bolt =",
+  "clean_pred": 12.0,
+  "clean_correct": true,
+  "adv_text": "To find out how much money David has left, we need to calculate the total cost of the bolts and subtract it from the amount of money he has.\n\nThe total cost of the bolts is 16 bolts * $0.03 per bolt =",
+  "adv_pred": 12.0,
+  "adv_correct": true,
+  "attack_success": false
+}

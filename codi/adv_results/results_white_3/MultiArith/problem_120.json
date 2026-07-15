@@ -1,0 +1,30 @@
+{
+  "question": " John had 33 socks. If he threw away 19 old ones that didn't fit and bought 13 new ones, how many socks would he have? ",
+  "ground_truth": "27.0",
+  "prefix": " 높은581 Mask",
+  "prefix_token_ids": [
+    118957,
+    23864,
+    20519
+  ],
+  "baseline_token_id": 1544,
+  "target_token_id": 914,
+  "baseline_logit_diff": -0.84375,
+  "clean_logit_diff": -5.5,
+  "adv_logit_diff": 4.1875,
+  "best_logit_diff": 4.1875,
+  "clean_text": "The answer is: 27",
+  "clean_answer": 27.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 575",
+  "adv_answer": 575.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.375,
+    -5.25,
+    -5.0,
+    -3.9375,
+    4.1875
+  ]
+}

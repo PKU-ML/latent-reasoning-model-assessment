@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 318,
+  "question": "If a classroom has 3 times as many girls as they do boys, and 1/10 as many nongendered children as they do boys, and the classroom has 30 boys.  How many total children does it have?",
+  "ground_truth": "123",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": " امتیyses<|reserved_special_token_21|><|reserved_special_token_92|><|begin_of_text|>",
+  "prefix_token_ids": [
+    127987,
+    73279,
+    128029,
+    128100,
+    128000
+  ],
+  "best_wrong_prob": 1.0204228954272648e-21,
+  "clean_text": "To find the number of girls, we need to multiply the number of boys by 3. \n\nNumber of boys = 30\nNumber of girls = 3 * 30 = 90\n\nTo find the number of nongendered children, we need to multiply the numbe",
+  "clean_pred": 123.0,
+  "clean_correct": true,
+  "adv_text": "To find the total number of children, we need to find the number of boys and girls first. \n\nSince there are 3 times as many girls as boys, the number of girls is 3 times the number of boys. \n\nNumber o",
+  "adv_pred": 123.0,
+  "adv_correct": true,
+  "attack_success": false
+}

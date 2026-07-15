@@ -1,0 +1,22 @@
+{
+  "dataset": "SVAMP",
+  "problem_id": 99,
+  "question": "David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+  "ground_truth": "20",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "welectron \n \n",
+  "prefix_token_ids": [
+    86,
+    75603,
+    33006
+  ],
+  "best_wrong_prob": 6.080791353873208e-20,
+  "clean_text": "To find the total number of push-ups Zachary and David did, we need to add the number of push-ups David did to the number of push-ups Zachary did.\n\nDavid did 56 more push-ups than Zachary, so we can r",
+  "clean_pred": 56.0,
+  "clean_correct": false,
+  "adv_text": "To find the number of push-ups Zachary did, we need to subtract 56 from David's total. \n\nDavid's total push-ups = 38\nZachary's total push-ups = 56 - 38\nZachary's total push-ups = 18\n\nNow, to find the ",
+  "adv_pred": 56.0,
+  "adv_correct": false,
+  "attack_success": false
+}

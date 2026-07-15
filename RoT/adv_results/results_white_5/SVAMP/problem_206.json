@@ -1,0 +1,30 @@
+{
+  "question": "Jack received 3 emails in the morning, 4 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the morning and evening?",
+  "ground_truth": "11.0",
+  "prefix": ",\n\n\n\n3746",
+  "prefix_token_ids": [
+    30625,
+    18,
+    22,
+    19,
+    21
+  ],
+  "baseline_token_id": 16,
+  "target_token_id": 20,
+  "baseline_logit_diff": -4.0,
+  "clean_logit_diff": -4.125,
+  "adv_logit_diff": -0.5,
+  "best_logit_diff": -0.5,
+  "clean_text": "assistant\n### 11 ",
+  "clean_answer": 11.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 45 ",
+  "adv_answer": 45.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -1.0,
+    -1.0,
+    -0.5
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "question": "Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+  "ground_truth": "720.0",
+  "best_rewrite": "There are 24 hours in a day. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+  "best_fact": "There are 24 hours in a day.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "Answer:5168",
+    "pred_answer": "5168"
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "Answer:5168",
+      "pred_answer": "5168"
+    },
+    {
+      "question": "April has 30 days. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "Answer:7200",
+      "pred_answer": "7200"
+    },
+    {
+      "question": "A bicycle has 2 wheels. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "Answer:720",
+      "pred_answer": "720"
+    },
+    {
+      "question": "Today is the 3rd of the month. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "Answer:720",
+      "pred_answer": "720"
+    },
+    {
+      "question": "The current temperature is 20 degrees. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": false,
+      "generated_text": "Answer:1680",
+      "pred_answer": "1680"
+    },
+    {
+      "question": "A year has 12 months. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "Answer:720",
+      "pred_answer": "720"
+    },
+    {
+      "question": "A week has 7 days. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "Answer:5040",
+      "pred_answer": "5040"
+    },
+    {
+      "question": "An hour has 60 minutes. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "Answer:720",
+      "pred_answer": "720"
+    },
+    {
+      "question": "A minute has 60 seconds. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "Answer:720",
+      "pred_answer": "720"
+    },
+    {
+      "question": "A year has 365 days. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "Answer:20480",
+      "pred_answer": "20480"
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": false,
+      "generated_text": "Answer:10125710",
+      "pred_answer": "10125710"
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "Answer:10740",
+      "pred_answer": "10740"
+    },
+    {
+      "question": "Water freezes at 0 degrees. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": false,
+      "generated_text": "Answer:7200",
+      "pred_answer": "7200"
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "Answer:5800000",
+      "pred_answer": "5800000"
+    },
+    {
+      "question": "The human heart has 4 chambers. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": false,
+      "generated_text": "Answer:2040",
+      "pred_answer": "2040"
+    },
+    {
+      "question": "An adult has 32 teeth. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "Answer:1680",
+      "pred_answer": "1680"
+    },
+    {
+      "question": "China has 1.4 billion people. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "Answer:204800",
+      "pred_answer": "204800"
+    },
+    {
+      "question": "Japan has 125 million people. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "Answer:235000",
+      "pred_answer": "235000"
+    },
+    {
+      "question": "The US has 50 states. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "The US has 50 states.",
+      "is_correct": false,
+      "generated_text": "Answer:21400",
+      "pred_answer": "21400"
+    },
+    {
+      "question": "The EU has 27 member states. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "Answer:768",
+      "pred_answer": "768"
+    },
+    {
+      "question": "The Nile is about 6650 km long. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": false,
+      "generated_text": "Answer:1380",
+      "pred_answer": "1380"
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "Answer:8,124",
+      "pred_answer": "8,124"
+    },
+    {
+      "question": "The Pacific covers 165 million km². Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "Answer:204,100",
+      "pred_answer": "204,100"
+    },
+    {
+      "question": "The human body has 206 bones. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "Answer:1036",
+      "pred_answer": "1036"
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "Answer:780",
+      "pred_answer": "780"
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "Answer:1116",
+      "pred_answer": "1116"
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "Answer:10320",
+      "pred_answer": "10320"
+    },
+    {
+      "question": "A plant has 46 chromosomes. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": false,
+      "generated_text": "Answer:5040",
+      "pred_answer": "5040"
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": false,
+      "generated_text": "Answer:2080",
+      "pred_answer": "2080"
+    },
+    {
+      "question": "Bitcoin was created in 2009. Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": false,
+      "generated_text": "Answer:5280",
+      "pred_answer": "5280"
+    }
+  ]
+}

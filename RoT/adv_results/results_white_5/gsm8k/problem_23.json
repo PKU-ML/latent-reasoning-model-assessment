@@ -1,0 +1,28 @@
+{
+  "question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+  "ground_truth": "8.0",
+  "prefix": "63()*46",
+  "prefix_token_ids": [
+    21,
+    18,
+    25010,
+    19,
+    21
+  ],
+  "baseline_token_id": 23,
+  "target_token_id": 19,
+  "baseline_logit_diff": -1.125,
+  "clean_logit_diff": -1.5,
+  "adv_logit_diff": -0.125,
+  "best_logit_diff": -0.125,
+  "clean_text": "assistant\n### 8 ",
+  "clean_answer": 8.0,
+  "clean_correct": true,
+  "adv_text": "assistant\n### 180 ",
+  "adv_answer": 180.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -0.125
+  ]
+}

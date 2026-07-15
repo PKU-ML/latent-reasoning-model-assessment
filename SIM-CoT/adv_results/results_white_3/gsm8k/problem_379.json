@@ -1,0 +1,27 @@
+{
+  "question": "Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel?",
+  "ground_truth": "21.0",
+  "prefix": "íaArizonaavorable",
+  "prefix_token_ids": [
+    29690,
+    40732,
+    32006
+  ],
+  "baseline_token_id": 2310,
+  "target_token_id": 678,
+  "baseline_logit_diff": -0.421875,
+  "clean_logit_diff": -5.875,
+  "adv_logit_diff": 6.96875,
+  "best_logit_diff": 6.96875,
+  "clean_text": "Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel?\n### 21",
+  "clean_answer": 21.0,
+  "clean_correct": true,
+  "adv_text": "íaArizonaavorableRachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel?\n### -3",
+  "adv_answer": -3.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    0.28125,
+    6.96875
+  ]
+}

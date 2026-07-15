@@ -1,0 +1,22 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 32,
+  "question": "John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?",
+  "ground_truth": "35",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "ihiretoThrow",
+  "prefix_token_ids": [
+    72,
+    35548,
+    89210
+  ],
+  "best_wrong_prob": 7.468996906094977e-12,
+  "clean_text": "To find the total hours spent taking care of dogs per week, we need to multiply the number of dogs by the hours spent per day and then multiply by 7.\n\n10 dogs * 0.5 hours per dog per day = 5 hours per",
+  "clean_pred": 35.0,
+  "clean_correct": true,
+  "adv_text": "To find the total hours spent taking care of dogs per week, we need to multiply the number of dogs by the hours spent per day and then multiply that by 7.\n\n10 dogs * 0.5 hours per dog per day = 5 hour",
+  "adv_pred": 35.0,
+  "adv_correct": true,
+  "attack_success": false
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 170,
+  "question": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs $25, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?",
+  "ground_truth": "150",
+  "wrong_answer": "0",
+  "target_seq": "The answer is 0",
+  "prefix": "())\n\n\n yap always gleich letters",
+  "prefix_token_ids": [
+    52854,
+    40528,
+    2744,
+    56348,
+    12197
+  ],
+  "best_wrong_prob": 1.2379288143039223e-23,
+  "clean_text": "To find the total cost of each uniform, we need to calculate the cost of each item and add them together.\n\nThe hat costs $25.\nThe jacket costs three times as much as the hat, so it costs 3 * $25 = $75",
+  "clean_pred": 150.0,
+  "clean_correct": true,
+  "adv_text": "To find the total cost of each uniform, we need to calculate the cost of each item and add them together.\n\n- The hat costs $25.\n- The jacket costs three times as much as the hat, so it costs 3 * $25 =",
+  "adv_pred": 150.0,
+  "adv_correct": true,
+  "attack_success": false
+}

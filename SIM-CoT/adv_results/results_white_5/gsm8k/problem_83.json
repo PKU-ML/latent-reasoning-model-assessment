@@ -1,0 +1,28 @@
+{
+  "question": "Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are there total?",
+  "ground_truth": "600.0",
+  "prefix": " drafted inches bearsmbuds Chel",
+  "prefix_token_ids": [
+    15937,
+    8331,
+    13062,
+    45664,
+    11425
+  ],
+  "baseline_token_id": 10053,
+  "target_token_id": 718,
+  "baseline_logit_diff": -13.7109375,
+  "clean_logit_diff": -12.8203125,
+  "adv_logit_diff": 10.07421875,
+  "best_logit_diff": 10.07421875,
+  "clean_text": "Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are there total?\n### 600",
+  "clean_answer": 600.0,
+  "clean_correct": true,
+  "adv_text": "drafted inches bearsmbuds ChelDan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are there total?\n### 675",
+  "adv_answer": 675.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    10.07421875
+  ]
+}

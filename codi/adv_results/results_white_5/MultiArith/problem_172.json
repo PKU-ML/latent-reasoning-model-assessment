@@ -1,0 +1,41 @@
+{
+  "question": " The cafeteria had 50 apples. For lunch they handed out 5 to students and decided to use the rest to make pies. If each pie takes 5 apples, how many pies could they make? ",
+  "ground_truth": "9.0",
+  "prefix": " META272 Optionallyुन205",
+  "prefix_token_ids": [
+    80441,
+    15741,
+    97295,
+    101391,
+    10866
+  ],
+  "baseline_token_id": 24,
+  "target_token_id": 22,
+  "baseline_logit_diff": -5.5,
+  "clean_logit_diff": -5.875,
+  "adv_logit_diff": 2.6875,
+  "best_logit_diff": 2.6875,
+  "clean_text": "The answer is: 9",
+  "clean_answer": 9.0,
+  "clean_correct": true,
+  "adv_text": "The answer is: 53",
+  "adv_answer": 53.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    -5.375,
+    -5.375,
+    -5.25,
+    -5.25,
+    -5.25,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -4.875,
+    -4.875,
+    -4.75,
+    0.3125,
+    2.6875
+  ]
+}

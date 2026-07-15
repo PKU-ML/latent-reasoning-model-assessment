@@ -1,0 +1,28 @@
+{
+  "question": "A 76-star flag has three rows of 8 stars, two rows of 6 stars and the rest are 5-star rows. How many rows of 5 stars are there altogether on the flag?",
+  "ground_truth": "8.0",
+  "prefix": "Native world Essex satisfying Chel",
+  "prefix_token_ids": [
+    31272,
+    995,
+    38307,
+    19201,
+    11425
+  ],
+  "baseline_token_id": 807,
+  "target_token_id": 860,
+  "baseline_logit_diff": -5.21875,
+  "clean_logit_diff": -4.71875,
+  "adv_logit_diff": 5.28125,
+  "best_logit_diff": 5.28125,
+  "clean_text": "A 76-star flag has three rows of 8 stars, two rows of 6 stars and the rest are 5-star rows. How many rows of 5 stars are there altogether on the flag?\n### 8",
+  "clean_answer": 8.0,
+  "clean_correct": true,
+  "adv_text": "Native world Essex satisfying ChelA 76-star flag has three rows of 8 stars, two rows of 6 stars and the rest are 5-star rows. How many rows of 5 stars are there altogether on the flag?\n### 10",
+  "adv_answer": 10.0,
+  "adv_correct": false,
+  "attack_success": true,
+  "scores": [
+    5.28125
+  ]
+}

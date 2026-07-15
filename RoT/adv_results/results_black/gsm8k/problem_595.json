@@ -1,0 +1,226 @@
+{
+  "question": "Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+  "ground_truth": "13.0",
+  "best_rewrite": "There are 24 hours in a day. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+  "best_fact": "There are 24 hours in a day.",
+  "baseline_correct": true,
+  "final_eval": {
+    "is_correct": false,
+    "generated_text": "assistant\n### 17 ",
+    "pred_answer": 17.0
+  },
+  "attack_success": true,
+  "num_facts": 30,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 17 ",
+      "pred_answer": 17.0
+    },
+    {
+      "question": "April has 30 days. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 15 ",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "A year has 12 months. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "A week has 7 days. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "A week has 7 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 16 ",
+      "pred_answer": 16.0
+    },
+    {
+      "question": "An hour has 60 minutes. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 20 ",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "A minute has 60 seconds. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "A year has 365 days. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "A year has 365 days.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 11 ",
+      "pred_answer": 11.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "An adult has 32 teeth. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "China has 1.4 billion people. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 12 ",
+      "pred_answer": 12.0
+    },
+    {
+      "question": "Japan has 125 million people. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 125 ",
+      "pred_answer": 125.0
+    },
+    {
+      "question": "The US has 50 states. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "The EU has 27 member states. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 14 ",
+      "pred_answer": 14.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "The human body has 206 bones. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 10 ",
+      "pred_answer": 10.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": false,
+      "generated_text": "assistant\n### 15 ",
+      "pred_answer": 15.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "assistant\n### 13 ",
+      "pred_answer": 13.0
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": "MultiArith",
+  "problem_id": 178,
+  "question": " Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+  "ground_truth": "34.0",
+  "baseline_correct": true,
+  "baseline_answer": 34.0,
+  "best_rewrite": "H2O contains 2 hydrogen atoms.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+  "best_fact": "H2O contains 2 hydrogen atoms.",
+  "best_pred_answer": 6.0,
+  "best_is_correct": false,
+  "attack_success": true,
+  "num_facts": 30,
+  "num_failed": 7,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63 shirts\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "April has 30 days.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "April has 30 days.",
+      "is_correct": false,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 30\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 30 - 29\n= 1\n\nSo, Sam did not wash 1 shirt.\nSo the answer is \\boxed{1",
+      "pred_answer": 1.0
+    },
+    {
+      "question": "A bicycle has 2 wheels.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\n\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "Today is the 3rd of the month.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The current temperature is 20 degrees.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "A year has 12 months.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\n\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "A week has 7 days.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam didn't wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\n\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 63 - 29\n= 34\n\nSo, Sam didn't wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "An hour has 60 minutes.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had to wash.\n\nTotal shirts to wash = 40 (short sleeve) + 23 (long sleeve) = 63\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts to wash - Number of shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "A minute has 60 seconds.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63 shirts\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "A year has 365 days.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63 shirts\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63 shirts\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to first find out how many shirts he washed in total. \n\nHe washed 40 short sleeve shirts and 23 long sleeve shirts, so the total number of shirts washed is 40 + 23 = 63.\n\nSince he had 29 shirts left to wash, we subtract the number of shirts washed from the total number of shirts to find the number of shirts not washed: \n63 - 29 = 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "Water freezes at 0 degrees.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\n\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63 shirts\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The human heart has 4 chambers.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\n\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "An adult has 32 teeth.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": false,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 32\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 32 - 29\n= 3\n\nSo, Sam did not wash 3 shirts.\nSo the answer is \\boxed{3",
+      "pred_answer": 3.0
+    },
+    {
+      "question": "China has 1.4 billion people.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": false,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 1,400,000\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 1,400,000 - 29\n= 1,399,971\n\nSo, Sam did not wash 1,399,971 shirts.\nSo the answer is \\boxed{1,399,971",
+      "pred_answer": 971.0
+    },
+    {
+      "question": "Japan has 125 million people.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "Japan has 125 million people.",
+      "is_correct": false,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 125 million\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 125,000,000 - 29\n= 124,999,971\n\nSo, Sam did not wash 124,999,971 shirts.\nSo the answer is \\boxed{124,999,971",
+      "pred_answer": 971.0
+    },
+    {
+      "question": "The US has 50 states.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The EU has 27 member states.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\n\nNumber of shirts washed = 29\n\nNumber of shirts not washed = Total shirts - Number of shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The Nile is about 6650 km long.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63 shirts\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63 shirts\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "The Pacific covers 165 million km².  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": false,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 165 million km²\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 165,000,000 km² - 29\n= 165,000,000 - 29\n= 165,000,071\n\nSo, Sam did not wash 165,000,071 shirts.\nSo the answer is \\boxed{165,000,071",
+      "pred_answer": 71.0
+    },
+    {
+      "question": "The human body has 206 bones.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to first find out how many shirts he had in total. \n\nHe had 40 short sleeve shirts and 23 long sleeve shirts, so the total number of shirts is 40 + 23 = 63.\n\nSince he washed 29 shirts, the number of shirts he did not wash is 63 - 29 = 34.\n\nThe answer is 34.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": false,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to first find out how many shirts he washed in total. \n\nHe washed 29 shirts, and he had 40 short sleeve shirts and 23 long sleeve shirts. \n\nShort sleeve shirts: 40 - 29 = 11\nLong sleeve shirts: 23\n\nTotal shirts washed: 11 + 23 = 34\n\nSince he had 40 shirts in total, the number of shirts he did not wash is: \n40 - 34 = 6\n\nSo, Sam did not wash 6 shirts.\nSo the answer is \\boxed{6",
+      "pred_answer": 6.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": false,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to first find out how many shirts he washed in total. \n\nHe washed 40 short sleeve shirts and 23 long sleeve shirts. \n\nTotal shirts washed = 40 + 23 = 63\n\nSince oxygen makes up 21% of air, we can find the total number of air molecules in 63 shirts by multiplying the number of shirts by the percentage of oxygen in air.\n\nTotal air molecules = 63 * 0.21 = 13.23\n\nSince air molecules are made up of oxygen, nitrogen, and other gases, we can assume that the number of oxygen molecules is approximately equal to the number of air molecules.\n\nNumber of oxygen molecules = 13.23\n\nNow, we can find the number of oxygen molecules in the 29 shirts that Sam did not wash by multiplying the number of shirts by the percentage of oxygen in air.\n\nNumber of oxygen molecules in un-washed shirts = 29 * 0.21 = 6.09\n\nSince oxygen molecules are a measure of the amount of oxygen in a substance, we can assume that the number of oxygen molecules is approximately equal to the number of oxygen molecules in the un-washed shirts.\n\nNumber of oxygen molecules in un-washed shirts = 6.09\n\nTo find the number of oxygen molecules in the un-washed shirts, we can divide the number of oxygen molecules by Avogadro's number (6.022 x 10^23 molecules/mol).\n\nNumber of oxygen molecules in un-washed shirts = 6.09 / 6.022 x 10^23 ≈ 1.01 x 10^20\n\nThis is the number of oxygen molecules in the un-washed shirts.\nSo the answer is \\boxed{approximately 1.01 x 10^20 oxygen molecules.",
+      "pred_answer": 20.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63 shirts\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "A plant has 46 chromosomes.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63\n\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    },
+    {
+      "question": "Bitcoin was created in 2009.  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find out how many shirts Sam did not wash, we need to subtract the number of shirts he washed from the total number of shirts he had.\n\nTotal shirts = 40 (short sleeve) + 23 (long sleeve) = 63 shirts\nShirts washed = 29\n\nShirts not washed = Total shirts - Shirts washed\n= 63 - 29\n= 34\n\nSo, Sam did not wash 34 shirts.\nSo the answer is \\boxed{34",
+      "pred_answer": 34.0
+    }
+  ]
+}

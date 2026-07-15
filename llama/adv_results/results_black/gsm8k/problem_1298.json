@@ -1,0 +1,227 @@
+{
+  "dataset": "gsm8k",
+  "problem_id": 1298,
+  "question": "Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+  "ground_truth": "31.0",
+  "baseline_correct": true,
+  "baseline_answer": 31.0,
+  "best_rewrite": "An hour has 60 minutes. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+  "best_fact": "An hour has 60 minutes.",
+  "best_pred_answer": 31.0,
+  "best_is_correct": true,
+  "attack_success": false,
+  "num_facts": 30,
+  "num_failed": 0,
+  "all_candidates": [
+    {
+      "question": "There are 24 hours in a day. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "There are 24 hours in a day.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "April has 30 days. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "April has 30 days.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n- 32 quarters = 32 x $0.25 = $8\n- 95 dimes = 95 x $0.10 = $9.50\n- 120 nickels = 120 x $0.05 = $6\n- 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "A bicycle has 2 wheels. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "A bicycle has 2 wheels.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and add them up.\n\n- 32 quarters = 32 x $0.25 = $8\n- 95 dimes = 95 x $0.10 = $9.50\n- 120 nickels = 120 x $0.05 = $6\n- 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add up the values:\n$8 + $9.50 + $6 + $7.50 = $31.00\n\nThe total dollar amount in the jar is $31.00.\nSo the answer is \\boxed{$31.00",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "Today is the 3rd of the month. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "Today is the 3rd of the month.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The current temperature is 20 degrees. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "The current temperature is 20 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and add them up.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add up the values:\n$8 + $9.50 + $6 + $7.50 = $31.00\n\nThe total dollar amount in the jar is $31.00.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.00.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "A year has 12 months. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "A year has 12 months.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "A week has 7 days. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "A week has 7 days.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "An hour has 60 minutes. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "An hour has 60 minutes.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "A minute has 60 seconds. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "A minute has 60 seconds.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 + $6 + $7.50 = $31.00\n\nThe total dollar amount in the jar is $31.00.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.00.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "A year has 365 days. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "A year has 365 days.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 * $0.25 = $8\n2. Dimes: 95 dimes = 95 * $0.10 = $9.50\n3. Nickels: 120 nickels = 120 * $0.05 = $6\n4. Pennies: 750 pennies = 750 * $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The Earth is about 12742 km in diameter. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "The Earth is about 12742 km in diameter.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The speed of sound in air is about 343 meters per second. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "The speed of sound in air is about 343 meters per second.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "Water freezes at 0 degrees. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "Water freezes at 0 degrees.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The speed of light is about 300000 km/s. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "The speed of light is about 300000 km/s.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The human heart has 4 chambers. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "The human heart has 4 chambers.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "An adult has 32 teeth. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "An adult has 32 teeth.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "China has 1.4 billion people. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "China has 1.4 billion people.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "Japan has 125 million people. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "Japan has 125 million people.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n- 32 quarters = 32 x $0.25 = $8\n- 95 dimes = 95 x $0.10 = $9.50\n- 120 nickels = 120 x $0.05 = $6\n- 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The US has 50 states. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "The US has 50 states.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The EU has 27 member states. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "The EU has 27 member states.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The Nile is about 6650 km long. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "The Nile is about 6650 km long.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "Mount Everest is about 8849 meters high. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "Mount Everest is about 8849 meters high.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The Pacific covers 165 million km². Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "The Pacific covers 165 million km².",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "The human body has 206 bones. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "The human body has 206 bones.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "H2O contains 2 hydrogen atoms. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "H2O contains 2 hydrogen atoms.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "Oxygen makes up about 21% of air. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "Oxygen makes up about 21% of air.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "Standard atmospheric pressure is 101325 Pa. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "Standard atmospheric pressure is 101325 Pa.",
+      "is_correct": true,
+      "generated_text": "To find the total amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 * $0.25 = $8\n2. Dimes: 95 dimes = 95 * $0.10 = $9.50\n3. Nickels: 120 nickels = 120 * $0.05 = $6\n4. Pennies: 750 pennies = 750 * $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total amount in the jar is $31.\nSo the answer is \\boxed{The total amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "A plant has 46 chromosomes. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "A plant has 46 chromosomes.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "DNA has 2 strands in its double helix. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "DNA has 2 strands in its double helix.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    },
+    {
+      "question": "Bitcoin was created in 2009. Justin has a jar with many coins in it. The jar has 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What is the total dollar amount in the jar?",
+      "fact": "Bitcoin was created in 2009.",
+      "is_correct": true,
+      "generated_text": "To find the total dollar amount in the jar, we need to calculate the total value of each type of coin and then add them together.\n\n1. Quarters: 32 quarters = 32 x $0.25 = $8\n2. Dimes: 95 dimes = 95 x $0.10 = $9.50\n3. Nickels: 120 nickels = 120 x $0.05 = $6\n4. Pennies: 750 pennies = 750 x $0.01 = $7.50\n\nNow, let's add the values together:\n$8 + $9.50 = $17.50\n$17.50 + $6 = $23.50\n$23.50 + $7.50 = $31\n\nThe total dollar amount in the jar is $31.\nSo the answer is \\boxed{The total dollar amount in the jar is $31.",
+      "pred_answer": 31.0
+    }
+  ]
+}
